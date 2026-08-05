@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-04T03:54:14.724Z",
+  "lastUpdated": "2026-08-05T03:49:56.200Z",
   "fights": [
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Spinning Back Clique: MVP-PFL merger, Medic dominates, Usman's future",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/spinning-back-clique/2026/08/03/spinning-back-clique-mvp-pfl-merger-medic-dominates-usmans-future/91142171007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-03T15:20:30Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Javier Mendez: Ilia Topuria toughest fight for Usman Nurmagomedov in the UFC",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/03/ufc-coach-javier-mendez-opinion-usman-nurmagomedov-toughest-fight-ilia-topuria-free-agent-pfl/91146035007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-03T14:30:27Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Dana White, Khabib Nurmagomedov comment on Usman Nurmagomedov's free agency",
+      "url": "https://www.sherdog.com/news/news/Dana-White-Khabib-Nurmagomedov-comment-on-Usman-Nurmagomedovs-free-agency-202187",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-03T03:58:49Z"
+    },
     {
       "boxerName": "Josh Hokit",
       "headline": "Josh Hokit responds to Jake Paul’s $1 million NFL boxing challenge",
