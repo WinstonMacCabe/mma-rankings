@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-06T03:55:05.301Z",
+  "lastUpdated": "2026-08-07T00:07:21.280Z",
   "fights": [
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Jake Paul tries to coax Khabib Nurmagomedov out of retirement for MVP; Khabib responds",
+      "url": "https://www.mmafighting.com/mvp-mma/503365/jake-paul-tries-to-coax-khabib-nurmagomedov-out-of-retirement-for-mvp-khabib-responds",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-05T19:00:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Analyst predicts Usman Nurmagomedov moves to UFC, won't be 'a lock' to win",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/05/chael-sonnen-usman-nurmagomedov-ufc-pfl-move/91175798007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-05T15:20:25Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Don’t send location! Watch Jake Paul’s feeble attempt to recruit Khabib for MVP MMA",
+      "url": "https://www.mmamania.com/ufc-videos/462582/dont-send-location-watch-jake-pauls-feeble-attempt-recruit-khabib-mvp-mma",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-05T15:03:42Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov bet on himself; now the UFC question begins",
+      "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedov-bet-on-himself-now-the-UFC-question-begins-202227",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-05T06:18:55Z"
+    },
     {
       "boxerName": "Usman Nurmagomedov",
       "headline": "Usman Nurmagomedov to UFC Can’t Happen Just Yet",
