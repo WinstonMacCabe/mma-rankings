@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-07T02:57:46.191Z",
+  "lastUpdated": "2026-08-08T02:02:50.334Z",
   "fights": [
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Alexander Volkanovski expects Movsar Evloev to be next opponent, bout confirmation soon",
+      "url": "https://www.mmafighting.com/ufc/503499/alexander-volkanovski-expects-movsar-evloev-to-be-next-opponent-bout-confirmation-soon",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-06T19:00:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Between The Links | Reaction to Usman Nurmagomedov’s free agency, UFC Belgrade, PFL New York, Noche UFC, and more",
+      "url": "https://www.mmafighting.com/ufc/503403/between-the-links-reaction-to-usman-nurmagomedovs-free-agency-ufc-belgrade-pfl-new-york-noche-ufc-and-more",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-06T15:30:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Demetrious Johnson: UFC should pay Usman Nurmagomedov 'whatever the f*ck he wants'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/06/demetrious-johnson-opinion-ufc-pay-big-free-agent-usman-nurmagomedov-pfl-mvp-jake-paul-dana-white/91193939007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-06T15:20:23Z"
+    },
     {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "Jake Paul tries to coax Khabib Nurmagomedov out of retirement for MVP; Khabib responds",
