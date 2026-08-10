@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-08-10T02:14:53.088Z",
+  "lastUpdated": "2026-08-10T15:46:26.540Z",
   "fights": [
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "The father who built a champion: How Abdulmanap Nurmagomedov shaped Khabib Nurmagomedov’s unbreakable UFC mindset and undefeated fighting legacy",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/the-father-who-built-a-champion-how-abdulmanap-nurmagomedov-shaped-khabib-nurmagomedovs-unbreakable-ufc-mindset-and-undefeated-fighting-legacy/articleshow/133049738.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-08T09:17:05Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Manager calls for matchup between Usman Nurmagomedov and Ilia Topuria",
+      "url": "https://www.mmamania.com/latest-news/462947/ilia-vs-usman-next-ali-abdelaziz-calls-for-matchup-between-usman-nurmagomedov-and-ilia-topuria-theres-already-beef",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-08T00:30:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Mailbag: Is Usman Nurmagomedov destined for the UFC, and if so, who does he fight?",
+      "url": "https://www.mmafighting.com/ufc/503568/mailbag-is-usman-nurmagomedov-destined-for-the-ufc-and-if-so-who-does-he-fight",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-07T19:00:00Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Islam Makhachev chooses Carlos Prates over Michael Morales as next title challenger",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-chooses-Carlos-Prates-over-Michael-Morales-as-next-title-challenger-202262",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-07T04:20:32Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Manager believes Usman Nurmagomedov walks through UFC lightweight contenders, with one exception",
+      "url": "https://www.sherdog.com/news/news/Manager-believes-Usman-Nurmagomedov-walks-through-UFC-lightweight-contenders-with-one-exception-202255",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-07T02:40:50Z"
+    },
     {
       "boxerName": "Movsar Evloev",
       "headline": "Alexander Volkanovski expects Movsar Evloev to be next opponent, bout confirmation soon",
@@ -21,6 +56,27 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/06/demetrious-johnson-opinion-ufc-pay-big-free-agent-usman-nurmagomedov-pfl-mvp-jake-paul-dana-white/91193939007/",
       "source": "USA Today",
       "publishedAt": "2026-08-06T15:20:23Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Alexander Volkanovski already training for the undefeated fighter he expects next",
+      "url": "https://www.sherdog.com/news/news/Alexander-Volkanovski-already-training-for-the-undefeated-fighter-he-expects-next-202243",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-06T04:44:08Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Jean Silva Thinks Movsar Evloev Will Pull Out of 145 lbs Title Fight",
+      "url": "https://heavy.com/sports/ufc/jean-silva-movsar-evloev-pull-out/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-05T23:19:26Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Jean Silva expects to be pulled from Noche UFC 4, fight Alex Volkanovski for featherweight title",
+      "url": "https://www.mmamania.com/upcoming-ufc-events/462646/jean-silva-expects-pulled-noche-ufc-4-fight-alex-volkanovski-featherweight-title",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-05T20:00:05Z"
     },
     {
       "boxerName": "Khabib Nurmagomedov",
@@ -58,6 +114,27 @@
       "publishedAt": "2026-08-05T02:23:35Z"
     },
     {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Islam Makhachev on Michael Morales as UFC 330 Backup Fighter",
+      "url": "https://heavy.com/sports/ufc/islam-makhachev-michael-morales-backup-fighter/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-05T01:42:49Z"
+    },
+    {
+      "boxerName": "Shavkat Rakhmonov",
+      "headline": "Shavkat Rakhmonov injury update: New footage boosts UFC return hopes",
+      "url": "https://www.sherdog.com/news/news/Shavkat-Rakhmonov-injury-update-New-footage-boosts-UFC-return-hopes-202217",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-05T01:19:04Z"
+    },
+    {
+      "boxerName": "Shavkat Rakhmonov",
+      "headline": "Return? Injury-plagued Shavkat Rakhmonov finally back sparring after knee surgery | Video",
+      "url": "https://www.mmamania.com/latest-news/462487/return-injury-plagued-shavkat-rakhmonov-finally-back-sparring-after-knee-surgery-video",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-04T23:37:47Z"
+    },
+    {
       "boxerName": "Usman Nurmagomedov",
       "headline": "Paul Hughes on Usman Nurmagomedov: '100 percent I have the beating of that man'",
       "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/04/pfl-paul-hughes-hopes-usman-nurmagomedov-re-signs-trilogy/91165921007/",
@@ -77,6 +154,13 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/04/ufc-pfl-usman-nurmagomedov-free-agency-update-ali-abdelaziz/91163836007/",
       "source": "USA Today",
       "publishedAt": "2026-08-04T15:22:01Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Top 5 greatest UFC Lightweight champions of all time: Khabib Nurmagomedov leads the ultimate 155-pound rankings",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/top-5-greatest-ufc-lightweight-champions-of-all-time-khabib-nurmagomedov-leads-the-ultimate-155-pound-rankings/articleshow/132862572.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-04T13:44:26Z"
     },
     {
       "boxerName": "Usman Nurmagomedov",
@@ -105,6 +189,27 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/03/ufc-coach-javier-mendez-opinion-usman-nurmagomedov-toughest-fight-ilia-topuria-free-agent-pfl/91146035007/",
       "source": "USA Today",
       "publishedAt": "2026-08-03T14:30:27Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "UFC or PFL? Nurmagomedov to decide future 'very soon'",
+      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cvg0428e0dwo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "source": "BBC News",
+      "publishedAt": "2026-08-03T11:06:51Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "UFC or PFL? Nurmagomedov to decide future 'very soon'",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cvg0428e0dwo",
+      "source": "BBC News",
+      "publishedAt": "2026-08-03T11:06:46Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Islam Makhachev rejects Khabib Retirement path, eyes more UFC wins",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-rejects-Khabib-Retirement-path-eyes-more-UFC-wins-202189",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-03T05:28:13Z"
     },
     {
       "boxerName": "Khabib Nurmagomedov",
@@ -154,6 +259,13 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184822956",
       "source": "Slashdot.org",
       "publishedAt": "2026-08-02T23:32:08Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Michael Morales: Machado Garry has 'zero chance' vs. Makhachev",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/hablemos-mma/2026/08/02/michael-morales-machado-garry-has-zero-chance-vs-makhachev/91140961007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-02T22:00:22Z"
     },
     {
       "boxerName": "Usman Nurmagomedov",
@@ -227,6 +339,13 @@
     },
     {
       "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL New York Results: Usman Nurmagomedov takes out Archie Colgan to retain title",
+      "url": "https://sports.yahoo.com/articles/pfl-york-results-usman-nurmagomedov-071809415.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-01T07:18:09Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
       "headline": "PFL New York: Usman Nurmagomedov bludgeons Archie Colgan in first round - MMA Junkie",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184797468",
       "source": "Slashdot.org",
@@ -248,6 +367,20 @@
     },
     {
       "boxerName": "Usman Nurmagomedov",
+      "headline": "The Sheehan Show: PFL New York -- Usman Nurmagomedov, Dakota Ditcheva and Full Fight Recap",
+      "url": "https://www.sherdog.com/videos/sherdogradio/The-Sheehan-Show-PFL-New-York-Usman-Nurmagomedov-Dakota-Ditcheva-and-Full-Fight-Recap-23626",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-01T02:01:32Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Highlights! Free Agent Nurmagomedov Smashes Colgan In One, Is UFC Next?",
+      "url": "https://www.mmamania.com/professional-fighters-league-pfl/461453/highlights-usman-nurmagomedov-destroys-archie-colgan-via-first-round-knockout-in-final-fight-of-contract-pfl-new-york",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-01T01:28:12Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
       "headline": "PFL New York results: Nurmagomedov vs. Colgan - MMA Fighting",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184795926",
       "source": "Slashdot.org",
@@ -259,6 +392,13 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/07/31/pfl-ny-fighters-react-usman-nurmagomedov-knockout-colgan-free-agency/91129696007/",
       "source": "USA Today",
       "publishedAt": "2026-08-01T01:10:17Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov torches Archie Colgan in the first round at PFL New York.",
+      "url": "https://www.mmafighting.com/pfl/502548/usman-nurmagomedov-torches-archie-colgan-in-the-first-round-at-pfl-new-york",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-01T01:07:48Z"
     },
     {
       "boxerName": "Usman Nurmagomedov",
@@ -283,6 +423,13 @@
     },
     {
       "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL New York live results: Usman Nurmagomedov vs. Archie Colgan updates, round-by-round scoring and highlights",
+      "url": "https://sports.yahoo.com/mma/live/pfl-new-york-live-results-usman-nurmagomedov-vs-archie-colgan-updates-round-by-round-scoring-and-highlights-180016393.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-07-31T18:00:16Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
       "headline": "Archie Colgan plans to find out if Usman Nurmagomedov is really that great or not: ‘July 31, we’ll have those answers’",
       "url": "https://www.mmafighting.com/pfl/502188/archie-colgan-plans-to-find-out-if-usman-nurmagomedov-is-really-that-great-or-not-july-31-well-have-those-answers",
       "source": "MMA Fighting",
@@ -294,6 +441,27 @@
       "url": "https://www.mmafighting.com/pfl/502216/pfl-new-york-results-nurmagomedov-vs-colgan",
       "source": "MMA Fighting",
       "publishedAt": "2026-07-31T11:00:00Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov admits Archie Colgan is Usman Nurmagomedov’s ‘toughest’ test",
+      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-admits-Archie-Colgan-is-Usman-Nurmagomedovs-toughest-test-202152",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-31T02:54:53Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL New York 2026: How to watch Usman Nurmagomedov vs. Archie Colgan",
+      "url": "https://www.sherdog.com/news/articles/PFL-New-York-2026-How-to-watch-Usman-Nurmagomedov-vs-Archie-Colgan-202149",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-31T01:50:31Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Fact Check: Did Cristiano Ronaldo invite Khabib Nurmagomedov and Conor McGregor to his wedding? Here’s what we know",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/fact-check-did-cristiano-ronaldo-invite-khabib-nurmagomedov-and-conor-mcgregor-to-his-wedding-heres-what-we-know/articleshow/132746630.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-07-30T17:22:29Z"
     },
     {
       "boxerName": "Usman Nurmagomedov",
@@ -308,6 +476,125 @@
       "url": "https://www.sherdog.com/news/news/PFL-New-York-weighin-results-Usman-Nurmagomedovs-title-defense-set-202146",
       "source": "Sherdog.com",
       "publishedAt": "2026-07-30T12:20:41Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Who was Khabib Nurmagomedov's father? How Abdulmanap Nurmagomedov's guidance shaped one of UFC's greatest champions",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/who-was-khabib-nurmagomedovs-father-how-abdulmanap-nurmagomedovs-guidance-shaped-one-of-ufcs-greatest-champions/articleshow/132737494.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-07-30T11:03:54Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Michael Morales-UFC 330 rumors on potential fight debunked",
+      "url": "https://www.thebiglead.com/michael-morales-ufc-330-rumors-on-potential-fight-debunked/",
+      "source": "The Big Lead",
+      "publishedAt": "2026-07-30T01:48:34Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Michael Morales headed to UFC 330 for Islam vs. Garry — ‘They brought me in as backup’",
+      "url": "https://www.mmamania.com/ufc-news/460830/michael-morales-headed-ufc-330-for-islam-vs-garry-brought-me-in-backup",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-29T14:01:48Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL New York: Make predictions for Usman Nurmagomedov vs. Archie Colgan",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/07/27/pfl-new-york-usman-nurmagomedov-vs-archie-colgan-lightweight-title-reader-predictions-picks/91065527007/",
+      "source": "USA Today",
+      "publishedAt": "2026-07-27T17:50:24Z"
+    },
+    {
+      "boxerName": "Nurullo Aliev",
+      "headline": "Mike Davis apologizes to Nurullo Aliev after UFC Abu Dhabi outburst",
+      "url": "https://www.sherdog.com/news/news/Mike-Davis-apologizes-to-Nurullo-Aliev-after-UFC-Abu-Dhabi-outburst-202080",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-27T03:15:09Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov criticizes Magomed Zaynukov despite UFC debut win",
+      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-criticizes-Magomed-Zaynukov-despite-UFC-debut-win-202079",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-27T02:51:05Z"
+    },
+    {
+      "boxerName": "Nurullo Aliev",
+      "headline": "Mike Davis: Nurullo Aliev did zero damage, 'worst fighter I've ever fought'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/25/mike-davis-rips-alievs-wrestling-game-plan-i-just-want-to-bang/91048592007/",
+      "source": "USA Today",
+      "publishedAt": "2026-07-26T00:20:20Z"
+    },
+    {
+      "boxerName": "Nurullo Aliev",
+      "headline": "Mike Davis Trashes Nurullo Aliev Following UFC Abu Dhabi Loss",
+      "url": "https://heavy.com/sports/ufc/mike-davis-trashes-nurullo-aliev-loss/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-07-25T22:10:21Z"
+    },
+    {
+      "boxerName": "Nurullo Aliev",
+      "headline": "Video! Mike Davis Throws Post-Fight Temper Tantrum After UFC Abu Dhabi Loss",
+      "url": "https://www.mmamania.com/latest-news/459978/video-ufc-abu-dhabi-sore-loser-mike-davis-throws-post-fight-temper-tantrum-i-thought-ufc-were-cutting-wrestlers-results-paramount-aliev",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-25T22:00:00Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Brady Tkachuk Joins MMA Champions For Training Session While Preparing For First Season With Florida Panthers",
+      "url": "https://thehockeynews.com/nhl/florida-panthers/latest-news/brady-tkachuk-joins-mma-champions-for-training-session-while-preparing-for-first-season-with-florida-panthers",
+      "source": "The Hockey News",
+      "publishedAt": "2026-07-25T16:10:26Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Nurmagomedov vs. Colgan Start Time. Full Fight Card",
+      "url": "https://www.mmamania.com/professional-fighters-league-pfl/457386/pfl-new-york-full-fight-card-espn-start-time-nurmagomedov-vs-colgan",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-22T21:15:00Z"
+    },
+    {
+      "boxerName": "Razhabali Shaydullaev",
+      "headline": "A.J. McKee books PFL vs. RIZIN champ-champ fight",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/07/20/pfl-rizin-champ-champ-fight-booking-aj-mckee-vs-razhabali-shaydullaev/90981588007/",
+      "source": "USA Today",
+      "publishedAt": "2026-07-20T15:25:58Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov drops a strong hint about the team he's supporting in the FIFA World Cup 2026 finals",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedov-drops-a-strong-hint-about-the-team-hes-supporting-in-the-fifa-world-cup-2026-finals/articleshow/132474908.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-07-18T06:31:12Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "The story behind Khabib Nurmagomedov's legendary gas tank",
+      "url": "https://www.sherdog.com/news/news/The-story-behind-Khabib-Nurmagomedovs-legendary-gas-tank-201921",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-16T03:08:57Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov thinks Ian Garry could make life miserable for Islam Makhachev",
+      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-thinks-Ian-Garry-could-make-life-miserable-for-Islam-Makhachev-201898",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-15T03:09:10Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib declares Usman Nurmagomedov wouldn’t have reached the UFC at 21",
+      "url": "https://www.sherdog.com/news/news/Khabib-declares-Usman-Nurmagomedov-wouldnt-have-reached-the-UFC-at-21-201902",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-15T03:02:12Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Khabib claims Usman Nurmagomedov wouldn’t have reached the UFC at 21",
+      "url": "https://www.sherdog.com/news/news/Khabib-claims-Usman-Nurmagomedov-wouldnt-have-reached-the-UFC-at-21-201902",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-15T03:02:12Z"
     }
   ]
 }
