@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-10T15:46:26.540Z",
+  "lastUpdated": "2026-08-11T20:52:06.992Z",
   "fights": [
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov and Conor McGregor feud: Daniel Cormier explains why they could never make peace like Jon Jones",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedov-and-conor-mcgregor-feud-daniel-cormier-explains-why-they-could-never-make-peace-like-jon-jones/articleshow/133136287.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-10T20:27:11Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Michael Morales weighs an astonishing amount less than a week out from backup role for UFC 330",
+      "url": "https://www.mmafighting.com/ufc/504150/michael-morales-weighs-an-astonishing-amount-less-than-a-week-out-from-backup-role-for-ufc-330",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-10T18:00:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "‘Ilia Topuria would f*cking annihilate 100% of your roster’: Manager fires back at rival - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184917712",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-10T08:52:21Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Jake Paul vs. Josh Hokit: $1M Boxing Challenge Explained",
+      "url": "https://www.complex.com/sports/a/bernadette-giacomazzo/jake-paul-josh-hokit-1m-boxing-deal",
+      "source": "Complex",
+      "publishedAt": "2026-08-09T14:30:33Z"
+    },
     {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "The father who built a champion: How Abdulmanap Nurmagomedov shaped Khabib Nurmagomedov’s unbreakable UFC mindset and undefeated fighting legacy",
@@ -100,6 +128,13 @@
       "publishedAt": "2026-08-05T15:03:42Z"
     },
     {
+      "boxerName": "Josh Hokit",
+      "headline": "Jake Paul Promises to HUMILATE Undefeated UFC Heavyweight Josh Hokit in the Ring!",
+      "url": "https://mediatakeout.com/jake-paul-promises-to-humilate-undefeated-ufc-heavyweight-josh-hokit-in-the-ring/",
+      "source": "Mediatakeout.com",
+      "publishedAt": "2026-08-05T11:56:03Z"
+    },
+    {
       "boxerName": "Usman Nurmagomedov",
       "headline": "Usman Nurmagomedov bet on himself; now the UFC question begins",
       "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedov-bet-on-himself-now-the-UFC-question-begins-202227",
@@ -170,6 +205,13 @@
       "publishedAt": "2026-08-04T12:30:00Z"
     },
     {
+      "boxerName": "Josh Hokit",
+      "headline": "Donald Trump’s UFC event confirmed to be a massive financial disaster",
+      "url": "https://thecomeback.com/ufc/donald-trump-white-house-event-disaster-for-the-ufc.html",
+      "source": "The Comeback",
+      "publishedAt": "2026-08-04T11:28:46Z"
+    },
+    {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "‘We Stay Here Many More Years’",
       "url": "https://www.mmamania.com/ufc-news/462375/islam-makhachev-denies-retirement-rumors-leading-into-ufc-330-were-staying-here-for-more-years",
@@ -231,6 +273,13 @@
       "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedovs-manager-makes-bold-Ilia-Topuria-fight-prediction-202182",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-03T02:37:08Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "UFC’s Josh Hokit Accepts Jake Paul’s $1 Million Boxing Offer",
+      "url": "https://brobible.com/sports/article/ufcs-josh-hokit-accepts-jake-pauls-1-million-boxing-offer/",
+      "source": "BroBible",
+      "publishedAt": "2026-08-03T02:06:41Z"
     },
     {
       "boxerName": "Khabib Nurmagomedov",
@@ -548,11 +597,60 @@
       "publishedAt": "2026-07-25T16:10:26Z"
     },
     {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit blames ‘Hokit curse’ for Ryan Clark’s ESPN departure",
+      "url": "https://www.sherdog.com/news/news/Josh-Hokit-blames-Hokit-curse-for-Ryan-Clarks-ESPN-departure-202039",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-23T06:31:41Z"
+    },
+    {
       "boxerName": "Usman Nurmagomedov",
       "headline": "Nurmagomedov vs. Colgan Start Time. Full Fight Card",
       "url": "https://www.mmamania.com/professional-fighters-league-pfl/457386/pfl-new-york-full-fight-card-espn-start-time-nurmagomedov-vs-colgan",
       "source": "MMA Mania",
       "publishedAt": "2026-07-22T21:15:00Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Dana White calls out Josh Hokit for 'gross' Michelle Obama comment after UFC White House card win",
+      "url": "https://www.sportingnews.com/us/mma/news/dana-white-calls-out-josh-hokit-gross-michelle-obama-comment-ufc/9629f54e799c63416fe28fcb",
+      "source": "Sporting News",
+      "publishedAt": "2026-07-22T21:00:33Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Dana White rips Josh Hokit for Michelle Obama insult at White House: 'Gross, inappropriate'",
+      "url": "https://www.cbssports.com/ufc/news/dana-white-josh-hokit-michelle-obama-insult-white-house/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-07-22T16:16:39Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Dana White Rips Josh Hokit Again Over ‘Michelle Obama Is A Man’ Comment At UFC White House Event",
+      "url": "https://brobible.com/sports/article/dana-white-josh-hokit-michelle-obama-again/",
+      "source": "BroBible",
+      "publishedAt": "2026-07-22T14:51:10Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Dana White Slams “Moronic” Josh Hokit for Offensive Michelle Obama White House Outburst!",
+      "url": "https://mediatakeout.com/dana-white-slams-moronic-josh-hokit-for-offensive-michelle-obama-white-house-outburst/",
+      "source": "Mediatakeout.com",
+      "publishedAt": "2026-07-22T12:03:01Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Valter Walker isn't buying the Josh Hokit or Gable Steveson hype",
+      "url": "https://www.sherdog.com/news/news/Valter-Walker-isnt-buying-the-Josh-Hokit-or-Gable-Steveson-hype-202018",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-22T04:13:59Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Valter Walker not scared of ‘small’ Josh Hokit, unimpressed by Gable Steveson’s UFC debut: ‘I’ll take all of them’",
+      "url": "https://www.mmafighting.com/ufc/500440/valter-walker-not-scared-of-small-josh-hokit-unimpressed-by-gable-stevesons-ufc-debut-ill-take-all-of-them",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-07-21T17:00:00Z"
     },
     {
       "boxerName": "Razhabali Shaydullaev",
@@ -569,6 +667,13 @@
       "publishedAt": "2026-07-18T06:31:12Z"
     },
     {
+      "boxerName": "Josh Hokit",
+      "headline": "J.D. Vance Dismisses Fury Over UFC Fighter Calling Michelle Obama a 'Man' During White House Bash: 'The Reaction Was Totally Disproportionate'",
+      "url": "https://radaronline.com/p/jd-vance-dismisses-fury-ufc-fighter-calling-michelle-obama-joe-rogan/",
+      "source": "Radaronline.com",
+      "publishedAt": "2026-07-16T21:01:16Z"
+    },
+    {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "The story behind Khabib Nurmagomedov's legendary gas tank",
       "url": "https://www.sherdog.com/news/news/The-story-behind-Khabib-Nurmagomedovs-legendary-gas-tank-201921",
@@ -583,7 +688,7 @@
       "publishedAt": "2026-07-15T03:09:10Z"
     },
     {
-      "boxerName": "Khabib Nurmagomedov",
+      "boxerName": "Usman Nurmagomedov",
       "headline": "Khabib declares Usman Nurmagomedov wouldn’t have reached the UFC at 21",
       "url": "https://www.sherdog.com/news/news/Khabib-declares-Usman-Nurmagomedov-wouldnt-have-reached-the-UFC-at-21-201902",
       "source": "Sherdog.com",
@@ -595,6 +700,27 @@
       "url": "https://www.sherdog.com/news/news/Khabib-claims-Usman-Nurmagomedov-wouldnt-have-reached-the-UFC-at-21-201902",
       "source": "Sherdog.com",
       "publishedAt": "2026-07-15T03:02:12Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "The Lord Is My MMA Coach",
+      "url": "https://www.motherjones.com/politics/2026/07/evangelical-leaders-jesus-christ-ultimate-fighting-machine-the-lord-is-my-mma-coach/",
+      "source": "Mother Jones",
+      "publishedAt": "2026-07-14T11:00:00Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Gable Steveson fires back at Josh Hokit's threats following UFC 329",
+      "url": "https://www.sherdog.com/news/news/Gable-Steveson-fires-back-at-Josh-Hokits-threats-following-UFC-329-201875",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-13T05:14:44Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit accuses Paddy Pimblett of being ‘two-faced’ after UFC 329",
+      "url": "https://www.sherdog.com/news/news/Josh-Hokit-accuses-Paddy-Pimblett-of-being-twofaced-after-UFC-329-201871",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-13T04:08:30Z"
     }
   ]
 }
