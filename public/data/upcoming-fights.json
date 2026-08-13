@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-08-12T02:27:07.987Z",
+  "lastUpdated": "2026-08-13T02:30:24.948Z",
   "fights": [
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Jamahal Hill wants Josh Hokit for UFC heavyweight debut",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/11/ufc-jamahal-hill-callout-josh-hokit-heavyweight-debut/91264189007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-11T23:40:17Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Daniel Cormier calls out Usman Nurmagomedov's manager for 'absolutely crazy' claim",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/11/ufc-daniel-cormier-ali-abdelaziz-absolutely-crazy-usman-nurmagomedov-claim/91255225007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-11T22:50:41Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov’s cousin Usman Nurmagomedov’s UFC move soon on cards? Manager reveals major PFL contract twist",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedovs-cousin-usman-nurmagomedovs-ufc-move-soon-on-cards-manager-reveals-major-pfl-contract-twist/articleshow/133154005.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-11T12:34:07Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Former UFC champ-champ taps the brakes on Usman Nurmagomedov hype",
+      "url": "https://www.sherdog.com/news/news/Former-UFC-champchamp-taps-the-brakes-on-Usman-Nurmagomedov-hype-202315",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-11T07:09:54Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Massive Morales Still Facing 20+ Pound Cut",
+      "url": "https://www.mmamania.com/latest-news/463861/michael-morales-reveals-shocking-23-pound-cut-just-days-before-ufc-330-weigh-in",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-11T07:00:00Z"
+    },
     {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "Khabib Nurmagomedov and Conor McGregor feud: Daniel Cormier explains why they could never make peace like Jon Jones",
@@ -707,20 +742,6 @@
       "url": "https://www.motherjones.com/politics/2026/07/evangelical-leaders-jesus-christ-ultimate-fighting-machine-the-lord-is-my-mma-coach/",
       "source": "Mother Jones",
       "publishedAt": "2026-07-14T11:00:00Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Gable Steveson fires back at Josh Hokit's threats following UFC 329",
-      "url": "https://www.sherdog.com/news/news/Gable-Steveson-fires-back-at-Josh-Hokits-threats-following-UFC-329-201875",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-13T05:14:44Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Josh Hokit accuses Paddy Pimblett of being ‘two-faced’ after UFC 329",
-      "url": "https://www.sherdog.com/news/news/Josh-Hokit-accuses-Paddy-Pimblett-of-being-twofaced-after-UFC-329-201871",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-13T04:08:30Z"
     }
   ]
 }
