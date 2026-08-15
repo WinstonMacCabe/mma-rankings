@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-14T02:28:06.021Z",
+  "lastUpdated": "2026-08-15T01:40:27.326Z",
   "fights": [
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "UFC 330 'Embedded,' No. 4: 'Philly cheesecake or cheesesteak?'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-embedded-no-4-philly-cheesecake-cheesesteak/91290065007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-13T18:32:29Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib On JRE Is ‘Inevitable’",
+      "url": "https://www.mmamania.com/latest-news/464200/khabib-appearing-on-joe-rogans-podcast-is-inevitable-hes-the-best",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-13T07:00:00Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov credits Dana White’s ‘cold-blooded’ UFC approach",
+      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-credits-Dana-Whites-coldblooded-UFC-approach-202344",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-13T03:46:06Z"
+    },
     {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "Joe Rogan Believes Islam Makhachev Could Retire After UFC 330",
@@ -763,27 +784,6 @@
       "url": "https://www.sherdog.com/news/news/The-story-behind-Khabib-Nurmagomedovs-legendary-gas-tank-201921",
       "source": "Sherdog.com",
       "publishedAt": "2026-07-16T03:08:57Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "Khabib Nurmagomedov thinks Ian Garry could make life miserable for Islam Makhachev",
-      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-thinks-Ian-Garry-could-make-life-miserable-for-Islam-Makhachev-201898",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-15T03:09:10Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Khabib declares Usman Nurmagomedov wouldn’t have reached the UFC at 21",
-      "url": "https://www.sherdog.com/news/news/Khabib-declares-Usman-Nurmagomedov-wouldnt-have-reached-the-UFC-at-21-201902",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-15T03:02:12Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Khabib claims Usman Nurmagomedov wouldn’t have reached the UFC at 21",
-      "url": "https://www.sherdog.com/news/news/Khabib-claims-Usman-Nurmagomedov-wouldnt-have-reached-the-UFC-at-21-201902",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-15T03:02:12Z"
     }
   ]
 }
