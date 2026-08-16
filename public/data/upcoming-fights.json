@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-15T01:40:27.326Z",
+  "lastUpdated": "2026-08-16T01:46:04.180Z",
   "fights": [
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Dana White: Khabib Nurmagomedov could have been GOAT if he fought longer",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-dana-white-opinion-khabib-nurmagomedov-could-have-been-mma-goat-did-not-fight-long-enough-retire/91300524007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-14T21:10:20Z"
+    },
     {
       "boxerName": "Khabib Nurmagomedov",
       "headline": "UFC 330 'Embedded,' No. 4: 'Philly cheesecake or cheesesteak?'",
@@ -770,20 +777,6 @@
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedov-drops-a-strong-hint-about-the-team-hes-supporting-in-the-fifa-world-cup-2026-finals/articleshow/132474908.cms",
       "source": "The Times of India",
       "publishedAt": "2026-07-18T06:31:12Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "J.D. Vance Dismisses Fury Over UFC Fighter Calling Michelle Obama a 'Man' During White House Bash: 'The Reaction Was Totally Disproportionate'",
-      "url": "https://radaronline.com/p/jd-vance-dismisses-fury-ufc-fighter-calling-michelle-obama-joe-rogan/",
-      "source": "Radaronline.com",
-      "publishedAt": "2026-07-16T21:01:16Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "The story behind Khabib Nurmagomedov's legendary gas tank",
-      "url": "https://www.sherdog.com/news/news/The-story-behind-Khabib-Nurmagomedovs-legendary-gas-tank-201921",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-16T03:08:57Z"
     }
   ]
 }
