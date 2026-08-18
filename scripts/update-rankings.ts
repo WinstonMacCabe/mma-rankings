@@ -157,10 +157,21 @@ async function main() {
     }
   }
 
-  await writeRankings(ranked, worstRanked, filtered)
+  // Secondary worst: same pool, sorted ascending (lowest scores first)
+  const allFiltered = allWithWins.filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0)
+  const secondaryWorstRanked: BoxerRecord[] = []
+  for (const f of allFiltered.sort((a, b) => (a.secondaryScore ?? 0) - (b.secondaryScore ?? 0))) {
+    if (secondaryWorstRanked.length >= 50) break
+    const width = sizeMap.get(f.imageUrl!) ?? 999
+    if (width >= MIN_IMAGE_WIDTH) {
+      secondaryWorstRanked.push(f)
+    }
+  }
+
+  await writeRankings(ranked, worstRanked, filtered, secondaryWorstRanked)
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
-  console.log(`\nDone! ${ranked.length} undefeated, ${worstRanked.length} winless, ${filtered.length} secondary fighters ranked.`)
+  console.log(`\nDone! ${ranked.length} undefeated, ${worstRanked.length} winless, ${filtered.length} secondary, ${secondaryWorstRanked.length} secondary worst fighters ranked.`)
   console.log(`Total time: ${elapsed}s`)
   if (ranked.length > 0) {
     console.log(`Top 10 best: ${ranked.slice(0, 10).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)
