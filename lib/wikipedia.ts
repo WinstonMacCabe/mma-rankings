@@ -448,3 +448,46 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
 
   return results
 }
+
+export async function checkImageSizes(imageUrls: string[]): Promise<Map<string, number>> {
+  const sizeMap = new Map<string, number>()
+  if (imageUrls.length === 0) return sizeMap
+
+  for (let i = 0; i < imageUrls.length; i += 50) {
+    const batch = imageUrls.slice(i, i + 50)
+    const fileTitles = batch.map(url => {
+      const match = url.match(/Special:FilePath\/(.+)$/)
+      return match ? `File:${decodeURIComponent(match[1]).replace(/_/g, ' ')}` : null
+    }).filter(Boolean) as string[]
+
+    if (fileTitles.length === 0) continue
+
+    const params = new URLSearchParams({
+      action: 'query',
+      prop: 'imageinfo',
+      iiprop: 'size',
+      titles: fileTitles.join('|'),
+      format: 'json',
+      origin: '*',
+    })
+
+    const url = `${API_URL}?${params.toString()}`
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
+      if (!res.ok) continue
+      const data = await res.json() as any
+      const pages = data?.query?.pages ?? {}
+
+      for (const [, page] of Object.entries(pages) as any[]) {
+        const info = page?.imageinfo?.[0]
+        if (info && info.width) {
+          sizeMap.set(page.title, info.width)
+        }
+      }
+    } catch { }
+
+    await new Promise(r => setTimeout(r, 200))
+  }
+
+  return sizeMap
+}
