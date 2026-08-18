@@ -455,9 +455,13 @@ export async function checkImageSizes(imageUrls: string[]): Promise<Map<string, 
 
   for (let i = 0; i < imageUrls.length; i += 50) {
     const batch = imageUrls.slice(i, i + 50)
+    const titleToUrl = new Map<string, string>()
     const fileTitles = batch.map(url => {
       const match = url.match(/Special:FilePath\/(.+)$/)
-      return match ? `File:${decodeURIComponent(match[1]).replace(/_/g, ' ')}` : null
+      if (!match) return null
+      const title = `File:${decodeURIComponent(match[1]).replace(/_/g, ' ')}`
+      titleToUrl.set(title, url)
+      return title
     }).filter(Boolean) as string[]
 
     if (fileTitles.length === 0) continue
@@ -481,7 +485,10 @@ export async function checkImageSizes(imageUrls: string[]): Promise<Map<string, 
       for (const [, page] of Object.entries(pages) as any[]) {
         const info = page?.imageinfo?.[0]
         if (info && info.width) {
-          sizeMap.set(page.title, info.width)
+          const originalUrl = titleToUrl.get(page.title)
+          if (originalUrl) {
+            sizeMap.set(originalUrl, info.width)
+          }
         }
       }
     } catch { }
