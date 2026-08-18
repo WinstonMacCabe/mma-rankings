@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T01:43:54.658Z",
+  "lastUpdated": "2026-08-18T01:38:51.721Z",
   "fighters": [
     {
       "name": "Khabib Nurmagomedov",
@@ -13,7 +13,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khabib_nurmagomedov.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
-      "lastUpdated": "2026-08-17T01:43:45.609Z",
+      "lastUpdated": "2026-08-18T01:38:42.890Z",
       "previousRank": 1
     },
     {
@@ -28,7 +28,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UsmanNurmagomedov.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Usman_Nurmagomedov",
-      "lastUpdated": "2026-08-17T01:43:45.609Z",
+      "lastUpdated": "2026-08-18T01:38:42.890Z",
       "previousRank": 2
     },
     {
@@ -43,7 +43,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Movsar_Evloev_M-1_Challenge_2018.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Movsar_Evloev",
-      "lastUpdated": "2026-08-17T01:43:44.847Z",
+      "lastUpdated": "2026-08-18T01:38:42.176Z",
       "previousRank": 3
     },
     {
@@ -58,7 +58,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Morales_(fighter)",
-      "lastUpdated": "2026-08-17T01:43:34.883Z",
+      "lastUpdated": "2026-08-18T01:38:32.800Z",
       "previousRank": 4
     },
     {
@@ -73,7 +73,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Shavkat_Rakhmonov_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Shavkat_Rakhmonov",
-      "lastUpdated": "2026-08-17T01:43:41.344Z",
+      "lastUpdated": "2026-08-18T01:38:39.067Z",
       "previousRank": 5
     },
     {
@@ -88,7 +88,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Razhabali_Shaidulloev.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Razhabali_Shaydullaev",
-      "lastUpdated": "2026-08-17T01:43:41.344Z",
+      "lastUpdated": "2026-08-18T01:38:39.068Z",
       "previousRank": 6
     },
     {
@@ -103,7 +103,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%83_%D0%9C%D1%83%D1%85%D0%B0%D0%BC%D0%BC%D0%B0%D0%B4_%D0%9C%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%D0%9B%D0%AE%D0%94%D0%98_%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%90_1-20.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Muhammad_Mokaev",
-      "lastUpdated": "2026-08-17T01:43:30.409Z",
+      "lastUpdated": "2026-08-18T01:38:28.591Z",
       "previousRank": 7
     },
     {
@@ -118,7 +118,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jakub_Kaszuba.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Jakub_Kaszuba_(fighter)",
-      "lastUpdated": "2026-08-17T01:43:43.407Z",
+      "lastUpdated": "2026-08-18T01:38:40.895Z",
       "previousRank": 8
     },
     {
@@ -133,7 +133,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nurullo_Aliev.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nurullo_Aliev",
-      "lastUpdated": "2026-08-17T01:43:47.720Z",
+      "lastUpdated": "2026-08-18T01:38:44.912Z",
       "previousRank": 9
     },
     {
@@ -148,7 +148,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/rickson_gracie_20080608.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Rickson_Gracie",
-      "lastUpdated": "2026-08-17T01:43:26.607Z",
+      "lastUpdated": "2026-08-18T01:38:25.052Z",
       "previousRank": 10
     },
     {
@@ -163,7 +163,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Josh_Hokit",
-      "lastUpdated": "2026-08-17T01:43:12.149Z",
+      "lastUpdated": "2026-08-18T01:38:11.195Z",
       "previousRank": 11
     }
   ]
