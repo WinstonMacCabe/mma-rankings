@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T18:39:23.015Z",
+  "lastUpdated": "2026-08-18T21:09:06.087Z",
   "fighters": [
     {
       "name": "Khabib Nurmagomedov",
@@ -13,7 +13,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khabib_nurmagomedov.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
-      "lastUpdated": "2026-08-18T18:39:14.835Z",
+      "lastUpdated": "2026-08-18T21:08:54.975Z",
       "previousRank": 1
     },
     {
@@ -28,7 +28,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UsmanNurmagomedov.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Usman_Nurmagomedov",
-      "lastUpdated": "2026-08-18T18:39:14.835Z",
+      "lastUpdated": "2026-08-18T21:08:54.975Z",
       "previousRank": 2
     },
     {
@@ -43,7 +43,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Movsar_Evloev_M-1_Challenge_2018.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Movsar_Evloev",
-      "lastUpdated": "2026-08-18T18:39:14.092Z",
+      "lastUpdated": "2026-08-18T21:08:54.089Z",
       "previousRank": 3
     },
     {
@@ -58,7 +58,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Morales_(fighter)",
-      "lastUpdated": "2026-08-18T18:39:05.122Z",
+      "lastUpdated": "2026-08-18T21:08:41.598Z",
       "previousRank": 4
     },
     {
@@ -73,7 +73,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Shavkat_Rakhmonov_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Shavkat_Rakhmonov",
-      "lastUpdated": "2026-08-18T18:39:11.010Z",
+      "lastUpdated": "2026-08-18T21:08:49.834Z",
       "previousRank": 5
     },
     {
@@ -88,7 +88,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Razhabali_Shaidulloev.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Razhabali_Shaydullaev",
-      "lastUpdated": "2026-08-18T18:39:11.010Z",
+      "lastUpdated": "2026-08-18T21:08:49.834Z",
       "previousRank": 6
     },
     {
@@ -103,8 +103,22 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%83_%D0%9C%D1%83%D1%85%D0%B0%D0%BC%D0%BC%D0%B0%D0%B4_%D0%9C%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%D0%9B%D0%AE%D0%94%D0%98_%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%90_1-20.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Muhammad_Mokaev",
-      "lastUpdated": "2026-08-18T18:38:41.108Z",
+      "lastUpdated": "2026-08-18T21:08:36.463Z",
       "previousRank": 7
+    },
+    {
+      "name": "Dakota Ditcheva",
+      "total": 16,
+      "wins": 16,
+      "kos": 12,
+      "losses": 0,
+      "draws": 0,
+      "nationality": "England",
+      "weightClass": "Flyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Med_1.png",
+      "gender": "female",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dakota_Ditcheva",
+      "lastUpdated": "2026-08-18T21:09:02.769Z"
     },
     {
       "name": "Jakub Kaszuba (fighter)",
@@ -118,7 +132,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jakub_Kaszuba.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Jakub_Kaszuba_(fighter)",
-      "lastUpdated": "2026-08-18T18:39:12.850Z",
+      "lastUpdated": "2026-08-18T21:08:52.326Z",
       "previousRank": 8
     },
     {
@@ -133,8 +147,22 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nurullo_Aliev.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nurullo_Aliev",
-      "lastUpdated": "2026-08-18T18:39:16.676Z",
+      "lastUpdated": "2026-08-18T21:08:57.595Z",
       "previousRank": 9
+    },
+    {
+      "name": "Khasan Magomedsharipov",
+      "total": 11,
+      "wins": 11,
+      "kos": 3,
+      "losses": 0,
+      "draws": 0,
+      "nationality": "Russia",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Med_1.png",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Khasan_Magomedsharipov",
+      "lastUpdated": "2026-08-18T21:08:54.975Z"
     },
     {
       "name": "Rickson Gracie",
@@ -148,7 +176,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/rickson_gracie_20080608.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Rickson_Gracie",
-      "lastUpdated": "2026-08-18T18:38:37.870Z",
+      "lastUpdated": "2026-08-18T21:08:32.284Z",
       "previousRank": 10
     },
     {
@@ -163,7 +191,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Josh_Hokit",
-      "lastUpdated": "2026-08-18T18:38:24.887Z",
+      "lastUpdated": "2026-08-18T21:08:14.647Z",
       "previousRank": 11
     }
   ],
@@ -180,7 +208,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khabib_nurmagomedov.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 6.734591659972948
     },
     {
@@ -195,7 +223,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UsmanNurmagomedov.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Usman_Nurmagomedov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 6.182084906716632
     },
     {
@@ -210,7 +238,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Movsar_Evloev_M-1_Challenge_2018.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Movsar_Evloev",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 5.991464547107982
     },
     {
@@ -225,7 +253,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Morales_(fighter)",
-      "lastUpdated": "2026-08-18T18:39:23.011Z",
+      "lastUpdated": "2026-08-18T21:09:06.080Z",
       "secondaryScore": 5.8888779583328805
     },
     {
@@ -240,7 +268,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Shavkat_Rakhmonov_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Shavkat_Rakhmonov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.080Z",
       "secondaryScore": 5.8888779583328805
     },
     {
@@ -255,7 +283,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Razhabali_Shaidulloev.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Razhabali_Shaydullaev",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.080Z",
       "secondaryScore": 5.8888779583328805
     },
     {
@@ -270,7 +298,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%83_%D0%9C%D1%83%D1%85%D0%B0%D0%BC%D0%BC%D0%B0%D0%B4_%D0%9C%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%D0%9B%D0%AE%D0%94%D0%98_%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%90_1-20.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Muhammad_Mokaev",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
       "secondaryScore": 5.666426688112432
     },
     {
@@ -285,7 +313,22 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jakub_Kaszuba.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Jakub_Kaszuba_(fighter)",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
+      "secondaryScore": 5.545177444479562
+    },
+    {
+      "name": "Dakota Ditcheva",
+      "total": 16,
+      "wins": 16,
+      "kos": 12,
+      "losses": 0,
+      "draws": 0,
+      "nationality": "England",
+      "weightClass": "Flyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Med_1.png",
+      "gender": "female",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dakota_Ditcheva",
+      "lastUpdated": "2026-08-18T21:09:06.082Z",
       "secondaryScore": 5.545177444479562
     },
     {
@@ -300,7 +343,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Islam_Makhachev_and_Sergey_Melikov_2025_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Islam_Makhachev",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 5.035625260248766
     },
     {
@@ -315,7 +358,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nurullo_Aliev.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nurullo_Aliev",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.969813299576001
     },
     {
@@ -330,7 +373,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jon_Jones_-_Supporting_Brain_Health_Study.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Jon_Jones",
-      "lastUpdated": "2026-08-18T18:39:23.008Z",
+      "lastUpdated": "2026-08-18T21:09:06.077Z",
       "secondaryScore": 4.9666323887618145
     },
     {
@@ -345,7 +388,22 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/rickson_gracie_20080608.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Rickson_Gracie",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
+      "secondaryScore": 4.795790545596741
+    },
+    {
+      "name": "Khasan Magomedsharipov",
+      "total": 11,
+      "wins": 11,
+      "kos": 3,
+      "losses": 0,
+      "draws": 0,
+      "nationality": "Russia",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Med_1.png",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Khasan_Magomedsharipov",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.795790545596741
     },
     {
@@ -360,7 +418,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Josh_Hokit",
-      "lastUpdated": "2026-08-18T18:39:23.008Z",
+      "lastUpdated": "2026-08-18T21:09:06.077Z",
       "secondaryScore": 4.605170185988092
     },
     {
@@ -375,7 +433,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/PatrickHabiroraNov2022.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Patrick_Habirora",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
       "secondaryScore": 4.394449154672439
     },
     {
@@ -390,7 +448,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%B0%D0%B9%D0%BD%D1%83%D0%BA%D0%BE%D0%B2_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D0%B4_%D0%91%D0%B5%D0%BA%D1%88%D0%B8%D0%B5%D0%B2%D0%B8%D1%87.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Magomed_Zaynukov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.394449154672439
     },
     {
@@ -405,7 +463,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gabriel_Bonfim_2025.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Gabriel_Bonfim",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
       "secondaryScore": 4.30738675987755
     },
     {
@@ -420,7 +478,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UmarNurmagomedov.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Umar_Nurmagomedov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.30738675987755
     },
     {
@@ -435,7 +493,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg",
       "gender": "female",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Kayla_Harrison",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.207303301320568
     },
     {
@@ -449,8 +507,38 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Phil_Cardella-Gi.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Phil_Cardella",
-      "lastUpdated": "2026-08-18T18:39:23.008Z",
+      "lastUpdated": "2026-08-18T21:09:06.076Z",
       "secondaryScore": 4.1588830833596715
+    },
+    {
+      "name": "Shamil Musaev (fighter)",
+      "total": 20,
+      "wins": 18,
+      "kos": 12,
+      "losses": 1,
+      "draws": 1,
+      "nationality": "Russia",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Generic_belt_icon.svg",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shamil_Musaev_(fighter)",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
+      "secondaryScore": 4.153236080050292
+    },
+    {
+      "name": "Johnny Eblen",
+      "total": 19,
+      "wins": 18,
+      "kos": 7,
+      "losses": 1,
+      "draws": 0,
+      "nationality": "U.S.",
+      "weightClass": "Middleweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Generic_belt_icon.svg",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Johnny_Eblen",
+      "lastUpdated": "2026-08-18T21:09:06.077Z",
+      "secondaryScore": 4.101942785662741
     },
     {
       "name": "Daniel Marcos",
@@ -464,7 +552,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Daniel_Marcos.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Daniel_Marcos",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.101942785662741
     },
     {
@@ -479,7 +567,37 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Adrian_Bartosi%C5%84ski_na_wa%C5%BCeniu_przed_walk%C4%85_.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Adrian_Bartosi%C5%84ski",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
+      "secondaryScore": 4.101942785662741
+    },
+    {
+      "name": "Zabit Magomedsharipov",
+      "total": 19,
+      "wins": 18,
+      "kos": 6,
+      "losses": 1,
+      "draws": 0,
+      "nationality": "Soviet Union",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Zabit_Magomedsharipov_at_UFC_Fight_Night_136.jpg",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Zabit_Magomedsharipov",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
+      "secondaryScore": 4.101942785662741
+    },
+    {
+      "name": "Magomed Umalatov",
+      "total": 19,
+      "wins": 18,
+      "kos": 12,
+      "losses": 1,
+      "draws": 0,
+      "nationality": "Russia",
+      "weightClass": "Middleweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Med_1.png",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Magomed_Umalatov",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.101942785662741
     },
     {
@@ -494,7 +612,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Annotation_2019-10-07_113506.png",
       "gender": "female",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Rin_Nakai",
-      "lastUpdated": "2026-08-18T18:39:23.013Z",
+      "lastUpdated": "2026-08-18T21:09:06.082Z",
       "secondaryScore": 4.086501011115926
     },
     {
@@ -509,7 +627,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cris_Cyborg_-_SDCC_2023.jpg",
       "gender": "female",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cris_Cyborg",
-      "lastUpdated": "2026-08-18T18:39:23.013Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 4.054752312801346
     },
     {
@@ -524,7 +642,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ilia_Topuria_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Ilia_Topuria",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.990717150552517
     },
     {
@@ -539,7 +657,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sharabutdin_Magomedov_2024.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Sharabutdin_Magomedov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.990717150552517
     },
     {
@@ -554,7 +672,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vladimir_Mineev%2C_November_2020.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Vladimir_Mineev",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.9300925287360826
     },
     {
@@ -569,7 +687,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Legacy_Rob.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Robert_Drysdale",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
       "secondaryScore": 3.8918202981106265
     },
     {
@@ -584,7 +702,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bekzod_Abdurakhmonov_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Bekzod_Abdurakhmonov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.8918202981106265
     },
     {
@@ -599,8 +717,23 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/2021_-_Centre_Stage_DG4_5765_(51654942080)_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Georges_St-Pierre",
-      "lastUpdated": "2026-08-18T18:39:23.011Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
       "secondaryScore": 3.843770326526412
+    },
+    {
+      "name": "Askar Askarov",
+      "total": 17,
+      "wins": 15,
+      "kos": 4,
+      "losses": 1,
+      "draws": 1,
+      "nationality": "Russia",
+      "weightClass": "Flyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Olympic_rings.svg",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Askar_Askarov",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
+      "secondaryScore": 3.808395593758563
     },
     {
       "name": "Anatoly Malykhin",
@@ -614,7 +747,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B0%D0%BB%D1%8B%D1%85%D0%B8%D0%BD_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Anatoly_Malykhin",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.7477709719421277
     },
     {
@@ -629,7 +762,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khamzat_Chimaev_2022_(cropped).png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.7477709719421277
     },
     {
@@ -644,7 +777,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gregor_Gillespie_at_UFC_Fight_Night_143.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Gregor_Gillespie",
-      "lastUpdated": "2026-08-18T18:39:23.008Z",
+      "lastUpdated": "2026-08-18T21:09:06.077Z",
       "secondaryScore": 3.614239579317605
     },
     {
@@ -659,7 +792,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250%2C_Saturday%2C_June_13%2C_2026_-_11(cropped).jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Carlos_Ulberg",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.614239579317605
     },
     {
@@ -674,7 +807,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/ParnasseMMA2023.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Salahdine_Parnasse",
-      "lastUpdated": "2026-08-18T18:39:23.011Z",
+      "lastUpdated": "2026-08-18T21:09:06.080Z",
       "secondaryScore": 3.6078393191270766
     },
     {
@@ -689,7 +822,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gheorghe_Ignat_Greco-Roman_Wrestling_Champion.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Gheorghe_Ignat",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.58351893845611
     },
     {
@@ -703,8 +836,23 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gabi_Garcia.png",
       "gender": "female",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Gabi_Garcia",
-      "lastUpdated": "2026-08-18T18:39:23.013Z",
+      "lastUpdated": "2026-08-18T21:09:06.082Z",
       "secondaryScore": 3.58351893845611
+    },
+    {
+      "name": "Kushida (wrestler)",
+      "total": 7,
+      "wins": 5,
+      "kos": 0,
+      "losses": 0,
+      "draws": 2,
+      "nationality": "",
+      "weightClass": "Lightweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yujiro_Kushida.jpg",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kushida_(wrestler)",
+      "lastUpdated": "2026-08-18T21:09:06.080Z",
+      "secondaryScore": 3.5553480614894135
     },
     {
       "name": "Vitaly Minakov",
@@ -718,7 +866,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/MMA_fighter_Vitaly_Minakov.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Vitaly_Minakov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.5225655620359873
     },
     {
@@ -733,8 +881,23 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Albertomin%C3%A1.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Alberto_Mina",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
+      "lastUpdated": "2026-08-18T21:09:06.079Z",
       "secondaryScore": 3.4711387356769317
+    },
+    {
+      "name": "Vadim Nemkov",
+      "total": 22,
+      "wins": 20,
+      "kos": 10,
+      "losses": 2,
+      "draws": 0,
+      "nationality": "Russia",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Generic_belt_icon.svg",
+      "gender": "male",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vadim_Nemkov",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
+      "secondaryScore": 3.3402440052420332
     },
     {
       "name": "Raul Rosas Jr.",
@@ -748,7 +911,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ra%C3%BAl_Rosas_Jr._2024.png",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr.",
-      "lastUpdated": "2026-08-18T18:39:23.009Z",
+      "lastUpdated": "2026-08-18T21:09:06.078Z",
       "secondaryScore": 3.3169880558496736
     },
     {
@@ -763,7 +926,7 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tatiana_Suarez_at_UFC_228.jpg",
       "gender": "female",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Tatiana_Suarez",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
+      "lastUpdated": "2026-08-18T21:09:06.081Z",
       "secondaryScore": 3.3169880558496736
     },
     {
@@ -778,143 +941,8 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sean-sherk.jpg",
       "gender": "male",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Sean_Sherk",
-      "lastUpdated": "2026-08-18T18:39:23.009Z",
+      "lastUpdated": "2026-08-18T21:09:06.078Z",
       "secondaryScore": 3.273496224075167
-    },
-    {
-      "name": "Ben Askren",
-      "total": 21,
-      "wins": 19,
-      "kos": 6,
-      "losses": 2,
-      "draws": 0,
-      "nationality": "U.S.",
-      "weightClass": "Cruiserweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ben_Askren_Nov_2018.jpg",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ben_Askren",
-      "lastUpdated": "2026-08-18T18:39:23.007Z",
-      "secondaryScore": 3.2424306952195896
-    },
-    {
-      "name": "Christian Uflacker",
-      "total": 5,
-      "wins": 5,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "nationality": "Brazil",
-      "weightClass": "Featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Uflacker.png",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Christian_Uflacker",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
-      "secondaryScore": 3.2188758248682006
-    },
-    {
-      "name": "Javad Mahjoub",
-      "total": 5,
-      "wins": 5,
-      "kos": 3,
-      "losses": 0,
-      "draws": 0,
-      "nationality": "Iran",
-      "weightClass": "100 kg,",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Javad_Mahjoub.jpg",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Javad_Mahjoub",
-      "lastUpdated": "2026-08-18T18:39:23.011Z",
-      "secondaryScore": 3.2188758248682006
-    },
-    {
-      "name": "Megumi Fujii",
-      "total": 29,
-      "wins": 26,
-      "kos": 1,
-      "losses": 3,
-      "draws": 0,
-      "nationality": "Japan",
-      "weightClass": "Strawweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/MegumiFujii.png",
-      "gender": "female",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Megumi_Fujii",
-      "lastUpdated": "2026-08-18T18:39:23.013Z",
-      "secondaryScore": 3.1596564652082293
-    },
-    {
-      "name": "Caio Borralho",
-      "total": 20,
-      "wins": 18,
-      "kos": 5,
-      "losses": 2,
-      "draws": 0,
-      "nationality": "Brazil",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Caio_Borralho_2025.jpg",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Caio_Borralho",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
-      "secondaryScore": 3.1395733097798817
-    },
-    {
-      "name": "Tatsuro Taira",
-      "total": 20,
-      "wins": 18,
-      "kos": 6,
-      "losses": 2,
-      "draws": 0,
-      "nationality": "Japan",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tatsuro_taira_2025.png",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tatsuro_Taira",
-      "lastUpdated": "2026-08-18T18:39:23.011Z",
-      "secondaryScore": 3.1395733097798817
-    },
-    {
-      "name": "Ikram Aliskerov",
-      "total": 20,
-      "wins": 18,
-      "kos": 7,
-      "losses": 2,
-      "draws": 0,
-      "nationality": "Russia",
-      "weightClass": "Middleweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ikram_Aliskerov_2024.png",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ikram_Aliskerov",
-      "lastUpdated": "2026-08-18T18:39:23.012Z",
-      "secondaryScore": 3.1395733097798817
-    },
-    {
-      "name": "Michael Page",
-      "total": 28,
-      "wins": 25,
-      "kos": 13,
-      "losses": 3,
-      "draws": 0,
-      "nationality": "England",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Venom_Page.png",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Page",
-      "lastUpdated": "2026-08-18T18:39:23.010Z",
-      "secondaryScore": 3.0853444322436783
-    },
-    {
-      "name": "Ian Machado Garry",
-      "total": 19,
-      "wins": 17,
-      "kos": 7,
-      "losses": 2,
-      "draws": 0,
-      "nationality": "Ireland",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/IanGarry.jpg",
-      "gender": "male",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ian_Machado_Garry",
-      "lastUpdated": "2026-08-18T18:39:23.011Z",
-      "secondaryScore": 3.0311216015523823
     }
   ]
 }
