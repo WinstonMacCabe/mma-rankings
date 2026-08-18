@@ -131,11 +131,11 @@ function parseImageUrl(rawImage: string): string {
   } else {
     cleaned = cleaned.replace(/^(?:File|Image):/i, '').replace(/\|.*$/, '').trim()
   }
-  const extMatch = cleaned.match(/(.+\.(?:jpg|jpeg|png|gif|svg|webp|tiff?))/i)
+  const extMatch = cleaned.match(/(.+\.(?:jpg|jpeg|png|gif|svg|webp))/i)
   if (extMatch) cleaned = extMatch[1]
   if (!cleaned) return ''
   if (cleaned.startsWith('<!--') || cleaned.includes('Insert image') || cleaned.includes('only free-content')) return ''
-  if (!/\.(jpg|jpeg|png|gif|svg|webp|tiff?)$/i.test(cleaned)) return ''
+  if (!/\.(jpg|jpeg|png|gif|svg|webp)$/i.test(cleaned)) return ''
   return `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(cleaned.replace(/ /g, '_'))}`
 }
 
@@ -337,6 +337,16 @@ function processRecord(wikitext: string): BoxerStats | null {
   let total = infobox.total
   if (total === null) total = wins + losses + draws + noContests
 
+  // Fallback: if infobox image was empty (e.g. rejected .tif), scan wikitext for any displayable image
+  let imageUrl = infobox.image
+  if (!imageUrl) {
+    const fileMatches = wikitext.matchAll(/\[\[(?:File|Image):([^\]|]+)/gi)
+    for (const m of fileMatches) {
+      const candidate = parseImageUrl(m[1])
+      if (candidate) { imageUrl = candidate; break }
+    }
+  }
+
   return {
     total,
     wins,
@@ -345,7 +355,7 @@ function processRecord(wikitext: string): BoxerStats | null {
     draws,
     nationality: infobox.nationality,
     weightClass: infobox.weightClass,
-    imageUrl: infobox.image,
+    imageUrl,
   }
 }
 
