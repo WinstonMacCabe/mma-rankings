@@ -145,13 +145,18 @@ async function main() {
     })
   }
 
-  // Secondary: sorted by score, take enough to include seniors in top 50
-  // Seniors stay in their correct score position (no special sorting)
-  // Only non-seniors count toward the 50 for NewsAPI
+  // Secondary: sorted by score, walk until we have 50 non-seniors
+  // Seniors that appear before the 50th non-senior stay in the list
   const allScored = allWithWins
     .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0)
     .sort((a, b) => (b.secondaryScore ?? 0) - (a.secondaryScore ?? 0))
-  const secondaryRanked = allScored.slice(0, 70)
+  const secondaryRanked: BoxerRecord[] = []
+  let nonSeniorCount = 0
+  for (const f of allScored) {
+    secondaryRanked.push(f)
+    if (!f.isSenior) nonSeniorCount++
+    if (nonSeniorCount >= 50) break
+  }
 
   // Secondary worst: lowest 50 non-senior, then append all seniors
   const eligibleWorst = allWithWins
