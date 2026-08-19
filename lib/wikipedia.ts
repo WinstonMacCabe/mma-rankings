@@ -123,7 +123,7 @@ function parseParamLine(line: string): Map<string, string> {
   return params
 }
 
-const BLOCKED_IMAGES = /Med_\d*\.png|Generic_belt_icon\.svg|Olympic_rings\.svg|Boxbelt_|Medal_|Ribbon_|File-icon/i
+const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon/i
 
 function parseImageUrl(rawImage: string): string {
   if (!rawImage) return ''
