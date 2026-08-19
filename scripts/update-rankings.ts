@@ -1,5 +1,5 @@
 import { getAllBoxerPages } from '../lib/categories'
-import { fetchBoxerRecords, checkImageSizes } from '../lib/wikipedia'
+import { fetchBoxerRecords } from '../lib/wikipedia'
 import type { BoxerStats } from '../lib/wikipedia'
 import { readRankings, writeRankings } from '../lib/storage'
 import type { BoxerRecord, Gender } from '../lib/types'
@@ -108,8 +108,10 @@ async function main() {
     .map((f, i) => ({ ...f, previousRank: prevWorstRank.get(f.name) || undefined }))
 
   // Secondary ranking: all fighters with wins, scored by C3 formula
-  // ln(wins/(losses+1)^0.9625) + ln(totalFights) - ln(losses+1)
+  // ln(wins/(losses+1)^0.448) + ln(totalFights) - ln(losses+1)
   // Filters out >384 wins to exclude amateur records
+  // Fighters over 60 years old still appear but don't count toward top 50
+  const currentYear = new Date().getFullYear()
   const allWithWins: BoxerRecord[] = []
   for (const [name, record] of allRecords) {
     if (record.wins === 0) continue
@@ -118,7 +120,11 @@ async function main() {
     if (wins > 384) continue
     const losses = record.losses ?? 0
     const total = record.total!
-    const secondaryScore = Math.log(wins / Math.pow(losses + 1, 0.9625)) + Math.log(total) - Math.log(losses + 1)
+    const secondaryScore = Math.log(wins / Math.pow(losses + 1, 0.448)) + Math.log(total) - Math.log(losses + 1)
+
+    const birthYear = record.birthDate ? parseInt(record.birthDate, 10) : null
+    const age = birthYear ? currentYear - birthYear : null
+    const isSenior = age !== null && age > 60
 
     allWithWins.push({
       name,
@@ -134,44 +140,33 @@ async function main() {
       wikipediaUrl: `https://en.wikipedia.org/wiki/${encodeURIComponent(name.replace(/ /g, '_'))}`,
       lastUpdated: new Date().toISOString(),
       secondaryScore,
+      birthDate: record.birthDate || undefined,
+      isSenior,
     })
   }
 
-  const secondaryRanked = allWithWins
-    .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0)
+  // Secondary: top 50 non-senior, then append all seniors
+  const eligible = allWithWins
+    .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0 && !f.isSenior)
     .sort((a, b) => (b.secondaryScore ?? 0) - (a.secondaryScore ?? 0))
+  const seniors = allWithWins
+    .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0 && f.isSenior)
+    .sort((a, b) => (b.secondaryScore ?? 0) - (a.secondaryScore ?? 0))
+  const secondaryRanked = [...eligible.slice(0, 50), ...seniors]
 
-  // Filter out small images (medals, ribbons, icons) by checking dimensions via Wikipedia API
-  // Minimum 41px width to exclude medal/ribbon icons
-  const MIN_IMAGE_WIDTH = 41
-  const candidates = secondaryRanked.slice(0, 100)
-  const imageUrls = candidates.map(f => f.imageUrl!).filter(Boolean)
-  const sizeMap = await checkImageSizes(imageUrls)
+  // Secondary worst: lowest 50 non-senior, then append all seniors
+  const eligibleWorst = allWithWins
+    .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0 && !f.isSenior)
+    .sort((a, b) => (a.secondaryScore ?? 0) - (b.secondaryScore ?? 0))
+  const seniorsWorst = allWithWins
+    .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0 && f.isSenior)
+    .sort((a, b) => (a.secondaryScore ?? 0) - (b.secondaryScore ?? 0))
+  const secondaryWorstRanked = [...eligibleWorst.slice(0, 50), ...seniorsWorst]
 
-  const filtered: BoxerRecord[] = []
-  for (const f of candidates) {
-    if (filtered.length >= 50) break
-    const width = sizeMap.get(f.imageUrl!) ?? 999
-    if (width >= MIN_IMAGE_WIDTH) {
-      filtered.push(f)
-    }
-  }
-
-  // Secondary worst: same pool, sorted ascending (lowest scores first)
-  const allFiltered = allWithWins.filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0)
-  const secondaryWorstRanked: BoxerRecord[] = []
-  for (const f of allFiltered.sort((a, b) => (a.secondaryScore ?? 0) - (b.secondaryScore ?? 0))) {
-    if (secondaryWorstRanked.length >= 50) break
-    const width = sizeMap.get(f.imageUrl!) ?? 999
-    if (width >= MIN_IMAGE_WIDTH) {
-      secondaryWorstRanked.push(f)
-    }
-  }
-
-  await writeRankings(ranked, worstRanked, filtered, secondaryWorstRanked)
+  await writeRankings(ranked, worstRanked, secondaryRanked, secondaryWorstRanked)
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
-  console.log(`\nDone! ${ranked.length} undefeated, ${worstRanked.length} winless, ${filtered.length} secondary, ${secondaryWorstRanked.length} secondary worst fighters ranked.`)
+  console.log(`\nDone! ${ranked.length} undefeated, ${worstRanked.length} winless, ${secondaryRanked.length} secondary, ${secondaryWorstRanked.length} secondary worst fighters ranked.`)
   console.log(`Total time: ${elapsed}s`)
   if (ranked.length > 0) {
     console.log(`Top 10 best: ${ranked.slice(0, 10).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)
@@ -179,8 +174,8 @@ async function main() {
   if (worstRanked.length > 0) {
     console.log(`Top 10 worst: ${worstRanked.slice(0, 10).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)
   }
-  if (filtered.length > 0) {
-    console.log(`Top 10 secondary: ${filtered.slice(0, 10).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws}) [${(f.secondaryScore ?? 0).toFixed(2)}]`).join(', ')}`)
+  if (secondaryRanked.length > 0) {
+    console.log(`Top 10 secondary: ${secondaryRanked.slice(0, 10).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws}) [${(f.secondaryScore ?? 0).toFixed(2)}]`).join(', ')}`)
   }
 }
 

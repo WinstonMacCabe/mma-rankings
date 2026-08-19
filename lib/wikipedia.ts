@@ -44,6 +44,7 @@ interface ParsedInfobox {
   nationality: string
   weightClass: string
   image: string
+  birthDate: string
 }
 
 function extractWeightClass(raw: string): string {
@@ -122,6 +123,8 @@ function parseParamLine(line: string): Map<string, string> {
   return params
 }
 
+const BLOCKED_IMAGES = /Med_\d*\.png|Generic_belt_icon\.svg|Olympic_rings\.svg|Medal_|Ribbon_|File-icon/i
+
 function parseImageUrl(rawImage: string): string {
   if (!rawImage) return ''
   let cleaned = rawImage
@@ -136,6 +139,7 @@ function parseImageUrl(rawImage: string): string {
   if (!cleaned) return ''
   if (cleaned.startsWith('<!--') || cleaned.includes('Insert image') || cleaned.includes('only free-content')) return ''
   if (!/\.(jpg|jpeg|png|gif|svg|webp)$/i.test(cleaned)) return ''
+  if (BLOCKED_IMAGES.test(cleaned)) return ''
   return `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(cleaned.replace(/ /g, '_'))}`
 }
 
@@ -150,6 +154,7 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     nationality: '',
     weightClass: '',
     image: '',
+    birthDate: '',
   }
 
   const infobox = extractInfobox(wikitext)
@@ -283,9 +288,9 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     result.losses = mmaTotalLosses
   }
 
-  // Try to extract person infobox for image/nationality
+  // Try to extract person infobox for image/nationality/birth date
   const personInfo = extractInfobox(wikitext)
-  if (personInfo && (!result.image || !result.nationality)) {
+  if (personInfo) {
     const lines = personInfo.split('\n')
     for (const line of lines) {
       const params = parseParamLine(line)
@@ -294,6 +299,13 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
         if (rawImage) {
           const url = parseImageUrl(rawImage)
           if (url) result.image = url
+        }
+      }
+      if (!result.birthDate) {
+        const rawBirthDate = params.get('birth_date')
+        if (rawBirthDate) {
+          const yearMatch = rawBirthDate.match(/(\d{4})/)
+          if (yearMatch) result.birthDate = yearMatch[1]
         }
       }
       if (!result.nationality) {
@@ -324,6 +336,7 @@ export interface BoxerStats {
   nationality: string
   weightClass: string
   imageUrl: string
+  birthDate: string
 }
 
 function processRecord(wikitext: string): BoxerStats | null {
@@ -356,6 +369,7 @@ function processRecord(wikitext: string): BoxerStats | null {
     nationality: infobox.nationality,
     weightClass: infobox.weightClass,
     imageUrl,
+    birthDate: infobox.birthDate,
   }
 }
 
