@@ -341,7 +341,7 @@ export interface BoxerStats {
 }
 
 function countQualityWins(wikitext: string): number {
-  const recordHeader = wikitext.match(/={2,}\s*(Professional|Mixed martial arts)\s+record\s*={2,}/i)
+  const recordHeader = wikitext.match(/={2,}\s*(Professional\s+)?(Mixed martial arts\s+)?record\s*={2,}/i)
   if (!recordHeader) return 0
 
   const headerEnd = recordHeader.index! + recordHeader[0].length
