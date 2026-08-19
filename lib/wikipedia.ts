@@ -346,7 +346,7 @@ function countQualityWins(wikitext: string): number {
 
   const headerEnd = recordHeader.index! + recordHeader[0].length
   const remaining = wikitext.slice(headerEnd)
-  const endMatch = remaining.match(/\n={2,}\s+[A-Z]/)
+  const endMatch = remaining.match(/\n={2,}\s*[A-Z]/)
   const endIndex = endMatch && endMatch.index !== undefined ? headerEnd + endMatch.index : wikitext.length
   const section = wikitext.slice(headerEnd, endIndex)
 
