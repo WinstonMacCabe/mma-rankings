@@ -13,7 +13,7 @@ function delay(ms: number): Promise<void> {
 }
 
 async function main() {
-  console.log('Starting MMA fighter rankings update...')
+  console.log('Starting MMA rankings update...')
   console.log('Step 1: Discovering fighters from Wikipedia categories...')
 
   const startTime = Date.now()
@@ -26,6 +26,7 @@ async function main() {
     return
   }
 
+  // Read previous rankings for rank-change tracking
   const previous = await readRankings()
   const prevBestRank = new Map<string, number>()
   const prevWorstRank = new Map<string, number>()
@@ -107,9 +108,8 @@ async function main() {
     .sort((a, b) => b.losses - a.losses || a.draws - b.draws || a.name.localeCompare(b.name))
     .map((f, i) => ({ ...f, previousRank: prevWorstRank.get(f.name) || undefined }))
 
-  // Secondary ranking: all fighters with wins, scored by C3 formula
-  // ln(wins/(losses+1)^0.448) + ln(totalFights) - ln(losses+1)
-  // Filters out >384 wins to exclude amateur records
+  // Secondary ranking: score = wins / max(losses, 1)
+  // Undefeated fighters rank higher when scores are equal
   // Fighters over 60 years old still appear but don't count toward top 50
   const currentYear = new Date().getFullYear()
   const allWithWins: BoxerRecord[] = []
@@ -117,10 +117,9 @@ async function main() {
     if (record.wins === 0) continue
 
     const wins = record.wins!
-    if (wins > 384) continue
     const losses = record.losses ?? 0
     const total = record.total!
-    const secondaryScore = Math.log(wins / Math.pow(losses + 1, 0.448)) + Math.log(total) - Math.log(losses + 1)
+    const secondaryScore = wins / Math.max(losses, 1)
 
     const birthYear = record.birthDate ? parseInt(record.birthDate, 10) : null
     const age = birthYear ? currentYear - birthYear : null
@@ -145,11 +144,15 @@ async function main() {
     })
   }
 
-  // Secondary: sorted by score, walk until we have 50 non-seniors
-  // Seniors that appear before the 50th non-senior stay in the list
+  // Secondary: sorted by score, then undefeated, then KOs
+  // Walk until we have 50 non-seniors
   const allScored = allWithWins
     .filter(f => f.imageUrl && (f.secondaryScore ?? 0) > 0)
-    .sort((a, b) => (b.secondaryScore ?? 0) - (a.secondaryScore ?? 0) || (b.kos ?? 0) - (a.kos ?? 0))
+    .sort((a, b) =>
+      (b.secondaryScore ?? 0) - (a.secondaryScore ?? 0) ||
+      (a.losses === 0 && b.losses > 0 ? -1 : a.losses > 0 && b.losses === 0 ? 1 : 0) ||
+      (b.kos ?? 0) - (a.kos ?? 0)
+    )
   const secondaryRanked: BoxerRecord[] = []
   let nonSeniorCount = 0
   for (const f of allScored) {
