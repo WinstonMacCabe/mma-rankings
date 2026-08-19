@@ -337,6 +337,32 @@ export interface BoxerStats {
   weightClass: string
   imageUrl: string
   birthDate: string
+  qualityWins: number
+}
+
+function countQualityWins(wikitext: string): number {
+  const recordHeader = wikitext.match(/={2,}\s*(Professional|Mixed martial arts)\s+record\s*={2,}/i)
+  if (!recordHeader) return 0
+
+  const headerEnd = recordHeader.index! + recordHeader[0].length
+  const remaining = wikitext.slice(headerEnd)
+  const endMatch = remaining.match(/\n={2,}\s+[A-Z]/)
+  const endIndex = endMatch && endMatch.index !== undefined ? headerEnd + endMatch.index : wikitext.length
+  const section = wikitext.slice(headerEnd, endIndex)
+
+  const tableStart = section.indexOf('{|')
+  const tableEnd = section.indexOf('|}')
+  if (tableStart === -1 || tableEnd === -1) return 0
+
+  const table = section.slice(tableStart, tableEnd + 2)
+  const rows = table.split(/\n\|-/)
+
+  let qualityWins = 0
+  for (const row of rows) {
+    if (!/\bWin\b/i.test(row)) continue
+    if (/\[\[.*?\]\]/.test(row)) qualityWins++
+  }
+  return qualityWins
 }
 
 function processRecord(wikitext: string): BoxerStats | null {
@@ -350,7 +376,6 @@ function processRecord(wikitext: string): BoxerStats | null {
   let total = infobox.total
   if (total === null) total = wins + losses + draws + noContests
 
-  // Fallback: if infobox image was empty (e.g. rejected .tif), scan wikitext for any displayable image
   let imageUrl = infobox.image
   if (!imageUrl) {
     const fileMatches = wikitext.matchAll(/\[\[(?:File|Image):([^\]|]+)/gi)
@@ -370,6 +395,7 @@ function processRecord(wikitext: string): BoxerStats | null {
     weightClass: infobox.weightClass,
     imageUrl,
     birthDate: infobox.birthDate,
+    qualityWins: countQualityWins(wikitext),
   }
 }
 
