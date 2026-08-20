@@ -1,8 +1,8 @@
 const USER_AGENT = 'MMARankings/1.0 (https://github.com/user/mma; mma-app@example.com)'
 const API_URL = 'https://en.wikipedia.org/w/api.php'
 
-function extractInfobox(wikitext: string): string | null {
-  const prefixes = ['{{Infobox martial artist', '{{Infobox person']
+function extractInfobox(wikitext: string, prefixFilter?: string[]): string | null {
+  const prefixes = prefixFilter || ['{{Infobox martial artist', '{{Infobox person', '{{Infobox officeholder', '{{Infobox military']
   for (const prefix of prefixes) {
     const start = wikitext.indexOf(prefix)
     if (start < 0) continue
@@ -158,7 +158,7 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
   }
 
   const infobox = extractInfobox(wikitext)
-  const personInfobox = extractInfobox(wikitext.indexOf('{{Infobox person') >= 0 ? wikitext : '')
+  const personInfobox = extractInfobox(wikitext, ['{{Infobox person', '{{Infobox officeholder', '{{Infobox military'])
 
   let rawWeight = ''
   let mmaKowin = 0, mmaSubwin = 0, mmaDecwin = 0
