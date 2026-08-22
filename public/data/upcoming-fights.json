@@ -1,6 +1,258 @@
 {
-  "lastUpdated": "2026-08-20T14:16:59.727Z",
+  "lastUpdated": "2026-08-22T01:39:54.815Z",
   "fights": [
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Opinion: The case for Carlos Prates as Islam Makhachev’s next challenger",
+      "url": "https://www.sherdog.com/news/articles/Opinion-The-case-for-Carlos-Prates-as-Islam-Makhachevs-next-challenger-202449",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T00:57:12Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Ketlen Vieira eyes PFL gold, no storybook ending for Cris Cyborg",
+      "url": "https://www.sherdog.com/news/articles/Ketlen-Vieira-eyes-PFL-gold-no-storybook-ending-for-Cris-Cyborg-202447",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T00:55:12Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Islam Makhachev's Unbeatable Stat: The 1 Data Point That Proves He Is Better Than Khabib Nurmagomedov",
+      "url": "https://www.stadiumrant.com/islam-makhachevs-unbeatable-stat-the-1-data-point-that-proves-he-is-better-than-khabib-nurmagomedov/",
+      "source": "Stadiumrant.com",
+      "publishedAt": "2026-08-21T00:25:17Z"
+    },
+    {
+      "boxerName": "Daniel Marcos",
+      "headline": "Daniel Marcos still doesn't know why UFC released him following 5-1 run",
+      "url": "https://www.sherdog.com/news/news/Daniel-Marcos-still-doesnt-know-why-UFC-released-him-following-51-run-202460",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T00:01:57Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Ketlen Vieira reacts to UFC’s ‘unbelievable’ decision to let her go while keeping ‘many other fighters there who aren’t on my level’",
+      "url": "https://www.mmafighting.com/pfl/506055/ketlen-vieira-reacts-to-ufcs-unbelievable-decision-to-let-her-go-while-keeping-many-other-fighters-there-who-arent-on-my-level",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-21T00:00:00Z"
+    },
+    {
+      "boxerName": "Shavkat Rakhmonov",
+      "headline": "Sean Brady: I don't think Shavkat Rakhmonov is 'ever going to fight again'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/20/ufc-sean-brady-prediction-shavkat-rakhmonov-never-fight-again-knee-injury-mma-done/91383059007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-20T23:40:21Z"
+    },
+    {
+      "boxerName": "Shavkat Rakhmonov",
+      "headline": "Shavkat Rakhmonov Won’t Fight in UFC Again, Says Division Rival",
+      "url": "https://heavy.com/sports/ufc/shavkat-rakhmonov-wont-fight-says-rival/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-20T22:32:25Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Glover Teixeira: Josh Hokit a good fight for Alex Pereira to 'knock his ass out'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/20/ufc-glover-teixeira-opinion-prediction-alex-pereira-vs-josh-hokit-knockout-good-heavyweight-fight/91386297007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-20T22:01:16Z"
+    },
+    {
+      "boxerName": "Shavkat Rakhmonov",
+      "headline": "Despite new sparring footage, Shavkat might be ‘done’ with UFC — ‘I don’t think he’s ever gonna fight again’",
+      "url": "https://www.mmamania.com/ufc-news/466065/despite-new-sparring-footage-shavkat-might-be-done-ufc-dont-think-fight-again",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-20T20:15:40Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Mailbag: On UFC Apex renovations, Islam Makhachev's GOAT credentials, and more",
+      "url": "https://sports.yahoo.com/mma/article/mailbag-on-ufc-apex-renovations-islam-makhachevs-goat-credentials-and-more-190931520.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-20T19:09:31Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Arman Tsarukyan suggests 'easy fight' for Ilia Topuria after UFC title loss",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/20/ufc-arman-tsarukyan-prediction-opinion-ilia-topuria-needs-easy-rebound-fight-then-title/91383930007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-20T18:40:25Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov's potential PFL exit could create a void no other fighter can easily fill",
+      "url": "https://sports.yahoo.com/mma/articles/usman-nurmagomedovs-potential-pfl-exit-could-create-a-void-no-other-fighter-can-easily-fill-175707781.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-20T17:57:07Z"
+    },
+    {
+      "boxerName": "Daniel Marcos",
+      "headline": "Daniel Marcos sees shot at PFL vacant title with Magomed Magomedov win",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/hablemos-mma/2026/08/20/pfl-tampa-video-daniel-marcos-wants-vacant-title-shot-with-magomed-magomedov-win/91357312007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-20T17:50:30Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Ilia Topuria next fight? ‘Easy’ Michael Chandler, according to UFC matchmaker Arman",
+      "url": "https://www.mmamania.com/ufc-news/466046/ilia-topuria-next-fight-easy-michael-chandler-ufc-arman-tsarukyan",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-20T14:03:53Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Islam Makhachev vs Carlos Prates net worth comparison: Which UFC fighter is richer in 2026?",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/islam-makhachev-vs-carlos-prates-net-worth-comparison-which-ufc-fighter-is-richer-in-2026/articleshow/133375349.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-20T11:17:07Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Jones ‘Confused’ By Islam GOAT Push: ‘Make It Make Sense’",
+      "url": "https://www.mmamania.com/latest-news/466019/jon-jones-confused-by-recent-islam-makhachev-goat-push-make-it-make-sense",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-20T07:00:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "UFC's Michael Page is taking his unorthodox style to a new combat sport",
+      "url": "https://www.sherdog.com/news/news/UFCs-Michael-Page-is-taking-his-unorthodox-style-to-a-new-combat-sport-202448",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-20T06:50:23Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones accuses Daniel Cormier of ‘jealousy’ over UFC GOAT take",
+      "url": "https://www.sherdog.com/news/news/Jon-Jones-accuses-Daniel-Cormier-of-jealousy-over-UFC-GOAT-take-202440",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-20T03:38:48Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit trolls Alex Pereira over Ciryl Gane loss, calls for BMF match",
+      "url": "https://www.sherdog.com/news/news/Josh-Hokit-trolls-Alex-Pereira-over-Ciryl-Gane-loss-calls-for-BMF-match-202439",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-20T03:28:17Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185060120",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-20T00:52:08Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Islam Makhachev Is a Top-5 UFC GOAT, Says Henry Cejudo",
+      "url": "https://heavy.com/sports/ufc/islam-makhachev-top-5-ufc-goat/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-20T00:38:51Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-michael-chiesa-goat-list-islam-makhachev-over-georges-st-pierre/91369239007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-20T00:30:20Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page wrestles Alexander Shlemenko in debut at RAF 14",
+      "url": "https://www.mmafighting.com/raf-wrestling/505993/michael-page-wrestles-alexander-shlemenko-in-debut-at-raf-14",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-20T00:00:00Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Carlos Prates disses Islam Makhachev's fighting style as he eyes UFC title shot",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/carlos-prates-critical-islam-makhachev-ufc-330-win/91370157007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-19T23:40:25Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit Has 2 Suggestions For His Next UFC Fight",
+      "url": "https://heavy.com/sports/ufc/josh-hokit-2-suggestions-next-fight/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-19T23:20:14Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent",
+      "url": "https://www.mmafighting.com/ufc/505974/arman-tsarukyan-picks-surprising-name-for-ilia-topurias-next-opponent",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-19T23:00:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL CEO calls out UFC's Usman Nurmagomedov 'bulls***', addresses 'misinformation' about his contract status",
+      "url": "https://sports.yahoo.com/mma/article/pfl-ceo-calls-out-ufcs-usman-nurmagomedov-bull-addresses-misinformation-about-his-contract-status-213415651.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-19T21:34:15Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL CEO calls out UFC's Usman Nurmagomedov 'bulls***', addresses 'misinformation' about his contract status",
+      "url": "https://sports.yahoo.com/mma/article/pfl-ceo-calls-out-ufcs-usman-nurmagomedov-bulls-addresses-misinformation-about-his-contract-status-213415651.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-19T21:34:15Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
+      "url": "https://heavy.com/sports/ufc/michael-bisping-criticizes-ian-machado-garry/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-19T20:45:01Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Joe Rogan Urges Islam Makhachev to Relinquish UFC Welterweight Title",
+      "url": "https://biztoc.com/x/16a61e7a3eb6df5b",
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-19T18:50:29Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones takes shot at Daniel Cormier amid GOAT debate: ‘Your jealousy runs so deep through your blood’",
+      "url": "https://www.mmafighting.com/ufc/505899/jon-jones-takes-shot-at-daniel-cormier-amid-goat-debate-your-jealousy-runs-so-deep-through-your-blood",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-19T18:00:00Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones rips Daniel Cormier for showing 'envy' toward him",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-jon-jones-daniel-cormier-envy/91366275007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-19T17:50:22Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cris Cyborg undecided on retirement, weighs ‘interesting’ options as free agency looms",
+      "url": "https://www.mmafighting.com/pfl/505544/cris-cyborg-undecided-on-retirement-weighs-interesting-options-as-free-agency-looms",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-19T17:00:00Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Dana White responds to Khamzat’s UFC demands — and ‘Borz’ fans are not gonna like the answer",
+      "url": "https://www.mmamania.com/ufc-news/465927/dana-white-responds-khamzat-ufc-demands-borz-fans-not-gonna-like-answer",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-19T16:38:11Z"
+    },
+    {
+      "boxerName": "Ian Machado Garry",
+      "headline": "UFC Hall of Famer: Ian Machado Garry's friendliness 'a sign of weakness'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-330-michael-bisping-criticizes-ian-machado-garry-weakness/91366391007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-19T15:20:27Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?' - MMA Junkie",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185052440",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-19T14:32:47Z"
+    },
     {
       "boxerName": "Islam Makhachev",
       "headline": "Henry Cejudo: Ian Machado Garry 'missed all the boxes' at UFC 330 - MMA Junkie",
@@ -611,7 +863,7 @@
       "publishedAt": "2026-08-16T20:20:17Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Islam Makhachev Has Blunt Criticism of Ian Machado Garry After UFC 330 Win",
       "url": "https://biztoc.com/x/d495c1fffacfe677",
       "source": "Biztoc.com",
@@ -632,7 +884,7 @@
       "publishedAt": "2026-08-16T17:00:29Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Dana White: Islam Makhachev's winning streak might never be beaten",
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-dana-white-opinion-prediction-islam-makhachev-winning-streak-might-never-be-broken/91328139007/",
       "source": "USA Today",
@@ -660,28 +912,28 @@
       "publishedAt": "2026-08-16T15:00:00Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "‘We’ll beat all records’: Russian UFC champion makes history",
       "url": "https://www.rt.com/pop-culture/644304-russian-mma-ufc-victory/",
       "source": "RT",
       "publishedAt": "2026-08-16T14:52:25Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Dana White: Ian Machado Garry's lack of 'killer instinct' cost him",
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/dana-white-ian-machado-garry-ufc-330-lack-of-killer-instinct-cost/91326589007/",
       "source": "USA Today",
       "publishedAt": "2026-08-16T14:30:47Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Dana White criticizes Ian Machado Garry for lack of ‘killer instinct’ against Islam Makhachev at UFC 330 - mmafighting.com",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185001462",
       "source": "Slashdot.org",
       "publishedAt": "2026-08-16T14:13:13Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Islam Makhachev respects Ian Machado Garry but all the hugs were too much at UFC 330: ‘This is a fight. This is not a game’",
       "url": "https://www.mmafighting.com/ufc/505349/islam-makhachev-respects-ian-machado-garry-but-all-the-hugs-were-too-much-at-ufc-330-this-is-a-fight-this-is-not-a-game",
       "source": "MMA Fighting",
@@ -1549,7 +1801,7 @@
       "publishedAt": "2026-08-11T13:00:00Z"
     },
     {
-      "boxerName": "Khabib Nurmagomedov",
+      "boxerName": "Usman Nurmagomedov",
       "headline": "Khabib Nurmagomedov’s cousin Usman Nurmagomedov’s UFC move soon on cards? Manager reveals major PFL contract twist",
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedovs-cousin-usman-nurmagomedovs-ufc-move-soon-on-cards-manager-reveals-major-pfl-contract-twist/articleshow/133154005.cms",
       "source": "The Times of India",
@@ -3185,132 +3437,6 @@
       "url": "https://www.sherdog.com/news/news/Josh-Hokit-blames-Hokit-curse-for-Ryan-Clarks-ESPN-departure-202039",
       "source": "Sherdog.com",
       "publishedAt": "2026-07-23T06:31:41Z"
-    },
-    {
-      "boxerName": "Georges St-Pierre",
-      "headline": "Video: UFC Hall of Famer Royce Gracie, Georges St-Pierre name top MMA legends",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/22/video-ufc-legend-royce-gracie-names-mt-rushmore-georges-st-pierre-podcast/91010403007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-22T23:00:27Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Belal Muhammad: UFC 330 win would put Islam Makhachev on MMA Mt. Rushmore",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/22/belal-muhammad-ufc-330-win-islam-makhachev-mt-rushmore/91009428007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-22T22:00:18Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Nurmagomedov vs. Colgan Start Time. Full Fight Card",
-      "url": "https://www.mmamania.com/professional-fighters-league-pfl/457386/pfl-new-york-full-fight-card-espn-start-time-nurmagomedov-vs-colgan",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-22T21:15:00Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Dana White calls out Josh Hokit for 'gross' Michelle Obama comment after UFC White House card win",
-      "url": "https://www.sportingnews.com/us/mma/news/dana-white-calls-out-josh-hokit-gross-michelle-obama-comment-ufc/9629f54e799c63416fe28fcb",
-      "source": "Sporting News",
-      "publishedAt": "2026-07-22T21:00:33Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Who is Sean Strickland fighting next? ‘UFC told me I could fight only for the belt,’ says middleweight ‘Sniper’",
-      "url": "https://www.mmamania.com/ufc-news/459090/who-is-sean-strickland-fighting-next-ufc-told-me-could-fight-only-for-belt-middleweight-sniper",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-22T20:04:09Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Dricus Du Plessis' coach: Kamaru Usman's foul calls 'all nonsense'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/22/ufc-okc-dricus-du-plessis-coach-kamaru-usman-nonsense/91005301007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-22T18:00:25Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Dana White rips Josh Hokit for Michelle Obama insult at White House: 'Gross, inappropriate'",
-      "url": "https://www.cbssports.com/ufc/news/dana-white-josh-hokit-michelle-obama-insult-white-house/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-07-22T16:16:39Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Jon Jones offers Khamzat Chimaev advice after first UFC loss: 'Go back to the drawing board'",
-      "url": "https://www.cbssports.com/ufc/news/jon-jones-khamzat-chimaev-ufc-loss/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-07-22T15:04:46Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Dana White Rips Josh Hokit Again Over ‘Michelle Obama Is A Man’ Comment At UFC White House Event",
-      "url": "https://brobible.com/sports/article/dana-white-josh-hokit-michelle-obama-again/",
-      "source": "BroBible",
-      "publishedAt": "2026-07-22T14:51:10Z"
-    },
-    {
-      "boxerName": "Ben Askren",
-      "headline": "Ben Askren says legs, not lungs, failed him in RAF 11 farewell match",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/07/22/ben-askren-reacts-raf-11-wrestling-match-lung-transplant/91004272007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-22T13:01:31Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Dana White Slams “Moronic” Josh Hokit for Offensive Michelle Obama White House Outburst!",
-      "url": "https://mediatakeout.com/dana-white-slams-moronic-josh-hokit-for-offensive-michelle-obama-white-house-outburst/",
-      "source": "Mediatakeout.com",
-      "publishedAt": "2026-07-22T12:03:01Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Valter Walker isn't buying the Josh Hokit or Gable Steveson hype",
-      "url": "https://www.sherdog.com/news/news/Valter-Walker-isnt-buying-the-Josh-Hokit-or-Gable-Steveson-hype-202018",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-22T04:13:59Z"
-    },
-    {
-      "boxerName": "Jon Jones",
-      "headline": "UFC’s record-setting submission ace vows to beat Gable Steveson, spit in Jon Jones’ face",
-      "url": "https://www.mmamania.com/upcoming-ufc-events/458917/ufcs-record-setting-submission-ace-beat-gable-steveson-spit-jon-jones-face",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-21T20:18:02Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Belal Muhammad 'wasn't really surprised' by Kamaru Usman's struggles at UFC OKC",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/21/kamaru-usman-rival-belal-muhammad-reaction-ufc-okc-loss-dricus-du-plessis/90988003007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-21T18:00:18Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Chael Sonnen: If Kamaru Usman commits to 185, 'I think he's a contender'",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_89ea4232-540c-4977-9086-ea8ef43f872c",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-07-21T17:00:50Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Valter Walker not scared of ‘small’ Josh Hokit, unimpressed by Gable Steveson’s UFC debut: ‘I’ll take all of them’",
-      "url": "https://www.mmafighting.com/ufc/500440/valter-walker-not-scared-of-small-josh-hokit-unimpressed-by-gable-stevesons-ufc-debut-ill-take-all-of-them",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-07-21T17:00:00Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "Ilia Topuria super fan debunks Paddy Pimblett's claim of buying UFC White House stool",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/blue-corner/2026/07/21/paddy-pimblett-ilia-topuria-ufc-white-house-stool-purchase/90994553007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-21T16:01:14Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "Anthony Joshua Says Ilia Topuria Loss Changed His Approach",
-      "url": "https://www.complex.com/sports/a/bernadette-giacomazzo/anthony-joshua-praises-ilia-topuria",
-      "source": "Complex",
-      "publishedAt": "2026-07-21T15:17:23Z"
     }
   ]
 }
