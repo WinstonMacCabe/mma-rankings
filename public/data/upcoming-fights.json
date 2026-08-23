@@ -1,6 +1,181 @@
 {
-  "lastUpdated": "2026-08-22T01:39:54.815Z",
+  "lastUpdated": "2026-08-23T01:49:13.090Z",
   "fights": [
+    {
+      "boxerName": "Ian Machado Garry",
+      "headline": "Analyst confident in Ian Machado Garry's title future after UFC 330 loss",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/21/ufc-analyst-ian-machado-garry-still-be-champ-islam-makhachev-loss/91409285007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-22T00:30:29Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit wants Tom Aspinall stripped, vows to 'reset' heavyweight",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/21/josh-hokit-rants-tom-aspinall-ufc-title-alex-pereira-fight/91411565007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-21T22:50:27Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Ketlen Vieira misses weight by 7 pounds for Cris Cyborg title fight at PFL Tampa, Vieira issues statement - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185091146",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-21T22:12:05Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "After 32 MMA fights, Cyborg is still living up to her name - ESPN",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185090134",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-21T20:53:19Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL debutant still mad about UFC release just missed weight by seven pounds for Cris Cyborg title fight",
+      "url": "https://www.mmamania.com/professional-fighters-league-pfl/466259/pfl-debutant-still-mad-ufc-release-missed-weight-seven-pounds-cris-cyborg-title-fight",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-21T18:44:15Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones and Daniel Cormier clearly still hate each other. I hope it stays that way forever",
+      "url": "https://sports.yahoo.com/mma/article/jon-jones-and-daniel-cormier-clearly-still-hate-each-other-i-hope-it-stays-that-way-forever-184244120.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-21T18:42:44Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Former UFC contender misses weight by 7 pounds for Cris Cyborg title fight at PFL Tampa",
+      "url": "https://www.mmafighting.com/pfl/506228/ketlen-vieira-misses-weight-by-7-pounds-for-cris-cyborg-title-fight-at-pfl-tampa",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-21T18:13:56Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa weigh-ins: Ketlen Vieira has massive miss for Cris Cyborg retirement",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/21/pfl-tampa-weigh-ins-ketlen-vieira-misses-7-pounds-cris-cyborg-retirement-fight-featherweight-title/91407334007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-21T18:09:30Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Fight Night 287: Dan Hooker vs. Salahdine Parnasse odds, what to know",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/21/ufc-paris-dan-hooker-vs-salahdine-parnasse-betting-odds-mma-gambling/91401196007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-21T17:50:30Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa weigh-in results: Cris Cyborg's opponent misses weight by 7 pounds",
+      "url": "https://www.sherdog.com/news/news/PFL-Tampa-weighin-results-Cris-Cyborgs-opponent-misses-weight-by-7-pounds-202473",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T17:41:55Z"
+    },
+    {
+      "boxerName": "Ian Machado Garry",
+      "headline": "T.J. Dillashaw: Ian Machado Garry was fighting to survive, not win at UFC 330",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/21/ufc-330-tj-dillashaw-opinion-ian-machado-garry-mindset-problem-not-skills-mma/91400745007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-21T17:01:06Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Carlos Prates issues warning to Michael Morales: ‘I will knock you out really fast’ after winning UFC title",
+      "url": "https://www.mmafighting.com/ufc/505770/carlos-prates-issues-warning-to-michael-morales-i-will-knock-you-out-really-fast-after-winning-ufc-title",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-21T15:00:00Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Kamaru Usman wants Khamzat Chimaev to move up for 'heater' vs. Paulo Costa",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/21/ufc-kamaru-usman-opinion-paulo-costa-vs-khamzat-chimaev-great-light-heavyweight-fight/91400541007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-21T14:30:57Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Paddy Pimblett: 'I'm gonna absolutely rinse' Topuria and Tsarukyan's lives",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/21/ufc-paddy-pimblett-opinion-prediction-will-terrorize-ilia-topuria-arman-tsarukyan-lightweight-fights/91400634007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-21T12:50:22Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Islam Makhachev may already have passed toughest test: MMA rankings August 2026",
+      "url": "https://nypost.com/2026/08/21/sports/islam-makhachev-may-already-have-passed-toughest-test-mma-rankings-august-2026/",
+      "source": "New York Post",
+      "publishedAt": "2026-08-21T12:30:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "PFL CEO John Martin denies Usman Nurmagomedov has left organization",
+      "url": "https://www.mmamania.com/latest-news/466175/pfl-ceo-john-martin-denies-usman-nurmagomedov-has-left-organization-so-much-misinformation",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-21T11:25:56Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cris Cyborg On Potentially Breaking Another Women’s MMA Record, Working With Jake Paul, & Claressa Shields Turning Down $2 Million Fight Offer (Interview)",
+      "url": "https://brobible.com/sports/article/cris-cyborg-on-potentially-breaking-another-womens-mma-record-working-with-jake-paul-claressa-shields-2-million-fight-offer-interview/",
+      "source": "BroBible",
+      "publishedAt": "2026-08-21T09:58:32Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Opening door for women in MMA my proudest moment - Cyborg",
+      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cn9nr189ze2o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "source": "BBC News",
+      "publishedAt": "2026-08-21T06:57:49Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Opening door for women in MMA my proudest moment - Cyborg",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cn9nr189ze2o",
+      "source": "BBC News",
+      "publishedAt": "2026-08-21T06:57:40Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Arman Tsarukyan Plays Matchmaker for Ilia Topuria",
+      "url": "https://heavy.com/sports/ufc/arman-tsarukyan-plays-matchmaker-ilia-topuria/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-21T06:12:53Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones weighs return after Francis Ngannou callout reignites fighting 'itch'",
+      "url": "https://www.sherdog.com/news/news/Jon-Jones-weighs-return-after-Francis-Ngannou-callout-reignites-fighting-itch-202464",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T06:01:33Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Paddy Pimblett: 'No respect' for Arman Tsarukyan, Ilia Topuria beef is different",
+      "url": "https://www.sherdog.com/news/news/Paddy-Pimblett-No-respect-for-Arman-Tsarukyan-Ilia-Topuria-beef-is-different-202462",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T05:53:49Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov explains why people either love or hate Ali Abdelaziz",
+      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-explains-why-people-either-love-or-hate-Ali-Abdelaziz-202455",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T02:44:17Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Khabib Nurmagomedov reveals the UFC fight that pushed him closest to his limit",
+      "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-reveals-the-UFC-fight-that-pushed-him-closest-to-his-limit-202454",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T02:27:41Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa: How to watch Cris Cyborg vs. Ketlen Vieira, start time",
+      "url": "https://www.sherdog.com/news/articles/PFL-Tampa-How-to-watch-Cris-Cyborg-vs-Ketlen-Vieira-start-time-202453",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-21T02:09:17Z"
+    },
     {
       "boxerName": "Islam Makhachev",
       "headline": "Opinion: The case for Carlos Prates as Islam Makhachev’s next challenger",
@@ -814,7 +989,7 @@
       "publishedAt": "2026-08-17T01:28:27Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "What drove UFC’s Dana White ‘f–king crazy’ about Ian Machado Garry’s loss to Islam Makhachev - New York Post",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185010120",
       "source": "Slashdot.org",
@@ -828,14 +1003,14 @@
       "publishedAt": "2026-08-17T00:58:12Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Dana White Rips Ian Machado Garry for 'Lack of Killer Instinct' at UFC 330",
       "url": "https://biztoc.com/x/42758c21df1eb014",
       "source": "Biztoc.com",
       "publishedAt": "2026-08-17T00:26:36Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Matches To Make After UFC 330",
       "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e53ffdf4-aa97-42b1-a87c-7bc9a4c429a7",
       "source": "Yahoo Entertainment",
@@ -849,7 +1024,7 @@
       "publishedAt": "2026-08-16T23:00:00Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "What drove UFC’s Dana White ‘f–king crazy’ about Ian Machado Garry’s loss to Islam Makhachev",
       "url": "https://nypost.com/2026/08/16/sports/what-drove-ufcs-dana-white-fking-crazy-about-ian-machado-garrys-loss/",
       "source": "New York Post",
@@ -3353,90 +3528,6 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184628320",
       "source": "Slashdot.org",
       "publishedAt": "2026-07-24T02:12:29Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Excuse-free Kamaru Usman reveals he fought Dricus du Plessis with torn pec, questions retirement – ‘I have to sit with the team’",
-      "url": "https://www.mmamania.com/latest-news/459240/excuse-free-kamaru-usman-reveals-he-fought-dricus-du-plessis-with-torn-pec-questions-retirement-i-have-to-sit-with-the-team",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-24T00:09:03Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Javier Mendez Explains Islam Makhachev’s Decision to Leave Lightweight: Exclusive",
-      "url": "https://heavy.com/sports/ufc/javier-mendez-islam-makhachev-leaving-lightweight/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-07-23T22:07:11Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Kamaru Usman Contemplating Retirement Following UFC OKC",
-      "url": "https://heavy.com/sports/ufc/kamaru-usman-contemplating-retirement-ufc-okc/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-07-23T21:58:33Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Kamaru Usman contemplating retirement after UFC OKC loss",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/23/kamaru-usman-contemplating-retirement-after-ufc-okc-loss/91028291007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-23T21:10:24Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Kamaru Usman Considering Retirement After UFC Loss to Dricus du Plessis",
-      "url": "https://biztoc.com/x/fcd53f2b53f91623",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-07-23T20:21:10Z"
-    },
-    {
-      "boxerName": "Cris Cyborg",
-      "headline": "Exclusive: Cris Cyborg Reflects On Women’s MMA And Retirement Fight",
-      "url": "https://www.forbes.com/sites/leoccianocallao/2026/07/23/exclusive-cris-cyborg-reflects-on-womens-mma-and-retirement-fight/",
-      "source": "Forbes",
-      "publishedAt": "2026-07-23T19:27:57Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Kamaru Usman contemplating ‘whether it’s worth continuing to do this’ after lopsided loss to Dricus du Plessis",
-      "url": "https://www.mmafighting.com/ufc/500761/kamaru-usman-contemplating-whether-its-worth-continuing-to-do-this-after-lopsided-loss-to-dricus-du-plessis",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-07-23T18:00:00Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Between the Links: Du Plessis dominates Usman, Covington vs. Muhammad, UFC Abu Dhabi",
-      "url": "https://www.mmafighting.com/ufc/500568/between-the-links-du-plessis-dominates-usman-covington-vs-muhammad-ufc-abu-dhabi",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-07-23T17:30:00Z"
-    },
-    {
-      "boxerName": "Magomed Zaynukov",
-      "headline": "Magomed Zaynukov reflects on long wait for UFC debut: ‘It’s a test to keep from being arrogant’",
-      "url": "https://www.mmamania.com/ufc-news/459186/john-pork-magomed-zaynukov-reflects-on-year-wait-for-ufc-debut-its-a-test-to-keep-from-being-arrogant",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-23T12:22:42Z"
-    },
-    {
-      "boxerName": "Georges St-Pierre",
-      "headline": "Georges St-Pierre Reveals His Mindset Before Final Round Against Johny Hendricks",
-      "url": "https://heavy.com/sports/ufc/georges-st-pierre-mindset-johny-hendricks/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-07-23T07:23:01Z"
-    },
-    {
-      "boxerName": "Dricus du Plessis",
-      "headline": "Dricus du Plessis’ Coach: He Could Have Finished Kamaru Usman",
-      "url": "https://heavy.com/sports/ufc/dricus-du-plessis-finished-kamaru-usman/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-07-23T07:15:45Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Josh Hokit blames ‘Hokit curse’ for Ryan Clark’s ESPN departure",
-      "url": "https://www.sherdog.com/news/news/Josh-Hokit-blames-Hokit-curse-for-Ryan-Clarks-ESPN-departure-202039",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-23T06:31:41Z"
     }
   ]
 }
