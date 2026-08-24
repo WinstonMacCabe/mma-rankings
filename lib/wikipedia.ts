@@ -123,7 +123,7 @@ function parseParamLine(line: string): Map<string, string> {
   return params
 }
 
-const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon/i
+const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon|Shoulder_mark|Flag_of|Badge|Logo|Coat_of_arms|Icon/i
 
 function parseImageUrl(rawImage: string): string {
   if (!rawImage) return ''
@@ -164,6 +164,7 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
   let mmaKowin = 0, mmaSubwin = 0, mmaDecwin = 0
   let mmaKOLoss = 0, mmaSubLoss = 0, mmaDecLoss = 0, mmaDQLoss = 0
   let foundWinFields = false, foundLossFields = false
+  let fallbackWin = 0, fallbackLoss = 0, foundFallbackWin = false, foundFallbackLoss = false
 
   if (infobox) {
     const lines = infobox.split('\n')
@@ -256,6 +257,12 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
               foundWinFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) result.kos = n
+            } else if (key === 'mma_win' || key === 'wins') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) { fallbackWin = n; foundFallbackWin = true }
+            } else if (key === 'mma_loss' || key === 'losses') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) { fallbackLoss = n; foundFallbackLoss = true }
             }
           }
         }
@@ -282,10 +289,14 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
   if (foundWinFields) {
     result.wins = mmaTotalWins
     result.kos = mmaKowin
+  } else if (foundFallbackWin) {
+    result.wins = fallbackWin
   }
   const mmaTotalLosses = mmaKOLoss + mmaSubLoss + mmaDecLoss + mmaDQLoss
   if (foundLossFields) {
     result.losses = mmaTotalLosses
+  } else if (foundFallbackLoss) {
+    result.losses = fallbackLoss
   }
 
   // Try to extract person infobox for image/nationality/birth date
