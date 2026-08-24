@@ -1,6 +1,160 @@
 {
-  "lastUpdated": "2026-08-24T01:45:53.144Z",
+  "lastUpdated": "2026-08-24T22:54:47.768Z",
   "fights": [
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "UFC analyst: Michael Morales poses 'big problem' for Islam Makhachev",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/23/ufc-analyst-michael-morales-poses-big-problem-islam-makhachev-title/91423083007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-23T22:40:15Z"
+    },
+    {
+      "boxerName": "Ian Machado Garry",
+      "headline": "Dana White doubles down on criticism of Ian Machado Garry's chumminess in UFC 330 loss",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/23/ufc-330-dana-white-remains-critical-ian-machado-garry-vs-islam-makhachev-too-friendly-title-fight/91432192007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-23T21:50:21Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cris Cyborg uncertain on MMA future after PFL Tampa title defense",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/23/pfl-tampa-cris-cyborg-uncertain-mma-future-title-defense/91433706007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-23T21:10:25Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Gregory Rodrigues wants Dricus du Plessis or Khamzat Chimaev after UFC Sacramento win: ‘Why I’m going to look back?‘",
+      "url": "https://www.mmafighting.com/ufc/506790/gregory-rodrigues-wants-dricus-du-plessis-or-khamzat-chimaev-after-ufc-sacramento-win-why-im-going-to-look-back",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-23T21:00:00Z"
+    },
+    {
+      "boxerName": "Bo Nickal",
+      "headline": "Bo Nickal suffers first wrestling loss since Olympic Trials at RAF 12 – ‘Disappointed in the result’",
+      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/467001/bo-nickal-suffers-first-wrestling-loss-since-olympic-trials-at-raf-12-disappointed-in-the-result",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-23T21:00:00Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa video: Cris Cyborg's grinder of a win over Ketlen Vieira",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/23/pfl-tampa-video-highlights-cris-cyborg-vs-ketlen-vieira-women-featherweight-title/91431700007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-23T18:40:19Z"
+    },
+    {
+      "boxerName": "Vitor Petrino",
+      "headline": "UFC Sacramento, The Morning After: Two All-Time Bad Game Plans Backfire Hilariously",
+      "url": "https://www.mmamania.com/ufc-results/466890/ufc-sacramento-the-morning-after-roman-dolidze-kennedy-nzechukwu-and-the-worst-gameplans-of-2026",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-23T14:19:00Z"
+    },
+    {
+      "boxerName": "Dricus du Plessis",
+      "headline": "Gregory Rodrigues Sends Message to Dricus du Plessis",
+      "url": "https://heavy.com/sports/ufc/gregory-rodrigues-message-dricus-du-plessis/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-23T08:03:28Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Dana White Goes on Another Long Rant About Ian Machado Garry",
+      "url": "https://heavy.com/sports/ufc/dana-white-rant-ian-machado-garry/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-23T07:27:12Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cyborg set to delay retirement after narrow win",
+      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cpw9wkqk7rdo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "source": "BBC News",
+      "publishedAt": "2026-08-23T06:58:58Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cyborg set to delay retirement after narrow win",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cpw9wkqk7rdo",
+      "source": "BBC News",
+      "publishedAt": "2026-08-23T06:56:44Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa: Cris Cyborg vs Ketlen Vieira Fight Highlights",
+      "url": "https://sports.yahoo.com/articles/pfl-tampa-cris-cyborg-vs-063535075.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-23T06:35:35Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa After the Bell: Cris Cyborg's final MMA bout?",
+      "url": "https://www.sherdog.com/videos/sherdogradio/PFL-Tampa-After-the-Bell-Cris-Cyborgs-final-MMA-bout-23703",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-23T05:02:09Z"
+    },
+    {
+      "boxerName": "Dricus du Plessis",
+      "headline": "Gregory Rodrigues calls out Dricus Du Plessis after UFC Sacramento win",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/23/ufc-sacramento-video-gregory-rodrigues-callout-dricus-du-plessis-middleweight-title-eliminator/91429612007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-23T04:59:20Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Matches to make after PFL Tampa",
+      "url": "https://www.sherdog.com/news/articles/Matches-to-make-after-PFL-Tampa-202487",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-23T04:33:23Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Highlights! Cyborg Decisions Vieira, Calls Out Harrison And Shields",
+      "url": "https://www.mmamania.com/professional-fighters-league-pfl/466882/highlights-not-retired-cris-cyborg-decisions-ketlen-vieira-calls-out-kayla-harrison-and-claressa-shields-video",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-23T04:27:51Z"
+    },
+    {
+      "boxerName": "Vitor Petrino",
+      "headline": "Matches to make after UFC Sacramento",
+      "url": "https://www.sherdog.com/news/articles/Matches-to-make-after-UFC-Sacramento-202486",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-23T04:15:50Z"
+    },
+    {
+      "boxerName": "Kayla Harrison",
+      "headline": "PFL Tampa results: Cris Cyborg defends title in hard-fought battle, sends message to Claressa Shields, Kayla Harrison",
+      "url": "https://www.mmafighting.com/pfl/506662/pfl-tampa-results-cris-cyborg-defends-title-in-hard-fought-battle-sends-message-to-claressa-shields-kayla-harrison",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-23T04:04:46Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa results: Cris Cyborg retains title, uncertain of fighting future",
+      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/22/pfl-tampa-results-cris-cyborg-retains-title-uncertain-fighting-future/91428866007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-23T03:49:10Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "PFL Tampa: Cyborg vs Vieira Post-Fight Press Conference",
+      "url": "https://sports.yahoo.com/articles/pfl-tampa-cyborg-vs-vieira-034004844.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-23T03:40:04Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cris Cyborg defeats Ketlen Vieira in retirement fight",
+      "url": "https://sports.yahoo.com/articles/cris-cyborg-defeats-ketlen-vieira-033555342.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-23T03:35:55Z"
+    },
+    {
+      "boxerName": "Bo Nickal",
+      "headline": "RAF 12 results: Bo Nickal falls to 2026 NCAA champion Max McEnelly in first wrestling loss since 2020",
+      "url": "https://www.mmafighting.com/raf-wrestling/506572/raf-12-results-bo-nickal-falls-to-2026-ncaa-champion-max-mcenelly-in-first-wrestling-loss-since-2020",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-23T02:20:54Z"
+    },
     {
       "boxerName": "Cris Cyborg",
       "headline": "Cris Cyborg gets pushed to the limit in potential final MMA fight at PFL Tampa",
@@ -1066,6 +1220,13 @@
       "publishedAt": "2026-08-17T14:52:37Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier: Mackenzie Dern looked explosive, striking improved at UFC 330",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-330-daniel-cormier-opinion-mackenzie-dern-dominated-everywhere-strawweight-title-robertson/91335207007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-17T14:30:39Z"
+    },
+    {
       "boxerName": "Islam Makhachev",
       "headline": "Islam’s next fight? Opening odds set for UFC title defenses against Carlos Prates, Michael Morales",
       "url": "https://www.mmamania.com/ufc-odds/465551/islams-next-fight-opening-odds-ufc-title-defenses-carlos-prates-michael-morales",
@@ -1157,7 +1318,7 @@
       "publishedAt": "2026-08-17T06:37:59Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Ian Machado Garry releases statement following UFC 330 loss to Islam Makhachev",
       "url": "https://sports.yahoo.com/articles/ian-machado-garry-releases-statement-045519365.html",
       "source": "Yahoo Entertainment",
@@ -2249,6 +2410,13 @@
       "publishedAt": "2026-08-11T16:10:16Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "UFC 330 commentary team set: Joe Rogan calls Islam Makhachev's bid at history",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/11/ufc-330-commentary-team-set-joe-rogan-jon-anik-daniel-cormier/91229240007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-11T13:40:20Z"
+    },
+    {
       "boxerName": "Umar Nurmagomedov",
       "headline": "Umar Nurmagomedov breaks silence on former UFC bantamweight champion Merab Dvalishvili striking his friend in Georgia",
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/umar-nurmagomedov-breaks-silence-on-former-ufc-bantamweight-champion-merab-dvalishvili-striking-his-friend-in-georgia/articleshow/133155753.cms",
@@ -2340,7 +2508,7 @@
       "publishedAt": "2026-08-10T20:30:22Z"
     },
     {
-      "boxerName": "Khabib Nurmagomedov",
+      "boxerName": "Daniel Cormier",
       "headline": "Khabib Nurmagomedov and Conor McGregor feud: Daniel Cormier explains why they could never make peace like Jon Jones",
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedov-and-conor-mcgregor-feud-daniel-cormier-explains-why-they-could-never-make-peace-like-jon-jones/articleshow/133136287.cms",
       "source": "The Times of India",
@@ -2487,6 +2655,13 @@
       "publishedAt": "2026-08-09T20:05:09Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier pitches Quillan Salkilld vs. big names after UFC Vegas 120",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/09/daniel-cormier-quillan-salkilld-big-names-lightweight-ufc-vegas-120/91234896007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-09T19:30:31Z"
+    },
+    {
       "boxerName": "Islam Makhachev",
       "headline": "UFC 330 roundtable: Is Islam Makhachev the next pound-for-pound great to fall? - MMA Fighting",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184912418",
@@ -2513,6 +2688,13 @@
       "url": "https://www.mmafighting.com/ufc/503650/ufc-330-roundtable-is-islam-makhachev-the-next-pound-for-pound-great-to-fall",
       "source": "MMA Fighting",
       "publishedAt": "2026-08-09T13:00:00Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "UFC Vegas 120 video: Daniel Cormier rips Billy Ray Goff's corner after Ty Miller TKO",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/08/ufc-vegas-120-video-billy-ray-goffs-corner-gets-heat-after-ty-miller-tko/91230565007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-09T00:42:03Z"
     },
     {
       "boxerName": "Arman Tsarukyan",
@@ -2578,6 +2760,13 @@
       "publishedAt": "2026-08-07T19:00:00Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier agrees with Joe Rogan, Aspinall right not to continue vs. Gane",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/07/ufc-daniel-cormier-opinion-tom-aspinall-treated-unfair-eye-poke-ciryl-gane-agrees-joe-rogan/91210861007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-07T18:40:20Z"
+    },
+    {
       "boxerName": "Ian Machado Garry",
       "headline": "Mania Mailbag: Does Ian Machado Garry stand a chance at UFC 330?",
       "url": "https://www.mmamania.com/mma-mailbag-questions-answers-ufc/462312/mania-mailbag",
@@ -2618,6 +2807,13 @@
       "url": "https://heavy.com/sports/ufc/ufc-vegas-120-gets-late-change/",
       "source": "Heavy.com",
       "publishedAt": "2026-08-07T04:07:24Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier reveals bizarre UFC commentary story involving alleged fight-fixing",
+      "url": "https://www.sherdog.com/news/news/Daniel-Cormier-reveals-bizarre-UFC-commentary-story-involving-alleged-fightfixing-202261",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-07T04:03:47Z"
     },
     {
       "boxerName": "Raul Rosas Jr.",
@@ -2681,6 +2877,13 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/06/demetrious-johnson-opinion-ufc-pay-big-free-agent-usman-nurmagomedov-pfl-mvp-jake-paul-dana-white/91193939007/",
       "source": "USA Today",
       "publishedAt": "2026-08-06T15:20:23Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier recounts calling alleged fixed UFC fight: ‘How in the world is this kid so bad’ - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184879854",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-06T14:12:04Z"
     },
     {
       "boxerName": "Arman Tsarukyan",
@@ -3019,6 +3222,13 @@
       "publishedAt": "2026-08-03T19:00:00Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "The Ultimate Insider: Xavier Franklin tells behind-the-scenes story of controversial win, Daniel Cormier ‘going crazy’",
+      "url": "https://www.mmafighting.com/ufc/502935/the-ultimate-insider-xavier-franklin-tells-behind-the-scenes-story-of-controversial-win-daniel-cormier-going-crazy",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-03T19:00:00Z"
+    },
+    {
       "boxerName": "Khamzat Chimaev",
       "headline": "Daniel Cormier: Strickland, Chimaev can't trash talk after burying the hatchet",
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/03/ufc-daniel-cormier-opinion-sean-strickland-vs-khamzat-chimaev-settled-beef-was-mistake-mmiddleweight/91146711007/",
@@ -3122,6 +3332,13 @@
       "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-coach-explains-weight-cut-issues-before-Sean-Strickland-loss-202178",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-03T01:23:59Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier: UFC 330 a hard fight for Ian Machado Garry and Islam Makhachev",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/02/ufc-330-daniel-cormier-prediction-ian-machado-garry-vs-islam-makhachev-welterweight-title-fight/91119141007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-02T23:40:29Z"
     },
     {
       "boxerName": "Usman Nurmagomedov",
@@ -3411,6 +3628,13 @@
       "publishedAt": "2026-07-31T15:00:00Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier: 'Crazy' Jon Jones and I never had conversation about our beef",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/31/ufc-news-daniel-cormier-says-jon-jones-lying-about-being-friends-conversation-rivalry-hate-crazy/91118957007/",
+      "source": "USA Today",
+      "publishedAt": "2026-07-31T13:40:27Z"
+    },
+    {
       "boxerName": "Khamzat Chimaev",
       "headline": "“When you see me again, ask for forgiveness” Khamzat Chimaev blasts Sean Strickland with brutal ‘coward’ label",
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/when-you-see-me-again-ask-for-forgiveness-khamzat-chimaev-blasts-sean-strickland-with-brutal-coward-label/articleshow/132768203.cms",
@@ -3458,6 +3682,13 @@
       "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-Tyron-Woodley-and-former-One-champ-booked-for-September-RAF-card-202162",
       "source": "Sherdog.com",
       "publishedAt": "2026-07-31T05:37:35Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier denies Jon Jones’ claims of amicable exchanges off-camera",
+      "url": "https://www.sherdog.com/news/news/Daniel-Cormier-denies-Jon-Jones-claims-of-amicable-exchanges-offcamera-202160",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-31T04:28:31Z"
     },
     {
       "boxerName": "Khamzat Chimaev",
@@ -3544,6 +3775,13 @@
       "publishedAt": "2026-07-30T14:01:15Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier calls Jon Jones a liar over alleged conversation about their rivalry: ‘Jon Jones, I do still hate you and I always will’",
+      "url": "https://www.mmafighting.com/ufc/502119/daniel-cormier-calls-jon-jones-a-liar-over-alleged-conversation-about-their-rivalry-jon-jones-i-do-still-hate-you-and-i-always-will",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-07-30T14:00:00Z"
+    },
+    {
       "boxerName": "Usman Nurmagomedov",
       "headline": "Usman Nurmagomedov welcomes ‘little short’ guy Archie Colgan to try and wrestle him: ‘He’s not going to win’",
       "url": "https://www.mmafighting.com/pfl/501609/usman-nurmagomedov-welcomes-little-short-guy-archie-colgan-to-try-and-wrestle-him-hes-not-going-to-win",
@@ -3570,6 +3808,13 @@
       "url": "https://www.sherdog.com/news/news/UFC-signs-Raul-Rosas-Jrs-brother-202143",
       "source": "Sherdog.com",
       "publishedAt": "2026-07-30T06:21:14Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "Jon Jones Says Daniel Cormier Admitted Hate Is for Show",
+      "url": "https://heavy.com/sports/ufc/jon-jones-daniel-cormier-hate-show/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-07-30T06:14:42Z"
     },
     {
       "boxerName": "Islam Makhachev",
@@ -3614,6 +3859,13 @@
       "publishedAt": "2026-07-29T21:15:35Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Jon Jones: Daniel Cormier admitted being my enemy has made him too much money",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/29/jon-jones-daniel-cormier-says-hes-keeping-rivalry-alive-for-business/91087015007/",
+      "source": "USA Today",
+      "publishedAt": "2026-07-29T15:40:33Z"
+    },
+    {
       "boxerName": "Dakota Ditcheva",
       "headline": "Dakota Ditcheva clarifies retirement timeline: ‘I don’t want to be in a position where I can’t let go of fighting’",
       "url": "https://www.mmafighting.com/pfl/495735/dakota-ditcheva-clarifies-retirement-timeline-i-dont-want-to-be-in-a-position-where-i-cant-let-go-of-fighting",
@@ -3626,6 +3878,34 @@
       "url": "https://www.mmamania.com/ufc-news/460830/michael-morales-headed-ufc-330-for-islam-vs-garry-brought-me-in-backup",
       "source": "MMA Mania",
       "publishedAt": "2026-07-29T14:01:48Z"
+    },
+    {
+      "boxerName": "Ian Machado Garry",
+      "headline": "Morning Report | Brendan Schaub rips Ian Machado Garry as his own worst enemy: ‘Shut up and fight’",
+      "url": "https://www.mmafighting.com/ufc/500584/morning-report-brendan-schaub-rips-ian-machado-garry-as-his-own-worst-enemy-shut-up-and-fight",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-07-29T12:00:00Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones breaks down matchups against fellow UFC double champs",
+      "url": "https://www.sherdog.com/news/news/Jon-Jones-breaks-down-matchups-against-fellow-UFC-double-champs-202122",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-29T05:02:35Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Jon Jones defends legacy, says he never used steroids despite failed tests",
+      "url": "https://www.sherdog.com/news/news/Jon-Jones-defends-legacy-says-he-never-used-steroids-despite-failed-tests-202112",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-07-29T01:47:47Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "TUF 34 Highlights! Semifinals set as former Contender Series vet starches opponent",
+      "url": "https://www.mmamania.com/latest-news/460753/tuf-34-highlights-semifinals-set-as-former-contender-series-vet-starches-opponent",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-29T00:45:00Z"
     },
     {
       "boxerName": "Magomed Zaynukov",
@@ -3654,6 +3934,13 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/28/ufc-jon-jones-declares-never-took-steroids/91075224007/",
       "source": "USA Today",
       "publishedAt": "2026-07-28T17:50:19Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "Jon Jones confident he would submit Alex Pereira ‘pretty quickly’ in MMA, beat Daniel Cormier in wrestling",
+      "url": "https://www.mmafighting.com/ufc/501868/jon-jones-confident-he-would-submit-alex-pereira-pretty-quickly-in-mma-beat-daniel-cormier-in-wrestling",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-07-28T16:00:00Z"
     },
     {
       "boxerName": "Khamzat Chimaev",
@@ -3768,6 +4055,13 @@
       "publishedAt": "2026-07-27T05:54:20Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Daniel Cormier: Magomed Ankalaev Next for 205 lbs Title Shot",
+      "url": "https://heavy.com/sports/ufc/daniel-cormier-magomed-ankalaev-title-shot/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-07-27T04:17:07Z"
+    },
+    {
       "boxerName": "Carlos Ulberg",
       "headline": "UFC champion Carlos Ulberg has plan to fix light heavyweight division",
       "url": "https://www.sherdog.com/news/news/UFC-champion-Carlos-Ulberg-has-plan-to-fix-light-heavyweight-division-202083",
@@ -3836,69 +4130,6 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/25/mike-davis-rips-alievs-wrestling-game-plan-i-just-want-to-bang/91048592007/",
       "source": "USA Today",
       "publishedAt": "2026-07-26T00:20:20Z"
-    },
-    {
-      "boxerName": "Carlos Ulberg",
-      "headline": "Carlos Ulberg 'saw what I needed' from Magomed Ankalaev in UFC Abu Dhabi win",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/25/carlos-ulberg-reacts-magomed-ankalaev-ufc-abu-dhabi-win/91049839007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-25T22:40:17Z"
-    },
-    {
-      "boxerName": "Nurullo Aliev",
-      "headline": "Mike Davis Trashes Nurullo Aliev Following UFC Abu Dhabi Loss",
-      "url": "https://heavy.com/sports/ufc/mike-davis-trashes-nurullo-aliev-loss/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-07-25T22:10:21Z"
-    },
-    {
-      "boxerName": "Nurullo Aliev",
-      "headline": "Video! Mike Davis Throws Post-Fight Temper Tantrum After UFC Abu Dhabi Loss",
-      "url": "https://www.mmamania.com/latest-news/459978/video-ufc-abu-dhabi-sore-loser-mike-davis-throws-post-fight-temper-tantrum-i-thought-ufc-were-cutting-wrestlers-results-paramount-aliev",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-25T22:00:00Z"
-    },
-    {
-      "boxerName": "Salahdine Parnasse",
-      "headline": "UFC Abu Dhabi results: Magomed Ankalaev manhandles Bogdan Guskov; Salahdine Parnasse to debut against Dan Hooker - Yahoo Sports",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184688128",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-07-25T21:12:14Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "“I Came This Close to Violating My Contract”: Jon Anik Makes Big Justin Gaethje Claim as Career Decision Looms",
-      "url": "https://www.essentiallysports.com/ufc-mma-news-i-came-this-close-to-violating-my-contract-jon-anik-makes-big-justin-gaethje-claim-as-career-decision-looms/",
-      "source": "Essentially Sports",
-      "publishedAt": "2026-07-25T21:06:28Z"
-    },
-    {
-      "boxerName": "Salahdine Parnasse",
-      "headline": "Salahdine Parnasse to make Octagon debut against Dan Hooker at UFC Paris",
-      "url": "https://www.sherdog.com/news/news/Salahdine-Parnasse-to-make-Octagon-debut-against-Dan-Hooker-at-UFC-Paris-202074",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-25T18:49:14Z"
-    },
-    {
-      "boxerName": "Salahdine Parnasse",
-      "headline": "UFC signs Salahdine Parnasse for Paris main event vs. Dan Hooker",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/25/ufc-paris-salahdine-parnasse-signs-dan-hooker-main-event/91038297007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-25T18:12:17Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "Brady Tkachuk Joins MMA Champions For Training Session While Preparing For First Season With Florida Panthers",
-      "url": "https://thehockeynews.com/nhl/florida-panthers/latest-news/brady-tkachuk-joins-mma-champions-for-training-session-while-preparing-for-first-season-with-florida-panthers",
-      "source": "The Hockey News",
-      "publishedAt": "2026-07-25T16:10:26Z"
-    },
-    {
-      "boxerName": "Carlos Ulberg",
-      "headline": "Alex Pereira Warns Paulo Costa He Can Swoop In For UFC LHW Title Shot Whenever He Wants",
-      "url": "https://www.mmamania.com/latest-news/459399/poatan-privilege-alex-pereira-warns-paulo-costa-he-can-swoop-in-for-ufc-light-heavyweight-title-shot-whenever-he-wants",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-25T02:00:00Z"
     }
   ]
 }
