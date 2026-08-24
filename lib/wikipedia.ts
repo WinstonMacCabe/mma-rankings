@@ -315,8 +315,13 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
       if (!result.birthDate) {
         const rawBirthDate = params.get('birth_date')
         if (rawBirthDate) {
-          const yearMatch = rawBirthDate.match(/(\d{4})/)
-          if (yearMatch) result.birthDate = yearMatch[1]
+          const fullDateMatch = rawBirthDate.match(/\{\{birth date[^}]*\|(\d{4})\|(\d{1,2})\|(\d{1,2})/)
+          if (fullDateMatch) {
+            result.birthDate = `${fullDateMatch[1]}-${fullDateMatch[2].padStart(2, '0')}-${fullDateMatch[3].padStart(2, '0')}`
+          } else {
+            const yearMatch = rawBirthDate.match(/(\d{4})/)
+            if (yearMatch) result.birthDate = yearMatch[1]
+          }
         }
       }
       if (!result.nationality) {
