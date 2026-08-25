@@ -286,16 +286,15 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
 
   // Compute totals from mma_* breakdowns
   const mmaTotalWins = mmaKowin + mmaSubwin + mmaDecwin
-  if (foundWinFields && mmaTotalWins > 0) {
-    result.wins = mmaTotalWins
+  if (foundWinFields) {
+    result.wins = mmaTotalWins > 0 ? mmaTotalWins : (foundFallbackWin ? fallbackWin : 0)
     result.kos = mmaKowin
   } else if (foundFallbackWin) {
     result.wins = fallbackWin
-    if (foundWinFields) result.kos = mmaKowin
   }
   const mmaTotalLosses = mmaKOLoss + mmaSubLoss + mmaDecLoss + mmaDQLoss
-  if (foundLossFields && mmaTotalLosses > 0) {
-    result.losses = mmaTotalLosses
+  if (foundLossFields) {
+    result.losses = mmaTotalLosses > 0 ? mmaTotalLosses : (foundFallbackLoss ? fallbackLoss : 0)
   } else if (foundFallbackLoss) {
     result.losses = fallbackLoss
   }
