@@ -1,6 +1,97 @@
 {
-  "lastUpdated": "2026-08-28T02:12:56.552Z",
+  "lastUpdated": "2026-08-29T00:06:41.627Z",
   "fights": [
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "No Bets Barred: Can Umar Nurmagomedov reclaim his aura against Son Yadong at UFC Shanghai?",
+      "url": "https://www.mmafighting.com/ufc/507336/no-bets-barred-can-umar-nurmagomedov-reclaim-his-aura-against-son-yadong-at-ufc-shanghai",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-27T23:00:00Z"
+    },
+    {
+      "boxerName": "Carlos Ulberg",
+      "headline": "Six60 on tour with the All Blacks in South Africa and Baltimore",
+      "url": "https://www.nzherald.co.nz/entertainment/six60-on-tour-with-the-all-blacks-in-south-africa-and-baltimore/MKYVP5YJ7JBVRI673IZL2S3V2U/",
+      "source": "New Zealand Herald",
+      "publishedAt": "2026-08-27T20:30:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "UFC-you soon? Usman Nurmagomedov already shrugged off $2 million offer from PFL",
+      "url": "https://www.mmamania.com/ufc-news/467649/ufc-usman-nurmagomedov-already-shrugged-off-2-million-offer-pfl",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-27T19:41:10Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Sean Brady: Michael Morales harder test for Islam Makhachev than Carlos Prates",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/27/sean-brady-michael-morales-tougher-for-makhachev-than-carlos-prates/91486680007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-27T17:50:18Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Bad news for Yadong (and Umar) — Sean O’Malley vs. Petr Yan rematch ‘makes most sense’ for UFC",
+      "url": "https://www.mmamania.com/ufc-news/467638/bad-news-yadong-umar-sean-omalley-vs-petr-yan-rematch-makes-most-sense-ufc",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-27T17:27:42Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Umar Nurmagomedov has new nickname for Merab Dvalishvili after latest comments: ‘All the time crying’ - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185226133",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-27T16:12:51Z"
+    },
+    {
+      "boxerName": "Carlos Ulberg",
+      "headline": "Surgically-repaired Carlos Ulberg won’t repeat Shavkat’s mistake, sets cautious timeline for UFC return",
+      "url": "https://www.mmamania.com/ufc-news/467634/carlos-ulberg-wont-repeat-shavkats-mistake-cautious-timeline-ufc-return",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-27T16:01:00Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "UFC Shanghai full fight: Umar Nurmagomedov outpoints Cory Sandhagen in title eliminator",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/27/ufc-shanghai-full-fight-umar-nurmagomedov-outpoints-cory-sandhagen/91460129007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-27T12:03:03Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Alexander Volkanovski promises a brawl with Movsar Evloev: ‘He’s gonna have to strike with me’",
+      "url": "https://www.mmamania.com/ufc-news/467598/alexander-volkanovski-promises-a-brawl-with-movsar-evloev-hes-gonna-have-to-strike-with-me",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-27T11:16:15Z"
+    },
+    {
+      "boxerName": "Carlos Ulberg",
+      "headline": "Carlos Ulberg Provides Latest Health Update",
+      "url": "https://heavy.com/sports/ufc/carlos-ulberg-provides-latest-health-update/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-08-27T06:16:38Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Claressa Shields: Cris Cyborg turned down $2 million to fight me at 154 pounds",
+      "url": "https://www.sherdog.com/news/news/Claressa-Shields-Cris-Cyborg-turned-down-362-million-to-fight-me-at-154-pounds-202556",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-27T05:11:56Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Merab Dvalishvili clears air on Islam Makhachev, Russian flag controversy",
+      "url": "https://www.sherdog.com/news/news/Merab-Dvalishvili-clears-air-on-Islam-Makhachev-Russian-flag-controversy-202552",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-27T03:44:02Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Sean Brady spots major Carlos Prates weakness against Islam Makhachev",
+      "url": "https://www.sherdog.com/news/news/Sean-Brady-spots-major-Carlos-Prates-weakness-against-Islam-Makhachev-202548",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-27T03:12:57Z"
+    },
     {
       "boxerName": "Sean Brady (fighter)",
       "headline": "Sean Brady disagrees with Din Thomas’ handling of UFC 330 backlash",
@@ -4228,69 +4319,6 @@
       "url": "https://www.thebiglead.com/michael-morales-ufc-330-rumors-on-potential-fight-debunked/",
       "source": "The Big Lead",
       "publishedAt": "2026-07-30T01:48:34Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Biggest MMA betting favorite ever? Dakota Ditcheva’s PFL NY line is embarrassing",
-      "url": "https://www.mmamania.com/latest-news/460925/biggest-mma-betting-favorite-ever-dakota-ditchevas-pfl-ny-line-is-embarrassing",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-29T21:15:35Z"
-    },
-    {
-      "boxerName": "Magomed Ankalaev",
-      "headline": "Paulo Costa: Magomed Ankalaev 'closer to getting cut than to the title'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/29/paulo-costa-one-more-boring-fight-and-magomed-ankalaev-is-getting-cut/91088032007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-29T21:01:01Z"
-    },
-    {
-      "boxerName": "Magomed Ankalaev",
-      "headline": "T.J. Dillashaw: 'Point fighter' Magomed Ankalaev is 'just so boring'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/29/t-j-dillashaw-ex-ufc-champion-magomed-ankalaev-is-just-so-boring/91087188007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-29T18:10:22Z"
-    },
-    {
-      "boxerName": "Daniel Cormier",
-      "headline": "Jon Jones: Daniel Cormier admitted being my enemy has made him too much money",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/07/29/jon-jones-daniel-cormier-says-hes-keeping-rivalry-alive-for-business/91087015007/",
-      "source": "USA Today",
-      "publishedAt": "2026-07-29T15:40:33Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Dakota Ditcheva clarifies retirement timeline: ‘I don’t want to be in a position where I can’t let go of fighting’",
-      "url": "https://www.mmafighting.com/pfl/495735/dakota-ditcheva-clarifies-retirement-timeline-i-dont-want-to-be-in-a-position-where-i-cant-let-go-of-fighting",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-07-29T15:00:00Z"
-    },
-    {
-      "boxerName": "Michael Morales (fighter)",
-      "headline": "Michael Morales headed to UFC 330 for Islam vs. Garry — ‘They brought me in as backup’",
-      "url": "https://www.mmamania.com/ufc-news/460830/michael-morales-headed-ufc-330-for-islam-vs-garry-brought-me-in-backup",
-      "source": "MMA Mania",
-      "publishedAt": "2026-07-29T14:01:48Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Morning Report | Brendan Schaub rips Ian Machado Garry as his own worst enemy: ‘Shut up and fight’",
-      "url": "https://www.mmafighting.com/ufc/500584/morning-report-brendan-schaub-rips-ian-machado-garry-as-his-own-worst-enemy-shut-up-and-fight",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-07-29T12:00:00Z"
-    },
-    {
-      "boxerName": "Jon Jones",
-      "headline": "Jon Jones breaks down matchups against fellow UFC double champs",
-      "url": "https://www.sherdog.com/news/news/Jon-Jones-breaks-down-matchups-against-fellow-UFC-double-champs-202122",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-29T05:02:35Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "A larger ADCC champion couldn’t solve Islam Makhachev’s grappling",
-      "url": "https://www.sherdog.com/news/news/A-larger-ADCC-champion-couldnt-solve-Islam-Makhachevs-grappling-202120",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-07-29T04:29:20Z"
     }
   ]
 }
