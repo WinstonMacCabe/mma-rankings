@@ -1,6 +1,160 @@
 {
-  "lastUpdated": "2026-09-01T00:25:22.614Z",
+  "lastUpdated": "2026-09-02T00:26:17.240Z",
   "fights": [
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Dan Hooker willing to welcome Usman Nurmagomedov to UFC because 'no one else will'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/31/ufc-paris-dan-hooker-callout-usman-nurmagomedov-debut-other-lightweights-scared-take-risk-reward/91545289007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-31T23:40:28Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Demetrious Johnson breaks down Song Yadong's 'kill shot' on Umar Nurmagomedov",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_55a84ef1-f5ed-4bfa-a741-b68d9b368bef",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-31T22:50:17Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Paris Hooker Vs. Parnasse Fight Card: Start Time, Date, Location",
+      "url": "https://www.forbes.com/sites/trentreinsmith/2026/08/31/ufc-paris-hooker-vs-parnasse-fight-card-start-time-date-location/",
+      "source": "Forbes",
+      "publishedAt": "2026-08-31T21:43:24Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "‘Let me ask you a question’: Chael Sonnen admits he ‘lost’ composure after Matan Show prank",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/let-me-ask-you-a-question-chael-sonnen-admits-he-lost-composure-after-matan-show-prank/articleshow/133662748.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-31T20:33:19Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "UFC Hall of Famer says Usman Nurmagomedov 'should be in trouble' for jumping cage",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/31/ufc-shanghai-chris-weidman-reaction-usman-nurmagomedov-cage-jump/91549726007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-31T19:30:36Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Restless Khamzat adds three top names to middleweight hit list for UFC return — ‘I’m ready’",
+      "url": "https://www.mmamania.com/ufc-news/468780/restless-khamzat-adds-three-names-middleweight-hit-list-ufc-return-im-ready",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-31T17:27:52Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Umar Nurmagomedov's coach shocked by loss to Song Yadong: 'My mouth just dropped'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/31/ufc-shanghai-javier-mendes-reaction-umar-nurmagomedov-song-yadong-ko-loss/91543611007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-31T17:01:00Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Video: Sean O’Malley shares stunned reaction to Song Yadong putting Umar Nurmagomedov to sleep at UFC Shanghai",
+      "url": "https://www.mmafighting.com/ufc/507982/video-sean-omalley-shares-stunned-reaction-to-song-yadong-putting-umar-nurmagomedov-to-sleep-at-ufc-shanghai",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-31T17:00:00Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Dan Hooker on Salahdine Parnasse: ‘This is going to be the first and last time this kid headlines a UFC event’ - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185323488",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-31T15:52:36Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Carlos Prates confident he knocks out Islam Makhachev after getting ‘smashed’ early",
+      "url": "https://www.mmafighting.com/ufc/507444/carlos-prates-confident-he-knocks-out-islam-makhachev-after-getting-smashed-early",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-31T15:00:00Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Sean O’Malley expects to leapfrog red-hot Song Yadong for next UFC title shot — on one condition",
+      "url": "https://www.mmamania.com/ufc-news/468759/sean-omalley-leapfrog-red-hot-song-yadong-next-ufc-title-shot-one-condition",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-31T14:24:52Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Daniel Cormier inclined to give Usman Nurmagomedov 'grace' after UFC Shanghai cage-rush",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/31/ufc-shanghai-daniel-cormier-defends-usman-nurmagomedov-cage-rush-umar-knockout-song-yadong/91543143007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-31T13:40:23Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov's former rival returns for PFL Chicago",
+      "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedovs-former-rival-returns-for-PFL-Chicago-202594",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T07:04:12Z"
+    },
+    {
+      "boxerName": "Zabit Magomedsharipov",
+      "headline": "Zabit Magomedsharipov calls Yadong Song’s Umar Nurmagomedov KO a ‘lucky punch’",
+      "url": "https://www.sherdog.com/news/news/Zabit-Magomedsharipov-calls-Yadong-Songs-Umar-Nurmagomedov-KO-a-lucky-punch-202591",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T06:11:53Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Yadong Song's team predicted exact uppercut KO of Umar Nurmagomedov",
+      "url": "https://www.sherdog.com/news/news/Yadong-Songs-team-predicted-exact-uppercut-KO-of-Umar-Nurmagomedov-202590",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T05:54:55Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov fires back over Yadong Song incident at UFC Shanghai",
+      "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedov-fires-back-over-Yadong-Song-incident-at-UFC-Shanghai-202587",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T04:00:52Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Dan Hooker doubts Ilia Topuria would risk Usman Nurmagomedov fight",
+      "url": "https://www.sherdog.com/news/news/Dan-Hooker-doubts-Ilia-Topuria-would-risk-Usman-Nurmagomedov-fight-202585",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T03:39:56Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov bought one of Petr Yan's rarest possessions",
+      "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedov-bought-one-of-Petr-Yans-rarest-possessions-202583",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T03:08:02Z"
+    },
+    {
+      "boxerName": "Zabit Magomedsharipov",
+      "headline": "Zabit Magomedsharipov returns after 7 years, beats UFC featherweight",
+      "url": "https://www.sherdog.com/news/news/Zabit-Magomedsharipov-returns-after-7-years-beats-UFC-featherweight-202582",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T02:47:11Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Islam Makhachev, Belal Muhammad rally around Umar Nurmagomedov after brutal KO",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-Belal-Muhammad-rally-around-Umar-Nurmagomedov-after-brutal-KO-202580",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T02:14:01Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Sean O’Malley: Yadong Song is a ‘problem’ for Merab Dvalishvili",
+      "url": "https://www.sherdog.com/news/news/Sean-OMalley-Yadong-Song-is-a-problem-for-Merab-Dvalishvili-202579",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-08-31T01:55:53Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Song Yadong’s Return to China Cements his Place atop the Bantamweight Rankings",
+      "url": "https://www.thesportingtribune.com/2026/08/30/ufc-fight-night-shanghai",
+      "source": "Thesportingtribune.com",
+      "publishedAt": "2026-08-31T00:40:15Z"
+    },
     {
       "boxerName": "Umar Nurmagomedov",
       "headline": "Matches To Make After UFC Shanghai",
@@ -1871,7 +2025,7 @@
       "publishedAt": "2026-08-18T13:55:16Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Michael Morales (fighter)",
       "headline": "Carlos Prates denies turning down Michael Morales fight: ‘I’m not scared’",
       "url": "https://www.mmamania.com/ufc-news/465728/carlos-prates-denies-turning-down-michael-morales-fight-im-not-scared",
       "source": "MMA Mania",
@@ -4284,76 +4438,6 @@
       "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-coach-explains-weight-cut-issues-before-Sean-Strickland-loss-202178",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-03T01:23:59Z"
-    },
-    {
-      "boxerName": "Daniel Cormier",
-      "headline": "Daniel Cormier: UFC 330 a hard fight for Ian Machado Garry and Islam Makhachev",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/02/ufc-330-daniel-cormier-prediction-ian-machado-garry-vs-islam-makhachev-welterweight-title-fight/91119141007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-02T23:40:29Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Dana White responds to Usman Nurmagomedov free agency and UFC’s interest, decision coming ‘very soon’ - MMA Fighting",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184822956",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-02T23:32:08Z"
-    },
-    {
-      "boxerName": "Michael Morales (fighter)",
-      "headline": "Michael Morales: Machado Garry has 'zero chance' vs. Makhachev",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/hablemos-mma/2026/08/02/michael-morales-machado-garry-has-zero-chance-vs-makhachev/91140961007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-02T22:00:22Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Khamzat Chimaev ‘was set to face Jiri Prochazka at 205’ before 185 pound Strickland swerve",
-      "url": "https://www.mmamania.com/ufc-news/462098/khamzat-chimaev-was-set-to-face-jiri-prochazka-at-205-before-185-pound-strickland-swerve",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-02T21:16:11Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Dana White responds to Usman Nurmagomedov free agency and UFC’s interest, decision coming ‘very soon’",
-      "url": "https://www.mmafighting.com/ufc/502930/dana-white-responds-to-usman-nurmagomedov-free-agency-and-potentially-signing-him-to-ufc",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-02T21:00:00Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Khabib: Usman Nurmagomedov will make free agency decision 'very soon'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/02/khabib-usman-nurmagomedov-timeline-free-agency-pfl-ufc/91141702007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-02T18:40:29Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Dakota Ditcheva bothered by New York boo-birds: ‘I wanted a stoppage myself’",
-      "url": "https://www.mmamania.com/professional-fighters-league-pfl/462059/dakota-ditcheva-bothered-by-new-york-boo-birds-i-wanted-a-stoppage-myself",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-02T18:00:00Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Dakota Ditcheva felt the emotions at PFL New York, but not ring rust",
-      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/02/pfl-new-york-dakota-ditcheva-ring-rust/91131373007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-02T17:00:23Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "UFC or PFL? Usman Nurmagomedov’s free agency just got interesting",
-      "url": "https://www.mmamania.com/latest-news/462018/ufc-or-pfl-usman-nurmagomedovs-free-agency-just-got-interesting",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-02T12:00:00Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Dana White Reacts to Potential Usman Nurmagomedov Signing",
-      "url": "https://heavy.com/sports/ufc/dana-white-potential-usman-nurmagomedov-signing/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-02T00:47:12Z"
     }
   ]
 }
