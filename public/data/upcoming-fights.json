@@ -1,6 +1,146 @@
 {
-  "lastUpdated": "2026-09-02T00:26:17.240Z",
+  "lastUpdated": "2026-09-03T00:25:17.331Z",
   "fights": [
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Fight Night 287 pre-event facts: Salahdine Parnasse gets rare main event debut",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/01/ufc-fight-night-287-paris-pre-event-facts-salahdine-parnasse-rare-debut-main-event/91539816007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-01T19:30:24Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Arman Tsarukyan wants ‘at least 5’ lightweight title defenses to break Islam Makhachev’s UFC record",
+      "url": "https://www.mmafighting.com/ufc/508050/arman-tsarukyan-wants-at-least-5-lightweight-title-defenses-to-break-islam-makhachevs-ufc-record",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-01T18:00:00Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "UFC veteran rips into 'potato head' Daniel Cormier for defending Usman Nurmagomedov",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/01/darren-till-rips-daniel-cormier-defending-usman-nurmagomedov-ufc-shanghai-cage-jump/91563274007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-01T17:50:19Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Video: Dan Hooker, Salahdine Parnasse face off ahead of UFC Paris",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/01/ufc-paris-video-dan-hooker-vs-salahdine-parnasse-faceoff/91560493007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-01T16:10:16Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev is ready to fight, names four potential opponents",
+      "url": "https://sports.yahoo.com/articles/khamzat-chimaev-ready-fight-names-155508933.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-01T15:55:08Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "New Meta rankings! Umar Nurmagomedov, Yan Xiaonan nosedive following upset losses at UFC Shanghai",
+      "url": "https://www.mmamania.com/ufc-mma-rankings/468889/new-meta-rankings-umar-nurmagomedov-yan-xiaonan-nosedive-upset-losses-ufc-shanghai",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-01T14:04:23Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Salty Cejudo Says Song Loses ‘9 Out Of 10 Times’",
+      "url": "https://www.mmamania.com/latest-news/468858/lucky-shot-henry-cejudo-argues-that-umar-nurmagomedov-defeats-song-yadong-9-out-of-10-times",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-01T07:00:00Z"
+    },
+    {
+      "boxerName": "Caio Borralho",
+      "headline": "Caio Borralho Calls for Fight at UFC 334",
+      "url": "https://heavy.com/sports/ufc/caio-borralho-calls-for-ufc-334/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-01T05:48:41Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Caio Borralho says Khamzat Chimaev doesn't deserve UFC title shot",
+      "url": "https://www.sherdog.com/news/news/Caio-Borralho-says-Khamzat-Chimaev-doesnt-deserve-UFC-title-shot-202612",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T05:42:56Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Javier Mendez spots Umar Nurmagomedov’s crucial mistake in KO loss",
+      "url": "https://www.sherdog.com/news/news/Javier-Mendez-spots-Umar-Nurmagomedovs-crucial-mistake-in-KO-loss-202611",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T05:25:58Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Carlos Prates says he'll get 'smashed' before knocking out Islam Makhachev",
+      "url": "https://www.sherdog.com/news/news/Carlos-Prates-says-hell-get-smashed-before-knocking-out-Islam-Makhachev-202609",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T04:54:49Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Umar Nurmagomedov sends defiant message after first knockout loss",
+      "url": "https://www.sherdog.com/news/news/Umar-Nurmagomedov-sends-defiant-message-after-first-knockout-loss-202608",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T04:39:09Z"
+    },
+    {
+      "boxerName": "Muhammad Mokaev",
+      "headline": "Muhammad Mokaev answers Dana White's challenge in push for UFC return",
+      "url": "https://www.sherdog.com/news/news/Muhammad-Mokaev-answers-Dana-Whites-challenge-in-push-for-UFC-return-202607",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T04:19:08Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Dana White saw Ian Garry as too passive; Javier Mendez saw ‘genius’",
+      "url": "https://www.sherdog.com/news/news/Dana-White-saw-Ian-Garry-as-too-passive-Javier-Mendez-saw-genius-202606",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T03:49:48Z"
+    },
+    {
+      "boxerName": "Carlos Ulberg",
+      "headline": "Jiri Prochazka Teases UFC Fight News",
+      "url": "https://heavy.com/sports/ufc/jiri-prochazka-teases-ufc-fight-news/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-01T03:29:58Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev names 4 UFC targets, Caio Borralho answers the call",
+      "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-names-4-UFC-targets-Caio-Borralho-answers-the-call-202602",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T02:36:28Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Yadong Song defends Usman Nurmagomedov after bizarre UFC cage incident",
+      "url": "https://www.sherdog.com/news/news/Yadong-Song-defends-Usman-Nurmagomedov-after-bizarre-UFC-cage-incident-202600",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-01T02:03:15Z"
+    },
+    {
+      "boxerName": "Caio Borralho",
+      "headline": "“I’m getting the best shape of my life”: Caio Borralho eyes a big UFC 334 return with the middleweight title still in sight",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/im-getting-the-best-shape-of-my-life-caio-borralho-eyes-a-big-ufc-334-return-with-the-middleweight-title-still-in-sight/articleshow/133665914.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-01T02:02:34Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Highlights! Christine Ferea crushes ‘Queen of the Streets,’ calls out Cris Cyborg | BKFC 92",
+      "url": "https://www.mmamania.com/bare-knuckle-boxing-results-rules-ppv/468824/highlights-christine-ferea-crushes-queen-of-the-streets-calls-out-cris-cyborg-bkfc-92",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-01T00:46:31Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cris Cyborg to BKFC? David Feldman excited by idea",
+      "url": "https://mmajunkie.usatoday.com/story/sports/bkfc/2026/08/31/bkfc-david-feldman-cris-cyborg-christine-ferea-conor-mcgregor-signing/91554670007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-01T00:30:25Z"
+    },
     {
       "boxerName": "Usman Nurmagomedov",
       "headline": "Dan Hooker willing to welcome Usman Nurmagomedov to UFC because 'no one else will'",
@@ -1948,7 +2088,7 @@
       "publishedAt": "2026-08-18T22:00:51Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Michael Morales (fighter)",
       "headline": "Carlos Prates Sends Blunt Message to Michael Morales",
       "url": "https://heavy.com/sports/ufc/carlos-prates-blunt-message-michael-morales/",
       "source": "Heavy.com",
@@ -4298,146 +4438,6 @@
       "url": "https://heavy.com/sports/ufc/ufc-330-card-called-underwhelming-welterweight/",
       "source": "Heavy.com",
       "publishedAt": "2026-08-04T03:41:27Z"
-    },
-    {
-      "boxerName": "Sean Brady (fighter)",
-      "headline": "Sean Brady takes issue with lack of Philadelphia fighters at UFC 330",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/03/ufc-330-sean-brady-never-offered-fight-philadelphia-home-city-disappointed-mma/91147834007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-03T22:50:29Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Sean Strickland and Khamzat Chimaev spoiled UFC ‘blood feud’ with bro hugs, handshakes",
-      "url": "https://www.mmamania.com/ufc-news/462270/sean-strickland-khamzat-chimaev-spoiled-ufc-blood-feud-bro-hugs-handshakes",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-03T20:01:00Z"
-    },
-    {
-      "boxerName": "Zabit Magomedsharipov",
-      "headline": "Zabit Magomedsharipov to compete against top-10 UFC fighter at ACBJJ",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/08/03/zabit-magomedsharipov-acbjj-vs-ufc-youssef-zalal-grappling/91155038007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-03T19:30:35Z"
-    },
-    {
-      "boxerName": "Zabit Magomedsharipov",
-      "headline": "Zabit Magomedsharipov set to grapple UFC featherweight",
-      "url": "https://www.mmafighting.com/latest-news/503003/zabit-magomedsharipov-set-to-grapple-ufc-featherweight",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-03T19:00:00Z"
-    },
-    {
-      "boxerName": "Daniel Cormier",
-      "headline": "The Ultimate Insider: Xavier Franklin tells behind-the-scenes story of controversial win, Daniel Cormier ‘going crazy’",
-      "url": "https://www.mmafighting.com/ufc/502935/the-ultimate-insider-xavier-franklin-tells-behind-the-scenes-story-of-controversial-win-daniel-cormier-going-crazy",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-03T19:00:00Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Daniel Cormier: Strickland, Chimaev can't trash talk after burying the hatchet",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/03/ufc-daniel-cormier-opinion-sean-strickland-vs-khamzat-chimaev-settled-beef-was-mistake-mmiddleweight/91146711007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-03T17:50:32Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Spinning Back Clique: MVP-PFL merger, Medic dominates, Usman's future",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/spinning-back-clique/2026/08/03/spinning-back-clique-mvp-pfl-merger-medic-dominates-usmans-future/91142171007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-03T15:20:30Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Javier Mendez: Ilia Topuria toughest fight for Usman Nurmagomedov in the UFC",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/03/ufc-coach-javier-mendez-opinion-usman-nurmagomedov-toughest-fight-ilia-topuria-free-agent-pfl/91146035007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-03T14:30:27Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "UFC or PFL? Nurmagomedov to decide future 'very soon'",
-      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cvg0428e0dwo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "source": "BBC News",
-      "publishedAt": "2026-08-03T11:06:51Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "UFC or PFL? Nurmagomedov to decide future 'very soon'",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cvg0428e0dwo",
-      "source": "BBC News",
-      "publishedAt": "2026-08-03T11:06:46Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "Islam Makhachev rejects Khabib Retirement path, eyes more UFC wins",
-      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-rejects-Khabib-Retirement-path-eyes-more-UFC-wins-202189",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T05:28:13Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Dana White, Khabib Nurmagomedov comment on Usman Nurmagomedov's free agency",
-      "url": "https://www.sherdog.com/news/news/Dana-White-Khabib-Nurmagomedov-comment-on-Usman-Nurmagomedovs-free-agency-202187",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T03:58:49Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Dakota Ditcheva opens up on unexpected boos following PFL victory",
-      "url": "https://www.sherdog.com/news/news/Dakota-Ditcheva-opens-up-on-unexpected-boos-following-PFL-victory-202195",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T03:57:49Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Josh Hokit responds to Jake Paul’s $1 million NFL boxing challenge",
-      "url": "https://www.sherdog.com/news/news/Josh-Hokit-responds-to-Jake-Pauls-361-million-NFL-boxing-challenge-202184",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T03:09:20Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Usman Nurmagomedov’s manager makes bold Ilia Topuria fight prediction",
-      "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedovs-manager-makes-bold-Ilia-Topuria-fight-prediction-202182",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T02:37:08Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "UFC’s Josh Hokit Accepts Jake Paul’s $1 Million Boxing Offer",
-      "url": "https://brobible.com/sports/article/ufcs-josh-hokit-accepts-jake-pauls-1-million-boxing-offer/",
-      "source": "BroBible",
-      "publishedAt": "2026-08-03T02:06:41Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Jake Paul reveals why Khabib Nurmagomedov put PFL belt on Usman",
-      "url": "https://www.sherdog.com/news/news/Jake-Paul-reveals-why-Khabib-Nurmagomedov-put-PFL-belt-on-Usman-202180",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T01:52:54Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Islam Makhachev’s Alexander Volkanovski tactic helped Usman Nurmagomedov win",
-      "url": "https://www.sherdog.com/news/news/Islam-Makhachevs-Alexander-Volkanovski-tactic-helped-Usman-Nurmagomedov-win-202179",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T01:39:36Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Islam Makhachev’s Volkanovski tactic helped Usman Nurmagomedov win",
-      "url": "https://www.sherdog.com/news/news/Islam-Makhachevs-Volkanovski-tactic-helped-Usman-Nurmagomedov-win-202179",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T01:39:36Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Khamzat Chimaev coach explains weight cut issues before Sean Strickland loss",
-      "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-coach-explains-weight-cut-issues-before-Sean-Strickland-loss-202178",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-03T01:23:59Z"
     }
   ]
 }
