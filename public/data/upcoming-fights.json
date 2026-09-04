@@ -1,6 +1,139 @@
 {
-  "lastUpdated": "2026-09-03T00:25:17.331Z",
+  "lastUpdated": "2026-09-04T00:32:28.911Z",
   "fights": [
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Movsar Evloev: 'I will do anything I want' to Alexander Volkanovski at UFC 333",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/02/ufc-333-movsar-evloev-warns-alexander-volkanovski-title-fight/91586090007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-03T00:30:30Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "RAF Moscow: Khamzat Chimaev vs. Tyron Woodley match card, start time",
+      "url": "https://www.mmafighting.com/raf-wrestling/508103/raf-moscow-khamzat-chimaev-vs-tyron-woodley-match-card-start-time",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-02T22:00:00Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Finalized RAF Moscow card, start time, date and location | Khamzat vs. Woodley",
+      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/469159/finalized-raf-moscow-card-start-time-date-and-location-khamzat-vs-woodley",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-02T21:24:52Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "MMA math! Justin Gaethje avenged losses to Holloway, Oliveira by smashing Ilia Topuria, sets sights on Conor McGregor",
+      "url": "https://www.mmamania.com/ufc-news/469156/mma-math-justin-gaethje-avenged-losses-holloway-oliveira-smashing-ilia-topuria-sets-sights-conor-mcgregor",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-02T20:15:52Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Dan Hooker welcomes 'villain' role against Salahdine Parnasse in UFC Paris main event",
+      "url": "https://www.cbssports.com/ufc/news/dan-hooker-ufc-fight-night-saladhine-parnasse/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-09-02T19:34:22Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Rematch! Khamzat Chimaev vs. Gilbert Burns 2 set for RAF 13 in Miami",
+      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/469124/rematch-khamzat-chimaev-vs-gilbert-burns-2-raf-13-miami",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-02T17:10:31Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev vs. Gilbert Burns rematch set to co-headline RAF 13",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/09/02/khamzat-chimaev-vs-gilbert-burns-raf-13-wrestling-match-booked/91577574007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-02T15:47:29Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev vs. Gilbert Burns rematch set for RAF 13 co-main event",
+      "url": "https://www.mmafighting.com/raf-wrestling/508273/khamzat-chimaev-vs-gilbert-burns-rematch-set-for-raf-13-co-main-event",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-02T14:38:13Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Darren Till roasts ‘potato head’ Daniel Cormier for defending Usman at UFC Shanghai, Dana White chimes in",
+      "url": "https://www.mmamania.com/ufc-news/468965/darren-till-roasts-potato-head-daniel-cormier-defending-usman-ufc-shanghai-dana-white-chimes-in",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-02T13:54:03Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page wants to gift UFC a moment – even if it's his final fight",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/02/michael-page-has-unfinished-business-with-ufc-wants-to-gift-moment/91574534007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-02T13:40:27Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Who is Islam Makhachev’s father? All about $6M rich UFC welterweight champion’s dad Ramazan Makhachev, inside his humble Life as driver and farmer",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/who-is-islam-makhachevs-father-all-about-6m-rich-ufc-welterweight-champions-dad-ramazan-makhachev-inside-his-humble-life-as-driver-and-farmer/articleshow/133711530.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-02T13:12:38Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Usman Nurmagomedov's latest Instagram story with Dana White goes viral hours after UFC President says he “crossed the line” at UFC Shanghai",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/usman-nurmagomedovs-latest-instagram-story-with-dana-white-goes-viral-hours-after-ufc-president-says-he-crossed-the-line-at-ufc-shanghai/articleshow/133707769.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-02T10:56:31Z"
+    },
+    {
+      "boxerName": "Magomed Ankalaev",
+      "headline": "Big Ank Big Ducked By Paulo Costa",
+      "url": "https://www.mmamania.com/latest-news/469060/magomed-ankalaev-claims-great-competitor-paulo-costa-has-now-ducked-him-three-separate-times",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-02T07:00:00Z"
+    },
+    {
+      "boxerName": "Magomed Ankalaev",
+      "headline": "Magomed Ankalaev Explains Why He Wants Paulo Costa Next",
+      "url": "https://heavy.com/sports/ufc/magomed-ankalaev-wants-paulo-costa-next/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-02T05:43:07Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Dana White Reacts to Song Yadong KOing Umar Nurmagomedov",
+      "url": "https://heavy.com/sports/ufc/dana-white-song-yadong-umar-nurmagomedov/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-02T05:06:16Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Glover Teixeira says Alex Pereira would KO Josh Hokit in Round 1",
+      "url": "https://www.sherdog.com/news/news/Glover-Teixeira-says-Alex-Pereira-would-KO-Josh-Hokit-in-Round-1-202625",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-02T04:12:48Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Paris preview: Can Salahdine Parnasse make an instant impact vs. Dan Hooker?",
+      "url": "https://www.sherdog.com/videos/sherdogradio/UFC-Paris-preview-Can-Salahdine-Parnasse-make-an-instant-impact-vs-Dan-Hooker-23730",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-02T03:07:51Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "\"You as a company man is f**ing sh*t\": Darren Till takes a brutal shot at Daniel Cormier over his Usman Nurmagomedov defense",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/you-as-a-company-man-is-fing-sht-darren-till-takes-a-brutal-shot-at-daniel-cormier-over-his-usman-nurmagomedov-defense/articleshow/133695142.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-02T01:57:27Z"
+    },
+    {
+      "boxerName": "Usman Nurmagomedov",
+      "headline": "Darren Till Trashes Daniel Cormier for Defending Nurmagomedov",
+      "url": "https://heavy.com/sports/ufc/darren-till-daniel-cormier-defending-nurmagomedov/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-02T00:45:08Z"
+    },
     {
       "boxerName": "Salahdine Parnasse",
       "headline": "UFC Fight Night 287 pre-event facts: Salahdine Parnasse gets rare main event debut",
@@ -4298,146 +4431,6 @@
       "url": "https://biztoc.com/x/776633ecfb27d3da",
       "source": "Biztoc.com",
       "publishedAt": "2026-08-05T01:12:02Z"
-    },
-    {
-      "boxerName": "Bo Nickal",
-      "headline": "Bo Nickal set for RAF Moscow match against Olympic gold medalist",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/08/04/bo-nickal-raf-moscow-shirvani-muradov-olympic-gold-medalist-wrestling/91174742007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-05T00:30:18Z"
-    },
-    {
-      "boxerName": "Shavkat Rakhmonov",
-      "headline": "Return? Injury-plagued Shavkat Rakhmonov finally back sparring after knee surgery | Video",
-      "url": "https://www.mmamania.com/latest-news/462487/return-injury-plagued-shavkat-rakhmonov-finally-back-sparring-after-knee-surgery-video",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-04T23:37:47Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Paul Hughes on Usman Nurmagomedov: '100 percent I have the beating of that man'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/04/pfl-paul-hughes-hopes-usman-nurmagomedov-re-signs-trilogy/91165921007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-04T22:50:29Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev remarks on Justin Gaethje's uncertain future",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/04/ufc-islam-makhachev-remarks-justin-gaethje-future/91162141007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-04T21:10:28Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Islam Makhachev: Usman Nurmagomedov ready for 'real jungle' in UFC",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/04/islam-makhachev-usman-nurmagomedov-pfl-ufc-real-jungle/91161656007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-04T18:40:28Z"
-    },
-    {
-      "boxerName": "Bo Nickal",
-      "headline": "Bo Nickal faces Olympic champion on RAF Moscow: Chimaev vs. Woodley card",
-      "url": "https://www.mmafighting.com/raf-wrestling/503185/bo-nickal-faces-olympic-champion-on-raf-moscow-chimaev-vs-woodley-card",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-04T18:00:00Z"
-    },
-    {
-      "boxerName": "Magomed Ankalaev",
-      "headline": "Robert Whittaker Interested in Fighting Magomed Ankalaev",
-      "url": "https://heavy.com/sports/ufc/robert-whittaker-interested-fighting-magomed-ankalaev/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-04T15:46:28Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Ali Abdelaziz offers insight into approach on Usman Nurmagomedov's free agency",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/04/ufc-pfl-usman-nurmagomedov-free-agency-update-ali-abdelaziz/91163836007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-04T15:22:01Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "Top 5 greatest UFC Lightweight champions of all time: Khabib Nurmagomedov leads the ultimate 155-pound rankings",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/top-5-greatest-ufc-lightweight-champions-of-all-time-khabib-nurmagomedov-leads-the-ultimate-155-pound-rankings/articleshow/132862572.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-04T13:44:26Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev says he won't retire at UFC 330, wants to keep living 'champion's life'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/04/islam-makhachev-retirement-ufc-330-motivated-champions-life/91161497007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-04T13:40:22Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "UFC reports $30 million loss on UFC White House Freedom 250 event despite strong revenue growth and Justin Gaethje’s viral win over Ilia Topuria",
-      "url": "https://timesofindia.indiatimes.com/sports/international-sports/ufc-reports-30-million-loss-on-ufc-white-house-freedom-250-event-despite-strong-revenue-growth-and-justin-gaethjes-viral-win-over-ilia-topuria/articleshow/132862377.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-04T13:31:13Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Morning Report | Javier Mendes says Ilia Topuria is ‘by far’ the toughest UFC test for Usman Nurmagomedov",
-      "url": "https://www.mmafighting.com/ufc/502227/morning-report-javier-mendes-says-ilia-topuria-is-by-far-the-toughest-test-for-usman-nurmagomedov-in-the-ufc",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-04T12:30:00Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Our New Unexpected Collecting Obsession",
-      "url": "https://news.onmantel.com/our-new-unexpected-collecting-obsession/",
-      "source": "Onmantel.com",
-      "publishedAt": "2026-08-04T11:45:00Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Donald Trump’s UFC event confirmed to be a massive financial disaster",
-      "url": "https://thecomeback.com/ufc/donald-trump-white-house-event-disaster-for-the-ufc.html",
-      "source": "The Comeback",
-      "publishedAt": "2026-08-04T11:28:46Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "‘We Stay Here Many More Years’",
-      "url": "https://www.mmamania.com/ufc-news/462375/islam-makhachev-denies-retirement-rumors-leading-into-ufc-330-were-staying-here-for-more-years",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-04T11:18:17Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "How vegan diet changed course of Machado Garry's career",
-      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/c0kmpjmjyepo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "source": "BBC News",
-      "publishedAt": "2026-08-04T08:02:04Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "How vegan diet changed course of Machado Garry's career",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c0kmpjmjyepo",
-      "source": "BBC News",
-      "publishedAt": "2026-08-04T08:01:59Z"
-    },
-    {
-      "boxerName": "Zabit Magomedsharipov",
-      "headline": "Former UFC star Zabit Magomedsharipov again books long-awaited return",
-      "url": "https://www.sherdog.com/news/news/Former-UFC-star-Zabit-Magomedsharipov-again-books-longawaited-return-202207",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-04T05:15:44Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Daniel Cormier Unsure How Strickland & Chimaev Sell Rematch",
-      "url": "https://heavy.com/sports/ufc/daniel-cormier-unsure-strickland-chimaev-rematch/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-04T04:40:09Z"
-    },
-    {
-      "boxerName": "Sean Brady (fighter)",
-      "headline": "UFC 330 Card Called ‘Underwhelming’ by Welterweight Contender",
-      "url": "https://heavy.com/sports/ufc/ufc-330-card-called-underwhelming-welterweight/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-04T03:41:27Z"
     }
   ]
 }
