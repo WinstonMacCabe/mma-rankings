@@ -1,6 +1,174 @@
 {
-  "lastUpdated": "2026-09-04T00:32:28.911Z",
+  "lastUpdated": "2026-09-05T04:35:53.610Z",
   "fights": [
+    {
+      "boxerName": "Raul Rosas Jr.",
+      "headline": "Raul Rosas Jr.’s brother reportedly set for UFC debut at Noche UFC 4",
+      "url": "https://www.sherdog.com/news/news/Raul-Rosas-Jrs-brother-reportedly-set-for-UFC-debut-at-Noche-UFC-4-202659",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-04T04:00:43Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Jason Jackson says UFC doesn't want him disrupting Islam Makhachev's division",
+      "url": "https://www.sherdog.com/news/news/Jason-Jackson-says-UFC-doesnt-want-him-disrupting-Islam-Makhachevs-division-202656",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-04T03:10:45Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Movsar Evloev takes aim at women’s MMA: ‘It’s so hard’ to watch",
+      "url": "https://www.sherdog.com/news/news/Movsar-Evloev-takes-aim-at-womens-MMA-Its-so-hard-to-watch-202653",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-04T02:31:26Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev reacts to rumored Nassourdine Imavov vs. Sean Strickland title fight - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185416342",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-04T01:12:04Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Movsar Evloev dismisses notion that he's a boring fighter ahead of UFC 333",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/03/ufc-333s-movsar-evloev-no-finish-doesnt-mean-a-boring-fight/91591934007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-04T00:30:17Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Video: Tyron Woodley sizes up Khamzat Chimaev in faceoff ahead of RAF Moscow",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/09/03/video-tyron-woodley-sizes-up-khamzat-chimaev-in-raf-moscow-faceoff/91596875007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-03T19:30:54Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Salahdine Parnasse eyes 'dream fight' with Max Holloway after fighting Dan Hooker in Paris",
+      "url": "https://www.cbssports.com/ufc/news/salahdine-parnasse-max-holloway-dream-fight-ufc-paris/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-09-03T18:48:57Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev accepts surprising fight offer from top UFC contender after losing middleweight title",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/khamzat-chimaev-accepts-surprising-fight-offer-from-top-ufc-contender-after-losing-middleweight-title/articleshow/133743596.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-03T18:02:54Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Movsar Evloev wants to kick women out of UFC because their fights stink — ‘I can’t watch it, it’s so hard’",
+      "url": "https://www.mmamania.com/ufc-news/469251/movsar-evloev-wants-kick-women-out-of-ufc-their-fights-stink-i-cant-watch-it-its-so-hard",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-03T17:01:05Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Between the Links: Song Yadong’s massive knockout of Umar Nurmagomedov, UFC Paris, Mike Perry’s tough week",
+      "url": "https://www.mmafighting.com/ufc/508320/between-the-links-song-yadongs-massive-knockout-of-umar-nurmagomedov-ufc-paris-mike-perrys-tough-week",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-03T15:30:00Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Top UFC featherweight holds one thing against Jose Aldo in GOAT debate",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/03/ufc-movsar-evloev-featherweight-goat-debate-jose-aldo-alexander-volkanovski/91590299007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-03T15:20:16Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "After his first victory in 8 years, Tyron Woodley doubling down against Khamzat Chimaev at RAF 13",
+      "url": "https://sports.yahoo.com/wrestling/article/after-his-first-victory-in-8-years-tyron-woodley-doubling-down-against-khamzat-chimaev-at-raf-13-140000456.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-03T14:00:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page: Welterweight too congested, 'middleweight is where I want to be'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/03/ufc-paris-michael-page-middleweight-is-where-i-want-to-be/91590116007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-03T13:40:25Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Tyron Woodley explains why he’s not interested in running it back with Colby Covington in RAF",
+      "url": "https://www.mmafighting.com/ufc/508146/tyron-woodley-explains-why-hes-not-interested-in-running-it-back-with-colby-covington-in-raf",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-03T13:00:00Z"
+    },
+    {
+      "boxerName": "Movsar Evloev",
+      "headline": "Movsar Evloev eyes 26-pound weight cut as he opens up on UFC lightweight move following Alexander Volkanovski featherweight title fight at UFC 333",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/movsar-evloev-eyes-26-pound-weight-cut-as-he-opens-up-on-ufc-lightweight-move-following-alexander-volkanovski-featherweight-title-fight-at-ufc-333/articleshow/133736739.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-03T12:44:32Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "UFC Paris full fight: Michael Page toys with Jared Cannonier",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/03/ufc-paris-full-fight-michael-page-vs-jared-cannonier/91573608007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-03T12:01:20Z"
+    },
+    {
+      "boxerName": "Dricus du Plessis",
+      "headline": "Gregory Rodrigues sees ‘technical mistakes’ he can exploit in Dricus Du Plessis",
+      "url": "https://www.sherdog.com/news/news/Gregory-Rodrigues-sees-technical-mistakes-he-can-exploit-in-Dricus-Du-Plessis-202648",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-03T07:01:35Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev gets Gilbert Burns rematch, this time on wrestling mat",
+      "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-gets-Gilbert-Burns-rematch-this-time-on-wrestling-mat-202647",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-03T06:45:55Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Coach Hints at Islam Makhachev’s Potential UFC Return Date",
+      "url": "https://heavy.com/sports/ufc/coach-islam-makhachev-potential-return-date/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-03T06:23:12Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Sherdog Prospect Watch reloaded: Salahdine Parnasse",
+      "url": "https://www.sherdog.com/news/articles/Sherdog-Prospect-Watch-reloaded-Salahdine-Parnasse-202645",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-03T06:06:03Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Salahdine Parnasse sees ‘perfect fight’ in UFC debut against Dan Hooker",
+      "url": "https://www.sherdog.com/news/news/Salahdine-Parnasse-sees-perfect-fight-in-UFC-debut-against-Dan-Hooker-202643",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-03T05:26:50Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Paris betting preview: Five best bets for Parnasse vs. Hooker",
+      "url": "https://www.sherdog.com/videos/sherdogradio/UFC-Paris-betting-preview-Five-best-bets-for-Parnasse-vs-Hooker-23731",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-03T05:18:30Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev Calls Out Caio Borralho",
+      "url": "https://heavy.com/sports/ufc/khamzat-chimaev-calls-out-caio-borralho/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-03T04:47:46Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page slams ‘entitlement issues’ among top UFC welterweights",
+      "url": "https://www.sherdog.com/news/news/Michael-Page-slams-entitlement-issues-among-top-UFC-welterweights-202635",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-03T02:44:45Z"
+    },
     {
       "boxerName": "Movsar Evloev",
       "headline": "Movsar Evloev: 'I will do anything I want' to Alexander Volkanovski at UFC 333",
@@ -4270,167 +4438,6 @@
       "url": "https://www.sherdog.com/news/news/Alexander-Volkanovski-already-training-for-the-undefeated-fighter-he-expects-next-202243",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-06T04:44:08Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Mauricio Ruffy says Arman Tsarukyan win leads straight to title shot",
-      "url": "https://www.sherdog.com/news/news/Mauricio-Ruffy-says-Arman-Tsarukyan-win-leads-straight-to-title-shot-202237",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-06T02:58:07Z"
-    },
-    {
-      "boxerName": "Cris Cyborg",
-      "headline": "Cris Cyborg adds Holly Holm to camp ahead of PFL Tampa fight with Ketlen Vieira",
-      "url": "https://www.sherdog.com/news/news/Cris-Cyborg-adds-Holly-Holm-to-camp-ahead-of-PFL-Tampa-fight-with-Ketlen-Vieira-202236",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-06T02:24:07Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Arman Tsarukyan meets Maurício Ruffy in UFC 331 co-main event",
-      "url": "https://sports.yahoo.com/articles/arman-tsarukyan-meets-maur-cio-015239937.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-06T01:52:39Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "UFC 331 fight card revealed, Van vs. Pantoja 2 (and poor Arman Tsarukyan) leads loaded lineup",
-      "url": "https://www.mmamania.com/ufc-fight-announcements/462681/ufc-331-fight-card-revealed-van-vs-pantoja-2-and-poor-arman-tsarukyan-leads-loaded-lineup",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-05T23:55:37Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "UFC 331 fight card: Joshua Van vs. Alexandre Pantoja 2 set to headline in Los Angeles",
-      "url": "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-vs-alexandre-pantoja-2-date-location-los-angeles/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-08-05T23:53:42Z"
-    },
-    {
-      "boxerName": "Movsar Evloev",
-      "headline": "Jean Silva Thinks Movsar Evloev Will Pull Out of 145 lbs Title Fight",
-      "url": "https://heavy.com/sports/ufc/jean-silva-movsar-evloev-pull-out/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-05T23:19:26Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Joshua Van vs. Alexandre Pantoja 2, Arman Tsarukyan vs. Mauricio Ruffy set as full UFC 331 card revealed",
-      "url": "https://www.mmafighting.com/ufc/502644/joshua-van-vs-alexandre-pantoja-2-arman-tsarukyan-vs-mauricio-ruffy-set-as-full-ufc-331-card-revealed",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-05T23:18:35Z"
-    },
-    {
-      "boxerName": "Movsar Evloev",
-      "headline": "Jean Silva expects to be pulled from Noche UFC 4, fight Alex Volkanovski for featherweight title",
-      "url": "https://www.mmamania.com/upcoming-ufc-events/462646/jean-silva-expects-pulled-noche-ufc-4-fight-alex-volkanovski-featherweight-title",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-05T20:00:05Z"
-    },
-    {
-      "boxerName": "Kayla Harrison",
-      "headline": "Ali Abdelaziz says UFC champ Kayla Harrison will fight this year 'for sure'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/05/ufc-kayla-harrison-next-fight-update-ali-abdelaziz/91178351007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-05T19:30:34Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "Jake Paul tries to coax Khabib Nurmagomedov out of retirement for MVP; Khabib responds",
-      "url": "https://www.mmafighting.com/mvp-mma/503365/jake-paul-tries-to-coax-khabib-nurmagomedov-out-of-retirement-for-mvp-khabib-responds",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-05T19:00:00Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev open to Zuffa Boxing offer from Turki Alalshikh",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/05/ufc-islam-makhachev-reveals-zuffa-boxing-talks-turki-alalshikh/91178460007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-05T18:40:18Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Analyst predicts Usman Nurmagomedov moves to UFC, won't be 'a lock' to win",
-      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/05/chael-sonnen-usman-nurmagomedov-ufc-pfl-move/91175798007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-05T15:20:25Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Don’t send location! Watch Jake Paul’s feeble attempt to recruit Khabib for MVP MMA",
-      "url": "https://www.mmamania.com/ufc-videos/462582/dont-send-location-watch-jake-pauls-feeble-attempt-recruit-khabib-mvp-mma",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-05T15:03:42Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Jake Paul Promises to HUMILATE Undefeated UFC Heavyweight Josh Hokit in the Ring!",
-      "url": "https://mediatakeout.com/jake-paul-promises-to-humilate-undefeated-ufc-heavyweight-josh-hokit-in-the-ring/",
-      "source": "Mediatakeout.com",
-      "publishedAt": "2026-08-05T11:56:03Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Usman Nurmagomedov bet on himself; now the UFC question begins",
-      "url": "https://www.sherdog.com/news/news/Usman-Nurmagomedov-bet-on-himself-now-the-UFC-question-begins-202227",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-05T06:18:55Z"
-    },
-    {
-      "boxerName": "Bo Nickal",
-      "headline": "Bo Nickal vs. Olympic champion Shirvani Muradov set for RAF Moscow",
-      "url": "https://www.sherdog.com/news/news/Bo-Nickal-vs-Olympic-champion-Shirvani-Muradov-set-for-RAF-Moscow-202225",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-05T05:24:31Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Carlos Prates Says He’s Fighting for UFC Gold in His Next Fight",
-      "url": "https://heavy.com/sports/ufc/carlos-prates-says-hes-fighting-belt/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-05T05:06:19Z"
-    },
-    {
-      "boxerName": "Magomed Ankalaev",
-      "headline": "Robert Whittaker eyes Magomed Ankalaev next, dismisses Paulo Costa rematch",
-      "url": "https://www.sherdog.com/news/news/Robert-Whittaker-eyes-Magomed-Ankalaev-next-dismisses-Paulo-Costa-rematch-202219",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-05T02:40:55Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Usman Nurmagomedov to UFC Can’t Happen Just Yet",
-      "url": "https://heavy.com/sports/ufc/usman-nurmagomedov-ufc-cant-happen-yet/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-05T02:23:35Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev on Michael Morales as UFC 330 Backup Fighter",
-      "url": "https://heavy.com/sports/ufc/islam-makhachev-michael-morales-backup-fighter/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-05T01:42:49Z"
-    },
-    {
-      "boxerName": "Shavkat Rakhmonov",
-      "headline": "Shavkat Rakhmonov injury update: New footage boosts UFC return hopes",
-      "url": "https://www.sherdog.com/news/news/Shavkat-Rakhmonov-injury-update-New-footage-boosts-UFC-return-hopes-202217",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-05T01:19:04Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "'One-way traffic': Sean Brady predicts easy night for Islam Makhachev",
-      "url": "https://www.sherdog.com/news/news/Oneway-traffic-Sean-Brady-predicts-easy-night-for-Islam-Makhachev-202216",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-05T01:17:02Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "UFC Lost Staggering Amount of Money Putting on Freedom 250 Card at White House",
-      "url": "https://biztoc.com/x/776633ecfb27d3da",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-05T01:12:02Z"
     }
   ]
 }
