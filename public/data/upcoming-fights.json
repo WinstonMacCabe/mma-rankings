@@ -1,12 +1,131 @@
 {
-  "lastUpdated": "2026-09-07T00:25:31.298Z",
+  "lastUpdated": "2026-09-08T00:26:22.859Z",
   "fights": [
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Jon Anik says ‘internal conversations’ have UFC considering Gaethje vs. Topuria 2 next",
+      "url": "https://www.mmamania.com/ufc-news/470131/jon-anik-says-internal-conversations-have-ufc-considering-gaethje-vs-topuria-2-next",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-06T23:00:00Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Michael Bisping: Salahdine Parnasse put 'division on notice' in UFC Paris debut",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/06/ufc-paris-michael-bisping-salahdine-parnasse-put-division-on-notice/91616882007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-06T21:10:41Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Jon Anik thinks UFC is considering Justin Gaethje vs. Ilia Topuria rematch: ‘That’s what I think is going to happen’",
+      "url": "https://www.mmafighting.com/ufc/509024/jon-anik-thinks-ufc-is-considering-justin-gaethje-vs-ilia-topuria-rematch-thats-what-i-think-is-going-to-happen",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-06T21:00:00Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Sean Shelby's Shoes: What's next for Salahdine Parnasse after UFC Paris win?",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/06/ufc-paris-matchmaker-salahdine-parnasse-next-fight-win-debut-hooker/91641011007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-06T17:50:26Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Shavkat Rakhmonov on fighting Ian Machado Garry injured: ‘Khabib or Islam Makhachev, they definitely would’ve refused’",
+      "url": "https://www.mmafighting.com/ufc/509003/shavkat-rakhmonov-on-fighting-ian-machado-garry-injured-khabib-or-islam-makhachev-they-definitely-wouldve-refused",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-06T16:00:00Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "‘If I fight him right now, I beat him’: Ian Machado Garry on loss to Islam Makhachev, when he wants to return",
+      "url": "https://www.mmafighting.com/ufc/508946/if-i-fight-him-right-now-i-beat-him-ian-machado-garry-on-loss-to-islam-makhachev-when-he-wants-to-return",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-06T15:00:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "UFC Paris: Michael 'Venom' Page wins in underwhelming UFC farewell - BBC",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185467696",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-06T14:32:38Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Paris main event winner Salahdine Parnasse calls Max Holloway ‘my dream fight’",
+      "url": "https://www.mmafighting.com/ufc/508977/ufc-paris-main-event-winner-salahdine-parnasse-calls-max-holloway-my-dream-fight",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-06T14:00:00Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Delusion? UFC’s Ian Garry believes he would defeat Islam Makhachev ‘right now’ – ‘I have so much confidence’",
+      "url": "https://www.mmamania.com/latest-news/470037/delusion-ian-garry-beat-islam-makhachev-right-now-ufc-rematch",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-06T13:00:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page wants to take ‘more risks’ in fights following UFC Paris snoozefest – ‘Fans deserve more’",
+      "url": "https://www.mmamania.com/latest-news/470017/michael-page-wants-to-take-more-risks-in-fights-following-ufc-paris-snoozefest-fans-deserve-more",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-06T12:00:00Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Salahdine Parnasse folds Dan Hooker in UFC Paris headliner - Sherdog",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185459748",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-06T07:12:04Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Fight Night results, highlights: Salahdine Parnasse scores knockout of Dan Hooker, calls out Max Holloway - CBS Sports",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185458568",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-06T05:52:15Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Paris results: Salahdine Parnasse lives up to the hype, demolishes Dan Hooker in star-making debut - Yahoo Sports",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185457640",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-06T04:32:05Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "\"Dam did him bad\": Salahdine Parnasse stunned Dan Hooker in his UFC Paris debut as fighters react to a performance that changed everything",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/dam-did-him-bad-salahdine-parnasse-stunned-dan-hooker-in-his-ufc-paris-debut-as-fighters-react-to-a-performance-that-changed-everything/articleshow/133822869.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-06T02:43:33Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "“That is the only thing that I have fallen short of”: Michael Page gets honest after his UFC Paris win revealing what he feels has been missing all along",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/that-is-the-only-thing-that-i-have-fallen-short-of-michael-page-gets-honest-after-his-ufc-paris-win-revealing-what-he-feels-has-been-missing-all-along/articleshow/133822588.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-06T02:12:58Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Salahdine Parnasse knocks out Dan Hooker in UFC debut - ESPN",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185454882",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-06T00:52:35Z"
+    },
     {
       "boxerName": "Salahdine Parnasse",
       "headline": "No trash talk: Salahdine Parnasse just wants to fulfill dream vs. Max Holloway",
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/05/ufc-paris-winner-salahdine-parnasse-says-max-holloway-dream-fight/91636280007/",
       "source": "USA Today",
       "publishedAt": "2026-09-05T23:26:22Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "UFC Paris bonuses",
+      "url": "https://mmapayout.com/2026/09/05/ufc-paris-bonuses/",
+      "source": "Mmapayout.com",
+      "publishedAt": "2026-09-05T23:17:15Z"
     },
     {
       "boxerName": "Salahdine Parnasse",
@@ -513,6 +632,13 @@
       "publishedAt": "2026-09-03T13:00:00Z"
     },
     {
+      "boxerName": "Joshua Van",
+      "headline": "What the Joshua Van-Rainbet Partnership Tells Us About the Future of UFC Sponsorships",
+      "url": "https://punchng.com/what-the-joshua-van-rainbet-partnership-tells-us-about-the-future-of-ufc-sponsorships/",
+      "source": "The Punch",
+      "publishedAt": "2026-09-03T12:48:46Z"
+    },
+    {
       "boxerName": "Movsar Evloev",
       "headline": "Movsar Evloev eyes 26-pound weight cut as he opens up on UFC lightweight move following Alexander Volkanovski featherweight title fight at UFC 333",
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/movsar-evloev-eyes-26-pound-weight-cut-as-he-opens-up-on-ufc-lightweight-move-following-alexander-volkanovski-featherweight-title-fight-at-ufc-333/articleshow/133736739.cms",
@@ -672,6 +798,13 @@
       "url": "https://www.mmamania.com/latest-news/469060/magomed-ankalaev-claims-great-competitor-paulo-costa-has-now-ducked-him-three-separate-times",
       "source": "MMA Mania",
       "publishedAt": "2026-09-02T07:00:00Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 odds revealed: Joshua Van an underdog, Gable Steveson -1500",
+      "url": "https://www.sherdog.com/news/news/UFC-331-odds-revealed-Joshua-Van-an-underdog-Gable-Steveson-1500-202630",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-02T06:02:05Z"
     },
     {
       "boxerName": "Magomed Ankalaev",
@@ -3012,6 +3145,13 @@
       "publishedAt": "2026-08-18T01:00:23Z"
     },
     {
+      "boxerName": "Joshua Van",
+      "headline": "Pic: UFC 331 poster drops for ‘Van vs. Pantoja 2’ on Sept. 19",
+      "url": "https://www.mmamania.com/ufc-strikeforce-posters/465677/pic-ufc-331-poster-drops-for-van-vs-pantoja-2-on-sept-19",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-18T00:45:00Z"
+    },
+    {
       "boxerName": "Islam Makhachev",
       "headline": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power' - MMA Junkie",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185028260",
@@ -3066,6 +3206,13 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/joe-rogan-concerned-islam-makhachev-welterweight-after-ufc-330/91336372007/",
       "source": "USA Today",
       "publishedAt": "2026-08-17T21:10:18Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 Main Card Set With Van Vs. Pantoja 2 Main Event",
+      "url": "https://www.forbes.com/sites/trentreinsmith/2026/08/17/ufc-331-main-card-set-with-van-vs-pantoja-2-main-event/",
+      "source": "Forbes",
+      "publishedAt": "2026-08-17T21:02:48Z"
     },
     {
       "boxerName": "Arman Tsarukyan",
@@ -3759,6 +3906,13 @@
       "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedov-vs-islam-makhachev-net-worth-comparison-2026-exploring-which-dagestani-fighter-is-richer/articleshow/133264134.cms",
       "source": "The Times of India",
       "publishedAt": "2026-08-15T14:09:34Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Joshua Van plans to finish Alexandre Pantoja at UFC 331, defend again quickly",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/15/ufc-331-joshua-van-plans-alexandre-pantoja-stoppage-more-title-defenses/91314279007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-15T13:01:13Z"
     },
     {
       "boxerName": "Arman Tsarukyan",
@@ -4599,41 +4753,6 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/08/ufc-vegas-120-video-billy-ray-goffs-corner-gets-heat-after-ty-miller-tko/91230565007/",
       "source": "USA Today",
       "publishedAt": "2026-08-09T00:42:03Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Mauricio Ruffy wears Chuck Liddell shorts during violent UFC 331 training session",
-      "url": "https://www.mmamania.com/latest-news/463230/iceman-returns-mauricio-ruffy-wears-chuck-liddell-shorts-during-violent-ufc-331-training-session-video",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-08T20:00:00Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "The father who built a champion: How Abdulmanap Nurmagomedov shaped Khabib Nurmagomedov’s unbreakable UFC mindset and undefeated fighting legacy",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/the-father-who-built-a-champion-how-abdulmanap-nurmagomedov-shaped-khabib-nurmagomedovs-unbreakable-ufc-mindset-and-undefeated-fighting-legacy/articleshow/133049738.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-08T09:17:05Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Daniel Cormier: Arman Tsarukyan Can’t Be Denied UFC Title Shot",
-      "url": "https://heavy.com/sports/ufc/arman-tsarukyan-cant-deny-title-shot/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-08T08:01:45Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Bout Order For UFC 330: Makhachev Vs. Machado Garry Fight Card",
-      "url": "https://www.forbes.com/sites/trentreinsmith/2026/08/07/bout-order-for-ufc-330-makhachev-vs-machado-garry-fight-card/",
-      "source": "Forbes",
-      "publishedAt": "2026-08-08T02:00:38Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Manager calls for matchup between Usman Nurmagomedov and Ilia Topuria",
-      "url": "https://www.mmamania.com/latest-news/462947/ilia-vs-usman-next-ali-abdelaziz-calls-for-matchup-between-usman-nurmagomedov-and-ilia-topuria-theres-already-beef",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-08T00:30:00Z"
     }
   ]
 }
