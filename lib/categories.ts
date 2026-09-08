@@ -114,7 +114,7 @@ async function getCategoryPagesRecursive(category: string): Promise<string[]> {
   return Array.from(pages)
 }
 
-async function getCategoryPagesDeep(category: string): Promise<string[]> {
+export async function getCategoryPagesDeep(category: string): Promise<string[]> {
   const pages = new Set<string>()
 
   const directPages = await getAllMembers(category, 'page')
@@ -128,8 +128,17 @@ async function getCategoryPagesDeep(category: string): Promise<string[]> {
     c.title.includes('by country')
   )
 
+  const crawlTargets = subcats.filter(c =>
+    !c.title.includes('Lists of') &&
+    !c.title.includes('Fictional') &&
+    !c.title.includes('stubs') &&
+    !nationalitySubcats.includes(c)
+  )
+
+  const targets = [...nationalitySubcats, ...crawlTargets]
+
   const results = await throttledMap(
-    nationalitySubcats,
+    targets,
     (cat) => getCategoryPagesRecursive(cat.title),
     CONCURRENCY
   )

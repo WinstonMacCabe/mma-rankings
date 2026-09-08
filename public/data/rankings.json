@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T19:54:46.064Z",
+  "lastUpdated": "2026-09-08T20:31:47.410Z",
   "fighters": [
     {
       "name": "Khabib Nurmagomedov",
@@ -8486,6 +8486,91 @@
         "thirdaryScore": 0.5,
         "isSenior": false,
         "previousRank": 34
+      }
+    ],
+    "karate": [
+      {
+        "name": "Bill Wallace (martial artist)",
+        "total": 23,
+        "wins": 23,
+        "kos": 12,
+        "losses": 0,
+        "draws": 0,
+        "nationality": "United States",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bill_Wallace%2C_Karate_World_Champion_2011.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bill_Wallace_(martial_artist)",
+        "lastUpdated": "2026-09-08T20:31:47.340Z",
+        "thirdaryScore": 23,
+        "birthDate": "1945-12-01",
+        "isSenior": true
+      },
+      {
+        "name": "Masaaki Satake",
+        "total": 6,
+        "wins": 5,
+        "kos": 1,
+        "losses": 1,
+        "draws": 0,
+        "nationality": "Japanese",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Masaaki_Satake_IMG_6063_20130720.JPG",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Masaaki_Satake",
+        "lastUpdated": "2026-09-08T20:31:47.340Z",
+        "thirdaryScore": 5,
+        "birthDate": "1965",
+        "isSenior": true
+      },
+      {
+        "name": "Andy Hug",
+        "total": 23,
+        "wins": 13,
+        "kos": 0,
+        "losses": 10,
+        "draws": 0,
+        "nationality": "Switzerland",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andy_Hug_pic.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Andy_Hug",
+        "lastUpdated": "2026-09-08T20:31:47.340Z",
+        "thirdaryScore": 1.3,
+        "birthDate": "1964",
+        "isSenior": true
+      },
+      {
+        "name": "Gerard Gordeau",
+        "total": 1,
+        "wins": 1,
+        "kos": 0,
+        "losses": 0,
+        "draws": 0,
+        "nationality": "Netherlands",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yukinakai-gordeau.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Gerard_Gordeau",
+        "lastUpdated": "2026-09-08T20:31:47.340Z",
+        "thirdaryScore": 1,
+        "birthDate": "1956",
+        "isSenior": true
+      },
+      {
+        "name": "Nobuaki Kakuda",
+        "total": 8,
+        "wins": 2,
+        "kos": 1,
+        "losses": 5,
+        "draws": 1,
+        "nationality": "Japanese",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E8%A7%92%E7%94%B0%E4%BF%A1%E6%9C%97%E3%80%8E%E6%A8%AA%E6%BF%B1%E6%BC%A2%E7%A5%AD_2025%E3%80%8F%E9%81%B8%E6%89%8B%E9%A3%9B%E3%81%B3%E5%87%BA%E3%81%97%E3%82%B3%E3%83%BC%E3%83%AB%E3%80%90JERA_%E3%82%BB%E3%83%BB%E3%83%AA%E3%83%BC%E3%82%B0%E5%85%AC%E5%BC%8F%E6%88%A6%E3%80%91%E6%A8%AA%E6%B5%9CDeNA%E3%83%99%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA_vs_%E9%98%AA%E7%A5%9E%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%E3%82%B9_17%E5%9B%9E%E6%88%A6_%E6%A8%AA%E6%B5%9C%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0_2025%E5%B9%B48%E6%9C%8826%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202508261741_DSCN7872.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Nobuaki_Kakuda",
+        "lastUpdated": "2026-09-08T20:31:47.340Z",
+        "thirdaryScore": 0.4,
+        "birthDate": "1961-04-11",
+        "isSenior": true
       }
     ]
   }
