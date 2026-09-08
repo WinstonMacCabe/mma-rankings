@@ -595,8 +595,8 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     if (titleMatch) title = stripWikiMarkup(titleMatch[1]).trim()
 
     let recordSummary = ''
-    const recMatch = blockText.match(/\|record\s*=\s*('''[\s\S]*?'''|[^|\n]*)/i)
-    if (recMatch && recMatch[1].trim()) recordSummary = recMatch[1]
+    const recMatch = blockText.match(/\|record\s*=\s*([^\n]+)/i)
+    if (recMatch && recMatch[1].trim()) recordSummary = recMatch[1].replace(/\|\s*$/, '').trim()
 
     let sport = detectSport(title)
     if (!sport) {

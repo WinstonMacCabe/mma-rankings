@@ -227,7 +227,7 @@ export async function getSportPages(): Promise<Record<import('./types').SportKey
       let pages = catCache.get(cat)
       if (!pages) {
         try {
-          pages = await getCategoryPagesRecursive(cat)
+          pages = await getCategoryPagesDeep(cat)
         } catch {
           pages = []
         }
