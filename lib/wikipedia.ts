@@ -1,7 +1,9 @@
 const USER_AGENT = 'MMARankings/1.0 (https://github.com/user/mma; mma-app@example.com)'
 const API_URL = 'https://en.wikipedia.org/w/api.php'
 
-function extractInfobox(wikitext: string, prefixFilter?: string[]): string | null {
+import type { SportKey, SportRecord } from './types'
+
+export function extractInfobox(wikitext: string, prefixFilter?: string[]): string | null {
   const prefixes = prefixFilter || ['{{Infobox martial artist', '{{Infobox person', '{{Infobox officeholder', '{{Infobox military']
   for (const prefix of prefixes) {
     const start = wikitext.indexOf(prefix)
@@ -20,7 +22,7 @@ function extractInfobox(wikitext: string, prefixFilter?: string[]): string | nul
   return null
 }
 
-function stripWikiMarkup(text: string): string {
+export function stripWikiMarkup(text: string): string {
   return text
     .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1')
     .replace(/'''/g, '')
@@ -45,6 +47,18 @@ interface ParsedInfobox {
   weightClass: string
   image: string
   birthDate: string
+  boxWin: number | null
+  boxKOWin: number | null
+  boxLoss: number | null
+  boxKOLoss: number | null
+  boxDraw: number | null
+  boxNC: number | null
+  kickWin: number | null
+  kickKOWin: number | null
+  kickLoss: number | null
+  kickKOLoss: number | null
+  kickDraw: number | null
+  kickNC: number | null
 }
 
 function extractWeightClass(raw: string): string {
@@ -96,7 +110,7 @@ function extractWeightClass(raw: string): string {
   return ''
 }
 
-function parseParamLine(line: string): Map<string, string> {
+export function parseParamLine(line: string): Map<string, string> {
   const params = new Map<string, string>()
   const rest = line.startsWith('|') ? line.slice(1) : line
   const paramRegex = /([\w ]+)\s*=\s*/g
@@ -155,6 +169,18 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     weightClass: '',
     image: '',
     birthDate: '',
+    boxWin: null,
+    boxKOWin: null,
+    boxLoss: null,
+    boxKOLoss: null,
+    boxDraw: null,
+    boxNC: null,
+    kickWin: null,
+    kickKOWin: null,
+    kickLoss: null,
+    kickKOLoss: null,
+    kickDraw: null,
+    kickNC: null,
   }
 
   const infobox = extractInfobox(wikitext)
@@ -250,6 +276,42 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
               foundLossFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) result.draws = n
+            } else if (key === 'box_win') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.boxWin = n
+            } else if (key === 'box_kowin') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.boxKOWin = n
+            } else if (key === 'box_loss') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.boxLoss = n
+            } else if (key === 'box_koloss') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.boxKOLoss = n
+            } else if (key === 'box_draw') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.boxDraw = n
+            } else if (key === 'box_nc') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.boxNC = n
+            } else if (key === 'kickbox_win') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.kickWin = n
+            } else if (key === 'kickbox_kowin') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.kickKOWin = n
+            } else if (key === 'kickbox_loss') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.kickLoss = n
+            } else if (key === 'kickbox_koloss') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.kickKOLoss = n
+            } else if (key === 'kickbox_draw') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.kickDraw = n
+            } else if (key === 'kickbox_nc') {
+              const n = parseInt(value, 10)
+              if (!isNaN(n)) result.kickNC = n
             } else if (key === 'no_contests' || key === 'nc') {
               const n = parseInt(value, 10)
               if (!isNaN(n)) result.no_contests = n
@@ -347,13 +409,353 @@ export interface BoxerStats {
   total: number | null
   wins: number | null
   kos: number | null
-  losses: number
+  losses: number | null
   draws: number
   nationality: string
   weightClass: string
   imageUrl: string
   birthDate: string
   qualityWins: number
+  sportRecords: Partial<Record<SportKey, SportRecord>>
+}
+
+const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
+  { key: 'muayThai', pattern: /muay\s*thai|muay\b/i },
+  { key: 'sanda', pattern: /sanda|san\s*da\b|wushu|sanshou|san\s*shou/i },
+  { key: 'kickboxing', pattern: /kick\s*-?\s*box/i },
+  { key: 'karate', pattern: /karate|kyokushin|knockdown\s*karate/i },
+  { key: 'taekwondo', pattern: /taekwondo|t[aá]e?\s*kwon/i },
+  { key: 'savate', pattern: /savate|boxe\s*fran[cç]aise/i },
+  { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|greco[\s-]*roman|greco\s*roman|folkstyle|folk\s*style|collegiate\s*wrestling|catch\s*wrestling|catch\s*wrestl|wrestling|wrestl/i },
+  { key: 'brazilianJiuJitsu', pattern: /jiu[\s-]?jitsu|jujitsu|bjj|brazilian\s*jiu|submission\s*grappling|\bgrappling\b/i },
+  { key: 'judo', pattern: /judo/i },
+  { key: 'sambo', pattern: /sambo|combat\s*sambo/i },
+  { key: 'boxing', pattern: /boxing|boxe\b|prizefight/i },
+]
+
+export function detectSport(label: string): SportKey | null {
+  for (const { key, pattern } of SPORT_KEYWORDS) {
+    if (pattern.test(label)) return key
+  }
+  return null
+}
+
+function emptySportRecord(): SportRecord {
+  return { wins: 0, kos: 0, losses: 0, draws: 0, noContests: 0 }
+}
+
+export function parseRecordSummary(value: string): SportRecord | null {
+  const text = value.replace(/'''/g, '').replace(/[’`]/g, "'").trim()
+  if (!/win/i.test(text)) return null
+
+  const rec = emptySportRecord()
+  let found = false
+
+  const winMatch = text.match(/(\d+)\s*(?:win)/i)
+  const lossMatch = text.match(/(\d+)\s*(?:loss)/i)
+  const drawMatch = text.match(/(\d+)\s*(?:draw)/i)
+  if (winMatch) { rec.wins = parseInt(winMatch[1], 10); found = true }
+  if (lossMatch) { rec.losses = parseInt(lossMatch[1], 10); found = true }
+  if (drawMatch) { rec.draws = parseInt(drawMatch[1], 10); found = true }
+  const ncMatch = text.match(/(\d+)\s*(?:no\s*contests?|NC\b)/i)
+  if (ncMatch) { rec.noContests = parseInt(ncMatch[1], 10); found = true }
+
+  const koMatches = [...text.matchAll(/(\d+)\s*(?:\(T\)KO|TKO|KO)/gi)]
+  if (koMatches.length > 0) {
+    rec.kos = parseInt(koMatches[0][1], 10)
+    found = true
+  }
+
+  return found ? rec : null
+}
+
+function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; method: string } | null {
+  let cells = row.split(/\n\|/)
+  if (cells.length > 0 && cells[0].trim() === '') cells.shift()
+  cells = cells
+    .map((c, i) => (i === 0 ? stripInline(c) : stripWikiMarkup(c).trim()))
+    .filter(Boolean)
+  if (cells.length === 0) return null
+
+  const first = cells[0]
+  let result: 'win' | 'loss' | 'draw' | 'nc' | null = null
+  if (/\bWin\b/i.test(first)) result = 'win'
+  else if (/\bLoss(es)?\b/i.test(first)) result = 'loss'
+  else if (/\bDraw\b/i.test(first)) result = 'draw'
+  else if (/\bNC\b/i.test(first)) result = 'nc'
+
+  if (!result) return null
+
+  let method = ''
+  for (let i = 1; i < cells.length; i++) {
+    if (/TKO|\bKO\b|submission|sub\(/i.test(cells[i])) { method = cells[i]; break }
+  }
+  return { result, method }
+}
+
+function stripInline(text: string): string {
+  return stripWikiMarkup(text).replace(/^\|/, '').trim()
+}
+
+function countTableRows(tableBody: string): SportRecord | null {
+  const rec = emptySportRecord()
+  const rows = tableBody.split(/\n\|-/)
+  let foundRows = false
+  let counted = false
+
+  for (const rawRow of rows) {
+    const row = rawRow.trim()
+    if (!row || !/\|/.test(row)) continue
+    const parsed = parseRecordRow(row)
+    if (!parsed) continue
+    foundRows = true
+    if (parsed.result === 'win') {
+      rec.wins++
+      if (/TKO|\bKO\b/i.test(parsed.method)) rec.kos++
+      counted = true
+    } else if (parsed.result === 'loss') {
+      rec.losses++
+      counted = true
+    } else if (parsed.result === 'draw') {
+      rec.draws++
+      counted = true
+    } else if (parsed.result === 'nc') {
+      rec.noContests++
+      counted = true
+    }
+  }
+
+  return foundRows && counted ? rec : null
+}
+
+export function parseBespokeBlock(block: string): SportRecord | null {
+  const rec = emptySportRecord()
+  const rows = block.split(/\n\|-/)
+  let found = false
+
+  for (const rawRow of rows) {
+    const row = rawRow.trim()
+    if (!row) continue
+    let cells = row.split(/\n\|/)
+    if (cells.length > 0 && cells[0].trim() === '') cells.shift()
+    cells = cells.map(c => stripInline(c)).filter(Boolean)
+    if (cells.length === 0) continue
+
+    let result: 'win' | 'loss' | 'draw' | 'nc' | null = null
+    for (const cell of cells) {
+      if (/\bWin\b/i.test(cell)) { result = 'win'; break }
+      if (/\bLoss(es)?\b/i.test(cell)) { result = 'loss'; break }
+      if (/\bDraw\b/i.test(cell)) { result = 'draw'; break }
+      if (/\bNC\b/i.test(cell)) { result = 'nc'; break }
+    }
+    if (!result) continue
+
+    if (result === 'win') {
+      rec.wins++
+      if (cells.some(c => /TKO|\bKO\b/i.test(c))) rec.kos++
+    } else if (result === 'loss') {
+      rec.losses++
+    } else if (result === 'draw') {
+      rec.draws++
+    } else if (result === 'nc') {
+      rec.noContests++
+    }
+    found = true
+  }
+
+  return found ? rec : null
+}
+
+interface RecordTableMatch {
+  sport: SportKey | null
+  block: string
+  title: string
+  recordSummary: string
+}
+
+export function findRecordTables(wikitext: string): RecordTableMatch[] {
+  const matches: RecordTableMatch[] = []
+  const headerRegex = /\n={2,}[^=\n]+={2,}/g
+  const headers: { index: number; title: string }[] = []
+  let hm: RegExpExecArray | null
+  while ((hm = headerRegex.exec(wikitext)) !== null) {
+    headers.push({
+      index: hm.index,
+      title: hm[0].replace(/={2,}/g, '').trim(),
+    })
+  }
+
+  const tableRegex = /\{\{(Fight|Kickboxing|MMA)\s*record\s*start([\s\S]*?)\}\}/gi
+  let m: RegExpExecArray | null
+  while ((m = tableRegex.exec(wikitext)) !== null) {
+    const blockText = m[2]
+    const mIndex = m.index
+    let title = ''
+    const titleMatch = blockText.match(/\|title\s*=\s*([^|\n]*)/i)
+    if (titleMatch) title = stripWikiMarkup(titleMatch[1]).trim()
+
+    let recordSummary = ''
+    const recMatch = blockText.match(/\|record\s*=\s*('''[\s\S]*?'''|[^|\n]*)/i)
+    if (recMatch && recMatch[1].trim()) recordSummary = recMatch[1]
+
+    let sport = detectSport(title)
+    if (!sport) {
+      const sectionHeader = headers.filter(h => h.index < mIndex).slice(-1)[0]
+      if (sectionHeader) sport = detectSport(sectionHeader.title)
+    }
+    if (!sport) {
+      // Combined "Kickboxing / Muay Thai record" style titles: blacklist MMA-only sections
+      if (!/\bmixed martial arts record\b/i.test(title)) {
+        sport = detectSport(title.replace(/record\b/gi, '')) ?? null
+      }
+    }
+
+    matches.push({ sport, block: blockText, title, recordSummary })
+  }
+
+  return matches
+}
+
+export function extractSportRecords(wikitext: string): Partial<Record<SportKey, SportRecord>> {
+  const out: Partial<Record<SportKey, SportRecord>> = {}
+
+  function addRecord(key: SportKey | null, rec: SportRecord | null) {
+    if (!key || !rec) return
+    if (rec.wins + rec.losses + rec.draws + rec.noContests <= 0) return
+    const existing = out[key]
+    if (!existing) {
+      out[key] = { ...rec }
+      return
+    }
+    const recTotal = rec.wins + rec.losses
+    const existingTotal = existing.wins + existing.losses
+    if (recTotal > existingTotal) out[key] = { ...rec }
+  }
+
+  // 1. Infobox boxer
+  if (/^\{\{Infobox boxer/i.test(wikitext.trim())) {
+    const infobox = extractInfobox(wikitext, ['{{Infobox boxer'])
+    if (infobox) {
+      const params = infobox.split('\n')
+      let wins: number | null = null
+      let losses: number | null = null
+      let draws: number | null = null
+      let nc: number | null = null
+      let kos: number | null = null
+      for (const line of params) {
+        const parsed = parseParamLine(line)
+        const w = parsed.get('wins')
+        const l = parsed.get('losses')
+        const d = parsed.get('draws')
+        const ncRaw = parsed.get('no_contests') ?? parsed.get('nc')
+        const koRaw = parsed.get('ko') ?? parsed.get('KOs')
+        if (w) { const n = parseInt(stripWikiMarkup(w), 10); if (!isNaN(n)) wins = n }
+        if (l) { const n = parseInt(stripWikiMarkup(l), 10); if (!isNaN(n)) losses = n }
+        if (d) { const n = parseInt(stripWikiMarkup(d), 10); if (!isNaN(n)) draws = n }
+        if (ncRaw) { const n = parseInt(stripWikiMarkup(ncRaw), 10); if (!isNaN(n)) nc = n }
+        if (koRaw) { const n = parseInt(stripWikiMarkup(koRaw), 10); if (!isNaN(n)) kos = n }
+      }
+      if (wins !== null && losses !== null) {
+        addRecord('boxing', { wins, kos: kos ?? 0, losses, draws: draws ?? 0, noContests: nc ?? 0 })
+      }
+    }
+  }
+
+  // 2. Infobox martial artist breakdowns
+  const martial = extractInfobox(wikitext)
+  if (martial) {
+    const paramKeys = martial.split('\n').map(l => parseParamLine(l))
+    const get = (key: string): number | null => {
+      for (const p of paramKeys) {
+        const v = p.get(key)
+        if (v) {
+          const n = parseInt(stripWikiMarkup(v), 10)
+          if (!isNaN(n)) return n
+        }
+      }
+      return null
+    }
+    const boxWin = get('box_win')
+    const boxLoss = get('box_loss')
+    if (boxWin !== null && boxLoss !== null) {
+      addRecord('boxing', {
+        wins: boxWin,
+        kos: get('box_kowin') ?? 0,
+        losses: boxLoss,
+        draws: get('box_draw') ?? 0,
+        noContests: get('box_nc') ?? 0,
+      })
+    }
+    const kickWin = get('kickbox_win')
+    const kickLoss = get('kickbox_loss')
+    if (kickWin !== null && kickLoss !== null) {
+      addRecord('kickboxing', {
+        wins: kickWin,
+        kos: get('kickbox_kowin') ?? 0,
+        losses: kickLoss,
+        draws: get('kickbox_draw') ?? 0,
+        noContests: get('kickbox_nc') ?? 0,
+      })
+    }
+  }
+
+  // 3. Record tables (Fight / Kickboxing / MMA record start)
+  const tables = findRecordTables(wikitext)
+  for (const table of tables) {
+    let rec = parseRecordSummary(table.recordSummary)
+    if (!rec && table.sport) {
+      // Row-count fallback: inspect the wikitext between this table's opening
+      // template and the next section header / {{end}}
+      const startIdx = wikitext.indexOf(table.block)
+      const openEnd = wikitext.indexOf('}}', startIdx)
+      const bodyStart = openEnd + 2
+      const endOfSection = wikitext.indexOf('\n=', bodyStart)
+      const endOfTable = wikitext.indexOf('{{end}}', bodyStart)
+      const candidates: number[] = []
+      if (endOfSection > -1) candidates.push(endOfSection)
+      if (endOfTable > -1) candidates.push(endOfTable)
+      const bodyEnd = candidates.length > 0 ? Math.min(...candidates) : wikitext.length
+      const body = wikitext.slice(bodyStart, bodyEnd)
+      rec = countTableRows(body)
+    }
+    addRecord(table.sport, rec)
+  }
+
+  // 4. Bespoke tables (freestyle wrestling, judo, karate, grappling, sanda, etc.)
+  const allHeaders: { start: number; contentStart: number; title: string }[] = []
+  const headerRegex2 = /\n={2,}([^=\n]+)={2,}/g
+  let h2: RegExpExecArray | null
+  while ((h2 = headerRegex2.exec(wikitext)) !== null) {
+    allHeaders.push({ start: h2.index, contentStart: h2.index + h2[0].length, title: h2[1].trim() })
+  }
+  for (let i = 0; i < allHeaders.length; i++) {
+    const h = allHeaders[i]
+    const sport = detectSport(h.title)
+    if (!sport) continue
+    const nextHeader = allHeaders.slice(i + 1).find(n => n.contentStart > h.contentStart)
+    const nextIndex = nextHeader ? nextHeader.start : wikitext.length
+    const slice = wikitext.slice(h.contentStart, nextIndex)
+    const tableBlocks: string[] = []
+    const sStartRegex = /\{\{s-start\b([\s\S]*?)(?:\{\{s-end\}\}|\{\{end\}\})/g
+    let sm2: RegExpExecArray | null
+    while ((sm2 = sStartRegex.exec(slice)) !== null) tableBlocks.push(sm2[1])
+    const wtRegex = /\{\|\s*[\s\S]*?\n\|\}/g
+    let sm3: RegExpExecArray | null
+    while ((sm3 = wtRegex.exec(slice)) !== null) tableBlocks.push(sm3[0])
+    for (const block of tableBlocks) {
+      const rec = parseBespokeBlock(block)
+      addRecord(sport, rec)
+    }
+  }
+
+  // Muay Thai record tables often carry the fighter's kickboxing totals too.
+  // If a Muay Thai record was captured, don't also surface the same career
+  // under kickboxing (it would double-list the same fighter).
+  if (out.muayThai && out.kickboxing) {
+    delete out.kickboxing
+  }
+
+  return out
 }
 
 function countQualityWins(wikitext: string): number {
@@ -380,14 +782,7 @@ function countQualityWins(wikitext: string): number {
 
 function processRecord(wikitext: string): BoxerStats | null {
   const infobox = parseWikitextInfobox(wikitext)
-  if (infobox.wins === null || infobox.losses === null) return null
-
-  const wins = infobox.wins
-  const losses = infobox.losses
-  const draws = infobox.draws ?? 0
-  const noContests = infobox.no_contests ?? 0
-  let total = infobox.total
-  if (total === null) total = wins + losses + draws + noContests
+  const sportRecords = extractSportRecords(wikitext)
 
   let imageUrl = infobox.image
   if (!imageUrl) {
@@ -397,6 +792,29 @@ function processRecord(wikitext: string): BoxerStats | null {
       if (candidate) { imageUrl = candidate; break }
     }
   }
+
+  if (infobox.wins === null || infobox.losses === null) {
+    return {
+      total: null,
+      wins: null,
+      kos: infobox.kos ?? 0,
+      losses: null,
+      draws: infobox.draws ?? 0,
+      nationality: infobox.nationality,
+      weightClass: infobox.weightClass,
+      imageUrl,
+      birthDate: infobox.birthDate,
+      qualityWins: 0,
+      sportRecords,
+    }
+  }
+
+  const wins = infobox.wins
+  const losses = infobox.losses
+  const draws = infobox.draws ?? 0
+  const noContests = infobox.no_contests ?? 0
+  let total = infobox.total
+  if (total === null) total = wins + losses + draws + noContests
 
   return {
     total,
@@ -409,6 +827,7 @@ function processRecord(wikitext: string): BoxerStats | null {
     imageUrl,
     birthDate: infobox.birthDate,
     qualityWins: countQualityWins(wikitext),
+    sportRecords,
   }
 }
 

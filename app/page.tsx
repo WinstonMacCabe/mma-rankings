@@ -1,8 +1,25 @@
 'use client'
 
 import { useEffect, useState, useRef } from 'react'
-import type { RankingsData, BoxerRecord, Gender, UpcomingFightsData } from '@/lib/types'
+import type { RankingsData, BoxerRecord, Gender, UpcomingFightsData, SportKey } from '@/lib/types'
+import { SPORT_KEYS } from '@/lib/types'
 import { getCountryFlag } from '@/lib/flags'
+
+const SPORT_LABELS: Record<SportKey, string> = {
+  boxing: 'Boxing',
+  kickboxing: 'Kickboxing',
+  muayThai: 'Muay Thai',
+  karate: 'Karate',
+  taekwondo: 'Taekwondo',
+  savate: 'Savate',
+  sanda: 'Sanda',
+  sambo: 'Sambo',
+  judo: 'Judo',
+  freestyleWrestling: 'Freestyle',
+  brazilianJiuJitsu: 'BJJ',
+}
+
+const SPORT_KEYS_SET = new Set<SportKey>(SPORT_KEYS)
 
 const WEIGHT_ORDER: Record<string, number> = {
   'atomweight': 1,
@@ -231,7 +248,7 @@ export default function Home() {
   const [sortBy, setSortBy] = useState<'wins' | 'kos' | 'weight'>('wins')
   const [weightFilter, setWeightFilter] = useState<string | null>(null)
   const [genderFilter, setGenderFilter] = useState<'all' | Gender>('all')
-  const [viewMode, setViewMode] = useState<'best' | 'worst' | 'archivedBest' | 'archivedWorst'>('best')
+  const [viewMode, setViewMode] = useState<'best' | 'worst' | 'archivedBest' | 'archivedWorst' | SportKey>('best')
   const [headerBlur, setHeaderBlur] = useState(false)
   const [newsExpanded, setNewsExpanded] = useState(false)
 
@@ -268,6 +285,7 @@ export default function Home() {
   }
 
   const isArchived = viewMode === 'archivedBest' || viewMode === 'archivedWorst'
+  const isSportMode = SPORT_KEYS_SET.has(viewMode as SportKey)
 
   function switchView(mode: typeof viewMode) {
     setViewMode(mode)
@@ -275,7 +293,9 @@ export default function Home() {
     setWeightFilter(null)
   }
 
-  const source = viewMode === 'best' ? (data?.thirdary ?? []) : viewMode === 'worst' ? (data?.thirdaryWorst ?? []) : viewMode === 'archivedBest' ? (data?.fighters ?? []) : (data?.worst ?? [])
+  const source = isSportMode
+    ? (data?.sports?.[viewMode as SportKey] ?? [])
+    : viewMode === 'best' ? (data?.thirdary ?? []) : viewMode === 'worst' ? (data?.thirdaryWorst ?? []) : viewMode === 'archivedBest' ? (data?.fighters ?? []) : (data?.worst ?? [])
   const preFiltered = source
     .filter(f => genderFilter === 'all' || f.gender === genderFilter)
     .filter(f => cleanName(f.name).toLowerCase().includes(search.toLowerCase()))
@@ -283,6 +303,7 @@ export default function Home() {
   const filtered = preFiltered
     .filter(f => !weightFilter || f.weightClass === weightFilter)
     .sort((a, b) => {
+      if (isSportMode) return (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0) || a.losses - b.losses || (b.kos ?? 0) - (a.kos ?? 0)
       if (viewMode === 'best') {
         if (sortBy === 'weight') return (weightSortValue(a.weightClass) - weightSortValue(b.weightClass)) || (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0)
         if (sortBy === 'kos') return (b.kos ?? 0) - (a.kos ?? 0) || (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0)
@@ -479,6 +500,26 @@ export default function Home() {
             ))}
           </div>
 
+          {/* Sports tabs — one per combat sport with a Wikipedia record format */}
+          <div className="mb-6 flex gap-1.5 flex-wrap items-center pt-3 pb-1" style={{ borderTop: '1px solid #2a1f15' }}>
+            <span className="text-[9px] font-bold tracking-[0.2em] uppercase mr-1" style={{ color: '#3a2a1a', fontFamily: "'Times New Roman', serif" }}>Sports</span>
+            {SPORT_KEYS.map(key => (
+              <button
+                key={key}
+                onClick={() => switchView(key)}
+                className="px-3 py-1.5 text-[10px] font-bold tracking-[0.12em] uppercase transition-all"
+                style={{
+                  fontFamily: "'Times New Roman', serif",
+                  background: viewMode === key ? '#3a2a1a' : 'transparent',
+                  color: viewMode === key ? '#ddd0b8' : '#5a4a3a',
+                  border: `1px solid ${viewMode === key ? '#5a4a3a' : '#3a2a1a'}`,
+                }}
+              >
+                {SPORT_LABELS[key]}
+              </button>
+            ))}
+          </div>
+
           {/* Weight class sub-filter row */}
           {sortBy === 'weight' && availableWeightClasses.length > 0 && (
             <div className="mb-4 flex gap-1.5 flex-wrap items-center">
@@ -515,7 +556,7 @@ export default function Home() {
 
           <div className="grid gap-4 items-stretch" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))' }}>
             {filtered.map((fighter, i) => (
-              <FighterCard key={fighter.name} fighter={fighter} rank={i + 1} isWorst={viewMode === 'worst' || viewMode === 'archivedWorst'} isBest={viewMode === 'best' || viewMode === 'archivedBest'} />
+              <FighterCard key={fighter.name} fighter={fighter} rank={i + 1} isWorst={viewMode === 'worst' || viewMode === 'archivedWorst'} isBest={viewMode === 'best' || viewMode === 'archivedBest' || isSportMode} />
             ))}
           </div>
 

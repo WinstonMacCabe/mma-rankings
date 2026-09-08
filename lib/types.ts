@@ -1,5 +1,39 @@
 export type Gender = 'male' | 'female'
 
+export type SportKey =
+  | 'boxing'
+  | 'kickboxing'
+  | 'muayThai'
+  | 'karate'
+  | 'taekwondo'
+  | 'savate'
+  | 'sanda'
+  | 'sambo'
+  | 'judo'
+  | 'freestyleWrestling'
+  | 'brazilianJiuJitsu'
+
+export interface SportRecord {
+  wins: number
+  kos: number
+  losses: number
+  draws: number
+  noContests: number
+}
+
+export const SPORT_KEYS: SportKey[] = [
+  'kickboxing',
+  'muayThai',
+  'karate',
+  'taekwondo',
+  'savate',
+  'sanda',
+  'sambo',
+  'judo',
+  'freestyleWrestling',
+  'brazilianJiuJitsu',
+]
+
 export interface BoxerRecord {
   name: string
   total: number
@@ -25,6 +59,7 @@ export interface RankingsData {
   worst?: BoxerRecord[]
   thirdary?: BoxerRecord[]
   thirdaryWorst?: BoxerRecord[]
+  sports?: Partial<Record<SportKey, BoxerRecord[]>>
 }
 
 export interface WikipediaInfobox {

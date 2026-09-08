@@ -1,8 +1,9 @@
-import { getAllBoxerPages } from '../lib/categories'
+import { getAllBoxerPages, getSportPages } from '../lib/categories'
 import { fetchBoxerRecords } from '../lib/wikipedia'
 import type { BoxerStats } from '../lib/wikipedia'
 import { readRankings, writeRankings } from '../lib/storage'
-import type { BoxerRecord, Gender } from '../lib/types'
+import type { BoxerRecord, Gender, RankingsData, SportKey } from '../lib/types'
+import { SPORT_KEYS } from '../lib/types'
 
 const BATCH_SIZE = 50
 const BATCH_DELAY = 100
@@ -10,6 +11,80 @@ const MIN_LOSSES_FOR_WORST = 10
 
 function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+function computeAge(birthDate: string | undefined, now: Date): number | null {
+  if (!birthDate) return null
+  const parts = birthDate.split('-')
+  const birthYear = parseInt(parts[0], 10)
+  if (isNaN(birthYear)) return null
+  if (parts.length === 3) {
+    const birthMonth = parseInt(parts[1], 10)
+    const birthDay = parseInt(parts[2], 10)
+    const birthdayThisYear = new Date(now.getFullYear(), birthMonth - 1, birthDay)
+    return now >= birthdayThisYear ? now.getFullYear() - birthYear : now.getFullYear() - birthYear - 1
+  }
+  return now.getFullYear() - birthYear
+}
+
+function buildSportRanking(
+  key: SportKey,
+  pages: Map<string, Gender>,
+  records: Map<string, BoxerStats>,
+  previous: Awaited<ReturnType<typeof readRankings>>,
+  now: Date
+): BoxerRecord[] {
+  const prevSport = previous.sports?.[key] ?? []
+  const prevRank = new Map<string, number>()
+  prevSport.forEach((f, i) => prevRank.set(f.name, i + 1))
+
+  const nowIso = now.toISOString()
+  const all: BoxerRecord[] = []
+  for (const [name, gender] of pages) {
+    const record = records.get(name)
+    if (!record) continue
+    const sportRec = record.sportRecords?.[key]
+    if (!sportRec) continue
+    const { wins, losses, draws, noContests } = sportRec
+    if (wins === 0 || wins > 384) continue
+    const total = wins + losses + draws + noContests
+    const age = computeAge(record.birthDate, now)
+    all.push({
+      name,
+      total,
+      wins,
+      kos: sportRec.kos ?? 0,
+      losses,
+      draws,
+      nationality: record.nationality,
+      weightClass: record.weightClass || undefined,
+      imageUrl: record.imageUrl || undefined,
+      gender: gender || undefined,
+      wikipediaUrl: `https://en.wikipedia.org/wiki/${encodeURIComponent(name.replace(/ /g, '_'))}`,
+      lastUpdated: nowIso,
+      thirdaryScore: losses === 0 ? wins : wins / losses,
+      birthDate: record.birthDate || undefined,
+      isSenior: age !== null && age >= 50,
+    })
+  }
+
+  const scored = all
+    .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0)
+    .sort((a, b) =>
+      (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0) ||
+      a.losses - b.losses ||
+      (b.kos ?? 0) - (a.kos ?? 0)
+    )
+    .map(f => ({ ...f, previousRank: prevRank.get(f.name) || undefined }))
+
+  const ranked: BoxerRecord[] = []
+  let nonSeniorCount = 0
+  for (const f of scored) {
+    ranked.push(f)
+    if (!f.isSenior) nonSeniorCount++
+    if (nonSeniorCount >= 50) break
+  }
+  return ranked
 }
 
 async function main() {
@@ -55,7 +130,7 @@ async function main() {
       }
 
       if (!record) continue
-      if (record.total === null || record.wins === null) continue
+      if (record.total === null || record.wins === null || record.losses === null) continue
 
       allRecords.set(name, record)
 
@@ -179,10 +254,48 @@ async function main() {
     .sort((a, b) => (a.thirdaryScore ?? 0) - (b.thirdaryScore ?? 0) || b.losses - a.losses || (a.kos ?? 0) - (b.kos ?? 0))
   const thirdaryWorstRanked = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst]
 
-  await writeRankings(ranked, worstRanked, thirdaryRanked, thirdaryWorstRanked)
+  // Step 3: Multi-sport rankings (kickboxing, muay thai, wrestling, etc.).
+  // Purely supplementary/cosmetic — failures here must never break MMA/news.
+  const sports: RankingsData['sports'] = {}
+  try {
+    const sportPages = await getSportPages()
+    const allSportTitles = new Set<string>()
+    for (const key of SPORT_KEYS) {
+      for (const page of sportPages[key].keys()) allSportTitles.add(page)
+    }
+    console.log(`\nStep 3: Fetching sport records for ${allSportTitles.size} unique fighter pages...`)
+
+    const sportRecords = new Map<string, BoxerStats>()
+    const titles = Array.from(allSportTitles)
+    for (let i = 0; i < titles.length; i += BATCH_SIZE) {
+      const batch = titles.slice(i, i + BATCH_SIZE)
+      const results = await fetchBoxerRecords(batch)
+      for (const [name, record] of results) {
+        if (record) sportRecords.set(name, record)
+      }
+      await delay(BATCH_DELAY)
+    }
+    console.log(`Fetched records for ${sportRecords.size} sport fighter pages.`)
+
+    const nowSport = new Date()
+    for (const key of SPORT_KEYS) {
+      const ranked = buildSportRanking(key, sportPages[key], sportRecords, previous, nowSport)
+      if (ranked.length > 0) sports[key] = ranked
+      if (ranked.length > 0) {
+        console.log(`Sport ${key}: ${ranked.length} ranked. Top: ${ranked.slice(0, 5).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)
+      } else {
+        console.log(`Sport ${key}: no rankings.`)
+      }
+    }
+  } catch (err) {
+    console.error('Sport rankings failed (continuing with MMA rankings only):', err)
+  }
+
+  await writeRankings(ranked, worstRanked, thirdaryRanked, thirdaryWorstRanked, Object.keys(sports).length > 0 ? sports : undefined)
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
   console.log(`\nDone! ${ranked.length} undefeated, ${worstRanked.length} winless, ${thirdaryRanked.length} thirdary, ${thirdaryWorstRanked.length} thirdary worst fighters ranked.`)
+  console.log(`Sports ranked: ${Object.keys(sports).join(', ') || 'none'}`)
   console.log(`Total time: ${elapsed}s`)
   if (ranked.length > 0) {
     console.log(`Top 10 best: ${ranked.slice(0, 10).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)

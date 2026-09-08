@@ -204,3 +204,44 @@ export async function getAllBoxerPages(): Promise<Map<string, import('./types').
 
   return pageMap
 }
+
+const SPORT_CATEGORIES: Record<import('./types').SportKey, string[]> = {
+  boxing: [],
+  kickboxing: ['Category:Male kickboxers', 'Category:Female kickboxers'],
+  muayThai: ['Category:Muay Thai practitioners', 'Category:Male Muay Thai practitioners', 'Category:Female Muay Thai practitioners'],
+  karate: ['Category:Male karateka', 'Category:Female karateka', 'Category:Karate practitioners'],
+  taekwondo: ['Category:Male taekwondo practitioners', 'Category:Female taekwondo practitioners'],
+  savate: ['Category:Savate practitioners'],
+  sanda: ['Category:Wushu practitioners', 'Category:Sanshou practitioners'],
+  sambo: ['Category:Sambo practitioners'],
+  judo: ['Category:Male judoka', 'Category:Female judoka'],
+  freestyleWrestling: ['Category:Male sport wrestlers', 'Category:Female sport wrestlers'],
+  brazilianJiuJitsu: ['Category:Brazilian jiu-jitsu practitioners'],
+}
+
+export async function getSportPages(): Promise<Record<import('./types').SportKey, Map<string, import('./types').Gender>>> {
+  const result = {} as Record<import('./types').SportKey, Map<string, import('./types').Gender>>
+  const catCache = new Map<string, string[]>()
+
+  for (const [sportKey, cats] of Object.entries(SPORT_CATEGORIES) as [import('./types').SportKey, string[]][]) {
+    const map = new Map<string, import('./types').Gender>()
+    for (const cat of cats) {
+      let pages = catCache.get(cat)
+      if (!pages) {
+        try {
+          pages = await getCategoryPagesDeep(cat)
+        } catch {
+          pages = []
+        }
+        catCache.set(cat, pages)
+      }
+      const gender: import('./types').Gender | undefined = cat.includes('Female') ? 'female' : cat.includes('Male') ? 'male' : undefined
+      for (const page of pages) {
+        if (!map.has(page)) map.set(page, gender ?? 'male')
+      }
+    }
+    result[sportKey] = map
+  }
+
+  return result
+}
