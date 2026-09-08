@@ -451,9 +451,9 @@ export function parseRecordSummary(value: string): SportRecord | null {
   const rec = emptySportRecord()
   let found = false
 
-  const winMatch = text.match(/(\d+)\s*(?:win)/i)
-  const lossMatch = text.match(/(\d+)\s*(?:loss)/i)
-  const drawMatch = text.match(/(\d+)\s*(?:draw)/i)
+  const winMatch = text.match(/(\d+)\s*(?:\([^)]*\))?\s*(?:win)/i)
+  const lossMatch = text.match(/(\d+)\s*(?:\([^)]*\))?\s*(?:loss)/i)
+  const drawMatch = text.match(/(\d+)\s*(?:\([^)]*\))?\s*(?:draw)/i)
   if (winMatch) { rec.wins = parseInt(winMatch[1], 10); found = true }
   if (lossMatch) { rec.losses = parseInt(lossMatch[1], 10); found = true }
   if (drawMatch) { rec.draws = parseInt(drawMatch[1], 10); found = true }
@@ -746,13 +746,6 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
       const rec = parseBespokeBlock(block)
       addRecord(sport, rec)
     }
-  }
-
-  // Muay Thai record tables often carry the fighter's kickboxing totals too.
-  // If a Muay Thai record was captured, don't also surface the same career
-  // under kickboxing (it would double-list the same fighter).
-  if (out.muayThai && out.kickboxing) {
-    delete out.kickboxing
   }
 
   return out

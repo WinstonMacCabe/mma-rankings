@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T20:31:47.410Z",
+  "lastUpdated": "2026-09-08T23:52:36.216Z",
   "fighters": [
     {
       "name": "Khabib Nurmagomedov",
@@ -4756,10 +4756,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/BennyTheJet1998Malibu.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Benny_Urquidez",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 63,
         "birthDate": "1952",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 1
       },
       {
         "name": "Riyadh Al-Azzawi",
@@ -4772,10 +4773,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Riyadhalazzawi12.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Riyadh_Al-Azzawi",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 51,
         "birthDate": "1986",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 2
       },
       {
         "name": "César Córdoba",
@@ -4789,10 +4791,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/C%C3%A9sar_C%C3%B3rdoba.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/C%C3%A9sar_C%C3%B3rdoba",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 50,
         "birthDate": "1980",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 3
       },
       {
         "name": "Pete Cunningham (kickboxer)",
@@ -4806,10 +4809,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Book_cover_2014.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Pete_Cunningham_(kickboxer)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 50,
         "birthDate": "1963",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 4
       },
       {
         "name": "Paul Vizzio",
@@ -4822,10 +4826,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sifubelts2.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Paul_Vizzio",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 47,
         "birthDate": "1994",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 5
       },
       {
         "name": "Tadashi Sawamura",
@@ -4839,10 +4844,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Shinku_Tbi_Hiza_Geri_no_Shinjitsu.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tadashi_Sawamura",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 46.4,
         "birthDate": "1943",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 6
       },
       {
         "name": "Germaine de Randamie",
@@ -4856,10 +4862,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Germaine_de_Randamie_at_UFC_Copenhagen.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Germaine_de_Randamie",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 46,
         "birthDate": "1984",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 7
       },
       {
         "name": "Ashraf Tai",
@@ -4873,10 +4880,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ashraf_Tai.jpg/330px-Ashraf_Tai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ashraf_Tai",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 43,
         "birthDate": "1947-05-25",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 8
       },
       {
         "name": "Lucia Rijker",
@@ -4889,10 +4897,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lucia_Rijker_in_training_(cropped).jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lucia_Rijker",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 37,
         "birthDate": "1967-12-06",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 9
       },
       {
         "name": "Stephen Thompson (fighter)",
@@ -4906,10 +4915,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Stephen_Thompson_(fighter)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 37,
         "birthDate": "1983-02-11",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 10
       },
       {
         "name": "Giorgio Petrosyan",
@@ -4923,10 +4933,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giorgio_Petrosyan.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Giorgio_Petrosyan",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 36.333333333333336,
         "birthDate": "1985",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 11
       },
       {
         "name": "Christine Theiss",
@@ -4940,10 +4951,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/M%C3%BCnchen_WKU_2013_Christine_Theiss_606.JPG",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Christine_Theiss",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 35,
         "birthDate": "1980",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 12
       },
       {
         "name": "Graciela Casillas",
@@ -4957,10 +4969,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Graciela_casillas.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Graciela_Casillas",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 31,
         "birthDate": "1957",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 13
       },
       {
         "name": "Igor Vovchanchyn",
@@ -4974,10 +4987,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vovchanchyn.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Igor_Vovchanchyn",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 30.5,
         "birthDate": "1973-08-06",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 14
+      },
+      {
+        "name": "Donald Cerrone",
+        "total": 29,
+        "wins": 28,
+        "kos": 19,
+        "losses": 0,
+        "draws": 1,
+        "nationality": "U.S.",
+        "weightClass": "Welterweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/VCJCS_hosts_USO_Spring_Tour_160312-D-HU462-263.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Donald_Cerrone",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 28,
+        "birthDate": "1983-03-29",
+        "isSenior": false
       },
       {
         "name": "Bill Wallace (martial artist)",
@@ -4990,10 +5021,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bill_Wallace%2C_Karate_World_Champion_2011.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Bill_Wallace_(martial_artist)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 23,
         "birthDate": "1945-12-01",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 15
+      },
+      {
+        "name": "Jorina Baars",
+        "total": 49,
+        "wins": 44,
+        "kos": 18,
+        "losses": 2,
+        "draws": 3,
+        "nationality": "Netherlands",
+        "weightClass": "Featherweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jorina_baars-1631302731.png",
+        "gender": "female",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jorina_Baars",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 22,
+        "birthDate": "1988",
+        "isSenior": false
       },
       {
         "name": "Ginty Vrede",
@@ -5007,10 +5056,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ginty_Vrede.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ginty_Vrede",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 21,
         "birthDate": "1985-07-18",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 16
       },
       {
         "name": "Giorgi Malania",
@@ -5023,10 +5073,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giorgi_Malania.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Giorgi_Malania",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 21,
         "birthDate": "2004",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 17
       },
       {
         "name": "Marek Piotrowski",
@@ -5040,10 +5091,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marek_The_Punisher_Piotrowski.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Marek_Piotrowski",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 21,
         "birthDate": "1964",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 18
       },
       {
         "name": "Jonathan Di Bella",
@@ -5056,10 +5108,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jonathan_Di_Bella.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jonathan_Di_Bella",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 20,
         "birthDate": "1996",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 19
       },
       {
         "name": "Fred Royers",
@@ -5072,10 +5125,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fred_royers.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Fred_Royers",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 20,
         "birthDate": "1955",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 20
       },
       {
         "name": "Tenshin Nasukawa",
@@ -5089,10 +5143,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_00798.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tenshin_Nasukawa",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 19.8,
         "birthDate": "1998",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 21
       },
       {
         "name": "Eh Phouthong",
@@ -5105,10 +5160,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/EhPhouthong_pradalserey.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Eh_Phouthong",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 19.77777777777778,
         "birthDate": "1975-10-14",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 22
+      },
+      {
+        "name": "Valentina Shevchenko",
+        "total": 60,
+        "wins": 57,
+        "kos": 4,
+        "losses": 3,
+        "draws": 0,
+        "nationality": "Kirghiz SSR",
+        "weightClass": "Bantamweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Valentina_Shevchenko_2020.jpg",
+        "gender": "female",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Valentina_Shevchenko",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 19,
+        "birthDate": "1988",
+        "isSenior": false
       },
       {
         "name": "Aleksandar Konovalov",
@@ -5121,10 +5194,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aleksandar_Konovalov.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Aleksandar_Konovalov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 19,
         "birthDate": "1994",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 23
       },
       {
         "name": "Jean-Claude Van Damme",
@@ -5138,10 +5212,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jean-Claude_Van_Damme_at_Brussels_Comic_Con_2023_DSC19480_Kiri_DxO.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jean-Claude_Van_Damme",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 18,
         "birthDate": "1960",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 24
       },
       {
         "name": "Ron Sparks (fighter)",
@@ -5155,9 +5230,26 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ron_%22The_Monster%22_Sparks.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ron_Sparks_(fighter)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 18,
         "birthDate": "1974",
+        "isSenior": true,
+        "previousRank": 25
+      },
+      {
+        "name": "Kathy Long",
+        "total": 19,
+        "wins": 18,
+        "kos": 0,
+        "losses": 1,
+        "draws": 0,
+        "nationality": "U.S.",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kathy_Long.jpg",
+        "gender": "female",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Kathy_Long",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 18,
+        "birthDate": "1964",
         "isSenior": true
       },
       {
@@ -5172,10 +5264,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cung_Le_at_Inside_MMA.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cung_Le",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 17,
         "birthDate": "1972",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 26
       },
       {
         "name": "Vitali Klitschko",
@@ -5189,10 +5282,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/EPP_Congress_2025_Valencia_Day_1_(54483888272)_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Vitali_Klitschko",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 17,
         "birthDate": "1971",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 27
       },
       {
         "name": "Troy Dorsey",
@@ -5206,10 +5300,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Troy_Dorsey_2014_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Troy_Dorsey",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 16.5,
         "birthDate": "1962",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 28
       },
       {
         "name": "Alessandro Riguccini",
@@ -5223,10 +5318,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alex_Colosseo.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alessandro_Riguccini",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 16.333333333333332,
         "birthDate": "1988",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 29
+      },
+      {
+        "name": "Fredia Gibbs",
+        "total": 17,
+        "wins": 16,
+        "kos": 15,
+        "losses": 0,
+        "draws": 1,
+        "nationality": "U.S.",
+        "weightClass": "Welterweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fredia2018_(cropped).jpg",
+        "gender": "female",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fredia_Gibbs",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 16,
+        "birthDate": "1963",
+        "isSenior": true
       },
       {
         "name": "Pedro Rizzo",
@@ -5240,10 +5353,62 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pedro_Rizzo_2012.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Pedro_Rizzo",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 15.5,
         "birthDate": "1974",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 30
+      },
+      {
+        "name": "Tyrone Spong",
+        "total": 116,
+        "wins": 107,
+        "kos": 73,
+        "losses": 7,
+        "draws": 1,
+        "nationality": "Suriname",
+        "weightClass": "Light heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tyrone-spong3.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tyrone_Spong",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 15.285714285714286,
+        "birthDate": "1985",
+        "isSenior": false
+      },
+      {
+        "name": "Israel Adesanya",
+        "total": 80,
+        "wins": 75,
+        "kos": 27,
+        "losses": 5,
+        "draws": 0,
+        "nationality": "Nigeria",
+        "weightClass": "Light heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Israel_Adesanya_at_UFC_230.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Israel_Adesanya",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 15,
+        "birthDate": "1989",
+        "isSenior": false
+      },
+      {
+        "name": "Anissa Meksen",
+        "total": 111,
+        "wins": 104,
+        "kos": 33,
+        "losses": 7,
+        "draws": 0,
+        "nationality": "France",
+        "weightClass": "Bantamweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anissa_Meksen.jpeg",
+        "gender": "female",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Anissa_Meksen",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 14.857142857142858,
+        "birthDate": "1988",
+        "isSenior": false
       },
       {
         "name": "Don Wilson (kickboxer)",
@@ -5257,10 +5422,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Don_%22The_Dragon%22_Wilson_(14017300296).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Don_Wilson_(kickboxer)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 14.4,
         "birthDate": "1954-09-10",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 31
       },
       {
         "name": "Holly Holm",
@@ -5274,10 +5440,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Holly_Holm_at_UFC_246.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Holly_Holm",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 14,
         "birthDate": "1981",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 32
       },
       {
         "name": "Łukasz Jarosz",
@@ -5291,10 +5458,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lukasz_jarosz_2024.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%81ukasz_Jarosz",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 14,
         "birthDate": "1979",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 33
       },
       {
         "name": "Eh Amarin Phouthong",
@@ -5307,10 +5475,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Amarin_pradalserey.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Eh_Amarin_Phouthong",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13.6,
         "birthDate": "2003",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 34
       },
       {
         "name": "Alex Gong",
@@ -5324,10 +5493,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alex_Gong_(kickboxer).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alex_Gong",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13.5,
         "birthDate": "1970-10-14",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 35
+      },
+      {
+        "name": "Vladimir Mineev",
+        "total": 29,
+        "wins": 27,
+        "kos": 13,
+        "losses": 2,
+        "draws": 0,
+        "nationality": "Russian",
+        "weightClass": "Light heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vladimir_Mineev%2C_November_2020.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Vladimir_Mineev",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 13.5,
+        "birthDate": "1990",
+        "isSenior": false
       },
       {
         "name": "Ilonka Elmont",
@@ -5341,10 +5528,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ilonka_Elmont.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ilonka_Elmont",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13.333333333333334,
         "birthDate": "1974",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 36
+      },
+      {
+        "name": "Takeru Segawa",
+        "total": 15,
+        "wins": 13,
+        "kos": 2,
+        "losses": 1,
+        "draws": 1,
+        "nationality": "Japan",
+        "weightClass": "Bantamweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E6%AD%A6%E5%B0%8A%EF%BC%88RIZIN_2015%EF%BC%89.png",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Takeru_Segawa",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 13,
+        "birthDate": "1991",
+        "isSenior": false
       },
       {
         "name": "Davide Armanini",
@@ -5357,10 +5562,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Kickboxer_Davide_Armanini_-_Roberto_Marinottir.jpg/330px-Kickboxer_Davide_Armanini_-_Roberto_Marinottir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Davide_Armanini",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13,
         "birthDate": "1991",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 37
       },
       {
         "name": "Keo Rumchong",
@@ -5373,10 +5579,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Keo_Runchang.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Keo_Rumchong",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 12.307692307692308,
         "birthDate": "1988",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 38
       },
       {
         "name": "Andrei Kulebin",
@@ -5390,10 +5597,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andrei_Kulebin_4.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Andrei_Kulebin",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 12.2,
         "birthDate": "1984",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 39
       },
       {
         "name": "Chihiro Suzuki (fighter)",
@@ -5406,9 +5614,27 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chihiro_Suzuki_RIZIN_DECADE.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Chihiro_Suzuki_(fighter)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 12,
         "birthDate": "1999",
+        "isSenior": false,
+        "previousRank": 40
+      },
+      {
+        "name": "Zabit Samedov",
+        "total": 113,
+        "wins": 103,
+        "kos": 38,
+        "losses": 9,
+        "draws": 1,
+        "nationality": "Azerbaijani",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ilham_Aliyev_with_Zabit_Samedov_2017.jpg/330px-Ilham_Aliyev_with_Zabit_Samedov_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Zabit_Samedov",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 11.444444444444445,
+        "birthDate": "1984",
         "isSenior": false
       },
       {
@@ -5423,10 +5649,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/ShonieCarter-USMCPhoto-Cropped.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Shonie_Carter",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 11.4,
         "birthDate": "1972",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 41
       },
       {
         "name": "Andreea Cebuc",
@@ -5440,10 +5667,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andreea_Cebuc.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Andreea_Cebuc",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 11,
         "birthDate": "2002-07-30",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 42
       },
       {
         "name": "Cheick Kongo",
@@ -5457,10 +5685,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cheick_Kongo.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cheick_Kongo",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10.5,
         "birthDate": "1975",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 43
       },
       {
         "name": "Vlad Tuinov",
@@ -5474,10 +5703,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vlad_tuinov.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Vlad_Tuinov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10.4,
         "birthDate": "1998",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 44
       },
       {
         "name": "Muharrem Hasani",
@@ -5491,10 +5721,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Muharrem_Hasani_of.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Muharrem_Hasani",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10.2,
         "birthDate": "1985",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 45
       },
       {
         "name": "Chuck Liddell",
@@ -5508,10 +5739,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chuck_Liddell_in_Santa_Monica-California_2005_photo_by_Ithaka_Darin_Pappas.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Chuck_Liddell",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10,
         "birthDate": "1969",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 46
       },
       {
         "name": "Marcio Navarro",
@@ -5525,10 +5757,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_United_States_Air_Force.svg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Marcio_Navarro",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10,
         "birthDate": "1978-09-17",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 47
       },
       {
         "name": "Thun Sophea",
@@ -5541,9 +5774,27 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Coachthunsophea.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Thun_Sophea",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10,
         "birthDate": "1979",
+        "isSenior": false,
+        "previousRank": 48
+      },
+      {
+        "name": "Buakaw Banchamek",
+        "total": 286,
+        "wins": 245,
+        "kos": 74,
+        "losses": 25,
+        "draws": 14,
+        "nationality": "Thailand",
+        "weightClass": "Featherweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Picbuakaw.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Buakaw_Banchamek",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 9.8,
+        "birthDate": "1982-05-08",
         "isSenior": false
       },
       {
@@ -5558,10 +5809,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Shemsi-0336_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Shemsi_Beqiri",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.666666666666666,
         "birthDate": "1986",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 49
       },
       {
         "name": "Carlos Ulberg",
@@ -5575,10 +5827,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250%2C_Saturday%2C_June_13%2C_2026_-_11(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Carlos_Ulberg",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.5,
         "birthDate": "1990-11-17",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 50
       },
       {
         "name": "Joanne Wood",
@@ -5592,10 +5845,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Joanne_Calderwood_at_UFC_Brooklyn.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Joanne_Wood",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.5,
         "birthDate": "1985",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 51
       },
       {
         "name": "Jairzinho Rozenstruik",
@@ -5609,10 +5863,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jairzinho_Rozenstruik_at_UFC_244.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jairzinho_Rozenstruik",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.5,
         "birthDate": "1988",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 52
       },
       {
         "name": "Artur Kyshenko",
@@ -5626,9 +5881,27 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Artur-Kyshenko2.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Artur_Kyshenko",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.153846153846153,
         "birthDate": "1986",
+        "isSenior": false,
+        "previousRank": 53
+      },
+      {
+        "name": "Hakeem Dawodu",
+        "total": 9,
+        "wins": 9,
+        "kos": 7,
+        "losses": 0,
+        "draws": 0,
+        "nationality": "Canada",
+        "weightClass": "Featherweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hakeem_Dawodu_at_UFC_244.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Hakeem_Dawodu",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 9,
+        "birthDate": "1991",
         "isSenior": false
       },
       {
@@ -5643,9 +5916,27 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/DanHooker2016.png/330px-DanHooker2016.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dan_Hooker",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9,
         "birthDate": "1990",
+        "isSenior": false,
+        "previousRank": 54
+      },
+      {
+        "name": "Joanna Jędrzejczyk",
+        "total": 30,
+        "wins": 27,
+        "kos": 4,
+        "losses": 3,
+        "draws": 0,
+        "nationality": "Poland",
+        "weightClass": "Featherweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Joanna_J%C4%99drzejczyk.png",
+        "gender": "female",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Joanna_J%C4%99drzejczyk",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 9,
+        "birthDate": "1987-08-18",
         "isSenior": false
       },
       {
@@ -5660,10 +5951,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cedric-Doumbe-2017.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/C%C3%A9dric_Doumb%C3%A9",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9,
         "birthDate": "1992",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 55
       },
       {
         "name": "Samy Sana",
@@ -5677,10 +5969,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Samy_Sana_WBC_world_champion.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Samy_Sana",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9,
         "birthDate": "1988",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 56
       },
       {
         "name": "Yannick Reine",
@@ -5694,10 +5987,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yannick_Reine.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Yannick_Reine",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.833333333333334,
         "birthDate": "1987",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 57
       },
       {
         "name": "Saulo Cavalari",
@@ -5711,10 +6005,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saulo_%22Clay%22_Cavalari.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Saulo_Cavalari",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.571428571428571,
         "birthDate": "1989",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 58
       },
       {
         "name": "Andrew Tate",
@@ -5728,8 +6023,25 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tate_online_ventures_pyramid.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Andrew_Tate",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.444444444444445,
+        "isSenior": false,
+        "previousRank": 59
+      },
+      {
+        "name": "Edson Barboza",
+        "total": 28,
+        "wins": 25,
+        "kos": 22,
+        "losses": 3,
+        "draws": 0,
+        "nationality": "BrazilianAmerican",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Edson.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Edson_Barboza",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 8.333333333333334,
+        "birthDate": "1986",
         "isSenior": false
       },
       {
@@ -5744,362 +6056,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sledgehammer_Brigade_welcomes_UFC_stars_DVIDS722696.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Anthony_Njokuani",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.333333333333334,
         "birthDate": "1980",
-        "isSenior": false
-      },
-      {
-        "name": "Cor Hemmers",
-        "total": 29,
-        "wins": 25,
-        "kos": 0,
-        "losses": 3,
-        "draws": 1,
-        "nationality": "Netherlands",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cor_2.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Cor_Hemmers",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 8.333333333333334,
-        "birthDate": "1956",
-        "isSenior": true
-      },
-      {
-        "name": "Patrick Smith (fighter)",
-        "total": 74,
-        "wins": 66,
-        "kos": 0,
-        "losses": 8,
-        "draws": 0,
-        "nationality": "U.S.",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Patrick_%22The_Head_Hunter%22_Smith.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Patrick_Smith_(fighter)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 8.25,
-        "birthDate": "1963",
-        "isSenior": true
-      },
-      {
-        "name": "Rob Kaman",
-        "total": 112,
-        "wins": 97,
-        "kos": 77,
-        "losses": 12,
-        "draws": 1,
-        "nationality": "Netherlands",
-        "weightClass": "Light heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rob_Kaman.jpeg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rob_Kaman",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 8.083333333333334,
-        "birthDate": "1960",
-        "isSenior": true
-      },
-      {
-        "name": "David Dancrade",
-        "total": 54,
-        "wins": 48,
-        "kos": 0,
-        "losses": 6,
-        "draws": 0,
-        "nationality": "French",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dancrade_preparing.JPG",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Dancrade",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 8,
-        "birthDate": "1976",
-        "isSenior": true
-      },
-      {
-        "name": "Chico Kwasi",
-        "total": 55,
-        "wins": 47,
-        "kos": 23,
-        "losses": 6,
-        "draws": 2,
-        "nationality": "DutchSurinamese",
-        "weightClass": "Middleweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chico_Kwasi_in_his_fight_against_Romano_Bakboord.png",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Chico_Kwasi",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.833333333333333,
-        "birthDate": "1998",
-        "isSenior": false
-      },
-      {
-        "name": "Doris Köhler",
-        "total": 43,
-        "wins": 38,
-        "kos": 5,
-        "losses": 5,
-        "draws": 0,
-        "nationality": "Austrian",
-        "weightClass": "Bantamweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doris_K%C3%B6hler_112.JPG",
-        "gender": "female",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Doris_K%C3%B6hler",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.6,
-        "birthDate": "1975",
-        "isSenior": true
-      },
-      {
-        "name": "Luca Cecchetti",
-        "total": 51,
-        "wins": 45,
-        "kos": 11,
-        "losses": 6,
-        "draws": 0,
-        "nationality": "Italy",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Luca_Cecchetti.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Luca_Cecchetti",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.5,
-        "birthDate": "1990",
-        "isSenior": false
-      },
-      {
-        "name": "Yoann Kongolo",
-        "total": 76,
-        "wins": 67,
-        "kos": 47,
-        "losses": 9,
-        "draws": 0,
-        "nationality": "Swiss, French",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yoann_Kongolo_-_Andrejs_Pokumeiko%2C_WBSS_2018_(32823309528).jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Yoann_Kongolo",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.444444444444445,
-        "birthDate": "1987",
-        "isSenior": false
-      },
-      {
-        "name": "Mohammed Boutasaa",
-        "total": 25,
-        "wins": 22,
-        "kos": 5,
-        "losses": 3,
-        "draws": 0,
-        "nationality": "DutchMoroccan",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mohammed_boutasaa-1585889789.jpeg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mohammed_Boutasaa",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.333333333333333,
-        "birthDate": "1999",
-        "isSenior": false
-      },
-      {
-        "name": "Andy Souwer",
-        "total": 184,
-        "wins": 161,
-        "kos": 98,
-        "losses": 22,
-        "draws": 1,
-        "nationality": "Netherlands",
-        "weightClass": "Welterweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andy-souwer.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Andy_Souwer",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.318181818181818,
-        "birthDate": "1982",
-        "isSenior": false
-      },
-      {
-        "name": "Semmy Schilt",
-        "total": 50,
-        "wins": 43,
-        "kos": 20,
-        "losses": 6,
-        "draws": 1,
-        "nationality": "Netherlands",
-        "weightClass": "Super heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sem-schilt.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Semmy_Schilt",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.166666666666667,
-        "birthDate": "1973",
-        "isSenior": true
-      },
-      {
-        "name": "Stéphane Susperregui",
-        "total": 59,
-        "wins": 50,
-        "kos": 27,
-        "losses": 7,
-        "draws": 1,
-        "nationality": "French",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/St%C3%A9phane_Ippo_Susperregui.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/St%C3%A9phane_Susperregui",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7.142857142857143,
-        "birthDate": "1984",
-        "isSenior": false
-      },
-      {
-        "name": "Bas Rutten",
-        "total": 16,
-        "wins": 14,
-        "kos": 14,
-        "losses": 2,
-        "draws": 0,
-        "nationality": "Netherlands",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bas_Rutten.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bas_Rutten",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7,
-        "birthDate": "1965",
-        "isSenior": true
-      },
-      {
-        "name": "Tai Tuivasa",
-        "total": 16,
-        "wins": 14,
-        "kos": 10,
-        "losses": 2,
-        "draws": 0,
-        "nationality": "Australia",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tai_Tuivasa_at_UFC_234.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tai_Tuivasa",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 7,
-        "birthDate": "1993",
-        "isSenior": false
-      },
-      {
-        "name": "Ivan Hippolyte",
-        "total": 82,
-        "wins": 69,
-        "kos": 37,
-        "losses": 10,
-        "draws": 3,
-        "nationality": "Suriname",
-        "weightClass": "Middleweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ivan_Hippolyte_(cropped).jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ivan_Hippolyte",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.9,
-        "birthDate": "1964",
-        "isSenior": true
-      },
-      {
-        "name": "Andy Ristie",
-        "total": 56,
-        "wins": 48,
-        "kos": 28,
-        "losses": 7,
-        "draws": 1,
-        "nationality": "Suriname",
-        "weightClass": "Welterweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andy-Ristie.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Andy_Ristie",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.857142857142857,
-        "birthDate": "1982",
-        "isSenior": false
-      },
-      {
-        "name": "Daniel Teymur",
-        "total": 31,
-        "wins": 27,
-        "kos": 11,
-        "losses": 4,
-        "draws": 0,
-        "nationality": "Sweden",
-        "weightClass": "Featherweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Daniel_Teymur_at_UFC_Fight_Night_153_in_Stockholm%2C_Sweden.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Daniel_Teymur",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.75,
-        "birthDate": "1988",
-        "isSenior": false
-      },
-      {
-        "name": "Panchan Rina",
-        "total": 24,
-        "wins": 20,
-        "kos": 5,
-        "losses": 3,
-        "draws": 1,
-        "nationality": "Japan",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/20170104_Korakuen_Hall.jpg",
-        "gender": "female",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Panchan_Rina",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.666666666666667,
-        "birthDate": "1994",
-        "isSenior": false
-      },
-      {
-        "name": "Vitaly Gurkov",
-        "total": 115,
-        "wins": 100,
-        "kos": 0,
-        "losses": 15,
-        "draws": 0,
-        "nationality": "Belarusian",
-        "weightClass": "Welterweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vitaly_Gurkov_3.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Vitaly_Gurkov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.666666666666667,
-        "birthDate": "1985",
-        "isSenior": false
-      },
-      {
-        "name": "Rico Verhoeven",
-        "total": 76,
-        "wins": 66,
-        "kos": 21,
-        "losses": 10,
-        "draws": 0,
-        "nationality": "Netherlands",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rico-training.png",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rico_Verhoeven",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.6,
-        "birthDate": "1989-04-10",
-        "isSenior": false
-      },
-      {
-        "name": "Mike Zambidis",
-        "total": 181,
-        "wins": 157,
-        "kos": 87,
-        "losses": 24,
-        "draws": 0,
-        "nationality": "Greece",
-        "weightClass": "Middleweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mike_Zambidis.png",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mike_Zambidis",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 6.541666666666667,
-        "birthDate": "1980",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 60
       }
     ],
     "muayThai": [
@@ -6115,10 +6076,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Artem_Levin_belts.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Artem_Levin",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 56,
         "birthDate": "1986",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 1
       },
       {
         "name": "Valentina Shevchenko",
@@ -6132,11 +6094,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Valentina_Shevchenko_2020.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Valentina_Shevchenko",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 55,
         "birthDate": "1988",
         "isSenior": false,
-        "previousRank": 5
+        "previousRank": 2
       },
       {
         "name": "Jorina Baars",
@@ -6148,13 +6110,13 @@
         "nationality": "Netherlands",
         "weightClass": "Featherweight",
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jorina_baars-1631302731.png",
-        "gender": "female",
+        "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jorina_Baars",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 22,
         "birthDate": "1988",
         "isSenior": false,
-        "previousRank": 10
+        "previousRank": 3
       },
       {
         "name": "Artem Vakhitov",
@@ -6168,7 +6130,7 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Artem_Vakhitov%2C_February_2021.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Artem_Vakhitov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 22,
         "birthDate": "1991",
         "isSenior": false,
@@ -6186,10 +6148,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dieselnoi_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dieselnoi_Chor_Thanasukarn",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 22,
         "birthDate": "1961",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 5
       },
       {
         "name": "Fredia Gibbs",
@@ -6203,10 +6166,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fredia2018_(cropped).jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Fredia_Gibbs",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 16,
         "birthDate": "1963",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 6
       },
       {
         "name": "Tyrone Spong",
@@ -6220,11 +6184,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tyrone-spong3.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tyrone_Spong",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 15.285714285714286,
         "birthDate": "1985",
         "isSenior": false,
-        "previousRank": 2
+        "previousRank": 7
       },
       {
         "name": "Dave Leduc",
@@ -6237,11 +6201,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dave_Leduc_WLC_Post_fight.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dave_Leduc",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 15,
         "birthDate": "1991-12-13",
         "isSenior": false,
-        "previousRank": 11
+        "previousRank": 8
       },
       {
         "name": "Israel Adesanya",
@@ -6255,10 +6219,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Israel_Adesanya_at_UFC_230.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Israel_Adesanya",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 15,
         "birthDate": "1989",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 9
       },
       {
         "name": "Angela Hill",
@@ -6270,13 +6235,13 @@
         "nationality": "U.S.",
         "weightClass": "Strawweight",
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Angela_Hill_victorious_at_Friday_Night_Fights.jpg",
-        "gender": "female",
+        "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Angela_Hill",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 14,
         "birthDate": "1985-01-12",
         "isSenior": false,
-        "previousRank": 12
+        "previousRank": 10
       },
       {
         "name": "Ciryl Gane",
@@ -6290,11 +6255,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/UFC_Freedom_250%2C_the_mixed_martial_arts_event_produced_by_the_Ultimate_Fighting_Championship%2C_Sunday%2C_June_14%2C_2026%2C_in_the_Grand_Foyer_of_the_White_House_-_64(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ciryl_Gane",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13,
         "birthDate": "1990-04-12",
         "isSenior": false,
-        "previousRank": 13
+        "previousRank": 11
       },
       {
         "name": "Joanna Jędrzejczyk",
@@ -6306,13 +6271,13 @@
         "nationality": "Poland",
         "weightClass": "Featherweight",
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Joanna_J%C4%99drzejczyk.png",
-        "gender": "female",
+        "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Joanna_J%C4%99drzejczyk",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 12.333333333333334,
         "birthDate": "1987-08-18",
         "isSenior": false,
-        "previousRank": 14
+        "previousRank": 12
       },
       {
         "name": "Zabit Samedov",
@@ -6326,10 +6291,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ilham_Aliyev_with_Zabit_Samedov_2017.jpg/330px-Ilham_Aliyev_with_Zabit_Samedov_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Zabit_Samedov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 11.444444444444445,
         "birthDate": "1984",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 13
       },
       {
         "name": "Jennifer Maia",
@@ -6341,13 +6307,13 @@
         "nationality": "Brazil",
         "weightClass": "Flyweight",
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jennifer_Maia.jpg",
-        "gender": "female",
+        "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jennifer_Maia",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10,
         "birthDate": "1988-10-06",
         "isSenior": false,
-        "previousRank": 15
+        "previousRank": 14
       },
       {
         "name": "Buakaw Banchamek",
@@ -6361,11 +6327,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Picbuakaw.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Buakaw_Banchamek",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.8,
         "birthDate": "1982-05-08",
         "isSenior": false,
-        "previousRank": 17
+        "previousRank": 15
       },
       {
         "name": "Pudpadnoi Worawut",
@@ -6379,10 +6345,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pudpadnoi_1971.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Pudpadnoi_Worawut",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9,
         "birthDate": "1951",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 16
       },
       {
         "name": "Hakeem Dawodu",
@@ -6396,11 +6363,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hakeem_Dawodu_at_UFC_244.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Hakeem_Dawodu",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.4,
         "birthDate": "1991",
         "isSenior": false,
-        "previousRank": 7
+        "previousRank": 17
       },
       {
         "name": "Edson Barboza",
@@ -6413,7 +6380,7 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Edson.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Edson_Barboza",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.333333333333334,
         "birthDate": "1986",
         "isSenior": false,
@@ -6431,10 +6398,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Namkabuan_Nongkeepahuyuth_1993.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Namkabuan_Nongkeepahuyuth",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7.6,
         "birthDate": "1973",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 19
       },
       {
         "name": "Monika Chochlíková",
@@ -6448,11 +6416,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Monika_Chochlikova_2.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Monika_Chochl%C3%ADkov%C3%A1",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7.5,
         "birthDate": "1996",
         "isSenior": false,
-        "previousRank": 19
+        "previousRank": 20
       },
       {
         "name": "Sam-A Gaiyanghadao",
@@ -6466,10 +6434,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sam-A_Kaiyanghadaogym_5.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Sam-A_Gaiyanghadao",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7.411764705882353,
         "birthDate": "1983-10-13",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 21
       },
       {
         "name": "Vero Nika",
@@ -6483,10 +6452,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Verow_at_Thai_Fight_Sisaket_2022.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Vero_Nika",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7.333333333333333,
         "birthDate": "1996",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 22
       },
       {
         "name": "Patrice Quarteron",
@@ -6500,10 +6470,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Patrice_Quarteron_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Patrice_Quarteron",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7,
         "birthDate": "1979",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 23
       },
       {
         "name": "Ondřej Hutník",
@@ -6517,10 +6488,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Spejbl.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ond%C5%99ej_Hutn%C3%ADk",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.846153846153846,
         "birthDate": "1983",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 24
       },
       {
         "name": "Saenchai",
@@ -6534,10 +6506,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/SaenchaiSorKingstar.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Saenchai",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.73469387755102,
         "birthDate": "1980",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 25
       },
       {
         "name": "Nungubon Sitlerchai",
@@ -6551,10 +6524,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nungubon_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nungubon_Sitlerchai",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.666666666666667,
         "birthDate": "1971",
-        "isSenior": true
+        "isSenior": true,
+        "previousRank": 26
       },
       {
         "name": "Rodtang Jitmuangnon",
@@ -6568,10 +6542,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E3%83%AD%E3%83%83%E3%82%BF%E3%83%B3%E3%83%BB%E3%82%B8%E3%83%83%E3%83%88%E3%83%A0%E3%82%A2%E3%83%B3%E3%83%8E%E3%83%B3.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Rodtang_Jitmuangnon",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.2272727272727275,
         "birthDate": "1997",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 27
       },
       {
         "name": "Magomed Zaynukov",
@@ -6585,11 +6560,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%B0%D0%B9%D0%BD%D1%83%D0%BA%D0%BE%D0%B2_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D0%B4_%D0%91%D0%B5%D0%BA%D1%88%D0%B8%D0%B5%D0%B2%D0%B8%D1%87.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Magomed_Zaynukov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6,
         "birthDate": "1995",
         "isSenior": false,
-        "previousRank": 20
+        "previousRank": 28
       },
       {
         "name": "Dmitry Shakuta",
@@ -6603,10 +6578,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%A8%D0%B0%D0%BA%D1%83%D1%82%D0%B0.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dmitry_Shakuta",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6,
         "birthDate": "1980",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 29
       },
       {
         "name": "Silapathai Jockygym",
@@ -6620,11 +6596,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Silapathai_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Silapathai_Jockygym",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.925925925925926,
         "birthDate": "1974",
         "isSenior": true,
-        "previousRank": 21
+        "previousRank": 30
       },
       {
         "name": "Nabil Anane",
@@ -6638,10 +6614,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nabil_Anan_and_his_coach_Mehdi_Zatout_in_the_Super_Champ_(24_November_2020).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nabil_Anane",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.857142857142857,
         "birthDate": "2004",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 31
       },
       {
         "name": "Carlos Prates",
@@ -6655,11 +6632,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Carlos_Prates_2026.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Carlos_Prates",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.8,
         "birthDate": "1993-08-17",
         "isSenior": false,
-        "previousRank": 9
+        "previousRank": 32
       },
       {
         "name": "Grégory Choplin",
@@ -6673,10 +6650,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gregory_Choplin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Gr%C3%A9gory_Choplin",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.8,
         "birthDate": "1980",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 33
       },
       {
         "name": "Lerdsila Chumpairtour",
@@ -6690,10 +6668,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lerdsila_with_his_Muay_Thai_Belts.webp",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lerdsila_Chumpairtour",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.542857142857143,
         "birthDate": "1981",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 34
       },
       {
         "name": "Karuhat Sor.Supawan",
@@ -6707,11 +6686,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Karuhat_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Karuhat_Sor.Supawan",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.5,
         "birthDate": "1968",
         "isSenior": true,
-        "previousRank": 23
+        "previousRank": 35
       },
       {
         "name": "Veeraphol Sahaprom",
@@ -6725,11 +6704,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Veeraphol_Sahaprom_-_Scott_Mallon-Far_East_Photos.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Veeraphol_Sahaprom",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.5,
         "birthDate": "1968",
         "isSenior": true,
-        "previousRank": 22
+        "previousRank": 36
       },
       {
         "name": "Dzianis Hancharonak",
@@ -6743,10 +6722,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dzianis_Hancharonak_wins_2009_IFMA_World_Championships.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dzianis_Hancharonak",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.4,
         "birthDate": "1988",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 37
       },
       {
         "name": "Ekaterina Vandaryeva",
@@ -6760,10 +6740,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vandaryeva.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ekaterina_Vandaryeva",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.363636363636363,
         "birthDate": "1991",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 38
       },
       {
         "name": "Saiyok Pumpanmuang",
@@ -6777,10 +6758,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saiyok-_Thai_Fight_Dec_2022.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Saiyok_Pumpanmuang",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.2592592592592595,
         "birthDate": "1983",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 39
       },
       {
         "name": "Singmanee Kaewsamrit",
@@ -6794,10 +6776,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Singmanee_Kaewsamrit_4.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Singmanee_Kaewsamrit",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.21875,
         "birthDate": "1982",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 40
       },
       {
         "name": "Natalia Diachkova",
@@ -6809,13 +6792,13 @@
         "nationality": "Russia",
         "weightClass": "Strawweight",
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D1%8F_%D0%94%D1%8C%D1%8F%D1%87%D0%BA%D0%BE%D0%B2%D0%B0.jpg",
-        "gender": "female",
+        "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Natalia_Diachkova",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.166666666666667,
         "birthDate": "1994",
         "isSenior": false,
-        "previousRank": 24
+        "previousRank": 41
       },
       {
         "name": "Alka Matewa",
@@ -6829,11 +6812,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alka_Matewa.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alka_Matewa",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.090909090909091,
         "birthDate": "1987",
         "isSenior": false,
-        "previousRank": 1
+        "previousRank": 42
       },
       {
         "name": "Donald Cerrone",
@@ -6847,11 +6830,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/VCJCS_hosts_USO_Spring_Tour_160312-D-HU462-263.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Donald_Cerrone",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "birthDate": "1983-03-29",
         "isSenior": false,
-        "previousRank": 25
+        "previousRank": 43
       },
       {
         "name": "Qiu Jianliang",
@@ -6865,11 +6848,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/QIU_JIANLIANG.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Qiu_Jianliang",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "birthDate": "1990",
         "isSenior": false,
-        "previousRank": 16
+        "previousRank": 44
       },
       {
         "name": "Jonathan Haggerty",
@@ -6883,10 +6866,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jonathan_Haggerty_(53557979880)_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jonathan_Haggerty",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "birthDate": "1997",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 45
       },
       {
         "name": "Adam Larfi",
@@ -6900,10 +6884,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Adam_Larfi_(Adam_Noi).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Adam_Larfi",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.909090909090909,
         "birthDate": "1999",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 46
       },
       {
         "name": "Rafael Fiziev",
@@ -6917,11 +6902,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Fiziev_2023.png/330px-Fiziev_2023.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Rafael_Fiziev",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.875,
         "birthDate": "1993",
         "isSenior": false,
-        "previousRank": 26
+        "previousRank": 47
       },
       {
         "name": "Mahmoud Sattari",
@@ -6935,10 +6920,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mahmoud_Sattari.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahmoud_Sattari",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.6,
         "birthDate": "1991",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 48
       },
       {
         "name": "Petchmorakot Petchyindee Academy",
@@ -6952,10 +6938,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchmorakot_Wor_Sangprapai.JPG",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Petchmorakot_Petchyindee_Academy",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.512820512820513,
         "birthDate": "1994-02-14",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 49
       },
       {
         "name": "Pakorn P.K. Saenchai Muaythaigym",
@@ -6969,10 +6956,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pakorn_Sakyothin_1.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Pakorn_P.K._Saenchai_Muaythaigym",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.326086956521739,
         "birthDate": "1990",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 50
       },
       {
         "name": "Aikpracha Meenayothin",
@@ -6986,10 +6974,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Eakpracha_Meenayothin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Aikpracha_Meenayothin",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.318181818181818,
         "birthDate": "1985",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 51
       },
       {
         "name": "Igor Liubchenko",
@@ -7002,10 +6991,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ihor_Liubchenko.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Igor_Liubchenko",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.285714285714286,
         "birthDate": "1991",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 52
       },
       {
         "name": "Chamuekpet Hapalang",
@@ -7019,11 +7009,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chamuekpet_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Chamuekpet_Hapalang",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.166666666666667,
         "birthDate": "1962",
         "isSenior": true,
-        "previousRank": 27
+        "previousRank": 53
       },
       {
         "name": "Samart Payakaroon",
@@ -7037,11 +7027,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Samart_Payakaroon.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Samart_Payakaroon",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.166666666666667,
         "birthDate": "1962-12-05",
         "isSenior": true,
-        "previousRank": 28
+        "previousRank": 54
       },
       {
         "name": "Moussa Konaté (kickboxer)",
@@ -7055,10 +7045,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Moussa_Konat%C3%A9.jpg/330px-Moussa_Konat%C3%A9.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Moussa_Konat%C3%A9_(kickboxer)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.8260869565217392,
         "birthDate": "1978",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 55
       },
       {
         "name": "Nguyễn Trần Duy Nhất",
@@ -7072,11 +7063,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/NGUY%E1%BB%84N_TR%E1%BA%A6N_DUY_NH%E1%BA%A4T_%E2%80%93_CALL_ME_BY_FIRE_VIETNAM_%E2%80%93_P2.jpg/330px-NGUY%E1%BB%84N_TR%E1%BA%A6N_DUY_NH%E1%BA%A4T_%E2%80%93_CALL_ME_BY_FIRE_VIETNAM_%E2%80%93_P2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Tr%E1%BA%A7n_Duy_Nh%E1%BA%A5t",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.75,
         "birthDate": "1989",
         "isSenior": false,
-        "previousRank": 29
+        "previousRank": 56
       },
       {
         "name": "Stamp Fairtex",
@@ -7088,13 +7079,13 @@
         "nationality": "Thailand",
         "weightClass": "Strawweight",
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stamp_Fairtex_-_Lumpinee_Jan_2023.jpg",
-        "gender": "female",
+        "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Stamp_Fairtex",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.611111111111111,
         "birthDate": "1997-11-16",
         "isSenior": false,
-        "previousRank": 30
+        "previousRank": 57
       },
       {
         "name": "Therdkiat Sitthepitak",
@@ -7108,11 +7099,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Therdkiat_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Therdkiat_Sitthepitak",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.566666666666667,
         "birthDate": "1970",
         "isSenior": true,
-        "previousRank": 31
+        "previousRank": 58
       },
       {
         "name": "Therese Gunnarsson",
@@ -7126,10 +7117,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Therese_Gunnarsson_2016.jpg",
         "gender": "female",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Therese_Gunnarsson",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.5,
         "birthDate": "1983-11-30",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 59
       },
       {
         "name": "Liam Harrison (kickboxer)",
@@ -7143,11 +7135,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Liam_Harrison.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Liam_Harrison_(kickboxer)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.5,
         "birthDate": "1985",
         "isSenior": false,
-        "previousRank": 3
+        "previousRank": 60
       },
       {
         "name": "Lamnamoon Sor.Sumalee",
@@ -7161,11 +7153,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lamnamoon_Kevin.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamnamoon_Sor.Sumalee",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.260869565217391,
         "birthDate": "1973",
         "isSenior": true,
-        "previousRank": 32
+        "previousRank": 61
       },
       {
         "name": "Sitthichai Sitsongpeenong",
@@ -7179,28 +7171,101 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sitthichaibelts.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Sitthichai_Sitsongpeenong",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.225,
         "birthDate": "1991",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 62
       }
     ],
-    "taekwondo": [
+    "karate": [
       {
-        "name": "Jake Ryan (Australian actor)",
-        "total": 11,
-        "wins": 5,
-        "kos": 0,
-        "losses": 6,
+        "name": "Bill Wallace (martial artist)",
+        "total": 23,
+        "wins": 23,
+        "kos": 12,
+        "losses": 0,
         "draws": 0,
-        "nationality": "Australia",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jake_Ryan_(6327983835).jpg",
+        "nationality": "United States",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bill_Wallace%2C_Karate_World_Champion_2011.jpg",
         "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jake_Ryan_(Australian_actor)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
-        "thirdaryScore": 0.8333333333333334,
-        "birthDate": "1983",
-        "isSenior": false
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bill_Wallace_(martial_artist)",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 23,
+        "birthDate": "1945-12-01",
+        "isSenior": true,
+        "previousRank": 1
+      },
+      {
+        "name": "Masaaki Satake",
+        "total": 6,
+        "wins": 5,
+        "kos": 1,
+        "losses": 1,
+        "draws": 0,
+        "nationality": "Japanese",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Masaaki_Satake_IMG_6063_20130720.JPG",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Masaaki_Satake",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 5,
+        "birthDate": "1965",
+        "isSenior": true,
+        "previousRank": 2
+      },
+      {
+        "name": "Andy Hug",
+        "total": 23,
+        "wins": 13,
+        "kos": 0,
+        "losses": 10,
+        "draws": 0,
+        "nationality": "Switzerland",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andy_Hug_pic.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Andy_Hug",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 1.3,
+        "birthDate": "1964",
+        "isSenior": true,
+        "previousRank": 3
+      },
+      {
+        "name": "Gerard Gordeau",
+        "total": 1,
+        "wins": 1,
+        "kos": 0,
+        "losses": 0,
+        "draws": 0,
+        "nationality": "Netherlands",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yukinakai-gordeau.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Gerard_Gordeau",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 1,
+        "birthDate": "1956",
+        "isSenior": true,
+        "previousRank": 4
+      },
+      {
+        "name": "Nobuaki Kakuda",
+        "total": 8,
+        "wins": 2,
+        "kos": 1,
+        "losses": 5,
+        "draws": 1,
+        "nationality": "Japanese",
+        "weightClass": "Heavyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E8%A7%92%E7%94%B0%E4%BF%A1%E6%9C%97%E3%80%8E%E6%A8%AA%E6%BF%B1%E6%BC%A2%E7%A5%AD_2025%E3%80%8F%E9%81%B8%E6%89%8B%E9%A3%9B%E3%81%B3%E5%87%BA%E3%81%97%E3%82%B3%E3%83%BC%E3%83%AB%E3%80%90JERA_%E3%82%BB%E3%83%BB%E3%83%AA%E3%83%BC%E3%82%B0%E5%85%AC%E5%BC%8F%E6%88%A6%E3%80%91%E6%A8%AA%E6%B5%9CDeNA%E3%83%99%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA_vs_%E9%98%AA%E7%A5%9E%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%E3%82%B9_17%E5%9B%9E%E6%88%A6_%E6%A8%AA%E6%B5%9C%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0_2025%E5%B9%B48%E6%9C%8826%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202508261741_DSCN7872.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Nobuaki_Kakuda",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 0.4,
+        "birthDate": "1961-04-11",
+        "isSenior": true,
+        "previousRank": 5
       }
     ],
     "freestyleWrestling": [
@@ -7216,10 +7281,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khamzat_Chimaev_2022_(cropped).png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 26,
         "birthDate": "1994",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 1
       },
       {
         "name": "Abdulrashid Sadulaev",
@@ -7232,9 +7298,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Putin_and_Abdulrashid_Sadulaev_2021cr.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Abdulrashid_Sadulaev",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 22.857142857142858,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 2
       },
       {
         "name": "Kamran Ghasempour",
@@ -7247,9 +7314,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Kamran_Ghasempour_2_%28cropped%29.JPG/330px-Kamran_Ghasempour_2_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Kamran_Ghasempour",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 19.25,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 3
       },
       {
         "name": "Mohammad Reza Geraei",
@@ -7262,9 +7330,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Frank_St%C3%A4bler%2C_Mohammad_Reza_Geraei_and_Parviz_Nasibov_with_their_Olympic_medals_at_Tokyo_2020.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Mohammad_Reza_Geraei",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 16,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 4
       },
       {
         "name": "Taha Akgül",
@@ -7277,9 +7346,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Taha_Akg%C3%BCl_Rio2016.jpg/330px-Taha_Akg%C3%BCl_Rio2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Taha_Akg%C3%BCl",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 14.363636363636363,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 5
       },
       {
         "name": "Amir Aliakbari",
@@ -7292,9 +7362,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Amir_Aliakbari_11.jpg/330px-Amir_Aliakbari_11.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Amir_Aliakbari",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 14,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 6
       },
       {
         "name": "Mark Kerr (fighter)",
@@ -7308,10 +7379,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mark_Kerr_at_TIFF_2025_02.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Mark_Kerr_(fighter)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13,
         "isSenior": false,
-        "previousRank": 1
+        "previousRank": 7
       },
       {
         "name": "Rıza Kayaalp",
@@ -7324,9 +7395,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/R%C4%B1za_Kayaalp_%2851828940242%29.jpg/330px-R%C4%B1za_Kayaalp_%2851828940242%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/R%C4%B1za_Kayaalp",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 13,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 8
       },
       {
         "name": "Jordan Burroughs",
@@ -7339,9 +7411,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Burroughs_vs._Goudarzi_2012_Summer_Olympics_men's_freestyle_74_kg.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan_Burroughs",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 12.15,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 9
       },
       {
         "name": "Artur Naifonov",
@@ -7354,9 +7427,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Artur_Naifonov_2021.JPG/330px-Artur_Naifonov_2021.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Artur_Naifonov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 10.272727272727273,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 10
       },
       {
         "name": "Kyle Snyder (wrestler)",
@@ -7369,9 +7443,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/2016_Summer_Olympics%2C_Men's_Freestyle_Wrestling_97_kg_awarding_ceremony2.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Kyle_Snyder_(wrestler)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.772727272727273,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 11
       },
       {
         "name": "Spencer Lee",
@@ -7384,9 +7459,10 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Wrestling_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_freestyle_57_kg_Award_Ceremony_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Spencer_Lee",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 9.166666666666666,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 12
       },
       {
         "name": "Amir Hossein Zare",
@@ -7399,9 +7475,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Wrestling_at_the_2020_Summer_Olympics_%E2%80%93_Amir_Hossein_Zare_%2818%29_%28cropped%29.jpg/330px-Wrestling_at_the_2020_Summer_Olympics_%E2%80%93_Amir_Hossein_Zare_%2818%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Amir_Hossein_Zare",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.833333333333334,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 13
       },
       {
         "name": "Zaur Uguev",
@@ -7414,9 +7491,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Zaur_Uguev_2021.jpg/330px-Zaur_Uguev_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Zaur_Uguev",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.818181818181818,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 14
       },
       {
         "name": "Zaurbek Sidakov",
@@ -7429,9 +7507,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Putin_and_Zaurbek_Sidakov_2021cr.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Zaurbek_Sidakov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 8.142857142857142,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 15
       },
       {
         "name": "Razambek Zhamalov",
@@ -7444,9 +7523,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Razambek_Zhamalov_holding_his_2024_Summer_Olympics_gold_medal_%28cropped%29.jpg/330px-Razambek_Zhamalov_holding_his_2024_Summer_Olympics_gold_medal_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Razambek_Zhamalov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7.538461538461538,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 16
       },
       {
         "name": "David Taylor (wrestler, born 1990)",
@@ -7459,9 +7539,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/David_Taylor_interview.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Taylor_(wrestler%2C_born_1990)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7.318181818181818,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 17
       },
       {
         "name": "Yrjö Saarela",
@@ -7474,10 +7555,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Yrj%C3%B6_Saarela.jpg/330px-Yrj%C3%B6_Saarela.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Yrj%C3%B6_Saarela",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7,
         "isSenior": false,
-        "previousRank": 2
+        "previousRank": 18
       },
       {
         "name": "Gable Steveson",
@@ -7491,9 +7572,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gable_Steveson_%28USA%29_2018.jpg/330px-Gable_Steveson_%28USA%29_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Gable_Steveson",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 19
       },
       {
         "name": "Takuto Otoguro",
@@ -7506,9 +7588,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Takuto_Otoguro.png/330px-Takuto_Otoguro.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Takuto_Otoguro",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.714285714285714,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 20
       },
       {
         "name": "Daniel Cormier",
@@ -7522,10 +7605,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Daniel_Cormier_taking_a_picture_with_a_fan..jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Daniel_Cormier",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.666666666666667,
         "birthDate": "1979-03-20",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 21
       },
       {
         "name": "Akhmed Tazhudinov",
@@ -7538,9 +7622,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Akhmed_Tazhudinov_%28BHR%29_2024.jpg/330px-Akhmed_Tazhudinov_%28BHR%29_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Akhmed_Tazhudinov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.285714285714286,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 22
       },
       {
         "name": "Gadzhimurad Rashidov",
@@ -7553,9 +7638,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gazimurad_Rashidov.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Gadzhimurad_Rashidov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.066666666666666,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 23
       },
       {
         "name": "Kyle Dake",
@@ -7568,9 +7654,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marine_presents_award_to_wrestler_Kyle_Dake.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Kyle_Dake",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 24
       },
       {
         "name": "Sujeet Kalkal",
@@ -7583,9 +7670,10 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wrestling_pictogram.svg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Sujeet_Kalkal",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.875,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 25
       },
       {
         "name": "Bo Bassett",
@@ -7598,9 +7686,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BoBassett.jpg/330px-BoBassett.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Bo_Bassett",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5.666666666666667,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 26
       },
       {
         "name": "Arvo Lindén",
@@ -7613,10 +7702,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Arvo_Lind%C3%A9n_circa_1907.png/330px-Arvo_Lind%C3%A9n_circa_1907.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Arvo_Lind%C3%A9n",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "isSenior": false,
-        "previousRank": 4
+        "previousRank": 27
       },
       {
         "name": "Verner Weckman",
@@ -7629,10 +7718,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Verner_Weckman_3.jpg/330px-Verner_Weckman_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Verner_Weckman",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "isSenior": false,
-        "previousRank": 3
+        "previousRank": 28
       },
       {
         "name": "Kurban Shiraev",
@@ -7645,9 +7734,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%D0%A8%D0%B8%D1%80%D0%B0%D0%B5%D0%B2.png/330px-%D0%A8%D0%B8%D1%80%D0%B0%D0%B5%D0%B2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Kurban_Shiraev",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 29
       },
       {
         "name": "Frank Chamizo",
@@ -7660,9 +7750,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Frank_Chamizo%2C_July_2017.jpg/330px-Frank_Chamizo%2C_July_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Frank_Chamizo",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.84375,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 30
       },
       {
         "name": "Nachyn Kuular",
@@ -7675,9 +7766,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nachyn_Kuular%2C_November_2020.jpg/330px-Nachyn_Kuular%2C_November_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nachyn_Kuular",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.642857142857143,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 31
       },
       {
         "name": "J'den Cox",
@@ -7690,9 +7782,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Marine_presents_first_place_award_to_J%27den_Cox_%28cropped%29.jpg/330px-Marine_presents_first_place_award_to_J%27den_Cox_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/J'den_Cox",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.631578947368421,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 32
       },
       {
         "name": "Rahman Amouzad",
@@ -7705,9 +7798,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rahman_Amouzad.JPG/330px-Rahman_Amouzad.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Rahman_Amouzad",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.545454545454546,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 33
       },
       {
         "name": "Zain Retherford",
@@ -7720,9 +7814,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zain_Retherford_%2852791819473%29.jpg/330px-Zain_Retherford_%2852791819473%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Zain_Retherford",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.380952380952381,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 34
       },
       {
         "name": "Cael Sanderson",
@@ -7735,9 +7830,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Cael_Sanderson_%2847150012102%29.jpg/330px-Cael_Sanderson_%2847150012102%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cael_Sanderson",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.333333333333333,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 35
       },
       {
         "name": "Hassan Rahimi",
@@ -7750,9 +7846,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Hassan_Rahimi_2016_Summer_Olympics.jpg/330px-Hassan_Rahimi_2016_Summer_Olympics.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Hassan_Rahimi",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4.166666666666667,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 36
       },
       {
         "name": "Andrew Alirez",
@@ -7766,10 +7863,11 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Andrew_Alirez_vs_Jack_Whitmire_9497.jpg/330px-Andrew_Alirez_vs_Jack_Whitmire_9497.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Andrew_Alirez",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4,
         "birthDate": "2000-08-19",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 37
       },
       {
         "name": "Yianni Diakomihalis",
@@ -7782,9 +7880,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/John_Diakomihalis_%28USA%29_2021.JPG/330px-John_Diakomihalis_%28USA%29_2021.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Yianni_Diakomihalis",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 38
       },
       {
         "name": "David Baev",
@@ -7797,9 +7896,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/David_Baev.png/330px-David_Baev.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Baev",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.8333333333333335,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 39
       },
       {
         "name": "Keegan O'Toole",
@@ -7812,9 +7912,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/KeeganOToole.jpg/330px-KeeganOToole.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Keegan_O'Toole",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.75,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 40
       },
       {
         "name": "Henry Cejudo",
@@ -7828,10 +7929,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Henry_Cejudo_(54235464255)_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Henry_Cejudo",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.6666666666666665,
         "birthDate": "1987-02-09",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 41
       },
       {
         "name": "Tajmuraz Salkazanov",
@@ -7844,9 +7946,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tajmuraz_Salkazanov.JPG/330px-Tajmuraz_Salkazanov.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tajmuraz_Salkazanov",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.64,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 42
       },
       {
         "name": "Thomas Gilman (wrestler)",
@@ -7859,9 +7962,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Thomas_Gilman_at_NCAA_interview.png/330px-Thomas_Gilman_at_NCAA_interview.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Thomas_Gilman_(wrestler)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.5555555555555554,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 43
       },
       {
         "name": "Jason Nolf",
@@ -7874,9 +7978,10 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jason_Nolf_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jason_Nolf",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.5,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 44
       },
       {
         "name": "Daton Fix",
@@ -7889,9 +7994,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Daton_Fix.png/330px-Daton_Fix.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Daton_Fix",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.4375,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 45
       },
       {
         "name": "Alireza Dabir",
@@ -7904,11 +8010,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alireza_Dabir_14040605_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alireza_Dabir",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.4285714285714284,
         "birthDate": "1977-09-16",
         "isSenior": false,
-        "previousRank": 5
+        "previousRank": 46
       },
       {
         "name": "Myles Martin",
@@ -7921,9 +8027,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Myles_Martin.png/330px-Myles_Martin.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Myles_Martin",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.2857142857142856,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 47
       },
       {
         "name": "David Carr (wrestler)",
@@ -7936,9 +8043,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/DavidCarr.jpg/330px-DavidCarr.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Carr_(wrestler)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.238095238095238,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 48
       },
       {
         "name": "Kamal Bey",
@@ -7951,9 +8059,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Spc._Kamal_Bey_wins_the_77kg_gold_medal_in_Greco-Roman_wrestling_at_the_Pan_American_Games_%28231103-A-QG562-1011%29.jpg/330px-Spc._Kamal_Bey_wins_the_77kg_gold_medal_in_Greco-Roman_wrestling_at_the_Pan_American_Games_%28231103-A-QG562-1011%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Kamal_Bey",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.176470588235294,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 49
       },
       {
         "name": "Aaron Brooks (wrestler)",
@@ -7966,9 +8075,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/AaronBrooks2017.jpg/330px-AaronBrooks2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Aaron_Brooks_(wrestler)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3.125,
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 50
       }
     ],
     "brazilianJiuJitsu": [
@@ -7984,7 +8094,7 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/ADCC_King_Gordon_Ryan_Gritty_Path_To_Glory_-_YouTube_-_10_12_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Gordon_Ryan",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 17.444444444444443,
         "birthDate": "1995",
         "isSenior": false,
@@ -8001,7 +8111,7 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/pablo_popovitch.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Pablo_Popovitch",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 12.571428571428571,
         "birthDate": "1979",
         "isSenior": false,
@@ -8019,11 +8129,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rodolfo_Vieira_and_E.Zenkevich.JPG",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Rodolfo_Vieira",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 11.555555555555555,
         "birthDate": "1989",
         "isSenior": false,
         "previousRank": 3
+      },
+      {
+        "name": "Rickson Gracie",
+        "total": 8,
+        "wins": 8,
+        "kos": 0,
+        "losses": 0,
+        "draws": 0,
+        "nationality": "Brazil",
+        "weightClass": "Middleweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/rickson_gracie_20080608.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rickson_Gracie",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 8,
+        "birthDate": "1959-11-21",
+        "isSenior": true
       },
       {
         "name": "Reza Madadi",
@@ -8037,11 +8164,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Reza_Madadi.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Reza_Madadi",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 7,
         "birthDate": "1978",
         "isSenior": false,
-        "previousRank": 5
+        "previousRank": 4
       },
       {
         "name": "Marcelo Garcia (grappler)",
@@ -8054,11 +8181,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/marcelo_garcia.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Marcelo_Garcia_(grappler)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 6.153846153846154,
         "birthDate": "1982-01-17",
         "isSenior": false,
-        "previousRank": 6
+        "previousRank": 5
       },
       {
         "name": "Jon Jones",
@@ -8072,11 +8199,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jon_Jones_-_Supporting_Brain_Health_Study.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jon_Jones",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "birthDate": "1987",
         "isSenior": false,
-        "previousRank": 7
+        "previousRank": 6
       },
       {
         "name": "Tito Ortiz",
@@ -8090,10 +8217,27 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/TitoOrtiz2.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tito_Ortiz",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 5,
         "isSenior": false,
-        "previousRank": 8
+        "previousRank": 7
+      },
+      {
+        "name": "Ffion Davies",
+        "total": 80,
+        "wins": 65,
+        "kos": 0,
+        "losses": 15,
+        "draws": 0,
+        "nationality": "Wales",
+        "weightClass": "Feather /",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ffion_Davies_OF_02.jpg/330px-Ffion_Davies_OF_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ffion_Davies",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 4.333333333333333,
+        "birthDate": "1995",
+        "isSenior": false
       },
       {
         "name": "Alexander Gustafsson",
@@ -8107,11 +8251,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alexander_%22The_Mauler%22_Gustafsson_2014.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alexander_Gustafsson",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 4,
         "birthDate": "1987-01-15",
         "isSenior": false,
-        "previousRank": 10
+        "previousRank": 8
       },
       {
         "name": "Matt Hume",
@@ -8124,11 +8268,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Matt_Hume_at_Evolve_MMA_in_Singapore.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Matt_Hume",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3,
         "birthDate": "1966",
         "isSenior": true,
-        "previousRank": 11
+        "previousRank": 9
       },
       {
         "name": "Matt Serra",
@@ -8142,11 +8286,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Matt_Serra_2024.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Matt_Serra",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 3,
         "birthDate": "1974-06-02",
         "isSenior": true,
-        "previousRank": 12
+        "previousRank": 10
+      },
+      {
+        "name": "Mackenzie Dern",
+        "total": 101,
+        "wins": 75,
+        "kos": 0,
+        "losses": 25,
+        "draws": 1,
+        "nationality": "U.S.",
+        "weightClass": "Strawweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mackenzie_Dern.png",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mackenzie_Dern",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 3,
+        "birthDate": "1993-03-24",
+        "isSenior": false
       },
       {
         "name": "Glover Teixeira",
@@ -8160,11 +8321,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Teixeira_at_his_training_facility_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Glover_Teixeira",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2.6666666666666665,
         "birthDate": "1979",
         "isSenior": false,
-        "previousRank": 14
+        "previousRank": 11
       },
       {
         "name": "De'Alonzio Jackson",
@@ -8178,11 +8339,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/DJ_Jackson.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/De'Alonzio_Jackson",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2.5,
         "birthDate": "1988",
         "isSenior": false,
-        "previousRank": 15
+        "previousRank": 12
       },
       {
         "name": "Roberto Traven",
@@ -8196,11 +8357,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/RobertoTravenCoralBelt.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Roberto_Traven",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2.2,
         "birthDate": "1968-09-16",
         "isSenior": true,
-        "previousRank": 16
+        "previousRank": 13
       },
       {
         "name": "Renato Moicano",
@@ -8214,11 +8375,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Renato_Moicano_2025.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Renato_Moicano",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2,
         "birthDate": "1989-05-21",
         "isSenior": false,
-        "previousRank": 19
+        "previousRank": 14
       },
       {
         "name": "Marcin Held",
@@ -8232,11 +8393,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marcin_Held.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Marcin_Held",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2,
         "birthDate": "1992",
         "isSenior": false,
-        "previousRank": 17
+        "previousRank": 15
+      },
+      {
+        "name": "Ilima-Lei Macfarlane",
+        "total": 2,
+        "wins": 2,
+        "kos": 0,
+        "losses": 0,
+        "draws": 0,
+        "nationality": "U.S.",
+        "weightClass": "Flyweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/200107-D-SW162-0300_(49347207762)_(cropped).jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ilima-Lei_Macfarlane",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 2,
+        "birthDate": "1990-04-02",
+        "isSenior": false
       },
       {
         "name": "Matt Hughes (fighter)",
@@ -8250,11 +8428,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Matt_Hughes_(cropped).png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Matt_Hughes_(fighter)",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2,
         "birthDate": "1973",
         "isSenior": true,
-        "previousRank": 20
+        "previousRank": 16
       },
       {
         "name": "Vitor Belfort",
@@ -8268,11 +8446,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vitor_belfort_cropped.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Vitor_Belfort",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 2,
         "birthDate": "1977",
         "isSenior": false,
-        "previousRank": 21
+        "previousRank": 17
       },
       {
         "name": "Dean Lister",
@@ -8286,11 +8464,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lister.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dean_Lister",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1.8461538461538463,
         "birthDate": "1976",
         "isSenior": true,
-        "previousRank": 22
+        "previousRank": 18
       },
       {
         "name": "Shinya Aoki",
@@ -8304,11 +8482,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/KO-D%E7%84%A1%E5%B7%AE%E5%88%A5%E7%B4%9A%E7%8E%8B%E8%80%85%E3%83%BB%E9%9D%92%E6%9C%A8%E7%9C%9F%E4%B9%9F.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Shinya_Aoki",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1.7142857142857142,
         "birthDate": "1983",
         "isSenior": false,
-        "previousRank": 23
+        "previousRank": 19
       },
       {
         "name": "Hayato Sakurai",
@@ -8322,11 +8500,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hayato_Sakurai.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Hayato_Sakurai",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1.6666666666666667,
         "birthDate": "1975",
         "isSenior": true,
-        "previousRank": 24
+        "previousRank": 20
       },
       {
         "name": "Aljamain Sterling",
@@ -8340,11 +8518,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alijamain_Sterling_at_UFC_228.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Aljamain_Sterling",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1.5,
         "birthDate": "1989-07-31",
         "isSenior": false,
-        "previousRank": 25
+        "previousRank": 21
+      },
+      {
+        "name": "Gillian Robertson",
+        "total": 9,
+        "wins": 5,
+        "kos": 0,
+        "losses": 4,
+        "draws": 0,
+        "nationality": "Canada",
+        "weightClass": "Strawweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gillian_Robertson.png",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Gillian_Robertson",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 1.25,
+        "birthDate": "1995",
+        "isSenior": false
       },
       {
         "name": "Takanori Gomi",
@@ -8358,10 +8553,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Takanori_Gomi.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Takanori_Gomi",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1.2,
         "birthDate": "1978",
-        "isSenior": false
+        "isSenior": false,
+        "previousRank": 22
       },
       {
         "name": "Enson Inoue",
@@ -8375,11 +8571,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Enson_Inoue_at_the_2008_Tribeca_Film_Festival.JPG",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Enson_Inoue",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1,
         "birthDate": "1967",
         "isSenior": true,
-        "previousRank": 27
+        "previousRank": 23
       },
       {
         "name": "Georges St-Pierre",
@@ -8393,11 +8589,28 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/2021_-_Centre_Stage_DG4_5765_(51654942080)_(cropped).jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Georges_St-Pierre",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1,
         "birthDate": "1981",
         "isSenior": false,
-        "previousRank": 29
+        "previousRank": 24
+      },
+      {
+        "name": "Mina Kurobe",
+        "total": 3,
+        "wins": 1,
+        "kos": 0,
+        "losses": 1,
+        "draws": 1,
+        "nationality": "Japanese",
+        "weightClass": "Atomweight",
+        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Seo_Hee_Ham_vs._Mina_Kurobe_(Road_FC_039)_-_2000_x_1125.jpg",
+        "gender": "male",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mina_Kurobe",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
+        "thirdaryScore": 1,
+        "birthDate": "1977-05-02",
+        "isSenior": false
       },
       {
         "name": "Chase Hooper",
@@ -8411,11 +8624,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chase_Hooper_2022.png",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Chase_Hooper",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1,
         "birthDate": "1999",
         "isSenior": false,
-        "previousRank": 30
+        "previousRank": 25
       },
       {
         "name": "Wallid Ismail",
@@ -8429,11 +8642,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wallid_Ismail.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Wallid_Ismail",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 1,
         "birthDate": "1968",
         "isSenior": true,
-        "previousRank": 31
+        "previousRank": 26
       },
       {
         "name": "Josh Barnett",
@@ -8447,11 +8660,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Josh_Barnett_in_April_2024.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Josh_Barnett",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 0.8,
         "birthDate": "1977-11-10",
         "isSenior": false,
-        "previousRank": 32
+        "previousRank": 27
       },
       {
         "name": "Yuki Nakai",
@@ -8464,11 +8677,11 @@
         "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yukinakai-dougi.jpg",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Yuki_Nakai",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 0.5714285714285714,
         "birthDate": "1970",
         "isSenior": true,
-        "previousRank": 33
+        "previousRank": 28
       },
       {
         "name": "Genki Sudo",
@@ -8482,95 +8695,10 @@
         "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/G_sudo.jpg/330px-G_sudo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "gender": "male",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Genki_Sudo",
-        "lastUpdated": "2026-09-08T19:54:45.940Z",
+        "lastUpdated": "2026-09-08T23:52:36.188Z",
         "thirdaryScore": 0.5,
         "isSenior": false,
-        "previousRank": 34
-      }
-    ],
-    "karate": [
-      {
-        "name": "Bill Wallace (martial artist)",
-        "total": 23,
-        "wins": 23,
-        "kos": 12,
-        "losses": 0,
-        "draws": 0,
-        "nationality": "United States",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bill_Wallace%2C_Karate_World_Champion_2011.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bill_Wallace_(martial_artist)",
-        "lastUpdated": "2026-09-08T20:31:47.340Z",
-        "thirdaryScore": 23,
-        "birthDate": "1945-12-01",
-        "isSenior": true
-      },
-      {
-        "name": "Masaaki Satake",
-        "total": 6,
-        "wins": 5,
-        "kos": 1,
-        "losses": 1,
-        "draws": 0,
-        "nationality": "Japanese",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Masaaki_Satake_IMG_6063_20130720.JPG",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Masaaki_Satake",
-        "lastUpdated": "2026-09-08T20:31:47.340Z",
-        "thirdaryScore": 5,
-        "birthDate": "1965",
-        "isSenior": true
-      },
-      {
-        "name": "Andy Hug",
-        "total": 23,
-        "wins": 13,
-        "kos": 0,
-        "losses": 10,
-        "draws": 0,
-        "nationality": "Switzerland",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andy_Hug_pic.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Andy_Hug",
-        "lastUpdated": "2026-09-08T20:31:47.340Z",
-        "thirdaryScore": 1.3,
-        "birthDate": "1964",
-        "isSenior": true
-      },
-      {
-        "name": "Gerard Gordeau",
-        "total": 1,
-        "wins": 1,
-        "kos": 0,
-        "losses": 0,
-        "draws": 0,
-        "nationality": "Netherlands",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yukinakai-gordeau.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Gerard_Gordeau",
-        "lastUpdated": "2026-09-08T20:31:47.340Z",
-        "thirdaryScore": 1,
-        "birthDate": "1956",
-        "isSenior": true
-      },
-      {
-        "name": "Nobuaki Kakuda",
-        "total": 8,
-        "wins": 2,
-        "kos": 1,
-        "losses": 5,
-        "draws": 1,
-        "nationality": "Japanese",
-        "weightClass": "Heavyweight",
-        "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E8%A7%92%E7%94%B0%E4%BF%A1%E6%9C%97%E3%80%8E%E6%A8%AA%E6%BF%B1%E6%BC%A2%E7%A5%AD_2025%E3%80%8F%E9%81%B8%E6%89%8B%E9%A3%9B%E3%81%B3%E5%87%BA%E3%81%97%E3%82%B3%E3%83%BC%E3%83%AB%E3%80%90JERA_%E3%82%BB%E3%83%BB%E3%83%AA%E3%83%BC%E3%82%B0%E5%85%AC%E5%BC%8F%E6%88%A6%E3%80%91%E6%A8%AA%E6%B5%9CDeNA%E3%83%99%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA_vs_%E9%98%AA%E7%A5%9E%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%E3%82%B9_17%E5%9B%9E%E6%88%A6_%E6%A8%AA%E6%B5%9C%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0_2025%E5%B9%B48%E6%9C%8826%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202508261741_DSCN7872.jpg",
-        "gender": "male",
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Nobuaki_Kakuda",
-        "lastUpdated": "2026-09-08T20:31:47.340Z",
-        "thirdaryScore": 0.4,
-        "birthDate": "1961-04-11",
-        "isSenior": true
+        "previousRank": 29
       }
     ]
   }

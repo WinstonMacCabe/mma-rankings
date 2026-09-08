@@ -25,11 +25,6 @@ export const SPORT_KEYS: SportKey[] = [
   'kickboxing',
   'muayThai',
   'karate',
-  'taekwondo',
-  'savate',
-  'sanda',
-  'sambo',
-  'judo',
   'freestyleWrestling',
   'brazilianJiuJitsu',
 ]
