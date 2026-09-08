@@ -123,15 +123,13 @@ async function getCategoryPagesDeep(category: string): Promise<string[]> {
   }
 
   const subcats = await getAllMembers(category, 'subcat')
-  const deepSubcats = subcats.filter(c =>
-    !c.title.includes('Lists of') &&
-    (c.title.includes('by state') ||
-     c.title.includes('by populated place') ||
-     c.title.includes('by descent'))
+  const nationalitySubcats = subcats.filter(c =>
+    c.title.includes('by nationality') ||
+    c.title.includes('by country')
   )
 
   const results = await throttledMap(
-    deepSubcats,
+    nationalitySubcats,
     (cat) => getCategoryPagesRecursive(cat.title),
     CONCURRENCY
   )
@@ -229,7 +227,7 @@ export async function getSportPages(): Promise<Record<import('./types').SportKey
       let pages = catCache.get(cat)
       if (!pages) {
         try {
-          pages = await getCategoryPagesDeep(cat)
+          pages = await getCategoryPagesRecursive(cat)
         } catch {
           pages = []
         }
