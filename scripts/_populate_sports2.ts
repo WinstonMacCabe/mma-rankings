@@ -98,7 +98,7 @@ function buildSportRanking(
   }
 
   const scored = all
-    .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0)
+    .filter(f => (f.thirdaryScore ?? 0) > 0)
     .sort((a, b) =>
       (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0) ||
       a.losses - b.losses ||

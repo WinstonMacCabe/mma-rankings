@@ -16,6 +16,7 @@ const SPORT_LABELS: Record<SportKey, string> = {
   sambo: 'Sambo',
   judo: 'Judo',
   freestyleWrestling: 'Freestyle',
+  ncaaWrestling: 'NCAA',
   brazilianJiuJitsu: 'BJJ',
   sumo: 'Sumo',
   mongolianWrestling: 'Mongolian Wrestling',

@@ -27,18 +27,25 @@ async function fetchJsonWithRetry(url: string, opts: { headers: Record<string, s
 
 export function extractInfobox(wikitext: string, prefixFilter?: string[]): string | null {
   const prefixes = prefixFilter || ['{{Infobox martial artist', '{{Infobox person', '{{Infobox officeholder', '{{Infobox military']
+  let bestStart = Infinity
+  let bestPrefix = ''
   for (const prefix of prefixes) {
     const start = wikitext.indexOf(prefix)
     if (start < 0) continue
+    if (start < bestStart) {
+      bestStart = start
+      bestPrefix = prefix
+    }
+  }
+  if (bestPrefix === '') return null
 
-    let depth = 0
-    for (let i = start; i < wikitext.length; i++) {
-      if (wikitext[i] === '{' && wikitext[i + 1] === '{') { depth++; i++ }
-      else if (wikitext[i] === '}' && wikitext[i + 1] === '}') {
-        depth--
-        i++
-        if (depth === 0) return wikitext.slice(start, i + 1)
-      }
+  let depth = 0
+  for (let i = bestStart; i < wikitext.length; i++) {
+    if (wikitext[i] === '{' && wikitext[i + 1] === '{') { depth++; i++ }
+    else if (wikitext[i] === '}' && wikitext[i + 1] === '}') {
+      depth--
+      i++
+      if (depth === 0) return wikitext.slice(bestStart, i + 1)
     }
   }
   return null
@@ -384,7 +391,7 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
   }
 
   // Try to extract person infobox for image/nationality/birth date (person-first to avoid embed=yes martial artist modules)
-  const personInfo = extractInfobox(wikitext, ['{{Infobox person', '{{Infobox officeholder', '{{Infobox military', '{{Infobox martial artist'])
+  const personInfo = extractInfobox(wikitext, ['{{Infobox person', '{{Infobox officeholder', '{{Infobox military', '{{Infobox martial artist', '{{Infobox boxer', '{{Infobox sportsperson', '{{Infobox wrestler', '{{Infobox amateur wrestler', '{{Infobox sumo wrestler', '{{Infobox professional wrestler'])
   if (personInfo) {
     const lines = personInfo.split('\n')
     for (const line of lines) {
@@ -446,13 +453,14 @@ const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
   { key: 'lethwei', pattern: /lethwei/i },
   { key: 'kunKhmer', pattern: /kun\s*khmer|pradal\s*serey/i },
   { key: 'sanda', pattern: /sanda|san\s*da\b|wushu|sanshou|san\s*shou/i },
-  { key: 'kickboxing', pattern: /kick\s*-?\s*box/i },
+  { key: 'kickboxing', pattern: /kick\s*-?\s*box|full\s*[- ]?contact\s+karate/i },
   { key: 'karate', pattern: /karate|kyokushin|knockdown\s*karate/i },
   { key: 'taekwondo', pattern: /taekwondo|t[aá]e?\s*kwon/i },
   { key: 'savate', pattern: /savate|boxe\s*fran[cç]aise/i },
   { key: 'sumo', pattern: /sumo(?:\s*wrestling|\s*record)?\b|rikishi|\bbasho\b/i },
   { key: 'mongolianWrestling', pattern: /mongolian\s*wrestling|bökh|bukh\s*wrestling/i },
-  { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|greco[\s-]*roman|greco\s*roman|folkstyle|folk\s*style|collegiate\s*wrestling|catch\s*wrestling|catch\s*wrestl|wrestling|wrestl/i },
+  { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|greco[\s-]*roman|greco\s*roman|catch\s*wrestling|catch\s*wrestl|international\s*wrestling|olympic\s*wrestling/i },
+  { key: 'ncaaWrestling', pattern: /ncaa|collegiate|folkstyle|folk\s*style|amateur\s*wrestling|varsity\s*wrestling/i },
   { key: 'brazilianJiuJitsu', pattern: /jiu[\s-]?jitsu|jujitsu|bjj|brazilian\s*jiu|submission\s*grappling|\bgrappling\b/i },
   { key: 'judo', pattern: /judo/i },
   { key: 'sambo', pattern: /sambo|combat\s*sambo/i },
@@ -608,6 +616,7 @@ export function parseBespokeBlock(block: string): SportRecord | null {
 
 interface RecordTableMatch {
   sport: SportKey | null
+  sectionSport: SportKey | null
   block: string
   title: string
   recordSummary: string
@@ -703,9 +712,10 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     if (recMatch && recMatch[1].trim()) recordSummary = recMatch[1].replace(/\|\s*$/, '').trim()
 
     let sport = detectSport(title)
+    const sectionHeader = headers.filter(h => h.index < mIndex).slice(-1)[0]
+    const sectionSport = sectionHeader ? detectSport(sectionHeader.title) : null
     if (!sport) {
-      const sectionHeader = headers.filter(h => h.index < mIndex).slice(-1)[0]
-      if (sectionHeader) sport = detectSport(sectionHeader.title)
+      if (sectionHeader) sport = sectionSport
     }
     if (!sport) {
       // Combined "Kickboxing / Muay Thai record" style titles: blacklist MMA-only sections
@@ -717,7 +727,7 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     // Skip amateur / exhibition / invitational record tables — rankings need professional records
     if (/\b(amateur|exhibition|invitational)\b/i.test(title)) continue
 
-    matches.push({ sport, block: blockText, title, recordSummary })
+    matches.push({ sport, sectionSport, block: blockText, title, recordSummary })
   }
 
   return matches
@@ -808,6 +818,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
 
   // 3. Record tables (Fight / Kickboxing / MMA record start)
   const tables = findRecordTables(wikitext)
+  const combinedCandidates: RecordTableMatch[] = []
   for (const table of tables) {
     let rec = parseRecordSummaryForSport(table.recordSummary, table.sport)
     if (!rec && table.sport) {
@@ -826,6 +837,22 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
       rec = countTableRows(body)
     }
     addRecord(table.sport, rec)
+    if (
+      rec && table.sectionSport && table.sport &&
+      table.sectionSport !== table.sport &&
+      table.sectionSport === 'muayThai'
+    ) {
+      combinedCandidates.push(table)
+    }
+  }
+
+  // Combined-record sections (e.g. "Muay Thai and kickboxing record"): when a fighter's
+  // only record table in such a section is titled generically, attribute it to the section
+  // sport too — but only if they have no dedicated table for that sport already.
+  for (const table of combinedCandidates) {
+    if (out[table.sectionSport!]) continue
+    const rec = parseRecordSummaryForSport(table.recordSummary, table.sectionSport)
+    if (rec) addRecord(table.sectionSport, rec)
   }
 
   // 4. Bespoke tables (freestyle wrestling, judo, karate, grappling, sanda, etc.)
