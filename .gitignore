@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# temp sport populate checkpoint
+scripts/.sport_records_checkpoint.json

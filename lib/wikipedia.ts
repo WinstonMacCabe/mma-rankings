@@ -3,6 +3,28 @@ const API_URL = 'https://en.wikipedia.org/w/api.php'
 
 import type { SportKey, SportRecord } from './types'
 
+async function fetchJsonWithRetry(url: string, opts: { headers: Record<string, string> }, retries = 5): Promise<{ ok: boolean; status: number; data?: any }> {
+  let lastErr: unknown
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, opts)
+      if (res.status === 429) {
+        await new Promise(r => setTimeout(r, 5000 * attempt))
+        continue
+      }
+      if (!res.ok) return { ok: false, status: res.status }
+      const data = await res.json()
+      return { ok: true, status: res.status, data }
+    } catch (err) {
+      lastErr = err
+      const msg = err instanceof Error ? err.message : String(err)
+      console.warn(`[retry ${attempt}/${retries}] fetch failed: ${msg}`)
+      await new Promise(r => setTimeout(r, 2000 * attempt))
+    }
+  }
+  throw lastErr
+}
+
 export function extractInfobox(wikitext: string, prefixFilter?: string[]): string | null {
   const prefixes = prefixFilter || ['{{Infobox martial artist', '{{Infobox person', '{{Infobox officeholder', '{{Infobox military']
   for (const prefix of prefixes) {
@@ -968,22 +990,13 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
     })
 
     const url = `${API_URL}?${params.toString()}`
-    const res = await fetch(url, {
-      headers: { 'User-Agent': USER_AGENT },
-    })
+    const { ok, data } = await fetchJsonWithRetry(url, { headers: { 'User-Agent': USER_AGENT } })
 
-    if (res.status === 429) {
-      await new Promise(r => setTimeout(r, 5000))
-      i -= 50
-      continue
-    }
-
-    if (!res.ok) {
+    if (!ok) {
       for (const title of batch) results.set(title, null)
       continue
     }
 
-    const data = await res.json() as any
     const pages = data?.query?.pages ?? {}
 
     for (const [pid, page] of Object.entries(pages)) {

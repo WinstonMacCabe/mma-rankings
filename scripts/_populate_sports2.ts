@@ -4,12 +4,29 @@ import type { BoxerStats } from '../lib/wikipedia'
 import { readRankings, writeRankings } from '../lib/storage'
 import type { BoxerRecord, Gender, SportKey } from '../lib/types'
 import { SPORT_KEYS } from '../lib/types'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 
 const BATCH_SIZE = 50
 const BATCH_DELAY = 100
+const CHECKPOINT = path.join(__dirname, '.sport_records_checkpoint.json')
 
 function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+function saveCheckpoint(records: Map<string, BoxerStats>): void {
+  fs.writeFileSync(CHECKPOINT, JSON.stringify(Array.from(records.entries())))
+}
+
+function loadCheckpoint(): Map<string, BoxerStats> {
+  if (!fs.existsSync(CHECKPOINT)) return new Map()
+  try {
+    const raw = JSON.parse(fs.readFileSync(CHECKPOINT, 'utf8')) as [string, BoxerStats][]
+    return new Map(raw)
+  } catch {
+    return new Map()
+  }
 }
 
 function computeAge(birthDate: string | undefined, now: Date): number | null {
@@ -120,17 +137,20 @@ async function main() {
   }
   console.log(`\nFetching sport records for ${allSportTitles.size} unique fighter pages...`)
 
-  const sportRecords = new Map<string, BoxerStats>()
+  const sportRecords = loadCheckpoint()
   const titles = Array.from(allSportTitles)
-  for (let i = 0; i < titles.length; i += BATCH_SIZE) {
-    const batch = titles.slice(i, i + BATCH_SIZE)
+  const toFetch = titles.filter(t => !sportRecords.has(t))
+  console.log(`Resuming from checkpoint: ${titles.length - toFetch.length}/${titles.length} already fetched`)
+  for (let i = 0; i < toFetch.length; i += BATCH_SIZE) {
+    const batch = toFetch.slice(i, i + BATCH_SIZE)
     const results = await fetchBoxerRecords(batch)
     for (const [name, record] of results) {
       if (record) sportRecords.set(name, record)
     }
+    saveCheckpoint(sportRecords)
     await delay(BATCH_DELAY)
     if ((i / BATCH_SIZE) % 10 === 0) {
-      console.log(`  fetched ${Math.min(i + BATCH_SIZE, titles.length)}/${titles.length} (${((Date.now() - startTime) / 1000).toFixed(1)}s)`)
+      console.log(`  fetched ${Math.min(i + BATCH_SIZE, toFetch.length)}/${toFetch.length} (${((Date.now() - startTime) / 1000).toFixed(1)}s)`)
     }
   }
   console.log(`Fetched records for ${sportRecords.size} sport fighter pages.`)
@@ -194,6 +214,8 @@ async function main() {
   }
 
   await writeRankings(previous?.fighters ?? [], previous?.worst ?? [], previous?.thirdary ?? [], previous?.thirdaryWorst ?? [], sports)
+
+  fs.rmSync(CHECKPOINT, { force: true })
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
   console.log(`\nDone in ${elapsed}s. Sports ranked: ${Object.keys(sports).join(', ') || 'none'}`)
