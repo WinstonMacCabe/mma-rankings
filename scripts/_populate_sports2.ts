@@ -163,7 +163,7 @@ async function main() {
   const sizeMap = await checkImageSizes(imageUrls)
   let brokenCount = 0
   for (const [name, record] of sportRecords) {
-    if (record && record.imageUrl && !sizeMap.has(record.imageUrl)) {
+    if (record && record.imageUrl && !sizeMap.has(record.imageUrl) && /Special:FilePath\//.test(record.imageUrl)) {
       record.imageUrl = ''
       brokenCount++
     }

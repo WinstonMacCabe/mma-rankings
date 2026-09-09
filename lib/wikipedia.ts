@@ -876,7 +876,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     const sStartRegex = /\{\{s-start\b([\s\S]*?)(?:\{\{s-end\}\}|\{\{end\}\})/g
     let sm2: RegExpExecArray | null
     while ((sm2 = sStartRegex.exec(slice)) !== null) tableBlocks.push(sm2[1])
-    const wtRegex = /\{\|\s*[\s\S]*?\n\|\}/g
+    const wtRegex = /\{\|\s*[\s\S]*?(?:\{\{[sS]-end\}\}|\n\|\})/g
     let sm3: RegExpExecArray | null
     while ((sm3 = wtRegex.exec(slice)) !== null) tableBlocks.push(sm3[0])
     for (const block of tableBlocks) {
@@ -1020,6 +1020,7 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
     const { ok, data } = await fetchJsonWithRetry(url, { headers: { 'User-Agent': USER_AGENT } })
 
     if (!ok) {
+      console.warn(`[fetchBoxerRecords] batch failed (${titles.length}); dropping ${batch.length} pages, e.g. ${batch.slice(0, 3).join(' | ')}`)
       for (const title of batch) results.set(title, null)
       continue
     }
@@ -1028,10 +1029,14 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
 
     for (const [pid, page] of Object.entries(pages)) {
       const p = page as any
-      if (pid === '-1') continue
+      if (pid === '-1') {
+        console.warn(`[fetchBoxerRecords] page not found in batch: ${(page as any)?.title ?? 'unknown'}`)
+        continue
+      }
       const title = p.title as string
       const wikitext = p?.revisions?.[0]?.['*']
       if (!wikitext) {
+        console.warn(`[fetchBoxerRecords] no wikitext for ${title}`)
         results.set(title, null)
       } else {
         results.set(title, processRecord(wikitext))
