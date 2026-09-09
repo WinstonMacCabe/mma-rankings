@@ -17,6 +17,11 @@ const SPORT_LABELS: Record<SportKey, string> = {
   judo: 'Judo',
   freestyleWrestling: 'Freestyle',
   brazilianJiuJitsu: 'BJJ',
+  sumo: 'Sumo',
+  mongolianWrestling: 'Mongolian Wrestling',
+  lethwei: 'Lethwei',
+  kunKhmer: 'Kun Khmer',
+  bareKnuckle: 'Bare Knuckle',
 }
 
 const SPORT_KEYS_SET = new Set<SportKey>(SPORT_KEYS)
@@ -234,6 +239,39 @@ function FighterCard({ fighter, rank, isWorst, isBest }: { fighter: BoxerRecord;
           </div>
 
         </div>
+
+        {/* Rank history badge - bottom right corner */}
+        {(fighter.highestRank || fighter.lowestRank || fighter.previousRank) && (
+          <div className="absolute bottom-2 right-2 z-20 flex flex-col items-end gap-0.5">
+            {fighter.highestRank && fighter.highestRank < rank && (
+              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded" style={{
+                background: 'rgba(42,122,42,0.15)',
+                color: '#2a7a2a',
+                border: '1px solid rgba(42,122,42,0.3)',
+              }}>
+                Peak #{fighter.highestRank}
+              </span>
+            )}
+            {fighter.lowestRank && fighter.lowestRank > rank && (
+              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded" style={{
+                background: 'rgba(160,48,48,0.12)',
+                color: '#a03030',
+                border: '1px solid rgba(160,48,48,0.25)',
+              }}>
+                Low #{fighter.lowestRank}
+              </span>
+            )}
+            {fighter.previousRank && fighter.previousRank !== rank && (
+              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded" style={{
+                background: 'rgba(90,74,58,0.12)',
+                color: '#5a4a3a',
+                border: '1px solid rgba(90,74,58,0.2)',
+              }}>
+                From #{fighter.previousRank}
+              </span>
+            )}
+          </div>
+        )}
       </div>
     </div>
   )

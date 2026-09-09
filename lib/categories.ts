@@ -221,9 +221,14 @@ const SPORT_CATEGORIES: Record<import('./types').SportKey, string[]> = {
   savate: [],
   sanda: [],
   sambo: [],
-  judo: [],
+  judo: ['Category:Male judoka', 'Category:Female judoka'],
   freestyleWrestling: ['Category:Male sport wrestlers', 'Category:Female sport wrestlers'],
   brazilianJiuJitsu: ['Category:Brazilian jiu-jitsu practitioners'],
+  sumo: ['Category:Sumo wrestlers'],
+  mongolianWrestling: ['Category:Mongolian wrestlers', 'Category:Mongolian male sport wrestlers', 'Category:Mongolian male judoka'],
+  lethwei: ['Category:Lethwei practitioners', 'Category:Lethwei practitioners by nationality'],
+  kunKhmer: ['Category:Kun Khmer practitioners'],
+  bareKnuckle: [],
 }
 
 export async function getSportPages(): Promise<Record<import('./types').SportKey, Map<string, import('./types').Gender>>> {

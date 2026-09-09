@@ -27,6 +27,15 @@ function computeAge(birthDate: string | undefined, now: Date): number | null {
   return now.getFullYear() - birthYear
 }
 
+const MAX_WINS: Partial<Record<SportKey, number>> = {
+  sumo: 3000,
+  mongolianWrestling: 1500,
+}
+
+function maxWinsFor(key: SportKey): number {
+  return MAX_WINS[key] ?? 384
+}
+
 function buildSportRanking(
   key: SportKey,
   pages: Map<string, Gender>,
@@ -36,7 +45,11 @@ function buildSportRanking(
 ): BoxerRecord[] {
   const prevSport = previous.sports?.[key] ?? []
   const prevRank = new Map<string, number>()
-  prevSport.forEach((f, i) => prevRank.set(f.name, i + 1))
+  const prevHistory = new Map<string, { highest: number; lowest: number }>()
+  prevSport.forEach((f, i) => {
+    prevRank.set(f.name, i + 1)
+    prevHistory.set(f.name, { highest: f.highestRank ?? i + 1, lowest: f.lowestRank ?? i + 1 })
+  })
 
   const nowIso = now.toISOString()
   const all: BoxerRecord[] = []
@@ -46,7 +59,7 @@ function buildSportRanking(
     const sportRec = record.sportRecords?.[key]
     if (!sportRec) continue
     const { wins, losses, draws, noContests } = sportRec
-    if (wins === 0 || wins > 384) continue
+    if (wins === 0 || wins > maxWinsFor(key)) continue
     const total = wins + losses + draws + noContests
     const age = computeAge(record.birthDate, now)
     all.push({
@@ -75,12 +88,19 @@ function buildSportRanking(
       a.losses - b.losses ||
       (b.kos ?? 0) - (a.kos ?? 0)
     )
-    .map(f => ({ ...f, previousRank: prevRank.get(f.name) || undefined }))
 
   const ranked: BoxerRecord[] = []
   let nonSeniorCount = 0
-  for (const f of scored) {
-    ranked.push(f)
+  for (let i = 0; i < scored.length; i++) {
+    const f = scored[i]
+    const rank = i + 1
+    const hist = prevHistory.get(f.name)
+    ranked.push({
+      ...f,
+      previousRank: prevRank.get(f.name) || undefined,
+      highestRank: hist ? Math.min(hist.highest, rank) : rank,
+      lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
+    })
     if (!f.isSenior) nonSeniorCount++
     if (nonSeniorCount >= 50) break
   }
@@ -105,11 +125,24 @@ async function main() {
   const previous = await readRankings()
   const prevBestRank = new Map<string, number>()
   const prevWorstRank = new Map<string, number>()
+  const prevBestHistory = new Map<string, { highest: number; lowest: number }>()
+  const prevWorstHistory = new Map<string, { highest: number; lowest: number }>()
+  const prevThirdaryHistory = new Map<string, { highest: number; lowest: number }>()
   previous.fighters
     .filter(f => f.imageUrl)
-    .forEach((f, i) => prevBestRank.set(f.name, i + 1))
+    .forEach((f, i) => {
+      prevBestRank.set(f.name, i + 1)
+      prevBestHistory.set(f.name, { highest: f.highestRank ?? i + 1, lowest: f.lowestRank ?? i + 1 })
+    })
   ;(previous.worst ?? [])
-    .forEach((f, i) => prevWorstRank.set(f.name, i + 1))
+    .forEach((f, i) => {
+      prevWorstRank.set(f.name, i + 1)
+      prevWorstHistory.set(f.name, { highest: f.highestRank ?? i + 1, lowest: f.lowestRank ?? i + 1 })
+    })
+  ;(previous.thirdary ?? [])
+    .forEach((f, i) => {
+      prevThirdaryHistory.set(f.name, { highest: f.highestRank ?? i + 1, lowest: f.lowestRank ?? i + 1 })
+    })
 
   console.log(`\nStep 2: Fetching records for all ${pageMap.size} fighters...`)
 
@@ -177,11 +210,29 @@ async function main() {
   const ranked = undefeated
     .filter(f => f.imageUrl)
     .sort((a, b) => b.wins - a.wins || a.draws - b.draws || b.kos - a.kos || a.name.localeCompare(b.name))
-    .map((f, i) => ({ ...f, previousRank: prevBestRank.get(f.name) || undefined }))
+    .map((f, i) => {
+      const rank = i + 1
+      const hist = prevBestHistory.get(f.name)
+      return {
+        ...f,
+        previousRank: prevBestRank.get(f.name) || undefined,
+        highestRank: hist ? Math.min(hist.highest, rank) : rank,
+        lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
+      }
+    })
 
   const worstRanked = winless
     .sort((a, b) => b.losses - a.losses || a.draws - b.draws || a.name.localeCompare(b.name))
-    .map((f, i) => ({ ...f, previousRank: prevWorstRank.get(f.name) || undefined }))
+    .map((f, i) => {
+      const rank = i + 1
+      const hist = prevWorstHistory.get(f.name)
+      return {
+        ...f,
+        previousRank: prevWorstRank.get(f.name) || undefined,
+        highestRank: hist ? Math.min(hist.highest, rank) : rank,
+        lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
+      }
+    })
 
   const now = new Date()
 
@@ -190,7 +241,7 @@ async function main() {
   // 50 non-seniors + all seniors above 50th non-senior
   const allThirdary: BoxerRecord[] = []
   for (const [name, record] of allRecords) {
-    if (record.wins === 0 || (record.wins ?? 0) > 384) continue
+    if (record.wins === 0) continue
 
     const wins = record.wins!
     const losses = record.losses ?? 0
@@ -240,8 +291,16 @@ async function main() {
     )
   const thirdaryRanked: BoxerRecord[] = []
   let thirdNonSeniorCount = 0
+  let thirdRank = 0
   for (const f of allThirdaryScored) {
-    thirdaryRanked.push(f)
+    thirdRank++
+    const hist = prevThirdaryHistory.get(f.name)
+    thirdaryRanked.push({
+      ...f,
+      previousRank: undefined,
+      highestRank: hist ? Math.min(hist.highest, thirdRank) : thirdRank,
+      lowestRank: hist ? Math.max(hist.lowest, thirdRank) : thirdRank,
+    })
     if (!f.isSenior) thirdNonSeniorCount++
     if (thirdNonSeniorCount >= 50) break
   }

@@ -137,7 +137,7 @@ export function parseParamLine(line: string): Map<string, string> {
   return params
 }
 
-const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon|Shoulder_mark|Flag_of|Badge|Logo|Coat_of_arms|Icon/i
+const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon|Shoulder_mark|Flag[\s_]*of|\bflags?\b|Badge|Logo|Coat_of_arms|Icon/i
 
 function parseImageUrl(rawImage: string): string {
   if (!rawImage) return ''
@@ -361,8 +361,8 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     result.losses = fallbackLoss
   }
 
-  // Try to extract person infobox for image/nationality/birth date
-  const personInfo = extractInfobox(wikitext)
+  // Try to extract person infobox for image/nationality/birth date (person-first to avoid embed=yes martial artist modules)
+  const personInfo = extractInfobox(wikitext, ['{{Infobox person', '{{Infobox officeholder', '{{Infobox military', '{{Infobox martial artist'])
   if (personInfo) {
     const lines = personInfo.split('\n')
     for (const line of lines) {
@@ -421,15 +421,20 @@ export interface BoxerStats {
 
 const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
   { key: 'muayThai', pattern: /muay\s*thai|muay\b/i },
+  { key: 'lethwei', pattern: /lethwei/i },
+  { key: 'kunKhmer', pattern: /kun\s*khmer|pradal\s*serey/i },
   { key: 'sanda', pattern: /sanda|san\s*da\b|wushu|sanshou|san\s*shou/i },
   { key: 'kickboxing', pattern: /kick\s*-?\s*box/i },
   { key: 'karate', pattern: /karate|kyokushin|knockdown\s*karate/i },
   { key: 'taekwondo', pattern: /taekwondo|t[aá]e?\s*kwon/i },
   { key: 'savate', pattern: /savate|boxe\s*fran[cç]aise/i },
+  { key: 'sumo', pattern: /sumo(?:\s*wrestling|\s*record)?\b|rikishi|\bbasho\b/i },
+  { key: 'mongolianWrestling', pattern: /mongolian\s*wrestling|bökh|bukh\s*wrestling/i },
   { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|greco[\s-]*roman|greco\s*roman|folkstyle|folk\s*style|collegiate\s*wrestling|catch\s*wrestling|catch\s*wrestl|wrestling|wrestl/i },
   { key: 'brazilianJiuJitsu', pattern: /jiu[\s-]?jitsu|jujitsu|bjj|brazilian\s*jiu|submission\s*grappling|\bgrappling\b/i },
   { key: 'judo', pattern: /judo/i },
   { key: 'sambo', pattern: /sambo|combat\s*sambo/i },
+  { key: 'bareKnuckle', pattern: /bare[- ]?knuckle/i },
   { key: 'boxing', pattern: /boxing|boxe\b|prizefight/i },
 ]
 
@@ -467,6 +472,19 @@ export function parseRecordSummary(value: string): SportRecord | null {
   }
 
   return found ? rec : null
+}
+
+function parseRecordSummaryForSport(value: string, prefer: SportKey | null): SportRecord | null {
+  if (!prefer) return parseRecordSummary(value)
+  const text = value.replace(/'''/g, '').replace(/['']/g, "'").trim()
+
+  const segments = text.split(/<br\s*\/?>\s*\|?\s*|\|\s*/i).map(s => s.trim()).filter(Boolean)
+  if (segments.length <= 1) return parseRecordSummary(value)
+
+  for (const seg of segments) {
+    if (detectSport(seg) === prefer) return parseRecordSummary(seg)
+  }
+  return parseRecordSummary(value)
 }
 
 function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; method: string } | null {
@@ -573,6 +591,70 @@ interface RecordTableMatch {
   recordSummary: string
 }
 
+function parseSumoRecordBox(wikitext: string): SportRecord | null {
+  const rec = emptySportRecord()
+  const found = false
+  const startRegex = /\{\{\s*Sumo\s+record\s+box\s+start/gi
+  const endRegex = /\{\{\s*Sumo\s+record\s+box\s+end/gi
+  const rowRegex = /\{\{\s*Basho\s*\|([^}]+)\}\}/g
+  let sm: RegExpExecArray | null
+  let anyRows = false
+  while ((sm = startRegex.exec(wikitext)) !== null) {
+    const startIndex = sm.index
+    endRegex.lastIndex = startIndex
+    const em = endRegex.exec(wikitext)
+    const endIndex = em ? em.index : wikitext.length
+    const block = wikitext.slice(startIndex, endIndex)
+    rowRegex.lastIndex = 0
+    let m: RegExpExecArray | null
+    while ((m = rowRegex.exec(block)) !== null) {
+      const args = m[1].split('|').map(a => a.trim())
+      if (args.length < 5) continue
+      if (/^(KYUJO|MAEZUMOU|SHINJO|ATSUDORI)$/i.test(args[0])) continue
+      const wins = parseInt(args[3], 10)
+      const losses = parseInt(args[4], 10)
+      if (isNaN(wins) || isNaN(losses)) continue
+      rec.wins += wins
+      rec.losses += losses
+      anyRows = true
+    }
+    startRegex.lastIndex = endIndex
+  }
+  return anyRows ? { ...rec, kos: 0 } : null
+}
+
+const MONGOLIAN_ROW_REGEX = /\{\{\s*Mongolian\s+Wrestling\s+Record\s*\|([^}]+)\}\}/g
+const MONGOLIAN_START_REGEX = /\{\{\s*Mongolian\s+Wrestling\s+Record\/Start/gi
+const MONGOLIAN_END_REGEX = /\{\{\s*Mongolian\s+Wrestling\s+Record\/End/gi
+
+function parseMongolianWrestlingRecord(wikitext: string): SportRecord | null {
+  const rec = emptySportRecord()
+  let anyRows = false
+  let sm: RegExpExecArray | null
+  while ((sm = MONGOLIAN_START_REGEX.exec(wikitext)) !== null) {
+    const startIndex = sm.index
+    MONGOLIAN_END_REGEX.lastIndex = startIndex
+    const em = MONGOLIAN_END_REGEX.exec(wikitext)
+    const endIndex = em ? em.index : wikitext.length
+    const block = wikitext.slice(startIndex, endIndex)
+    MONGOLIAN_ROW_REGEX.lastIndex = 0
+    let m: RegExpExecArray | null
+    while ((m = MONGOLIAN_ROW_REGEX.exec(block)) !== null) {
+      const args = m[1].split('|').map(a => a.trim())
+      if (args.length < 5) continue
+      if (args[0] === 'Start' || args[0].startsWith('/')) continue
+      const wins = parseInt(args[4], 10)
+      const losses = parseInt(args[args.length - 1], 10)
+      if (isNaN(wins) || isNaN(losses)) continue
+      rec.wins += wins
+      rec.losses += losses
+      anyRows = true
+    }
+    MONGOLIAN_START_REGEX.lastIndex = endIndex
+  }
+  return anyRows ? { ...rec, kos: 0 } : null
+}
+
 export function findRecordTables(wikitext: string): RecordTableMatch[] {
   const matches: RecordTableMatch[] = []
   const headerRegex = /\n={2,}[^=\n]+={2,}/g
@@ -609,6 +691,9 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
         sport = detectSport(title.replace(/record\b/gi, '')) ?? null
       }
     }
+
+    // Skip amateur / exhibition / invitational record tables — rankings need professional records
+    if (/\b(amateur|exhibition|invitational)\b/i.test(title)) continue
 
     matches.push({ sport, block: blockText, title, recordSummary })
   }
@@ -702,7 +787,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
   // 3. Record tables (Fight / Kickboxing / MMA record start)
   const tables = findRecordTables(wikitext)
   for (const table of tables) {
-    let rec = parseRecordSummary(table.recordSummary)
+    let rec = parseRecordSummaryForSport(table.recordSummary, table.sport)
     if (!rec && table.sport) {
       // Row-count fallback: inspect the wikitext between this table's opening
       // template and the next section header / {{end}}
@@ -732,6 +817,9 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     const h = allHeaders[i]
     const sport = detectSport(h.title)
     if (!sport) continue
+    // Skip amateur/exhibition headers for professional-combat sports
+    const PRO_SPORTS: SportKey[] = ['kickboxing', 'muayThai', 'boxing', 'sanda', 'savate', 'taekwondo']
+    if (PRO_SPORTS.includes(sport) && /\b(amateur|exhibition|invitational)\b/i.test(h.title)) continue
     const nextHeader = allHeaders.slice(i + 1).find(n => n.contentStart > h.contentStart)
     const nextIndex = nextHeader ? nextHeader.start : wikitext.length
     const slice = wikitext.slice(h.contentStart, nextIndex)
@@ -747,6 +835,12 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
       addRecord(sport, rec)
     }
   }
+
+  // 5. Sumo record box ({{Sumo record box start}}...{{Sumo record box end}})
+  addRecord('sumo', parseSumoRecordBox(wikitext))
+
+  // 6. Mongolian wrestling record ({{Mongolian Wrestling Record/Start}}...{{Mongolian Wrestling Record/End}})
+  addRecord('mongolianWrestling', parseMongolianWrestlingRecord(wikitext))
 
   return out
 }
@@ -773,7 +867,7 @@ function countQualityWins(wikitext: string): number {
   return qualityWins
 }
 
-function processRecord(wikitext: string): BoxerStats | null {
+export function processRecord(wikitext: string): BoxerStats | null {
   const infobox = parseWikitextInfobox(wikitext)
   const sportRecords = extractSportRecords(wikitext)
 
@@ -935,6 +1029,62 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
               const existing = results.get(p.title)
               if (existing && !existing.imageUrl) {
                 results.set(p.title, { ...existing, imageUrl: p.thumbnail.source })
+              }
+            }
+          }
+        }
+      } catch { }
+    }
+
+    // Validate imageUrls: check for broken/nonexistent files, clear so pageimages can retry
+    const urlsToCheck = batch
+      .map(t => ({ name: t, url: results.get(t)?.imageUrl }))
+      .filter((x): x is { name: string; url: string } => !!x.url)
+    if (urlsToCheck.length > 0) {
+      try {
+        const titleToEntry = new Map<string, { name: string; url: string }>()
+        const fileTitles = urlsToCheck.map(({ name, url }) => {
+          const match = url.match(/Special:FilePath\/(.+)$/)
+          if (!match) return null
+          const title = `File:${decodeURIComponent(match[1]).replace(/_/g, ' ')}`
+          titleToEntry.set(title, { name, url })
+          return title
+        }).filter(Boolean) as string[]
+
+        if (fileTitles.length > 0) {
+          const checkParams = new URLSearchParams({
+            action: 'query', prop: 'imageinfo', iiprop: 'size',
+            titles: fileTitles.join('|'), format: 'json', origin: '*',
+          })
+          const checkRes = await fetch(`${API_URL}?${checkParams}`, { headers: { 'User-Agent': USER_AGENT } })
+          if (checkRes.ok) {
+            const checkData = await checkRes.json() as any
+            const existingTitles = new Set<string>()
+            for (const [, page] of Object.entries(checkData?.query?.pages ?? {}) as any[]) {
+              if (page?.imageinfo?.[0]?.width) existingTitles.add(page.title)
+            }
+            const broken: string[] = []
+            for (const [title, { name, url }] of titleToEntry) {
+              if (!existingTitles.has(title)) {
+                const r = results.get(name)
+                if (r) { results.set(name, { ...r, imageUrl: '' }); broken.push(name) }
+              }
+            }
+            // Retry broken ones via pageimages
+            if (broken.length > 0) {
+              const retryParams = new URLSearchParams({
+                action: 'query', prop: 'pageimages', piprop: 'thumbnail', pithumbsize: '300',
+                titles: broken.join('|'), format: 'json', origin: '*',
+              })
+              const retryRes = await fetch(`${API_URL}?${retryParams}`, { headers: { 'User-Agent': USER_AGENT } })
+              if (retryRes.ok) {
+                const retryData = await retryRes.json() as any
+                for (const [, p] of Object.entries(retryData?.query?.pages ?? {}) as any[]) {
+                  if (p.title && p.thumbnail?.source) {
+                    const existing = results.get(p.title)
+                    if (existing && !existing.imageUrl) results.set(p.title, { ...existing, imageUrl: p.thumbnail.source })
+                  }
+                }
               }
             }
           }

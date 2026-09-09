@@ -12,6 +12,11 @@ export type SportKey =
   | 'judo'
   | 'freestyleWrestling'
   | 'brazilianJiuJitsu'
+  | 'sumo'
+  | 'mongolianWrestling'
+  | 'lethwei'
+  | 'kunKhmer'
+  | 'bareKnuckle'
 
 export interface SportRecord {
   wins: number
@@ -27,6 +32,12 @@ export const SPORT_KEYS: SportKey[] = [
   'karate',
   'freestyleWrestling',
   'brazilianJiuJitsu',
+  'sumo',
+  'mongolianWrestling',
+  'lethwei',
+  'kunKhmer',
+  'judo',
+  'bareKnuckle',
 ]
 
 export interface BoxerRecord {
@@ -43,6 +54,8 @@ export interface BoxerRecord {
   weightClass?: string
   imageUrl?: string
   previousRank?: number
+  highestRank?: number
+  lowestRank?: number
   thirdaryScore?: number
   birthDate?: string
   isSenior?: boolean
