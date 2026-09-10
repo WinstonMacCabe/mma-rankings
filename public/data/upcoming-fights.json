@@ -1,6 +1,174 @@
 {
-  "lastUpdated": "2026-09-09T00:35:28.735Z",
+  "lastUpdated": "2026-09-10T00:39:40.463Z",
   "fights": [
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Joe Rogan Cites Alexander Volkanovski to Warn Ilia Topuria Against Rushing Back After Brutal Loss at UFC Freedom 250",
+      "url": "https://sports.yahoo.com/articles/joe-rogan-cites-alexander-volkanovski-002936573.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-09T00:29:36Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Paulo Costa would love to welcome Khamzat Chimaev to light heavyweight",
+      "url": "https://sports.yahoo.com/articles/paulo-costa-love-welcome-khamzat-001500189.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-09T00:15:00Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Ian Machado Garry makes Islam Makhachev vs. Carlos Prates prediction",
+      "url": "https://sports.yahoo.com/articles/ian-machado-garry-makes-islam-215253859.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-08T21:52:53Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Ian Machado Garry Wants Michael Morales Next, Eyes Finish for Second UFC Title Shot",
+      "url": "https://sports.yahoo.com/articles/ian-machado-garry-wants-michael-212459660.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-08T21:24:59Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Salahdine Parnasse wants 'war' with Max Holloway after UFC Paris debut, has no interest in taking it slow",
+      "url": "https://sports.yahoo.com/mma/article/salahdine-parnasse-wants-war-with-max-holloway-after-ufc-paris-debut-has-no-interest-in-taking-it-slow-210645091.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-08T21:06:45Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "headline": "Ian Machado Garry names undefeated contender as ‘only fight that makes sense right now’",
+      "url": "https://www.mmafighting.com/ufc/509203/ian-machado-garry-calls-michael-morales-only-fight-that-makes-sense-right-now",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-08T18:00:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Former champ praises Michael Page’s point-fighting: Must have ‘live feed’ of judges’ scorecards",
+      "url": "https://www.mmamania.com/ufc-news/470429/former-champ-praises-michael-pages-point-fighting-must-have-live-feed-of-judges-scorecards",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-08T18:00:00Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit rips Alex Pereira for targeting Ciryl Gane rematch",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/08/ufc-josh-hokit-ciryl-gane-vs-alex-pereira-makes-no-sense/91654403007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-08T17:50:24Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Jon Anik drops major Justin Gaethje vs Ilia Topuria 2 hint as Conor McGregor enters UFC title picture",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/jon-anik-drops-major-justin-gaethje-vs-ilia-topuria-2-hint-as-conor-mcgregor-enters-ufc-title-picture/articleshow/133935770.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-08T17:36:56Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev willing to be backup for Sean Strickland vs. Nassourdine Imavov",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/08/ufc-khamzat-chimaev-willing-backup-strickland-vs-imavov/91655163007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-08T16:10:27Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page's hopes for new UFC contract head in the wrong direction",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/08/ufc-michael-page-new-contract-rankings-ineligible/91655869007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-08T14:30:32Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Joe Rogan worried Ilia Topuria will ‘make the mistake of coming back too soon’",
+      "url": "https://www.mmamania.com/ufc-news/470391/joe-rogan-worried-ilia-topuria-will-make-the-mistake-of-coming-back-too-soon",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-08T14:00:00Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Josh Hokit goes off on Alex Pereira asking for Ciryl Gane rematch: ‘I watched you get demolished’",
+      "url": "https://www.mmafighting.com/ufc/509182/josh-hokit-goes-off-on-alex-pereira-asking-for-ciryl-gane-rematch-i-watched-you-get-demolished",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-08T14:00:00Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Matt Brown argues UFC ‘might ruin Ilia Topuria’s life’ with another savage beatdown from Justin Gaethje",
+      "url": "https://www.mmafighting.com/ufc/509146/matt-brown-argues-ufc-might-ruin-ilia-topurias-life-with-another-savage-beatdown-from-justin-gaethje",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-08T13:00:00Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Inside Ian Machado Garry’s possible route to UFC Welterweight title despite loss to Islam Makhachev, Irishman opens up on two blockbuster bouts in UFC welterweight division",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/inside-ian-machado-garrys-possible-route-to-ufc-welterweight-title-despite-loss-to-islam-makhachev-irishman-opens-up-on-two-blockbuster-bouts-in-ufc-welterweight-division/articleshow/133925443.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-08T12:34:03Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page’s UFC future in doubt After sudden rankings removal",
+      "url": "https://www.sherdog.com/news/news/Michael-Pages-UFC-future-in-doubt-After-sudden-rankings-removal-202712",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-08T06:27:51Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Ian Garry names only opponent that makes sense for him, and it's not Islam Makhachev",
+      "url": "https://www.sherdog.com/news/news/Ian-Garry-names-only-opponent-that-makes-sense-for-him-and-its-not-Islam-Makhachev-202710",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-08T06:02:13Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page Shares Cryptic Social Post Following UFC Paris",
+      "url": "https://heavy.com/sports/ufc/michael-page-shares-cryptic-social-post/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-08T05:25:26Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Paddy Pimblett Reveals His Stance on Rumored Ilia Topuria Grudge Fight",
+      "url": "https://sports.yahoo.com/articles/paddy-pimblett-reveals-stance-rumored-044851260.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-08T04:48:51Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev won’t change wrestling style after Umar Nurmagomedov KO",
+      "url": "https://www.sherdog.com/news/news/Khamzat-Chimaev-wont-change-wrestling-style-after-Umar-Nurmagomedov-KO-202703",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-08T03:37:36Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "“Prove I’m one of the baddest”: Ian Machado Garry targets Michael Morales for a fresh start after his championship dreams were put on hold",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/prove-im-one-of-the-baddest-ian-machado-garry-targets-michael-morales-for-a-fresh-start-after-his-championship-dreams-were-put-on-hold/articleshow/133905000.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-08T03:20:10Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Former UFC fighter calls out Michael Page after reported UFC exit",
+      "url": "https://www.sherdog.com/news/news/Former-UFC-fighter-calls-out-Michael-Page-after-reported-UFC-exit-202702",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-08T03:17:47Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "“Neither deserve a f***ing title shot”: Josh Hokit delivers a brutal reality check to Ilia Topuria and Alex Pereira amid fresh UFC title talk",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/neither-deserve-a-fing-title-shot-josh-hokit-delivers-a-brutal-reality-check-to-ilia-topuria-and-alex-pereira-amid-fresh-ufc-title-talk/articleshow/133903812.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-08T02:36:10Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Alex Pereira’s Ciryl Gane rematch demand sparks brutal Josh Hokit tirade",
+      "url": "https://www.sherdog.com/news/news/Alex-Pereiras-Ciryl-Gane-rematch-demand-sparks-brutal-Josh-Hokit-tirade-202699",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-08T02:21:36Z"
+    },
     {
       "boxerName": "Michael Page",
       "headline": "Michael Page: Sean Strickland 'mad enough to not care' and engage me in striking",
@@ -2900,7 +3068,7 @@
       "publishedAt": "2026-08-19T21:34:15Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
       "url": "https://heavy.com/sports/ufc/michael-bisping-criticizes-ian-machado-garry/",
       "source": "Heavy.com",
@@ -2949,14 +3117,14 @@
       "publishedAt": "2026-08-19T15:20:27Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?' - MMA Junkie",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185052440",
       "source": "Slashdot.org",
       "publishedAt": "2026-08-19T14:32:47Z"
     },
     {
-      "boxerName": "Islam Makhachev",
+      "boxerName": "Ian Machado Garry",
       "headline": "Henry Cejudo: Ian Machado Garry 'missed all the boxes' at UFC 330 - MMA Junkie",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185051634",
       "source": "Slashdot.org",
@@ -4718,153 +4886,6 @@
       "url": "https://www.sherdog.com/news/news/Why-Tom-Aspinall-backs-Islam-Makhachev-to-beat-Ian-Garry-at-UFC-330-202300",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-11T01:53:18Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Carlos Prates Shares Prediction for UFC 330 Main Event",
-      "url": "https://heavy.com/sports/ufc/carlos-prates-ufc-330-main-event/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-10T22:26:49Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "RAF 14: Arman Tsarukyan vs. Dillon Danis set for middleweight crossover title",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/08/10/raf-14-arman-tsarukyan-vs-dillon-danis-midleweight-crossover-championship/91245868007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-10T20:30:22Z"
-    },
-    {
-      "boxerName": "Daniel Cormier",
-      "headline": "Khabib Nurmagomedov and Conor McGregor feud: Daniel Cormier explains why they could never make peace like Jon Jones",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/khabib-nurmagomedov-and-conor-mcgregor-feud-daniel-cormier-explains-why-they-could-never-make-peace-like-jon-jones/articleshow/133136287.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-10T20:27:11Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Arman finally gets his title shot! Too bad it’s against Dillon Danis at RAF 14",
-      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/463825/arman-finally-gets-title-shot-too-bad-against-dillon-danis-raf-14",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-10T20:22:51Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC 330 -- Islam Makhachev vs. Ian Machado Garry: Fight card, odds, date, location and more for Philadelphia",
-      "url": "https://www.cbssports.com/ufc/news/ufc-330-fight-card-odds-date-islam-makhachev-ian-machado-garry/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-08-10T19:25:13Z"
-    },
-    {
-      "boxerName": "Michael Morales (fighter)",
-      "headline": "Michael Morales weighs an astonishing amount less than a week out from backup role for UFC 330",
-      "url": "https://www.mmafighting.com/ufc/504150/michael-morales-weighs-an-astonishing-amount-less-than-a-week-out-from-backup-role-for-ufc-330",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-10T18:00:00Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "Manager: Ilia Topuria 'would f*cking annihilate' 100 percent of Dominance MMA roster",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/10/ufc-ilia-topuria-manager-malki-kawa-fires-back-ali-abdelaziz-dominance-mma/91238813007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-10T17:00:51Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC 330 fight card -- Islam Makhachev vs. Ian Machado Garry: Five biggest storylines to follow in Philadelphia",
-      "url": "https://www.cbssports.com/ufc/news/ufc-330-fight-card-islam-makhachev-ian-machado-garry-storylines/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-08-10T16:37:49Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Will Khamzat Chimaev’s new fight move work in his favor? Former middleweight champion plots shock comeback after Sean Strickland humiliation amid UFC suspension",
-      "url": "https://timesofindia.indiatimes.com/sports/international-sports/will-khamzat-chimaevs-new-fight-move-work-in-his-favor-former-middleweight-champion-plots-shock-comeback-after-sean-strickland-humiliation-amid-ufc-suspension/articleshow/133109265.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-10T13:43:04Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Ian Machado Garry explains why he puts Islam Makhachev on a ‘pedestal’ ahead of UFC 330 showdown",
-      "url": "https://www.mmafighting.com/ufc/504075/ian-machado-garry-explains-why-he-puts-islam-makhachev-on-a-pedestal-ahead-of-ufc-330-showdown",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-10T13:00:00Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "“Were you watching WWE”: Max Holloway hilariously hits back at Ilia Topuria’s fan who claims Justin Gaethje’s UFC Freedom 250 fight was rigged",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/were-you-watching-wwe-max-holloway-hilariously-hits-back-at-ilia-topurias-fan-who-claims-justin-gaethjes-ufc-freedom-250-fight-was-rigged/articleshow/133107121.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-10T12:51:00Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "'I've cried non-stop' - Ditcheva breaks both hands again - BBC",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184918710",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-10T12:32:16Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "'I've cried non-stop' - Ditcheva breaks both hands again",
-      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/ckgde2jxvkeo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "source": "BBC News",
-      "publishedAt": "2026-08-10T10:38:01Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "'I've cried non-stop' - Ditcheva breaks both hands again",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckgde2jxvkeo",
-      "source": "BBC News",
-      "publishedAt": "2026-08-10T10:29:42Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "‘Ilia Topuria would f*cking annihilate 100% of your roster’: Manager fires back at rival - MMA Fighting",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184917712",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-10T08:52:21Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Recently injured PFL star Dakota Ditcheva wants to box for MVP",
-      "url": "https://www.sherdog.com/news/news/Recently-injured-PFL-star-Dakota-Ditcheva-wants-to-box-for-MVP-202287",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-10T03:42:21Z"
-    },
-    {
-      "boxerName": "Caio Borralho",
-      "headline": "Jean Silva shares prediction for UFC 330 headliner, Caio Borralho disagrees",
-      "url": "https://www.sherdog.com/news/news/Jean-Silva-shares-prediction-for-UFC-330-headliner-Caio-Borralho-disagrees-202284",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-10T02:49:14Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Dakota Ditcheva is back on the injured list following latest PFL victory",
-      "url": "https://sports.yahoo.com/mma/article/dakota-ditcheva-is-back-on-the-injured-list-following-latest-pfl-victory-021316735.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-10T02:13:16Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "Dakota Ditcheva breaks both hands in PFL New York win",
-      "url": "https://www.sherdog.com/news/news/Dakota-Ditcheva-breaks-both-hands-in-PFL-New-York-win-202280",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-10T01:57:39Z"
-    },
-    {
-      "boxerName": "Dakota Ditcheva",
-      "headline": "PFL Star Dakota Ditcheva Suffers Broken Hands",
-      "url": "https://heavy.com/sports/ufc/pfl-star-dakota-ditcheva-broken-hands/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-10T01:48:45Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Opinion: Islam Makhachev's biggest UFC 330 challenge may be his new weight class",
-      "url": "https://www.sherdog.com/news/articles/Opinion-Islam-Makhachevs-biggest-UFC-330-challenge-may-be-his-new-weight-class-202244",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-10T00:57:08Z"
     }
   ]
 }
