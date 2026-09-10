@@ -28,12 +28,13 @@ function computeAge(birthDate: string | undefined, now: Date): number | null {
 }
 
 const MAX_WINS: Partial<Record<SportKey, number>> = {
+  boxing: 384,
   sumo: 3000,
   mongolianWrestling: 1500,
 }
 
 function maxWinsFor(key: SportKey): number {
-  return MAX_WINS[key] ?? 384
+  return MAX_WINS[key] ?? 1_000_000
 }
 
 function buildSportRanking(
@@ -237,7 +238,7 @@ async function main() {
   const now = new Date()
 
   // Thirdary ranking: score = wins / max(losses, 1). Undefeated = wins.
-  // Exclude fighters with >384 wins. Tiebreaker: most KOs.
+  // 384-wins cap applies to boxing only; other sports effectively uncapped. Tiebreaker: most KOs.
   // 50 non-seniors + all seniors above 50th non-senior
   const allThirdary: BoxerRecord[] = []
   for (const [name, record] of allRecords) {

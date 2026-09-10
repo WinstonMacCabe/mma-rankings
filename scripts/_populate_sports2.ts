@@ -44,12 +44,13 @@ function computeAge(birthDate: string | undefined, now: Date): number | null {
 }
 
 const MAX_WINS: Partial<Record<SportKey, number>> = {
+  boxing: 384,
   sumo: 3000,
   mongolianWrestling: 1500,
 }
 
 function maxWinsFor(key: SportKey): number {
-  return MAX_WINS[key] ?? 384
+  return MAX_WINS[key] ?? 1_000_000
 }
 
 function buildSportRanking(
