@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-09-10T00:39:40.463Z",
+  "lastUpdated": "2026-09-10T05:01:39.592Z",
   "fights": [
+    {
+      "boxerName": "Michael Page",
+      "headline": "Dana White Comments on Michael Page’s UFC Future",
+      "url": "https://heavy.com/sports/ufc/dana-white-comments-michael-page-future/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-09T04:51:36Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Robert Whittaker admits he ‘didn't even want to watch’ Michael Page",
+      "url": "https://www.sherdog.com/news/news/Robert-Whittaker-admits-he-didnt-even-want-to-watch-Michael-Page-202721",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-09T03:38:21Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Could Michael Page’s UFC exit spark a major career comeback following Dana White’s blunt decision?",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/could-michael-pages-ufc-exit-spark-a-major-career-comeback-following-dana-whites-blunt-decision/articleshow/133950737.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-09T03:27:45Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Dana White compares UFC’s newest signing to Jon Jones following brutal finish",
+      "url": "https://www.sherdog.com/news/news/Dana-White-compares-UFCs-newest-signing-to-Jon-Jones-following-brutal-finish-202720",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-09T03:25:52Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "headline": "Umar Nurmagomedov’s first move after his loss to Song Yadong KO leaves a big question over what comes next",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/umar-nurmagomedovs-first-move-after-the-song-yadong-ko-leaves-a-big-question-over-what-comes-next/articleshow/133950137.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-09T03:02:33Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "Dana White all in on Salahdine Parnasse's bold callout of Max Holloway",
+      "url": "https://sports.yahoo.com/articles/dana-white-salahdine-parnasses-bold-030000871.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-09T03:00:00Z"
+    },
+    {
+      "boxerName": "Carlos Ulberg",
+      "headline": "Could Paulo Costa’s bold move change his UFC future and help solve the light heavyweight division’s growing problem?",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/could-paulo-costas-bold-move-change-his-ufc-future-and-help-solve-the-light-heavyweight-divisions-growing-problem/articleshow/133949181.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-09T02:27:51Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Dana White indicates UFC done with Michael Page: 'It's pretty obvious'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/08/ufc-news-michael-page-done-dana-white/91668011007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-09T02:10:17Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "headline": "USA TODAY Sports/MMA Junkie rankings, Sept. 8: Salahdine Parnasse enters top 15",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/08/usa-today-sportsmma-junkie-rankings-sept-8-salahdine-parnasse-enters-top-15/91668056007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-09T02:02:47Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "DWCS Season 10, Week 5 results: Four more contracts awarded, with Dana White comparing one signee to Jon Jones",
+      "url": "https://www.mmafighting.com/ufc/509275/dwcs-season-10-week-5-results-four-more-contracts-awarded-with-dana-white-comparing-one-signee-to-jon-jones",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-09T01:37:39Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev Provides Update on UFC Middleweight Division",
+      "url": "https://heavy.com/sports/ufc/khamzat-chimaev-provides-update-middleweight-division/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-09T00:59:35Z"
+    },
     {
       "boxerName": "Ilia Topuria",
       "headline": "Joe Rogan Cites Alexander Volkanovski to Warn Ilia Topuria Against Rushing Back After Brutal Loss at UFC Freedom 250",
@@ -4872,20 +4949,6 @@
       "url": "https://www.sherdog.com/news/news/Javier-Mendez-Islam-Makhachev-has-added-11-pounds-of-muscle-prefers-welterweight-202308",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-11T05:08:07Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Arman Tsarukyan vs. Dillon Danis booked for RAF 14",
-      "url": "https://www.sherdog.com/news/news/Arman-Tsarukyan-vs-Dillon-Danis-booked-for-RAF-14-202306",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-11T04:10:29Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Why Tom Aspinall backs Islam Makhachev to beat Ian Garry at UFC 330",
-      "url": "https://www.sherdog.com/news/news/Why-Tom-Aspinall-backs-Islam-Makhachev-to-beat-Ian-Garry-at-UFC-330-202300",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-11T01:53:18Z"
     }
   ]
 }
