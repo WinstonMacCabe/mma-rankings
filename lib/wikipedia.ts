@@ -627,6 +627,7 @@ interface RecordTableMatch {
   block: string
   title: string
   recordSummary: string
+  index: number
 }
 
 function parseSumoRecordBox(wikitext: string): SportRecord | null {
@@ -750,7 +751,7 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     // Skip amateur / exhibition / invitational record tables — rankings need professional records
     if (/\b(amateur|exhibition|invitational)\b/i.test(title)) continue
 
-    matches.push({ sport, sectionSport, block: blockText, title, recordSummary })
+    matches.push({ index: m.index, sport, sectionSport, block: blockText, title, recordSummary })
   }
 
   // Single, sport-unresolved record table on a non-MMA page: attribute it to the
@@ -863,7 +864,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     if (!rec && table.sport) {
       // Row-count fallback: inspect the wikitext between this table's opening
       // template and the next section header / {{end}}
-      const startIdx = wikitext.indexOf(table.block)
+      const startIdx = table.index
       const openEnd = wikitext.indexOf('}}', startIdx)
       const bodyStart = openEnd + 2
       const endOfSection = wikitext.indexOf('\n=', bodyStart)
