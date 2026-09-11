@@ -7,7 +7,7 @@ async function fetchJsonWithRetry(url: string, opts: { headers: Record<string, s
   let lastErr: unknown
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      const res = await fetch(url, opts)
+      const res = await fetch(url, { ...opts, signal: AbortSignal.timeout(45000) })
       if (res.status === 429) {
         await new Promise(r => setTimeout(r, 5000 * attempt))
         continue
@@ -17,8 +17,10 @@ async function fetchJsonWithRetry(url: string, opts: { headers: Record<string, s
       return { ok: true, status: res.status, data }
     } catch (err) {
       lastErr = err
+      const isTimeout = err instanceof Error && (err.name === 'TimeoutError' || err.name === 'AbortError')
       const msg = err instanceof Error ? err.message : String(err)
-      console.warn(`[retry ${attempt}/${retries}] fetch failed: ${msg}`)
+      if (isTimeout) console.warn(`[retry ${attempt}/${retries}] fetch timed out after 45s: ${url.slice(0, 90)}...`)
+      else console.warn(`[retry ${attempt}/${retries}] fetch failed: ${msg}`)
       await new Promise(r => setTimeout(r, 2000 * attempt))
     }
   }
@@ -452,18 +454,23 @@ const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
   { key: 'muayThai', pattern: /muay\s*thai|muay\b/i },
   { key: 'lethwei', pattern: /lethwei/i },
   { key: 'kunKhmer', pattern: /kun\s*khmer|pradal\s*serey/i },
+  { key: 'sanshou', pattern: /sanshou|san\s*shou|sanda|san\s*da\b|wushu/i },
   { key: 'sanda', pattern: /sanda|san\s*da\b|wushu|sanshou|san\s*shou/i },
   { key: 'kickboxing', pattern: /kick\s*-?\s*box|full\s*[- ]?contact\s+karate/i },
   { key: 'karate', pattern: /karate|kyokushin|knockdown\s*karate/i },
   { key: 'taekwondo', pattern: /taekwondo|t[aá]e?\s*kwon/i },
   { key: 'savate', pattern: /savate|boxe\s*fran[cç]aise/i },
+  { key: 'capoeira', pattern: /capoeira/i },
   { key: 'sumo', pattern: /sumo(?:\s*wrestling|\s*record)?\b|rikishi|\bbasho\b/i },
   { key: 'mongolianWrestling', pattern: /mongolian\s*wrestling|bökh|bukh\s*wrestling/i },
-  { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|greco[\s-]*roman|greco\s*roman|catch\s*wrestling|catch\s*wrestl|international\s*wrestling|olympic\s*wrestling/i },
+  { key: 'grecoRomanWrestling', pattern: /greco[\s-]*roman/i },
+  { key: 'catchWrestling', pattern: /catch\s*wrestling|catch\s*wrestl/i },
+  { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|international\s*wrestling|olympic\s*wrestling/i },
   { key: 'ncaaWrestling', pattern: /ncaa|collegiate|folkstyle|folk\s*style|amateur\s*wrestling|varsity\s*wrestling/i },
   { key: 'brazilianJiuJitsu', pattern: /jiu[\s-]?jitsu|jujitsu|bjj|brazilian\s*jiu|submission\s*grappling|\bgrappling\b/i },
   { key: 'judo', pattern: /judo/i },
   { key: 'sambo', pattern: /sambo|combat\s*sambo/i },
+  { key: 'lutaLivre', pattern: /luta[\s-]?livre/i },
   { key: 'bareKnuckle', pattern: /bare[- ]?knuckle/i },
   { key: 'boxing', pattern: /boxing|boxe\b|prizefight/i },
 ]
@@ -699,6 +706,22 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
   }
 
   const tableRegex = /\{\{(Fight|Kickboxing|MMA)\s*record\s*start([\s\S]*?)\}\}/gi
+  // Single-sport page fallback: derive the sport from the {{Infobox martial artist}}
+  // style/sport params, used only when a page has exactly one record table that
+  // carries no sport signal of its own (e.g. a generic "Fight record" heading).
+  const styleSport = (() => {
+    const martialInfobox = extractInfobox(wikitext, ['{{Infobox martial artist'])
+    if (!martialInfobox) return null
+    for (const line of martialInfobox.split('\n')) {
+      const v = parseParamLine(line).get('style') ?? parseParamLine(line).get('sport')
+      if (!v) continue
+      const detected = detectSport(stripWikiMarkup(v))
+      if (detected) return detected
+    }
+    return null
+  })()
+  const hasMmaSignal = /\bmma\b|mixed\s+martial\s+arts|\bufc\b/i.test(wikitext)
+
   let m: RegExpExecArray | null
   while ((m = tableRegex.exec(wikitext)) !== null) {
     const blockText = m[2]
@@ -728,6 +751,13 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     if (/\b(amateur|exhibition|invitational)\b/i.test(title)) continue
 
     matches.push({ sport, sectionSport, block: blockText, title, recordSummary })
+  }
+
+  // Single, sport-unresolved record table on a non-MMA page: attribute it to the
+  // infobox's declared style (e.g. a Kun Khmer fighter whose page is entirely Kun
+  // Khmer but whose table just says generic "Fight record").
+  if (matches.length === 1 && !matches[0].sport && styleSport && !hasMmaSignal) {
+    matches[0].sport = styleSport
   }
 
   return matches
@@ -773,7 +803,16 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
         if (koRaw) { const n = parseInt(stripWikiMarkup(koRaw), 10); if (!isNaN(n)) kos = n }
       }
       if (wins !== null && losses !== null) {
-        addRecord('boxing', { wins, kos: kos ?? 0, losses, draws: draws ?? 0, noContests: nc ?? 0 })
+        const hasBareKnuckleRecord =
+          /bare[- ]?knuckle(?:(?!muay\s*thai).){0,160}\brecord\b|\brecord\b(?:(?!muay\s*thai).){0,160}bare[- ]?knuckle/i.test(wikitext)
+        const mentionsBareKnuckleMuayThai = /bare[- ]?knuckle(?:\s+boxing)?\s+muay\s*thai|bkmt\b/i.test(wikitext)
+        addRecord(hasBareKnuckleRecord && !mentionsBareKnuckleMuayThai ? 'bareKnuckle' : 'boxing', {
+          wins,
+          kos: kos ?? 0,
+          losses,
+          draws: draws ?? 0,
+          noContests: nc ?? 0,
+        })
       }
     }
   }
@@ -867,7 +906,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     const sport = detectSport(h.title)
     if (!sport) continue
     // Skip amateur/exhibition headers for professional-combat sports
-    const PRO_SPORTS: SportKey[] = ['kickboxing', 'muayThai', 'boxing', 'sanda', 'savate', 'taekwondo']
+    const PRO_SPORTS: SportKey[] = ['kickboxing', 'muayThai', 'boxing', 'sanda', 'sanshou', 'savate', 'taekwondo']
     if (PRO_SPORTS.includes(sport) && /\b(amateur|exhibition|invitational)\b/i.test(h.title)) continue
     const nextHeader = allHeaders.slice(i + 1).find(n => n.contentStart > h.contentStart)
     const nextIndex = nextHeader ? nextHeader.start : wikitext.length
@@ -984,9 +1023,19 @@ async function fetchPageWikitext(title: string): Promise<string | null> {
   })
 
   const url = `${API_URL}?${params.toString()}`
-  const res = await fetch(url, {
-    headers: { 'User-Agent': USER_AGENT },
-  })
+  let res: Response
+  try {
+    res = await fetch(url, {
+      headers: { 'User-Agent': USER_AGENT },
+      signal: AbortSignal.timeout(45000),
+    })
+  } catch {
+    await new Promise(r => setTimeout(r, 5000))
+    res = await fetch(url, {
+      headers: { 'User-Agent': USER_AGENT },
+      signal: AbortSignal.timeout(45000),
+    })
+  }
 
   if (res.status === 404) return null
   if (res.status === 429) {
@@ -1065,6 +1114,7 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
         })
         const imgRes = await fetch(`${API_URL}?${imgParams.toString()}`, {
           headers: { 'User-Agent': USER_AGENT },
+          signal: AbortSignal.timeout(30000),
         })
         if (imgRes.ok) {
           const imgData = await imgRes.json() as any
@@ -1101,7 +1151,7 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
             action: 'query', prop: 'imageinfo', iiprop: 'size',
             titles: fileTitles.join('|'), format: 'json', origin: '*',
           })
-          const checkRes = await fetch(`${API_URL}?${checkParams}`, { headers: { 'User-Agent': USER_AGENT } })
+          const checkRes = await fetch(`${API_URL}?${checkParams}`, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30000) })
           if (checkRes.ok) {
             const checkData = await checkRes.json() as any
             const existingTitles = new Set<string>()
@@ -1121,7 +1171,7 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
                 action: 'query', prop: 'pageimages', piprop: 'thumbnail', pithumbsize: '300',
                 titles: broken.join('|'), format: 'json', origin: '*',
               })
-              const retryRes = await fetch(`${API_URL}?${retryParams}`, { headers: { 'User-Agent': USER_AGENT } })
+              const retryRes = await fetch(`${API_URL}?${retryParams}`, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30000) })
               if (retryRes.ok) {
                 const retryData = await retryRes.json() as any
                 for (const [, p] of Object.entries(retryData?.query?.pages ?? {}) as any[]) {
@@ -1171,7 +1221,7 @@ export async function checkImageSizes(imageUrls: string[]): Promise<Map<string, 
 
     const url = `${API_URL}?${params.toString()}`
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
+      const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30000) })
       if (!res.ok) continue
       const data = await res.json() as any
       const pages = data?.query?.pages ?? {}

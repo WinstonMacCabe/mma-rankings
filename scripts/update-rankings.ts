@@ -33,6 +33,11 @@ const MAX_WINS: Partial<Record<SportKey, number>> = {
   mongolianWrestling: 1500,
 }
 
+// Hard cap on total fighters (including seniors) that a sport list can contain.
+const SPORT_MAX_LEN: Partial<Record<SportKey, number>> = {
+  kickboxing: 68,
+}
+
 function maxWinsFor(key: SportKey): number {
   return MAX_WINS[key] ?? 1_000_000
 }
@@ -92,6 +97,7 @@ function buildSportRanking(
 
   const ranked: BoxerRecord[] = []
   let nonSeniorCount = 0
+  const maxLen = SPORT_MAX_LEN[key]
   for (let i = 0; i < scored.length; i++) {
     const f = scored[i]
     const rank = i + 1
@@ -104,6 +110,7 @@ function buildSportRanking(
     })
     if (!f.isSenior) nonSeniorCount++
     if (nonSeniorCount >= 50) break
+    if (maxLen !== undefined && ranked.length >= maxLen) break
   }
   return ranked
 }

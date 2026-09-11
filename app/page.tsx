@@ -23,6 +23,11 @@ const SPORT_LABELS: Record<SportKey, string> = {
   lethwei: 'Lethwei',
   kunKhmer: 'Kun Khmer',
   bareKnuckle: 'Bare Knuckle',
+  capoeira: 'Capoeira',
+  grecoRomanWrestling: 'Greco-Roman',
+  catchWrestling: 'Catch Wrestling',
+  lutaLivre: 'Luta Livre',
+  sanshou: 'Sanshou',
 }
 
 const SPORT_KEYS_SET = new Set<SportKey>(SPORT_KEYS)
@@ -241,38 +246,6 @@ function FighterCard({ fighter, rank, isWorst, isBest }: { fighter: BoxerRecord;
 
         </div>
 
-        {/* Rank history badge - bottom right corner */}
-        {(fighter.highestRank || fighter.lowestRank || fighter.previousRank) && (
-          <div className="absolute bottom-2 right-2 z-20 flex flex-col items-end gap-0.5">
-            {fighter.highestRank && fighter.highestRank < rank && (
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded" style={{
-                background: 'rgba(42,122,42,0.15)',
-                color: '#2a7a2a',
-                border: '1px solid rgba(42,122,42,0.3)',
-              }}>
-                Peak #{fighter.highestRank}
-              </span>
-            )}
-            {fighter.lowestRank && fighter.lowestRank > rank && (
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded" style={{
-                background: 'rgba(160,48,48,0.12)',
-                color: '#a03030',
-                border: '1px solid rgba(160,48,48,0.25)',
-              }}>
-                Low #{fighter.lowestRank}
-              </span>
-            )}
-            {fighter.previousRank && fighter.previousRank !== rank && (
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded" style={{
-                background: 'rgba(90,74,58,0.12)',
-                color: '#5a4a3a',
-                border: '1px solid rgba(90,74,58,0.2)',
-              }}>
-                From #{fighter.previousRank}
-              </span>
-            )}
-          </div>
-        )}
       </div>
     </div>
   )
@@ -539,10 +512,11 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Sports tabs — one per combat sport with a Wikipedia record format */}
+          {/* Sports tabs — one per combat sport with a Wikipedia record format.
+              Sports with 0 ranked fighters are hidden automatically. */}
           <div className="mb-6 flex gap-1.5 flex-wrap items-center pt-3 pb-1" style={{ borderTop: '1px solid #2a1f15' }}>
             <span className="text-[9px] font-bold tracking-[0.2em] uppercase mr-1" style={{ color: '#3a2a1a', fontFamily: "'Times New Roman', serif" }}>Sports</span>
-            {SPORT_KEYS.map(key => (
+            {SPORT_KEYS.filter(key => (data?.sports?.[key]?.length ?? 0) > 0).map(key => (
               <button
                 key={key}
                 onClick={() => switchView(key)}

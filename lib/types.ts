@@ -18,6 +18,11 @@ export type SportKey =
   | 'lethwei'
   | 'kunKhmer'
   | 'bareKnuckle'
+  | 'capoeira'
+  | 'grecoRomanWrestling'
+  | 'catchWrestling'
+  | 'lutaLivre'
+  | 'sanshou'
 
 export interface SportRecord {
   wins: number
@@ -38,6 +43,16 @@ export const SPORT_KEYS: SportKey[] = [
   'mongolianWrestling',
   'lethwei',
   'kunKhmer',
+  'taekwondo',
+  'savate',
+  'sambo',
+  'judo',
+  'capoeira',
+  'grecoRomanWrestling',
+  'catchWrestling',
+  'lutaLivre',
+  'sanshou',
+  'bareKnuckle',
 ]
 
 export interface BoxerRecord {

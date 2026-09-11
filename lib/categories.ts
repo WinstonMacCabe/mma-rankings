@@ -21,9 +21,19 @@ async function apiQuery(params: Record<string, string>): Promise<ApiResponse> {
     url.searchParams.set(key, value)
   }
 
-  const res = await fetch(url.toString(), {
-    headers: { 'User-Agent': USER_AGENT },
-  })
+  let res: Response
+  try {
+    res = await fetch(url.toString(), {
+      headers: { 'User-Agent': USER_AGENT },
+      signal: AbortSignal.timeout(45000),
+    })
+  } catch {
+    await new Promise(r => setTimeout(r, 5000))
+    res = await fetch(url.toString(), {
+      headers: { 'User-Agent': USER_AGENT },
+      signal: AbortSignal.timeout(45000),
+    })
+  }
   if (res.status === 429) {
     await new Promise(r => setTimeout(r, 5000))
     return apiQuery(params)
@@ -217,11 +227,11 @@ const SPORT_CATEGORIES: Record<import('./types').SportKey, string[]> = {
   kickboxing: ['Category:Male kickboxers', 'Category:Female kickboxers'],
   muayThai: ['Category:Muay Thai practitioners', 'Category:Male Muay Thai practitioners', 'Category:Female Muay Thai practitioners'],
   karate: ['Category:Male karateka', 'Category:Female karateka', 'Category:Karate practitioners'],
-  taekwondo: [],
-  savate: [],
+  taekwondo: ['Category:Taekwondo practitioners'],
+  savate: ['Category:Savateurs'],
   sanda: [],
-  sambo: [],
-  judo: [],
+  sambo: ['Category:Sambo practitioners by nationality'],
+  judo: ['Category:Judoka'],
   freestyleWrestling: ['Category:Male sport wrestlers', 'Category:Female sport wrestlers'],
   ncaaWrestling: ['Category:Male sport wrestlers', 'Category:Female sport wrestlers'],
   brazilianJiuJitsu: ['Category:Brazilian jiu-jitsu practitioners'],
@@ -229,7 +239,12 @@ const SPORT_CATEGORIES: Record<import('./types').SportKey, string[]> = {
   mongolianWrestling: ['Category:Mongolian wrestlers', 'Category:Mongolian male sport wrestlers', 'Category:Mongolian male judoka'],
   lethwei: ['Category:Lethwei practitioners', 'Category:Lethwei practitioners by nationality'],
   kunKhmer: ['Category:Kun Khmer practitioners'],
-  bareKnuckle: [],
+  bareKnuckle: ['Category:Bare-knuckle boxers'],
+  capoeira: ['Category:Capoeira practitioners'],
+  grecoRomanWrestling: ['Category:Greco-Roman wrestlers'],
+  catchWrestling: ['Category:Catch wrestlers'],
+  lutaLivre: ['Category:Brazilian jiu-jitsu practitioners'],
+  sanshou: ['Category:Sanshou practitioners'],
 }
 
 export async function getSportPages(): Promise<Record<import('./types').SportKey, Map<string, import('./types').Gender>>> {
