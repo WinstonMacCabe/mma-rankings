@@ -105,6 +105,7 @@ function buildSportRanking(
   const ranked: BoxerRecord[] = []
   let nonSeniorCount = 0
   const maxLen = SPORT_MAX_LEN[key]
+  const hasMinScore = MIN_SCORE[key] !== undefined
   for (let i = 0; i < scored.length; i++) {
     const f = scored[i]
     const rank = i + 1
@@ -116,7 +117,9 @@ function buildSportRanking(
       lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
     })
     if (!f.isSenior) nonSeniorCount++
-    if (nonSeniorCount >= 50) break
+    // Only apply the 50-fighter cap for sports without a minimum score —
+    // sports with a MIN_SCORE use the score filter as their natural bound.
+    if (!hasMinScore && nonSeniorCount >= 50) break
     if (maxLen !== undefined && ranked.length >= maxLen) break
   }
   return ranked
@@ -304,21 +307,17 @@ async function main() {
       a.losses - b.losses ||
       (b.kos ?? 0) - (a.kos ?? 0)
     )
-  const thirdaryRanked: BoxerRecord[] = []
-  let thirdNonSeniorCount = 0
-  let thirdRank = 0
-  for (const f of allThirdaryScored) {
-    thirdRank++
+  // No fighter cap — MMA_MIN_SCORE filter determines inclusion
+  const thirdaryRanked: BoxerRecord[] = allThirdaryScored.map((f, i) => {
+    const thirdRank = i + 1
     const hist = prevThirdaryHistory.get(f.name)
-    thirdaryRanked.push({
+    return {
       ...f,
       previousRank: undefined,
       highestRank: hist ? Math.min(hist.highest, thirdRank) : thirdRank,
       lowestRank: hist ? Math.max(hist.lowest, thirdRank) : thirdRank,
-    })
-    if (!f.isSenior) thirdNonSeniorCount++
-    if (thirdNonSeniorCount >= 50) break
-  }
+    }
+  })
 
   const thirdEligibleWorst = allThirdary
     .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0 && !f.isSenior)
