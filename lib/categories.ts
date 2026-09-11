@@ -240,6 +240,7 @@ const SPORT_CATEGORIES: Record<import('./types').SportKey, string[]> = {
   lethwei: ['Category:Lethwei practitioners', 'Category:Lethwei practitioners by nationality'],
   kunKhmer: ['Category:Kun Khmer practitioners'],
   bareKnuckle: ['Category:Bare-knuckle boxers'],
+  submissionWrestling: ['Category:Submission grapplers', 'Category:Submission wrestlers by nationality'],
   capoeira: ['Category:Capoeira practitioners'],
   grecoRomanWrestling: ['Category:Greco-Roman wrestlers'],
   catchWrestling: ['Category:Catch wrestlers'],
@@ -265,7 +266,8 @@ export async function getSportPages(): Promise<Record<import('./types').SportKey
       }
       const gender: import('./types').Gender | undefined = cat.includes('Female') ? 'female' : cat.includes('Male') ? 'male' : undefined
       for (const page of pages) {
-        if (!map.has(page)) map.set(page, gender ?? 'male')
+        if (gender === 'female') map.set(page, 'female')
+        else if (!map.has(page)) map.set(page, gender ?? 'male')
       }
     }
     result[sportKey] = map

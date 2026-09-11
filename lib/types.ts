@@ -23,6 +23,7 @@ export type SportKey =
   | 'catchWrestling'
   | 'lutaLivre'
   | 'sanshou'
+  | 'submissionWrestling'
 
 export interface SportRecord {
   wins: number
@@ -52,6 +53,7 @@ export const SPORT_KEYS: SportKey[] = [
   'catchWrestling',
   'lutaLivre',
   'sanshou',
+  'submissionWrestling',
   'bareKnuckle',
 ]
 

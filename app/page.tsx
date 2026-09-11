@@ -28,6 +28,7 @@ const SPORT_LABELS: Record<SportKey, string> = {
   catchWrestling: 'Catch Wrestling',
   lutaLivre: 'Luta Livre',
   sanshou: 'Sanshou',
+  submissionWrestling: 'Sub. Wrestling',
 }
 
 const SPORT_KEYS_SET = new Set<SportKey>(SPORT_KEYS)

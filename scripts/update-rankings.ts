@@ -29,13 +29,20 @@ function computeAge(birthDate: string | undefined, now: Date): number | null {
 
 const MAX_WINS: Partial<Record<SportKey, number>> = {
   boxing: 384,
-  sumo: 3000,
-  mongolianWrestling: 1500,
 }
 
 // Hard cap on total fighters (including seniors) that a sport list can contain.
 const SPORT_MAX_LEN: Partial<Record<SportKey, number>> = {
   kickboxing: 68,
+}
+
+// Minimum thirdary score (wins/losses, or wins if undefeated) for inclusion.
+const MMA_MIN_SCORE = 6.24
+const MIN_SCORE: Partial<Record<SportKey, number>> = {
+  kickboxing: 8.5,
+  muayThai: 3,
+  freestyleWrestling: 2.81,
+  brazilianJiuJitsu: 1.1,
 }
 
 function maxWinsFor(key: SportKey): number {
@@ -88,7 +95,7 @@ function buildSportRanking(
   }
 
   const scored = all
-    .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0)
+    .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) >= (MIN_SCORE[key] ?? 0))
     .sort((a, b) =>
       (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0) ||
       a.losses - b.losses ||
@@ -291,7 +298,7 @@ async function main() {
   }
 
   const allThirdaryScored = allThirdary
-    .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0)
+    .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) >= MMA_MIN_SCORE)
     .sort((a, b) =>
       (b.thirdaryScore ?? 0) - (a.thirdaryScore ?? 0) ||
       a.losses - b.losses ||

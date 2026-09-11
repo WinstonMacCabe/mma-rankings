@@ -468,6 +468,7 @@ const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
   { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|international\s*wrestling|olympic\s*wrestling/i },
   { key: 'ncaaWrestling', pattern: /ncaa|collegiate|folkstyle|folk\s*style|amateur\s*wrestling|varsity\s*wrestling/i },
   { key: 'brazilianJiuJitsu', pattern: /jiu[\s-]?jitsu|jujitsu|bjj|brazilian\s*jiu|submission\s*grappling|\bgrappling\b/i },
+  { key: 'submissionWrestling', pattern: /submission\s*wrestling/i },
   { key: 'judo', pattern: /judo/i },
   { key: 'sambo', pattern: /sambo|combat\s*sambo/i },
   { key: 'lutaLivre', pattern: /luta[\s-]?livre/i },
@@ -525,24 +526,38 @@ function parseRecordSummaryForSport(value: string, prefer: SportKey | null): Spo
 }
 
 function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; method: string } | null {
-  let cells = row.split(/\n\|/)
-  if (cells.length > 0 && cells[0].trim() === '') cells.shift()
-  cells = cells
-    .map((c, i) => (i === 0 ? stripInline(c) : stripWikiMarkup(c).trim()))
-    .filter(Boolean)
+  // Drop leftover row-separator attributes (e.g. the tail of `|-  style="..."`)
+  const cleaned = row.replace(/^[^\n]*\n/, '').trim()
+  if (!cleaned) return null
+
+  // Cells may be split across lines (`\n| Win\n| Method`) or packed with `||`
+  // on one line (BoxRec-style: `| 2015-10-31 || Loss || ...`). Handle both.
+  const parts = cleaned.split(/\n\|/)
+  if (parts.length > 0 && parts[0].trim() === '') parts.shift()
+  const cells: string[] = []
+  for (const part of parts) {
+    for (const seg of part.split('||')) {
+      const cell = stripInline(seg)
+      if (cell) cells.push(cell)
+    }
+  }
   if (cells.length === 0) return null
 
-  const first = cells[0]
+  // Result word sits in the first cell (multi-line tables) or the second
+  // (BoxRec `date || Result || Opponent ...` rows).
   let result: 'win' | 'loss' | 'draw' | 'nc' | null = null
-  if (/\bWin\b/i.test(first)) result = 'win'
-  else if (/\bLoss(es)?\b/i.test(first)) result = 'loss'
-  else if (/\bDraw\b/i.test(first)) result = 'draw'
-  else if (/\bNC\b/i.test(first)) result = 'nc'
-
+  let resultCell = -1
+  for (let i = 0; i < Math.min(cells.length, 4); i++) {
+    const c = cells[i]
+    if (/\bWin\b/i.test(c)) { result = 'win'; resultCell = i; break }
+    else if (/\bLoss(es)?\b/i.test(c)) { result = 'loss'; resultCell = i; break }
+    else if (/\bDraw\b/i.test(c)) { result = 'draw'; resultCell = i; break }
+    else if (/\bNC\b/i.test(c)) { result = 'nc'; resultCell = i; break }
+  }
   if (!result) return null
 
   let method = ''
-  for (let i = 1; i < cells.length; i++) {
+  for (let i = resultCell + 1; i < cells.length; i++) {
     if (/TKO|\bKO\b|submission|sub\(/i.test(cells[i])) { method = cells[i]; break }
   }
   return { result, method }
