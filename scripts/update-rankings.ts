@@ -37,7 +37,7 @@ const SPORT_MAX_LEN: Partial<Record<SportKey, number>> = {
 }
 
 // Minimum thirdary score (wins/losses, or wins if undefeated) for inclusion.
-const MMA_MIN_SCORE = 6.24
+const MMA_MIN_SCORE = 6.7
 const MIN_SCORE: Partial<Record<SportKey, number>> = {
   kickboxing: 8.5,
   muayThai: 3,

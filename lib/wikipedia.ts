@@ -527,7 +527,12 @@ function parseRecordSummaryForSport(value: string, prefer: SportKey | null): Spo
 
 function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; method: string } | null {
   // Drop leftover row-separator attributes (e.g. the tail of `|-  style="..."`)
-  const cleaned = row.replace(/^[^\n]*\n/, '').trim()
+  // when they precede the row, but only when the first line is not a real cell
+  // (a leading `|` is a result cell such as `{{yes2}}Win`).
+  let cleaned = row.trim()
+  if (!/^\|/.test(cleaned)) {
+    cleaned = cleaned.replace(/^[^\n]*\n/, '').trim()
+  }
   if (!cleaned) return null
 
   // Cells may be split across lines (`\n| Win\n| Method`) or packed with `||`
@@ -709,6 +714,32 @@ function parseMongolianWrestlingRecord(wikitext: string): SportRecord | null {
   return anyRows ? { ...rec, kos: 0 } : null
 }
 
+/**
+ * Returns the inner content of a `{{...}}` template that opens at a position
+ * `openMatchEnd` (just past the opening keyword), matching braces so that
+ * nested templates (e.g. a `<ref>{{cite web}}</ref>` inside a `record=`
+ * parameter) don't truncate the block early. Returns null if the template
+ * never closes.
+ */
+function extractTemplateInner(text: string, openMatchEnd: number): string | null {
+  let depth = 1
+  let i = openMatchEnd
+  while (i < text.length) {
+    const nextOpen = text.indexOf('{{', i)
+    const nextClose = text.indexOf('}}', i)
+    if (nextClose === -1) return null
+    if (nextOpen !== -1 && nextOpen < nextClose) {
+      depth++
+      i = nextOpen + 2
+    } else {
+      depth--
+      if (depth === 0) return text.slice(openMatchEnd, nextClose)
+      i = nextClose + 2
+    }
+  }
+  return null
+}
+
 export function findRecordTables(wikitext: string): RecordTableMatch[] {
   const matches: RecordTableMatch[] = []
   const headerRegex = /\n={2,}[^=\n]+={2,}/g
@@ -721,7 +752,7 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     })
   }
 
-  const tableRegex = /\{\{(Fight|Kickboxing|MMA)\s*record\s*start([\s\S]*?)\}\}/gi
+  const tableRegex = /\{\{(Fight|Kickboxing|MMA)\s*record\s*start/gi
   // Single-sport page fallback: derive the sport from the {{Infobox martial artist}}
   // style/sport params, used only when a page has exactly one record table that
   // carries no sport signal of its own (e.g. a generic "Fight record" heading).
@@ -740,7 +771,8 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
 
   let m: RegExpExecArray | null
   while ((m = tableRegex.exec(wikitext)) !== null) {
-    const blockText = m[2]
+    const blockText = extractTemplateInner(wikitext, m.index + m[0].length)
+    if (blockText === null) continue
     const mIndex = m.index
     let title = ''
     const titleMatch = blockText.match(/\|title\s*=\s*([^|\n]*)/i)
