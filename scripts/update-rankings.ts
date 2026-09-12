@@ -9,6 +9,13 @@ const BATCH_SIZE = 50
 const BATCH_DELAY = 100
 const MIN_LOSSES_FOR_WORST = 10
 
+// Map category sports to related parser sports when the infobox uses generic params
+const SPORT_ALIASES: Partial<Record<SportKey, SportKey>> = {
+  kunKhmer: 'kickboxing',
+  sanshou: 'kickboxing',
+  sanda: 'kickboxing',
+}
+
 function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
@@ -69,7 +76,8 @@ function buildSportRanking(
   for (const [name, gender] of pages) {
     const record = records.get(name)
     if (!record) continue
-    const sportRec = record.sportRecords?.[key]
+    const aliasKey = SPORT_ALIASES[key]
+    const sportRec = record.sportRecords?.[key] ?? (aliasKey ? record.sportRecords?.[aliasKey] : undefined)
     if (!sportRec) continue
     const { wins, losses, draws, noContests } = sportRec
     if (wins === 0 || wins > maxWinsFor(key)) continue
@@ -332,6 +340,19 @@ async function main() {
   const sports: RankingsData['sports'] = {}
   try {
     const sportPages = await getSportPages()
+
+    // Inject MMA fighters who have records for these sports but aren't in sport categories
+    for (const [name, record] of allRecords) {
+      if (!record?.sportRecords) continue
+      for (const key of SPORT_KEYS) {
+        const aliasKey = SPORT_ALIASES[key]
+        const sportRec = record.sportRecords[key] ?? (aliasKey ? record.sportRecords[aliasKey] : undefined)
+        if (sportRec && !sportPages[key].has(name)) {
+          sportPages[key].set(name, pageMap.get(name) ?? 'male')
+        }
+      }
+    }
+
     const allSportTitles = new Set<string>()
     for (const key of SPORT_KEYS) {
       for (const page of sportPages[key].keys()) allSportTitles.add(page)
@@ -349,6 +370,11 @@ async function main() {
       await delay(BATCH_DELAY)
     }
     console.log(`Fetched records for ${sportRecords.size} sport fighter pages.`)
+
+    // Merge MMA fighters' records into sportRecords so buildSportRanking can find them
+    for (const [name, record] of allRecords) {
+      if (record && !sportRecords.has(name)) sportRecords.set(name, record)
+    }
 
     const nowSport = new Date()
     for (const key of SPORT_KEYS) {

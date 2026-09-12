@@ -168,7 +168,7 @@ export function parseParamLine(line: string): Map<string, string> {
   return params
 }
 
-const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon|Shoulder_mark|Flag[\s_]*of|\bflags?\b|Badge|Logo|Coat_of_arms|Icon/i
+const BLOCKED_IMAGES = /Med[\s_]*\d*\.png|Generic_belt_icon\.svg|Olympic[\s_]*rings\.svg|Boxbelt|Medal[\s_]|Ribbon[\s_]|File-icon|Shoulder_mark|Flag[\s_]*of|\bflags?\b|Badge|Logo|Coat_of_arms|Icon|pictogram|handprint|tegata/i
 
 function parseImageUrl(rawImage: string): string {
   if (!rawImage) return ''
@@ -1170,7 +1170,7 @@ export async function fetchBoxerRecords(titles: string[]): Promise<Map<string, B
           for (const [, p] of Object.entries(imgPages) as any[]) {
             if (p.title && p.thumbnail?.source) {
               const existing = results.get(p.title)
-              if (existing && !existing.imageUrl) {
+              if (existing && !existing.imageUrl && !/handprint|tegata/i.test(p.thumbnail.source)) {
                 results.set(p.title, { ...existing, imageUrl: p.thumbnail.source })
               }
             }
