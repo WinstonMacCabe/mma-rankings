@@ -483,6 +483,30 @@ export function detectSport(label: string): SportKey | null {
   return null
 }
 
+const STYLE_INFOBOXES = [
+  '{{Infobox martial artist',
+  '{{Infobox boxer',
+  '{{Infobox sportsperson',
+  '{{Infobox amateur wrestler',
+  '{{Infobox wrestler',
+  '{{Infobox kickboxer',
+]
+
+export function deriveStyleSport(wikitext: string): SportKey | null {
+  const infobox = extractInfobox(wikitext, STYLE_INFOBOXES)
+  if (!infobox) return null
+  for (const line of infobox.split('\n')) {
+    const params = parseParamLine(line)
+    for (const key of ['style', 'sport', 'event', 'discipline']) {
+      const v = params.get(key)
+      if (!v) continue
+      const detected = detectSport(stripWikiMarkup(v))
+      if (detected) return detected
+    }
+  }
+  return null
+}
+
 function emptySportRecord(): SportRecord {
   return { wins: 0, kos: 0, losses: 0, draws: 0, noContests: 0 }
 }
@@ -757,17 +781,7 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
   // Single-sport page fallback: derive the sport from the {{Infobox martial artist}}
   // style/sport params, used only when a page has exactly one record table that
   // carries no sport signal of its own (e.g. a generic "Fight record" heading).
-  const styleSport = (() => {
-    const martialInfobox = extractInfobox(wikitext, ['{{Infobox martial artist'])
-    if (!martialInfobox) return null
-    for (const line of martialInfobox.split('\n')) {
-      const v = parseParamLine(line).get('style') ?? parseParamLine(line).get('sport')
-      if (!v) continue
-      const detected = detectSport(stripWikiMarkup(v))
-      if (detected) return detected
-    }
-    return null
-  })()
+  const styleSport = deriveStyleSport(wikitext)
   const hasMmaSignal = /\bmma\b|mixed\s+martial\s+arts|\bufc\b/i.test(wikitext)
 
   let m: RegExpExecArray | null
@@ -907,12 +921,11 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
 
   // 3. Record tables (Fight / Kickboxing / MMA record start)
   const tables = findRecordTables(wikitext)
-  const combinedCandidates: { table: RecordTableMatch; rec: SportRecord | null }[] = []
+  const combinedCandidates: { table: RecordTableMatch; rec: SportRecord | null; rowRec: SportRecord | null }[] = []
   for (const table of tables) {
     let rec = parseRecordSummaryForSport(table.recordSummary, table.sport)
-    if (!rec && table.sport) {
-      // Row-count fallback: inspect the wikitext between this table's opening
-      // template and the next section header / {{end}}
+    let rowRec: SportRecord | null = null
+    if (table.sport) {
       const startIdx = table.index
       const openEnd = wikitext.indexOf('}}', startIdx)
       const bodyStart = openEnd + 2
@@ -922,8 +935,12 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
       if (endOfSection > -1) candidates.push(endOfSection)
       if (endOfTable > -1) candidates.push(endOfTable)
       const bodyEnd = candidates.length > 0 ? Math.min(...candidates) : wikitext.length
-      const body = wikitext.slice(bodyStart, bodyEnd)
-      rec = countTableRows(body)
+      rowRec = countTableRows(wikitext.slice(bodyStart, bodyEnd))
+      if (!rec && rowRec) {
+        rec = rowRec
+      } else if (rec && rec.kos === 0 && rowRec && rowRec.kos > 0) {
+        rec = { ...rec, kos: rowRec.kos }
+      }
     }
     addRecord(table.sport, rec)
     if (
@@ -932,7 +949,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
       ['muayThai', 'sanshou', 'sanda'].includes(table.sectionSport) &&
       !/\b(amateur|exhibition|invitational)\b/i.test(`${table.title} ${table.sectionTitle ?? ''}`)
     ) {
-      combinedCandidates.push({ table, rec })
+      combinedCandidates.push({ table, rec, rowRec })
     }
   }
 
@@ -941,16 +958,20 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
   // fighter has no dedicated table for the section sport, attribute this table's record
   // to the section sport too. Prefer the sport's already-merged authoritative record
   // (e.g. infobox totals that cover the whole career) over a possibly partial row count.
-  for (const { table, rec } of combinedCandidates) {
+  for (const { table, rec, rowRec } of combinedCandidates) {
     if (out[table.sectionSport!]) continue
-    const recForSport =
+    let recForSport =
       parseRecordSummaryForSport(table.recordSummary, table.sectionSport) ??
       out[table.sport!] ??
       rec
+    if (recForSport && recForSport.kos === 0 && rowRec && rowRec.kos > 0) {
+      recForSport = { ...recForSport, kos: rowRec.kos }
+    }
     addRecord(table.sectionSport, recForSport)
   }
 
   // 4. Bespoke tables (freestyle wrestling, judo, karate, grappling, sanda, etc.)
+  const styleSport = deriveStyleSport(wikitext)
   const allHeaders: { start: number; contentStart: number; title: string }[] = []
   const headerRegex2 = /\n={2,}([^=\n]+)={2,}/g
   let h2: RegExpExecArray | null
@@ -959,7 +980,9 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
   }
   for (let i = 0; i < allHeaders.length; i++) {
     const h = allHeaders[i]
-    const sport = detectSport(h.title)
+    const sport =
+      detectSport(h.title) ??
+      (/\binternational\s+competition\b/i.test(h.title) ? styleSport : null)
     if (!sport) continue
     // Skip amateur/exhibition headers for professional-combat sports
     const PRO_SPORTS: SportKey[] = ['kickboxing', 'muayThai', 'boxing', 'sanda', 'sanshou', 'savate', 'taekwondo']
