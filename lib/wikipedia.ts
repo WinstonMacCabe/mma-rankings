@@ -90,6 +90,7 @@ interface ParsedInfobox {
   kickKOLoss: number | null
   kickDraw: number | null
   kickNC: number | null
+  hasMMA: boolean
 }
 
 function extractWeightClass(raw: string): string {
@@ -212,6 +213,7 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     kickKOLoss: null,
     kickDraw: null,
     kickNC: null,
+    hasMMA: false,
   }
 
   const infobox = extractInfobox(wikitext)
@@ -377,6 +379,8 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     }
   }
 
+  result.hasMMA = infobox !== null && /\|\s*mma_(?:win|loss|kowin|subwin|decwin|koloss|subloss|decloss|dqloss|draw)\s*=/i.test(infobox)
+
   // Compute totals from mma_* breakdowns
   const mmaTotalWins = mmaKowin + mmaSubwin + mmaDecwin
   if (foundWinFields) {
@@ -448,6 +452,7 @@ export interface BoxerStats {
   birthDate: string
   qualityWins: number
   sportRecords: Partial<Record<SportKey, SportRecord>>
+  hasMMA: boolean
 }
 
 const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
@@ -1043,6 +1048,11 @@ export function processRecord(wikitext: string): BoxerStats | null {
   const infobox = parseWikitextInfobox(wikitext)
   const sportRecords = extractSportRecords(wikitext)
 
+  const hasMMA =
+    infobox.hasMMA ||
+    /\{\{\s*(?:MMA\s+record|Mixed martial arts\s+record)\s*start/i.test(wikitext) ||
+    /\|\s*(?:style|sport|event|discipline)\s*=\s*[^|\n]*(?:mixed\s+martial\s+arts|\bmma\b)/i.test(wikitext)
+
   let imageUrl = infobox.image
   if (!imageUrl) {
     const fileMatches = wikitext.matchAll(/\[\[(?:File|Image):([^\]|]+)/gi)
@@ -1065,6 +1075,7 @@ export function processRecord(wikitext: string): BoxerStats | null {
       birthDate: infobox.birthDate,
       qualityWins: 0,
       sportRecords,
+      hasMMA,
     }
   }
 
@@ -1075,7 +1086,7 @@ export function processRecord(wikitext: string): BoxerStats | null {
   let total = infobox.total
   if (total === null) total = wins + losses + draws + noContests
 
-  return {
+return {
     total,
     wins,
     kos: infobox.kos ?? 0,
@@ -1087,6 +1098,7 @@ export function processRecord(wikitext: string): BoxerStats | null {
     birthDate: infobox.birthDate,
     qualityWins: countQualityWins(wikitext),
     sportRecords,
+    hasMMA,
   }
 }
 

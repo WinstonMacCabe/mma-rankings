@@ -263,13 +263,86 @@ async function main() {
       }
     })
 
-  const now = new Date()
+  // Step 3: Multi-sport rankings (kickboxing, muay thai, wrestling, etc.).
+  // Purely supplementary/cosmetic — failures here must never break MMA/news.
+  const sports: RankingsData['sports'] = {}
+  const sportRecords = new Map<string, BoxerStats>()
+  try {
+    const sportPages = await getSportPages()
+
+    // Carry over previously ranked fighters so transient category-discovery failures
+    // (e.g. a rate-limited nationality subcategory) can't silently drop marquee names
+    // between crawls — they stay ranked as long as their record still qualifies.
+    for (const key of SPORT_KEYS) {
+      for (const f of previous.sports?.[key] ?? []) {
+        if (!sportPages[key].has(f.name)) {
+          sportPages[key].set(f.name, pageMap.get(f.name) ?? f.gender ?? 'male')
+        }
+      }
+    }
+
+    // Inject MMA fighters who have records for these sports but aren't in sport categories.
+    // No aliases here — an MMA fighter with a kickboxing record belongs in kickboxing only,
+    // not kunKhmer/sanshou. (Aliases only apply to category-discovered fighters in buildSportRanking.)
+    for (const [name, record] of allRecords) {
+      if (!record?.sportRecords) continue
+      for (const key of SPORT_KEYS) {
+        if (record.sportRecords[key] && !sportPages[key].has(name)) {
+          sportPages[key].set(name, pageMap.get(name) ?? 'male')
+        }
+      }
+    }
+
+    const allSportTitles = new Set<string>()
+    for (const key of SPORT_KEYS) {
+      for (const page of sportPages[key].keys()) allSportTitles.add(page)
+    }
+    console.log(`\nStep 3: Fetching sport records for ${allSportTitles.size} unique fighter pages...`)
+
+    const titles = Array.from(allSportTitles)
+    for (let i = 0; i < titles.length; i += BATCH_SIZE) {
+      const batch = titles.slice(i, i + BATCH_SIZE)
+      const results = await fetchBoxerRecords(batch)
+      for (const [name, record] of results) {
+        if (record) sportRecords.set(name, record)
+      }
+      await delay(BATCH_DELAY)
+    }
+    console.log(`Fetched records for ${sportRecords.size} sport fighter pages.`)
+
+    // Merge MMA fighters' records into sportRecords so buildSportRanking can find them
+    for (const [name, record] of allRecords) {
+      if (record && !sportRecords.has(name)) sportRecords.set(name, record)
+    }
+
+    const nowSport = new Date()
+    for (const key of SPORT_KEYS) {
+      const ranked = buildSportRanking(key, sportPages[key], sportRecords, previous, nowSport)
+      if (ranked.length > 0) sports[key] = ranked
+      if (ranked.length > 0) {
+        console.log(`Sport ${key}: ${ranked.length} ranked. Top: ${ranked.slice(0, 5).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)
+      } else {
+        console.log(`Sport ${key}: no rankings.`)
+      }
+    }
+  } catch (err) {
+    console.error('Sport rankings failed (continuing with MMA rankings only):', err)
+  }
 
   // Thirdary ranking: score = wins / max(losses, 1). Undefeated = wins.
   // 384-wins cap applies to boxing only; other sports effectively uncapped. Tiebreaker: most KOs.
   // 50 non-seniors + all seniors above 50th non-senior
+  const now = new Date()
+
+  const mmaRecords = new Map<string, BoxerStats>(allRecords)
+  for (const [name, record] of sportRecords) {
+    if (allRecords.has(name)) continue
+    if (!record?.hasMMA) continue
+    if (record.wins !== null && record.losses !== null) mmaRecords.set(name, record)
+  }
+
   const allThirdary: BoxerRecord[] = []
-  for (const [name, record] of allRecords) {
+  for (const [name, record] of mmaRecords) {
     if (record.wins === 0) continue
 
     const wins = record.wins!
@@ -337,72 +410,6 @@ async function main() {
     .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0 && f.isSenior)
     .sort((a, b) => (a.thirdaryScore ?? 0) - (b.thirdaryScore ?? 0) || b.losses - a.losses || (a.kos ?? 0) - (b.kos ?? 0))
   const thirdaryWorstRanked = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst]
-
-  // Step 3: Multi-sport rankings (kickboxing, muay thai, wrestling, etc.).
-  // Purely supplementary/cosmetic — failures here must never break MMA/news.
-  const sports: RankingsData['sports'] = {}
-  try {
-    const sportPages = await getSportPages()
-
-    // Carry over previously ranked fighters so transient category-discovery failures
-    // (e.g. a rate-limited nationality subcategory) can't silently drop marquee names
-    // between crawls — they stay ranked as long as their record still qualifies.
-    for (const key of SPORT_KEYS) {
-      for (const f of previous.sports?.[key] ?? []) {
-        if (!sportPages[key].has(f.name)) {
-          sportPages[key].set(f.name, pageMap.get(f.name) ?? f.gender ?? 'male')
-        }
-      }
-    }
-
-    // Inject MMA fighters who have records for these sports but aren't in sport categories.
-    // No aliases here — an MMA fighter with a kickboxing record belongs in kickboxing only,
-    // not kunKhmer/sanshou. (Aliases only apply to category-discovered fighters in buildSportRanking.)
-    for (const [name, record] of allRecords) {
-      if (!record?.sportRecords) continue
-      for (const key of SPORT_KEYS) {
-        if (record.sportRecords[key] && !sportPages[key].has(name)) {
-          sportPages[key].set(name, pageMap.get(name) ?? 'male')
-        }
-      }
-    }
-
-    const allSportTitles = new Set<string>()
-    for (const key of SPORT_KEYS) {
-      for (const page of sportPages[key].keys()) allSportTitles.add(page)
-    }
-    console.log(`\nStep 3: Fetching sport records for ${allSportTitles.size} unique fighter pages...`)
-
-    const sportRecords = new Map<string, BoxerStats>()
-    const titles = Array.from(allSportTitles)
-    for (let i = 0; i < titles.length; i += BATCH_SIZE) {
-      const batch = titles.slice(i, i + BATCH_SIZE)
-      const results = await fetchBoxerRecords(batch)
-      for (const [name, record] of results) {
-        if (record) sportRecords.set(name, record)
-      }
-      await delay(BATCH_DELAY)
-    }
-    console.log(`Fetched records for ${sportRecords.size} sport fighter pages.`)
-
-    // Merge MMA fighters' records into sportRecords so buildSportRanking can find them
-    for (const [name, record] of allRecords) {
-      if (record && !sportRecords.has(name)) sportRecords.set(name, record)
-    }
-
-    const nowSport = new Date()
-    for (const key of SPORT_KEYS) {
-      const ranked = buildSportRanking(key, sportPages[key], sportRecords, previous, nowSport)
-      if (ranked.length > 0) sports[key] = ranked
-      if (ranked.length > 0) {
-        console.log(`Sport ${key}: ${ranked.length} ranked. Top: ${ranked.slice(0, 5).map(f => `${f.name} (${f.wins}-${f.losses}-${f.draws})`).join(', ')}`)
-      } else {
-        console.log(`Sport ${key}: no rankings.`)
-      }
-    }
-  } catch (err) {
-    console.error('Sport rankings failed (continuing with MMA rankings only):', err)
-  }
 
   await writeRankings(ranked, worstRanked, thirdaryRanked, thirdaryWorstRanked, Object.keys(sports).length > 0 ? sports : undefined)
 
