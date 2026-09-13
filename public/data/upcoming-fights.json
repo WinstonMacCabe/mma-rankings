@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T05:10:50.991Z",
+  "lastUpdated": "2026-09-13T12:47:38.527Z",
   "fights": [
     {
       "boxerName": "Ilia Topuria",
@@ -2438,6 +2438,13 @@
       "publishedAt": "2026-09-03T05:26:50Z"
     },
     {
+      "boxerName": "Amanda Serrano",
+      "headline": "'I grew up watching you' - women's boxing honours Taylor",
+      "url": "https://www.bbc.co.uk/sport/boxing/videos/cpq02p5j383o",
+      "source": "BBC News",
+      "publishedAt": "2026-09-03T05:21:39Z"
+    },
+    {
       "boxerName": "Salahdine Parnasse",
       "headline": "UFC Paris betting preview: Five best bets for Parnasse vs. Hooker",
       "url": "https://www.sherdog.com/videos/sherdogradio/UFC-Paris-betting-preview-Five-best-bets-for-Parnasse-vs-Hooker-23731",
@@ -2676,7 +2683,7 @@
       "publishedAt": "2026-09-02T00:45:08Z"
     },
     {
-      "boxerName": "Francis Ngannou",
+      "boxerName": "Dan Hooker",
       "headline": "Dan Hooker says he’d fight Francis Ngannou for the right price",
       "url": "https://www.sherdog.com/news/news/Dan-Hooker-says-hed-fight-Francis-Ngannou-for-the-right-price-202620",
       "source": "Sherdog.com",
@@ -7308,13 +7315,6 @@
       "url": "https://www.cbssports.com/ufc/news/ufc-330-fight-card-predictions-islam-makhachev-vs-ian-garry-expert-picks/",
       "source": "CBS Sports",
       "publishedAt": "2026-08-14T14:18:51Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Mystic Mac Predicts Islam Vs. Garry …",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464388/mystic-mac-conor-mcgregor-predicts-ian-garry-dethrones-islam-makhachev-via-head-kick-ko",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-14T07:00:00Z"
     }
   ]
 }
