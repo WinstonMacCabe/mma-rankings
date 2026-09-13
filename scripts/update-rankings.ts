@@ -52,6 +52,7 @@ const MIN_SCORE: Partial<Record<SportKey, number>> = {
   muayThai: 3,
   freestyleWrestling: 2.81,
   brazilianJiuJitsu: 1.1,
+  ncaaWrestling: 1.14,
 }
 
 function maxWinsFor(key: SportKey): number {
