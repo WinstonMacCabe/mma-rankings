@@ -341,13 +341,13 @@ async function main() {
   try {
     const sportPages = await getSportPages()
 
-    // Inject MMA fighters who have records for these sports but aren't in sport categories
+    // Inject MMA fighters who have records for these sports but aren't in sport categories.
+    // No aliases here — an MMA fighter with a kickboxing record belongs in kickboxing only,
+    // not kunKhmer/sanshou. (Aliases only apply to category-discovered fighters in buildSportRanking.)
     for (const [name, record] of allRecords) {
       if (!record?.sportRecords) continue
       for (const key of SPORT_KEYS) {
-        const aliasKey = SPORT_ALIASES[key]
-        const sportRec = record.sportRecords[key] ?? (aliasKey ? record.sportRecords[aliasKey] : undefined)
-        if (sportRec && !sportPages[key].has(name)) {
+        if (record.sportRecords[key] && !sportPages[key].has(name)) {
           sportPages[key].set(name, pageMap.get(name) ?? 'male')
         }
       }

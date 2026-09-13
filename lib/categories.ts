@@ -229,7 +229,7 @@ const SPORT_CATEGORIES: Record<import('./types').SportKey, string[]> = {
   karate: ['Category:Male karateka', 'Category:Female karateka', 'Category:Karate practitioners'],
   taekwondo: ['Category:Taekwondo practitioners'],
   savate: ['Category:Savateurs'],
-  sanda: [],
+  sanda: ['Category:Sanshou practitioners'],
   sambo: ['Category:Sambo practitioners by nationality'],
   judo: ['Category:Judoka'],
   freestyleWrestling: ['Category:Male sport wrestlers', 'Category:Female sport wrestlers', 'Category:Real American Freestyle male wrestlers', 'Category:Real American Freestyle female wrestlers'],
