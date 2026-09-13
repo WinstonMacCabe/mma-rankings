@@ -108,3 +108,22 @@ export interface UpcomingFightsData {
   lastUpdated: string
   fights: UpcomingFightEntry[]
 }
+
+export interface BoxingRecordEntry {
+  wins: number
+  kos: number
+  losses: number
+  draws: number
+  noContests: number
+  total: number
+  nationality?: string
+  weightClass?: string
+  imageUrl?: string
+  birthDate?: string
+  gender?: Gender
+}
+
+export interface BoxingRecordsData {
+  lastUpdated: string
+  records: Record<string, BoxingRecordEntry>
+}

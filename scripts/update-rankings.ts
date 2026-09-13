@@ -1,8 +1,8 @@
 import { getAllBoxerPages, getSportPages } from '../lib/categories'
 import { fetchBoxerRecords } from '../lib/wikipedia'
 import type { BoxerStats } from '../lib/wikipedia'
-import { readRankings, writeRankings } from '../lib/storage'
-import type { BoxerRecord, Gender, RankingsData, SportKey } from '../lib/types'
+import { readRankings, writeRankings, writeBoxingRecords } from '../lib/storage'
+import type { BoxingRecordEntry, BoxerRecord, Gender, RankingsData, SportKey } from '../lib/types'
 import { SPORT_KEYS } from '../lib/types'
 
 const BATCH_SIZE = 50
@@ -267,8 +267,12 @@ async function main() {
   // Purely supplementary/cosmetic — failures here must never break MMA/news.
   const sports: RankingsData['sports'] = {}
   const sportRecords = new Map<string, BoxerStats>()
+  const sportGenders = new Map<string, Gender>()
   try {
     const sportPages = await getSportPages()
+    for (const key of SPORT_KEYS) {
+      for (const [name, g] of sportPages[key]) sportGenders.set(name, g)
+    }
 
     // Carry over previously ranked fighters so transient category-discovery failures
     // (e.g. a rate-limited nationality subcategory) can't silently drop marquee names
@@ -410,6 +414,45 @@ async function main() {
     .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0 && f.isSenior)
     .sort((a, b) => (a.thirdaryScore ?? 0) - (b.thirdaryScore ?? 0) || b.losses - a.losses || (a.kos ?? 0) - (b.kos ?? 0))
   const thirdaryWorstRanked = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst]
+
+  const boxingRecords = new Map<string, BoxingRecordEntry>()
+  for (const [name, record] of allRecords) {
+    const bx = record.sportRecords?.boxing
+    if (!bx) continue
+    boxingRecords.set(name, {
+      wins: bx.wins,
+      kos: bx.kos,
+      losses: bx.losses,
+      draws: bx.draws,
+      noContests: bx.noContests,
+      total: bx.wins + bx.losses + bx.draws + bx.noContests,
+      nationality: record.nationality || undefined,
+      weightClass: record.weightClass || undefined,
+      imageUrl: record.imageUrl || undefined,
+      birthDate: record.birthDate || undefined,
+      gender: pageMap.get(name),
+    })
+  }
+  for (const [name, record] of sportRecords) {
+    if (boxingRecords.has(name)) continue
+    const bx = record.sportRecords?.boxing
+    if (!bx) continue
+    boxingRecords.set(name, {
+      wins: bx.wins,
+      kos: bx.kos,
+      losses: bx.losses,
+      draws: bx.draws,
+      noContests: bx.noContests,
+      total: bx.wins + bx.losses + bx.draws + bx.noContests,
+      nationality: record.nationality || undefined,
+      weightClass: record.weightClass || undefined,
+      imageUrl: record.imageUrl || undefined,
+      birthDate: record.birthDate || undefined,
+      gender: sportGenders.get(name),
+    })
+  }
+  await writeBoxingRecords(Object.fromEntries(boxingRecords))
+  console.log(`Wrote ${boxingRecords.size} boxing records for MMA/sport fighters.`)
 
   await writeRankings(ranked, worstRanked, thirdaryRanked, thirdaryWorstRanked, Object.keys(sports).length > 0 ? sports : undefined)
 
