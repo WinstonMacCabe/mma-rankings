@@ -1,6 +1,7 @@
 const USER_AGENT = 'MMARankings/1.0 (https://github.com/user/mma; mma-app@example.com)'
 const API_URL = 'https://en.wikipedia.org/w/api.php'
 const CONCURRENCY = 5
+const API_MAX_RETRIES = 5
 
 interface CategoryMember {
   title: string
@@ -12,7 +13,7 @@ interface ApiResponse {
   continue?: Record<string, string>
 }
 
-async function apiQuery(params: Record<string, string>): Promise<ApiResponse> {
+async function apiQuery(params: Record<string, string>, attempt = 0): Promise<ApiResponse> {
   const url = new URL(API_URL)
   url.searchParams.set('action', 'query')
   url.searchParams.set('format', 'json')
@@ -21,25 +22,29 @@ async function apiQuery(params: Record<string, string>): Promise<ApiResponse> {
     url.searchParams.set(key, value)
   }
 
-  let res: Response
+  let res: Response | undefined
+  const doFetch = () =>
+    fetch(url.toString(), {
+      headers: { 'User-Agent': USER_AGENT },
+      signal: AbortSignal.timeout(45000),
+    })
   try {
-    res = await fetch(url.toString(), {
-      headers: { 'User-Agent': USER_AGENT },
-      signal: AbortSignal.timeout(45000),
-    })
+    res = await doFetch()
   } catch {
-    await new Promise(r => setTimeout(r, 5000))
-    res = await fetch(url.toString(), {
-      headers: { 'User-Agent': USER_AGENT },
-      signal: AbortSignal.timeout(45000),
-    })
+    res = undefined
   }
-  if (res.status === 429) {
-    await new Promise(r => setTimeout(r, 5000))
-    return apiQuery(params)
+
+  const retriable = res === undefined || res.status === 429 || res.status >= 500
+  if (retriable) {
+    if (attempt >= API_MAX_RETRIES) {
+      throw new Error(`API failed after ${API_MAX_RETRIES + 1} attempts (status=${res ? res.status : 'network'})`)
+    }
+    const backoff = 1000 * 2 ** attempt + Math.floor(Math.random() * 1000)
+    await new Promise(r => setTimeout(r, backoff))
+    return apiQuery(params, attempt + 1)
   }
-  if (!res.ok) throw new Error(`API error: ${res.status}`)
-  return res.json()
+  if (!res!.ok) throw new Error(`API error: ${res!.status}`)
+  return res!.json()
 }
 
 async function getAllMembers(

@@ -343,6 +343,17 @@ async function main() {
   try {
     const sportPages = await getSportPages()
 
+    // Carry over previously ranked fighters so transient category-discovery failures
+    // (e.g. a rate-limited nationality subcategory) can't silently drop marquee names
+    // between crawls — they stay ranked as long as their record still qualifies.
+    for (const key of SPORT_KEYS) {
+      for (const f of previous.sports?.[key] ?? []) {
+        if (!sportPages[key].has(f.name)) {
+          sportPages[key].set(f.name, pageMap.get(f.name) ?? f.gender ?? 'male')
+        }
+      }
+    }
+
     // Inject MMA fighters who have records for these sports but aren't in sport categories.
     // No aliases here — an MMA fighter with a kickboxing record belongs in kickboxing only,
     // not kunKhmer/sanshou. (Aliases only apply to category-discovered fighters in buildSportRanking.)
