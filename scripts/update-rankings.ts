@@ -9,11 +9,13 @@ const BATCH_SIZE = 50
 const BATCH_DELAY = 100
 const MIN_LOSSES_FOR_WORST = 10
 
-// Map category sports to related parser sports when the infobox uses generic params
+// Map category sports to related parser sports when the infobox uses generic params.
+// Kickboxing is NOT aliased into sanshou/sanda anymore: sanshou/sanda rankings now rely
+// on genuine sanda/sanshou records produced by the parser's section-sport attribution, so
+// kickboxers who merely appear in sanshou categories (Cung Le, Kathy Long) stay out.
 const SPORT_ALIASES: Partial<Record<SportKey, SportKey>> = {
   kunKhmer: 'kickboxing',
-  sanshou: 'kickboxing',
-  sanda: 'kickboxing',
+  sanda: 'sanshou',
 }
 
 function delay(ms: number): Promise<void> {

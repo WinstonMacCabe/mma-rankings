@@ -644,6 +644,7 @@ export function parseBespokeBlock(block: string): SportRecord | null {
 interface RecordTableMatch {
   sport: SportKey | null
   sectionSport: SportKey | null
+  sectionTitle: string | null
   block: string
   title: string
   recordSummary: string
@@ -784,9 +785,10 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
 
     let sport = detectSport(title)
     const sectionHeader = headers.filter(h => h.index < mIndex).slice(-1)[0]
-    const sectionSport = sectionHeader ? detectSport(sectionHeader.title) : null
+    const sectionTitle = sectionHeader ? sectionHeader.title : null
+    const sectionSport = sectionTitle ? detectSport(sectionTitle) : null
     if (!sport) {
-      if (sectionHeader) sport = sectionSport
+      if (sectionTitle) sport = sectionSport
     }
     if (!sport) {
       // Combined "Kickboxing / Muay Thai record" style titles: blacklist MMA-only sections
@@ -796,9 +798,9 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     }
 
     // Skip amateur / exhibition / invitational record tables — rankings need professional records
-    if (/\b(amateur|exhibition|invitational)\b/i.test(title)) continue
+    if (/\b(amateur|exhibition|invitational)\b/i.test(title ?? '')) continue
 
-    matches.push({ index: m.index, sport, sectionSport, block: blockText, title, recordSummary })
+    matches.push({ index: m.index, sport, sectionSport, sectionTitle, block: blockText, title, recordSummary })
   }
 
   // Single, sport-unresolved record table on a non-MMA page: attribute it to the
@@ -905,7 +907,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
 
   // 3. Record tables (Fight / Kickboxing / MMA record start)
   const tables = findRecordTables(wikitext)
-  const combinedCandidates: RecordTableMatch[] = []
+  const combinedCandidates: { table: RecordTableMatch; rec: SportRecord | null }[] = []
   for (const table of tables) {
     let rec = parseRecordSummaryForSport(table.recordSummary, table.sport)
     if (!rec && table.sport) {
@@ -927,19 +929,25 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     if (
       rec && table.sectionSport && table.sport &&
       table.sectionSport !== table.sport &&
-      table.sectionSport === 'muayThai'
+      ['muayThai', 'sanshou', 'sanda'].includes(table.sectionSport) &&
+      !/\b(amateur|exhibition|invitational)\b/i.test(`${table.title} ${table.sectionTitle ?? ''}`)
     ) {
-      combinedCandidates.push(table)
+      combinedCandidates.push({ table, rec })
     }
   }
 
-  // Combined-record sections (e.g. "Muay Thai and kickboxing record"): when a fighter's
-  // only record table in such a section is titled generically, attribute it to the section
-  // sport too — but only if they have no dedicated table for that sport already.
-  for (const table of combinedCandidates) {
+  // Combined-record sections (e.g. "Muay Thai and kickboxing record", or a sanda/sanshou
+  // fighter's tables sitting under a generically-titled "Kickboxing record"): when a
+  // fighter has no dedicated table for the section sport, attribute this table's record
+  // to the section sport too. Prefer the sport's already-merged authoritative record
+  // (e.g. infobox totals that cover the whole career) over a possibly partial row count.
+  for (const { table, rec } of combinedCandidates) {
     if (out[table.sectionSport!]) continue
-    const rec = parseRecordSummaryForSport(table.recordSummary, table.sectionSport)
-    if (rec) addRecord(table.sectionSport, rec)
+    const recForSport =
+      parseRecordSummaryForSport(table.recordSummary, table.sectionSport) ??
+      out[table.sport!] ??
+      rec
+    addRecord(table.sectionSport, recForSport)
   }
 
   // 4. Bespoke tables (freestyle wrestling, judo, karate, grappling, sanda, etc.)
