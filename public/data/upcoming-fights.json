@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-09-13T00:43:32.163Z",
+  "lastUpdated": "2026-09-13T03:33:50.130Z",
   "fights": [
+    {
+      "boxerName": "Tatiana Suarez",
+      "headline": "Former Title Challengers Meet at UFC Vegas 124",
+      "url": "https://heavy.com/sports/ufc/former-title-challengers-ufc-vegas-124/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-12T03:16:20Z"
+    },
+    {
+      "boxerName": "Arman Tsarukyan",
+      "headline": "Justin Gaethje Predicts Arman Tsarukyan vs. Mauricio Ruffy",
+      "url": "https://heavy.com/sports/ufc/justin-gaethje-arman-tsarukyan-mauricio-ruffy/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-12T02:40:29Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Belal Muhammad: Ilia Topuria quit vs. Justin Gaethje, doesn't deserve rematch",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/11/ufc-belal-muhammad-opinion-ilia-topuria-not-deserve-justin-gaethje-rematch-lightweight-title-quitter/91706597007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-12T02:00:51Z"
+    },
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "Francis Ngannou responds to Dana White’s latest attack: ‘You have to take that loss’ - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185612854",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-12T01:12:37Z"
+    },
     {
       "boxerName": "Ciryl Gane",
       "headline": "Dana White Wanted Ciryl Gane to Beat Francis Ngannou",
@@ -3271,6 +3299,13 @@
       "publishedAt": "2026-08-30T04:35:55Z"
     },
     {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Watch Mike Perry dislocate shoulder, take pounding from Danis' replacement",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/08/29/mike-perry-dislocates-shoulder-brutal-tko-knockout-ko-loss-late-replacement-brandon-jenkins/91533966007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-30T02:49:23Z"
+    },
+    {
       "boxerName": "Joe Lauzon",
       "headline": "Highlights! Joe Lauzon Returns After Seven Years, Delivers Bloody TKO | BKFC 92",
       "url": "https://www.mmamania.com/latest-news/467867/highlights-ufc-vet-joe-lauzon-delivers-bloody-tko-in-bareknuckle-debut-following-seven-year-layoff-bkfc-92-fenway-results",
@@ -3283,6 +3318,20 @@
       "url": "https://sports.yahoo.com/articles/umar-nurmagomedov-releases-statement-following-023830513.html",
       "source": "Yahoo Entertainment",
       "publishedAt": "2026-08-30T02:38:30Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Highlights! Perry Suffers Shocking KO Loss To Short-Notice Jenkins",
+      "url": "https://www.mmamania.com/latest-news/466590/highlights-mike-perry-suffers-gnarly-injury-during-shocking-knockout-loss-to-short-notice-replacement-brandon-jenkins-duel-arena-1",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-30T02:37:54Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Mike Perry dislocates shoulder, Brandon Jenkins delivers upset victory with first-round finish",
+      "url": "https://www.mmafighting.com/latest-news/507829/mike-perry-dislocates-shoulder-brandon-jenkins-delivers-upset-victory-with-first-round-finish",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-30T02:34:11Z"
     },
     {
       "boxerName": "Joe Lauzon",
@@ -3509,11 +3558,25 @@
       "publishedAt": "2026-08-29T07:02:51Z"
     },
     {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Mike Perry vs. Brandon Jenkins live results: Updates, round-by-round scoring and highlights for Duel: Arena fight",
+      "url": "https://sports.yahoo.com/mma/live/duel-arena-live-results-mike-perry-vs-brandon-jenkins-updates-round-by-round-scoring-and-highlights-063000872.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-08-29T06:30:00Z"
+    },
+    {
       "boxerName": "Umar Nurmagomedov",
       "headline": "UFC Shanghai live updates: Umar Nurmagomedov vs. Song Yadong results",
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/29/ufc-shanghai-umar-nurmagomedov-vs-song-yadong-live-updates-results--live/91514423007/",
       "source": "USA Today",
       "publishedAt": "2026-08-29T06:00:32Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Duel Arena Results: Perry vs. Jenkins",
+      "url": "https://www.mmafighting.com/latest-news/507467/duel-arena-results-perry-vs-jenkins",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-29T06:00:00Z"
     },
     {
       "boxerName": "Umar Nurmagomedov",
@@ -3535,6 +3598,13 @@
       "url": "https://sports.yahoo.com/mma/live/ufc-shanghai-live-results-umar-nurmagomedov-vs-song-yadong-updates-round-by-round-scoring-and-highlights-003000251.html",
       "source": "Yahoo Entertainment",
       "publishedAt": "2026-08-29T00:30:00Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Mike Perry promises ‘blood sacrifice’ at Dual Arena 1, even without Dillon Danis",
+      "url": "https://www.mmafighting.com/ufc/507530/mike-perry-promises-blood-sacrifice-at-dual-arena-even-without-dillon-danis",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-29T00:07:57Z"
     },
     {
       "boxerName": "Umar Nurmagomedov",
@@ -3565,6 +3635,13 @@
       "publishedAt": "2026-08-28T21:59:50Z"
     },
     {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Mike Perry reacts to Dillon Danis withdrawing from fight: ‘This was always their plan’ - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185259574",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-28T20:32:15Z"
+    },
+    {
       "boxerName": "Bo Nickal",
       "headline": "Kamaru Usman: Bo Nickal a good test for Anthony Hernandez after losing skid",
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/28/ufc-kamaru-usman-opinion-anthony-hernandez-vs-bo-nickal-phenomenal-fight-middleweight/91508205007/",
@@ -3577,6 +3654,20 @@
       "url": "https://www.npr.org/2026/08/28/nx-s1-5945625/katseye-and-phoebe-bridgers-have-the-two-biggest-albums-in-the-country-this-week",
       "source": "NPR",
       "publishedAt": "2026-08-28T19:52:41Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "‘It’s always the ones you least expect’: Pros react to Dillon Danis pulling out of Mike Perry fight - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185258808",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-28T19:52:05Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Dillon Danis out of MMA return against Mike Perry as new fight gets made on two days' notice - Bloody Elbow",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185258424",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-28T19:32:17Z"
     },
     {
       "boxerName": "Islam Makhachev",
@@ -3614,6 +3705,13 @@
       "publishedAt": "2026-08-28T17:00:56Z"
     },
     {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Mike Perry reacts to Dillon Danis withdrawing from fight: ‘This was always their plan’",
+      "url": "https://www.mmafighting.com/latest-news/507480/mike-perry-reacts-to-dillon-danis-withdrawing-from-fight-this-was-always-their-plan",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-28T17:00:00Z"
+    },
+    {
       "boxerName": "Glover Teixeira",
       "headline": "Spaten Fight Night 3 weigh-in results: Glover Teixeira 10 pounds heavier than Shogun Rua",
       "url": "https://www.mmafighting.com/boxing/507487/spaten-fight-night-3-weigh-in-results-glover-teixeira-10-pounds-heavier-than-shogun-rua",
@@ -3640,6 +3738,13 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185253686",
       "source": "Slashdot.org",
       "publishedAt": "2026-08-28T16:13:00Z"
+    },
+    {
+      "boxerName": "Zhang Weili",
+      "headline": "Video: Zhang Weili collects her UFC Hall of Fame trophy in Shanghai",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/28/ufc-video-zhang-weili-collects-hall-of-fame-trophy-shanghai-joanna-jedrzejczyk-women-mma-full-fight/91507564007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-28T15:20:29Z"
     },
     {
       "boxerName": "Usman Nurmagomedov",
@@ -3670,6 +3775,13 @@
       "publishedAt": "2026-08-28T12:03:36Z"
     },
     {
+      "boxerName": "Daniel Cormier",
+      "headline": "Morning Report | Daniel Cormier the UFC to book Tom Aspinall’s return ASAP ‘because he is the best heavyweight in the world’",
+      "url": "https://www.mmafighting.com/videos/506905/morning-report-daniel-cormier-the-ufc-to-book-tom-aspinalls-return-asap-because-he-is-the-best-heavyweight-in-the-world",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-08-28T12:00:00Z"
+    },
+    {
       "boxerName": "Umar Nurmagomedov",
       "headline": "Stop crying! Umar Nurmagomedov is tired of ‘Disrespect Dvalishvili’ talking about him",
       "url": "https://www.mmamania.com/ufc-news/467783/stop-crying-umar-nurmagomedov-is-tired-of-disrespect-dvalishvili-talking-about-him",
@@ -3682,6 +3794,13 @@
       "url": "https://www.mmamania.com/ufc-news/467774/usman-nurmagomedov-trashes-ufc-lightweight-top-ten-claims-theyre-a-product-of-pr-machine",
       "source": "MMA Mania",
       "publishedAt": "2026-08-28T11:39:04Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Dillon Danis bails on Mike Perry fight; former UFC fighter replaces him - MMA Junkie",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185239228",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-28T05:12:39Z"
     },
     {
       "boxerName": "Jon Jones",
@@ -3719,6 +3838,13 @@
       "publishedAt": "2026-08-28T03:11:57Z"
     },
     {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Dillon Danis out; Mike Perry gets replacement opponent on 48 hours’ notice - MMA Fighting",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185237418",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-08-28T02:13:29Z"
+    },
+    {
       "boxerName": "Movsar Evloev",
       "headline": "Alexander Volkanovski Promises Prime Version vs. Movsar Evloev",
       "url": "https://heavy.com/sports/ufc/alexander-volkanovski-prime-version-movsar-evloev/",
@@ -3731,6 +3857,13 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/27/ufc-umar-nurmagomedov-opinion-brother-usman-pfl-free-agent-ready-for-anyone-in-world/91488086007/",
       "source": "USA Today",
       "publishedAt": "2026-08-28T00:30:17Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Video: Stitchy Dillon Danis posts gnarly injury (and surgical procedure) that forced last-second Mike Perry fight withdrawal  | Duel Arena 1",
+      "url": "https://www.mmamania.com/latest-news/467707/video-stitchy-dillon-danis-posts-gnarly-injury-and-surgical-procedure-that-forced-last-second-mike-perry-fight-withdrawal-duel-arena-1",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-28T00:17:49Z"
     },
     {
       "boxerName": "Umar Nurmagomedov",
@@ -3759,6 +3892,13 @@
       "url": "https://www.mmamania.com/latest-news/467689/shocker-dillon-danis-withdraws-from-mike-perry-fight-just-two-days-before-duel-arena-1",
       "source": "MMA Mania",
       "publishedAt": "2026-08-27T23:13:54Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Dillon Danis bails on Mike Perry fight; former UFC fighter replaces him",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/27/dillon-danis-out-mike-perry-duel-arena-1-fight-ufc-veteran-replaces/91498325007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-27T23:07:21Z"
     },
     {
       "boxerName": "Umar Nurmagomedov",
@@ -4270,6 +4410,13 @@
       "url": "https://sports.yahoo.com/wrestling/article/olympic-legend-jordan-burroughs-calls-out-georges-st-pierre-islam-makhachev-for-raf-dream-matches-after-dominant-debut-223645078.html",
       "source": "Yahoo Entertainment",
       "publishedAt": "2026-08-24T22:36:45Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Duel Arena 1: Perry vs. Danis fight card, start time, date and location",
+      "url": "https://www.mmamania.com/latest-news/467243/duel-arena-1-perry-vs-danis-fight-card-start-time-date-and-location",
+      "source": "MMA Mania",
+      "publishedAt": "2026-08-24T22:00:00Z"
     },
     {
       "boxerName": "Umar Nurmagomedov",
@@ -6316,7 +6463,7 @@
       "publishedAt": "2026-08-16T16:10:31Z"
     },
     {
-      "boxerName": "Zhang Weili",
+      "boxerName": "Mackenzie Dern",
       "headline": "Mackenzie Dern doesn’t feel she needs to beat Zhang Weili to cement championship status after UFC 330",
       "url": "https://www.mmafighting.com/ufc/505309/mackenzie-dern-doesnt-feel-she-needs-to-beat-zhang-weili-to-cement-championship-status-after-ufc-330",
       "source": "MMA Fighting",
@@ -7098,6 +7245,13 @@
       "url": "https://www.mmamania.com/ufc-predictions/463687/ufc-330-predictions-preview-analysis-islam-garry",
       "source": "MMA Mania",
       "publishedAt": "2026-08-14T17:20:00Z"
+    },
+    {
+      "boxerName": "Mackenzie Dern",
+      "headline": "Mackenzie Dern reveals pivotal loss that helped her reach UFC title",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-champ-mackenzie-dern-reveals-pivotal-loss-that-changed-her-career/91291872007/",
+      "source": "USA Today",
+      "publishedAt": "2026-08-14T17:01:30Z"
     },
     {
       "boxerName": "Islam Makhachev",
