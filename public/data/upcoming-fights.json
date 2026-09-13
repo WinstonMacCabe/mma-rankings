@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-09-13T18:06:33.501Z",
+  "lastUpdated": "2026-09-13T19:42:30.885Z",
   "fights": [
+    {
+      "boxerName": "Raul Rosas Jr.",
+      "headline": "Noche UFC 4 Highlights! Sean King Delivers Devastating KO Slam In 36-Second Debut",
+      "url": "https://www.mmamania.com/ufc-paramount-plus-news-hub-fight-cards-schedule/471602/highlights-owatch-official-noche-ufc-4-video-highlights-results-paramount-king-knockout-rosas",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-12T19:04:54Z"
+    },
+    {
+      "boxerName": "Raul Rosas Jr.",
+      "headline": "Noche UFC video: Sean King III debuts with 36-second slam knockout",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/12/noche-ufc-video-sean-king-iii-debuts-36-second-slam-knockout-jessie-rosas/91729615007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-12T18:56:48Z"
+    },
+    {
+      "boxerName": "Gordon Ryan",
+      "headline": "Video: Gordon Ryan involved in huge brawl at ADCC: ‘Thanks to the Kazakh guys for the scrap’",
+      "url": "https://www.mmafighting.com/videos/509790/video-gordon-ryan-involved-in-huge-brawl-at-adcc-thanks-to-the-kazakh-guys-for-the-scrap",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-12T18:39:48Z"
+    },
     {
       "boxerName": "Gordon Ryan",
       "headline": "Gordon Ryan issues statement on ‘fun’ ADCC 2026 brawl, two BJJ stars suspended",
@@ -7273,20 +7294,6 @@
       "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/video-ufc-331-first-press-conference-van-pantoja-live-stream/91249534007/",
       "source": "USA Today",
       "publishedAt": "2026-08-14T19:55:17Z"
-    },
-    {
-      "boxerName": "Umar Nurmagomedov",
-      "headline": "UFC analyst: Umar Nurmagomedov, Song Yadong 'perfect challenge for each other'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-shanghai-dominick-cruz-umar-nurmagomedov-vs-song-yadong-perfect-challenge/91284103007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-14T19:30:28Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC 330 predictions: Can Ian Machado Garry stop Islam Makhachev's reign of dominance?",
-      "url": "https://sports.yahoo.com/mma/article/ufc-330-predictions-can-ian-machado-garry-stop-islam-makhachevs-reign-of-dominance-185312036.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-14T18:53:12Z"
     }
   ]
 }
