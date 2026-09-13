@@ -52,7 +52,7 @@ async function main() {
   }
   const isNewsSenior = (f: { birthDate?: string; isSenior?: boolean }): boolean => {
     const age = computeAge(f.birthDate)
-    return age !== null ? age >= 52 : !!f.isSenior
+    return age !== null ? age >= 53 : !!f.isSenior
   }
 
   const rankings = await readRankings()
