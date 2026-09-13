@@ -36,6 +36,25 @@ async function main() {
     return
   }
 
+  const now = new Date()
+  const computeAge = (birthDate: string | undefined): number | null => {
+    if (!birthDate) return null
+    const parts = birthDate.split('-')
+    const birthYear = parseInt(parts[0], 10)
+    if (isNaN(birthYear)) return null
+    if (parts.length === 3) {
+      const birthMonth = parseInt(parts[1], 10)
+      const birthDay = parseInt(parts[2], 10)
+      const birthdayThisYear = new Date(now.getFullYear(), birthMonth - 1, birthDay)
+      return now >= birthdayThisYear ? now.getFullYear() - birthYear : now.getFullYear() - birthYear - 1
+    }
+    return now.getFullYear() - birthYear
+  }
+  const isNewsSenior = (f: { birthDate?: string; isSenior?: boolean }): boolean => {
+    const age = computeAge(f.birthDate)
+    return age !== null ? age >= 52 : !!f.isSenior
+  }
+
   const rankings = await readRankings()
   const allFightersMap = new Map<string, any>()
   const lists = [
@@ -46,7 +65,7 @@ async function main() {
   for (const list of lists) {
     if (!list) continue
     for (const f of list as any[]) {
-      if (!f.isSenior && !allFightersMap.has(f.name)) {
+      if (!isNewsSenior(f) && !allFightersMap.has(f.name)) {
         allFightersMap.set(f.name, f)
       }
     }
