@@ -972,6 +972,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
 
   // 4. Bespoke tables (freestyle wrestling, judo, karate, grappling, sanda, etc.)
   const styleSport = deriveStyleSport(wikitext)
+  const hasMmaSignal = /\bmma\b|mixed\s+martial\s+arts|\bufc\b/i.test(wikitext)
   const allHeaders: { start: number; contentStart: number; title: string }[] = []
   const headerRegex2 = /\n={2,}([^=\n]+)={2,}/g
   let h2: RegExpExecArray | null
@@ -982,7 +983,11 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     const h = allHeaders[i]
     const sport =
       detectSport(h.title) ??
-      (/\binternational\s+competition\b/i.test(h.title) ? styleSport : null)
+      (styleSport &&
+      (/\brecord\b|\binternational\s+competition\b/i.test(h.title)) &&
+      !(hasMmaSignal && /\b(?:fight|professional|amateur|career|pro)\s*record\b/i.test(h.title))
+        ? styleSport
+        : null)
     if (!sport) continue
     // Skip amateur/exhibition headers for professional-combat sports
     const PRO_SPORTS: SportKey[] = ['kickboxing', 'muayThai', 'boxing', 'sanda', 'sanshou', 'savate', 'taekwondo']
