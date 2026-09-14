@@ -347,13 +347,8 @@ export default function Home() {
             <a href="https://generalspugilism.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[17px] uppercase tracking-[0.05em] text-black/40 transition-colors hover:text-[#1d1d1f]">Generals</a>
           </nav>
 
-          <div className="pointer-events-none absolute left-1/2 hidden -translate-x-1/2 text-center sm:block">
-            <div className="text-[30px] font-bold uppercase tracking-[0.08em] text-[#1d1d1f]">
-              Winston&apos;s Rankings
-            </div>
-            <div className="text-[14px] font-semibold uppercase tracking-[0.12em] text-ufc-red">
-              {isSportMode ? `${SPORT_LABELS[viewMode as SportKey]} Rankings` : 'Mixed Martial Arts Rankings'}
-            </div>
+          <div className="pointer-events-none absolute left-1/2 hidden -translate-x-1/2 text-[30px] font-bold uppercase tracking-[0.08em] text-[#1d1d1f] sm:block">
+            Winston&apos;s Rankings
           </div>
 
           <div ref={controlsRef} className="relative flex items-center gap-2">
@@ -429,7 +424,7 @@ export default function Home() {
       <main className="pb-12 pt-28">
         <div className="mx-auto max-w-7xl px-4">
           <div className="mb-10 pt-6 text-center">
-            <h1 className="text-[64px] font-bold uppercase leading-[1.02] tracking-[0.06em] text-[#1d1d1f]">MMA</h1>
+            <h1 className="text-[64px] font-bold uppercase leading-[1.02] tracking-[0.06em] text-[#1d1d1f]">{isSportMode ? SPORT_LABELS[viewMode as SportKey] : 'MMA'}</h1>
           </div>
 
           {uniqueFights.length > 0 && (
