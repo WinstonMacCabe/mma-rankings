@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T00:42:00.958Z",
+  "lastUpdated": "2026-09-14T03:42:44.539Z",
   "fights": [
     {
       "boxerName": "Arman Tsarukyan",
@@ -7238,13 +7238,6 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184980990",
       "source": "Slashdot.org",
       "publishedAt": "2026-08-15T03:52:47Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "MMA star Ian Machado Garry eyes more than an upset at UFC 330 amid promoter Eddie Hearn's bitter rivalry with Dana White",
-      "url": "https://www.dailymail.com/sport/mma/article-16052391/ian-machado-garry-ufc-eddie-hearn-dana-white-Islam-Makhachev.html",
-      "source": "Dailymail.com",
-      "publishedAt": "2026-08-15T02:44:25Z"
     }
   ]
 }
