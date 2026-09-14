@@ -454,10 +454,14 @@ async function main() {
   await writeBoxingRecords(Object.fromEntries(boxingRecords))
   console.log(`Wrote ${boxingRecords.size} boxing records for MMA/sport fighters.`)
 
-  await writeRankings(ranked, worstRanked, thirdaryRanked, thirdaryWorstRanked, Object.keys(sports).length > 0 ? sports : undefined)
+  // Best + worst are frozen — preserved from previous run
+  const archivedBest = previous.fighters
+  const archivedWorst = previous.worst ?? []
+
+  await writeRankings(archivedBest, archivedWorst, thirdaryRanked, thirdaryWorstRanked, Object.keys(sports).length > 0 ? sports : undefined)
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
-  console.log(`\nDone! ${ranked.length} undefeated, ${worstRanked.length} winless, ${thirdaryRanked.length} thirdary, ${thirdaryWorstRanked.length} thirdary worst fighters ranked.`)
+  console.log(`\nDone! ${archivedBest.length} archived best, ${archivedWorst.length} archived worst, ${thirdaryRanked.length} thirdary, ${thirdaryWorstRanked.length} thirdary worst fighters ranked.`)
   console.log(`Sports ranked: ${Object.keys(sports).join(', ') || 'none'}`)
   console.log(`Total time: ${elapsed}s`)
   if (ranked.length > 0) {
