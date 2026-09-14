@@ -63,7 +63,8 @@ async function main() {
       freestyleWrestling: 'Freestyle Wrestling', ncaaWrestling: 'NCAA Wrestling',
       brazilianJiuJitsu: 'BJJ', sumo: 'Sumo', mongolianWrestling: 'Mongolian Wrestling',
       lethwei: 'Lethwei', kunKhmer: 'Kun Khmer', sambo: 'Sambo',
-      grecoRomanWrestling: 'Greco-Roman', bareKnuckle: 'Bare Knuckle', judo: 'Judo'
+      grecoRomanWrestling: 'Greco-Roman', sanshou: 'Sanshou',
+      submissionWrestling: 'Sub. Wrestling', judo: 'Judo', bareKnuckle: 'Bare Knuckle'
     }
     const addSport = (list: any[] | undefined, sportName: string) => {
       if (!list) return
@@ -137,7 +138,7 @@ async function main() {
     }
 
     // Sport ranking changes
-    const sports = ['kickboxing', 'muayThai', 'karate', 'freestyleWrestling', 'brazilianJiuJitsu', 'sumo', 'mongolianWrestling', 'lethwei', 'kunKhmer', 'judo', 'bareKnuckle'] as const
+    const sports = ['kickboxing', 'muayThai', 'karate', 'freestyleWrestling', 'ncaaWrestling', 'brazilianJiuJitsu', 'sumo', 'mongolianWrestling', 'lethwei', 'kunKhmer', 'sambo', 'grecoRomanWrestling', 'sanshou', 'submissionWrestling', 'judo', 'bareKnuckle'] as const
     for (const sport of sports) {
       const cur = curRankings.sports?.[sport] ?? []
       const prev = prevRankings.sports?.[sport] ?? []
