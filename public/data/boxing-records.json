@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T03:42:22.284Z",
+  "lastUpdated": "2026-09-15T00:41:51.596Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -6277,18 +6277,6 @@
       "birthDate": "1982-10-10",
       "gender": "male"
     },
-    "Nonpareil Jack Dempsey": {
-      "wins": 52,
-      "kos": 24,
-      "losses": 3,
-      "draws": 11,
-      "noContests": 2,
-      "total": 68,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
-      "birthDate": "1862-12-15",
-      "gender": "male"
-    },
     "Jem Mace": {
       "wins": 27,
       "kos": 14,
@@ -6322,6 +6310,18 @@
       "total": 32,
       "nationality": "Canada",
       "birthDate": "1973-12-25",
+      "gender": "male"
+    },
+    "Nonpareil Jack Dempsey": {
+      "wins": 52,
+      "kos": 24,
+      "losses": 3,
+      "draws": 11,
+      "noContests": 2,
+      "total": 68,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
+      "birthDate": "1862-12-15",
       "gender": "male"
     },
     "John Morrissey": {
