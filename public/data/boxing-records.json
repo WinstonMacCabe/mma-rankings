@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T00:41:51.596Z",
+  "lastUpdated": "2026-09-15T03:43:37.592Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -5009,6 +5009,7 @@
       "noContests": 0,
       "total": 68,
       "nationality": "Thailand",
+      "weightClass": "Bantamweight",
       "birthDate": "1970",
       "gender": "male"
     },
@@ -6254,18 +6255,6 @@
       "birthDate": "1858",
       "gender": "male"
     },
-    "James DeGale": {
-      "wins": 25,
-      "kos": 12,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 29,
-      "nationality": "England",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
-      "birthDate": "1986-02-03",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6301,15 +6290,16 @@
       "birthDate": "1826",
       "gender": "male"
     },
-    "Bobby Gunn": {
-      "wins": 23,
-      "kos": 17,
-      "losses": 7,
+    "James DeGale": {
+      "wins": 25,
+      "kos": 12,
+      "losses": 3,
       "draws": 1,
-      "noContests": 1,
-      "total": 32,
-      "nationality": "Canada",
-      "birthDate": "1973-12-25",
+      "noContests": 0,
+      "total": 29,
+      "nationality": "England",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
+      "birthDate": "1986-02-03",
       "gender": "male"
     },
     "Nonpareil Jack Dempsey": {
@@ -6346,6 +6336,17 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/George_Gardner_portrait.jpg",
       "birthDate": "1877",
+      "gender": "male"
+    },
+    "Bobby Gunn": {
+      "wins": 23,
+      "kos": 17,
+      "losses": 7,
+      "draws": 1,
+      "noContests": 1,
+      "total": 32,
+      "nationality": "Canada",
+      "birthDate": "1973-12-25",
       "gender": "male"
     },
     "Usanakorn Thawilsuhannawang": {
