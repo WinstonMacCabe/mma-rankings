@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-09-16T00:43:58.639Z",
+  "lastUpdated": "2026-09-16T03:40:40.170Z",
   "fights": [
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "“I’ll Be the Most Active Champ” – Josh Hokit Calls for Ciryl Gane Title Fight After Tom Aspinall Vacates Belt",
+      "url": "https://sports.yahoo.com/articles/ll-most-active-champ-josh-030124338.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-15T03:01:24Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Nate Diaz weighs next options: Mike Perry? Scott Coker? MVP? Definitely no Dillon Danis",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/09/14/nate-diaz-mike-perry-ki-mma-scott-coker-mvp-pfl-next-fight/91769028007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T01:57:49Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "Brian Ortega out of UFC 331 fight with injury, Renato Moicano gets new opponent",
+      "url": "https://sports.yahoo.com/articles/brian-ortega-ufc-331-fight-013215642.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-15T01:32:15Z"
+    },
     {
       "boxerName": "Renato Moicano",
       "headline": "Injured Brian Ortega pulled from UFC 331, ‘Money’ paid with Halloween main event (at Apex)",
@@ -6755,55 +6776,6 @@
       "url": "https://www.sherdog.com/news/news/Islam-Makhachev-breaks-down-Ian-Garrys-tricky-UFC-330-strategy-202388",
       "source": "Sherdog.com",
       "publishedAt": "2026-08-17T04:25:15Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Carlos Prates Sends Strong Warning to Islam Makhachev After UFC 330 Win",
-      "url": "https://biztoc.com/x/134ee32772db7f2a",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-17T03:28:21Z"
-    },
-    {
-      "boxerName": "Michael Morales (fighter)",
-      "headline": "Ian Garry confronts Michael Morales at UFC 330: ‘Make sure you back it up’",
-      "url": "https://www.sherdog.com/news/news/Ian-Garry-confronts-Michael-Morales-at-UFC-330-Make-sure-you-back-it-up-202386",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T03:27:40Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Next up? Islam Makhachev names most deserving title challenger",
-      "url": "https://www.sherdog.com/news/news/Next-up-Islam-Makhachev-names-most-deserving-title-challenger-202385",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T03:26:05Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "UFC 330 Payout Perspective",
-      "url": "https://mmapayout.com/2026/08/16/ufc-330-payout-perspective/",
-      "source": "Mmapayout.com",
-      "publishedAt": "2026-08-17T03:04:19Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev vs. elite striker, more fights to make after UFC 330",
-      "url": "https://www.thebiglead.com/islam-makhachev-vs-elite-striker-more-fights-to-make-after-ufc-330/",
-      "source": "The Big Lead",
-      "publishedAt": "2026-08-17T01:28:27Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "What drove UFC’s Dana White ‘f–king crazy’ about Ian Machado Garry’s loss to Islam Makhachev - New York Post",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185010120",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-17T01:12:15Z"
-    },
-    {
-      "boxerName": "Raul Rosas Jr.",
-      "headline": "Raul Rosas Jr. locks in first UFC main event against Brazilian veteran",
-      "url": "https://www.sherdog.com/news/news/Raul-Rosas-Jr-locks-in-first-UFC-main-event-against-Brazilian-veteran-202394",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T00:58:12Z"
     }
   ]
 }
