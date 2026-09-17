@@ -1,6 +1,209 @@
 {
-  "lastUpdated": "2026-09-16T03:40:40.170Z",
+  "lastUpdated": "2026-09-17T00:42:05.253Z",
   "fights": [
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "UFC analyst explains why Alex Pereira 'likely' to get Ciryl Gane rematch",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/ufc-chris-weidman-alex-pereira-likely-rematch-ciryl-gane/91773366007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T23:40:16Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Pic: Flyweight champion Joshua Van, Arman Tsarukyan score custom shorts before UFC 331",
+      "url": "https://www.mmamania.com/latest-news/472564/pic-joshua-van-arman-tsarukyan-custom-shorts-ufc-331",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-15T23:05:38Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Nate Diaz rips 'punching bag' Ilia Topuria for getting 'ass whooped' by Justin Gaethje",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/ufc-nate-diaz-rips-ilia-topuria-being-justin-gaethje-punching-bag/91774180007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T22:50:28Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "Renato Moicano blasts Brian Ortega for ruining 'easy paycheck' at UFC 331, cautions future Ortega opponents",
+      "url": "https://sports.yahoo.com/mma/article/renato-moicano-blasts-brian-ortega-for-ruining-easy-paycheck-at-ufc-331-cautions-future-ortega-opponents-222910887.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-15T22:29:10Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "Hard Quiz S11E17 1080p WEB-DL H264-WH",
+      "url": "https://post.rlsbb.cc/hard-quiz-s11e17-1080p-web-dl-h264-wh/",
+      "source": "Rlsbb.cc",
+      "publishedAt": "2026-09-15T21:51:41Z"
+    },
+    {
+      "boxerName": "Yoel Romero",
+      "headline": "Yoel Romero: 'Of course I'm finishing' Darren Till at BKFC 94",
+      "url": "https://mmajunkie.usatoday.com/story/sports/bkfc/2026/09/15/bkfc-94-yoel-romero-vs-darren-till-prediction-finish/91764857007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T20:20:30Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page expected low-ball offer from UFC after going 5-1",
+      "url": "https://www.mmamania.com/latest-news/472510/michael-page-expected-low-ball-offer-from-ufc-after-going-5-1",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-15T19:00:00Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 fight card -- Joshua Van vs. Alexandre Pantoja 2: Five biggest storylines to follow in Los Angeles",
+      "url": "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-vs-alexandre-pantoja-storylines/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-09-15T18:05:27Z"
+    },
+    {
+      "boxerName": "Arman Tsarukyan",
+      "headline": "UFC 331 'Embedded,' No. 2: Arman Tsarukyan finds a new running buddy",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/ufc-331-embedded-2-arman-tsarukyan-new-running-buddy/91777710007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T18:01:24Z"
+    },
+    {
+      "boxerName": "Henry Cejudo",
+      "headline": "'Euphoria' actor steps in to fight Henry Cejudo in ex-UFC champ's boxing debut",
+      "url": "https://mmajunkie.usatoday.com/story/sports/boxing/2026/09/15/javon-walton-henry-cejudo-fight-euphoria-actor-boxing/91776918007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T17:25:20Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Michael Page doesn't hold back on 'quite disrespectful' UFC departure",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/ufc-michael-page-departure-disrespectful/91774220007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T17:01:04Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "UFC analyst makes compelling case for Josh Hokit title shot: 'No doubt in my mind'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/ufc-daniel-cormier-josh-hokit-case-heavyweight-title-shot-ciryl-gane/91771499007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T16:10:27Z"
+    },
+    {
+      "boxerName": "Henry Cejudo",
+      "headline": "Ex-UFC champion Henry Cejudo to fight 'Euphoria' actor in boxing debut",
+      "url": "https://www.usatoday.com/story/sports/boxing/2026/09/15/javon-walton-henry-cejudo-fight-euphoria-actor-boxing/91774932007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T15:42:03Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "headline": "Nate Diaz brutally calls out Dillon Danis after Mike Perry fight collapse with blunt question about his fighting future",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/nate-diaz-brutally-calls-out-dillon-danis-after-mike-perry-fight-collapse-with-blunt-question-about-his-fighting-future/articleshow/134268003.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T15:39:56Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "Brian Ortega shows cut that forced him out of UFC 331, teases new fight booked for November",
+      "url": "https://www.mmafighting.com/ufc/510378/brian-ortega-shows-cut-that-forced-him-out-of-ufc-331-teases-new-fight-booked-for-november",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-15T15:00:00Z"
+    },
+    {
+      "boxerName": "Henry Cejudo",
+      "headline": "With Deen The Great out, Henry Cejudo faces undefeated MVP fighter at Misfits Boxing event",
+      "url": "https://www.mmafighting.com/boxing/510417/with-deen-the-great-out-henry-cejudo-faces-undefeated-mvp-fighter-at-misfits-boxing-event",
+      "source": "MMA Fighting",
+      "publishedAt": "2026-09-15T14:42:00Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Jon Jones, Islam Makhachev trade barbs over validity of UFC greatness",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/jon-jones-rips-islam-makhachev-discrediting-ufc-legacy-winning-streak/91771426007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T13:40:29Z"
+    },
+    {
+      "boxerName": "Daniel Cormier",
+      "headline": "UFC 331 broadcast team set: Lead trio with Joe Rogan calls return to L.A.",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/15/ufc-331-broadcast-team-joe-rogan-jon-anik-daniel-cormier-commentary/91741167007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-15T12:50:29Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "Brian Ortega is out, but what does it mean for UFC 331? The big changes explained",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/brian-ortega-is-out-but-what-does-it-mean-for-ufc-331-the-big-changes-explained/articleshow/134261810.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T12:15:10Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "“Your life seems tied to breaking rules”: Islam Makhachev fires back at Jon Jones after doping dispute over 20-fight UFC win streak",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/your-life-seems-tied-to-breaking-rules-islam-makhachev-fires-back-at-jon-jones-after-doping-dispute-over-20-fight-ufc-win-streak/articleshow/134260908.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T11:40:22Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Who is Alexandre Pantoja? Meet “The Cannibal” challenging Joshua Van for UFC flyweight gold at UFC 331",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/who-is-alexandre-pantoja-meet-the-cannibal-challenging-joshua-van-for-ufc-flyweight-gold-at-ufc-331/articleshow/134259531.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T10:50:41Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Joshua Van net worth 2026: Inside the UFC flyweight champion’s career, earnings, lifestyle, endorsements and more",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/joshua-van-net-worth-2026-inside-the-ufc-flyweight-champions-career-earnings-lifestyle-endorsements-and-more/articleshow/134259339.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T10:46:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "“It’s a shame”: Why did Michael Page feel disrespected at the end of his UFC journey despite a 5-1 record?",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/its-a-shame-why-did-michael-page-feel-disrespected-at-the-end-of-his-ufc-journey-despite-a-5-1-record/articleshow/134258916.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T10:37:31Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "Why was Brian Ortega forced out of UFC 331 just days before his long-awaited Los Angeles fight?",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/why-was-brian-ortega-forced-out-of-ufc-331-just-days-before-his-long-awaited-los-angeles-fight/articleshow/134258707.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-15T10:28:37Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "‘This One Hurts’",
+      "url": "https://www.mmamania.com/latest-news/472451/brian-ortega-reacts-to-last-second-ufc-331-pullout-this-one-hurts",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-15T07:00:00Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 gives Pantoja a shot at redemption ater 26-second injury loss",
+      "url": "https://www.sherdog.com/videos/sherdogradio/UFC-331-gives-Pantoja-a-shot-at-redemption-ater-26second-injury-loss-23765",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-15T04:45:05Z"
+    },
+    {
+      "boxerName": "Josh Hokit",
+      "headline": "Tom Aspinall's UFC exit opens door for Josh Hokit's bold title demand",
+      "url": "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-exit-opens-door-for-Josh-Hokits-bold-title-demand-202803",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-15T04:35:33Z"
+    },
+    {
+      "boxerName": "Renato Moicano",
+      "headline": "Brian Ortega out of UFC 331; Renato Moicano gets new opponent",
+      "url": "https://www.sherdog.com/news/news/Brian-Ortega-out-of-UFC-331-Renato-Moicano-gets-new-opponent-202802",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-15T04:20:43Z"
+    },
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "Tom Aspinall vs. Ciryl Gane 2 Was Set for UFC 334 Before Another Right Eye Injury Derailed Plans",
+      "url": "https://sports.yahoo.com/articles/tom-aspinall-vs-ciryl-gane-040313545.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-15T04:03:13Z"
+    },
     {
       "boxerName": "Josh Hokit",
       "headline": "“I’ll Be the Most Active Champ” – Josh Hokit Calls for Ciryl Gane Title Fight After Tom Aspinall Vacates Belt",
@@ -6461,321 +6664,6 @@
       "url": "https://www.mmamania.com/ufc-strikeforce-posters/465677/pic-ufc-331-poster-drops-for-van-vs-pantoja-2-on-sept-19",
       "source": "MMA Mania",
       "publishedAt": "2026-08-18T00:45:00Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power' - MMA Junkie",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185028260",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-18T00:12:40Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev climbs the GOAT rankings after UFC 330",
-      "url": "https://www.thebiglead.com/islam-makhachev-climbs-goat-rankings-after-ufc-330/",
-      "source": "The Big Lead",
-      "publishedAt": "2026-08-17T23:55:02Z"
-    },
-    {
-      "boxerName": "Mackenzie Dern",
-      "headline": "Fake?!?!? UFC 330 winner Mackenzie Dern doesn’t need to defeat Weili Zhang to ‘solidify’ herself as champion",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/465659/fake-ufc-330-winner-mackenzie-dern-doesnt-need-to-defeat-weili-zhang-to-solidify-herself-as-champion",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T23:41:22Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Arman Tsarukyan: UFC's Hunter Campbell guaranteed title shot after Mauricio Ruffy fight at UFC 331",
-      "url": "https://sports.yahoo.com/mma/article/arman-tsarukyan-ufcs-hunter-campbell-guaranteed-title-shot-after-mauricio-ruffy-fight-at-ufc-331-231853372.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-17T23:18:53Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "On To the Next One: What’s next for Islam Makhachev, Ian Machado Garry after UFC 330?",
-      "url": "https://www.mmafighting.com/ufc/505385/on-to-the-next-one-whats-next-for-islam-makhachev-ian-machado-garry-after-ufc-330",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-17T23:00:00Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Arman Tsarukyan questions why he's not fighting Charles Oliveira at UFC 331",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-331-arman-tsarukyan-believes-charles-oliveira-avoided-fight/91328920007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T22:50:26Z"
-    },
-    {
-      "boxerName": "Cris Cyborg",
-      "headline": "PFL Tampa: Make predictions for Cris Cyborg vs. Ketlen Vieira",
-      "url": "https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/17/pfl-tampa-cris-cyborg-vs-ketlen-vieira-reader-predictions-picks/91343461007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T22:00:59Z"
-    },
-    {
-      "boxerName": "Raul Rosas Jr.",
-      "headline": "Raul Rosas Jr. vs. Raoni Barcelos headlines UFC Vegas 121 on Sept. 26",
-      "url": "https://www.mmamania.com/ufc-fight-announcements/465654/raul-rosas-jr-vs-raoni-barcelos-headlines-ufc-vegas-121-on-sept-26",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T22:00:00Z"
-    },
-    {
-      "boxerName": "Mackenzie Dern",
-      "headline": "Mackenzie Dern rips her own UFC 330 title win: 'I would not want to fight Zhang Weili feeling the way I felt'",
-      "url": "https://sports.yahoo.com/mma/article/mackenzie-dern-rips-her-own-ufc-330-title-win-i-would-not-want-to-fight-zhang-weili-feeling-the-way-i-felt-212942101.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-17T21:29:42Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/joe-rogan-concerned-islam-makhachev-welterweight-after-ufc-330/91336372007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T21:10:18Z"
-    },
-    {
-      "boxerName": "Joshua Van",
-      "headline": "UFC 331 Main Card Set With Van Vs. Pantoja 2 Main Event",
-      "url": "https://www.forbes.com/sites/trentreinsmith/2026/08/17/ufc-331-main-card-set-with-van-vs-pantoja-2-main-event/",
-      "source": "Forbes",
-      "publishedAt": "2026-08-17T21:02:48Z"
-    },
-    {
-      "boxerName": "Henry Cejudo",
-      "headline": "Finalized RAF 12 card, start time, date and location | Merab vs. Cejudo 2",
-      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/465626/finalized-raf-12-card-start-time-date-and-location-merab-vs-cejudo-2",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T21:00:00Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Evil Arman claims Charles Oliveira used teammate’s death to duck UFC 331 rematch — ‘He was just finding an excuse’",
-      "url": "https://www.mmamania.com/ufc-news/465643/evil-arman-claims-charles-oliveira-used-teammates-death-duck-ufc-331-rematch-just-finding-excuse",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T20:02:33Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Joe Rogan has one major concern about Islam Makhachev after watching his record-setting UFC 330 win - Bloody Elbow",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185024204",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-17T19:32:50Z"
-    },
-    {
-      "boxerName": "Gillian Robertson",
-      "headline": "Din Thomas apologizes for 'despicable' UFC 330 remarks after Gillian Robertson's loss: 'I'm ashamed'",
-      "url": "https://sports.yahoo.com/mma/article/din-thomas-apologizes-for-despicable-ufc-330-remarks-after-gillian-robertsons-loss-im-ashamed-190525166.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-17T19:05:25Z"
-    },
-    {
-      "boxerName": "Jordan Burroughs",
-      "headline": "Olympic gold medalist praises Real American Freestyle for 'opportunity' ahead of highly anticipated debut",
-      "url": "https://www.foxnews.com/media/olympic-gold-medalist-praises-raf-opportunity-ahead-highly-anticipated-debut",
-      "source": "Fox News",
-      "publishedAt": "2026-08-17T18:51:13Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "MMA pound-for-pound rankings (August 2026): Can anyone beat Islam Makhachev?",
-      "url": "https://sports.yahoo.com/mma/article/mma-pound-for-pound-rankings-august-2026-can-anyone-beat-islam-makhachev-ufc-330-mackenzie-dern-184655052.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-17T18:46:55Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Max Holloway questions Islam Makhachev walking around with 2 belts, Makhachev responds",
-      "url": "https://www.mmafighting.com/ufc/505465/max-holloway-questions-islam-makhachev-walking-around-with-2-belts",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-17T18:01:18Z"
-    },
-    {
-      "boxerName": "Gillian Robertson",
-      "headline": "Coach apologizes to Gillian Robertson for ‘despicable’ decision at UFC 330",
-      "url": "https://www.mmafighting.com/ufc/505572/din-thomas-apologizes-to-gillian-robertson-for-his-despicable-decision-to-retire-at-ufc-330",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-17T18:00:00Z"
-    },
-    {
-      "boxerName": "Gillian Robertson",
-      "headline": "Din Thomas apologizes to Gillian Robertson for 'irresponsible' retirement announcement after UFC 330 loss",
-      "url": "https://www.cbssports.com/ufc/news/din-thomas-apologizes-gillian-robertson-retirement-announcement-ufc-330/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-08-17T17:34:37Z"
-    },
-    {
-      "boxerName": "Mackenzie Dern",
-      "headline": "‘Embarrassed’ Din Thomas apologizes for ‘despicable’ hatchet job at UFC 330 — ‘Gillian, I love you’",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/465609/embarrassed-din-thomas-apologizes-despicable-hatchet-job-ufc-330-gillian-i-love-you",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T17:33:14Z"
-    },
-    {
-      "boxerName": "Gillian Robertson",
-      "headline": "Din Thomas apologizes to Gillian Robertson for 'despicable' UFC 330 retirement",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-330-din-thomas-apology-gillian-robertson-controversial-retirement/91338422007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T17:11:36Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Daniel Cormier: Islam Makhachev was tired, pushed like never before at UFC 330",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-330-daniel-cormier-opinion-islam-makhachev-pushed-like-never-before-by-ian-machado-garry/91334723007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T17:00:29Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Max Holloway not a fan of Islam’s two-belt flex at UFC 330 (but everyone is doing it)",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/465601/max-holloway-not-fan-islams-two-belt-flex-ufc-330-but-everyone-doing-it",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T16:25:38Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Spinning Back Clique: Islam Makhachev, Mackenzie Dern defend UFC belts",
-      "url": "https://mmajunkie.usatoday.com/story/sports/mma/spinning-back-clique/2026/08/17/spinning-back-clique-islam-makhachev-mackenzie-dern-defend-ufc-belts/91333032007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T15:20:19Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Ian Machado Garry releases statement following UFC 330 loss to Islam Makhachev - MMA Fighting",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185020164",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-17T14:52:37Z"
-    },
-    {
-      "boxerName": "Daniel Cormier",
-      "headline": "Daniel Cormier: Mackenzie Dern looked explosive, striking improved at UFC 330",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-330-daniel-cormier-opinion-mackenzie-dern-dominated-everywhere-strawweight-title-robertson/91335207007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T14:30:39Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam’s next fight? Opening odds set for UFC title defenses against Carlos Prates, Michael Morales",
-      "url": "https://www.mmamania.com/ufc-odds/465551/islams-next-fight-opening-odds-ufc-title-defenses-carlos-prates-michael-morales",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T14:09:37Z"
-    },
-    {
-      "boxerName": "Michael Morales (fighter)",
-      "headline": "Ian Machado Garry confronts Michael Morales about 'sh*t talk'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ian-machado-garry-confronts-michael-morales-backstage-at-ufc-330/91333498007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T13:40:29Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "NFL preseason Week 1 winners & losers; Islam Makhachev holds UFC win streak record",
-      "url": "https://www.cbssports.com/nfl/news/nfl-preseason-week-1-winners-losers-islam-makhachev-holds-ufc-win-streak-record/",
-      "source": "CBS Sports",
-      "publishedAt": "2026-08-17T12:49:24Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Dan Hardy on Islam Makhachev’s welterweight future: ‘His game has to change’",
-      "url": "https://www.mmamania.com/ufc-news/465507/dan-hardy-on-islam-makhachevs-welterweight-future-his-game-has-to-change",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T12:17:51Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Throwback: Islam Makhachev once failed a drug test; so why was he never suspended from UFC?",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/throwback-islam-makhachev-once-failed-a-drug-test-so-why-was-he-never-suspended-from-ufc/articleshow/133294733.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-17T12:05:59Z"
-    },
-    {
-      "boxerName": "Movsar Evloev",
-      "headline": "UFC 333: Alexander Volkanovski vs. Movsar Evloev odds, what to know",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-333-alexander-volkanovski-vs-movsar-evloev-odds-what-to-know/91333855007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-17T12:01:08Z"
-    },
-    {
-      "boxerName": "Mackenzie Dern",
-      "headline": "Din Thomas flamed for turning his back on Gillian Robertson after her UFC 330 loss: ‘Stand behind your fighter’",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/465498/din-thomas-flamed-for-turning-his-back-on-gillian-robertson-after-her-ufc-330-loss-stand-behind-your-fighter",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-17T11:07:52Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Did Ian Machado Garry try to outsmart Islam Makhachev? Dan Hardy raises eyebrows over his UFC 330 approach",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/did-ian-machado-garry-try-to-outsmart-islam-makhachev-dan-hardy-raises-eyebrows-over-his-ufc-330-approach/articleshow/133294623.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-17T10:59:28Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC 330 chaos continues as Islam Makhachev, Carlos Prates and Justin Gaethje’s teams get stranded at same airport in hilarious twist",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/ufc-330-chaos-continues-as-islam-makhachev-carlos-prates-and-justin-gaethjes-teams-get-stranded-at-same-airport-in-hilarious-twist/articleshow/133293916.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-17T10:35:55Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Max Holloway slams Islam Makhachev’s two-belt celebration after welterweight title defence against Ian Machado Garry at UFC 330",
-      "url": "https://timesofindia.indiatimes.com/sports/mma/news/max-holloway-slams-islam-makhachevs-two-belt-celebration-after-successful-welterweight-title-defence-against-ian-machado-garry-at-ufc-330/articleshow/133292131.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-17T09:16:47Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "Daniel Cormier tells Usman Nurmagomedov it's ‘time for legacy’",
-      "url": "https://www.sherdog.com/news/news/Daniel-Cormier-tells-Usman-Nurmagomedov-its-time-for-legacy-202396",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T07:25:44Z"
-    },
-    {
-      "boxerName": "Cris Cyborg",
-      "headline": "Cris Cyborg opens up about what motivates her ahead of final MMA bout",
-      "url": "https://www.sherdog.com/news/news/Cris-Cyborg-opens-up-about-what-motivates-her-ahead-of-final-MMA-bout-202395",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T07:10:18Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC 333, Islam Makhachev’s next title defense odds revealed",
-      "url": "https://www.sherdog.com/news/news/UFC-333-Islam-Makhachevs-next-title-defense-odds-revealed-202393",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T06:39:10Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Dana White Reacts to Islam Makhachev’s UFC Win Streak Record",
-      "url": "https://heavy.com/sports/ufc/dana-white-reacts-islam-makhahev-record/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-17T06:37:59Z"
-    },
-    {
-      "boxerName": "Mackenzie Dern",
-      "headline": "Mackenzie Dern names three potential opponents following UFC 330 win",
-      "url": "https://www.sherdog.com/news/news/Mackenzie-Dern-names-three-potential-opponents-following-UFC-330-win-202391",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T05:02:15Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Ian Machado Garry releases statement following UFC 330 loss to Islam Makhachev",
-      "url": "https://sports.yahoo.com/articles/ian-machado-garry-releases-statement-045519365.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-17T04:55:19Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Ian Machado Garry sends defiant message after Islam Makhachev defeat",
-      "url": "https://www.sherdog.com/news/news/Ian-Machado-Garry-sends-defiant-message-after-Islam-Makhachev-defeat-202389",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T04:38:04Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev breaks down Ian Garry’s tricky UFC 330 strategy",
-      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-breaks-down-Ian-Garrys-tricky-UFC-330-strategy-202388",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-17T04:25:15Z"
     }
   ]
 }
