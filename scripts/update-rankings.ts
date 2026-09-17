@@ -8,6 +8,7 @@ import { SPORT_KEYS } from '../lib/types'
 const BATCH_SIZE = 50
 const BATCH_DELAY = 100
 const MIN_LOSSES_FOR_WORST = 10
+const MMA_MAX_WINS = 92
 
 // Map category sports to related parser sports when the infobox uses generic params.
 // Kickboxing is NOT aliased into sanshou/sanda anymore: sanshou/sanda rankings now rely
@@ -334,7 +335,7 @@ async function main() {
   }
 
   // Thirdary ranking: score = wins / max(losses, 1). Undefeated = wins.
-  // 384-wins cap applies to boxing only; other sports effectively uncapped. Tiebreaker: most KOs.
+  // 92-wins cap applies to MMA; boxing sport uses 384. Tiebreaker: most KOs.
   // 50 non-seniors + all seniors above 50th non-senior
   const now = new Date()
 
@@ -347,7 +348,7 @@ async function main() {
 
   const allThirdary: BoxerRecord[] = []
   for (const [name, record] of mmaRecords) {
-    if (record.wins === 0) continue
+    if (record.wins === 0 || (record.wins ?? 0) > MMA_MAX_WINS) continue
 
     const wins = record.wins!
     const losses = record.losses ?? 0
