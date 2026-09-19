@@ -1,6 +1,405 @@
 {
-  "lastUpdated": "2026-09-18T00:42:07.017Z",
+  "lastUpdated": "2026-09-19T00:43:49.605Z",
   "fights": [
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Gable Steveson reveals pact should Jon Jones' UFC comeback materialize",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/ufc-331-gable-steveson-vs-jon-jones-pact/91816703007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T23:34:53Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev rips judges, calls for UFC title shot in return fight",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/khamzat-chimaev-rips-judges-calls-for-ufc-title-shot-in-return-fight/91816393007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T23:03:36Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Video: 'UFC 331: Van vs. Pantoja 2' pre-fight press conference live stream",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/video-ufc-331-van-pantoja-pre-fight-press-conference-live-stream/91803473007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T23:00:48Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Houston's Joshua Van having fun, vows to 'whoop' Alexandre Pantoja in UFC 331 flyweight title fight",
+      "url": "https://www.houstonchronicle.com/sports/article/ufc-331-joshua-van-pantoja-trash-talk-22424172.php?utm_medium=referral&amp;utm_campaign=yahoo_syndication",
+      "source": "Houston Chronicle",
+      "publishedAt": "2026-09-17T22:14:08Z"
+    },
+    {
+      "boxerName": "Luke Rockhold",
+      "headline": "Luke Rockhold names 'only two people' he'd fight in MMA",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/luke-rockhold-mma-future-only-two-fights-mike-perry-dillon-danis/91806693007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T21:10:22Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev accidentally leaks next fight against Colby Covington",
+      "url": "https://sports.yahoo.com/articles/khamzat-chimaev-accidentally-leaks-next-205756187.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T20:57:56Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Gable Steveson teases Jon Jones’ return at UFC 331 media day",
+      "url": "https://www.thebiglead.com/gable-steveson-teases-jon-jones-return-at-ufc-331-media-day/",
+      "source": "The Big Lead",
+      "publishedAt": "2026-09-17T20:54:35Z"
+    },
+    {
+      "boxerName": "Islam Makhachev",
+      "headline": "Luke Rockhold picks between Jon Jones and Islam Makhachev for MMA GOAT",
+      "url": "https://sports.yahoo.com/articles/luke-rockhold-picks-between-jon-203000384.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T20:30:00Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 press conference live stream: Watch Van, Pantoja & more",
+      "url": "https://www.sherdog.com/videos/misc.video/UFC-331-press-conference-live-stream-Watch-Van-Pantoja-more-23769",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T20:13:39Z"
+    },
+    {
+      "boxerName": "John Phillips (fighter)",
+      "headline": "Mackenzie Phillips makes new claims about father's alleged abuse",
+      "url": "https://www.foxnews.com/entertainment/mackenzie-phillips-makes-new-claims-father-alleged-abuse",
+      "source": "Fox News",
+      "publishedAt": "2026-09-17T20:07:24Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 press conference video, LIVE stream updates | Van vs. Pantoja 2",
+      "url": "https://www.mmamania.com/ufc-press-conference-video/472827/ufc-331-press-conference-video-live-stream-updates-van-vs-pantoja-2-mma",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-17T20:02:31Z"
+    },
+    {
+      "boxerName": "Arman Tsarukyan",
+      "headline": "UFC 331: Arman Tsarukyan returns to the site of his squandered title shot in hopes of earning another",
+      "url": "https://www.cbssports.com/ufc/news/ufc-331-arman-tsarukyan-title-shot-mauricio-ruffy-justin-gaethje/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-09-17T19:45:30Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "headline": "Cris Cyborg uncertain of next move, but pretty sure it's not UFC",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/09/17/ufc-pfl-cris-cyborg-not-certain-next-move-retirement-boxing-scott-coker-new-promotion-ki-mma/91792819007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T19:30:31Z"
+    },
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "Who is Tom Aspinall’s wife? Inside the private family life of the British MMA star",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/who-is-tom-aspinalls-wife-inside-the-private-family-life-of-the-british-mma-star/articleshow/134320668.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-17T19:24:53Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Will UFC 331 offer more proof that the lighter weight classes are no place for aging ex-champs? Mailbag",
+      "url": "https://sports.yahoo.com/mma/article/will-ufc-331-offer-more-proof-that-the-lighter-weight-classes-are-no-place-for-aging-ex-champs-mailbag-184307333.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T18:43:07Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 -- Joshua Van vs. Alexandre Pantoja: Fight card, date, odds, location and more for Los Angeles",
+      "url": "https://www.cbssports.com/ufc/news/ufc-331-fight-card-date-odds-joshua-van-alexandre-pantoja/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-09-17T18:25:42Z"
+    },
+    {
+      "boxerName": "Gable Steveson",
+      "headline": "Chael Sonnen: UFC heavyweights are 'bunch of wimps' for not calling out Gable Steveson",
+      "url": "https://sports.yahoo.com/mma/article/chael-sonnen-ufc-heavyweights-are-bunch-of-wimps-for-not-calling-out-gable-steveson-174739023.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T17:47:39Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Justin Gaethje Fires Back at Ilia Topuria Over White House Cheating Accusations",
+      "url": "https://biztoc.com/x/9e467e7b6174671d",
+      "source": "Biztoc.com",
+      "publishedAt": "2026-09-17T17:09:34Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Gilbert Burns admits Khamzat will be ‘better wrestler’ at RAF 13, but questions ‘heart and cardio’",
+      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/472821/gilbert-burns-khamzat-better-wrestler-raf-13-questions-heart-the-cardio",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-17T17:09:24Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 predictions, odds, best bets: Joshua Van and total rounds prop among top picks to consider",
+      "url": "https://www.cbssports.com/ufc/news/ufc-331-predictions-odds-best-bets-joshua-van-alexandre-pantoja-arman-tsarukyan/",
+      "source": "CBS Sports",
+      "publishedAt": "2026-09-17T17:00:55Z"
+    },
+    {
+      "boxerName": "Arman Tsarukyan",
+      "headline": "Arman Tsarukyan's teammate sees 'one thing' that could cause trouble at UFC 331",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/ufc-331-arman-tsarukyan-teammate-grant-dawson-danger-mauricio-ruffy/91803284007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T15:20:26Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Gilbert Burns says he can break Khamzat Chimaev at RAF 13: 'He hates to get tired'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/mma/2026/09/17/gilbert-burns-thinks-can-break-khamzat-chimaev-raf-13-rematch/91802483007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T14:30:27Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Ilia Topuria Accuses Justin Gaethje of Cheating at UFC White House Fight, Provides Injury Update - Bleacher Report",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185679958",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-17T13:52:35Z"
+    },
+    {
+      "boxerName": "Arman Tsarukyan",
+      "headline": "Mauricio Ruffy: UFC 331 prep for Arman Tsarukyan 'made me a different person'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/ufc-331-mauricio-ruffy-training-different-person-for-arman-tsarukyan/91802664007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T13:40:30Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "'Do better kid' - Gaethje rejects Topuria's cheat claim",
+      "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cxvgyvqel2yeo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "source": "BBC News",
+      "publishedAt": "2026-09-17T12:28:47Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "'Do better kid' - Gaethje rejects Topuria's cheat claim",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cxvgyvqel2yeo",
+      "source": "BBC News",
+      "publishedAt": "2026-09-17T12:28:43Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Ilia Topuria stays on the attack with Justin Gaethje and manager: ‘F—k you still stands’",
+      "url": "https://www.mmamania.com/ufc-news/472797/ilia-topuria-stays-on-the-attack-with-justin-gaethje-and-manager-f-k-you-still-stands",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-17T12:15:59Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "UFC news: Ilia Topuria announces comeback after recent injury scare",
+      "url": "https://clutchpoints.com/ufc/ufc-news-ilia-topuria-announces-comeback-recent-injury-scare",
+      "source": "ClutchPoints",
+      "publishedAt": "2026-09-17T12:10:15Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Justin Gaethje changes tune on Ilia Topuria rematch after glove claims",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/17/ufc-justin-gaethje-changes-tune-ilia-topuria-rematch-glove-accusation/91804986007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T12:03:49Z"
+    },
+    {
+      "boxerName": "Muhammad Mokaev",
+      "headline": "Muhammad Mokaev upset with UFC offer: ‘They wasted two years of my life’",
+      "url": "https://www.mmamania.com/ufc-news/472789/muhammad-mokaev-upset-with-ufc-offer-they-wasted-two-years-of-my-life",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-17T11:50:32Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Who are Ilia Topuria’s children? Exploring El Matador’s family life, his divorce battle with ex-wife Giorgina Uzcategui and more",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/who-are-ilia-topurias-children-exploring-el-matadors-family-life-his-divorce-battle-with-ex-wife-giorgina-uzcategui-and-more/articleshow/134309113.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-17T10:41:23Z"
+    },
+    {
+      "boxerName": "Khabib Nurmagomedov",
+      "headline": "‘GOAT MMA bout’: Arman Tsarukyan names Khabib Nurmagomedov vs Georges St-Pierre as his dream UFC comeback fight",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/goat-mma-bout-arman-tsarukyan-names-khabib-nurmagomedov-vs-georges-st-pierre-as-his-dream-ufc-comeback-fight/articleshow/134307724.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-17T09:45:32Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "“Done that to everybody’s face”: Justin Gaethje ready for rematch against Ilia Topuria following his “something weird in gloves” accusation on UFC lightweight champion",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/done-that-to-everybodys-face-justin-gaethje-ready-for-rematch-against-ilia-topuria-following-his-something-weird-in-gloves-accusation-on-ufc-lightweight-champion/articleshow/134307027.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-17T09:09:01Z"
+    },
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "‘Same Circus, Different Belt’",
+      "url": "https://www.mmamania.com/latest-news/472782/salty-alex-pereira-reacts-to-ciryl-ganes-new-undisputed-ufc-title-same-circus-different-belt",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-17T07:00:00Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "Alexandre Pantoja fully healed, ready to reclaim UFC title from Joshua Van",
+      "url": "https://www.sherdog.com/news/news/Alexandre-Pantoja-fully-healed-ready-to-reclaim-UFC-title-from-Joshua-Van-202843",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T06:42:10Z"
+    },
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "Alex Pereira trolls Ciryl Gane with ‘champion’ jab following Tom Aspinall exit",
+      "url": "https://www.sherdog.com/news/news/Alex-Pereira-trolls-Ciryl-Gane-with-champion-jab-following-Tom-Aspinall-exit-202842",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T06:28:29Z"
+    },
+    {
+      "boxerName": "Aljamain Sterling",
+      "headline": "Aljamain Sterling wants Jean Silva fight to decide UFC No. 1 contender",
+      "url": "https://www.sherdog.com/news/news/Aljamain-Sterling-wants-Jean-Silva-fight-to-decide-UFC-No-1-contender-202840",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T05:56:43Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Ilia Topuria’s brother reportedly set for UFC return in November",
+      "url": "https://www.sherdog.com/news/news/Ilia-Topurias-brother-reportedly-set-for-UFC-return-in-November-202839",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T05:41:45Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331: Joshua Van vs. Alexandre Pantoja 2 Betting Odds",
+      "url": "https://heavy.com/sports/ufc/ufc-331-van-pantoja-betting-odds/",
+      "source": "Heavy.com",
+      "publishedAt": "2026-09-17T05:28:56Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Ilia Topuria cleared for UFC return, takes shot at Justin Gaethje",
+      "url": "https://www.sherdog.com/news/news/Ilia-Topuria-cleared-for-UFC-return-takes-shot-at-Justin-Gaethje-202838",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T04:53:47Z"
+    },
+    {
+      "boxerName": "Robelis Despaigne",
+      "headline": "Robelis Despaigne says UFC exit fixed the hole in his heavyweight game",
+      "url": "https://www.sherdog.com/news/news/Robelis-Despaigne-says-UFC-exit-fixed-the-hole-in-his-heavyweight-game-202837",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T04:26:55Z"
+    },
+    {
+      "boxerName": "Kamaru Usman",
+      "headline": "Tyron Woodley details ‘rock bottom’ after losing UFC title to Kamaru Usman",
+      "url": "https://www.sherdog.com/news/news/Tyron-Woodley-details-rock-bottom-after-losing-UFC-title-to-Kamaru-Usman-202835",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T04:06:25Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Gable Steveson: Vacant UFC belt could put 'fire' back in Jon Jones",
+      "url": "https://www.sherdog.com/news/news/Gable-Steveson-Vacant-UFC-belt-could-put-fire-back-in-Jon-Jones-202834",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T03:54:40Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Gilbert Burns says ‘yes-men’ could stand between Khamzat Chimaev & UFC gold",
+      "url": "https://www.sherdog.com/news/news/Gilbert-Burns-says-yesmen-could-stand-between-Khamzat-Chimaev-UFC-gold-202833",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T03:39:46Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "headline": "Khamzat Chimaev can become a three-division UFC champion, claims Gilbert Burns",
+      "url": "https://sports.yahoo.com/articles/khamzat-chimaev-become-three-division-031500357.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T03:15:00Z"
+    },
+    {
+      "boxerName": "Muhammad Mokaev",
+      "headline": "Muhammad Mokaev reveals why he turned down recent UFC title opportunity",
+      "url": "https://www.sherdog.com/news/news/Muhammad-Mokaev-reveals-why-he-turned-down-recent-UFC-title-opportunity-202831",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T03:09:12Z"
+    },
+    {
+      "boxerName": "Gable Steveson",
+      "headline": "Gable Steveson: Sean Sharaf 'a coward' for going personal before UFC 331",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/16/ufc-331-gable-steveson-sean-sharaf-coward-personal-comments-controversy/91802341007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T03:00:21Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Arman Tsarukyan rips Ilia Topuria’s Justin Gaethje glove claim: ‘Just excuses’",
+      "url": "https://www.sherdog.com/news/news/Arman-Tsarukyan-rips-Ilia-Topurias-Justin-Gaethje-glove-claim-Just-excuses-202830",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T02:48:46Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 betting picks: 5 best bets for Van vs. Pantoja 2",
+      "url": "https://www.sherdog.com/videos/sherdogradio/UFC-331-betting-picks-5-best-bets-for-Van-vs-Pantoja-2-23768",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T02:46:15Z"
+    },
+    {
+      "boxerName": "Tito Ortiz",
+      "headline": "Tito Ortiz wants to make peace with Dana White: 'I messed up'",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/16/ufc-tito-ortiz-wants-peace-with-dana-white-messed-up/91797400007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T02:10:30Z"
+    },
+    {
+      "boxerName": "Jon Jones",
+      "headline": "Gable Steveson teases Jon Jones UFC return",
+      "url": "https://sports.yahoo.com/articles/gable-steveson-teases-jon-jones-020000811.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T02:00:00Z"
+    },
+    {
+      "boxerName": "Michael Page",
+      "headline": "Marketing Executive - JN-092026-7094584 | Michael Page",
+      "url": "https://www.michaelpage.co.uk/job-detail/marketing-executive/ref/jn-092026-7094584",
+      "source": "Michaelpage.co.uk",
+      "publishedAt": "2026-09-17T01:50:00Z"
+    },
+    {
+      "boxerName": "Ciryl Gane",
+      "headline": "Alex Pereira Takes Dig at Ciryl Gane Ahead of Potential UFC Heavyweight Title Upgrade",
+      "url": "https://sports.yahoo.com/articles/alex-pereira-takes-dig-ciryl-013405607.html",
+      "source": "Yahoo Entertainment",
+      "publishedAt": "2026-09-17T01:34:05Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "‘I’m back’: Ilia Topuria reveals he’s been cleared to return to action after brutal UFC White House loss; Justin Gaethje responds - MMA",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185675254",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-17T01:32:36Z"
+    },
+    {
+      "boxerName": "Gable Steveson",
+      "headline": "Sean Sharaf 'not impressed' by Gable Steveson heading into UFC 331",
+      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/16/ufc-331-sean-sharaf-not-impressed-gable-steveson-hype/91795518007/",
+      "source": "USA Today",
+      "publishedAt": "2026-09-17T01:20:29Z"
+    },
+    {
+      "boxerName": "Joshua Van",
+      "headline": "UFC 331 preview: Van vs. Pantoja 2 picks & predictions",
+      "url": "https://www.sherdog.com/news/articles/1/UFC-331-preview-Van-vs-Pantoja-2-picks-predictions-202821",
+      "source": "Sherdog.com",
+      "publishedAt": "2026-09-17T00:57:12Z"
+    },
+    {
+      "boxerName": "Ilia Topuria",
+      "headline": "Ilia Topuria cleared to return, accuses Justin Gaethje of 'weird' glove manipulation - MMA Junkie",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185675022",
+      "source": "Slashdot.org",
+      "publishedAt": "2026-09-17T00:52:25Z"
+    },
     {
       "boxerName": "Joshua Van",
       "headline": "‘I’m his dad!’ Joshua Van vows Alexandre Pantoja should ‘get smacked’ ahead of UFC 331",
@@ -6482,265 +6881,6 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185060120",
       "source": "Slashdot.org",
       "publishedAt": "2026-08-20T00:52:08Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev Is a Top-5 UFC GOAT, Says Henry Cejudo",
-      "url": "https://heavy.com/sports/ufc/islam-makhachev-top-5-ufc-goat/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-20T00:38:51Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-michael-chiesa-goat-list-islam-makhachev-over-georges-st-pierre/91369239007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-20T00:30:20Z"
-    },
-    {
-      "boxerName": "Michael Page",
-      "headline": "Michael Page wrestles Alexander Shlemenko in debut at RAF 14",
-      "url": "https://www.mmafighting.com/raf-wrestling/505993/michael-page-wrestles-alexander-shlemenko-in-debut-at-raf-14",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-20T00:00:00Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Carlos Prates disses Islam Makhachev's fighting style as he eyes UFC title shot",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/carlos-prates-critical-islam-makhachev-ufc-330-win/91370157007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-19T23:40:25Z"
-    },
-    {
-      "boxerName": "Josh Hokit",
-      "headline": "Josh Hokit Has 2 Suggestions For His Next UFC Fight",
-      "url": "https://heavy.com/sports/ufc/josh-hokit-2-suggestions-next-fight/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-19T23:20:14Z"
-    },
-    {
-      "boxerName": "Ilia Topuria",
-      "headline": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent",
-      "url": "https://www.mmafighting.com/ufc/505974/arman-tsarukyan-picks-surprising-name-for-ilia-topurias-next-opponent",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-19T23:00:00Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "PFL CEO calls out UFC's Usman Nurmagomedov 'bulls***', addresses 'misinformation' about his contract status",
-      "url": "https://sports.yahoo.com/mma/article/pfl-ceo-calls-out-ufcs-usman-nurmagomedov-bull-addresses-misinformation-about-his-contract-status-213415651.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-19T21:34:15Z"
-    },
-    {
-      "boxerName": "Usman Nurmagomedov",
-      "headline": "PFL CEO calls out UFC's Usman Nurmagomedov 'bulls***', addresses 'misinformation' about his contract status",
-      "url": "https://sports.yahoo.com/mma/article/pfl-ceo-calls-out-ufcs-usman-nurmagomedov-bulls-addresses-misinformation-about-his-contract-status-213415651.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-19T21:34:15Z"
-    },
-    {
-      "boxerName": "Henry Cejudo",
-      "headline": "Henry Cejudo returns to fighting, for some reason, boxes Dean the Great at Misfits card in Miami",
-      "url": "https://www.mmamania.com/boxing/465943/henry-cejudo-returns-fighting-boxes-dean-the-great-misfits-miami",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-19T21:30:00Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
-      "url": "https://heavy.com/sports/ufc/michael-bisping-criticizes-ian-machado-garry/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-19T20:45:01Z"
-    },
-    {
-      "boxerName": "Tyron Woodley",
-      "headline": "Tyron Woodley stands by Din Thomas, reveals plans to return to MMA and make one ‘last run’ in his career - MMA Fighting",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185056930",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-19T20:32:15Z"
-    },
-    {
-      "boxerName": "Henry Cejudo",
-      "headline": "Henry Cejudo set for boxing debut against influencer",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-henry-cejudo-boxing-vs-deen-the-great-misfits/91375316007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-19T20:10:29Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Joe Rogan Urges Islam Makhachev to Relinquish UFC Welterweight Title",
-      "url": "https://biztoc.com/x/16a61e7a3eb6df5b",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-19T18:50:29Z"
-    },
-    {
-      "boxerName": "Jon Jones",
-      "headline": "Jon Jones takes shot at Daniel Cormier amid GOAT debate: ‘Your jealousy runs so deep through your blood’",
-      "url": "https://www.mmafighting.com/ufc/505899/jon-jones-takes-shot-at-daniel-cormier-amid-goat-debate-your-jealousy-runs-so-deep-through-your-blood",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-19T18:00:00Z"
-    },
-    {
-      "boxerName": "Jon Jones",
-      "headline": "Jon Jones rips Daniel Cormier for showing 'envy' toward him",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-jon-jones-daniel-cormier-envy/91366275007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-19T17:50:22Z"
-    },
-    {
-      "boxerName": "Cris Cyborg",
-      "headline": "Cris Cyborg undecided on retirement, weighs ‘interesting’ options as free agency looms",
-      "url": "https://www.mmafighting.com/pfl/505544/cris-cyborg-undecided-on-retirement-weighs-interesting-options-as-free-agency-looms",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-19T17:00:00Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Dana White responds to Khamzat’s UFC demands — and ‘Borz’ fans are not gonna like the answer",
-      "url": "https://www.mmamania.com/ufc-news/465927/dana-white-responds-khamzat-ufc-demands-borz-fans-not-gonna-like-answer",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-19T16:38:11Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "UFC Hall of Famer: Ian Machado Garry's friendliness 'a sign of weakness'",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-330-michael-bisping-criticizes-ian-machado-garry-weakness/91366391007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-19T15:20:27Z"
-    },
-    {
-      "boxerName": "Mackenzie Dern",
-      "headline": "USA TODAY Sports/MMA Junkie rankings, Aug. 18: Mackenzie Dern new No. 1",
-      "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/usa-today-sportsmma-junkie-rankings-aug-18-mackenzie-dern-new-no-1/91369547007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-19T15:08:56Z"
-    },
-    {
-      "boxerName": "Ian Machado Garry",
-      "headline": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?' - MMA Junkie",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185052440",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-19T14:32:47Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Henry Cejudo: Ian Machado Garry 'missed all the boxes' at UFC 330 - MMA Junkie",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185051634",
-      "source": "Slashdot.org",
-      "publishedAt": "2026-08-19T13:53:22Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "Khabib Nurmagomedov’s yet another old clip about Islam Makhachev’s potential goes viral, his 2018 warning to Gleison Tibau looks prophetic years later",
-      "url": "https://timesofindia.indiatimes.com/sports/international-sports/khabib-nurmagomedovs-yet-another-old-clip-about-islam-makhachevs-potential-goes-viral-his-2018-warning-to-gleison-tibau-looks-prophetic-years-later/articleshow/133349959.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-19T13:24:06Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev’s Next UFC Welterweight Title Challenger Revealed",
-      "url": "https://biztoc.com/x/fd49800cf4abddff",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-19T12:28:56Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Morning Report | Carlos Prates says UFC guaranteed him next title shot against Islam Makhachev, wants to ‘shock the world’",
-      "url": "https://www.mmafighting.com/ufc/505695/morning-report-carlos-prates-says-ufc-guaranteed-him-next-title-shot-against-islam-makhachev-wants-to-shock-the-world",
-      "source": "MMA Fighting",
-      "publishedAt": "2026-08-19T12:00:00Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Islam Makhachev's UFC GOAT case gets pushback from former champs",
-      "url": "https://www.sherdog.com/news/news/Islam-Makhachevs-UFC-GOAT-case-gets-pushback-from-former-champs-202431",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T07:11:22Z"
-    },
-    {
-      "boxerName": "Khabib Nurmagomedov",
-      "headline": "‘Jealousy Runs So Deep Through Your Blood’",
-      "url": "https://www.mmamania.com/latest-news/465850/jon-jones-slams-daniel-cormier-for-calling-khabib-the-goat-jealousy-runs-so-deep-through-your-blood",
-      "source": "MMA Mania",
-      "publishedAt": "2026-08-19T07:00:00Z"
-    },
-    {
-      "boxerName": "Michael Morales (fighter)",
-      "headline": "Carlos Prates fires back at Michael Morales: 'I'd knock you out'",
-      "url": "https://www.sherdog.com/news/news/Carlos-Prates-fires-back-at-Michael-Morales-Id-knock-you-out-202430",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T06:48:51Z"
-    },
-    {
-      "boxerName": "Arman Tsarukyan",
-      "headline": "Arman Tsarukyan says controversy is ‘important’ for ‘boring’ fighters",
-      "url": "https://www.sherdog.com/news/news/Arman-Tsarukyan-says-controversy-is-important-for-boring-fighters-202429",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T06:34:50Z"
-    },
-    {
-      "boxerName": "Gillian Robertson",
-      "headline": "Gillian Robertson breaks silence on Din Thomas controversy",
-      "url": "https://www.sherdog.com/news/news/Gillian-Robertson-breaks-silence-on-Din-Thomas-controversy-202428",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T06:12:14Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Carlos Prates confirms he's next in line, promises he'll KO Islam Makhachev",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-confirms-hes-next-051459497.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-19T05:14:59Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "headline": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
-      "url": "https://www.sherdog.com/news/news/Dana-White-addresses-Khamzat-Chimaevs-potential-UFC-333-return-202425",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T05:06:27Z"
-    },
-    {
-      "boxerName": "Shavkat Rakhmonov",
-      "headline": "Stephen Thompson issues warning about Shavkat Rakhmonov’s return",
-      "url": "https://www.sherdog.com/news/news/Stephen-Thompson-issues-warning-about-Shavkat-Rakhmonovs-return-202419",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T02:32:59Z"
-    },
-    {
-      "boxerName": "Henry Cejudo",
-      "headline": "Henry Cejudo doubts Ian Garry will get another UFC title shot",
-      "url": "https://www.sherdog.com/news/news/Henry-Cejudo-doubts-Ian-Garry-will-get-another-UFC-title-shot-202418",
-      "source": "Sherdog.com",
-      "publishedAt": "2026-08-19T02:18:04Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Carlos Prates Offers Blunt Criticism of Islam Makhachev After UFC 330 Win",
-      "url": "https://biztoc.com/x/5f8695548ce48560",
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-19T02:06:10Z"
-    },
-    {
-      "boxerName": "Movsar Evloev",
-      "headline": "Alexander Volkanovski vs. Movsar Evloev UFC 333 Odds Revealed",
-      "url": "https://heavy.com/sports/ufc/alexander-volkanovski-movsar-evloev-odds-revealed/",
-      "source": "Heavy.com",
-      "publishedAt": "2026-08-19T01:33:37Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "UFC 330 Main Card Recap: Makhachev Makes History as Barboza Says Goodbye",
-      "url": "https://easysportz.com/2026/08/ufc-330-main-card-recap-makhachev-makes-history-as-barboza-says-goodbye/",
-      "source": "Easysportz.com",
-      "publishedAt": "2026-08-19T01:01:08Z"
-    },
-    {
-      "boxerName": "Islam Makhachev",
-      "headline": "Carlos Prates: UFC promised Islam Makhachev title shot is next after signing new 8-fight contract",
-      "url": "https://sports.yahoo.com/mma/article/carlos-prates-ufc-promised-islam-makhachev-title-shot-is-next-after-signing-new-8-fight-contract-005512671.html",
-      "source": "Yahoo Entertainment",
-      "publishedAt": "2026-08-19T00:55:12Z"
     }
   ]
 }
