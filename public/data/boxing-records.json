@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T00:43:27.484Z",
+  "lastUpdated": "2026-09-20T00:41:51.657Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -6114,41 +6114,6 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
-    "Denys Berinchyk": {
-      "wins": 19,
-      "kos": 4,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 21,
-      "nationality": "USSR",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%B5%D1%80%D1%96%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_3_(%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C_4.10.2012).jpg",
-      "birthDate": "1988",
-      "gender": "male"
-    },
-    "Emil Novruzov": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Azerbaijani Russian",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
-      "birthDate": "1995",
-      "gender": "male"
-    },
-    "Ashley Brace": {
-      "wins": 8,
-      "kos": 2,
-      "losses": 0,
-      "draws": 1,
-      "noContests": 0,
-      "total": 9,
-      "nationality": "Wales",
-      "birthDate": "1991",
-      "gender": "male"
-    },
     "James J. Corbett": {
       "wins": 23,
       "kos": 10,
@@ -6171,6 +6136,99 @@
       "nationality": "American",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
       "birthDate": "1917-09-06",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
+      "gender": "male"
+    },
+    "Denys Berinchyk": {
+      "wins": 19,
+      "kos": 4,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 21,
+      "nationality": "USSR",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%B5%D1%80%D1%96%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_3_(%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C_4.10.2012).jpg",
+      "birthDate": "1988",
+      "gender": "male"
+    },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
+      "gender": "male"
+    },
+    "Hannah Rankin": {
+      "wins": 13,
+      "kos": 3,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 21,
+      "nationality": "Scotland",
+      "birthDate": "1990",
+      "gender": "male"
+    },
+    "Emil Novruzov": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Azerbaijani Russian",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
+      "birthDate": "1995",
+      "gender": "male"
+    },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
+      "gender": "male"
+    },
+    "Ashley Brace": {
+      "wins": 8,
+      "kos": 2,
+      "losses": 0,
+      "draws": 1,
+      "noContests": 0,
+      "total": 9,
+      "nationality": "Wales",
+      "birthDate": "1991",
+      "gender": "male"
+    },
+    "John L. Sullivan": {
+      "wins": 47,
+      "kos": 34,
+      "losses": 1,
+      "draws": 2,
+      "noContests": 1,
+      "total": 51,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
+      "birthDate": "1858",
       "gender": "male"
     },
     "Paulie Malignaggi": {
@@ -6197,18 +6255,6 @@
       "birthDate": "1866",
       "gender": "male"
     },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6220,50 +6266,28 @@
       "birthDate": "1982-10-10",
       "gender": "male"
     },
-    "Nico Hernandez": {
+    "Jem Mace": {
+      "wins": 27,
+      "kos": 14,
+      "losses": 5,
+      "draws": 7,
+      "noContests": 0,
+      "total": 39,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
+      "birthDate": "1831-04-08",
+      "gender": "male"
+    },
+    "Tom Sayers": {
       "wins": 12,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "American",
-      "birthDate": "1996-01-04",
-      "gender": "male"
-    },
-    "Hannah Rankin": {
-      "wins": 13,
-      "kos": 3,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 21,
-      "nationality": "Scotland",
-      "birthDate": "1990",
-      "gender": "male"
-    },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
+      "kos": 0,
+      "losses": 1,
       "draws": 3,
       "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
-      "gender": "male"
-    },
-    "John L. Sullivan": {
-      "wins": 47,
-      "kos": 34,
-      "losses": 1,
-      "draws": 2,
-      "noContests": 1,
-      "total": 51,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
-      "birthDate": "1858",
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6290,18 +6314,6 @@
       "birthDate": "1862-12-15",
       "gender": "male"
     },
-    "Jem Mace": {
-      "wins": 27,
-      "kos": 14,
-      "losses": 5,
-      "draws": 7,
-      "noContests": 0,
-      "total": 39,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
-      "birthDate": "1831-04-08",
-      "gender": "male"
-    },
     "John Morrissey": {
       "wins": 3,
       "kos": 0,
@@ -6312,18 +6324,6 @@
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
-      "gender": "male"
-    },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
       "gender": "male"
     },
     "George Gardiner (boxer)": {
