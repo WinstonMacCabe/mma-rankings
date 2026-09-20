@@ -1,33 +1,59 @@
-import * as fs from 'fs/promises'
+import * as fs from 'fs'
 import * as path from 'path'
 import { execSync } from 'child_process'
 import nodemailer from 'nodemailer'
-import type { BoxerRecord, RankingsData } from '../lib/types'
+import type { BoxerRecord } from '../lib/types'
 import { renderEmailHtml, type EmailSection } from './email-html'
 
 const FIGHTS_FILE = path.join(process.cwd(), 'public', 'data', 'upcoming-fights.json')
 const RANKINGS_FILE = path.join(process.cwd(), 'public', 'data', 'rankings.json')
 
-interface UpcomingFightEntry {
+interface ScheduledEntry {
   boxerName: string
+  sport?: string
   headline: string
   url: string
   source: string
   publishedAt: string
+  date: string
+  granularity?: 'day' | 'month'
+  matchup?: string
+  opponent?: string
+  confidence?: string
 }
 
-function loadJsonSafe(filePath: string): any {
+interface UpcomingLike {
+  fights?: ScheduledEntry[]
+}
+
+interface RankingsLike {
+  fighters?: BoxerRecord[]
+  worst?: BoxerRecord[]
+  thirdary?: BoxerRecord[]
+  sports?: Record<string, BoxerRecord[]>
+}
+
+const SPORT_LABELS: Record<string, string> = {
+  kickboxing: 'Kickboxing', muayThai: 'Muay Thai', karate: 'Karate',
+  freestyleWrestling: 'Freestyle Wrestling', ncaaWrestling: 'NCAA Wrestling',
+  brazilianJiuJitsu: 'BJJ', sumo: 'Sumo', mongolianWrestling: 'Mongolian Wrestling',
+  lethwei: 'Lethwei', kunKhmer: 'Kun Khmer', sambo: 'Sambo',
+  grecoRomanWrestling: 'Greco-Roman', sanshou: 'Sanshou',
+  submissionWrestling: 'Sub. Wrestling', judo: 'Judo', bareKnuckle: 'Bare Knuckle',
+}
+
+function loadJsonSafe<T>(filePath: string): T | null {
   try {
-    return JSON.parse(require('fs').readFileSync(filePath, 'utf8'))
+    return JSON.parse(fs.readFileSync(filePath, 'utf8')) as T
   } catch {
     return null
   }
 }
 
-function gitShowHead(filePath: string): any {
+function gitShowHead<T>(filePath: string): T | null {
   try {
     const raw = execSync(`git show HEAD:${filePath}`, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })
-    return JSON.parse(raw)
+    return JSON.parse(raw) as T
   } catch {
     return null
   }
@@ -39,6 +65,23 @@ function diffRankings(current: BoxerRecord[], previous: BoxerRecord[]): { added:
   const added = current.filter(f => !prevNames.has(f.name))
   const removed = previous.filter(f => !curNames.has(f.name))
   return { added, removed }
+}
+
+function fightKey(f: ScheduledEntry): string {
+  return f.url || `${f.boxerName}|${f.date}|${(f.matchup || '').toLowerCase()}`
+}
+
+function dateText(date: string): string {
+  if (!date) return ''
+  if (/^\d{4}-\d{2}$/.test(date)) {
+    const [y, m] = date.split('-').map(Number)
+    return new Date(y, m - 1, 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+  }
+  if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    const d = new Date(`${date}T00:00:00Z`)
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+  }
+  return date
 }
 
 async function main() {
@@ -53,82 +96,81 @@ async function main() {
 
   const sections: EmailSection[] = []
 
-  // 1. Load Rankings first to map fighters to sports
-  const curRankings = loadJsonSafe(RANKINGS_FILE) as RankingsData | null
-  const prevRankings = gitShowHead('public/data/rankings.json') as RankingsData | null
+  // 1. Load rankings first to map fighters to sports
+  const curRankings = loadJsonSafe<RankingsLike>(RANKINGS_FILE)
+  const prevRankings = gitShowHead<RankingsLike>('public/data/rankings.json')
 
   const fighterSports = new Map<string, string>()
   if (curRankings) {
-    const SPORT_LABELS: Record<string, string> = {
-      kickboxing: 'Kickboxing', muayThai: 'Muay Thai', karate: 'Karate',
-      freestyleWrestling: 'Freestyle Wrestling', ncaaWrestling: 'NCAA Wrestling',
-      brazilianJiuJitsu: 'BJJ', sumo: 'Sumo', mongolianWrestling: 'Mongolian Wrestling',
-      lethwei: 'Lethwei', kunKhmer: 'Kun Khmer', sambo: 'Sambo',
-      grecoRomanWrestling: 'Greco-Roman', sanshou: 'Sanshou',
-      submissionWrestling: 'Sub. Wrestling', judo: 'Judo', bareKnuckle: 'Bare Knuckle'
-    }
-    const addSport = (list: any[] | undefined, sportName: string) => {
+    const scoutSportLabel = (sportKey: string): string => SPORT_LABELS[sportKey] || sportKey
+    const addSport = (list: BoxerRecord[] | undefined, sportName: string) => {
       if (!list) return
       for (const f of list) {
         if (!fighterSports.has(f.name)) fighterSports.set(f.name, sportName)
       }
     }
-    // We add MMA first so it takes priority for thirdary fighters
+    // MMA first so it takes priority for featured fighters
     addSport(curRankings.thirdary, 'MMA')
     addSport(curRankings.fighters, 'MMA')
-    if (curRankings.sports) {
+    if (curRankings.sports && typeof curRankings.sports === 'object') {
       for (const [k, list] of Object.entries(curRankings.sports)) {
-        addSport(list as any[], SPORT_LABELS[k] || k)
+        addSport(list, scoutSportLabel(k))
       }
     }
   }
 
-  // 2. Fight news
-  const curFights = (loadJsonSafe(FIGHTS_FILE)?.fights ?? []) as UpcomingFightEntry[]
-  let prevFights: UpcomingFightEntry[] = []
-  try {
-    prevFights = (gitShowHead('public/data/upcoming-fights.json')?.fights ?? []) as UpcomingFightEntry[]
-  } catch { /* ignore */ }
+  // 2. New scheduled fights (day-level bookings only)
+  const curFights = (loadJsonSafe<UpcomingLike>(FIGHTS_FILE)?.fights ?? []) as ScheduledEntry[]
+  const prevFights = (gitShowHead<UpcomingLike>('public/data/upcoming-fights.json')?.fights ?? []) as ScheduledEntry[]
 
-  const prevUrls = new Set(prevFights.map(f => f.url))
-  const newFights = curFights.filter(f => !prevUrls.has(f.url))
-  
-  if (newFights.length > 0) {
-    const groupedNews = new Map<string, UpcomingFightEntry[]>()
-    for (const f of newFights) {
-      const sport = fighterSports.get(f.boxerName) || 'MMA' // fallback to MMA if not found
-      if (!groupedNews.has(sport)) groupedNews.set(sport, [])
-      groupedNews.get(sport)!.push(f)
+  const prevKeys = new Set(prevFights.filter(f => f.granularity !== 'month').map(fightKey))
+  const newScheduled = curFights
+    .filter(f => f.granularity !== 'month')
+    .filter(f => !prevKeys.has(fightKey(f)))
+
+  if (newScheduled.length > 0) {
+    const groupedScheduled = new Map<string, ScheduledEntry[]>()
+    for (const f of newScheduled) {
+      const sport = f.sport ? (SPORT_LABELS[f.sport] || f.sport) : (fighterSports.get(f.boxerName) || 'MMA')
+      if (!groupedScheduled.has(sport)) groupedScheduled.set(sport, [])
+      groupedScheduled.get(sport)!.push(f)
     }
 
-    for (const [sport, fights] of groupedNews.entries()) {
+    for (const [sport, fights] of groupedScheduled.entries()) {
+      const rows = fights.map(f => ({
+        label: f.opponent ? `${f.boxerName} vs ${f.opponent}` : f.boxerName,
+        text: dateText(f.date),
+        url: f.url,
+        sub: f.publishedAt
+          ? `${f.source} · ${new Date(f.publishedAt).toLocaleDateString()}`
+          : f.source,
+      }))
+
+      // Dedupe: same booking announced in multiple articles.
+      const seenRows = new Set<string>()
+      const uniqueRows = rows.filter(r => {
+        const key = `${r.label.split(' vs ')[0]}|${r.text}|${r.label.split(' vs ').pop()?.toLowerCase().split(/\s+/).pop() || ''}`
+        if (seenRows.has(key)) return false
+        seenRows.add(key)
+        return true
+      })
+
       sections.push({
-        heading: `${sport} Fight News (${fights.length})`,
-        rows: fights.map(f => ({
-          label: f.boxerName,
-          text: f.headline,
-          url: f.url,
-          sub: f.publishedAt
-            ? `${f.source} · ${new Date(f.publishedAt).toLocaleDateString()}`
-            : f.source,
-        })),
+        heading: `${sport} New Scheduled Fights (${uniqueRows.length})`,
+        rows: uniqueRows,
       })
     }
   }
 
   // 3. Ranking changes — new and departed fighters
   if (curRankings && prevRankings) {
-    // Best (undefeated) list
     const bestDiff = diffRankings(curRankings.fighters ?? [], prevRankings.fighters ?? [])
-    // Worst (winless) list
     const worstDiff = diffRankings(curRankings.worst ?? [], prevRankings.worst ?? [])
-    // Thirdary list
     const thirdDiff = diffRankings(curRankings.thirdary ?? [], prevRankings.thirdary ?? [])
 
     const allAdded = [...bestDiff.added, ...worstDiff.added, ...thirdDiff.added]
     const allRemoved = [...bestDiff.removed, ...worstDiff.removed, ...thirdDiff.removed]
 
-    // Deduplicate by name
     const addedNames = [...new Map(allAdded.map(f => [f.name, f])).values()]
     const removedNames = [...new Map(allRemoved.map(f => [f.name, f])).values()]
 
@@ -146,8 +188,7 @@ async function main() {
       })
     }
 
-    // Sport ranking changes
-    const sports = ['kickboxing', 'muayThai', 'karate', 'freestyleWrestling', 'ncaaWrestling', 'brazilianJiuJitsu', 'sumo', 'mongolianWrestling', 'lethwei', 'kunKhmer', 'sambo', 'grecoRomanWrestling', 'sanshou', 'submissionWrestling', 'judo', 'bareKnuckle'] as const
+    const sports = ['kickboxing', 'muayThai', 'karate', 'freestyleWrestling', 'ncaaWrestling', 'brazilianJiuJitsu', 'sumo', 'mongolianWrestling', 'lethwei', 'kunKhmer', 'sambo', 'grecoRomanWrestling', 'sanshou', 'submissionWrestling', 'bareKnuckle'] as const
     for (const sport of sports) {
       const cur = curRankings.sports?.[sport] ?? []
       const prev = prevRankings.sports?.[sport] ?? []
@@ -166,12 +207,12 @@ async function main() {
   }
 
   if (sections.length === 0) {
-    console.log('No new fights or ranking changes. Skipping notification.')
+    console.log('No new scheduled fights or ranking changes. Skipping notification.')
     return
   }
 
   const subject = [
-    newFights.length > 0 ? `${newFights.length} new fight${newFights.length === 1 ? '' : 's'}` : null,
+    newScheduled.length > 0 ? `${newScheduled.length} new scheduled fight${newScheduled.length === 1 ? '' : 's'}` : null,
     (curRankings && prevRankings) ? 'rankings updated' : null,
   ].filter(Boolean).join(', ')
 
