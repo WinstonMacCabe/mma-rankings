@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T19:54:14.654Z",
+  "lastUpdated": "2026-09-21T00:41:34.744Z",
   "fights": [
     {
       "boxerName": "Kayla Harrison",
@@ -11,7 +11,7 @@
       "date": "2026-11",
       "granularity": "month",
       "confidence": "low",
-      "detectedAt": "2026-09-20T19:54:16.487Z"
+      "detectedAt": "2026-09-21T00:41:36.227Z"
     }
   ]
 }
