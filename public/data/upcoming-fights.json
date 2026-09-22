@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T00:41:34.744Z",
+  "lastUpdated": "2026-09-22T00:42:11.992Z",
   "fights": [
     {
       "boxerName": "Kayla Harrison",
@@ -7,11 +7,23 @@
       "headline": "Kayla Harrison Targeting Return in November at UFC 334 - MMA Sucka",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FUjlwQXg3eHpMN1ZybGlEVWphNWE0RjJvc3VTblBLTmF6ODFLYmI5cFhrOVlDTVNfM2pwM3VnT2JORmdsZmhKMlpCaHNCYnBQekVfbHJ0cFYwN3ZqLWc?oc=5",
       "source": "MMA Sucka",
-      "publishedAt": "2026-09-19T23:41:19.000Z",
+      "publishedAt": "2026-09-20T00:33:26.000Z",
       "date": "2026-11",
       "granularity": "month",
       "confidence": "low",
-      "detectedAt": "2026-09-21T00:41:36.227Z"
+      "detectedAt": "2026-09-22T00:42:13.580Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "sport": "mma",
+      "headline": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkplWkVUV2JnRDQ1RnB6YlNJclVIM3Nscm5RRmQ1WEg4a3o2Yzc2TjlLOW9PY2pvRmtFMDMtUmpOSjVjYzdDZ2FoWGk5N0NVSkwwYUZRLTA3anZwOGs0OWVzd2Jsb05IXzRXNzQ5TnVEdXdlU0tnQXdMS0t6MHBBM2VQOEUzRExHZHc?oc=5",
+      "source": "Yahoo Sports",
+      "publishedAt": "2026-09-21T12:50:15.000Z",
+      "date": "2026-11",
+      "granularity": "month",
+      "confidence": "low",
+      "detectedAt": "2026-09-22T00:42:14.394Z"
     }
   ]
 }
