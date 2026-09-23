@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T22:25:57.258Z",
+  "lastUpdated": "2026-09-23T12:44:16.076Z",
   "fights": [
     {
       "boxerName": "Petchmorakot Petchyindee Academy",
@@ -155,13 +155,13 @@
       "headline": "Evloev is scheduled to challenge for the UFC Featherweight Championship against two-time champion Alexander Volkanovski on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Movsar_Evloev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-22T21:55:33.521Z",
+      "publishedAt": "2026-09-23T12:44:16.728Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Movsar Evloev vs Alexander Volkanovski",
       "opponent": "Alexander Volkanovski",
       "confidence": "high",
-      "detectedAt": "2026-09-22T21:55:33.521Z"
+      "detectedAt": "2026-09-23T12:44:16.728Z"
     },
     {
       "boxerName": "Nurullo Aliev",
