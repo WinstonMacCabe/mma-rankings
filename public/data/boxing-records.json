@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T00:42:11.447Z",
+  "lastUpdated": "2026-09-23T00:42:06.549Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2353,7 +2353,7 @@
       "draws": 0,
       "noContests": 0,
       "total": 7,
-      "nationality": "Polish",
+      "nationality": "Poland",
       "weightClass": "Heavyweight",
       "birthDate": "1991",
       "gender": "male"
@@ -3039,6 +3039,18 @@
       "birthDate": "1967",
       "gender": "female"
     },
+    "Jessica Rakoczy": {
+      "wins": 33,
+      "kos": 12,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 1,
+      "total": 37,
+      "nationality": "Canada",
+      "weightClass": "Lightweight",
+      "birthDate": "1977",
+      "gender": "female"
+    },
     "Duda Yankovich": {
       "wins": 11,
       "kos": 5,
@@ -3052,16 +3064,16 @@
       "birthDate": "1976",
       "gender": "female"
     },
-    "Jujeath Nagaowa": {
-      "wins": 13,
-      "kos": 8,
-      "losses": 19,
-      "draws": 1,
+    "Lindsay Garbatt": {
+      "wins": 8,
+      "kos": 3,
+      "losses": 7,
+      "draws": 0,
       "noContests": 0,
-      "total": 33,
-      "nationality": "Filipino",
-      "weightClass": "Atomweight",
-      "birthDate": "1987",
+      "total": 15,
+      "nationality": "Canadian",
+      "weightClass": "Flyweight",
+      "birthDate": "1982",
       "gender": "female"
     },
     "Molly McCann": {
@@ -3077,16 +3089,16 @@
       "birthDate": "1990",
       "gender": "female"
     },
-    "Valérie Hénin": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
+    "Jujeath Nagaowa": {
+      "wins": 13,
+      "kos": 8,
+      "losses": 19,
+      "draws": 1,
       "noContests": 0,
-      "total": 1,
-      "nationality": "French",
-      "weightClass": "Welterweight",
-      "birthDate": "1967",
+      "total": 33,
+      "nationality": "Filipino",
+      "weightClass": "Atomweight",
+      "birthDate": "1987",
       "gender": "female"
     },
     "Katharina Lehner": {
@@ -3101,6 +3113,18 @@
       "birthDate": "1990",
       "gender": "female"
     },
+    "Valérie Hénin": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "French",
+      "weightClass": "Welterweight",
+      "birthDate": "1967",
+      "gender": "female"
+    },
     "Emiko Raika": {
       "wins": 25,
       "kos": 10,
@@ -3111,6 +3135,19 @@
       "nationality": "Japanese",
       "weightClass": "Lightweight",
       "birthDate": "1975",
+      "gender": "female"
+    },
+    "Sexy Star": {
+      "wins": 5,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "Mexico",
+      "weightClass": "Flyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sexy_Star_La_Esquina_2019.jpg",
+      "birthDate": "1982-09-20",
       "gender": "female"
     },
     "Mei Yamaguchi": {
@@ -3145,43 +3182,6 @@
       "total": 2,
       "nationality": "Japan",
       "birthDate": "1973",
-      "gender": "female"
-    },
-    "Mariya Agapova": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 1,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Kazakhstan",
-      "weightClass": "Flyweight",
-      "birthDate": "1997",
-      "gender": "female"
-    },
-    "Sexy Star": {
-      "wins": 5,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 5,
-      "nationality": "Mexico",
-      "weightClass": "Flyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sexy_Star_La_Esquina_2019.jpg",
-      "birthDate": "1982-09-20",
-      "gender": "female"
-    },
-    "Julia Berezikova": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Russian",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Julia_Berezikova.jpg",
-      "birthDate": "1983",
       "gender": "female"
     },
     "Valentina Shevchenko": {
@@ -3221,6 +3221,18 @@
       "birthDate": "1989-09-05",
       "gender": "female"
     },
+    "Mariya Agapova": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 1,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Kazakhstan",
+      "weightClass": "Flyweight",
+      "birthDate": "1997",
+      "gender": "female"
+    },
     "Laura Grzyb": {
       "wins": 12,
       "kos": 3,
@@ -3233,17 +3245,17 @@
       "birthDate": "1995-04-29",
       "gender": "female"
     },
-    "Lindsay Garbatt": {
-      "wins": 8,
-      "kos": 3,
-      "losses": 7,
+    "Julia Berezikova": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 15,
-      "nationality": "Canadian",
-      "weightClass": "Flyweight",
-      "birthDate": "1982",
-      "gender": "male"
+      "total": 3,
+      "nationality": "Russian",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Julia_Berezikova.jpg",
+      "birthDate": "1983",
+      "gender": "female"
     },
     "Loma Lookboonmee": {
       "wins": 6,
@@ -3267,18 +3279,6 @@
       "nationality": "Australia",
       "weightClass": "Lightweight",
       "birthDate": "2003",
-      "gender": "male"
-    },
-    "Jessica Rakoczy": {
-      "wins": 33,
-      "kos": 12,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 1,
-      "total": 37,
-      "nationality": "Canada",
-      "weightClass": "Lightweight",
-      "birthDate": "1977",
       "gender": "male"
     },
     "Riddick Bowe": {

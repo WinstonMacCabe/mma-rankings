@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T00:42:11.992Z",
+  "lastUpdated": "2026-09-23T00:42:07.072Z",
   "fights": [
     {
       "boxerName": "Kayla Harrison",
@@ -11,19 +11,19 @@
       "date": "2026-11",
       "granularity": "month",
       "confidence": "low",
-      "detectedAt": "2026-09-22T00:42:13.580Z"
+      "detectedAt": "2026-09-23T00:42:08.590Z"
     },
     {
       "boxerName": "Khamzat Chimaev",
       "sport": "mma",
-      "headline": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes - Yahoo Sports",
+      "headline": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes - sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkplWkVUV2JnRDQ1RnB6YlNJclVIM3Nscm5RRmQ1WEg4a3o2Yzc2TjlLOW9PY2pvRmtFMDMtUmpOSjVjYzdDZ2FoWGk5N0NVSkwwYUZRLTA3anZwOGs0OWVzd2Jsb05IXzRXNzQ5TnVEdXdlU0tnQXdMS0t6MHBBM2VQOEUzRExHZHc?oc=5",
-      "source": "Yahoo Sports",
+      "source": "sports.yahoo.com",
       "publishedAt": "2026-09-21T12:50:15.000Z",
       "date": "2026-11",
       "granularity": "month",
       "confidence": "low",
-      "detectedAt": "2026-09-22T00:42:14.394Z"
+      "detectedAt": "2026-09-23T00:42:09.472Z"
     }
   ]
 }
