@@ -119,32 +119,34 @@ async function main() {
     }
   }
 
-  // 2. New scheduled fights (day-level bookings only)
+  // 2. Complete scheduled-fights list (day AND month, both new and previously
+  // seen) — every future booking, no matter how far out.
   const curFights = (loadJsonSafe<UpcomingLike>(FIGHTS_FILE)?.fights ?? []) as ScheduledEntry[]
   const prevFights = (gitShowHead<UpcomingLike>('public/data/upcoming-fights.json')?.fights ?? []) as ScheduledEntry[]
 
-  const prevKeys = new Set(prevFights.filter(f => f.granularity !== 'month').map(fightKey))
-  const newScheduled = curFights
-    .filter(f => f.granularity !== 'month')
-    .filter(f => !prevKeys.has(fightKey(f)))
+  const prevKeys = new Set(prevFights.map(fightKey))
+  const allFights = [...curFights].sort((a, b) => a.date.localeCompare(b.date))
+  const newScheduled = allFights.filter(f => !prevKeys.has(fightKey(f)))
 
-  if (newScheduled.length > 0) {
+  if (allFights.length > 0) {
     const groupedScheduled = new Map<string, ScheduledEntry[]>()
-    for (const f of newScheduled) {
+    for (const f of allFights) {
       const sport = f.sport ? (SPORT_LABELS[f.sport] || f.sport) : (fighterSports.get(f.boxerName) || 'MMA')
       if (!groupedScheduled.has(sport)) groupedScheduled.set(sport, [])
       groupedScheduled.get(sport)!.push(f)
     }
 
     for (const [sport, fights] of groupedScheduled.entries()) {
-      const rows = fights.map(f => ({
-        label: f.opponent ? `${f.boxerName} vs ${f.opponent}` : f.boxerName,
-        text: dateText(f.date),
-        url: f.url,
-        sub: f.publishedAt
-          ? `${f.source} · ${new Date(f.publishedAt).toLocaleDateString()}`
-          : f.source,
-      }))
+      const rows = fights.map(f => {
+        const isNew = !prevKeys.has(fightKey(f))
+        const label = f.opponent ? `${f.boxerName} vs ${f.opponent}` : f.boxerName
+        return {
+          label: isNew ? `${label} (new)` : label,
+          text: dateText(f.date),
+          url: f.url,
+          sub: f.source,
+        }
+      })
 
       // Dedupe: same booking announced in multiple articles.
       const seenRows = new Set<string>()
@@ -156,7 +158,7 @@ async function main() {
       })
 
       sections.push({
-        heading: `${sport} New Scheduled Fights (${uniqueRows.length})`,
+        heading: `${sport} Scheduled Fights (${uniqueRows.length})`,
         rows: uniqueRows,
       })
     }
@@ -212,7 +214,7 @@ async function main() {
   }
 
   const subject = [
-    newScheduled.length > 0 ? `${newScheduled.length} new scheduled fight${newScheduled.length === 1 ? '' : 's'}` : null,
+    allFights.length > 0 ? `${allFights.length} scheduled fight${allFights.length === 1 ? '' : 's'} (${newScheduled.length} new)` : null,
     (curRankings && prevRankings) ? 'rankings updated' : null,
   ].filter(Boolean).join(', ')
 
