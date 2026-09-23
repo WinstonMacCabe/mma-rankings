@@ -119,18 +119,16 @@ async function main() {
     }
   }
 
-  // 2. Complete scheduled-fights list (day AND month, both new and previously
-  // seen) — every future booking, no matter how far out.
+  // 2. New scheduled fights only (day AND month) — bookings not present at git HEAD.
   const curFights = (loadJsonSafe<UpcomingLike>(FIGHTS_FILE)?.fights ?? []) as ScheduledEntry[]
   const prevFights = (gitShowHead<UpcomingLike>('public/data/upcoming-fights.json')?.fights ?? []) as ScheduledEntry[]
 
   const prevKeys = new Set(prevFights.map(fightKey))
-  const allFights = [...curFights].sort((a, b) => a.date.localeCompare(b.date))
-  const newScheduled = allFights.filter(f => !prevKeys.has(fightKey(f)))
+  const newScheduled = [...curFights.filter(f => !prevKeys.has(fightKey(f)))].sort((a, b) => a.date.localeCompare(b.date))
 
-  if (allFights.length > 0) {
+  if (newScheduled.length > 0) {
     const groupedScheduled = new Map<string, ScheduledEntry[]>()
-    for (const f of allFights) {
+    for (const f of newScheduled) {
       const sport = f.sport ? (SPORT_LABELS[f.sport] || f.sport) : (fighterSports.get(f.boxerName) || 'MMA')
       if (!groupedScheduled.has(sport)) groupedScheduled.set(sport, [])
       groupedScheduled.get(sport)!.push(f)
@@ -138,10 +136,9 @@ async function main() {
 
     for (const [sport, fights] of groupedScheduled.entries()) {
       const rows = fights.map(f => {
-        const isNew = !prevKeys.has(fightKey(f))
         const label = f.opponent ? `${f.boxerName} vs ${f.opponent}` : f.boxerName
         return {
-          label: isNew ? `${label} (new)` : label,
+          label,
           text: dateText(f.date),
           url: f.url,
           sub: f.source,
@@ -158,13 +155,14 @@ async function main() {
       })
 
       sections.push({
-        heading: `${sport} Scheduled Fights (${uniqueRows.length})`,
+        heading: `${sport} New Scheduled Fights (${uniqueRows.length})`,
         rows: uniqueRows,
       })
     }
   }
 
   // 3. Ranking changes — new and departed fighters
+  let rankingsChanged = false
   if (curRankings && prevRankings) {
     const bestDiff = diffRankings(curRankings.fighters ?? [], prevRankings.fighters ?? [])
     const worstDiff = diffRankings(curRankings.worst ?? [], prevRankings.worst ?? [])
@@ -177,6 +175,7 @@ async function main() {
     const removedNames = [...new Map(allRemoved.map(f => [f.name, f])).values()]
 
     if (addedNames.length > 0) {
+      rankingsChanged = true
       sections.push({
         heading: `New Fighters (${addedNames.length})`,
         rows: addedNames.map(f => ({ label: f.name, text: `${f.wins}-${f.losses}-${f.draws}` })),
@@ -184,6 +183,7 @@ async function main() {
     }
 
     if (removedNames.length > 0) {
+      rankingsChanged = true
       sections.push({
         heading: `Gone but Not Forgotten (${removedNames.length})`,
         rows: removedNames.map(f => ({ label: f.name, text: `${f.wins}-${f.losses}-${f.draws}` })),
@@ -196,6 +196,7 @@ async function main() {
       const prev = prevRankings.sports?.[sport] ?? []
       const diff = diffRankings(cur, prev)
       if (diff.added.length > 0 || diff.removed.length > 0) {
+        rankingsChanged = true
         const rows = [
           ...diff.added.map(f => ({ label: '+ ' + f.name, text: `${f.wins}-${f.losses}-${f.draws}` })),
           ...diff.removed.map(f => ({ label: '- ' + f.name, text: `${f.wins}-${f.losses}-${f.draws}` })),
@@ -214,8 +215,8 @@ async function main() {
   }
 
   const subject = [
-    allFights.length > 0 ? `${allFights.length} scheduled fight${allFights.length === 1 ? '' : 's'} (${newScheduled.length} new)` : null,
-    (curRankings && prevRankings) ? 'rankings updated' : null,
+    newScheduled.length > 0 ? `${newScheduled.length} new scheduled fight${newScheduled.length === 1 ? '' : 's'}` : null,
+    rankingsChanged ? 'rankings updated' : null,
   ].filter(Boolean).join(', ')
 
   const text = `Fight rankings update\n\n${sections
