@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T15:56:24.056Z",
+  "lastUpdated": "2026-09-24T00:42:03.978Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -5939,6 +5939,18 @@
       "birthDate": "1995",
       "gender": "female"
     },
+    "Terri Moss": {
+      "wins": 9,
+      "kos": 3,
+      "losses": 9,
+      "draws": 0,
+      "noContests": 0,
+      "total": 18,
+      "nationality": "American",
+      "weightClass": "Featherweight",
+      "birthDate": "1966-01-25",
+      "gender": "female"
+    },
     "Patricia Alcivar": {
       "wins": 8,
       "kos": 3,
@@ -5971,18 +5983,6 @@
       "nationality": "Argentina",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tigresa_Acu%C3%B1a_-presidenciagovar_-3MAY07.jpg",
       "birthDate": "1976",
-      "gender": "female"
-    },
-    "Terri Moss": {
-      "wins": 9,
-      "kos": 3,
-      "losses": 9,
-      "draws": 0,
-      "noContests": 0,
-      "total": 18,
-      "nationality": "American",
-      "weightClass": "Featherweight",
-      "birthDate": "1966-01-25",
       "gender": "female"
     },
     "Ebanie Bridges": {
@@ -6138,6 +6138,30 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Paulie Malignaggi": {
+      "wins": 36,
+      "kos": 5,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 44,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
+      "birthDate": "1980-11-23",
+      "gender": "male"
+    },
+    "Jack McAuliffe (boxer)": {
+      "wins": 28,
+      "kos": 19,
+      "losses": 0,
+      "draws": 10,
+      "noContests": 0,
+      "total": 38,
+      "nationality": "Irish",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "Professor Mike Donovan": {
       "wins": 25,
       "kos": 2,
@@ -6231,28 +6255,16 @@
       "birthDate": "1858",
       "gender": "male"
     },
-    "Paulie Malignaggi": {
-      "wins": 36,
-      "kos": 5,
-      "losses": 8,
-      "draws": 0,
+    "James DeGale": {
+      "wins": 25,
+      "kos": 12,
+      "losses": 3,
+      "draws": 1,
       "noContests": 0,
-      "total": 44,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
-      "birthDate": "1980-11-23",
-      "gender": "male"
-    },
-    "Jack McAuliffe (boxer)": {
-      "wins": 28,
-      "kos": 19,
-      "losses": 0,
-      "draws": 10,
-      "noContests": 0,
-      "total": 38,
-      "nationality": "Irish",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
-      "birthDate": "1866",
+      "total": 29,
+      "nationality": "England",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
+      "birthDate": "1986-02-03",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {
@@ -6264,6 +6276,18 @@
       "total": 23,
       "nationality": "American",
       "birthDate": "1982-10-10",
+      "gender": "male"
+    },
+    "Nonpareil Jack Dempsey": {
+      "wins": 52,
+      "kos": 24,
+      "losses": 3,
+      "draws": 11,
+      "noContests": 2,
+      "total": 68,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
+      "birthDate": "1862-12-15",
       "gender": "male"
     },
     "Jem Mace": {
@@ -6290,28 +6314,15 @@
       "birthDate": "1826",
       "gender": "male"
     },
-    "James DeGale": {
-      "wins": 25,
-      "kos": 12,
-      "losses": 3,
+    "Bobby Gunn": {
+      "wins": 23,
+      "kos": 17,
+      "losses": 7,
       "draws": 1,
-      "noContests": 0,
-      "total": 29,
-      "nationality": "England",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
-      "birthDate": "1986-02-03",
-      "gender": "male"
-    },
-    "Nonpareil Jack Dempsey": {
-      "wins": 52,
-      "kos": 24,
-      "losses": 3,
-      "draws": 11,
-      "noContests": 2,
-      "total": 68,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
-      "birthDate": "1862-12-15",
+      "noContests": 1,
+      "total": 32,
+      "nationality": "Canada",
+      "birthDate": "1973-12-25",
       "gender": "male"
     },
     "John Morrissey": {
@@ -6336,17 +6347,6 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/George_Gardner_portrait.jpg",
       "birthDate": "1877",
-      "gender": "male"
-    },
-    "Bobby Gunn": {
-      "wins": 23,
-      "kos": 17,
-      "losses": 7,
-      "draws": 1,
-      "noContests": 1,
-      "total": 32,
-      "nationality": "Canada",
-      "birthDate": "1973-12-25",
       "gender": "male"
     },
     "Usanakorn Thawilsuhannawang": {
