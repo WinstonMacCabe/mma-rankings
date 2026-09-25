@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T00:42:03.978Z",
+  "lastUpdated": "2026-09-25T00:43:51.065Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2235,6 +2235,19 @@
       "birthDate": "1983-06-12",
       "gender": "male"
     },
+    "Izu Ugonoh": {
+      "wins": 18,
+      "kos": 15,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 20,
+      "nationality": "Polish-Nigerian",
+      "weightClass": "Cruiserweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Izuagbe_Ugonoh.JPG",
+      "birthDate": "1986",
+      "gender": "male"
+    },
     "Antz Nansen": {
       "wins": 4,
       "kos": 1,
@@ -2319,19 +2332,6 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
-      "gender": "male"
-    },
-    "Izu Ugonoh": {
-      "wins": 18,
-      "kos": 15,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 20,
-      "nationality": "Polish-Nigerian",
-      "weightClass": "Cruiserweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Izuagbe_Ugonoh.JPG",
-      "birthDate": "1986",
       "gender": "male"
     },
     "Krzysztof Głowacki": {
@@ -2891,6 +2891,19 @@
       "birthDate": "1977",
       "gender": "female"
     },
+    "Cris Cyborg": {
+      "wins": 7,
+      "kos": 4,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 7,
+      "nationality": "Brazil",
+      "weightClass": "Light middleweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cris_Cyborg_-_SDCC_2023.jpg",
+      "birthDate": "1985",
+      "gender": "female"
+    },
     "Amanda Serrano": {
       "wins": 50,
       "kos": 31,
@@ -2987,19 +3000,6 @@
       "nationality": "Argentina",
       "weightClass": "Strawweight",
       "birthDate": "1984-12-06",
-      "gender": "female"
-    },
-    "Cris Cyborg": {
-      "wins": 7,
-      "kos": 4,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 7,
-      "nationality": "Brazil",
-      "weightClass": "Light middleweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cris_Cyborg_-_SDCC_2023.jpg",
-      "birthDate": "1985",
       "gender": "female"
     },
     "Gabi Garcia": {
@@ -3191,7 +3191,7 @@
       "draws": 0,
       "noContests": 0,
       "total": 2,
-      "nationality": "Kirghiz SSR",
+      "nationality": "Soviet Union",
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Valentina_Shevchenko_2020.jpg",
       "birthDate": "1988",
@@ -6314,6 +6314,18 @@
       "birthDate": "1826",
       "gender": "male"
     },
+    "George Gardiner (boxer)": {
+      "wins": 44,
+      "kos": 29,
+      "losses": 11,
+      "draws": 9,
+      "noContests": 3,
+      "total": 67,
+      "nationality": "Irish",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/George_Gardner_portrait.jpg",
+      "birthDate": "1877",
+      "gender": "male"
+    },
     "Bobby Gunn": {
       "wins": 23,
       "kos": 17,
@@ -6335,18 +6347,6 @@
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
-      "gender": "male"
-    },
-    "George Gardiner (boxer)": {
-      "wins": 44,
-      "kos": 29,
-      "losses": 11,
-      "draws": 9,
-      "noContests": 3,
-      "total": 67,
-      "nationality": "Irish",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/George_Gardner_portrait.jpg",
-      "birthDate": "1877",
       "gender": "male"
     },
     "Usanakorn Thawilsuhannawang": {
