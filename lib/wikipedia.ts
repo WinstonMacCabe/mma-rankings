@@ -478,14 +478,33 @@ const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
   { key: 'sambo', pattern: /sambo|combat\s*sambo/i },
   { key: 'lutaLivre', pattern: /luta[\s-]?livre/i },
   { key: 'bareKnuckle', pattern: /bare[- ]?knuckle/i },
-  { key: 'boxing', pattern: /boxing|boxe\b|prizefight/i },
+  // "kickboxing" contains "boxing", and "boxe française" is savate — guard both so a
+  // combined kickboxing/savate title doesn't also credit a phantom boxing record.
+  { key: 'boxing', pattern: /(?<!kick)(?<!kick\s)(?<!kick-)boxing|boxe(?!\s*fran[cç]aise)\b|prizefight/i },
 ]
 
-export function detectSport(label: string): SportKey | null {
-  for (const { key, pattern } of SPORT_KEYWORDS) {
-    if (pattern.test(label)) return key
+// Every sport a label names, in SPORT_KEYWORDS order. A record table titled e.g.
+// "Professional Kun Khmer and Kickboxing record" genuinely covers both sports, so
+// callers that attribute a table to a sport must see all of them, not just the
+// first keyword that happens to match.
+const SPORT_ALIAS_GROUP: Partial<Record<SportKey, SportKey>> = { sanda: 'sanshou' }
+
+export function detectSports(label: string): SportKey[] {
+  const out: SportKey[] = []
+  const add = (key: SportKey) => {
+    // sanshou and sanda share a keyword and Wikipedia treats them as one sport;
+    // collapse them so a "Sanda record" table isn't credited to both.
+    const canonical = SPORT_ALIAS_GROUP[key] ?? key
+    if (!out.includes(canonical)) out.push(canonical)
   }
-  return null
+  for (const { key, pattern } of SPORT_KEYWORDS) {
+    if (pattern.test(label)) add(key)
+  }
+  return out
+}
+
+export function detectSport(label: string): SportKey | null {
+  return detectSports(label)[0] ?? null
 }
 
 const STYLE_INFOBOXES = [
@@ -672,6 +691,9 @@ export function parseBespokeBlock(block: string): SportRecord | null {
 
 interface RecordTableMatch {
   sport: SportKey | null
+  // Every sport the table's own |title= names. Length > 1 means a combined table
+  // (e.g. "Kun Khmer and Kickboxing record") whose record counts for each sport.
+  sports: SportKey[]
   sectionSport: SportKey | null
   sectionTitle: string | null
   block: string
@@ -802,24 +824,32 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     const recMatch = blockText.match(/\|record\s*=\s*([^\n]+)/i)
     if (recMatch && recMatch[1].trim()) recordSummary = recMatch[1].replace(/\|\s*$/, '').trim()
 
-    let sport = detectSport(title)
+    // A combined |title= ("Kun Khmer and Kickboxing record") names every sport the
+    // table covers. Detect them all so the record is credited to each one.
+    let sports = detectSports(title)
+    let sport: SportKey | null = sports[0] ?? null
     const sectionHeader = headers.filter(h => h.index < mIndex).slice(-1)[0]
     const sectionTitle = sectionHeader ? sectionHeader.title : null
     const sectionSport = sectionTitle ? detectSport(sectionTitle) : null
-    if (!sport) {
-      if (sectionTitle) sport = sectionSport
+    if (sports.length === 0) {
+      if (sectionTitle && sectionSport) {
+        sport = sectionSport
+        sports = [sectionSport]
+      }
     }
-    if (!sport) {
+    if (sports.length === 0) {
       // Combined "Kickboxing / Muay Thai record" style titles: blacklist MMA-only sections
       if (!/\bmixed martial arts record\b/i.test(title)) {
-        sport = detectSport(title.replace(/record\b/gi, '')) ?? null
+        const stripped = title.replace(/record\b/gi, '')
+        sport = detectSport(stripped) ?? null
+        if (sport) sports = [sport]
       }
     }
 
     // Skip amateur / exhibition / invitational record tables — rankings need professional records
     if (/\b(amateur|exhibition|invitational)\b/i.test(title ?? '')) continue
 
-    matches.push({ index: m.index, sport, sectionSport, sectionTitle, block: blockText, title, recordSummary })
+    matches.push({ index: m.index, sport, sports, sectionSport, sectionTitle, block: blockText, title, recordSummary })
   }
 
   // Single, sport-unresolved record table on a non-MMA page: attribute it to the
@@ -827,6 +857,7 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
   // Khmer but whose table just says generic "Fight record").
   if (matches.length === 1 && !matches[0].sport && styleSport && !hasMmaSignal) {
     matches[0].sport = styleSport
+    matches[0].sports = [styleSport]
   }
 
   return matches
@@ -947,7 +978,11 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
         rec = { ...rec, kos: rowRec.kos }
       }
     }
-    addRecord(table.sport, rec)
+    // Credit the record to every sport the table's own title names. Combined
+    // tables ("Kun Khmer and Kickboxing record") count for each sport they cover,
+    // so a Kun Khmer fighter with a combined table also surfaces in kickboxing.
+    for (const key of table.sports) addRecord(key, rec)
+    if (table.sports.length === 0) addRecord(table.sport, rec)
     if (
       rec && table.sectionSport && table.sport &&
       table.sectionSport !== table.sport &&

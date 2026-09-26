@@ -41,11 +41,6 @@ const MAX_WINS: Partial<Record<SportKey, number>> = {
   boxing: 384,
 }
 
-// Hard cap on total fighters (including seniors) that a sport list can contain.
-const SPORT_MAX_LEN: Partial<Record<SportKey, number>> = {
-  kickboxing: 68,
-}
-
 // Minimum thirdary score (wins/losses, or wins if undefeated) for inclusion.
 const MMA_MIN_SCORE = 6.7
 const MIN_SCORE: Partial<Record<SportKey, number>> = {
@@ -117,7 +112,6 @@ function buildSportRanking(
 
   const ranked: BoxerRecord[] = []
   let nonSeniorCount = 0
-  const maxLen = SPORT_MAX_LEN[key]
   const hasMinScore = MIN_SCORE[key] !== undefined
   for (let i = 0; i < scored.length; i++) {
     const f = scored[i]
@@ -133,7 +127,6 @@ function buildSportRanking(
     // Only apply the 50-fighter cap for sports without a minimum score —
     // sports with a MIN_SCORE use the score filter as their natural bound.
     if (!hasMinScore && nonSeniorCount >= 50) break
-    if (maxLen !== undefined && ranked.length >= maxLen) break
   }
   return ranked
 }
@@ -319,6 +312,21 @@ async function main() {
     // Merge MMA fighters' records into sportRecords so buildSportRanking can find them
     for (const [name, record] of allRecords) {
       if (record && !sportRecords.has(name)) sportRecords.set(name, record)
+    }
+
+    // Cross-sport pollination: a fighter's parsed records — not the category they
+    // happened to be discovered in — decide which sport rankings they belong to.
+    // The injection loop above can only see MMA fighters, because sport records
+    // aren't fetched until now. Re-run it over every fighter we know about so a
+    // Kun Khmer athlete whose record table also declares kickboxing is ranked in
+    // kickboxing, and so on for every other sport.
+    for (const [name, record] of sportRecords) {
+      if (!record?.sportRecords) continue
+      for (const key of SPORT_KEYS) {
+        if (record.sportRecords[key] && !sportPages[key].has(name)) {
+          sportPages[key].set(name, sportGenders.get(name) ?? pageMap.get(name) ?? 'male')
+        }
+      }
     }
 
     const nowSport = new Date()
