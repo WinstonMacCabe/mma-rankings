@@ -4,6 +4,7 @@ import { execSync } from 'child_process'
 import nodemailer from 'nodemailer'
 import type { BoxerRecord } from '../lib/types'
 import { renderEmailHtml, type EmailSection } from './email-html'
+import { orderMoves, rankMoves, type RankMove } from '../lib/rank-moves'
 
 const FIGHTS_FILE = path.join(process.cwd(), 'public', 'data', 'upcoming-fights.json')
 const RANKINGS_FILE = path.join(process.cwd(), 'public', 'data', 'rankings.json')
@@ -161,8 +162,9 @@ async function main() {
     }
   }
 
-  // 3. Ranking changes — new and departed fighters
+  // 3. Ranking changes — promotions and drops, then new and departed fighters
   let rankingsChanged = false
+  const moves: RankMove[] = []
   if (curRankings && prevRankings) {
     const bestDiff = diffRankings(curRankings.fighters ?? [], prevRankings.fighters ?? [])
     const worstDiff = diffRankings(curRankings.worst ?? [], prevRankings.worst ?? [])
@@ -173,6 +175,33 @@ async function main() {
 
     const addedNames = [...new Map(allAdded.map(f => [f.name, f])).values()]
     const removedNames = [...new Map(allRemoved.map(f => [f.name, f])).values()]
+
+    // Featured lists, then every per-sport list.
+    const rankedLists: { key: 'fighters' | 'worst' | 'thirdary'; label: string }[] = [
+      { key: 'fighters', label: 'Best' },
+      { key: 'worst', label: 'Worst' },
+      { key: 'thirdary', label: 'Thirdary' },
+    ]
+    for (const { key, label } of rankedLists) {
+      moves.push(...rankMoves(curRankings[key] ?? [], prevRankings[key] ?? [], label))
+    }
+    if (curRankings.sports && prevRankings.sports) {
+      for (const [sport, list] of Object.entries(curRankings.sports)) {
+        moves.push(...rankMoves(list, prevRankings.sports[sport] ?? [], SPORT_LABELS[sport] || sport))
+      }
+    }
+
+    if (moves.length > 0) {
+      rankingsChanged = true
+      sections.push({
+        heading: `Rank Changes (${moves.length})`,
+        rows: orderMoves(moves).map(m => ({
+          label: m.name,
+          text: `${m.record} · ${m.delta < 0 ? 'up' : 'down'} ${Math.abs(m.delta)} to #${m.to}`,
+          sub: m.list,
+        })),
+      })
+    }
 
     if (addedNames.length > 0) {
       rankingsChanged = true
@@ -216,6 +245,7 @@ async function main() {
 
   const subject = [
     newScheduled.length > 0 ? `${newScheduled.length} new scheduled fight${newScheduled.length === 1 ? '' : 's'}` : null,
+    moves.length > 0 ? `${moves.length} rank change${moves.length === 1 ? '' : 's'}` : null,
     rankingsChanged ? 'rankings updated' : null,
   ].filter(Boolean).join(', ')
 
