@@ -1,19 +1,69 @@
 {
-  "lastUpdated": "2026-09-26T00:42:17.607Z",
+  "lastUpdated": "2026-09-26T16:30:45.068Z",
   "fights": [
+    {
+      "boxerName": "Rodolfo Vieira",
+      "sport": "brazilian jiu jitsu",
+      "headline": "Rodolfo Vieira - Robert Brychek: betting tip (cf 2.24) and bets for the UFC fight on September 27, 2026 - Liontips",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUDZnNlVOWTZvUWVYdlh1ZHJxV3B1dkN3MjdQN285QVBFNnFzc0hnd3c0Nzg4ZHNPNGdDbXBjTEtXYmZkY0FuY181ZE5ocXV1SEE0RjVaX0g3ZHA4bk9CTzloQ2xOZ05MektCRXJvZlcwVWp1RmZ5NHBXMzlGdm1JeUI3UWJVQ2I5Q1hXdTFla3lIc0FlcWdMYTZsQk45TmgyVm5nUVFGRHg2XzE5WlNIWEhpU3lNV3BXTnJTcTY3S3ZSa3BlYUVtc2pn?oc=5",
+      "source": "Liontips",
+      "publishedAt": "2026-09-25T10:52:45.000Z",
+      "date": "2026-09-27",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:39:19.235Z"
+    },
+    {
+      "boxerName": "Magomed Ankalaev",
+      "sport": "mma",
+      "headline": "Magomed Ankalaev offers to ‘stand and bang’ with Paulo Costa in October - MMA Mania",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNanN6cEJoTTYzRVVSeEVwMlBmM1E3QTVJaUE2cHJtdXM0X1VOSnBjX1VlUlVCaFlZY28ycmtvNkZQX3I0S1N4YkFRdHpOUXVaUF9halJyNEs0akFhbEFCQ3REZWMzUTdnTnNpbERmcWQ5WUF1ZVZoS2pJMHp4cDBQQkVWM3BJY2swR0dsTGdjcnBuY0hmQXVGUnBjSzEzV2pjcXhzT3lEaWpfT1NlMmpz?oc=5",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-26T07:00:00.000Z",
+      "date": "2026-10",
+      "granularity": "month",
+      "confidence": "low",
+      "detectedAt": "2026-09-26T16:31:59.515Z"
+    },
+    {
+      "boxerName": "Dricus du Plessis",
+      "sport": "mma",
+      "headline": "Brendan Allen calls out Dricus Du Plessis for October fight - boxingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wZ2t4MEZxeUxYdzdkN0dkMzJxaERjZlJlNDBRcFVlblpYN1c0N0RrTTFLc3B5RkNwb2lUNDluZ2JDbVBJV2hPNnRaQ1A4dTJBTVJ3bHp2R2lONWI1RjMwQWo2eERGSTZRVHdWcGR1Y05rUDd5LW42bQ?oc=5",
+      "source": "boxingnews.com",
+      "publishedAt": "2026-07-21T07:00:00.000Z",
+      "date": "2026-10",
+      "granularity": "month",
+      "confidence": "low",
+      "detectedAt": "2026-09-26T16:32:50.272Z"
+    },
+    {
+      "boxerName": "Mike Malott",
+      "sport": "mma",
+      "headline": "Joaquin Buckley vs Mike Malott headlines UFC Edmonton in October - Fightmag",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkFDU3BRUy1teGNmYVRiR21mM1pReXBtaGM2LUVaSlVYUWlfMnp0blB5Y3o2cEZ6U294NFZMa1NRb0Qxb3NFR2xORF95NUFJTW82WFotbHNISmJnY1lhbWNNbTJ6THQ0Y0h5VkNZcXFjeE5uRDBtbXdBNGZ2ajF0ZlhFemt3bWpMbmRGMWJnWGotdFhX?oc=5",
+      "source": "Fightmag",
+      "publishedAt": "2026-07-29T07:00:00.000Z",
+      "date": "2026-10",
+      "granularity": "month",
+      "matchup": "Joaquin Buckley vs Mike Malott",
+      "opponent": "Joaquin Buckley",
+      "confidence": "low",
+      "detectedAt": "2026-09-26T16:33:16.425Z"
+    },
     {
       "boxerName": "Arman Tsarukyan",
       "sport": "mma",
       "headline": "Tsarukyan is scheduled to face Dillon Danis for the inaugural RAF Middleweight Crossover Championship on October 3, 2026 at RAF 14.",
       "url": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:44:16.024Z",
+      "publishedAt": "2026-09-26T16:32:44.113Z",
       "date": "2026-10-03",
       "granularity": "day",
       "matchup": "Arman Tsarukyan vs Dillon Danis",
       "opponent": "Dillon Danis",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:44:16.024Z"
+      "detectedAt": "2026-09-26T16:32:44.113Z"
     },
     {
       "boxerName": "Valentina Shevchenko",
@@ -21,11 +71,11 @@
       "headline": "Shevchenko was scheduled to defend her title against Natália Silva on October 3, 2026 at UFC 332.",
       "url": "https://en.wikipedia.org/wiki/Valentina_Shevchenko",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:45:27.448Z",
+      "publishedAt": "2026-09-26T16:33:54.099Z",
       "date": "2026-10-03",
       "granularity": "day",
       "confidence": "low",
-      "detectedAt": "2026-09-26T00:45:27.448Z"
+      "detectedAt": "2026-09-26T16:33:54.099Z"
     },
     {
       "boxerName": "Buakaw Banchamek",
@@ -33,13 +83,13 @@
       "headline": "Buakaw Banchamek — scheduled vs Meng Gaofeng",
       "url": "https://en.wikipedia.org/wiki/Buakaw_Banchamek",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:46:24.752Z",
+      "publishedAt": "2026-09-26T16:34:51.731Z",
       "date": "2026-10-03",
       "granularity": "day",
       "matchup": "Buakaw Banchamek vs Meng Gaofeng",
       "opponent": "Meng Gaofeng",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:46:24.752Z"
+      "detectedAt": "2026-09-26T16:34:51.731Z"
     },
     {
       "boxerName": "Tatsuro Taira",
@@ -47,11 +97,25 @@
       "headline": "Tatsuro Taira on Meta Apex (2026-10-10)",
       "url": "https://en.wikipedia.org/wiki/UFC_Apex",
       "source": "Wikipedia (List of UFC events)",
-      "publishedAt": "2026-09-26T00:44:00.957Z",
+      "publishedAt": "2026-09-26T16:32:28.223Z",
       "date": "2026-10-10",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:44:00.957Z"
+      "detectedAt": "2026-09-26T16:32:28.223Z"
+    },
+    {
+      "boxerName": "Mike Malott",
+      "sport": "mma",
+      "headline": "Oh, Canada! Joaquin Buckley vs. Mike Malott headlines UFC Edmonton on Oct. 17 - MMA Mania",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS0JCcWtTSHhsdFRZalpPSXpZX2VBOFlxS0lHT210YU9LcTRwcmZUZFF3X0JSRElCbm1pT1JCNGlWdmE4UXB2bjdzUkNkNXVlUlBPeTM1ejVOOER2dFBONU9CeGlMLTNWQkd3bFRTZE9Qa29EckdJOWJIaG1MRU9veVdHTHdBRHUyejJEUzJEMnJLajlTRUVRUUdOQk1paG1nM0EzQzlfT3RGVHB5Q293UFZ2ZUxPNDBSZHRxcmRTek5uUG1qcFpTbQ?oc=5",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-28T07:00:00.000Z",
+      "date": "2026-10-17",
+      "granularity": "day",
+      "matchup": "Canada! Joaquin Buckley vs Mike Malott",
+      "opponent": "Canada! Joaquin Buckley",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:33:16.425Z"
     },
     {
       "boxerName": "Mike Malott",
@@ -59,13 +123,13 @@
       "headline": "Malott is scheduled to face Joaquin Buckley in the main event on October 17, 2026 at UFC Fight Night 291.",
       "url": "https://en.wikipedia.org/wiki/Mike_Malott",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:44:50.031Z",
+      "publishedAt": "2026-09-26T16:33:17.323Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Mike Malott vs Joaquin Buckley",
       "opponent": "Joaquin Buckley",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:44:50.031Z"
+      "detectedAt": "2026-09-26T16:33:17.323Z"
     },
     {
       "boxerName": "Sofian Laidouni",
@@ -73,11 +137,11 @@
       "headline": "Sofian Laidouni — scheduled vs TBD",
       "url": "https://en.wikipedia.org/wiki/Sofian_Laidouni",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:47:32.601Z",
+      "publishedAt": "2026-09-26T16:35:58.870Z",
       "date": "2026-10-17",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-09-26T00:47:32.601Z"
+      "detectedAt": "2026-09-26T16:35:58.870Z"
     },
     {
       "boxerName": "Nabil Anane",
@@ -85,13 +149,13 @@
       "headline": "Nabil Anane — scheduled vs Yuki Yoza",
       "url": "https://en.wikipedia.org/wiki/Nabil_Anane",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:47:52.290Z",
+      "publishedAt": "2026-09-26T16:36:19.345Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Nabil Anane vs Yuki Yoza",
       "opponent": "Yuki Yoza",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:47:52.290Z"
+      "detectedAt": "2026-09-26T16:36:19.345Z"
     },
     {
       "boxerName": "Jonathan Haggerty",
@@ -99,13 +163,27 @@
       "headline": "Jonathan Haggerty — scheduled vs Hiroki Akimoto",
       "url": "https://en.wikipedia.org/wiki/Jonathan_Haggerty",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:48:19.327Z",
+      "publishedAt": "2026-09-26T16:36:49.327Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Jonathan Haggerty vs Hiroki Akimoto",
       "opponent": "Hiroki Akimoto",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:48:19.327Z"
+      "detectedAt": "2026-09-26T16:36:49.327Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "sport": "mma",
+      "headline": "‘Ruthless’ returns! Khamzat Chimaev vs. Robbie Lawler booked for Oct. 23 in Las Vegas - MMA Mania",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRUNiNTY1ODZSM1E0cG1POGFQT2Zod2dIRVVOeVE3Ulo5MExyX05uUzlWcmEzOElLR0VkVjRWcFlHV1B2REdsRGNsM0o2RUJvcnVBYW9DVFhtTGNfd1JmV3hWR1Y1QU1saWszdlZmajc0Q3phVFhIM295UjRrQnJRQ3c4Y2ZYbHdycUVPLVpoX2VoUGhkQ1Z3MUZrbU9WR0oyR2pyMGZxbjJsc2lRMWc0MHRqdFlmWnVQa3VQeWF4eWtHTTJRWXhVT09OSnc2d0ZBQkF4QjlvSi0yYlBVNk54Qw?oc=5",
+      "source": "MMA Mania",
+      "publishedAt": "2026-09-23T18:09:26.000Z",
+      "date": "2026-10-23",
+      "granularity": "day",
+      "matchup": "Khamzat Chimaev vs Robbie Lawler",
+      "opponent": "Robbie Lawler",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:31:27.568Z"
     },
     {
       "boxerName": "Khamzat Chimaev",
@@ -113,27 +191,27 @@
       "headline": "Chimaev is scheduled to face Robbie Lawler in the co-main event on 23 October 2026 at RAF 14.",
       "url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:43:01.601Z",
+      "publishedAt": "2026-09-26T16:31:28.958Z",
       "date": "2026-10-23",
       "granularity": "day",
       "matchup": "Khamzat Chimaev vs Robbie Lawler",
       "opponent": "Robbie Lawler",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:43:01.601Z"
+      "detectedAt": "2026-09-26T16:31:28.958Z"
     },
     {
-      "boxerName": "Khamzat Chimaev",
-      "sport": "mma",
-      "headline": "‘Ruthless’ returns! Khamzat Chimaev vs. Robbie Lawler booked for Oct. 23 in Las Vegas - mmamania.com",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRUNiNTY1ODZSM1E0cG1POGFQT2Zod2dIRVVOeVE3Ulo5MExyX05uUzlWcmEzOElLR0VkVjRWcFlHV1B2REdsRGNsM0o2RUJvcnVBYW9DVFhtTGNfd1JmV3hWR1Y1QU1saWszdlZmajc0Q3phVFhIM295UjRrQnJRQ3c4Y2ZYbHdycUVPLVpoX2VoUGhkQ1Z3MUZrbU9WR0oyR2pyMGZxbjJsc2lRMWc0MHRqdFlmWnVQa3VQeWF4eWtHTTJRWXhVT09OSnc2d0ZBQkF4QjlvSi0yYlBVNk54Qw?oc=5",
-      "source": "mmamania.com",
-      "publishedAt": "2026-09-23T18:09:26.000Z",
+      "boxerName": "Pat Downey (wrestler)",
+      "sport": "wrestling",
+      "headline": "Pat Downey vs. Magomed Magomedkerimov Announced For RAF 14 On October 23 - MiddleEasy",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmJBb3N2NGZWLUdJX0QwMXkzVHh0R2VPdnNpWFdYaFNJeURNS0E2WFBZckM3MnAwc3FLWFBfX2QwaDZDb2p5a3BlZjkzYWtSTUJVU1hBcGkycHR3LUZUYnJpWk05Zk5QdXFPQ2U0ZmlJWjE1RkxhSXJwd1RwMzJJMWVaeVZsMXVnYzRsLQ?oc=5",
+      "source": "MiddleEasy",
+      "publishedAt": "2026-09-22T14:07:09.000Z",
       "date": "2026-10-23",
       "granularity": "day",
-      "matchup": "Khamzat Chimaev vs Robbie Lawler",
-      "opponent": "Robbie Lawler",
+      "matchup": "Pat Downey vs Magomed Magomedkerimov",
+      "opponent": "Magomed Magomedkerimov",
       "confidence": "high",
-      "detectedAt": "2026-09-25T00:44:38.100Z"
+      "detectedAt": "2026-09-26T16:38:48.629Z"
     },
     {
       "boxerName": "Movsar Evloev",
@@ -141,13 +219,13 @@
       "headline": "Evloev is scheduled to challenge for the UFC Featherweight Championship against two-time champion Alexander Volkanovski on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Movsar_Evloev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:42:29.805Z",
+      "publishedAt": "2026-09-26T16:30:57.406Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Movsar Evloev vs Alexander Volkanovski",
       "opponent": "Alexander Volkanovski",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:42:29.805Z"
+      "detectedAt": "2026-09-26T16:30:57.406Z"
     },
     {
       "boxerName": "Nurullo Aliev",
@@ -155,13 +233,13 @@
       "headline": "Aliev is scheduled to face Grant Dawson on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Nurullo_Aliev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:43:21.481Z",
+      "publishedAt": "2026-09-26T16:31:49.191Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Nurullo Aliev vs Grant Dawson",
       "opponent": "Grant Dawson",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:43:21.481Z"
+      "detectedAt": "2026-09-26T16:31:49.191Z"
     },
     {
       "boxerName": "Alexander Volkanovski",
@@ -169,11 +247,11 @@
       "headline": "Alexander Volkanovski on UFC 333: Volkanovski vs. Evloev (2026-10-24)",
       "url": "https://en.wikipedia.org/wiki/UFC_333",
       "source": "Wikipedia (List of UFC events)",
-      "publishedAt": "2026-09-26T00:44:56.987Z",
+      "publishedAt": "2026-09-26T16:33:24.415Z",
       "date": "2026-10-24",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:44:56.987Z"
+      "detectedAt": "2026-09-26T16:33:24.415Z"
     },
     {
       "boxerName": "Aaron Pico",
@@ -181,13 +259,37 @@
       "headline": "Pico was scheduled to face Arnold Allen on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Aaron_Pico",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:50:02.888Z",
+      "publishedAt": "2026-09-26T16:38:40.119Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Aaron Pico vs Arnold Allen",
       "opponent": "Arnold Allen",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:50:02.888Z"
+      "detectedAt": "2026-09-26T16:38:40.119Z"
+    },
+    {
+      "boxerName": "Khamzat Chimaev",
+      "sport": "mma",
+      "headline": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkplWkVUV2JnRDQ1RnB6YlNJclVIM3Nscm5RRmQ1WEg4a3o2Yzc2TjlLOW9PY2pvRmtFMDMtUmpOSjVjYzdDZ2FoWGk5N0NVSkwwYUZRLTA3anZwOGs0OWVzd2Jsb05IXzRXNzQ5TnVEdXdlU0tnQXdMS0t6MHBBM2VQOEUzRExHZHc?oc=5",
+      "source": "Yahoo Sports",
+      "publishedAt": "2026-09-21T12:50:15.000Z",
+      "date": "2026-11",
+      "granularity": "month",
+      "confidence": "low",
+      "detectedAt": "2026-09-26T16:31:27.568Z"
+    },
+    {
+      "boxerName": "Cain Velasquez",
+      "sport": "wrestling",
+      "headline": "Report: UFC legends Cain Velasquez, Frank Mir set to battle at AIGA event in November - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0dGdkg4Z1JLSDJrWTZQTDdhemh1RjFhZGwtM3NuM1RpNHFXOFdFRDBHWEpVZS1MTHRPRUZ6ekE2YmFQcTl6YTBhUUxGbzhlWVppckEzRlU3aURWbnVKcnEwWGdaRXQ2UFFJekFaLVhTSFp1V0NUT1FNaDNXNjBqQnhyVVBicXVEZ2c?oc=5",
+      "source": "Yahoo Sports",
+      "publishedAt": "2026-09-23T22:18:22.000Z",
+      "date": "2026-11",
+      "granularity": "month",
+      "confidence": "low",
+      "detectedAt": "2026-09-26T16:38:56.520Z"
     },
     {
       "boxerName": "Kayla Harrison",
@@ -202,42 +304,18 @@
       "detectedAt": "2026-09-26T00:42:39.967Z"
     },
     {
-      "boxerName": "Khamzat Chimaev",
-      "sport": "mma",
-      "headline": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkplWkVUV2JnRDQ1RnB6YlNJclVIM3Nscm5RRmQ1WEg4a3o2Yzc2TjlLOW9PY2pvRmtFMDMtUmpOSjVjYzdDZ2FoWGk5N0NVSkwwYUZRLTA3anZwOGs0OWVzd2Jsb05IXzRXNzQ5TnVEdXdlU0tnQXdMS0t6MHBBM2VQOEUzRExHZHc?oc=5",
-      "source": "Yahoo Sports",
-      "publishedAt": "2026-09-21T12:50:15.000Z",
-      "date": "2026-11",
-      "granularity": "month",
-      "confidence": "low",
-      "detectedAt": "2026-09-26T00:43:00.156Z"
-    },
-    {
-      "boxerName": "Cain Velasquez",
-      "sport": "wrestling",
-      "headline": "Report: UFC legends Cain Velasquez, Frank Mir set to battle at AIGA event in November - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0dGdkg4Z1JLSDJrWTZQTDdhemh1RjFhZGwtM3NuM1RpNHFXOFdFRDBHWEpVZS1MTHRPRUZ6ekE2YmFQcTl6YTBhUUxGbzhlWVppckEzRlU3aURWbnVKcnEwWGdaRXQ2UFFJekFaLVhTSFp1V0NUT1FNaDNXNjBqQnhyVVBicXVEZ2c?oc=5",
-      "source": "Yahoo Sports",
-      "publishedAt": "2026-09-23T22:18:22.000Z",
-      "date": "2026-11",
-      "granularity": "month",
-      "confidence": "low",
-      "detectedAt": "2026-09-26T00:50:19.443Z"
-    },
-    {
       "boxerName": "Tatiana Suarez",
       "sport": "mma",
       "headline": "Suarez has been re-scheduled to face Virna Jandiroba on November 7, 2026 at UFC Fight Night 293.",
       "url": "https://en.wikipedia.org/wiki/Tatiana_Suarez",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:43:25.367Z",
+      "publishedAt": "2026-09-26T16:31:52.717Z",
       "date": "2026-11-07",
       "granularity": "day",
       "matchup": "Tatiana Suarez vs Virna Jandiroba",
       "opponent": "Virna Jandiroba",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:43:25.367Z"
+      "detectedAt": "2026-09-26T16:31:52.717Z"
     },
     {
       "boxerName": "Rodtang Jitmuangnon",
@@ -245,13 +323,13 @@
       "headline": "Rodtang Jitmuangnon — scheduled vs Nong-O Hama",
       "url": "https://en.wikipedia.org/wiki/Rodtang_Jitmuangnon",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:47:45.335Z",
+      "publishedAt": "2026-09-26T16:36:12.308Z",
       "date": "2026-11-13",
       "granularity": "day",
       "matchup": "Rodtang Jitmuangnon vs Nong-O Hama",
       "opponent": "Nong-O Hama",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:47:45.335Z"
+      "detectedAt": "2026-09-26T16:36:12.308Z"
     },
     {
       "boxerName": "Kayla Harrison",
@@ -259,11 +337,11 @@
       "headline": "Kayla Harrison on UFC 334: Gane vs. Hokit (2026-11-14)",
       "url": "https://en.wikipedia.org/wiki/UFC_334",
       "source": "Wikipedia (List of UFC events)",
-      "publishedAt": "2026-09-26T00:42:45.131Z",
+      "publishedAt": "2026-09-26T16:31:13.008Z",
       "date": "2026-11-14",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:42:45.131Z"
+      "detectedAt": "2026-09-26T16:31:13.008Z"
     },
     {
       "boxerName": "Josh Hokit",
@@ -271,13 +349,13 @@
       "headline": "Hokit is scheduled to face Ciryl Gane for the UFC Heavyweight Championship on November 14, 2026 at UFC 334.",
       "url": "https://en.wikipedia.org/wiki/Josh_Hokit",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:43:35.184Z",
+      "publishedAt": "2026-09-26T16:32:01.615Z",
       "date": "2026-11-14",
       "granularity": "day",
       "matchup": "Josh Hokit vs Ciryl Gane",
       "opponent": "Ciryl Gane",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:43:35.184Z"
+      "detectedAt": "2026-09-26T16:32:01.615Z"
     },
     {
       "boxerName": "Caio Borralho",
@@ -285,13 +363,13 @@
       "headline": "Borralho is scheduled to face Yousri Belgaroui on November 14, 2026 at UFC 334.",
       "url": "https://en.wikipedia.org/wiki/Caio_Borralho",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:43:58.783Z",
+      "publishedAt": "2026-09-26T16:32:26.394Z",
       "date": "2026-11-14",
       "granularity": "day",
       "matchup": "Caio Borralho vs Yousri Belgaroui",
       "opponent": "Yousri Belgaroui",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:43:58.783Z"
+      "detectedAt": "2026-09-26T16:32:26.394Z"
     },
     {
       "boxerName": "Aleksandre Topuria",
@@ -299,11 +377,11 @@
       "headline": "Topuria is scheduled to face Santiago Luna on November 21, 2026 at UFC Fight Night 294.",
       "url": "https://en.wikipedia.org/wiki/Aleksandre_Topuria",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-26T00:44:41.163Z",
+      "publishedAt": "2026-09-26T16:33:08.113Z",
       "date": "2026-11-21",
       "granularity": "day",
       "confidence": "low",
-      "detectedAt": "2026-09-26T00:44:41.163Z"
+      "detectedAt": "2026-09-26T16:33:08.113Z"
     },
     {
       "boxerName": "Pich Sambath",
@@ -311,11 +389,11 @@
       "headline": "Pich Sambath — scheduled vs TBD",
       "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:52:18.822Z",
+      "publishedAt": "2026-09-26T16:40:56.692Z",
       "date": "2026-12-12",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-09-26T00:52:18.823Z"
+      "detectedAt": "2026-09-26T16:40:56.692Z"
     },
     {
       "boxerName": "Saenchai",
@@ -323,11 +401,11 @@
       "headline": "Saenchai on K-1 World MAX 2026 -70kg World Championship Tournament Final (2026-12-29)",
       "url": "https://en.wikipedia.org/wiki/2026_in_K-1%23K-1_World_MAX_2026_-70kg_World_Championship_Tournament_Final",
       "source": "Wikipedia (List of K-1 events)",
-      "publishedAt": "2026-09-26T00:47:41.781Z",
+      "publishedAt": "2026-09-26T16:36:08.348Z",
       "date": "2026-12-29",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:47:41.781Z"
+      "detectedAt": "2026-09-26T16:36:08.348Z"
     },
     {
       "boxerName": "Lorn Panha",
@@ -335,11 +413,11 @@
       "headline": "Lorn Panha — scheduled vs TBD",
       "url": "https://en.wikipedia.org/wiki/Lorn_Panha",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-26T00:52:19.564Z",
+      "publishedAt": "2026-09-26T16:40:57.467Z",
       "date": "2026-12-29",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-09-26T00:52:19.564Z"
+      "detectedAt": "2026-09-26T16:40:57.467Z"
     },
     {
       "boxerName": "Ciryl Gane",
@@ -351,7 +429,7 @@
       "date": "2027-01",
       "granularity": "month",
       "confidence": "low",
-      "detectedAt": "2026-09-26T00:44:46.569Z"
+      "detectedAt": "2026-09-26T16:33:12.572Z"
     },
     {
       "boxerName": "Mike Perry (fighter)",
@@ -363,7 +441,7 @@
       "date": "2027-02",
       "granularity": "month",
       "confidence": "low",
-      "detectedAt": "2026-09-26T00:52:34.746Z"
+      "detectedAt": "2026-09-26T16:41:12.473Z"
     },
     {
       "boxerName": "Mahmoud Sattari",
@@ -371,11 +449,195 @@
       "headline": "Mahmoud Sattari on K-1 World GP 2027 -90kg World Championship Tournament Final (2027-05-09)",
       "url": "https://en.wikipedia.org/wiki/2027_in_K-1%23K-1_World_GP_2027_-90kg_World_Championship_Tournament_Final",
       "source": "Wikipedia (List of K-1 events)",
-      "publishedAt": "2026-09-26T00:48:33.169Z",
+      "publishedAt": "2026-09-26T16:37:02.756Z",
       "date": "2027-05-09",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-09-26T00:48:33.169Z"
+      "detectedAt": "2026-09-26T16:37:02.756Z"
+    },
+    {
+      "boxerName": "Asu Almabayev",
+      "sport": "mma",
+      "headline": "Asu Almabayev vs Charles Johnson Prediction, Picks, Odds for UFC Baku (Saturday June 27) - actionnetwork.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3B0alFXaDR2MzEwOWNqT1ZiWFlDb1IwYU5adEJuZnJrU2RPSldNZ2FIZUxmWW5EZUluQVVITEVhblh5cjFfeEl0UGthYkxELUNPU1U5WU5URS1LWG9weW5pYzFwd3RVX2dWYThSaUFrblpWOGY0Nk5tYnZXQ3B6YWVOR21xaTFpZlN0YkxmX3ZoWk94bEEzM2lESDY3SnBVanVlbWt1MS1ORjJBUkpYalZZeFR3MnJ2aGc?oc=5",
+      "source": "actionnetwork.com",
+      "publishedAt": "2026-06-26T07:00:00.000Z",
+      "date": "2027-06-27",
+      "granularity": "day",
+      "matchup": "Asu Almabayev vs Charles Johnson Prediction,",
+      "opponent": "Charles Johnson Prediction,",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:32:52.248Z"
+    },
+    {
+      "boxerName": "Tenshin Nasukawa",
+      "sport": "kickboxing",
+      "headline": "Ryujin Nasukawa Debuts Against Thongpoon In Strawweight Kickboxing Fight At The Inner Circle 23 On July 24 - ONE Championship",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTnhfWTAySnRxMU4tOGRWaXBEcHBKNmMwZ1YzRzkxS21mY0plLXVqU1ZuX1RYUEQzeTcwYkN1VTBnS1dISVl5X1FMZWRXcy01R2JTcUNTN2M4R2syYTlsSmNaVUkyUkxoR2U1MTR5V3VhS0prVE9lMkU4ZG92NFFtcnFGS254cWN4Y3FFQkdtU2EtQ3JHU0prR1hEX3pmR1dJU1J6WUo5dEdUX3RBc2d3UUZJcGFuMmNLaDlpYjI4WWl2TGFkdWt0ekl1eFJyc1k?oc=5",
+      "source": "ONE Championship",
+      "publishedAt": "2026-06-24T07:00:00.000Z",
+      "date": "2027-07-24",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:33:26.974Z"
+    },
+    {
+      "boxerName": "Magomed Ankalaev",
+      "sport": "mma",
+      "headline": "Magomed Ankalaev vs. Bogdan Guskov Prediction, Picks, Odds for UFC Abu Dhabi on Saturday, July 25 - actionnetwork.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmRVTmFiTk9ia215U09tV0hyYVRDNThIVUJmVGdMLVN0akduSjlLa1E0YWNjOGN6T0NPQUswMVVVUDdrZFpyV1FOcDZyd1o3dE9XM0NHTU94dzF4ZG9TRUMyOVBtZUgyaTZaY290ZDlwZnZ3anZfUUxaN043OHhjenNzQkxiai01SVFsalZVaVNzLU1MX1ppNFZMZHZvYnVSbmpIVjVxbnZwbmZHMld2TDQ1UUZkRlYxeXozeHdBRFpvdTVLSnc?oc=5",
+      "source": "actionnetwork.com",
+      "publishedAt": "2026-07-31T07:00:00.000Z",
+      "date": "2027-07-25",
+      "granularity": "day",
+      "matchup": "Magomed Ankalaev vs Bogdan Guskov Prediction,",
+      "opponent": "Bogdan Guskov Prediction,",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:31:59.515Z"
+    },
+    {
+      "boxerName": "Magomed Zaynukov",
+      "sport": "mma",
+      "headline": "Magomed Zaynukov vs Damian Rzepecki Prediction, Betting Pick, Latest UFC Odds for Saturday, July 25th in Abu Dhabi - Oddschecker",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUG1ackxyM1BCd0JoUVhSaGxaRlBCbVNXOWVxeTZrMjhZMWdFYVVZOWpGQVktZUdWSi0zTVlGSTdzaGcwcVJJUHhQc0FabnliOE5idnh1akpkMEZCeXNGWWVSOHIxYlFfTktyelZPc1Z3LTJUZ1JFaXpSOU9pcTNhQlY1bGtjeE1QQmJtd1BLX0pwUV9hMTRmQTY0cWJpckdZVTJzcU4wdGw3a1VzUHNaRG9yMndhY1VRblRiM1ZQeW45TEROazM4NVZWZi1pVnk5S0h4ODFOaTFCY3ZXbFFsdFo5eHp6aGI2TVU0VjVwTTlxVUNLbkNTSXhEZU9Ic3NBdUswUU9Scw?oc=5",
+      "source": "Oddschecker",
+      "publishedAt": "2026-07-25T07:00:00.000Z",
+      "date": "2027-07-25",
+      "granularity": "day",
+      "matchup": "Magomed Zaynukov vs Damian Rzepecki Prediction,",
+      "opponent": "Damian Rzepecki Prediction,",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:32:09.435Z"
+    },
+    {
+      "boxerName": "Sean Brady (fighter)",
+      "sport": "mma",
+      "headline": "Jordan Burroughs to Face UFC's Sean Brady at RAF 12 in August - boxingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VT0pVNGxwaTlVNjh6NkNNOFFTVDlWNXo4N0M1NG9jX1Z2NjdLWTUtakhDdHFkUDVVQm12MEx5dUpUQ3lrVEVqT0plaHBKQVN0Z1NiRlVyeGV0MmE3OXE2NlBxT1J3S2hXMWFsQkFJTQ?oc=5",
+      "source": "boxingnews.com",
+      "publishedAt": "2026-07-04T07:00:00.000Z",
+      "date": "2027-08",
+      "granularity": "month",
+      "confidence": "low",
+      "detectedAt": "2026-09-26T16:32:07.380Z"
+    },
+    {
+      "boxerName": "Salahdine Parnasse",
+      "sport": "mma",
+      "headline": "Salahdine Parnasse vs. Dan Hooker Prediction, Picks, Odds for UFC Paris (Saturday, August 5) - actionnetwork.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeUtEWEg0WTNmN0pBdk9tVERqc25HQ1hoeDZieE9oQ2R3WkstSmJGdV9LNE5vdjVNbWY0R2F5U0RlMmo4ZFJvekF1ZFk3SWNWNlA5OU5ralVwNi1EOGI3dkJsbEFzVnRwR09IaFphM05lTEFac0tkYmRnQnFIcFBUaGRoNW1lMjB0UWpXX2p4ai1tOC1TUmxPZGxrRVNmMWVrRU1Pckk2RUZMMUNWVzJ5TlYtWHJ2ZFJFTmFQcw?oc=5",
+      "source": "actionnetwork.com",
+      "publishedAt": "2026-09-04T07:00:00.000Z",
+      "date": "2027-08-05",
+      "granularity": "day",
+      "matchup": "Salahdine Parnasse vs Dan Hooker Prediction,",
+      "opponent": "Dan Hooker Prediction,",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:31:52.794Z"
+    },
+    {
+      "boxerName": "Michael Morales (fighter)",
+      "sport": "mma",
+      "headline": "Michael Morales Discusses Exciting Aug. 15 Main Event - MMA Sucka",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVRHRjVKTVFPOUhUUFQ5U21HVFZKb2dhVmlYRzk0NDJKNEdkYUs0MnRwSUtwTXU0aVFubDJ0T0xZSk9jV0VWaEVlbk93SlhRanBlbVBxeEpmSVo1ZTVsaWJWRXVEUjM5aERTcXpkdHdUamdVUjFLWDBGbm9EdFRYNE5PVHlYYTdqdFZJX1JSX2RVNnJFMzItLU1wVGZrLS1hWGdiZnpEdW1nM3NYUTlmaTJNNjBMOENxY3pxcFY0bDV5MmJnSlE?oc=5",
+      "source": "MMA Sucka",
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "date": "2027-08-15",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:31:03.543Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "sport": "mma",
+      "headline": "MMA GREAT CRIS CYBORG’S RETIREMENT FIGHT SET AS PROFESSIONAL FIGHTERS LEAGUE ANNOUNCES PFL TAMPA PRESENTED BY VISIT ST. PETE-CLEARWATER ON AUGUST 22 AT BENCHMARK INTERNATIONAL ARENA AGAINST KETLE - pflmma.com",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYUpZOHd1ZUMzUzZHMWV0SmR0MjFtZXRRVDVrN0VuYW5GMmtuZ0xXb1c4QXB2NFdXZHJtZXF6LUx5Z01sbVU4SHE3cUJveEpLUWRtR0pSY1U2RVVoRGFGYU11MC1KN1FfU0hLTnFqTGdBRTdUVUF5QTB1TVJ0U0lvUUY2VUIxRzhESUlHNzRjWV95WGJHTk9MYTJ6OXRoc0NBWkdEMHY0RjVoTVZPZHJMb19aUlptZXFzakU1U094c0VrWEJjaUZtay05MlgwdUVsRV85NldKemltYW1XbjRqWmt4MUZ1dldVX1VXWGNQNUd2VHRBZ1NhX3Y4ZmhrOGwwR3FBZmFfaFVLclg0dnpSRGN1d01hUDYtaTFncDc2d0JRWEk3dms0Ql9KZzR2NEs0eDBnRnVJZzRtemt6YUM5bkRfaDVsV1E?oc=5",
+      "source": "pflmma.com",
+      "publishedAt": "2026-06-25T07:00:00.000Z",
+      "date": "2027-08-22",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:31:28.961Z"
+    },
+    {
+      "boxerName": "Cris Cyborg",
+      "sport": "mma",
+      "headline": "Cris Cyborg farewell fight announced for PFL Tampa on Aug. 22 - Sherdog",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnVYd0R4VnUtVDJlOFhCU21PSTJlSmdDQlBaNmxjcmgxRTBsQ3FKcllGOGZ6X04xMnNhUHZvQ1daYkd4a0Rram9uMWQ1bHo4ZUxoNXpPYU11c1dMZ3VNS3ZEdEQ1dVpPWFVnSmEtOTJuaU9KMjhiSTQtcnl5dlFOZ2pFQW9oNnJmMW51dGxWYmpuQnV5ZXhydUhFdTlyd2FLN2dJ0gGoAUFVX3lxTE9pRXJPbWRJNngzVGdNbW5JY0dzc3NybEdQVVZOUXdpMkZCZUEtdVFQaXJtNEhWN1hPdEdTbF9DUE9OQWhzWGN1dGNzdmlFYzE4VDFBM0dmdEhhZm0wMVMxT2dpSWlMRnJaUWxMNzEySXVHOHllTHd6eHFrZ25JOUxrVVBEcmhRcFJ1bThELTVJU2ZTdC1rQUM2c1VsZG1DczJ4VDlacWJwMg?oc=5",
+      "source": "Sherdog",
+      "publishedAt": "2026-06-24T07:00:00.000Z",
+      "date": "2027-08-22",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:31:28.962Z"
+    },
+    {
+      "boxerName": "Colby Covington",
+      "sport": "freestyle wrestling",
+      "headline": "Bad Blood! Colby Covington vs. Belal Muhammad added to RAF 12 on Aug. 22 - mmamania.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeGQ5YVJVTTdtbDBKR1ZaX1JGbEFXdWtvaVY3ZTBheVNtTDNiUFRtbTFJWGFJQS1wTGk3Skx1aDlyX3lUczE5dDZJRldfcTJCSl9SM3V5ejR4aHA1SHdCN0poUHBJUVR1STJIcmZNYktlbWlMaEhqTmgxTy0yM0JDSk1WRzF0c0dnZFF0Tk05cFFkVkZnT2lRaTVRM3lGUjZzeFpZNDVYMTZOTDhMYUdLR2k0RlNqekVDbWRzRlhsTVlqZUFCSmp2M2FtR29ldEFsNWtlN2N2S2lDcDA?oc=5",
+      "source": "mmamania.com",
+      "publishedAt": "2026-07-19T07:00:00.000Z",
+      "date": "2027-08-22",
+      "granularity": "day",
+      "matchup": "Blood! Colby Covington vs Belal Muhammad",
+      "opponent": "Belal Muhammad",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:38:20.588Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "sport": "mma",
+      "headline": "Umar Nurmagomedov vs. Song Yadong headlines UFC Shanghai on Aug. 29 - MMA Mania",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLXZ1b0JwdHhYZXZrTzZiUHVtWkRpRVY4RUk5eGkyN0t3UXFQRWUzdm1sV0E5RVRxekFkVDVkd1p4RG1aY0xsS0pIcDRuNHZvTWs2ak5FWEtZX2dvcUVqNzBESmFfalJzaFBOeUZ3Y1JkR1NEMWxtaWpWTC1JM2taVkFKOGpZbUJWLUMwS3Z1OTdabm4yZG9KRWFudGs0MWp6X0kwUG0ySjVtbndYNy1QX2FPbTFTakZMcTB1ZXZB?oc=5",
+      "source": "MMA Mania",
+      "publishedAt": "2026-07-01T07:00:00.000Z",
+      "date": "2027-08-29",
+      "granularity": "day",
+      "matchup": "Umar Nurmagomedov vs Song Yadong",
+      "opponent": "Song Yadong",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:32:01.052Z"
+    },
+    {
+      "boxerName": "Umar Nurmagomedov",
+      "sport": "mma",
+      "headline": "Umar Nurmagomedov vs. Song Yadong headlines UFC Shanghai on Aug. 29 - MMA Junkie",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTk42YnprN2NhVHViSVlwbmlSeVNmN0FkU1FEb18tQy1oZjZ6RmpSZ1pqQTQwRVdpbmV1UGRLcTJ4V1YzYmJmMHZXX21GakMtMGpMeDBqSEx4Wmk0MHozSWxZb3BTcHQtMW5sRjBueDc5Q0RIc2FxU0FRYWhRd1FSV0VfQTIxTkN3Z3BZVHFvY0tPQXVkU1VYbkhGb1lqZkJ6V1RETndLMld4Ym9Yb0JxODVKSklYelJkMTNTdUdqN3V0RUZCZEcydlpvMlJ1UHJ2RlowcTBNY0hPLTQyRWVDdw?oc=5",
+      "source": "MMA Junkie",
+      "publishedAt": "2026-07-02T07:00:00.000Z",
+      "date": "2027-08-29",
+      "granularity": "day",
+      "matchup": "Umar Nurmagomedov vs Song Yadong",
+      "opponent": "Song Yadong",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:32:01.052Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "sport": "bare knuckle",
+      "headline": "Mike Perry vs. Darren Till fight still on the table if Perry ‘walks through’ Dillon Danis on Aug. 29 - mmamania.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPX2J5RFZ6a05GaUdtNVg3QXhmUW8yVkRxV3ZmWnF1TWJKSnlZYWlkb0VmYUV2ZUUzdFFOdkUtcy1qbG9xTktaLWNOUHg2aGs3YWUweE9lblJwM3BHY2d5Q2V6V1A1dE13YzJSVDVNT1ZpQjRQa0pFYXc4OG5NYXQ2Sm1jNl9WNHA4Zy1NTG1mUFk5T2Z5eFl1c0JVaWJZMmRxNmNqdFF2aHVKZ0xUQ0NMbkQ3TXRuS2F5cVlMa0FzTkdKZjByLXBfaDNZOTIwVUJiUWJ3Wm5FRkdKdHNtOEI2UmFodEpoS1RrLXNFSw?oc=5",
+      "source": "mmamania.com",
+      "publishedAt": "2026-08-20T07:00:00.000Z",
+      "date": "2027-08-29",
+      "granularity": "day",
+      "matchup": "Mike Perry vs Darren Till",
+      "opponent": "Darren Till",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:41:12.473Z"
+    },
+    {
+      "boxerName": "Mike Perry (fighter)",
+      "sport": "bare knuckle",
+      "headline": "Mike Perry, Dillon Danis book MMA headlining fight for Aug. 29 - MMA Junkie",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTFBCQ2hhLWUxYlNHTVFkakN5TDdDd01Zbmp6Y2VVT0dEcFcxREJDZHRIaV83T2hRUzRBVnhYT29Tbm5OOFRXQ0lrWm92aXROZ3BPSnVpSlJVajF4d3lWVDVVbTZTRkYzNkZubmV4QmhXLV8wOFBlWUw0RlJ2SVBSUFZGN1IxV0RPdHE1SDJSU21SS0pMNHJ5TWhaU243c1ZRX1pGa2xnTmY4MXBLZDZ4NklwenY2WjhBcTNn?oc=5",
+      "source": "MMA Junkie",
+      "publishedAt": "2026-07-24T07:00:00.000Z",
+      "date": "2027-08-29",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:41:12.473Z"
     },
     {
       "boxerName": "Aspen Ladd",
@@ -387,7 +649,33 @@
       "date": "2027-08-29",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-09-26T00:54:15.984Z"
+      "detectedAt": "2026-09-26T16:42:53.356Z"
+    },
+    {
+      "boxerName": "Aspen Ladd",
+      "sport": "bare knuckle",
+      "headline": "Aspen Ladd battles former bare knuckle title challenger for BKB 58 debut on Aug. 29 in Miami - mmamania.com",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOR0YwTjRYVWItVi1XdWNRd1RjU19qRHFOcHNvV2RLTUVEbUx0Tzd6WkdNamgycVgydWxEaTVyY1g0X1dLb3VYTm1HYm9DRWh3NC1tc0NsaThmSVpraHl2WlNMeFhYSWEzMkZBbHQ3UjZPYTF4S0NaaldHbVFENE1ZeWE4R3dvcU1TRnRGeVpNdEFsc1JVOXpIZGYtRkRtblYwU0hxLTRtRmtlcXpJZjdDcW5qRTRXbXk2dm9vQmFvVDgzQ3FSUEVJajhHMWJEdzJDUmtPSW9qeWZIWXRiOEpfdEI1NmVHTlJT?oc=5",
+      "source": "mmamania.com",
+      "publishedAt": "2026-08-04T07:00:00.000Z",
+      "date": "2027-08-29",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-26T16:42:53.356Z"
+    },
+    {
+      "boxerName": "Raul Rosas Jr.",
+      "sport": "mma",
+      "headline": "Raul Rosas Jr. vs. Raoni Barcelos Prediction, Picks, Odds for UFC Vegas 121 (Saturday, September 26) - actionnetwork.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEtpOEdMZkxDRzhzOXo3bzdwQlZ6Ry1yT2N1dVRHVHRvbm1qMlZWLUN4OXJwcHNXS3lxOS0wd042RkxBQ2hmSTdZWDA1SGhEN3M4RUx0TkhtVHlxNWM5bmpZREIzQVpLTlF5MkNRVmhkaHVkVnpaWHllWXpha2V2bkxwWE9iQVV4cUs4cWRFbUlBS3lyY2ZIVGRGMm15SVo4aTlBX2ttM1VQSVMxVDJBUVlJRVE4OWNIZjZfUlY1ZlQ4bGliY2c?oc=5",
+      "source": "actionnetwork.com",
+      "publishedAt": "2026-09-26T15:59:00.000Z",
+      "date": "2027-09-26",
+      "granularity": "day",
+      "matchup": "Raul Rosas Jr. vs Raoni Barcelos Prediction,",
+      "opponent": "Raoni Barcelos Prediction,",
+      "confidence": "high",
+      "detectedAt": "2026-09-26T16:31:49.310Z"
     }
   ]
 }
