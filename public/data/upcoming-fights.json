@@ -506,6 +506,34 @@
       "granularity": "day",
       "confidence": "medium",
       "detectedAt": "2026-09-26T00:54:15.984Z"
+    },
+    {
+      "boxerName": "Darren Till",
+      "sport": "bare knuckle",
+      "headline": "BKFC 94 Manchester: Darren Till vs Yoel Romero",
+      "url": "https://www.bkfc.com/events/bkfc-94-manchester",
+      "source": "BKFC",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "date": "2026-09-26",
+      "granularity": "day",
+      "matchup": "Darren Till vs Yoel Romero",
+      "opponent": "Yoel Romero",
+      "confidence": "high",
+      "detectedAt": "2026-09-27T18:00:00.000Z"
+    },
+    {
+      "boxerName": "Petchmorakot Petchyindee Academy",
+      "sport": "muay thai",
+      "headline": "Petchmorakot Petchyindee vs Dani Rodriguez - Road to RWS Switzerland",
+      "url": "https://9thlimbfightwear.com/de/pages/fight-shows/road-to-rws-switzerland",
+      "source": "9thLimbFightwear",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "date": "2026-09-26",
+      "granularity": "day",
+      "matchup": "Petchmorakot Petchyindee Academy vs Dani Rodriguez",
+      "opponent": "Dani Rodriguez",
+      "confidence": "high",
+      "detectedAt": "2026-09-27T18:00:00.000Z"
     }
   ]
 }
