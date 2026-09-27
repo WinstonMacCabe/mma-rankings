@@ -897,7 +897,12 @@ export function findRecordTables(wikitext: string): RecordTableMatch[] {
     if (titleMatch) title = stripWikiMarkup(titleMatch[1]).trim()
 
     let recordSummary = ''
-    const recMatch = blockText.match(/\|record\s*=\s*([^\n]+)/i)
+    // Wikipedia sometimes formats the sport summary across multiple lines (for
+    // example, a bold label followed by a line break and the numeric record).
+    // Stop at the next template parameter instead of truncating at the newline.
+    const recMatch = blockText.match(
+      /\|record\s*=\s*([\s\S]*?)(?=\n\s*\|\s*[A-Za-z_][\w-]*\s*=|\n\s*\}\}|$)/i,
+    )
     if (recMatch && recMatch[1].trim()) recordSummary = recMatch[1].replace(/\|\s*$/, '').trim()
 
     // A combined |title= ("Kun Khmer and Kickboxing record") names every sport the
