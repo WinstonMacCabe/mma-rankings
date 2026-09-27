@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T00:42:17.277Z",
+  "lastUpdated": "2026-09-27T00:42:41.725Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -1983,6 +1983,19 @@
       "birthDate": "1971",
       "gender": "male"
     },
+    "Mahmoud Fawzy": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Egypt",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mahmoud_Fawzy_(wrestler).jpg",
+      "birthDate": "1992",
+      "gender": "male"
+    },
     "Jérôme Le Banner": {
       "wins": 6,
       "kos": 5,
@@ -3137,6 +3150,30 @@
       "birthDate": "1975",
       "gender": "female"
     },
+    "Rena Kubota": {
+      "wins": 35,
+      "kos": 11,
+      "losses": 5,
+      "draws": 1,
+      "noContests": 0,
+      "total": 41,
+      "nationality": "Japan",
+      "weightClass": "Strawweight",
+      "birthDate": "1991",
+      "gender": "female"
+    },
+    "Emi Fujino": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "Japan",
+      "weightClass": "Bantamweight",
+      "birthDate": "1980",
+      "gender": "female"
+    },
     "Sexy Star": {
       "wins": 5,
       "kos": 1,
@@ -3670,6 +3707,18 @@
       "birthDate": "1980-05-27",
       "gender": "male"
     },
+    "Liam Nolan (Muay Thai)": {
+      "wins": 22,
+      "kos": 15,
+      "losses": 9,
+      "draws": 1,
+      "noContests": 0,
+      "total": 32,
+      "nationality": "British",
+      "weightClass": "Middleweight",
+      "birthDate": "1997",
+      "gender": "male"
+    },
     "Igor Mihaljević": {
       "wins": 5,
       "kos": 2,
@@ -3984,6 +4033,18 @@
       "nationality": "Japan",
       "weightClass": "Flyweight",
       "birthDate": "1989",
+      "gender": "male"
+    },
+    "Hiroki Kasahara (kickboxer)": {
+      "wins": 41,
+      "kos": 17,
+      "losses": 9,
+      "draws": 0,
+      "noContests": 0,
+      "total": 50,
+      "nationality": "Japan",
+      "weightClass": "Super featherweight",
+      "birthDate": "1999",
       "gender": "male"
     },
     "Ryuya Kusakabe": {
@@ -4786,6 +4847,18 @@
       "birthDate": "1971",
       "gender": "female"
     },
+    "Erika Kamimura": {
+      "wins": 28,
+      "kos": 15,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 31,
+      "nationality": "Japanese",
+      "weightClass": "Flyweight",
+      "birthDate": "1992",
+      "gender": "female"
+    },
     "Chantal Ughi": {
       "wins": 0,
       "kos": 0,
@@ -4845,6 +4918,17 @@
       "nationality": "USSR",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/RagozinaNatalia7.JPG",
       "birthDate": "1976",
+      "gender": "female"
+    },
+    "Ai Takahashi (kickboxer)": {
+      "wins": 18,
+      "kos": 9,
+      "losses": 5,
+      "draws": 0,
+      "noContests": 0,
+      "total": 23,
+      "nationality": "Japan",
+      "birthDate": "1982",
       "gender": "female"
     },
     "Baby Nansen": {
@@ -5001,17 +5085,6 @@
       "birthDate": "1979",
       "gender": "male"
     },
-    "Chana Porpaoin": {
-      "wins": 53,
-      "kos": 19,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 0,
-      "total": 62,
-      "nationality": "Thailand",
-      "birthDate": "1966",
-      "gender": "male"
-    },
     "Berkrerk Chartvanchai": {
       "wins": 16,
       "kos": 3,
@@ -5111,16 +5184,15 @@
       "birthDate": "1970",
       "gender": "male"
     },
-    "Jomthong Chuwattana": {
-      "wins": 9,
-      "kos": 4,
-      "losses": 1,
-      "draws": 0,
+    "Chana Porpaoin": {
+      "wins": 53,
+      "kos": 19,
+      "losses": 4,
+      "draws": 5,
       "noContests": 0,
-      "total": 10,
-      "nationality": "Yasothon Province",
-      "weightClass": "Super featherweight",
-      "birthDate": "1989",
+      "total": 62,
+      "nationality": "Thailand",
+      "birthDate": "1966",
       "gender": "male"
     },
     "Dokmaipa Por.Pongsawang": {
@@ -5196,6 +5268,18 @@
       "birthDate": "1983",
       "gender": "male"
     },
+    "Jomthong Chuwattana": {
+      "wins": 9,
+      "kos": 4,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 10,
+      "nationality": "Yasothon Province",
+      "weightClass": "Super featherweight",
+      "birthDate": "1989",
+      "gender": "male"
+    },
     "Knockout CP Freshmart": {
       "wins": 30,
       "kos": 9,
@@ -5241,18 +5325,6 @@
       "nationality": "Thailand",
       "weightClass": "Featherweight",
       "birthDate": "1970",
-      "gender": "male"
-    },
-    "Lakhin Wassantasit": {
-      "wins": 27,
-      "kos": 18,
-      "losses": 0,
-      "draws": 2,
-      "noContests": 0,
-      "total": 29,
-      "nationality": "Thailand",
-      "weightClass": "Light welterweight",
-      "birthDate": "1972",
       "gender": "male"
     },
     "Jongsanan Fairtex": {
@@ -5302,15 +5374,16 @@
       "birthDate": "1978",
       "gender": "male"
     },
-    "Paipharob Kokietgym": {
-      "wins": 38,
-      "kos": 24,
-      "losses": 9,
-      "draws": 0,
+    "Lakhin Wassantasit": {
+      "wins": 27,
+      "kos": 18,
+      "losses": 0,
+      "draws": 2,
       "noContests": 0,
-      "total": 47,
+      "total": 29,
       "nationality": "Thailand",
-      "birthDate": "1983-05-05",
+      "weightClass": "Light welterweight",
+      "birthDate": "1972",
       "gender": "male"
     },
     "Oley Kiatoneway": {
@@ -5336,18 +5409,6 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nungubon_Kevin.jpg",
       "birthDate": "1971",
-      "gender": "male"
-    },
-    "Padejsuk Pitsanurachan": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Thailand",
-      "weightClass": "Lightweight",
-      "birthDate": "1957-10-12",
       "gender": "male"
     },
     "Nongbee Kiatyongyut": {
@@ -5386,16 +5447,15 @@
       "birthDate": "1984",
       "gender": "male"
     },
-    "Pichit Sitbangprachan": {
-      "wins": 24,
-      "kos": 18,
-      "losses": 0,
+    "Paipharob Kokietgym": {
+      "wins": 38,
+      "kos": 24,
+      "losses": 9,
       "draws": 0,
       "noContests": 0,
-      "total": 24,
-      "nationality": "Thai",
-      "weightClass": "Flyweight",
-      "birthDate": "1966",
+      "total": 47,
+      "nationality": "Thailand",
+      "birthDate": "1983-05-05",
       "gender": "male"
     },
     "Petchmorakot Petchyindee Academy": {
@@ -5409,18 +5469,6 @@
       "weightClass": "Featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchmorakot_Wor_Sangprapai.JPG",
       "birthDate": "1994-02-14",
-      "gender": "male"
-    },
-    "Pichit Chor Siriwat": {
-      "wins": 34,
-      "kos": 14,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 37,
-      "nationality": "Thailand",
-      "weightClass": "Flyweight",
-      "birthDate": "1975",
       "gender": "male"
     },
     "Palangpol CP Freshmart": {
@@ -5443,6 +5491,18 @@
       "total": 47,
       "nationality": "Thailand",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Padejsuk Pitsanurachan": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Thailand",
+      "weightClass": "Lightweight",
+      "birthDate": "1957-10-12",
       "gender": "male"
     },
     "Petchdam Lukborai": {
@@ -5470,17 +5530,16 @@
       "birthDate": "1969",
       "gender": "male"
     },
-    "Saensak Muangsurin": {
-      "wins": 14,
-      "kos": 11,
-      "losses": 6,
+    "Pichit Sitbangprachan": {
+      "wins": 24,
+      "kos": 18,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 20,
-      "nationality": "Thailand",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saensak1.jpeg",
-      "birthDate": "1950",
+      "total": 24,
+      "nationality": "Thai",
+      "weightClass": "Flyweight",
+      "birthDate": "1966",
       "gender": "male"
     },
     "Saenchai": {
@@ -5496,18 +5555,6 @@
       "birthDate": "1980",
       "gender": "male"
     },
-    "Sagat Petchyindee": {
-      "wins": 12,
-      "kos": 8,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 14,
-      "nationality": "Thailand",
-      "weightClass": "Light welterweight",
-      "birthDate": "1957",
-      "gender": "male"
-    },
     "Saen Sor Ploenchit": {
       "wins": 44,
       "kos": 13,
@@ -5517,6 +5564,18 @@
       "total": 47,
       "nationality": "Thai",
       "birthDate": "1971",
+      "gender": "male"
+    },
+    "Pichit Chor Siriwat": {
+      "wins": 34,
+      "kos": 14,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 37,
+      "nationality": "Thailand",
+      "weightClass": "Flyweight",
+      "birthDate": "1975",
       "gender": "male"
     },
     "Ratchasiesan Laochokcharoen": {
@@ -5555,18 +5614,6 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Poot_Lorlek1.jpeg",
       "birthDate": "1952",
-      "gender": "male"
-    },
-    "Saengsakda Kittikasem": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Thailand",
-      "weightClass": "Bantamweight",
-      "birthDate": "1956",
       "gender": "male"
     },
     "Raktae Muangsurin": {
@@ -5617,6 +5664,19 @@
       "birthDate": "1977",
       "gender": "male"
     },
+    "Saensak Muangsurin": {
+      "wins": 14,
+      "kos": 11,
+      "losses": 6,
+      "draws": 0,
+      "noContests": 0,
+      "total": 20,
+      "nationality": "Thailand",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saensak1.jpeg",
+      "birthDate": "1950",
+      "gender": "male"
+    },
     "Samson Dutch Boy Gym": {
       "wins": 43,
       "kos": 36,
@@ -5656,15 +5716,16 @@
       "birthDate": "1983-10-13",
       "gender": "male"
     },
-    "Srisaket Sor Rungvisai": {
-      "wins": 58,
-      "kos": 46,
-      "losses": 7,
-      "draws": 1,
+    "Sagat Petchyindee": {
+      "wins": 12,
+      "kos": 8,
+      "losses": 2,
+      "draws": 0,
       "noContests": 0,
-      "total": 66,
+      "total": 14,
       "nationality": "Thailand",
-      "birthDate": "1986-12-08",
+      "weightClass": "Light welterweight",
+      "birthDate": "1957",
       "gender": "male"
     },
     "Songkram Porpaoin": {
@@ -5677,18 +5738,6 @@
       "nationality": "Thailand",
       "weightClass": "Minimumweight",
       "birthDate": "1966",
-      "gender": "male"
-    },
-    "Sontaya Wongprates": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Thailand",
-      "weightClass": "Bantamweight",
-      "birthDate": "1975",
       "gender": "male"
     },
     "Satanmuanglek CP Freshmart": {
@@ -5728,6 +5777,18 @@
       "birthDate": "1974-06-26",
       "gender": "male"
     },
+    "Saengsakda Kittikasem": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thailand",
+      "weightClass": "Bantamweight",
+      "birthDate": "1956",
+      "gender": "male"
+    },
     "Sanghiran Lukbanyai": {
       "wins": 21,
       "kos": 15,
@@ -5764,6 +5825,17 @@
       "birthDate": "1968",
       "gender": "male"
     },
+    "Srisaket Sor Rungvisai": {
+      "wins": 58,
+      "kos": 46,
+      "losses": 7,
+      "draws": 1,
+      "noContests": 0,
+      "total": 66,
+      "nationality": "Thailand",
+      "birthDate": "1986-12-08",
+      "gender": "male"
+    },
     "Wanheng Menayothin": {
       "wins": 55,
       "kos": 16,
@@ -5797,6 +5869,18 @@
       "nationality": "Thailand",
       "weightClass": "Flyweight",
       "birthDate": "1968",
+      "gender": "male"
+    },
+    "Sontaya Wongprates": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Thailand",
+      "weightClass": "Bantamweight",
+      "birthDate": "1975",
       "gender": "male"
     },
     "Thananchai Sitsongpeenong": {
@@ -5939,18 +6023,6 @@
       "birthDate": "1995",
       "gender": "female"
     },
-    "Terri Moss": {
-      "wins": 9,
-      "kos": 3,
-      "losses": 9,
-      "draws": 0,
-      "noContests": 0,
-      "total": 18,
-      "nationality": "American",
-      "weightClass": "Featherweight",
-      "birthDate": "1966-01-25",
-      "gender": "female"
-    },
     "Patricia Alcivar": {
       "wins": 8,
       "kos": 3,
@@ -5983,6 +6055,18 @@
       "nationality": "Argentina",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tigresa_Acu%C3%B1a_-presidenciagovar_-3MAY07.jpg",
       "birthDate": "1976",
+      "gender": "female"
+    },
+    "Terri Moss": {
+      "wins": 9,
+      "kos": 3,
+      "losses": 9,
+      "draws": 0,
+      "noContests": 0,
+      "total": 18,
+      "nationality": "American",
+      "weightClass": "Featherweight",
+      "birthDate": "1966-01-25",
       "gender": "female"
     },
     "Ebanie Bridges": {
@@ -6114,6 +6198,18 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "Charley Burley": {
       "wins": 83,
       "kos": 48,
@@ -6124,6 +6220,18 @@
       "nationality": "American",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
       "birthDate": "1917-09-06",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Denys Berinchyk": {
@@ -6138,17 +6246,6 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Hannah Rankin": {
-      "wins": 13,
-      "kos": 3,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 21,
-      "nationality": "Scotland",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Emil Novruzov": {
       "wins": 3,
       "kos": 0,
@@ -6161,6 +6258,18 @@
       "birthDate": "1995",
       "gender": "male"
     },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
+      "gender": "male"
+    },
     "Ashley Brace": {
       "wins": 8,
       "kos": 2,
@@ -6170,18 +6279,6 @@
       "total": 9,
       "nationality": "Wales",
       "birthDate": "1991",
-      "gender": "male"
-    },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
       "gender": "male"
     },
     "John L. Sullivan": {
@@ -6220,18 +6317,6 @@
       "birthDate": "1866",
       "gender": "male"
     },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6254,18 +6339,6 @@
       "birthDate": "1996-01-04",
       "gender": "male"
     },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Jem Mace": {
       "wins": 27,
       "kos": 14,
@@ -6276,6 +6349,18 @@
       "nationality": "British",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
       "birthDate": "1831-04-08",
+      "gender": "male"
+    },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6314,18 +6399,6 @@
       "birthDate": "1831-02-12",
       "gender": "male"
     },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
-      "gender": "male"
-    },
     "George Gardiner (boxer)": {
       "wins": 44,
       "kos": 29,
@@ -6347,6 +6420,17 @@
       "total": 32,
       "nationality": "Canada",
       "birthDate": "1973-12-25",
+      "gender": "male"
+    },
+    "Hannah Rankin": {
+      "wins": 13,
+      "kos": 3,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 21,
+      "nationality": "Scotland",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Usanakorn Thawilsuhannawang": {
