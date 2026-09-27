@@ -560,17 +560,76 @@ export function parseRecordSummary(value: string): SportRecord | null {
   return found ? rec : null
 }
 
+// Citations are dropped before a summary is read. A <ref> carries a URL plus named
+// params, and those can name a sport by coincidence: a karate page whose record is
+// cited to www.starsystemkickboxing.net put "kickboxing" in the citation, which the
+// per-sport match below would otherwise prefer over the real summary.
+function stripCitations(text: string): string {
+  return text
+    .replace(/<ref[^>]*\/>/g, '')
+    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/g, '')
+}
+
+function recordTotal(r: SportRecord): number {
+  return r.wins + r.losses + r.draws + r.noContests
+}
+
+// A page states its record in prose and also tabulates it, and the two disagree in
+// both directions: the table gets extended after the summary is written (Royers
+// states 20 wins, tabulates 22), or the summary is written before the table is
+// truncated (Wallace states 23 wins, tabulates 20). Default to whichever covers more
+// fights, with two exceptions. A table that calls itself incomplete is by its own
+// admission not the whole record; and a stated figure some other source already
+// agrees with should not be overridden by a row count.
+function preferTabulatedRows(
+  stated: SportRecord,
+  rows: SportRecord,
+  existing: Partial<Record<SportKey, SportRecord>>,
+  table: RecordTableMatch
+): SportRecord {
+  if (recordTotal(rows) <= recordTotal(stated)) return stated
+  const selfDescribedPartial = /\b(?:incomplete|partial)\b/i.test(
+    `${table.title} ${table.sectionTitle ?? ''}`
+  )
+  if (selfDescribedPartial) return stated
+  const corroborated = Object.values(existing).some(r => !!r && recordTotal(r) === recordTotal(stated))
+  if (corroborated) return stated
+  return { ...rows }
+}
+
+// Where a record can come from more than one place, prefer whichever source covers
+// the most fights instead of trusting the order the sources were found in. Ties keep
+// the earlier candidate, which at the one call site is the more authoritative source.
+function richerRecord(...candidates: (SportRecord | null | undefined)[]): SportRecord | null {
+  let best: SportRecord | null = null
+  let bestTotal = -1
+  for (const c of candidates) {
+    if (!c) continue
+    const total = c.wins + c.losses + c.draws + c.noContests
+    if (total > bestTotal) {
+      best = c
+      bestTotal = total
+    }
+  }
+  return best
+}
+
 function parseRecordSummaryForSport(value: string, prefer: SportKey | null): SportRecord | null {
-  if (!prefer) return parseRecordSummary(value)
-  const text = value.replace(/'''/g, '').replace(/['']/g, "'").trim()
+  const text = stripCitations(value).replace(/'''/g, '').replace(/['']/g, "'").trim()
+  if (!prefer) return parseRecordSummary(text)
 
   const segments = text.split(/<br\s*\/?>\s*\|?\s*|\|\s*/i).map(s => s.trim()).filter(Boolean)
-  if (segments.length <= 1) return parseRecordSummary(value)
+  if (segments.length <= 1) return parseRecordSummary(text)
 
+  // Only accept a segment that actually yields a record. A segment naming the right
+  // sport can still be a non-record fragment, and returning its null parse would
+  // discard a summary that reads correctly as a whole.
   for (const seg of segments) {
-    if (detectSport(seg) === prefer) return parseRecordSummary(seg)
+    if (detectSport(seg) !== prefer) continue
+    const rec = parseRecordSummary(seg)
+    if (rec) return rec
   }
-  return parseRecordSummary(value)
+  return parseRecordSummary(text)
 }
 
 function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; method: string } | null {
@@ -738,6 +797,24 @@ const MONGOLIAN_ROW_REGEX = /\{\{\s*Mongolian\s+Wrestling\s+Record\s*\|([^}]+)\}
 const MONGOLIAN_START_REGEX = /\{\{\s*Mongolian\s+Wrestling\s+Record\/Start/gi
 const MONGOLIAN_END_REGEX = /\{\{\s*Mongolian\s+Wrestling\s+Record\/End/gi
 
+// A {{Mongolian Wrestling Record}} table is a list of Naadam results, not a
+// bout-by-bout record. From the template's own definition the fields are:
+//
+//   1 year   2 level (N=State/Naadam, A=Aimag, S=Sum, R=title revoked, C=cancelled)
+//   3 field size   4 rank achieved   5 rounds won
+//   6 shagai title   7 title-awarded flag   8 notes
+//
+// Only field 5 is a quantity of wins, so that is all this reads. There is no loss
+// column to read, and there cannot be one: Naadam is single-elimination and a
+// wrestler who loses does not come back, which is why the template carries
+// "R = title post-awarded/revoked" and "C = cancelled" as level codes at all.
+//
+// An earlier version read the last argument as losses. That slot is field 8 (notes)
+// or field 7, and field 7 is 1 exactly when field 6 names a shagai promotion -- so
+// every title a wrestler was awarded was booked as a defeat. It also required that
+// argument to be numeric, which silently discarded any row ending in a blank notes
+// field along with the rounds in it; that alone cost Dolgorsürengiin Sumyaabazar
+// 25 of his 100.
 function parseMongolianWrestlingRecord(wikitext: string): SportRecord | null {
   const rec = emptySportRecord()
   let anyRows = false
@@ -754,16 +831,15 @@ function parseMongolianWrestlingRecord(wikitext: string): SportRecord | null {
       const args = m[1].split('|').map(a => a.trim())
       if (args.length < 5) continue
       if (args[0] === 'Start' || args[0].startsWith('/')) continue
-      const wins = parseInt(args[4], 10)
-      const losses = parseInt(args[args.length - 1], 10)
-      if (isNaN(wins) || isNaN(losses)) continue
-      rec.wins += wins
-      rec.losses += losses
+      const roundsWon = parseInt(args[4], 10)
+      if (isNaN(roundsWon)) continue
+      rec.wins += roundsWon
       anyRows = true
     }
     MONGOLIAN_START_REGEX.lastIndex = endIndex
   }
-  return anyRows ? { ...rec, kos: 0 } : null
+  // losses are left at 0 deliberately: this sport has no returning losers to count.
+  return anyRows ? { ...rec, losses: 0, kos: 0 } : null
 }
 
 /**
@@ -942,14 +1018,16 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
         noContests: get('box_nc') ?? 0,
       })
     }
-    const kickWin = get('kickbox_win')
-    const kickLoss = get('kickbox_loss')
+    // Older and newer Infobox martial artist templates use different field
+    // names for the same kickboxing record.
+    const kickWin = get('kickbox_win') ?? get('kickboxingwins')
+    const kickLoss = get('kickbox_loss') ?? get('kickboxinglosses')
     if (kickWin !== null && kickLoss !== null) {
       addRecord('kickboxing', {
         wins: kickWin,
-        kos: get('kickbox_kowin') ?? 0,
+        kos: get('kickbox_kowin') ?? get('kickboxingkowins') ?? 0,
         losses: kickLoss,
-        draws: get('kickbox_draw') ?? 0,
+        draws: get('kickbox_draw') ?? get('kickboxingdraws') ?? 0,
         noContests: get('kickbox_nc') ?? 0,
       })
     }
@@ -972,9 +1050,12 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
       if (endOfTable > -1) candidates.push(endOfTable)
       const bodyEnd = candidates.length > 0 ? Math.min(...candidates) : wikitext.length
       rowRec = countTableRows(wikitext.slice(bodyStart, bodyEnd))
-      if (!rec && rowRec) {
+      if (!rec) {
         rec = rowRec
-      } else if (rec && rec.kos === 0 && rowRec && rowRec.kos > 0) {
+      } else if (rowRec) {
+        rec = preferTabulatedRows(rec, rowRec, out, table)
+      }
+      if (rec && rec.kos === 0 && rowRec && rowRec.kos > 0) {
         rec = { ...rec, kos: rowRec.kos }
       }
     }
@@ -1000,10 +1081,11 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
   // (e.g. infobox totals that cover the whole career) over a possibly partial row count.
   for (const { table, rec, rowRec } of combinedCandidates) {
     if (out[table.sectionSport!]) continue
-    let recForSport =
-      parseRecordSummaryForSport(table.recordSummary, table.sectionSport) ??
-      out[table.sport!] ??
+    let recForSport = richerRecord(
+      parseRecordSummaryForSport(table.recordSummary, table.sectionSport),
+      out[table.sport!],
       rec
+    )
     if (recForSport && recForSport.kos === 0 && rowRec && rowRec.kos > 0) {
       recForSport = { ...recForSport, kos: rowRec.kos }
     }
