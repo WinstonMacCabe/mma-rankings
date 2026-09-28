@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T21:51:34.092Z",
+  "lastUpdated": "2026-09-28T00:41:35.377Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2422,6 +2422,18 @@
       "birthDate": "1989",
       "gender": "male"
     },
+    "Bogdan Stoica": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Romania",
+      "weightClass": "Heavyweight",
+      "birthDate": "1990",
+      "gender": "male"
+    },
     "Arkadiusz Wrzosek": {
       "wins": 1,
       "kos": 0,
@@ -2510,18 +2522,6 @@
       "birthDate": "1982",
       "gender": "male"
     },
-    "Bogdan Stoica": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Romania",
-      "weightClass": "Heavyweight",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Damir Ismagulov": {
       "wins": 1,
       "kos": 0,
@@ -2558,6 +2558,19 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vladimir_Mineev%2C_November_2020.jpg",
       "birthDate": "1990",
+      "gender": "male"
+    },
+    "Alexander Stetsurenko": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Russian",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%A1%D1%82%D0%B5%D1%86%D1%83%D1%80%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80.jpg",
+      "birthDate": "1983",
       "gender": "male"
     },
     "Mike Bernardo": {
@@ -2620,19 +2633,6 @@
       "weightClass": "Welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tumenov.jpg",
       "birthDate": "1991",
-      "gender": "male"
-    },
-    "Alexander Stetsurenko": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Russian",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%A1%D1%82%D0%B5%D1%86%D1%83%D1%80%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80.jpg",
-      "birthDate": "1983",
       "gender": "male"
     },
     "Jörgen Kruth": {
@@ -5555,17 +5555,6 @@
       "birthDate": "1966",
       "gender": "male"
     },
-    "Saen Sor Ploenchit": {
-      "wins": 44,
-      "kos": 13,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 47,
-      "nationality": "Thai",
-      "birthDate": "1971",
-      "gender": "male"
-    },
     "Pichit Chor Siriwat": {
       "wins": 34,
       "kos": 14,
@@ -5739,6 +5728,17 @@
       "nationality": "Thailand",
       "weightClass": "Light welterweight",
       "birthDate": "1957",
+      "gender": "male"
+    },
+    "Saen Sor Ploenchit": {
+      "wins": 44,
+      "kos": 13,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 47,
+      "nationality": "Thai",
+      "birthDate": "1971",
       "gender": "male"
     },
     "Satanmuanglek CP Freshmart": {
@@ -5919,17 +5919,6 @@
       "birthDate": "1972-04-24",
       "gender": "male"
     },
-    "Yoddamrong Sithyodthong": {
-      "wins": 43,
-      "kos": 18,
-      "losses": 7,
-      "draws": 1,
-      "noContests": 0,
-      "total": 51,
-      "nationality": "Thailand",
-      "birthDate": "1981-02-15",
-      "gender": "male"
-    },
     "Phetjeeja Lukjaoporongtom": {
       "wins": 5,
       "kos": 4,
@@ -5941,6 +5930,17 @@
       "weightClass": "Flyweight",
       "birthDate": "2001",
       "gender": "female"
+    },
+    "Yoddamrong Sithyodthong": {
+      "wins": 43,
+      "kos": 18,
+      "losses": 7,
+      "draws": 1,
+      "noContests": 0,
+      "total": 51,
+      "nationality": "Thailand",
+      "birthDate": "1981-02-15",
+      "gender": "male"
     },
     "Yuttapong Tongdee": {
       "wins": 15,
@@ -6235,6 +6235,18 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Paulie Malignaggi": {
+      "wins": 36,
+      "kos": 5,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 44,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
+      "birthDate": "1980-11-23",
+      "gender": "male"
+    },
     "Professor Mike Donovan": {
       "wins": 25,
       "kos": 2,
@@ -6315,18 +6327,6 @@
       "nationality": "U.S.",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
       "birthDate": "1858",
-      "gender": "male"
-    },
-    "Paulie Malignaggi": {
-      "wins": 36,
-      "kos": 5,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 44,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
-      "birthDate": "1980-11-23",
       "gender": "male"
     },
     "Jack McAuliffe (boxer)": {
