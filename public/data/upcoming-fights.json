@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-09-29T18:19:11.750Z",
+  "lastUpdated": "2026-09-29T18:21:15.697Z",
   "fights": [
+    {
+      "boxerName": "Pich Sambath",
+      "sport": "kickboxing",
+      "headline": "Pich Sambath — scheduled vs TBD",
+      "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
+      "source": "Wikipedia (record table)",
+      "publishedAt": "2026-09-29T18:21:16.272Z",
+      "date": "2026-09-26",
+      "granularity": "day",
+      "confidence": "medium",
+      "detectedAt": "2026-09-29T18:21:16.272Z"
+    },
     {
       "boxerName": "Raul Rosas Jr.",
       "sport": "mma",
@@ -531,11 +543,11 @@
       "headline": "Pich Sambath — scheduled vs TBD",
       "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-29T18:19:12.184Z",
+      "publishedAt": "2026-09-29T18:21:16.272Z",
       "date": "2026-12-12",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-09-29T18:19:12.184Z"
+      "detectedAt": "2026-09-29T18:21:16.272Z"
     },
     {
       "boxerName": "Lorn Panha",
