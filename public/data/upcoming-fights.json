@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T18:30:20.783Z",
+  "lastUpdated": "2026-09-29T23:50:58.516Z",
   "fights": [
     {
       "boxerName": "Pich Sambath",
@@ -14,18 +14,6 @@
       "opponent": "Simon Masera",
       "confidence": "high",
       "detectedAt": "2026-09-29T18:30:21.513Z"
-    },
-    {
-      "boxerName": "Pich Sambath",
-      "sport": "kickboxing",
-      "headline": "Pich Sambath — scheduled vs TBD",
-      "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
-      "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-29T18:21:16.272Z",
-      "date": "2026-09-26",
-      "granularity": "day",
-      "confidence": "medium",
-      "detectedAt": "2026-09-29T18:21:16.272Z"
     },
     {
       "boxerName": "Raul Rosas Jr.",
@@ -132,18 +120,6 @@
       "detectedAt": "2026-09-29T17:56:44.100Z"
     },
     {
-      "boxerName": "Takeru Segawa",
-      "sport": "kickboxing",
-      "headline": "ONE Hall of Fame: Takeru Segawa to Receive 10-Gong Salute at ONE SAMURAI 4 in October - MMA Sucka",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONVVHYXZ2SFBZUUtsNTNtX21icVVfZHZpVjZ1SlBxRHFyVWxWa0ROQzQxZVRwclRvTTV0eFNzMGUzcWF5Y0hxbnZ4TS02MnJicDdOSzIzeVhtTERIeXYxbWxkMldLMU1USWNlRVNlQWVreldNQThFeDdVWEtoSmtDbUVfcUVlRmJOU3JqaGJVdWp0b09FMUJGRDNR?oc=5",
-      "source": "MMA Sucka",
-      "publishedAt": "2026-05-06T07:00:00.000Z",
-      "date": "2026-10",
-      "granularity": "month",
-      "confidence": "low",
-      "detectedAt": "2026-09-29T14:22:51.479Z"
-    },
-    {
       "boxerName": "Arman Tsarukyan",
       "sport": "mma",
       "headline": "Tsarukyan is scheduled to face Dillon Danis for the inaugural RAF Middleweight Crossover Championship on October 3, 2026 at RAF 14.",
@@ -198,20 +174,6 @@
       "detectedAt": "2026-09-29T17:54:18.093Z"
     },
     {
-      "boxerName": "Mike Malott",
-      "sport": "mma",
-      "headline": "Malott is scheduled to face Joaquin Buckley in the main event on October 17, 2026 at UFC Fight Night 291.",
-      "url": "https://en.wikipedia.org/wiki/Mike_Malott",
-      "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-29T17:54:19.414Z",
-      "date": "2026-10-17",
-      "granularity": "day",
-      "matchup": "Mike Malott vs Joaquin Buckley",
-      "opponent": "Joaquin Buckley",
-      "confidence": "high",
-      "detectedAt": "2026-09-29T17:54:19.414Z"
-    },
-    {
       "boxerName": "Sofian Laidouni",
       "sport": "muay thai",
       "headline": "Sofian Laidouni — scheduled vs TBD",
@@ -264,20 +226,6 @@
       "opponent": "Robbie Lawler",
       "confidence": "high",
       "detectedAt": "2026-09-29T17:51:51.617Z"
-    },
-    {
-      "boxerName": "Khamzat Chimaev",
-      "sport": "mma",
-      "headline": "Chimaev is scheduled to face Robbie Lawler in the co-main event on 23 October 2026 at RAF 14.",
-      "url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
-      "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-09-29T17:52:29.480Z",
-      "date": "2026-10-23",
-      "granularity": "day",
-      "matchup": "Khamzat Chimaev vs Robbie Lawler",
-      "opponent": "Robbie Lawler",
-      "confidence": "high",
-      "detectedAt": "2026-09-29T17:52:29.480Z"
     },
     {
       "boxerName": "Pat Downey (wrestler)",
@@ -372,30 +320,6 @@
       "detectedAt": "2026-09-29T18:00:36.400Z"
     },
     {
-      "boxerName": "Khamzat Chimaev",
-      "sport": "mma",
-      "headline": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkplWkVUV2JnRDQ1RnB6YlNJclVIM3Nscm5RRmQ1WEg4a3o2Yzc2TjlLOW9PY2pvRmtFMDMtUmpOSjVjYzdDZ2FoWGk5N0NVSkwwYUZRLTA3anZwOGs0OWVzd2Jsb05IXzRXNzQ5TnVEdXdlU0tnQXdMS0t6MHBBM2VQOEUzRExHZHc?oc=5",
-      "source": "Yahoo Sports",
-      "publishedAt": "2026-09-21T12:50:15.000Z",
-      "date": "2026-11",
-      "granularity": "month",
-      "confidence": "low",
-      "detectedAt": "2026-09-28T00:42:18.122Z"
-    },
-    {
-      "boxerName": "Cain Velasquez",
-      "sport": "wrestling",
-      "headline": "Report: UFC legends Cain Velasquez, Frank Mir set to battle at AIGA event in November - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0dGdkg4Z1JLSDJrWTZQTDdhemh1RjFhZGwtM3NuM1RpNHFXOFdFRDBHWEpVZS1MTHRPRUZ6ekE2YmFQcTl6YTBhUUxGbzhlWVppckEzRlU3aURWbnVKcnEwWGdaRXQ2UFFJekFaLVhTSFp1V0NUT1FNaDNXNjBqQnhyVVBicXVEZ2c?oc=5",
-      "source": "Yahoo Sports",
-      "publishedAt": "2026-09-23T22:18:22.000Z",
-      "date": "2026-11",
-      "granularity": "month",
-      "confidence": "low",
-      "detectedAt": "2026-09-28T00:49:40.643Z"
-    },
-    {
       "boxerName": "Kayla Harrison",
       "sport": "mma",
       "headline": "Kayla Harrison Targeting Return in November at UFC 334 - MMA Sucka",
@@ -410,16 +334,16 @@
     {
       "boxerName": "Gabriel Bonfim",
       "sport": "mma",
-      "headline": "UFC Vegas 124 Books Brady vs. Bonfim Fight Nov. 7 at Apex! - mmasucka.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcm9rUDUwU2dOQVB0cDBqUGxLOUxVdDkzUWdSU2JJd0ZUUHU0MzA4b0RfMnRPcGRrNTgyQWk2bXZGQUNaR1p5b29aMGxrendyUFdIb2NYMjlKVVBmRi1nWTF6eEhkQ1luV0VYMVZoT0k3Zkx4LVBMdUwwVUoxR1U3NGtn?oc=5",
-      "source": "mmasucka.com",
-      "publishedAt": "2026-08-17T07:00:00.000Z",
+      "headline": "Bonfim is scheduled to face Sean Brady in the main event on November 7, 2026 at UFC Fight Night 293.",
+      "url": "https://en.wikipedia.org/wiki/gabriel_bonfim",
+      "source": "Wikipedia (fighter page prose)",
+      "publishedAt": "2026-09-29T22:15:08.790Z",
       "date": "2026-11-07",
       "granularity": "day",
-      "matchup": "Books Brady vs Bonfim",
-      "opponent": "Books Brady",
+      "matchup": "gabriel bonfim vs Sean Brady",
+      "opponent": "Sean Brady",
       "confidence": "high",
-      "detectedAt": "2026-09-29T17:51:23.840Z"
+      "detectedAt": "2026-09-29T22:15:08.790Z"
     },
     {
       "boxerName": "Tatiana Suarez",
