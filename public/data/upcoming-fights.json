@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-29T18:21:15.697Z",
+  "lastUpdated": "2026-09-29T18:30:20.783Z",
   "fights": [
+    {
+      "boxerName": "Pich Sambath",
+      "sport": "kickboxing",
+      "headline": "Pich Sambath — scheduled vs Simon Masera",
+      "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
+      "source": "Wikipedia (record table)",
+      "publishedAt": "2026-09-29T18:30:21.513Z",
+      "date": "2026-09-26",
+      "granularity": "day",
+      "matchup": "Pich Sambath vs Simon Masera",
+      "opponent": "Simon Masera",
+      "confidence": "high",
+      "detectedAt": "2026-09-29T18:30:21.513Z"
+    },
     {
       "boxerName": "Pich Sambath",
       "sport": "kickboxing",
@@ -543,11 +557,11 @@
       "headline": "Pich Sambath — scheduled vs TBD",
       "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-09-29T18:21:16.272Z",
+      "publishedAt": "2026-09-29T18:30:21.512Z",
       "date": "2026-12-12",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-09-29T18:21:16.272Z"
+      "detectedAt": "2026-09-29T18:30:21.513Z"
     },
     {
       "boxerName": "Lorn Panha",
