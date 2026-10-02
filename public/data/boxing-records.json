@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T00:42:03.366Z",
+  "lastUpdated": "2026-10-02T00:42:00.646Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -3234,18 +3234,6 @@
       "birthDate": "1978",
       "gender": "female"
     },
-    "Julia Berezikova": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Russian",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Julia_Berezikova.jpg",
-      "birthDate": "1983",
-      "gender": "female"
-    },
     "Valentina Shevchenko": {
       "wins": 2,
       "kos": 1,
@@ -3305,6 +3293,18 @@
       "nationality": "Poland",
       "weightClass": "Flyweight",
       "birthDate": "1995-04-29",
+      "gender": "female"
+    },
+    "Julia Berezikova": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Russian",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Julia_Berezikova.jpg",
+      "birthDate": "1983",
       "gender": "female"
     },
     "Loma Lookboonmee": {
@@ -3673,12 +3673,12 @@
       "gender": "male"
     },
     "Ahmed Krnjić": {
-      "wins": 8,
-      "kos": 5,
+      "wins": 9,
+      "kos": 6,
       "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 9,
+      "total": 10,
       "nationality": "Bosnia and Herzegovina",
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ahmed_Krnjic_Slika.jpg",
@@ -4107,18 +4107,6 @@
       "birthDate": "1996",
       "gender": "male"
     },
-    "Genji Umeno": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Japanese",
-      "weightClass": "Bantamweight",
-      "birthDate": "1988",
-      "gender": "male"
-    },
     "Taiju Shiratori": {
       "wins": 8,
       "kos": 5,
@@ -4177,6 +4165,18 @@
       "birthDate": "1985",
       "gender": "male"
     },
+    "Genji Umeno": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Japanese",
+      "weightClass": "Bantamweight",
+      "birthDate": "1988",
+      "gender": "male"
+    },
     "Marek Piotrowski": {
       "wins": 21,
       "kos": 11,
@@ -4223,17 +4223,6 @@
       "nationality": "Polish",
       "weightClass": "Welterweight",
       "birthDate": "1987",
-      "gender": "male"
-    },
-    "Frederico Cordeiro": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Portuguese",
-      "birthDate": "1995",
       "gender": "male"
     },
     "Piotr Stępień (boxer)": {
@@ -4293,6 +4282,17 @@
       "nationality": "Romania",
       "weightClass": "Light heavyweight",
       "birthDate": "1993",
+      "gender": "male"
+    },
+    "Frederico Cordeiro": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Portuguese",
+      "birthDate": "1995",
       "gender": "male"
     },
     "Ionuț Iancu": {
@@ -4499,18 +4499,6 @@
       "birthDate": "1980",
       "gender": "male"
     },
-    "Yoann Kongolo": {
-      "wins": 18,
-      "kos": 7,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 22,
-      "nationality": "Swiss, French",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yoann_Kongolo_-_Andrejs_Pokumeiko%2C_WBSS_2018_(32823309528).jpg",
-      "birthDate": "1987",
-      "gender": "male"
-    },
     "Vitali Klitschko": {
       "wins": 45,
       "kos": 36,
@@ -4537,18 +4525,6 @@
       "birthDate": "1986",
       "gender": "male"
     },
-    "Pavel Zhuravlev (kickboxer)": {
-      "wins": 11,
-      "kos": 7,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 13,
-      "nationality": "Ukrainian",
-      "weightClass": "Cruiserweight",
-      "birthDate": "1983",
-      "gender": "male"
-    },
     "Tsotne Rogava": {
       "wins": 13,
       "kos": 8,
@@ -4571,6 +4547,18 @@
       "nationality": "Ukrainian",
       "weightClass": "Heavyweight",
       "birthDate": "1989",
+      "gender": "male"
+    },
+    "Yoann Kongolo": {
+      "wins": 18,
+      "kos": 7,
+      "losses": 3,
+      "draws": 1,
+      "noContests": 0,
+      "total": 22,
+      "nationality": "Swiss, French",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yoann_Kongolo_-_Andrejs_Pokumeiko%2C_WBSS_2018_(32823309528).jpg",
+      "birthDate": "1987",
       "gender": "male"
     },
     "Mehmet Nadir Ünal": {
@@ -4634,6 +4622,18 @@
       "birthDate": "1957",
       "gender": "female"
     },
+    "Pavel Zhuravlev (kickboxer)": {
+      "wins": 11,
+      "kos": 7,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 13,
+      "nationality": "Ukrainian",
+      "weightClass": "Cruiserweight",
+      "birthDate": "1983",
+      "gender": "male"
+    },
     "Layla McCarter": {
       "wins": 47,
       "kos": 10,
@@ -4655,19 +4655,6 @@
       "nationality": "Australian",
       "weightClass": "Featherweight",
       "birthDate": "1970",
-      "gender": "female"
-    },
-    "Doris Köhler": {
-      "wins": 18,
-      "kos": 5,
-      "losses": 16,
-      "draws": 2,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "Austrian",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doris_K%C3%B6hler_112.JPG",
-      "birthDate": "1975",
       "gender": "female"
     },
     "Jeri Sitzes": {
@@ -4716,6 +4703,19 @@
       "nationality": "Croatian",
       "weightClass": "Flyweight",
       "birthDate": "1979",
+      "gender": "female"
+    },
+    "Doris Köhler": {
+      "wins": 18,
+      "kos": 5,
+      "losses": 16,
+      "draws": 2,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "Austrian",
+      "weightClass": "Bantamweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doris_K%C3%B6hler_112.JPG",
+      "birthDate": "1975",
       "gender": "female"
     },
     "Michelle Sutcliffe": {
@@ -5065,6 +5065,18 @@
       "birthDate": "1960",
       "gender": "male"
     },
+    "Matt Skelton": {
+      "wins": 28,
+      "kos": 23,
+      "losses": 9,
+      "draws": 0,
+      "noContests": 0,
+      "total": 37,
+      "nationality": "British",
+      "weightClass": "Heavyweight",
+      "birthDate": "1967-01-27",
+      "gender": "male"
+    },
     "Phil Nurse": {
       "wins": 14,
       "kos": 0,
@@ -5085,18 +5097,6 @@
       "total": 40,
       "nationality": "British",
       "birthDate": "1988-10-09",
-      "gender": "male"
-    },
-    "Matt Skelton": {
-      "wins": 28,
-      "kos": 23,
-      "losses": 9,
-      "draws": 0,
-      "noContests": 0,
-      "total": 37,
-      "nationality": "British",
-      "weightClass": "Heavyweight",
-      "birthDate": "1967-01-27",
       "gender": "male"
     },
     "Apidej Sit-Hirun": {
@@ -5814,18 +5814,6 @@
       "birthDate": "1980",
       "gender": "male"
     },
-    "Sod Looknongyangtoy": {
-      "wins": 64,
-      "kos": 28,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 68,
-      "nationality": "Thailand",
-      "weightClass": "Bantamweight",
-      "birthDate": "1977-06-03",
-      "gender": "male"
-    },
     "Veeraphol Sahaprom": {
       "wins": 66,
       "kos": 47,
@@ -5932,17 +5920,17 @@
       "birthDate": "1972-04-24",
       "gender": "male"
     },
-    "Phetjeeja Lukjaoporongtom": {
-      "wins": 5,
-      "kos": 4,
-      "losses": 0,
-      "draws": 0,
+    "Sod Looknongyangtoy": {
+      "wins": 64,
+      "kos": 28,
+      "losses": 3,
+      "draws": 1,
       "noContests": 0,
-      "total": 5,
+      "total": 68,
       "nationality": "Thailand",
-      "weightClass": "Flyweight",
-      "birthDate": "2001",
-      "gender": "female"
+      "weightClass": "Bantamweight",
+      "birthDate": "1977-06-03",
+      "gender": "male"
     },
     "Yoddamrong Sithyodthong": {
       "wins": 43,
@@ -5979,6 +5967,18 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dzhabar_Askerov-05-2016.jpg",
       "birthDate": "1986",
       "gender": "male"
+    },
+    "Phetjeeja Lukjaoporongtom": {
+      "wins": 5,
+      "kos": 4,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "Thailand",
+      "weightClass": "Flyweight",
+      "birthDate": "2001",
+      "gender": "female"
     },
     "Sot Chitalada": {
       "wins": 26,
@@ -6224,18 +6224,6 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
-      "gender": "male"
-    },
     "Charley Burley": {
       "wins": 83,
       "kos": 48,
@@ -6246,18 +6234,6 @@
       "nationality": "American",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
       "birthDate": "1917-09-06",
-      "gender": "male"
-    },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Denys Berinchyk": {
@@ -6295,6 +6271,18 @@
       "birthDate": "1991",
       "gender": "male"
     },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "John L. Sullivan": {
       "wins": 47,
       "kos": 34,
@@ -6329,6 +6317,18 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
       "birthDate": "1866",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {
