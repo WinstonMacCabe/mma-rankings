@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T00:43:28.445Z",
+  "lastUpdated": "2026-10-04T00:42:42.667Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -4319,19 +4319,6 @@
       "birthDate": "1979-09-02",
       "gender": "male"
     },
-    "Francois Botha": {
-      "wins": 48,
-      "kos": 29,
-      "losses": 11,
-      "draws": 3,
-      "noContests": 1,
-      "total": 63,
-      "nationality": "South Africa",
-      "weightClass": "Heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Parker_v_Botha.jpg",
-      "birthDate": "1968",
-      "gender": "male"
-    },
     "Artem Levin": {
       "wins": 1,
       "kos": 1,
@@ -4461,6 +4448,19 @@
       "nationality": "Czechoslovakia",
       "weightClass": "Heavyweight",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Francois Botha": {
+      "wins": 48,
+      "kos": 29,
+      "losses": 11,
+      "draws": 3,
+      "noContests": 1,
+      "total": 63,
+      "nationality": "South Africa",
+      "weightClass": "Heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Parker_v_Botha.jpg",
+      "birthDate": "1968",
       "gender": "male"
     },
     "Chi In-jin": {
@@ -5655,17 +5655,6 @@
       "birthDate": "1962-12-05",
       "gender": "male"
     },
-    "Sirimongkol Singmanasak": {
-      "wins": 101,
-      "kos": 62,
-      "losses": 9,
-      "draws": 0,
-      "noContests": 0,
-      "total": 110,
-      "nationality": "Thailand",
-      "birthDate": "1977",
-      "gender": "male"
-    },
     "Saensak Muangsurin": {
       "wins": 14,
       "kos": 11,
@@ -5812,6 +5801,17 @@
       "total": 24,
       "nationality": "Thailand",
       "birthDate": "1980",
+      "gender": "male"
+    },
+    "Sirimongkol Singmanasak": {
+      "wins": 101,
+      "kos": 62,
+      "losses": 9,
+      "draws": 0,
+      "noContests": 0,
+      "total": 110,
+      "nationality": "Thailand",
+      "birthDate": "1977",
       "gender": "male"
     },
     "Veeraphol Sahaprom": {
@@ -6224,6 +6224,29 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
+    "Denys Berinchyk": {
+      "wins": 19,
+      "kos": 4,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 21,
+      "nationality": "USSR",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%B5%D1%80%D1%96%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_3_(%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C_4.10.2012).jpg",
+      "birthDate": "1988",
+      "gender": "male"
+    },
+    "Ashley Brace": {
+      "wins": 8,
+      "kos": 2,
+      "losses": 0,
+      "draws": 1,
+      "noContests": 0,
+      "total": 9,
+      "nationality": "Wales",
+      "birthDate": "1991",
+      "gender": "male"
+    },
     "James J. Corbett": {
       "wins": 23,
       "kos": 10,
@@ -6284,16 +6307,15 @@
       "birthDate": "1847-09-27",
       "gender": "male"
     },
-    "Denys Berinchyk": {
-      "wins": 19,
-      "kos": 4,
-      "losses": 2,
+    "Dat Nguyen (boxer)": {
+      "wins": 20,
+      "kos": 0,
+      "losses": 3,
       "draws": 0,
       "noContests": 0,
-      "total": 21,
-      "nationality": "USSR",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%B5%D1%80%D1%96%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_3_(%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C_4.10.2012).jpg",
-      "birthDate": "1988",
+      "total": 23,
+      "nationality": "American",
+      "birthDate": "1982-10-10",
       "gender": "male"
     },
     "Nico Hernandez": {
@@ -6331,17 +6353,6 @@
       "birthDate": "1990",
       "gender": "male"
     },
-    "Ashley Brace": {
-      "wins": 8,
-      "kos": 2,
-      "losses": 0,
-      "draws": 1,
-      "noContests": 0,
-      "total": 9,
-      "nationality": "Wales",
-      "birthDate": "1991",
-      "gender": "male"
-    },
     "John L. Sullivan": {
       "wins": 47,
       "kos": 34,
@@ -6352,41 +6363,6 @@
       "nationality": "U.S.",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
       "birthDate": "1858",
-      "gender": "male"
-    },
-    "Dat Nguyen (boxer)": {
-      "wins": 20,
-      "kos": 0,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 23,
-      "nationality": "American",
-      "birthDate": "1982-10-10",
-      "gender": "male"
-    },
-    "Jem Mace": {
-      "wins": 27,
-      "kos": 14,
-      "losses": 5,
-      "draws": 7,
-      "noContests": 0,
-      "total": 39,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
-      "birthDate": "1831-04-08",
-      "gender": "male"
-    },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6413,6 +6389,18 @@
       "birthDate": "1862-12-15",
       "gender": "male"
     },
+    "Jem Mace": {
+      "wins": 27,
+      "kos": 14,
+      "losses": 5,
+      "draws": 7,
+      "noContests": 0,
+      "total": 39,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
+      "birthDate": "1831-04-08",
+      "gender": "male"
+    },
     "John Morrissey": {
       "wins": 3,
       "kos": 0,
@@ -6423,6 +6411,18 @@
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
+      "gender": "male"
+    },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "George Gardiner (boxer)": {
@@ -6457,6 +6457,17 @@
       "total": 21,
       "nationality": "Scotland",
       "birthDate": "1990",
+      "gender": "male"
+    },
+    "Alfredo Angulo": {
+      "wins": 26,
+      "kos": 18,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 34,
+      "nationality": "Mexico",
+      "birthDate": "1982-08-11",
       "gender": "male"
     },
     "Usanakorn Thawilsuhannawang": {
