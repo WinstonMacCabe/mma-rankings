@@ -9,6 +9,11 @@ const BATCH_SIZE = 50
 const BATCH_DELAY = 100
 const MIN_LOSSES_FOR_WORST = 10
 const MMA_MAX_WINS = 92
+const requestedSports = (process.env.RANKING_SPORTS ?? '')
+  .split(',')
+  .map(s => s.trim())
+  .filter((s): s is SportKey => (SPORT_KEYS as readonly string[]).includes(s))
+const selectedSports: SportKey[] = requestedSports.length > 0 ? requestedSports : [...SPORT_KEYS]
 
 // Map category sports to related parser sports when the infobox uses generic params.
 // Kickboxing is NOT aliased into sanshou/sanda anymore: sanshou/sanda rankings now rely
@@ -261,19 +266,19 @@ async function main() {
 
   // Step 3: Multi-sport rankings (kickboxing, muay thai, wrestling, etc.).
   // Purely supplementary/cosmetic — failures here must never break MMA/news.
-  const sports: RankingsData['sports'] = {}
+  const sports: RankingsData['sports'] = requestedSports.length > 0 ? { ...(previous.sports ?? {}) } : {}
   const sportRecords = new Map<string, BoxerStats>()
   const sportGenders = new Map<string, Gender>()
   try {
     const sportPages = await getSportPages()
-    for (const key of SPORT_KEYS) {
+    for (const key of selectedSports) {
       for (const [name, g] of sportPages[key]) sportGenders.set(name, g)
     }
 
     // Carry over previously ranked fighters so transient category-discovery failures
     // (e.g. a rate-limited nationality subcategory) can't silently drop marquee names
     // between crawls — they stay ranked as long as their record still qualifies.
-    for (const key of SPORT_KEYS) {
+    for (const key of selectedSports) {
       for (const f of previous.sports?.[key] ?? []) {
         if (!sportPages[key].has(f.name)) {
           sportPages[key].set(f.name, pageMap.get(f.name) ?? f.gender ?? 'male')
@@ -286,7 +291,7 @@ async function main() {
     // not kunKhmer/sanshou. (Aliases only apply to category-discovered fighters in buildSportRanking.)
     for (const [name, record] of allRecords) {
       if (!record?.sportRecords) continue
-      for (const key of SPORT_KEYS) {
+      for (const key of selectedSports) {
         if (record.sportRecords[key] && !sportPages[key].has(name)) {
           sportPages[key].set(name, pageMap.get(name) ?? 'male')
         }
@@ -294,7 +299,7 @@ async function main() {
     }
 
     const allSportTitles = new Set<string>()
-    for (const key of SPORT_KEYS) {
+    for (const key of selectedSports) {
       for (const page of sportPages[key].keys()) allSportTitles.add(page)
     }
     console.log(`\nStep 3: Fetching sport records for ${allSportTitles.size} unique fighter pages...`)
@@ -323,7 +328,7 @@ async function main() {
     // kickboxing, and so on for every other sport.
     for (const [name, record] of sportRecords) {
       if (!record?.sportRecords) continue
-      for (const key of SPORT_KEYS) {
+        for (const key of selectedSports) {
         if (record.sportRecords[key] && !sportPages[key].has(name)) {
           sportPages[key].set(name, sportGenders.get(name) ?? pageMap.get(name) ?? 'male')
         }
@@ -331,7 +336,7 @@ async function main() {
     }
 
     const nowSport = new Date()
-    for (const key of SPORT_KEYS) {
+    for (const key of selectedSports) {
       const ranked = buildSportRanking(key, sportPages[key], sportRecords, previous, nowSport)
       if (ranked.length > 0) sports[key] = ranked
       if (ranked.length > 0) {

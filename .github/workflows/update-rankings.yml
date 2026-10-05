@@ -2,6 +2,11 @@ name: MMA Daily Rankings Update
 
 on:
   workflow_dispatch:
+    inputs:
+      ranking_sports:
+        description: 'Optional comma-separated sport keys to refresh (for example freestyleWrestling,ncaaWrestling,grecoRomanWrestling)'
+        required: false
+        default: ''
 
 concurrency:
   group: rank-update
@@ -23,6 +28,8 @@ jobs:
       - run: npm ci
 
       - run: npm run update-rankings
+        env:
+          RANKING_SPORTS: ${{ inputs.ranking_sports }}
 
       - run: npm run update-news
         continue-on-error: true

@@ -710,12 +710,14 @@ function countTableRows(tableBody: string): SportRecord | null {
   return foundRows && counted ? rec : null
 }
 
-export function parseBespokeBlock(block: string): SportRecord | null {
+export function parseBespokeBlock(block: string, sport?: SportKey): SportRecord | null {
   // Some wrestling pages place senior and age-group matches in one section.
   // Once a senior block is explicitly labeled, do not mix later U17/U20/cadet
   // rows into the senior record used for rankings.
-  const seniorMarker = /Senior\s+[^|\n]*Matches/i.exec(block)
-  if (!seniorMarker && /\b(?:U17|U20|U23|Junior|Cadet|Youth)\b/i.test(block)) return null
+  const seniorMarker = sport === 'freestyleWrestling'
+    ? /Senior\s+[^|\n]*Matches/i.exec(block)
+    : null
+  if (sport === 'freestyleWrestling' && !seniorMarker && /\b(?:U17|U20|U23|Junior|Cadet|Youth)\b/i.test(block)) return null
   if (seniorMarker) {
     const afterSenior = block.slice(seniorMarker.index + seniorMarker[0].length)
     const youngerMarker = /(?:U17|U20|U23|Junior|Cadet|Youth)\s+[^|\n]*Matches/i.exec(afterSenior)
@@ -1140,7 +1142,7 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     let sm3: RegExpExecArray | null
     while ((sm3 = wtRegex.exec(slice)) !== null) tableBlocks.push(sm3[0])
     for (const block of tableBlocks) {
-      const rec = parseBespokeBlock(block)
+      const rec = parseBespokeBlock(block, sport)
       addRecord(sport, rec)
     }
   }
