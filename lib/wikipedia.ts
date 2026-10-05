@@ -711,6 +711,16 @@ function countTableRows(tableBody: string): SportRecord | null {
 }
 
 export function parseBespokeBlock(block: string): SportRecord | null {
+  // Some wrestling pages place senior and age-group matches in one section.
+  // Once a senior block is explicitly labeled, do not mix later U17/U20/cadet
+  // rows into the senior record used for rankings.
+  const seniorMarker = /Senior\s+[^|\n]*Matches/i.exec(block)
+  if (!seniorMarker && /\b(?:U17|U20|U23|Junior|Cadet|Youth)\b/i.test(block)) return null
+  if (seniorMarker) {
+    const afterSenior = block.slice(seniorMarker.index + seniorMarker[0].length)
+    const youngerMarker = /(?:U17|U20|U23|Junior|Cadet|Youth)\s+[^|\n]*Matches/i.exec(afterSenior)
+    block = youngerMarker ? afterSenior.slice(0, youngerMarker.index) : afterSenior
+  }
   const rec = emptySportRecord()
   const rows = block.split(/\n\|-/)
   let found = false
