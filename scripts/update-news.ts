@@ -23,6 +23,9 @@ function envInt(name: string, fallback: number): number {
 // both of these raised to sweep up older announcements for fights still ahead.
 // Nightly runs leave them alone: the only thing new in the last day is new.
 const NEWS_WINDOW_DAYS = envInt('NEWS_WINDOW_DAYS', 30)
+// Temporarily restrict active scanning to Wikipedia while retaining the
+// external-source implementations for a future re-enable.
+const WIKIPEDIA_ONLY = true
 const MAX_ITEMS_PER_FIGHTER = envInt('MAX_ITEMS_PER_FIGHTER', 25)
 const NEWS_WINDOW_MS = NEWS_WINDOW_DAYS * 24 * 60 * 60 * 1000
 // How far back a fight stays on the calendar once it has happened. A card is not
@@ -1002,13 +1005,15 @@ async function main() {
 
   await mapPool(scanList, CONCURRENCY, async (fighter) => {
     let items: RssItem[] = []
-    try {
-      items = await fetchFeed(fighter.clean, fighter.keyword)
-      fetched++
-      totalItems += items.length
-    } catch {
-      failures.push(fighter.clean)
-      return
+    if (!WIKIPEDIA_ONLY) {
+      try {
+        items = await fetchFeed(fighter.clean, fighter.keyword)
+        fetched++
+        totalItems += items.length
+      } catch {
+        failures.push(fighter.clean)
+        return
+      }
     }
     const seenUrl = new Set<string>()
     for (const item of selectInWindowItems(items, cutoff, MAX_ITEMS_PER_FIGHTER)) {
@@ -1113,7 +1118,7 @@ async function main() {
     }
   })
 
-  if (fetched === 0) {
+  if (!WIKIPEDIA_ONLY && fetched === 0) {
     console.error(`[schedule-scan] all ${scanList.length} feeds failed. Leaving existing data untouched.`)
     process.exit(1)
   }
