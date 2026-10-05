@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T00:41:43.508Z",
+  "lastUpdated": "2026-10-05T12:29:43.921Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -3331,19 +3331,6 @@
       "birthDate": "2003",
       "gender": "male"
     },
-    "Gin Sian Maung": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Myanmar",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ginsian.png",
-      "birthDate": "2005",
-      "gender": "male"
-    },
     "Riddick Bowe": {
       "wins": 43,
       "kos": 28,
@@ -6377,18 +6364,6 @@
       "birthDate": "1982-10-10",
       "gender": "male"
     },
-    "Nonpareil Jack Dempsey": {
-      "wins": 52,
-      "kos": 24,
-      "losses": 3,
-      "draws": 11,
-      "noContests": 2,
-      "total": 68,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
-      "birthDate": "1862-12-15",
-      "gender": "male"
-    },
     "Jem Mace": {
       "wins": 27,
       "kos": 14,
@@ -6433,6 +6408,18 @@
       "total": 21,
       "nationality": "Scotland",
       "birthDate": "1990",
+      "gender": "male"
+    },
+    "Nonpareil Jack Dempsey": {
+      "wins": 52,
+      "kos": 24,
+      "losses": 3,
+      "draws": 11,
+      "noContests": 2,
+      "total": 68,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
+      "birthDate": "1862-12-15",
       "gender": "male"
     },
     "John Morrissey": {
