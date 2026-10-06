@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "MMA Rankings",
-  description: "Ranking mixed martial artists by wins, sourced from Wikipedia.",
+  description: "Ranking mixed martial artists by wins.",
 };
 
 export default function RootLayout({
