@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T00:43:16.720Z",
+  "lastUpdated": "2026-10-06T21:53:14.964Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -52,12 +52,12 @@
       "gender": "male"
     },
     "Charles Bennett (fighter)": {
-      "wins": 1,
-      "kos": 1,
+      "wins": 0,
+      "kos": 0,
       "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 2,
+      "total": 1,
       "nationality": "United States",
       "weightClass": "Featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Krazy_Horse_Bennett.jpg",
@@ -675,10 +675,10 @@
     "Chris Lytle": {
       "wins": 13,
       "kos": 7,
-      "losses": 2,
+      "losses": 1,
       "draws": 1,
       "noContests": 0,
-      "total": 16,
+      "total": 15,
       "nationality": "U.S.",
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chris_Lytle.png",
@@ -700,10 +700,10 @@
     "Terry Martin (fighter)": {
       "wins": 5,
       "kos": 5,
-      "losses": 2,
+      "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 7,
+      "total": 6,
       "nationality": "American",
       "weightClass": "Light heavyweight",
       "birthDate": "1980",
@@ -737,10 +737,10 @@
     "Poppies Martinez": {
       "wins": 3,
       "kos": 1,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 4,
+      "total": 3,
       "nationality": "American",
       "weightClass": "Featherweight",
       "birthDate": "1983",
@@ -973,12 +973,12 @@
       "gender": "male"
     },
     "Rolando Perez": {
-      "wins": 2,
+      "wins": 1,
       "kos": 1,
       "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 3,
+      "total": 2,
       "nationality": "American",
       "weightClass": "Featherweight",
       "birthDate": "2015",
@@ -1012,10 +1012,10 @@
     "Jens Pulver": {
       "wins": 4,
       "kos": 3,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 5,
+      "total": 4,
       "nationality": "U.S.",
       "weightClass": "Featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jens_Pulver_at_UFC_-_Neer_vs_Diaz_2013-12-03_22-51.jpg",
@@ -1049,10 +1049,10 @@
     "Rick Roufus": {
       "wins": 13,
       "kos": 11,
-      "losses": 6,
+      "losses": 5,
       "draws": 1,
       "noContests": 0,
-      "total": 20,
+      "total": 19,
       "nationality": "American",
       "birthDate": "1966",
       "gender": "male"
@@ -1086,10 +1086,10 @@
     "Kevin Rosier": {
       "wins": 7,
       "kos": 6,
-      "losses": 18,
+      "losses": 17,
       "draws": 0,
       "noContests": 0,
-      "total": 25,
+      "total": 24,
       "nationality": "U.S.",
       "weightClass": "Heavyweight",
       "birthDate": "1962",
@@ -2187,10 +2187,10 @@
     "Sergej Maslobojev": {
       "wins": 7,
       "kos": 3,
-      "losses": 5,
+      "losses": 4,
       "draws": 0,
       "noContests": 0,
-      "total": 12,
+      "total": 11,
       "nationality": "Lithuania",
       "weightClass": "Cruiserweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Maslobojev.jpg",
@@ -2226,10 +2226,10 @@
     "Jason Suttie": {
       "wins": 3,
       "kos": 0,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 4,
+      "total": 3,
       "nationality": "Samoan New Zealander",
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jason_Suttie.JPG",
@@ -2239,10 +2239,10 @@
     "Doug Viney": {
       "wins": 1,
       "kos": 0,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 2,
+      "total": 1,
       "nationality": "TonganNew Zealander",
       "weightClass": "Super heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
@@ -2398,11 +2398,11 @@
     },
     "Przemysław Saleta": {
       "wins": 44,
-      "kos": 23,
-      "losses": 9,
+      "kos": 21,
+      "losses": 8,
       "draws": 0,
       "noContests": 0,
-      "total": 53,
+      "total": 52,
       "nationality": "Polish",
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saleta_Przemyslaw.jpg",
@@ -2600,10 +2600,10 @@
     "Jan Nortje": {
       "wins": 11,
       "kos": 10,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 12,
+      "total": 11,
       "nationality": "South Africa",
       "weightClass": "Super heavyweight",
       "birthDate": "1975",
@@ -2625,10 +2625,10 @@
     "Alexander Stetsurenko": {
       "wins": 1,
       "kos": 0,
-      "losses": 2,
+      "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 3,
+      "total": 2,
       "nationality": "Russian",
       "weightClass": "Welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%A1%D1%82%D0%B5%D1%86%D1%83%D1%80%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80.jpg",
@@ -3215,10 +3215,10 @@
     "Hiroko Yamanaka": {
       "wins": 2,
       "kos": 2,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 3,
+      "total": 2,
       "nationality": "Japanese",
       "birthDate": "1978",
       "gender": "female"
@@ -3226,10 +3226,10 @@
     "Yoko Takahashi (fighter)": {
       "wins": 0,
       "kos": 0,
-      "losses": 2,
+      "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 2,
+      "total": 1,
       "nationality": "Japan",
       "birthDate": "1973",
       "gender": "female"
@@ -3298,10 +3298,10 @@
     "Julia Berezikova": {
       "wins": 2,
       "kos": 0,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 3,
+      "total": 2,
       "nationality": "Russian",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Julia_Berezikova.jpg",
       "birthDate": "1983",
@@ -3357,11 +3357,11 @@
     },
     "Randall \"Tex\" Cobb": {
       "wins": 42,
-      "kos": 0,
-      "losses": 8,
+      "kos": 35,
+      "losses": 7,
       "draws": 1,
       "noContests": 1,
-      "total": 52,
+      "total": 51,
       "nationality": "American",
       "weightClass": "Heavyweight",
       "birthDate": "1950-05-07",
@@ -3395,10 +3395,10 @@
     "Dale Cook": {
       "wins": 19,
       "kos": 10,
-      "losses": 3,
+      "losses": 2,
       "draws": 1,
       "noContests": 0,
-      "total": 23,
+      "total": 22,
       "nationality": "United States",
       "weightClass": "Light heavyweight",
       "birthDate": "1956",
@@ -3465,10 +3465,10 @@
     "Crawford Grimsley": {
       "wins": 22,
       "kos": 20,
-      "losses": 5,
+      "losses": 4,
       "draws": 1,
       "noContests": 0,
-      "total": 28,
+      "total": 27,
       "nationality": "American",
       "birthDate": "1967",
       "gender": "male"
@@ -3540,18 +3540,6 @@
       "weightClass": "Middleweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Harut-grigorian2.jpg",
       "birthDate": "1989",
-      "gender": "male"
-    },
-    "Karapet Karapetyan": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Armenian Dutch",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1982",
       "gender": "male"
     },
     "Federico Roma": {
@@ -3626,10 +3614,10 @@
     "Tosca Petridis": {
       "wins": 9,
       "kos": 5,
-      "losses": 6,
+      "losses": 5,
       "draws": 1,
       "noContests": 0,
-      "total": 16,
+      "total": 15,
       "nationality": "Greece Australia",
       "weightClass": "Heavyweight, Light",
       "gender": "male"
@@ -3645,6 +3633,18 @@
       "weightClass": "Super middleweight",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Steve_Moxon_Profile_Picture_2013.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "birthDate": "1987",
+      "gender": "male"
+    },
+    "Karapet Karapetyan": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Armenian Dutch",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1982",
       "gender": "male"
     },
     "Marc de Bonte": {
@@ -3683,6 +3683,30 @@
       "birthDate": "1995",
       "gender": "male"
     },
+    "Gary Hamilton (kickboxer)": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 6,
+      "draws": 0,
+      "noContests": 0,
+      "total": 8,
+      "nationality": "British",
+      "weightClass": "Featherweight",
+      "birthDate": "1980-05-27",
+      "gender": "male"
+    },
+    "Liam Nolan (Muay Thai)": {
+      "wins": 22,
+      "kos": 15,
+      "losses": 9,
+      "draws": 1,
+      "noContests": 0,
+      "total": 32,
+      "nationality": "British",
+      "weightClass": "Middleweight",
+      "birthDate": "1997",
+      "gender": "male"
+    },
     "Darrell Henegan": {
       "wins": 1,
       "kos": 0,
@@ -3708,52 +3732,16 @@
       "birthDate": "1963",
       "gender": "male"
     },
-    "Gary Hamilton (kickboxer)": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 6,
-      "draws": 0,
-      "noContests": 0,
-      "total": 8,
-      "nationality": "British",
-      "weightClass": "Featherweight",
-      "birthDate": "1980-05-27",
-      "gender": "male"
-    },
-    "Liam Nolan (Muay Thai)": {
-      "wins": 22,
-      "kos": 15,
-      "losses": 9,
-      "draws": 1,
-      "noContests": 0,
-      "total": 32,
-      "nationality": "British",
-      "weightClass": "Middleweight",
-      "birthDate": "1997",
-      "gender": "male"
-    },
     "Igor Mihaljević": {
       "wins": 5,
       "kos": 2,
-      "losses": 10,
+      "losses": 9,
       "draws": 0,
       "noContests": 0,
-      "total": 15,
+      "total": 14,
       "nationality": "Croatian",
       "weightClass": "Light heavyweight",
       "birthDate": "1979",
-      "gender": "male"
-    },
-    "Václav Sivák": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Czech Republic",
-      "weightClass": "Welterweight",
-      "birthDate": "1999",
       "gender": "male"
     },
     "Zack Mwekassa": {
@@ -3766,6 +3754,18 @@
       "nationality": "CongoleseFrench",
       "weightClass": "Cruiserweight",
       "birthDate": "1984",
+      "gender": "male"
+    },
+    "Václav Sivák": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Czech Republic",
+      "weightClass": "Welterweight",
+      "birthDate": "1999",
       "gender": "male"
     },
     "Albert Kraus": {
@@ -3820,17 +3820,6 @@
       "birthDate": "1989-04-10",
       "gender": "male"
     },
-    "Daniel Forsberg": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Finnish",
-      "birthDate": "1992",
-      "gender": "male"
-    },
     "Johann Fauveau": {
       "wins": 3,
       "kos": 2,
@@ -3877,6 +3866,17 @@
       "nationality": "France",
       "weightClass": "Flyweight",
       "birthDate": "1993",
+      "gender": "male"
+    },
+    "Daniel Forsberg": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Finnish",
+      "birthDate": "1992",
       "gender": "male"
     },
     "Khalid Rahilou": {
@@ -3939,31 +3939,6 @@
       "birthDate": "1977",
       "gender": "male"
     },
-    "Alessandro Riguccini": {
-      "wins": 32,
-      "kos": 27,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 32,
-      "nationality": "Italian",
-      "weightClass": "Super featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alex_Colosseo.jpg",
-      "birthDate": "1988",
-      "gender": "male"
-    },
-    "Dillian Whyte": {
-      "wins": 31,
-      "kos": 21,
-      "losses": 4,
-      "draws": 0,
-      "noContests": 0,
-      "total": 35,
-      "nationality": "British",
-      "weightClass": "Heavyweight",
-      "birthDate": "1988-04-11",
-      "gender": "male"
-    },
     "Mattia Faraoni": {
       "wins": 8,
       "kos": 4,
@@ -4002,6 +3977,31 @@
       "birthDate": "1986",
       "gender": "male"
     },
+    "Alessandro Riguccini": {
+      "wins": 32,
+      "kos": 27,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 32,
+      "nationality": "Italian",
+      "weightClass": "Super featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alex_Colosseo.jpg",
+      "birthDate": "1988",
+      "gender": "male"
+    },
+    "Dillian Whyte": {
+      "wins": 31,
+      "kos": 21,
+      "losses": 4,
+      "draws": 0,
+      "noContests": 0,
+      "total": 35,
+      "nationality": "British",
+      "weightClass": "Heavyweight",
+      "birthDate": "1988-04-11",
+      "gender": "male"
+    },
     "Kento Haraguchi": {
       "wins": 4,
       "kos": 2,
@@ -4023,17 +4023,6 @@
       "total": 22,
       "nationality": "Japanese",
       "birthDate": "1976",
-      "gender": "male"
-    },
-    "Tsukuru Midorikawa": {
-      "wins": 6,
-      "kos": 4,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 7,
-      "nationality": "Japan",
-      "birthDate": "1986",
       "gender": "male"
     },
     "Kenji Kubo": {
@@ -4069,6 +4058,17 @@
       "total": 2,
       "nationality": "Japanese",
       "birthDate": "1992",
+      "gender": "male"
+    },
+    "Tsukuru Midorikawa": {
+      "wins": 6,
+      "kos": 4,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 7,
+      "nationality": "Japan",
+      "birthDate": "1986",
       "gender": "male"
     },
     "Yasuomi Soda": {
@@ -4129,17 +4129,6 @@
       "birthDate": "1975",
       "gender": "male"
     },
-    "Milorad Gajović": {
-      "wins": 3,
-      "kos": 2,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Montenegrin",
-      "birthDate": "1974",
-      "gender": "male"
-    },
     "Mairis Briedis": {
       "wins": 28,
       "kos": 17,
@@ -4164,17 +4153,15 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Marek Piotrowski": {
-      "wins": 21,
-      "kos": 11,
+    "Milorad Gajović": {
+      "wins": 3,
+      "kos": 2,
       "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 21,
-      "nationality": "Polish",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marek_The_Punisher_Piotrowski.jpg",
-      "birthDate": "1964",
+      "total": 3,
+      "nationality": "Montenegrin",
+      "birthDate": "1974",
       "gender": "male"
     },
     "Jordan Tai": {
@@ -4200,38 +4187,17 @@
       "birthDate": "1978",
       "gender": "male"
     },
-    "Łukasz Pławecki": {
-      "wins": 11,
-      "kos": 4,
-      "losses": 2,
-      "draws": 2,
-      "noContests": 0,
-      "total": 15,
-      "nationality": "Polish",
-      "weightClass": "Welterweight",
-      "birthDate": "1987",
-      "gender": "male"
-    },
-    "Piotr Stępień (boxer)": {
-      "wins": 8,
-      "kos": 6,
+    "Marek Piotrowski": {
+      "wins": 21,
+      "kos": 11,
       "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 8,
+      "total": 21,
       "nationality": "Polish",
-      "birthDate": "2001-03-06",
-      "gender": "male"
-    },
-    "Jan Lodzik": {
-      "wins": 12,
-      "kos": 3,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 14,
-      "nationality": "Polish",
-      "birthDate": "1995",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marek_The_Punisher_Piotrowski.jpg",
+      "birthDate": "1964",
       "gender": "male"
     },
     "Benjamin Adegbuyi": {
@@ -4257,6 +4223,18 @@
       "nationality": "Romania",
       "weightClass": "Middleweight",
       "birthDate": "1992",
+      "gender": "male"
+    },
+    "Łukasz Pławecki": {
+      "wins": 11,
+      "kos": 4,
+      "losses": 2,
+      "draws": 2,
+      "noContests": 0,
+      "total": 15,
+      "nationality": "Polish",
+      "weightClass": "Welterweight",
+      "birthDate": "1987",
       "gender": "male"
     },
     "Eduard Gafencu": {
@@ -4294,6 +4272,28 @@
       "birthDate": "1998",
       "gender": "male"
     },
+    "Piotr Stępień (boxer)": {
+      "wins": 8,
+      "kos": 6,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 8,
+      "nationality": "Polish",
+      "birthDate": "2001-03-06",
+      "gender": "male"
+    },
+    "Jan Lodzik": {
+      "wins": 12,
+      "kos": 3,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 14,
+      "nationality": "Polish",
+      "birthDate": "1995",
+      "gender": "male"
+    },
     "Alexander Povetkin": {
       "wins": 36,
       "kos": 22,
@@ -4319,25 +4319,13 @@
       "birthDate": "1986",
       "gender": "male"
     },
-    "Nenad Pagonis": {
-      "wins": 8,
-      "kos": 6,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 9,
-      "nationality": "Serbian",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1987",
-      "gender": "male"
-    },
     "Dragan Jovanović (kickboxer)": {
       "wins": 0,
       "kos": 0,
-      "losses": 3,
+      "losses": 2,
       "draws": 0,
       "noContests": 0,
-      "total": 3,
+      "total": 2,
       "nationality": "Serbian",
       "weightClass": "Heavyweight",
       "birthDate": "1977",
@@ -4425,18 +4413,6 @@
       "birthDate": "1994",
       "gender": "male"
     },
-    "Martin Pacas": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Czechoslovakia",
-      "weightClass": "Heavyweight",
-      "birthDate": "1991",
-      "gender": "male"
-    },
     "Francois Botha": {
       "wins": 48,
       "kos": 29,
@@ -4473,17 +4449,41 @@
       "birthDate": "1977",
       "gender": "male"
     },
+    "Nenad Pagonis": {
+      "wins": 8,
+      "kos": 6,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 9,
+      "nationality": "Serbian",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1987",
+      "gender": "male"
+    },
     "César Córdoba": {
       "wins": 11,
       "kos": 9,
-      "losses": 3,
+      "losses": 2,
       "draws": 0,
       "noContests": 0,
-      "total": 14,
+      "total": 13,
       "nationality": "Spanish",
       "weightClass": "Cruiserweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/C%C3%A9sar_C%C3%B3rdoba.jpg",
       "birthDate": "1980",
+      "gender": "male"
+    },
+    "Martin Pacas": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Czechoslovakia",
+      "weightClass": "Heavyweight",
+      "birthDate": "1991",
       "gender": "male"
     },
     "Vitali Klitschko": {
@@ -4497,31 +4497,6 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/EPP_Congress_2025_Valencia_Day_1_(54483888272)_(cropped).jpg",
       "birthDate": "1971",
-      "gender": "male"
-    },
-    "Artur Kyshenko": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Ukrainian",
-      "weightClass": "Super middleweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Artur-Kyshenko2.jpg",
-      "birthDate": "1986",
-      "gender": "male"
-    },
-    "Tsotne Rogava": {
-      "wins": 13,
-      "kos": 8,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 14,
-      "nationality": "Ukrainian",
-      "weightClass": "Heavyweight",
-      "birthDate": "1993",
       "gender": "male"
     },
     "Dmitri Bezus": {
@@ -4571,18 +4546,6 @@
       "birthDate": "1962",
       "gender": "female"
     },
-    "Yvonne Trevino": {
-      "wins": 9,
-      "kos": 0,
-      "losses": 5,
-      "draws": 1,
-      "noContests": 0,
-      "total": 15,
-      "nationality": "United States",
-      "weightClass": "Featherweight",
-      "birthDate": "1967",
-      "gender": "female"
-    },
     "Fredia Gibbs": {
       "wins": 9,
       "kos": 0,
@@ -4595,6 +4558,19 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fredia2018_(cropped).jpg",
       "birthDate": "1963",
       "gender": "female"
+    },
+    "Artur Kyshenko": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Ukrainian",
+      "weightClass": "Super middleweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Artur-Kyshenko2.jpg",
+      "birthDate": "1986",
+      "gender": "male"
     },
     "Graciela Casillas": {
       "wins": 5,
@@ -4621,6 +4597,18 @@
       "birthDate": "1983",
       "gender": "male"
     },
+    "Tsotne Rogava": {
+      "wins": 13,
+      "kos": 8,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 14,
+      "nationality": "Ukrainian",
+      "weightClass": "Heavyweight",
+      "birthDate": "1993",
+      "gender": "male"
+    },
     "Layla McCarter": {
       "wins": 47,
       "kos": 10,
@@ -4630,18 +4618,6 @@
       "total": 65,
       "nationality": "U.S.",
       "birthDate": "1979",
-      "gender": "female"
-    },
-    "Sharon Anyos": {
-      "wins": 14,
-      "kos": 4,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 17,
-      "nationality": "Australian",
-      "weightClass": "Featherweight",
-      "birthDate": "1970",
       "gender": "female"
     },
     "Jeri Sitzes": {
@@ -4656,16 +4632,16 @@
       "birthDate": "1979",
       "gender": "female"
     },
-    "Lucia Rijker": {
-      "wins": 17,
-      "kos": 14,
-      "losses": 1,
-      "draws": 0,
+    "Yvonne Trevino": {
+      "wins": 9,
+      "kos": 0,
+      "losses": 5,
+      "draws": 1,
       "noContests": 0,
-      "total": 18,
-      "nationality": "Netherlands",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lucia_Rijker_in_training_(cropped).jpg",
-      "birthDate": "1967-12-06",
+      "total": 15,
+      "nationality": "United States",
+      "weightClass": "Featherweight",
+      "birthDate": "1967",
       "gender": "female"
     },
     "Daisy Lang": {
@@ -4692,6 +4668,18 @@
       "birthDate": "1979",
       "gender": "female"
     },
+    "Sharon Anyos": {
+      "wins": 14,
+      "kos": 4,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 17,
+      "nationality": "Australian",
+      "weightClass": "Featherweight",
+      "birthDate": "1970",
+      "gender": "female"
+    },
     "Doris Köhler": {
       "wins": 18,
       "kos": 5,
@@ -4705,6 +4693,18 @@
       "birthDate": "1975",
       "gender": "female"
     },
+    "Lucia Rijker": {
+      "wins": 17,
+      "kos": 14,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 17,
+      "nationality": "Netherlands",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lucia_Rijker_in_training_(cropped).jpg",
+      "birthDate": "1967-12-06",
+      "gender": "female"
+    },
     "Michelle Sutcliffe": {
       "wins": 7,
       "kos": 2,
@@ -4715,42 +4715,6 @@
       "nationality": "English",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michelle-Sutcliffe.png",
       "birthDate": "1967",
-      "gender": "female"
-    },
-    "Hülya Şahin": {
-      "wins": 20,
-      "kos": 2,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 23,
-      "nationality": "German Turkish",
-      "birthDate": "1974-02-23",
-      "gender": "female"
-    },
-    "Asiye Özlem Sahin": {
-      "wins": 25,
-      "kos": 0,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 29,
-      "nationality": "German Turkish",
-      "weightClass": "Flyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Asiye_Ozlem_Sahin.JPG",
-      "birthDate": "1976",
-      "gender": "female"
-    },
-    "Rola El-Halabi": {
-      "wins": 14,
-      "kos": 7,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 15,
-      "nationality": "German",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rola_El-Halabi.jpg",
-      "birthDate": "1985-03-17",
       "gender": "female"
     },
     "Cathy Brown (boxer)": {
@@ -4803,18 +4767,6 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Johanna Kruse": {
-      "wins": 5,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 5,
-      "nationality": "German",
-      "weightClass": "Light welterweight",
-      "birthDate": "1992",
-      "gender": "female"
-    },
     "Aurélie Froment": {
       "wins": 3,
       "kos": 0,
@@ -4838,38 +4790,40 @@
       "birthDate": "1989",
       "gender": "female"
     },
-    "Raja Amasheh": {
-      "wins": 22,
-      "kos": 6,
-      "losses": 1,
-      "draws": 1,
-      "noContests": 1,
-      "total": 25,
-      "nationality": "Jordan",
-      "birthDate": "1982",
-      "gender": "female"
-    },
-    "Naoko Kumagai": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Japan",
-      "birthDate": "1971",
-      "gender": "female"
-    },
-    "Erika Kamimura": {
-      "wins": 28,
-      "kos": 15,
+    "Hülya Şahin": {
+      "wins": 20,
+      "kos": 2,
       "losses": 3,
       "draws": 0,
       "noContests": 0,
-      "total": 31,
-      "nationality": "Japanese",
+      "total": 23,
+      "nationality": "German Turkish",
+      "birthDate": "1974-02-23",
+      "gender": "female"
+    },
+    "Asiye Özlem Sahin": {
+      "wins": 25,
+      "kos": 0,
+      "losses": 2,
+      "draws": 1,
+      "noContests": 0,
+      "total": 28,
+      "nationality": "German Turkish",
       "weightClass": "Flyweight",
-      "birthDate": "1992",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Asiye_Ozlem_Sahin.JPG",
+      "birthDate": "1976",
+      "gender": "female"
+    },
+    "Rola El-Halabi": {
+      "wins": 14,
+      "kos": 7,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 15,
+      "nationality": "German",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rola_El-Halabi.jpg",
+      "birthDate": "1985-03-17",
       "gender": "female"
     },
     "Chantal Ughi": {
@@ -4885,6 +4839,18 @@
       "birthDate": "1981",
       "gender": "female"
     },
+    "Johanna Kruse": {
+      "wins": 5,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "German",
+      "weightClass": "Light welterweight",
+      "birthDate": "1992",
+      "gender": "female"
+    },
     "Gloria Peritore": {
       "wins": 7,
       "kos": 3,
@@ -4895,6 +4861,17 @@
       "nationality": "Italian",
       "weightClass": "Flyweight",
       "birthDate": "1988",
+      "gender": "female"
+    },
+    "Raja Amasheh": {
+      "wins": 22,
+      "kos": 6,
+      "losses": 1,
+      "draws": 1,
+      "noContests": 1,
+      "total": 25,
+      "nationality": "Jordan",
+      "birthDate": "1982",
       "gender": "female"
     },
     "Sachiyo Shibata": {
@@ -4921,16 +4898,15 @@
       "birthDate": "1981-09-28",
       "gender": "female"
     },
-    "Natascha Ragosina": {
-      "wins": 22,
-      "kos": 11,
-      "losses": 0,
+    "Naoko Kumagai": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 2,
       "draws": 0,
       "noContests": 0,
-      "total": 22,
-      "nationality": "USSR",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/RagozinaNatalia7.JPG",
-      "birthDate": "1976",
+      "total": 3,
+      "nationality": "Japan",
+      "birthDate": "1971",
       "gender": "female"
     },
     "Ai Takahashi (kickboxer)": {
@@ -4942,6 +4918,18 @@
       "total": 23,
       "nationality": "Japan",
       "birthDate": "1982",
+      "gender": "female"
+    },
+    "Erika Kamimura": {
+      "wins": 28,
+      "kos": 15,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 31,
+      "nationality": "Japanese",
+      "weightClass": "Flyweight",
+      "birthDate": "1992",
       "gender": "female"
     },
     "Baby Nansen": {
@@ -4980,18 +4968,17 @@
       "birthDate": "1994",
       "gender": "female"
     },
-    "Dieselnoi Chor Thanasukarn": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
+    "Natascha Ragosina": {
+      "wins": 22,
+      "kos": 11,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 2,
-      "nationality": "Thailand",
-      "weightClass": "Lightweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dieselnoi_Kevin.jpg",
-      "birthDate": "1961",
-      "gender": "male"
+      "total": 22,
+      "nationality": "USSR",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/RagozinaNatalia7.JPG",
+      "birthDate": "1976",
+      "gender": "female"
     },
     "Therese Gunnarsson": {
       "wins": 1,
@@ -5018,6 +5005,31 @@
       "birthDate": "1978",
       "gender": "female"
     },
+    "Dieselnoi Chor Thanasukarn": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thailand",
+      "weightClass": "Lightweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dieselnoi_Kevin.jpg",
+      "birthDate": "1961",
+      "gender": "male"
+    },
+    "Abdel Qissi": {
+      "wins": 5,
+      "kos": 2,
+      "losses": 2,
+      "draws": 1,
+      "noContests": 0,
+      "total": 8,
+      "nationality": "Moroccan",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Abdel_Qissi.jpg",
+      "birthDate": "1960",
+      "gender": "male"
+    },
     "Jacob Ng": {
       "wins": 15,
       "kos": 8,
@@ -5038,18 +5050,6 @@
       "total": 1,
       "nationality": "Australia",
       "birthDate": "1997",
-      "gender": "male"
-    },
-    "Abdel Qissi": {
-      "wins": 5,
-      "kos": 2,
-      "losses": 2,
-      "draws": 1,
-      "noContests": 0,
-      "total": 8,
-      "nationality": "Moroccan",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Abdel_Qissi.jpg",
-      "birthDate": "1960",
       "gender": "male"
     },
     "Matt Skelton": {
@@ -5111,19 +5111,6 @@
       "birthDate": "1979",
       "gender": "male"
     },
-    "Berkrerk Chartvanchai": {
-      "wins": 16,
-      "kos": 3,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 24,
-      "nationality": "Thailand",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%81%E0%B8%A9%E0%B9%8C_%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%A2.webp",
-      "birthDate": "1944",
-      "gender": "male"
-    },
     "Anantasak Panyuthaphum": {
       "wins": 6,
       "kos": 0,
@@ -5135,17 +5122,6 @@
       "weightClass": "Super featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anantasak_Kevin.jpg",
       "birthDate": "1973",
-      "gender": "male"
-    },
-    "Bandon Sitbangprachan": {
-      "wins": 2,
-      "kos": 2,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Thailand",
-      "birthDate": "1963",
       "gender": "male"
     },
     "Chatchai Sasakul": {
@@ -5171,6 +5147,19 @@
       "birthDate": "1966",
       "gender": "male"
     },
+    "Berkrerk Chartvanchai": {
+      "wins": 16,
+      "kos": 3,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 24,
+      "nationality": "Thailand",
+      "weightClass": "Bantamweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%81%E0%B8%A9%E0%B9%8C_%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%A2.webp",
+      "birthDate": "1944",
+      "gender": "male"
+    },
     "Chamroen Songkitrat": {
       "wins": 9,
       "kos": 2,
@@ -5194,19 +5183,6 @@
       "weightClass": "Featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chamuekpet_Kevin.jpg",
       "birthDate": "1962",
-      "gender": "male"
-    },
-    "Dokmaipa Por.Pongsawang": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Thailand",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dokmaipa_Por.Pongsawang.jpeg",
-      "birthDate": "1968",
       "gender": "male"
     },
     "Chatchainoi Chaoraioi": {
@@ -5243,6 +5219,17 @@
       "nationality": "Thailand",
       "weightClass": "Flyweight",
       "birthDate": "1965",
+      "gender": "male"
+    },
+    "Bandon Sitbangprachan": {
+      "wins": 2,
+      "kos": 2,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thailand",
+      "birthDate": "1963",
       "gender": "male"
     },
     "Khaosai Galaxy": {
@@ -5293,17 +5280,6 @@
       "birthDate": "1989",
       "gender": "male"
     },
-    "Knockout CP Freshmart": {
-      "wins": 30,
-      "kos": 9,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 32,
-      "nationality": "Thailand",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Kaensak Sor.Ploenjit": {
       "wins": 1,
       "kos": 1,
@@ -5326,6 +5302,19 @@
       "nationality": "Thailand",
       "weightClass": "Super featherweight",
       "birthDate": "1974",
+      "gender": "male"
+    },
+    "Dokmaipa Por.Pongsawang": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thailand",
+      "weightClass": "Bantamweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dokmaipa_Por.Pongsawang.jpeg",
+      "birthDate": "1968",
       "gender": "male"
     },
     "Khunsueklek Boomdeksian": {
@@ -5361,6 +5350,17 @@
       "total": 80,
       "nationality": "Thailand",
       "birthDate": "1978",
+      "gender": "male"
+    },
+    "Knockout CP Freshmart": {
+      "wins": 30,
+      "kos": 9,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 32,
+      "nationality": "Thailand",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Kongtoranee Payakaroon": {
@@ -5399,18 +5399,6 @@
       "birthDate": "1972",
       "gender": "male"
     },
-    "Nongbee Kiatyongyut": {
-      "wins": 3,
-      "kos": 2,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Thailand",
-      "weightClass": "Featherweight",
-      "birthDate": "1981",
-      "gender": "male"
-    },
     "Muangfahlek Kiatwichian": {
       "wins": 17,
       "kos": 11,
@@ -5444,19 +5432,6 @@
       "total": 47,
       "nationality": "Thailand",
       "birthDate": "1983-05-05",
-      "gender": "male"
-    },
-    "Petchmorakot Petchyindee Academy": {
-      "wins": 5,
-      "kos": 2,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 5,
-      "nationality": "Thailand",
-      "weightClass": "Featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchmorakot_Wor_Sangprapai.JPG",
-      "birthDate": "1994-02-14",
       "gender": "male"
     },
     "Palangpol CP Freshmart": {
@@ -5518,6 +5493,18 @@
       "birthDate": "1957-10-12",
       "gender": "male"
     },
+    "Nongbee Kiatyongyut": {
+      "wins": 3,
+      "kos": 2,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Thailand",
+      "weightClass": "Featherweight",
+      "birthDate": "1981",
+      "gender": "male"
+    },
     "Petchdam Lukborai": {
       "wins": 0,
       "kos": 0,
@@ -5553,6 +5540,19 @@
       "nationality": "Thai",
       "weightClass": "Flyweight",
       "birthDate": "1966",
+      "gender": "male"
+    },
+    "Petchmorakot Petchyindee Academy": {
+      "wins": 5,
+      "kos": 2,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "Thailand",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchmorakot_Wor_Sangprapai.JPG",
+      "birthDate": "1994-02-14",
       "gender": "male"
     },
     "Pichit Chor Siriwat": {
@@ -5658,10 +5658,10 @@
     "Saenchai": {
       "wins": 5,
       "kos": 2,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 6,
+      "total": 5,
       "nationality": "Thailand",
       "weightClass": "Super featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/SaenchaiSorKingstar.jpg",
@@ -5801,19 +5801,6 @@
       "birthDate": "1977",
       "gender": "male"
     },
-    "Veeraphol Sahaprom": {
-      "wins": 66,
-      "kos": 47,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 73,
-      "nationality": "Thailand",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Veeraphol_Sahaprom_-_Scott_Mallon-Far_East_Photos.jpg",
-      "birthDate": "1968",
-      "gender": "male"
-    },
     "Srisaket Sor Rungvisai": {
       "wins": 58,
       "kos": 46,
@@ -5823,18 +5810,6 @@
       "total": 66,
       "nationality": "Thailand",
       "birthDate": "1986-12-08",
-      "gender": "male"
-    },
-    "Wanheng Menayothin": {
-      "wins": 55,
-      "kos": 16,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 58,
-      "nationality": "Thailand",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wanheng_Menayothin.jpg",
-      "birthDate": "1985",
       "gender": "male"
     },
     "Songkram Porpaoin": {
@@ -5919,6 +5894,31 @@
       "birthDate": "1977-06-03",
       "gender": "male"
     },
+    "Veeraphol Sahaprom": {
+      "wins": 66,
+      "kos": 47,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 73,
+      "nationality": "Thailand",
+      "weightClass": "Bantamweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Veeraphol_Sahaprom_-_Scott_Mallon-Far_East_Photos.jpg",
+      "birthDate": "1968",
+      "gender": "male"
+    },
+    "Wanheng Menayothin": {
+      "wins": 55,
+      "kos": 16,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 58,
+      "nationality": "Thailand",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wanheng_Menayothin.jpg",
+      "birthDate": "1985",
+      "gender": "male"
+    },
     "Yoddamrong Sithyodthong": {
       "wins": 43,
       "kos": 18,
@@ -5978,17 +5978,6 @@
       "birthDate": "1962",
       "gender": "male"
     },
-    "Zaza Sor. Aree": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Thai",
-      "birthDate": "1993",
-      "gender": "female"
-    },
     "Kompayak Porpramook": {
       "wins": 61,
       "kos": 41,
@@ -6034,6 +6023,17 @@
       "total": 51,
       "nationality": "Brazil",
       "birthDate": "1995",
+      "gender": "female"
+    },
+    "Zaza Sor. Aree": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thai",
+      "birthDate": "1993",
       "gender": "female"
     },
     "Patricia Alcivar": {
@@ -6164,18 +6164,6 @@
       "birthDate": "1967",
       "gender": "male"
     },
-    "Maïva Hamadouche": {
-      "wins": 22,
-      "kos": 16,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 24,
-      "nationality": "France",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ma%C3%AFva_Hamadouche.jpg",
-      "birthDate": "1989",
-      "gender": "male"
-    },
     "Myriam Lamare": {
       "wins": 22,
       "kos": 10,
@@ -6186,6 +6174,18 @@
       "nationality": "French",
       "weightClass": "Featherweight",
       "birthDate": "1975",
+      "gender": "male"
+    },
+    "Maïva Hamadouche": {
+      "wins": 22,
+      "kos": 16,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 24,
+      "nationality": "France",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ma%C3%AFva_Hamadouche.jpg",
+      "birthDate": "1989",
       "gender": "male"
     },
     "Chris Bacon (boxer)": {
@@ -6235,6 +6235,18 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
+      "gender": "male"
+    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -6247,6 +6259,17 @@
       "birthDate": "1988",
       "gender": "male"
     },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
+      "gender": "male"
+    },
     "Emil Novruzov": {
       "wins": 3,
       "kos": 0,
@@ -6257,6 +6280,18 @@
       "nationality": "Azerbaijani Russian",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
       "birthDate": "1995",
+      "gender": "male"
+    },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Ashley Brace": {
@@ -6306,18 +6341,6 @@
       "birthDate": "1866",
       "gender": "male"
     },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6327,29 +6350,6 @@
       "total": 23,
       "nationality": "American",
       "birthDate": "1982-10-10",
-      "gender": "male"
-    },
-    "Nico Hernandez": {
-      "wins": 12,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "American",
-      "birthDate": "1996-01-04",
-      "gender": "male"
-    },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
       "gender": "male"
     },
     "Jem Mace": {
@@ -6362,6 +6362,18 @@
       "nationality": "British",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
       "birthDate": "1831-04-08",
+      "gender": "male"
+    },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6391,25 +6403,13 @@
     "John Morrissey": {
       "wins": 3,
       "kos": 0,
-      "losses": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 4,
+      "total": 3,
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
-      "gender": "male"
-    },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
       "gender": "male"
     },
     "Alfredo Angulo": {

@@ -52,7 +52,7 @@ const MIN_SCORE: Partial<Record<SportKey, number>> = {
   kickboxing: 8.5,
   muayThai: 3,
   freestyleWrestling: 2.81,
-  brazilianJiuJitsu: 1.1,
+  brazilianJiuJitsu: 1.26,
   ncaaWrestling: 1.14,
   bareKnuckle: 0.48,
   sumo: 1.55,
