@@ -681,7 +681,18 @@ function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; 
     const c = cells[i]
     if (isRecordTallyRow(c)) continue
     if (/\bWin\b/i.test(c)) { result = 'win'; resultCell = i; break }
-    else if (/\bLoss(es)?\b/i.test(c)) { result = 'loss'; resultCell = i; break }
+    // A few grappling/wrestling tables spell the winning cell "Won"
+    // ({{yes2}}Won). Match it only as a WHOLE cell: stripWikiMarkup reduces
+    // {{small|Won the ... Championship}} to "" but leaves prose notes such as
+    // <small>Won the ADCC Superfight Championship</small> intact, and a
+    // substring match would turn those note rows into phantom wins.
+    else if (/^Won(?:\s*\(.*\))?$/i.test(c)) { result = 'win'; resultCell = i; break }
+    // Wikipedia spells the losing cell either "Loss"/"Losses" or -- in the
+    // {{no2}}Lose tables used by grappling/ADCC records -- "Lose". The old
+    // /\bLoss(es)?\b/ matched neither "Lose", so those rows were dropped
+    // silently: Georges St-Pierre's submission-grappling record read 1-0 when
+    // the table's own caption said 1 win, 1 loss.
+    else if (/\b(?:Loss(?:es)?|Lose)\b/i.test(c)) { result = 'loss'; resultCell = i; break }
     else if (/\bDraw\b/i.test(c)) { result = 'draw'; resultCell = i; break }
     else if (/\bNC\b/i.test(c)) { result = 'nc'; resultCell = i; break }
   }
@@ -758,7 +769,10 @@ export function parseBespokeBlock(block: string, sport?: SportKey, preferSenior 
     for (const cell of cells) {
       if (isRecordTallyRow(cell)) continue
       if (/\bWin\b/i.test(cell)) { result = 'win'; break }
-      if (/\bLoss(es)?\b/i.test(cell)) { result = 'loss'; break }
+      // "Won" as a whole cell only -- see the note in parseRecordRow.
+      if (/^Won(?:\s*\(.*\))?$/i.test(cell)) { result = 'win'; break }
+      // "Lose" as well as "Loss"/"Losses" -- see the note in parseRecordRow.
+      if (/\b(?:Loss(?:es)?|Lose)\b/i.test(cell)) { result = 'loss'; break }
       if (/\bDraw\b/i.test(cell)) { result = 'draw'; break }
       if (/\bNC\b/i.test(cell)) { result = 'nc'; break }
     }
