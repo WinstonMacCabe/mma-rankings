@@ -632,6 +632,24 @@ function parseRecordSummaryForSport(value: string, prefer: SportKey | null): Spo
   return parseRecordSummary(text)
 }
 
+// A record table can open with its own headline tally as a caption row —
+// '''6 Matches, 5 Wins, 0 Losses, 1 Draw''' — which describes the table rather
+// than being a result inside it. Reading one as a result was a real defect:
+// /\bLoss(es)?\b/ matches the word "Losses", while /\bWin\b/ does NOT match
+// "Wins", so the else-if chain skipped Win, hit Loss, and every page laid out
+// this way gained a defeat it never had. Arman Tsarukyan's submission-grappling
+// record shipped 6–1–1 instead of 6–0–1, making his one draw look like a loss.
+//
+// Two independent signals mark the row, both of which a real result cell lacks:
+//   - `colspan=` is a cell merged across columns, so there is no column for a
+//     result to live in (a "no bouts scheduled" row uses it the same way);
+//   - a tally states at least two counts, whereas a result cell holds labels.
+function isRecordTallyRow(text: string): boolean {
+  if (/\bcolspan\s*=/i.test(text)) return true
+  const counts = text.match(/\b\d+\s+(?:matches?|wins?|losses?|draws?|no\s+contests?)\b/gi)
+  return !!counts && counts.length >= 2
+}
+
 function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; method: string } | null {
   // Drop leftover row-separator attributes (e.g. the tail of `|-  style="..."`)
   // when they precede the row, but only when the first line is not a real cell
@@ -661,6 +679,7 @@ function parseRecordRow(row: string): { result: 'win' | 'loss' | 'draw' | 'nc'; 
   let resultCell = -1
   for (let i = 0; i < Math.min(cells.length, 4); i++) {
     const c = cells[i]
+    if (isRecordTallyRow(c)) continue
     if (/\bWin\b/i.test(c)) { result = 'win'; resultCell = i; break }
     else if (/\bLoss(es)?\b/i.test(c)) { result = 'loss'; resultCell = i; break }
     else if (/\bDraw\b/i.test(c)) { result = 'draw'; resultCell = i; break }
@@ -737,6 +756,7 @@ export function parseBespokeBlock(block: string, sport?: SportKey, preferSenior 
 
     let result: 'win' | 'loss' | 'draw' | 'nc' | null = null
     for (const cell of cells) {
+      if (isRecordTallyRow(cell)) continue
       if (/\bWin\b/i.test(cell)) { result = 'win'; break }
       if (/\bLoss(es)?\b/i.test(cell)) { result = 'loss'; break }
       if (/\bDraw\b/i.test(cell)) { result = 'draw'; break }
