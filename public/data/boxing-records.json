@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T00:43:46.460Z",
+  "lastUpdated": "2026-10-07T13:05:03.903Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -4765,7 +4765,7 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anissa_Meksen.jpeg",
       "birthDate": "1988",
-      "gender": "male"
+      "gender": "female"
     },
     "Aurélie Froment": {
       "wins": 3,
@@ -5015,8 +5015,7 @@
       "nationality": "Thailand",
       "weightClass": "Lightweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dieselnoi_Kevin.jpg",
-      "birthDate": "1961",
-      "gender": "male"
+      "birthDate": "1961"
     },
     "Abdel Qissi": {
       "wins": 5,
