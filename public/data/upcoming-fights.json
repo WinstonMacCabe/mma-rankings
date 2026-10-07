@@ -576,18 +576,6 @@
       "detectedAt": "2026-10-07T00:46:05.254Z"
     },
     {
-      "boxerName": "Pich Sambath",
-      "sport": "kickboxing",
-      "headline": "Pich Sambath — scheduled vs TBD",
-      "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
-      "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-07T00:48:30.134Z",
-      "date": "2026-12-12",
-      "granularity": "day",
-      "confidence": "medium",
-      "detectedAt": "2026-10-07T00:48:30.134Z"
-    },
-    {
       "boxerName": "Lorn Panha",
       "sport": "kun khmer",
       "headline": "Lorn Panha — scheduled vs Zack Pankhurst",
