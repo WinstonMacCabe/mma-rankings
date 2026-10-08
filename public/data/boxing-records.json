@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T13:05:03.903Z",
+  "lastUpdated": "2026-10-08T00:42:45.577Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -3187,6 +3187,17 @@
       "birthDate": "1980",
       "gender": "female"
     },
+    "Yoko Takahashi (fighter)": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Japan",
+      "birthDate": "1973",
+      "gender": "female"
+    },
     "Sexy Star": {
       "wins": 5,
       "kos": 1,
@@ -3221,17 +3232,6 @@
       "total": 2,
       "nationality": "Japanese",
       "birthDate": "1978",
-      "gender": "female"
-    },
-    "Yoko Takahashi (fighter)": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Japan",
-      "birthDate": "1973",
       "gender": "female"
     },
     "Valentina Shevchenko": {
@@ -4765,7 +4765,7 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anissa_Meksen.jpeg",
       "birthDate": "1988",
-      "gender": "female"
+      "gender": "male"
     },
     "Aurélie Froment": {
       "wins": 3,
@@ -5015,7 +5015,8 @@
       "nationality": "Thailand",
       "weightClass": "Lightweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dieselnoi_Kevin.jpg",
-      "birthDate": "1961"
+      "birthDate": "1961",
+      "gender": "male"
     },
     "Abdel Qissi": {
       "wins": 5,
@@ -6210,6 +6211,42 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
+    "Charley Burley": {
+      "wins": 83,
+      "kos": 48,
+      "losses": 12,
+      "draws": 2,
+      "noContests": 1,
+      "total": 98,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
+      "birthDate": "1917-09-06",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
+      "gender": "male"
+    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -6234,6 +6271,18 @@
       "birthDate": "1995",
       "gender": "male"
     },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
+      "gender": "male"
+    },
     "Ashley Brace": {
       "wins": 8,
       "kos": 2,
@@ -6245,28 +6294,16 @@
       "birthDate": "1991",
       "gender": "male"
     },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
-      "gender": "male"
-    },
-    "Charley Burley": {
-      "wins": 83,
-      "kos": 48,
-      "losses": 12,
+    "John L. Sullivan": {
+      "wins": 47,
+      "kos": 34,
+      "losses": 1,
       "draws": 2,
       "noContests": 1,
-      "total": 98,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
-      "birthDate": "1917-09-06",
+      "total": 51,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
+      "birthDate": "1858",
       "gender": "male"
     },
     "Paulie Malignaggi": {
@@ -6293,18 +6330,6 @@
       "birthDate": "1866",
       "gender": "male"
     },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6327,28 +6352,28 @@
       "birthDate": "1996-01-04",
       "gender": "male"
     },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
-      "draws": 3,
+    "Jem Mace": {
+      "wins": 27,
+      "kos": 14,
+      "losses": 5,
+      "draws": 7,
       "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
+      "total": 39,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
+      "birthDate": "1831-04-08",
       "gender": "male"
     },
-    "John L. Sullivan": {
-      "wins": 47,
-      "kos": 34,
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
       "losses": 1,
-      "draws": 2,
-      "noContests": 1,
-      "total": 51,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
-      "birthDate": "1858",
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6375,18 +6400,6 @@
       "birthDate": "1862-12-15",
       "gender": "male"
     },
-    "Jem Mace": {
-      "wins": 27,
-      "kos": 14,
-      "losses": 5,
-      "draws": 7,
-      "noContests": 0,
-      "total": 39,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
-      "birthDate": "1831-04-08",
-      "gender": "male"
-    },
     "John Morrissey": {
       "wins": 3,
       "kos": 0,
@@ -6399,16 +6412,15 @@
       "birthDate": "1831-02-12",
       "gender": "male"
     },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
+    "Alfredo Angulo": {
+      "wins": 26,
+      "kos": 18,
+      "losses": 8,
+      "draws": 0,
       "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
+      "total": 34,
+      "nationality": "Mexico",
+      "birthDate": "1982-08-11",
       "gender": "male"
     },
     "George Gardiner (boxer)": {
@@ -6443,17 +6455,6 @@
       "total": 21,
       "nationality": "Scotland",
       "birthDate": "1990",
-      "gender": "male"
-    },
-    "Alfredo Angulo": {
-      "wins": 26,
-      "kos": 18,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 34,
-      "nationality": "Mexico",
-      "birthDate": "1982-08-11",
       "gender": "male"
     },
     "Usanakorn Thawilsuhannawang": {
