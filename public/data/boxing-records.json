@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T00:42:45.577Z",
+  "lastUpdated": "2026-10-09T00:42:16.080Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -559,19 +559,6 @@
       "birthDate": "1989-01-08",
       "gender": "male"
     },
-    "Jeremy Horn": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jeremy_Horn.jpg",
-      "birthDate": "1975",
-      "gender": "male"
-    },
     "Marcus Hicks": {
       "wins": 5,
       "kos": 2,
@@ -607,6 +594,19 @@
       "nationality": "United States",
       "weightClass": "Light heavyweight",
       "birthDate": "1986",
+      "gender": "male"
+    },
+    "Jeremy Horn": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jeremy_Horn.jpg",
+      "birthDate": "1975",
       "gender": "male"
     },
     "Keith Jardine": {
@@ -785,19 +785,6 @@
       "birthDate": "1979",
       "gender": "male"
     },
-    "Mighty Mo (kickboxer)": {
-      "wins": 2,
-      "kos": 2,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "Samoan & American",
-      "weightClass": "Heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mighty_Mo.jpg",
-      "birthDate": "1970",
-      "gender": "male"
-    },
     "Tim Means": {
       "wins": 2,
       "kos": 0,
@@ -849,16 +836,17 @@
       "birthDate": "1983",
       "gender": "male"
     },
-    "K.J. Noons": {
-      "wins": 11,
-      "kos": 5,
+    "Mighty Mo (kickboxer)": {
+      "wins": 2,
+      "kos": 2,
       "losses": 2,
       "draws": 0,
       "noContests": 0,
-      "total": 13,
-      "nationality": "U.S.",
-      "weightClass": "Middleweight",
-      "birthDate": "1982",
+      "total": 4,
+      "nationality": "Samoan & American",
+      "weightClass": "Heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mighty_Mo.jpg",
+      "birthDate": "1970",
       "gender": "male"
     },
     "John Moraga": {
@@ -933,6 +921,18 @@
       "nationality": "U.S.",
       "weightClass": "Featherweight",
       "birthDate": "1983",
+      "gender": "male"
+    },
+    "K.J. Noons": {
+      "wins": 11,
+      "kos": 5,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 13,
+      "nationality": "U.S.",
+      "weightClass": "Middleweight",
+      "birthDate": "1982",
       "gender": "male"
     },
     "Anthony Pettis": {
@@ -1354,19 +1354,6 @@
       "birthDate": "1975",
       "gender": "male"
     },
-    "George Sotiropoulos": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Australia",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/George_Sotiropoulos_(UFC)_2012_(1).jpg",
-      "birthDate": "1977",
-      "gender": "male"
-    },
     "Héctor Lombard": {
       "wins": 0,
       "kos": 0,
@@ -1450,6 +1437,19 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andrei_Arlovski_2018.jpg",
       "birthDate": "1979",
+      "gender": "male"
+    },
+    "George Sotiropoulos": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Australia",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/George_Sotiropoulos_(UFC)_2012_(1).jpg",
+      "birthDate": "1977",
       "gender": "male"
     },
     "Cosmo Alexandre": {
@@ -1593,6 +1593,18 @@
       "birthDate": "1975",
       "gender": "male"
     },
+    "Assuério Silva": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Brazil",
+      "weightClass": "Heavyweight",
+      "birthDate": "1974",
+      "gender": "male"
+    },
     "Ronaldo Souza": {
       "wins": 0,
       "kos": 0,
@@ -1604,18 +1616,6 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ronaldo_Jacar%C3%A9_Souza.jpg",
       "birthDate": "1979",
-      "gender": "male"
-    },
-    "Assuério Silva": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Brazil",
-      "weightClass": "Heavyweight",
-      "birthDate": "1974",
       "gender": "male"
     },
     "Aaron Chalmers (television personality)": {
@@ -1682,18 +1682,6 @@
       "birthDate": "1987",
       "gender": "male"
     },
-    "Danny Roberts (fighter)": {
-      "wins": 3,
-      "kos": 1,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "England",
-      "weightClass": "Welterweight",
-      "birthDate": "1987",
-      "gender": "male"
-    },
     "Norman Parke": {
       "wins": 2,
       "kos": 0,
@@ -1705,6 +1693,18 @@
       "weightClass": "Lightweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Norman_Parke.png",
       "birthDate": "1986-12-22",
+      "gender": "male"
+    },
+    "Danny Roberts (fighter)": {
+      "wins": 3,
+      "kos": 1,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "England",
+      "weightClass": "Welterweight",
+      "birthDate": "1987",
       "gender": "male"
     },
     "Darren Stewart": {
@@ -1756,18 +1756,6 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/ABraidwoodboxing.jpg",
       "birthDate": "1984-06-01",
-      "gender": "male"
-    },
-    "Tim Hague": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "Canada",
-      "weightClass": "Heavyweight",
-      "birthDate": "1983",
       "gender": "male"
     },
     "Shane Campbell": {
@@ -1833,6 +1821,18 @@
       "birthDate": "1965",
       "gender": "male"
     },
+    "Tim Hague": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "Canada",
+      "weightClass": "Heavyweight",
+      "birthDate": "1983",
+      "gender": "male"
+    },
     "Nick Ring": {
       "wins": 5,
       "kos": 2,
@@ -1855,19 +1855,6 @@
       "nationality": "Canada",
       "weightClass": "Bantamweight",
       "birthDate": "1989",
-      "gender": "male"
-    },
-    "Satoshi Ishii": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 1,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Croatian (since 2019) Japanese (until 2019)",
-      "weightClass": "100 kg,",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ishii_Satoshi_2008.jpg",
-      "birthDate": "1986",
       "gender": "male"
     },
     "Qiu Jianliang": {
@@ -1893,6 +1880,19 @@
       "nationality": "Chile",
       "weightClass": "Featherweight",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Satoshi Ishii": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 1,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Croatian (since 2019) Japanese (until 2019)",
+      "weightClass": "100 kg,",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ishii_Satoshi_2008.jpg",
+      "birthDate": "1986",
       "gender": "male"
     },
     "Yoel Romero": {
@@ -1996,6 +1996,18 @@
       "birthDate": "1971",
       "gender": "male"
     },
+    "Taylor Lapilus": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "France",
+      "weightClass": "Featherweight",
+      "birthDate": "1992",
+      "gender": "male"
+    },
     "Mahmoud Fawzy": {
       "wins": 0,
       "kos": 0,
@@ -2020,18 +2032,6 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JEROME_LE_BANNER.jpg",
       "birthDate": "1972",
-      "gender": "male"
-    },
-    "Taylor Lapilus": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "France",
-      "weightClass": "Featherweight",
-      "birthDate": "1992",
       "gender": "male"
     },
     "Grégory Tony": {
@@ -2160,18 +2160,6 @@
       "birthDate": "1998",
       "gender": "male"
     },
-    "Kazuhisa Watanabe": {
-      "wins": 15,
-      "kos": 8,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 18,
-      "nationality": "Japanese",
-      "weightClass": "Featherweight",
-      "birthDate": "1983",
-      "gender": "male"
-    },
     "Konstantin Gluhov": {
       "wins": 3,
       "kos": 0,
@@ -2182,6 +2170,18 @@
       "nationality": "Russian",
       "weightClass": "Heavyweight",
       "birthDate": "1980",
+      "gender": "male"
+    },
+    "Kazuhisa Watanabe": {
+      "wins": 15,
+      "kos": 8,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 18,
+      "nationality": "Japanese",
+      "weightClass": "Featherweight",
+      "birthDate": "1983",
       "gender": "male"
     },
     "Sergej Maslobojev": {
@@ -2247,18 +2247,6 @@
       "weightClass": "Super heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
       "birthDate": "1976",
-      "gender": "male"
-    },
-    "Andy Ologun": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Nigeria",
-      "weightClass": "Welterweight",
-      "birthDate": "1983-06-12",
       "gender": "male"
     },
     "Antz Nansen": {
@@ -2347,6 +2335,18 @@
       "birthDate": "1997-05-03",
       "gender": "male"
     },
+    "Andy Ologun": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Nigeria",
+      "weightClass": "Welterweight",
+      "birthDate": "1983-06-12",
+      "gender": "male"
+    },
     "Izu Ugonoh": {
       "wins": 18,
       "kos": 15,
@@ -2370,30 +2370,6 @@
       "nationality": "Polish",
       "weightClass": "Cruiserweight",
       "birthDate": "1986",
-      "gender": "male"
-    },
-    "Mateusz Kubiszyn": {
-      "wins": 3,
-      "kos": 2,
-      "losses": 4,
-      "draws": 0,
-      "noContests": 0,
-      "total": 7,
-      "nationality": "Poland",
-      "weightClass": "Heavyweight",
-      "birthDate": "1991",
-      "gender": "male"
-    },
-    "Piotr Kuberski": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Poland",
-      "weightClass": "Middleweight",
-      "birthDate": "1988-10-24",
       "gender": "male"
     },
     "Przemysław Saleta": {
@@ -2445,6 +2421,30 @@
       "nationality": "Polish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tomasz_Sarara.png",
       "birthDate": "1985",
+      "gender": "male"
+    },
+    "Mateusz Kubiszyn": {
+      "wins": 3,
+      "kos": 2,
+      "losses": 4,
+      "draws": 0,
+      "noContests": 0,
+      "total": 7,
+      "nationality": "Poland",
+      "weightClass": "Heavyweight",
+      "birthDate": "1991",
+      "gender": "male"
+    },
+    "Piotr Kuberski": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Poland",
+      "weightClass": "Middleweight",
+      "birthDate": "1988-10-24",
       "gender": "male"
     },
     "Daniel Rutkowski": {
@@ -2597,18 +2597,6 @@
       "birthDate": "1976",
       "gender": "male"
     },
-    "Jan Nortje": {
-      "wins": 11,
-      "kos": 10,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "South Africa",
-      "weightClass": "Super heavyweight",
-      "birthDate": "1975",
-      "gender": "male"
-    },
     "Albert Tumenov": {
       "wins": 1,
       "kos": 0,
@@ -2645,6 +2633,18 @@
       "nationality": "Swedish",
       "weightClass": "Light heavyweight",
       "birthDate": "1974",
+      "gender": "male"
+    },
+    "Jan Nortje": {
+      "wins": 11,
+      "kos": 10,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "South Africa",
+      "weightClass": "Super heavyweight",
+      "birthDate": "1975",
       "gender": "male"
     },
     "Jairzinho Rozenstruik": {
@@ -2917,19 +2917,6 @@
       "birthDate": "1977",
       "gender": "female"
     },
-    "Cris Cyborg": {
-      "wins": 7,
-      "kos": 4,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 7,
-      "nationality": "Brazil",
-      "weightClass": "Light middleweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cris_Cyborg_-_SDCC_2023.jpg",
-      "birthDate": "1985",
-      "gender": "female"
-    },
     "Amanda Serrano": {
       "wins": 50,
       "kos": 31,
@@ -3026,6 +3013,19 @@
       "nationality": "Argentina",
       "weightClass": "Strawweight",
       "birthDate": "1984-12-06",
+      "gender": "female"
+    },
+    "Cris Cyborg": {
+      "wins": 7,
+      "kos": 4,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 7,
+      "nationality": "Brazil",
+      "weightClass": "Light middleweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cris_Cyborg_-_SDCC_2023.jpg",
+      "birthDate": "1985",
       "gender": "female"
     },
     "Gabi Garcia": {
@@ -3187,17 +3187,6 @@
       "birthDate": "1980",
       "gender": "female"
     },
-    "Yoko Takahashi (fighter)": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Japan",
-      "birthDate": "1973",
-      "gender": "female"
-    },
     "Sexy Star": {
       "wins": 5,
       "kos": 1,
@@ -3232,6 +3221,17 @@
       "total": 2,
       "nationality": "Japanese",
       "birthDate": "1978",
+      "gender": "female"
+    },
+    "Yoko Takahashi (fighter)": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Japan",
+      "birthDate": "1973",
       "gender": "female"
     },
     "Valentina Shevchenko": {
@@ -6271,18 +6271,6 @@
       "birthDate": "1995",
       "gender": "male"
     },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Ashley Brace": {
       "wins": 8,
       "kos": 2,
@@ -6350,6 +6338,18 @@
       "total": 12,
       "nationality": "American",
       "birthDate": "1996-01-04",
+      "gender": "male"
+    },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Jem Mace": {
