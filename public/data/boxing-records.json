@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T00:42:16.080Z",
+  "lastUpdated": "2026-10-10T00:42:27.878Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -1542,18 +1542,6 @@
       "birthDate": "1979",
       "gender": "male"
     },
-    "Antônio Rogério Nogueira": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Brazil",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1976",
-      "gender": "male"
-    },
     "Fábio Maldonado": {
       "wins": 30,
       "kos": 29,
@@ -1565,6 +1553,18 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/F%C3%A1bio_Maldonado_2022.jpg",
       "birthDate": "1980",
+      "gender": "male"
+    },
+    "Antônio Rogério Nogueira": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Brazil",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1976",
       "gender": "male"
     },
     "Alex Pereira": {
@@ -1643,19 +1643,6 @@
       "birthDate": "1993",
       "gender": "male"
     },
-    "Ross Pearson": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "United Kingdom",
-      "weightClass": "Featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ross_Pearson.jpg",
-      "birthDate": "1984",
-      "gender": "male"
-    },
     "Jimi Manuwa": {
       "wins": 1,
       "kos": 1,
@@ -1680,6 +1667,19 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Venom_Page.png",
       "birthDate": "1987",
+      "gender": "male"
+    },
+    "Ross Pearson": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "United Kingdom",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ross_Pearson.jpg",
+      "birthDate": "1984",
       "gender": "male"
     },
     "Norman Parke": {
@@ -1908,18 +1908,6 @@
       "birthDate": "1977",
       "gender": "male"
     },
-    "Rodney Glunder": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Netherlands",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1975-01-03",
-      "gender": "male"
-    },
     "David Dvořák": {
       "wins": 1,
       "kos": 1,
@@ -1983,6 +1971,18 @@
       "birthDate": "1985",
       "gender": "male"
     },
+    "Rodney Glunder": {
+      "wins": 1,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Netherlands",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1975-01-03",
+      "gender": "male"
+    },
     "Perry Ubeda": {
       "wins": 3,
       "kos": 1,
@@ -1994,18 +1994,6 @@
       "weightClass": "Super middleweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Perry_ubeda_-1465726816.jpg",
       "birthDate": "1971",
-      "gender": "male"
-    },
-    "Taylor Lapilus": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "France",
-      "weightClass": "Featherweight",
-      "birthDate": "1992",
       "gender": "male"
     },
     "Mahmoud Fawzy": {
@@ -2044,6 +2032,18 @@
       "nationality": "France",
       "weightClass": "Heavyweight",
       "birthDate": "1978",
+      "gender": "male"
+    },
+    "Taylor Lapilus": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "France",
+      "weightClass": "Featherweight",
+      "birthDate": "1992",
       "gender": "male"
     },
     "Salahdine Parnasse": {
@@ -2236,19 +2236,6 @@
       "birthDate": "1973",
       "gender": "male"
     },
-    "Doug Viney": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "TonganNew Zealander",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
-      "birthDate": "1976",
-      "gender": "male"
-    },
     "Antz Nansen": {
       "wins": 4,
       "kos": 1,
@@ -2333,6 +2320,19 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
+      "gender": "male"
+    },
+    "Doug Viney": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "TonganNew Zealander",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
+      "birthDate": "1976",
       "gender": "male"
     },
     "Andy Ologun": {
@@ -2623,18 +2623,6 @@
       "birthDate": "1983",
       "gender": "male"
     },
-    "Jörgen Kruth": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Swedish",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1974",
-      "gender": "male"
-    },
     "Jan Nortje": {
       "wins": 11,
       "kos": 10,
@@ -2658,6 +2646,18 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jairzinho_Rozenstruik_at_UFC_244.jpg",
       "birthDate": "1988",
+      "gender": "male"
+    },
+    "Jörgen Kruth": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Swedish",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1974",
       "gender": "male"
     },
     "Yodsanan Sor Nanthachai": {
@@ -6259,6 +6259,17 @@
       "birthDate": "1988",
       "gender": "male"
     },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
+      "gender": "male"
+    },
     "Emil Novruzov": {
       "wins": 3,
       "kos": 0,
@@ -6269,6 +6280,18 @@
       "nationality": "Azerbaijani Russian",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
       "birthDate": "1995",
+      "gender": "male"
+    },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Ashley Brace": {
@@ -6327,29 +6350,6 @@
       "total": 23,
       "nationality": "American",
       "birthDate": "1982-10-10",
-      "gender": "male"
-    },
-    "Nico Hernandez": {
-      "wins": 12,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "American",
-      "birthDate": "1996-01-04",
-      "gender": "male"
-    },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
       "gender": "male"
     },
     "Jem Mace": {
