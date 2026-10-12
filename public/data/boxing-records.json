@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T00:40:47.742Z",
+  "lastUpdated": "2026-10-12T00:43:58.291Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2236,6 +2236,19 @@
       "birthDate": "1973",
       "gender": "male"
     },
+    "Doug Viney": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "TonganNew Zealander",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
+      "birthDate": "1976",
+      "gender": "male"
+    },
     "Antz Nansen": {
       "wins": 4,
       "kos": 1,
@@ -2320,19 +2333,6 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
-      "gender": "male"
-    },
-    "Doug Viney": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "TonganNew Zealander",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
-      "birthDate": "1976",
       "gender": "male"
     },
     "Andy Ologun": {
@@ -3318,18 +3318,6 @@
       "weightClass": "Strawweight",
       "birthDate": "1996-01-18",
       "gender": "female"
-    },
-    "Jasmine Parr": {
-      "wins": 9,
-      "kos": 3,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Australia",
-      "weightClass": "Lightweight",
-      "birthDate": "2003",
-      "gender": "male"
     },
     "Riddick Bowe": {
       "wins": 43,
@@ -4692,6 +4680,18 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doris_K%C3%B6hler_112.JPG",
       "birthDate": "1975",
       "gender": "female"
+    },
+    "Jasmine Parr": {
+      "wins": 9,
+      "kos": 3,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Australia",
+      "weightClass": "Lightweight",
+      "birthDate": "2003",
+      "gender": "male"
     },
     "Lucia Rijker": {
       "wins": 17,
