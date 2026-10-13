@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T00:43:58.291Z",
+  "lastUpdated": "2026-10-13T00:42:22.152Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -387,18 +387,6 @@
       "birthDate": "1992",
       "gender": "male"
     },
-    "Cody Durden": {
-      "wins": 4,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "U.S.",
-      "weightClass": "Bantamweight",
-      "birthDate": "1991-03-29",
-      "gender": "male"
-    },
     "Chris Curtis (fighter)": {
       "wins": 2,
       "kos": 1,
@@ -447,6 +435,18 @@
       "nationality": "United States",
       "weightClass": "Featherweight",
       "birthDate": "1988",
+      "gender": "male"
+    },
+    "Cody Durden": {
+      "wins": 4,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "U.S.",
+      "weightClass": "Bantamweight",
+      "birthDate": "1991-03-29",
       "gender": "male"
     },
     "Don Frye": {
@@ -547,18 +547,6 @@
       "birthDate": "1984",
       "gender": "male"
     },
-    "Phil Hawes": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "U.S.",
-      "weightClass": "Middleweight",
-      "birthDate": "1989-01-08",
-      "gender": "male"
-    },
     "Marcus Hicks": {
       "wins": 5,
       "kos": 2,
@@ -594,6 +582,18 @@
       "nationality": "United States",
       "weightClass": "Light heavyweight",
       "birthDate": "1986",
+      "gender": "male"
+    },
+    "Phil Hawes": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "U.S.",
+      "weightClass": "Middleweight",
+      "birthDate": "1989-01-08",
       "gender": "male"
     },
     "Jeremy Horn": {
@@ -1618,19 +1618,6 @@
       "birthDate": "1979",
       "gender": "male"
     },
-    "Aaron Chalmers (television personality)": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "England",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aaron_Chalmers_on_MTV_Shores.jpg",
-      "birthDate": "1987",
-      "gender": "male"
-    },
     "Tom Aspinall": {
       "wins": 1,
       "kos": 0,
@@ -1666,6 +1653,19 @@
       "nationality": "England",
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Venom_Page.png",
+      "birthDate": "1987",
+      "gender": "male"
+    },
+    "Aaron Chalmers (television personality)": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "England",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aaron_Chalmers_on_MTV_Shores.jpg",
       "birthDate": "1987",
       "gender": "male"
     },
@@ -2236,19 +2236,6 @@
       "birthDate": "1973",
       "gender": "male"
     },
-    "Doug Viney": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "TonganNew Zealander",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
-      "birthDate": "1976",
-      "gender": "male"
-    },
     "Antz Nansen": {
       "wins": 4,
       "kos": 1,
@@ -2333,6 +2320,19 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
+      "gender": "male"
+    },
+    "Doug Viney": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "TonganNew Zealander",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
+      "birthDate": "1976",
       "gender": "male"
     },
     "Andy Ologun": {
@@ -2472,19 +2472,6 @@
       "birthDate": "1981",
       "gender": "male"
     },
-    "Sergei Kharitonov": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Russian",
-      "weightClass": "Heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sergeikharitonov.JPG",
-      "birthDate": "1980-08-18",
-      "gender": "male"
-    },
     "Viacheslav Datsik": {
       "wins": 6,
       "kos": 4,
@@ -2532,6 +2519,19 @@
       "nationality": "Russian Kazakh",
       "weightClass": "Lightweight",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Sergei Kharitonov": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Russian",
+      "weightClass": "Heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sergeikharitonov.JPG",
+      "birthDate": "1980-08-18",
       "gender": "male"
     },
     "Aleksei Oleinik": {
@@ -2832,18 +2832,6 @@
       "birthDate": "1999-08-14",
       "gender": "female"
     },
-    "Gina Mazany": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Bantamweight",
-      "birthDate": "1988",
-      "gender": "female"
-    },
     "Martha Salazar": {
       "wins": 13,
       "kos": 3,
@@ -2904,6 +2892,18 @@
       "nationality": "United States",
       "weightClass": "Bantamweight",
       "birthDate": "1976",
+      "gender": "female"
+    },
+    "Gina Mazany": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Bantamweight",
+      "birthDate": "1988",
       "gender": "female"
     },
     "Erin Toughill": {
@@ -3318,6 +3318,18 @@
       "weightClass": "Strawweight",
       "birthDate": "1996-01-18",
       "gender": "female"
+    },
+    "Jasmine Parr": {
+      "wins": 9,
+      "kos": 3,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Australia",
+      "weightClass": "Lightweight",
+      "birthDate": "2003",
+      "gender": "male"
     },
     "Riddick Bowe": {
       "wins": 43,
@@ -4060,12 +4072,12 @@
       "gender": "male"
     },
     "Yasuomi Soda": {
-      "wins": 9,
+      "wins": 10,
       "kos": 5,
       "losses": 2,
       "draws": 1,
       "noContests": 0,
-      "total": 12,
+      "total": 13,
       "nationality": "Japan",
       "birthDate": "1988",
       "gender": "male"
@@ -4680,18 +4692,6 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doris_K%C3%B6hler_112.JPG",
       "birthDate": "1975",
       "gender": "female"
-    },
-    "Jasmine Parr": {
-      "wins": 9,
-      "kos": 3,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Australia",
-      "weightClass": "Lightweight",
-      "birthDate": "2003",
-      "gender": "male"
     },
     "Lucia Rijker": {
       "wins": 17,
@@ -5919,17 +5919,6 @@
       "birthDate": "1968",
       "gender": "male"
     },
-    "Yoddamrong Sithyodthong": {
-      "wins": 43,
-      "kos": 18,
-      "losses": 7,
-      "draws": 1,
-      "noContests": 0,
-      "total": 51,
-      "nationality": "Thailand",
-      "birthDate": "1981-02-15",
-      "gender": "male"
-    },
     "Yuttapong Tongdee": {
       "wins": 15,
       "kos": 9,
@@ -6211,18 +6200,6 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
-      "gender": "male"
-    },
     "Charley Burley": {
       "wins": 83,
       "kos": 48,
@@ -6233,18 +6210,6 @@
       "nationality": "American",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
       "birthDate": "1917-09-06",
-      "gender": "male"
-    },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Denys Berinchyk": {
@@ -6259,17 +6224,6 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Nico Hernandez": {
-      "wins": 12,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "American",
-      "birthDate": "1996-01-04",
-      "gender": "male"
-    },
     "Emil Novruzov": {
       "wins": 3,
       "kos": 0,
@@ -6282,18 +6236,6 @@
       "birthDate": "1995",
       "gender": "male"
     },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 3,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Ashley Brace": {
       "wins": 8,
       "kos": 2,
@@ -6303,6 +6245,18 @@
       "total": 9,
       "nationality": "Wales",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
       "gender": "male"
     },
     "John L. Sullivan": {
@@ -6341,6 +6295,18 @@
       "birthDate": "1866",
       "gender": "male"
     },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
+      "gender": "male"
+    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6350,6 +6316,29 @@
       "total": 23,
       "nationality": "American",
       "birthDate": "1982-10-10",
+      "gender": "male"
+    },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
+      "gender": "male"
+    },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 3,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Jem Mace": {
@@ -6362,18 +6351,6 @@
       "nationality": "British",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
       "birthDate": "1831-04-08",
-      "gender": "male"
-    },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6410,6 +6387,18 @@
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
+      "gender": "male"
+    },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "Alfredo Angulo": {
@@ -6466,6 +6455,17 @@
       "total": 31,
       "nationality": "Thailand",
       "birthDate": "1987",
+      "gender": "male"
+    },
+    "Yoddamrong Sithyodthong": {
+      "wins": 43,
+      "kos": 18,
+      "losses": 7,
+      "draws": 1,
+      "noContests": 0,
+      "total": 51,
+      "nationality": "Thailand",
+      "birthDate": "1981-02-15",
       "gender": "male"
     }
   }

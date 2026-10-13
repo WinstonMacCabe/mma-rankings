@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T00:43:59.041Z",
+  "lastUpdated": "2026-10-13T00:42:22.910Z",
   "fights": [
     {
       "boxerName": "Emiliano Sordi",
@@ -7,11 +7,11 @@
       "headline": "Sordi is scheduled to face Abraham Bably on October 16, 2026, at PFL Chicago 2.",
       "url": "https://en.wikipedia.org/wiki/Emiliano_Sordi",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:51:16.498Z",
+      "publishedAt": "2026-10-13T00:49:37.502Z",
       "date": "2026-10-16",
       "granularity": "day",
       "confidence": "low",
-      "detectedAt": "2026-10-12T00:51:16.498Z"
+      "detectedAt": "2026-10-13T00:49:37.502Z"
     },
     {
       "boxerName": "Mike Malott",
@@ -19,13 +19,13 @@
       "headline": "Malott is scheduled to face Joaquin Buckley in the main event on October 17, 2026 at UFC Fight Night 291.",
       "url": "https://en.wikipedia.org/wiki/Mike_Malott",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:46:32.439Z",
+      "publishedAt": "2026-10-13T00:44:56.018Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Mike Malott vs Joaquin Buckley",
       "opponent": "Joaquin Buckley",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:46:32.439Z"
+      "detectedAt": "2026-10-13T00:44:56.018Z"
     },
     {
       "boxerName": "Sofian Laidouni",
@@ -33,13 +33,13 @@
       "headline": "Sofian Laidouni — scheduled vs Karim Zeghad",
       "url": "https://en.wikipedia.org/wiki/Sofian_Laidouni",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:49:40.519Z",
+      "publishedAt": "2026-10-13T00:48:02.256Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Sofian Laidouni vs Karim Zeghad",
       "opponent": "Karim Zeghad",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:49:40.519Z"
+      "detectedAt": "2026-10-13T00:48:02.256Z"
     },
     {
       "boxerName": "Nabil Anane",
@@ -47,13 +47,13 @@
       "headline": "Nabil Anane — scheduled vs Yuki Yoza",
       "url": "https://en.wikipedia.org/wiki/Nabil_Anane",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:49:58.809Z",
+      "publishedAt": "2026-10-13T00:48:20.474Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Nabil Anane vs Yuki Yoza",
       "opponent": "Yuki Yoza",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:49:58.809Z"
+      "detectedAt": "2026-10-13T00:48:20.474Z"
     },
     {
       "boxerName": "Jonathan Haggerty",
@@ -61,13 +61,13 @@
       "headline": "Jonathan Haggerty — scheduled vs Hiroki Akimoto",
       "url": "https://en.wikipedia.org/wiki/Jonathan_Haggerty",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:50:26.212Z",
+      "publishedAt": "2026-10-13T00:48:47.799Z",
       "date": "2026-10-17",
       "granularity": "day",
       "matchup": "Jonathan Haggerty vs Hiroki Akimoto",
       "opponent": "Hiroki Akimoto",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:50:26.212Z"
+      "detectedAt": "2026-10-13T00:48:47.799Z"
     },
     {
       "boxerName": "Jimmie Rivera",
@@ -75,11 +75,11 @@
       "headline": "Rivera is scheduled to face Brandon Meyer on October 17, 2026 at BKFC 95.",
       "url": "https://en.wikipedia.org/wiki/Jimmie_Rivera",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:55:03.818Z",
+      "publishedAt": "2026-10-13T00:53:21.540Z",
       "date": "2026-10-17",
       "granularity": "day",
       "confidence": "low",
-      "detectedAt": "2026-10-12T00:55:03.818Z"
+      "detectedAt": "2026-10-13T00:53:21.540Z"
     },
     {
       "boxerName": "Eh Amarin Phouthong",
@@ -87,13 +87,13 @@
       "headline": "Eh Amarin Phouthong — scheduled vs Thristan Massobrio",
       "url": "https://en.wikipedia.org/wiki/Eh_Amarin_Phouthong",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:47:50.735Z",
+      "publishedAt": "2026-10-13T00:46:13.719Z",
       "date": "2026-10-18",
       "granularity": "day",
       "matchup": "Eh Amarin Phouthong vs Thristan Massobrio",
       "opponent": "Thristan Massobrio",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:47:50.735Z"
+      "detectedAt": "2026-10-13T00:46:13.719Z"
     },
     {
       "boxerName": "Pich Sambath",
@@ -101,13 +101,13 @@
       "headline": "Pich Sambath — scheduled vs Ragheb Dkhili",
       "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:48:55.445Z",
+      "publishedAt": "2026-10-13T00:47:17.785Z",
       "date": "2026-10-18",
       "granularity": "day",
       "matchup": "Pich Sambath vs Ragheb Dkhili",
       "opponent": "Ragheb Dkhili",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:48:55.445Z"
+      "detectedAt": "2026-10-13T00:47:17.785Z"
     },
     {
       "boxerName": "Khamzat Chimaev",
@@ -115,13 +115,13 @@
       "headline": "Chimaev is scheduled to face Robbie Lawler in the co-main event on 23 October 2026 at RAF 14.",
       "url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:44:44.180Z",
+      "publishedAt": "2026-10-13T00:43:07.823Z",
       "date": "2026-10-23",
       "granularity": "day",
       "matchup": "Khamzat Chimaev vs Robbie Lawler",
       "opponent": "Robbie Lawler",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:44:44.180Z"
+      "detectedAt": "2026-10-13T00:43:07.823Z"
     },
     {
       "boxerName": "Pat Downey (wrestler)",
@@ -143,13 +143,13 @@
       "headline": "Evloev is scheduled to challenge for the UFC Featherweight Championship against two-time champion Alexander Volkanovski on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Movsar_Evloev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:44:11.570Z",
+      "publishedAt": "2026-10-13T00:42:35.273Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Movsar Evloev vs Alexander Volkanovski",
       "opponent": "Alexander Volkanovski",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:44:11.570Z"
+      "detectedAt": "2026-10-13T00:42:35.273Z"
     },
     {
       "boxerName": "Nurullo Aliev",
@@ -157,13 +157,13 @@
       "headline": "Aliev is scheduled to face Grant Dawson on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Nurullo_Aliev",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:06.107Z",
+      "publishedAt": "2026-10-13T00:43:29.859Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Nurullo Aliev vs Grant Dawson",
       "opponent": "Grant Dawson",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:06.107Z"
+      "detectedAt": "2026-10-13T00:43:29.859Z"
     },
     {
       "boxerName": "Alexander Volkanovski",
@@ -171,11 +171,11 @@
       "headline": "Alexander Volkanovski on UFC 333: Volkanovski vs. Evloev (2026-10-24)",
       "url": "https://en.wikipedia.org/wiki/UFC_333",
       "source": "Wikipedia (List of UFC events)",
-      "publishedAt": "2026-10-12T00:46:41.872Z",
+      "publishedAt": "2026-10-13T00:45:05.477Z",
       "date": "2026-10-24",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:46:41.872Z"
+      "detectedAt": "2026-10-13T00:45:05.477Z"
     },
     {
       "boxerName": "Aaron Pico",
@@ -183,13 +183,13 @@
       "headline": "Pico was scheduled to face Arnold Allen on October 24, 2026 at UFC 333.",
       "url": "https://en.wikipedia.org/wiki/Aaron_Pico",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:52:05.107Z",
+      "publishedAt": "2026-10-13T00:50:25.430Z",
       "date": "2026-10-24",
       "granularity": "day",
       "matchup": "Aaron Pico vs Arnold Allen",
       "opponent": "Arnold Allen",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:52:05.107Z"
+      "detectedAt": "2026-10-13T00:50:25.430Z"
     },
     {
       "boxerName": "Renato Moicano",
@@ -259,13 +259,13 @@
       "headline": "Bonfim is scheduled to face Sean Brady in the main event on November 7, 2026 at UFC Fight Night 293.",
       "url": "https://en.wikipedia.org/wiki/Gabriel_Bonfim",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:44:11.908Z",
+      "publishedAt": "2026-10-13T00:42:35.609Z",
       "date": "2026-11-07",
       "granularity": "day",
       "matchup": "Gabriel Bonfim vs Sean Brady",
       "opponent": "Sean Brady",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:44:11.908Z"
+      "detectedAt": "2026-10-13T00:42:35.609Z"
     },
     {
       "boxerName": "Tatiana Suarez",
@@ -273,13 +273,13 @@
       "headline": "Suarez has been re-scheduled to face Virna Jandiroba on November 7, 2026 at UFC Fight Night 293.",
       "url": "https://en.wikipedia.org/wiki/Tatiana_Suarez",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:06.916Z",
+      "publishedAt": "2026-10-13T00:43:30.559Z",
       "date": "2026-11-07",
       "granularity": "day",
       "matchup": "Tatiana Suarez vs Virna Jandiroba",
       "opponent": "Virna Jandiroba",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:06.916Z"
+      "detectedAt": "2026-10-13T00:43:30.559Z"
     },
     {
       "boxerName": "Sean Brady (fighter)",
@@ -299,13 +299,13 @@
       "headline": "Rodtang Jitmuangnon — scheduled vs Nong-O Hama",
       "url": "https://en.wikipedia.org/wiki/Rodtang_Jitmuangnon",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:49:52.490Z",
+      "publishedAt": "2026-10-13T00:48:14.157Z",
       "date": "2026-11-13",
       "granularity": "day",
       "matchup": "Rodtang Jitmuangnon vs Nong-O Hama",
       "opponent": "Nong-O Hama",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:49:52.490Z"
+      "detectedAt": "2026-10-13T00:48:14.157Z"
     },
     {
       "boxerName": "Kayla Harrison",
@@ -313,11 +313,11 @@
       "headline": "Kayla Harrison on UFC 334: Gane vs. Hokit (2026-11-14)",
       "url": "https://en.wikipedia.org/wiki/UFC_334",
       "source": "Wikipedia (List of UFC events)",
-      "publishedAt": "2026-10-12T00:44:29.696Z",
+      "publishedAt": "2026-10-13T00:42:53.460Z",
       "date": "2026-11-14",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:44:29.696Z"
+      "detectedAt": "2026-10-13T00:42:53.460Z"
     },
     {
       "boxerName": "Josh Hokit",
@@ -325,13 +325,13 @@
       "headline": "thumb|Hokit during the UFC Freedom 250 event Following his bout and on the night of UFC 327, it was announced that Hokit was scheduled to face Derrick Lewis on June 14, 2026 at UFC Freedom 250.",
       "url": "https://en.wikipedia.org/wiki/Josh_Hokit",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:16.663Z",
+      "publishedAt": "2026-10-13T00:43:40.366Z",
       "date": "2026-11-14",
       "granularity": "day",
       "matchup": "Josh Hokit vs Ciryl Gane",
       "opponent": "Ciryl Gane",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:16.663Z"
+      "detectedAt": "2026-10-13T00:43:40.366Z"
     },
     {
       "boxerName": "Patrick Habirora",
@@ -339,13 +339,13 @@
       "headline": "Habirora is scheduled to face Omar El Dafrawy on November 14, 2026, at PFL Returns to Dubai.",
       "url": "https://en.wikipedia.org/wiki/Patrick_Habirora",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:26.480Z",
+      "publishedAt": "2026-10-13T00:43:50.156Z",
       "date": "2026-11-14",
       "granularity": "day",
       "matchup": "Patrick Habirora vs Omar El Dafrawy",
       "opponent": "Omar El Dafrawy",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:26.480Z"
+      "detectedAt": "2026-10-13T00:43:50.156Z"
     },
     {
       "boxerName": "Caio Borralho",
@@ -353,13 +353,13 @@
       "headline": "Borralho is scheduled to face Yousri Belgaroui on November 14, 2026 at UFC 334.",
       "url": "https://en.wikipedia.org/wiki/Caio_Borralho",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:37.655Z",
+      "publishedAt": "2026-10-13T00:44:01.403Z",
       "date": "2026-11-14",
       "granularity": "day",
       "matchup": "Caio Borralho vs Yousri Belgaroui",
       "opponent": "Yousri Belgaroui",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:37.655Z"
+      "detectedAt": "2026-10-13T00:44:01.403Z"
     },
     {
       "boxerName": "Arman Tsarukyan",
@@ -367,13 +367,13 @@
       "headline": "Tsarukyan is also is scheduled to face Neiman Gracie on November 14, 2026 at RAF Abu Dhabi.",
       "url": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:58.715Z",
+      "publishedAt": "2026-10-13T00:44:22.421Z",
       "date": "2026-11-14",
       "granularity": "day",
       "matchup": "Arman Tsarukyan vs Neiman Gracie",
       "opponent": "Neiman Gracie",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:58.715Z"
+      "detectedAt": "2026-10-13T00:44:22.421Z"
     },
     {
       "boxerName": "Ciryl Gane",
@@ -381,11 +381,11 @@
       "headline": "Ciryl Gane on UFC 334: Gane vs. Hokit (2026-11-14)",
       "url": "https://en.wikipedia.org/wiki/UFC_334",
       "source": "Wikipedia (List of UFC events)",
-      "publishedAt": "2026-10-12T00:46:35.920Z",
+      "publishedAt": "2026-10-13T00:44:59.542Z",
       "date": "2026-11-14",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:46:35.920Z"
+      "detectedAt": "2026-10-13T00:44:59.542Z"
     },
     {
       "boxerName": "Khamzat Chimaev",
@@ -421,11 +421,11 @@
       "headline": "Zaynukov was scheduled to face Manoel Sousa on November 21, 2026 at UFC Fight Night 294.",
       "url": "https://en.wikipedia.org/wiki/Magomed_Zaynukov",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:27.472Z",
+      "publishedAt": "2026-10-13T00:43:51.210Z",
       "date": "2026-11-21",
       "granularity": "day",
       "confidence": "low",
-      "detectedAt": "2026-10-12T00:45:27.472Z"
+      "detectedAt": "2026-10-13T00:43:51.210Z"
     },
     {
       "boxerName": "Ikram Aliskerov",
@@ -433,13 +433,13 @@
       "headline": "Aliskerov is scheduled to face Jared Cannonier on November 21, 2026 at UFC Fight Night 294.",
       "url": "https://en.wikipedia.org/wiki/Ikram_Aliskerov",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:37.004Z",
+      "publishedAt": "2026-10-13T00:44:00.685Z",
       "date": "2026-11-21",
       "granularity": "day",
       "matchup": "Ikram Aliskerov vs Jared Cannonier",
       "opponent": "Jared Cannonier",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:37.004Z"
+      "detectedAt": "2026-10-13T00:44:00.685Z"
     },
     {
       "boxerName": "Aleksandre Topuria",
@@ -447,13 +447,13 @@
       "headline": "Topuria is scheduled to face Santiago Luna on November 21, 2026 at UFC Fight Night 294.",
       "url": "https://en.wikipedia.org/wiki/Aleksandre_Topuria",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:46:22.962Z",
+      "publishedAt": "2026-10-13T00:44:46.579Z",
       "date": "2026-11-21",
       "granularity": "day",
       "matchup": "Aleksandre Topuria vs Santiago Luna",
       "opponent": "Santiago Luna",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:46:22.962Z"
+      "detectedAt": "2026-10-13T00:44:46.579Z"
     },
     {
       "boxerName": "Dan Hooker",
@@ -461,13 +461,13 @@
       "headline": "Hooker is scheduled to face Brian Ortega on 21 November 2026 at UFC Fight Night 294.",
       "url": "https://en.wikipedia.org/wiki/Dan_Hooker",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:48:58.337Z",
+      "publishedAt": "2026-10-13T00:47:20.585Z",
       "date": "2026-11-21",
       "granularity": "day",
       "matchup": "Dan Hooker vs Brian Ortega",
       "opponent": "Brian Ortega",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:48:58.337Z"
+      "detectedAt": "2026-10-13T00:47:20.585Z"
     },
     {
       "boxerName": "Aljamain Sterling",
@@ -475,13 +475,13 @@
       "headline": "Sterling is scheduled to face Kevin Vallejos on November 21, 2026 at UFC Fight Night 294.",
       "url": "https://en.wikipedia.org/wiki/Aljamain_Sterling",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:53:08.860Z",
+      "publishedAt": "2026-10-13T00:51:28.154Z",
       "date": "2026-11-21",
       "granularity": "day",
       "matchup": "Aljamain Sterling vs Kevin Vallejos",
       "opponent": "Kevin Vallejos",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:53:08.860Z"
+      "detectedAt": "2026-10-13T00:51:28.154Z"
     },
     {
       "boxerName": "Asu Almabayev",
@@ -496,18 +496,32 @@
       "detectedAt": "2026-10-02T02:22:55.081Z"
     },
     {
+      "boxerName": "Monika Chochlíková",
+      "sport": "muay thai",
+      "headline": "Monika Chochlíková — scheduled vs TBA",
+      "url": "https://en.wikipedia.org/wiki/Monika_Chochl%C3%ADkov%C3%A1",
+      "source": "Wikipedia (record table)",
+      "publishedAt": "2026-10-13T00:47:52.816Z",
+      "date": "2026-11-28",
+      "granularity": "day",
+      "matchup": "Monika Chochlíková vs TBA",
+      "opponent": "TBA",
+      "confidence": "high",
+      "detectedAt": "2026-10-13T00:47:52.816Z"
+    },
+    {
       "boxerName": "Bo Nickal",
       "sport": "mma",
       "headline": "Nickal is scheduled to face Joe Pyfer on December 12, 2026 at UFC 335.",
       "url": "https://en.wikipedia.org/wiki/Bo_Nickal",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:45:31.476Z",
+      "publishedAt": "2026-10-13T00:43:55.087Z",
       "date": "2026-12-12",
       "granularity": "day",
       "matchup": "Bo Nickal vs Joe Pyfer",
       "opponent": "Joe Pyfer",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:45:31.476Z"
+      "detectedAt": "2026-10-13T00:43:55.087Z"
     },
     {
       "boxerName": "Sergei Pavlovich",
@@ -515,13 +529,13 @@
       "headline": "Pavlovich is scheduled to face Alex Pereira on December 12, 2026, at UFC 335.",
       "url": "https://en.wikipedia.org/wiki/Sergei_Pavlovich",
       "source": "Wikipedia (fighter page prose)",
-      "publishedAt": "2026-10-12T00:46:32.803Z",
+      "publishedAt": "2026-10-13T00:44:56.355Z",
       "date": "2026-12-12",
       "granularity": "day",
       "matchup": "Sergei Pavlovich vs Alex Pereira",
       "opponent": "Alex Pereira",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:46:32.803Z"
+      "detectedAt": "2026-10-13T00:44:56.355Z"
     },
     {
       "boxerName": "Pich Sambath",
@@ -529,11 +543,11 @@
       "headline": "Pich Sambath — scheduled vs TBD",
       "url": "https://en.wikipedia.org/wiki/Pich_Sambath",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:48:55.445Z",
+      "publishedAt": "2026-10-13T00:47:17.785Z",
       "date": "2026-12-12",
       "granularity": "day",
       "confidence": "medium",
-      "detectedAt": "2026-10-12T00:48:55.445Z"
+      "detectedAt": "2026-10-13T00:47:17.785Z"
     },
     {
       "boxerName": "Lorn Panha",
@@ -541,13 +555,13 @@
       "headline": "Lorn Panha — scheduled vs Zack Pankhurst",
       "url": "https://en.wikipedia.org/wiki/Lorn_Panha",
       "source": "Wikipedia (record table)",
-      "publishedAt": "2026-10-12T00:54:03.220Z",
+      "publishedAt": "2026-10-13T00:52:22.039Z",
       "date": "2026-12-29",
       "granularity": "day",
       "matchup": "Lorn Panha vs Zack Pankhurst",
       "opponent": "Zack Pankhurst",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:54:03.220Z"
+      "detectedAt": "2026-10-13T00:52:22.039Z"
     },
     {
       "boxerName": "Saenchai",
@@ -567,11 +581,11 @@
       "headline": "Mahmoud Sattari on K-1 World GP 2027 -90kg World Championship Tournament Final (2027-05-09)",
       "url": "https://en.wikipedia.org/wiki/2027_in_K-1%23K-1_World_GP_2027_-90kg_World_Championship_Tournament_Final",
       "source": "Wikipedia (List of K-1 events)",
-      "publishedAt": "2026-10-12T00:50:40.388Z",
+      "publishedAt": "2026-10-13T00:49:01.789Z",
       "date": "2027-05-09",
       "granularity": "day",
       "confidence": "high",
-      "detectedAt": "2026-10-12T00:50:40.388Z"
+      "detectedAt": "2026-10-13T00:49:01.789Z"
     }
   ]
 }
