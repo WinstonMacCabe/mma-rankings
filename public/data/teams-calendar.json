@@ -1,0 +1,3097 @@
+{
+  "generatedAt": "2026-10-14T19:15:56.520Z",
+  "windowDays": 90,
+  "teams": [
+    {
+      "key": "blue-jays",
+      "name": "Toronto Blue Jays",
+      "short": "Blue Jays",
+      "label": "MLB",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "key": "raptors",
+      "name": "Toronto Raptors",
+      "short": "Raptors",
+      "label": "NBA",
+      "count": 40,
+      "ok": true
+    },
+    {
+      "key": "patriots",
+      "name": "New England Patriots",
+      "short": "Patriots",
+      "label": "NFL",
+      "count": 12,
+      "ok": true
+    },
+    {
+      "key": "senators",
+      "name": "Ottawa Senators",
+      "short": "Senators",
+      "label": "NHL",
+      "count": 39,
+      "ok": true
+    },
+    {
+      "key": "army-football",
+      "name": "Army Black Knights Football",
+      "short": "Army FB",
+      "label": "NCAAF",
+      "count": 7,
+      "ok": true
+    },
+    {
+      "key": "army-rugby",
+      "name": "Army Black Knights Rugby",
+      "short": "Army Rugby",
+      "label": "Rugby",
+      "count": 3,
+      "ok": true
+    },
+    {
+      "key": "man-city",
+      "name": "Manchester City",
+      "short": "Man City",
+      "label": "Soccer",
+      "count": 20,
+      "ok": true
+    },
+    {
+      "key": "exeter-chiefs",
+      "name": "Exeter Chiefs",
+      "short": "Exeter",
+      "label": "Rugby",
+      "count": 8,
+      "ok": true
+    },
+    {
+      "key": "catalans-dragons",
+      "name": "Catalans Dragons",
+      "short": "Catalans",
+      "label": "Rugby League",
+      "count": 0,
+      "ok": false,
+      "note": "No free Super League fixture feed"
+    },
+    {
+      "key": "cagliari",
+      "name": "Cagliari",
+      "short": "Cagliari",
+      "label": "Soccer",
+      "count": 13,
+      "ok": true
+    },
+    {
+      "key": "remo",
+      "name": "Clube do Remo",
+      "short": "Remo",
+      "label": "Soccer",
+      "count": 8,
+      "ok": true
+    },
+    {
+      "key": "baltika",
+      "name": "Baltika Kaliningrad",
+      "short": "Baltika",
+      "label": "Soccer",
+      "count": 7,
+      "ok": true
+    },
+    {
+      "key": "rcb",
+      "name": "Royal Challengers Bengaluru",
+      "short": "RCB",
+      "label": "Cricket",
+      "count": 0,
+      "ok": false,
+      "note": "No free IPL fixture feed"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "2026-10-14-manchester-city-paris-saint-germain",
+      "date": "2026-10-14",
+      "kickoff": "2026-10-14T19:00Z",
+      "home": "Manchester City",
+      "away": "Paris Saint-Germain",
+      "homeShort": "Man City",
+      "awayShort": "PSG",
+      "competition": "Champions League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-15-new-york-knicks-toronto-raptors",
+      "date": "2026-10-15",
+      "kickoff": "2026-10-15T23:30Z",
+      "home": "New York Knicks",
+      "away": "Toronto Raptors",
+      "homeShort": "NY",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Madison Square Garden",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-15-ottawa-senators-new-york-islanders",
+      "date": "2026-10-15",
+      "kickoff": "2026-10-15T23:00Z",
+      "home": "Ottawa Senators",
+      "away": "New York Islanders",
+      "homeShort": "Senators",
+      "awayShort": "NYI",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-16-detroit-pistons-toronto-raptors",
+      "date": "2026-10-16",
+      "kickoff": "2026-10-16T23:00Z",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "homeShort": "DET",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Little Caesars Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-17-southern-virginia-army-black-knights-rugby",
+      "date": "2026-10-17",
+      "kickoff": null,
+      "home": "Southern Virginia",
+      "away": "Army Black Knights Rugby",
+      "homeShort": "Southern Virginia",
+      "awayShort": "Army Rugby",
+      "competition": "College Rugby",
+      "venue": "Buena Vista, Va.",
+      "teamKeys": [
+        "army-rugby"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "army-rugby"
+      ],
+      "source": "Army West Point"
+    },
+    {
+      "id": "2026-10-17-army-black-knights-florida-atlantic-owls",
+      "date": "2026-10-17",
+      "kickoff": "2026-10-17T16:00Z",
+      "home": "Army Black Knights",
+      "away": "Florida Atlantic Owls",
+      "homeShort": "Army FB",
+      "awayShort": "FAU",
+      "competition": "NCAA Football",
+      "venue": "Michie Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [
+        "army-football"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-17-philadelphia-flyers-ottawa-senators",
+      "date": "2026-10-17",
+      "kickoff": "2026-10-17T23:00Z",
+      "home": "Philadelphia Flyers",
+      "away": "Ottawa Senators",
+      "homeShort": "PHI",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Xfinity Mobile Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-17-manchester-city-ipswich-town",
+      "date": "2026-10-17",
+      "kickoff": "2026-10-17T14:00Z",
+      "home": "Manchester City",
+      "away": "Ipswich Town",
+      "homeShort": "Man City",
+      "awayShort": "IPS",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-18-new-england-patriots-new-york-jets",
+      "date": "2026-10-18",
+      "kickoff": "2026-10-18T17:00Z",
+      "home": "New England Patriots",
+      "away": "New York Jets",
+      "homeShort": "Patriots",
+      "awayShort": "NYJ",
+      "competition": "NFL",
+      "venue": "Gillette Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [
+        "patriots"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-18-fc-baltika-kaliningrad-rostov",
+      "date": "2026-10-18",
+      "kickoff": "2026-10-18T17:45Z",
+      "home": "FC Baltika Kaliningrad",
+      "away": "Rostov",
+      "homeShort": "Baltika",
+      "awayShort": "ROS",
+      "competition": "Russian Premier League",
+      "venue": "Kaliningrad Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [
+        "baltika"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-18-remo-red-bull-bragantino",
+      "date": "2026-10-18",
+      "kickoff": "2026-10-18T22:30Z",
+      "home": "Remo",
+      "away": "Red Bull Bragantino",
+      "homeShort": "Remo",
+      "awayShort": "BRA",
+      "competition": "Série A",
+      "venue": "Mangueirão",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [
+        "remo"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-19-monza-cagliari",
+      "date": "2026-10-19",
+      "kickoff": "2026-10-19T16:30Z",
+      "home": "Monza",
+      "away": "Cagliari",
+      "homeShort": "MON",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "U-Power Stadium",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-20-manchester-city-aek-athens",
+      "date": "2026-10-20",
+      "kickoff": "2026-10-20T19:00Z",
+      "home": "Manchester City",
+      "away": "AEK Athens",
+      "homeShort": "Man City",
+      "awayShort": "AEK",
+      "competition": "Champions League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-21-toronto-raptors-chicago-bulls",
+      "date": "2026-10-21",
+      "kickoff": "2026-10-21T23:30Z",
+      "home": "Toronto Raptors",
+      "away": "Chicago Bulls",
+      "homeShort": "Raptors",
+      "awayShort": "CHI",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-21-ottawa-senators-florida-panthers",
+      "date": "2026-10-21",
+      "kickoff": "2026-10-21T23:30Z",
+      "home": "Ottawa Senators",
+      "away": "Florida Panthers",
+      "homeShort": "Senators",
+      "awayShort": "FLA",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-22-chicago-bears-new-england-patriots",
+      "date": "2026-10-22",
+      "kickoff": "2026-10-23T00:15Z",
+      "home": "Chicago Bears",
+      "away": "New England Patriots",
+      "homeShort": "CHI",
+      "awayShort": "Patriots",
+      "competition": "NFL",
+      "venue": "Soldier Field",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-22-ottawa-senators-san-jose-sharks",
+      "date": "2026-10-22",
+      "kickoff": "2026-10-22T23:00Z",
+      "home": "Ottawa Senators",
+      "away": "San Jose Sharks",
+      "homeShort": "Senators",
+      "awayShort": "SJ",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-23-washington-wizards-toronto-raptors",
+      "date": "2026-10-23",
+      "kickoff": "2026-10-23T23:00Z",
+      "home": "Washington Wizards",
+      "away": "Toronto Raptors",
+      "homeShort": "WSH",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Capital One Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-23-tulsa-golden-hurricane-army-black-knights",
+      "date": "2026-10-23",
+      "kickoff": "2026-10-24T00:30Z",
+      "home": "Tulsa Golden Hurricane",
+      "away": "Army Black Knights",
+      "homeShort": "TLSA",
+      "awayShort": "Army FB",
+      "competition": "NCAA Football",
+      "venue": "H. A. Chapman Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "army-football"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-23-cruzeiro-remo",
+      "date": "2026-10-23",
+      "kickoff": "2026-10-23T23:00Z",
+      "home": "Cruzeiro",
+      "away": "Remo",
+      "homeShort": "CRU",
+      "awayShort": "Remo",
+      "competition": "Série A",
+      "venue": "Estadio Mineirão",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "remo"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-24-ottawa-senators-new-york-rangers",
+      "date": "2026-10-24",
+      "kickoff": "2026-10-24T23:00Z",
+      "home": "Ottawa Senators",
+      "away": "New York Rangers",
+      "homeShort": "Senators",
+      "awayShort": "NYR",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-24-aston-villa-manchester-city",
+      "date": "2026-10-24",
+      "kickoff": "2026-10-24T11:30Z",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "homeShort": "AVL",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Villa Park",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-24-bristol-rugby-exeter-chiefs",
+      "date": "2026-10-24",
+      "kickoff": "2026-10-24T16:30Z",
+      "home": "Bristol Rugby",
+      "away": "Exeter Chiefs",
+      "homeShort": "BRI",
+      "awayShort": "Exeter",
+      "competition": "Premiership Rugby",
+      "venue": "Ashton Gate",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "exeter-chiefs"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-24-krasnodar-fc-baltika-kaliningrad",
+      "date": "2026-10-24",
+      "kickoff": "2026-10-24T16:30Z",
+      "home": "Krasnodar",
+      "away": "FC Baltika Kaliningrad",
+      "homeShort": "FCK",
+      "awayShort": "Baltika",
+      "competition": "Russian Premier League",
+      "venue": "Krasnodar Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "baltika"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-24-cagliari-bologna",
+      "date": "2026-10-24",
+      "kickoff": "2026-10-24T13:00Z",
+      "home": "Cagliari",
+      "away": "Bologna",
+      "homeShort": "Cagliari",
+      "awayShort": "BOL",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-25-minnesota-timberwolves-toronto-raptors",
+      "date": "2026-10-25",
+      "kickoff": "2026-10-25T23:00Z",
+      "home": "Minnesota Timberwolves",
+      "away": "Toronto Raptors",
+      "homeShort": "MIN",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Target Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-27-vegas-golden-knights-ottawa-senators",
+      "date": "2026-10-27",
+      "kickoff": "2026-10-28T02:00Z",
+      "home": "Vegas Golden Knights",
+      "away": "Ottawa Senators",
+      "homeShort": "VGK",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "T-Mobile Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-27-as-roma-cagliari",
+      "date": "2026-10-27",
+      "kickoff": "2026-10-27T19:45Z",
+      "home": "AS Roma",
+      "away": "Cagliari",
+      "homeShort": "ROMA",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Olimpico",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-28-manchester-city-brighton-hove-albion",
+      "date": "2026-10-28",
+      "kickoff": "2026-10-28T19:30Z",
+      "home": "Manchester City",
+      "away": "Brighton & Hove Albion",
+      "homeShort": "Man City",
+      "awayShort": "BHA",
+      "competition": "EFL Cup",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-28-toronto-raptors-orlando-magic",
+      "date": "2026-10-28",
+      "kickoff": "2026-10-28T23:30Z",
+      "home": "Toronto Raptors",
+      "away": "Orlando Magic",
+      "homeShort": "Raptors",
+      "awayShort": "ORL",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-28-remo-botafogo",
+      "date": "2026-10-28",
+      "kickoff": "2026-10-29T00:30Z",
+      "home": "Remo",
+      "away": "Botafogo",
+      "homeShort": "Remo",
+      "awayShort": "BOT",
+      "competition": "Série A",
+      "venue": "Mangueirão",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [
+        "remo"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-29-los-angeles-kings-ottawa-senators",
+      "date": "2026-10-29",
+      "kickoff": "2026-10-30T02:00Z",
+      "home": "Los Angeles Kings",
+      "away": "Ottawa Senators",
+      "homeShort": "LA",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "crypto.com Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-30-toronto-raptors-orlando-magic",
+      "date": "2026-10-30",
+      "kickoff": "2026-10-30T23:30Z",
+      "home": "Toronto Raptors",
+      "away": "Orlando Magic",
+      "homeShort": "Raptors",
+      "awayShort": "ORL",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-31-army-black-knights-rugby-mary-washington",
+      "date": "2026-10-31",
+      "kickoff": "2026-10-31T16:00:00.000Z",
+      "home": "Army Black Knights Rugby",
+      "away": "Mary Washington",
+      "homeShort": "Army Rugby",
+      "awayShort": "Mary Washington",
+      "competition": "College Rugby",
+      "venue": "Anderson Rugby Complex",
+      "teamKeys": [
+        "army-rugby"
+      ],
+      "homeKeys": [
+        "army-rugby"
+      ],
+      "awayKeys": [],
+      "source": "Army West Point"
+    },
+    {
+      "id": "2026-10-31-memphis-tigers-army-black-knights",
+      "date": "2026-10-31",
+      "kickoff": "2026-10-31T04:00Z",
+      "home": "Memphis Tigers",
+      "away": "Army Black Knights",
+      "homeShort": "MEM",
+      "awayShort": "Army FB",
+      "competition": "NCAA Football",
+      "venue": "Simmons Bank Liberty Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "army-football"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-31-san-jose-sharks-ottawa-senators",
+      "date": "2026-10-31",
+      "kickoff": "2026-10-31T20:00Z",
+      "home": "San Jose Sharks",
+      "away": "Ottawa Senators",
+      "homeShort": "SJ",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "SAP Center at San Jose",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-31-manchester-city-brighton-hove-albion",
+      "date": "2026-10-31",
+      "kickoff": "2026-10-31T15:00Z",
+      "home": "Manchester City",
+      "away": "Brighton & Hove Albion",
+      "homeShort": "Man City",
+      "awayShort": "BHA",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-31-exeter-chiefs-harlequins",
+      "date": "2026-10-31",
+      "kickoff": "2026-10-31T15:00Z",
+      "home": "Exeter Chiefs",
+      "away": "Harlequins",
+      "homeShort": "Exeter",
+      "awayShort": "HAR",
+      "competition": "Premiership Rugby",
+      "venue": "Sandy Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [
+        "exeter-chiefs"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-01-los-angeles-lakers-toronto-raptors",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-02T02:00Z",
+      "home": "Los Angeles Lakers",
+      "away": "Toronto Raptors",
+      "homeShort": "LAL",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "crypto.com Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-01-miami-dolphins-new-england-patriots",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-01T21:25Z",
+      "home": "Miami Dolphins",
+      "away": "New England Patriots",
+      "homeShort": "MIA",
+      "awayShort": "Patriots",
+      "competition": "NFL",
+      "venue": "Hard Rock Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-01-anaheim-ducks-ottawa-senators",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-02T01:00Z",
+      "home": "Anaheim Ducks",
+      "away": "Ottawa Senators",
+      "homeShort": "ANA",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Honda Center",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-01-fc-baltika-kaliningrad-akron-tolyatti",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-01T14:30Z",
+      "home": "FC Baltika Kaliningrad",
+      "away": "Akron Tolyatti",
+      "homeShort": "Baltika",
+      "awayShort": "AKT",
+      "competition": "Russian Premier League",
+      "venue": "Kaliningrad Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [
+        "baltika"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-01-lazio-cagliari",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-01T14:00Z",
+      "home": "Lazio",
+      "away": "Cagliari",
+      "homeShort": "LAZ",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Olimpico",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-02-la-clippers-toronto-raptors",
+      "date": "2026-11-02",
+      "kickoff": "2026-11-03T03:00Z",
+      "home": "LA Clippers",
+      "away": "Toronto Raptors",
+      "homeShort": "LAC",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Intuit Dome",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-04-rb-leipzig-manchester-city",
+      "date": "2026-11-04",
+      "kickoff": "2026-11-04T20:00Z",
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "homeShort": "RBL",
+      "awayShort": "Man City",
+      "competition": "Champions League",
+      "venue": "Red Bull Arena",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-04-denver-nuggets-toronto-raptors",
+      "date": "2026-11-04",
+      "kickoff": "2026-11-05T02:00Z",
+      "home": "Denver Nuggets",
+      "away": "Toronto Raptors",
+      "homeShort": "DEN",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Ball Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-04-buffalo-sabres-ottawa-senators",
+      "date": "2026-11-04",
+      "kickoff": "2026-11-05T00:30Z",
+      "home": "Buffalo Sabres",
+      "away": "Ottawa Senators",
+      "homeShort": "BUF",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "KeyBank Center",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-05-palmeiras-remo",
+      "date": "2026-11-05",
+      "kickoff": "2026-11-05T22:30Z",
+      "home": "Palmeiras",
+      "away": "Remo",
+      "homeShort": "PAL",
+      "awayShort": "Remo",
+      "competition": "Série A",
+      "venue": "Allianz Parque",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "remo"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-06-milwaukee-bucks-toronto-raptors",
+      "date": "2026-11-06",
+      "kickoff": "2026-11-07T01:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Toronto Raptors",
+      "homeShort": "MIL",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Fiserv Forum",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-07-army-black-knights-air-force-falcons",
+      "date": "2026-11-07",
+      "kickoff": "2026-11-08T00:30Z",
+      "home": "Army Black Knights",
+      "away": "Air Force Falcons",
+      "homeShort": "Army FB",
+      "awayShort": "AFA",
+      "competition": "NCAA Football",
+      "venue": "Michie Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [
+        "army-football"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-07-ottawa-senators-utah-mammoth",
+      "date": "2026-11-07",
+      "kickoff": "2026-11-08T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Utah Mammoth",
+      "homeShort": "Senators",
+      "awayShort": "UTA",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-07-nottingham-forest-manchester-city",
+      "date": "2026-11-07",
+      "kickoff": "2026-11-07T17:30Z",
+      "home": "Nottingham Forest",
+      "away": "Manchester City",
+      "homeShort": "NFO",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "The City Ground",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-07-cagliari-frosinone",
+      "date": "2026-11-07",
+      "kickoff": "2026-11-07T14:00Z",
+      "home": "Cagliari",
+      "away": "Frosinone",
+      "homeShort": "Cagliari",
+      "awayShort": "FRO",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-08-new-england-patriots-green-bay-packers",
+      "date": "2026-11-08",
+      "kickoff": "2026-11-08T21:25Z",
+      "home": "New England Patriots",
+      "away": "Green Bay Packers",
+      "homeShort": "Patriots",
+      "awayShort": "GB",
+      "competition": "NFL",
+      "venue": "Gillette Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [
+        "patriots"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-08-fc-baltika-kaliningrad-dynamo-makhachkala",
+      "date": "2026-11-08",
+      "kickoff": "2026-11-08T17:45Z",
+      "home": "FC Baltika Kaliningrad",
+      "away": "Dynamo Makhachkala",
+      "homeShort": "Baltika",
+      "awayShort": "DMA",
+      "competition": "Russian Premier League",
+      "venue": "Kaliningrad Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [
+        "baltika"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-09-toronto-raptors-memphis-grizzlies",
+      "date": "2026-11-09",
+      "kickoff": "2026-11-10T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Memphis Grizzlies",
+      "homeShort": "Raptors",
+      "awayShort": "MEM",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-10-ottawa-senators-washington-capitals",
+      "date": "2026-11-10",
+      "kickoff": "2026-11-11T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Washington Capitals",
+      "homeShort": "Senators",
+      "awayShort": "WSH",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-11-toronto-raptors-boston-celtics",
+      "date": "2026-11-11",
+      "kickoff": "2026-11-12T00:00Z",
+      "home": "Toronto Raptors",
+      "away": "Boston Celtics",
+      "homeShort": "Raptors",
+      "awayShort": "BOS",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-12-philadelphia-76ers-toronto-raptors",
+      "date": "2026-11-12",
+      "kickoff": "2026-11-13T00:00Z",
+      "home": "Philadelphia 76ers",
+      "away": "Toronto Raptors",
+      "homeShort": "PHI",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Xfinity Mobile Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-12-ottawa-senators-colorado-avalanche",
+      "date": "2026-11-12",
+      "kickoff": "2026-11-13T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Colorado Avalanche",
+      "homeShort": "Senators",
+      "awayShort": "COL",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-14-army-black-knights-rugby-life-university",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T17:00:00.000Z",
+      "home": "Army Black Knights Rugby",
+      "away": "Life University",
+      "homeShort": "Army Rugby",
+      "awayShort": "Life University",
+      "competition": "College Rugby",
+      "venue": "Anderson Rugby Complex",
+      "teamKeys": [
+        "army-rugby"
+      ],
+      "homeKeys": [
+        "army-rugby"
+      ],
+      "awayKeys": [],
+      "source": "Army West Point"
+    },
+    {
+      "id": "2026-11-14-pittsburgh-penguins-ottawa-senators",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-15T00:00Z",
+      "home": "Pittsburgh Penguins",
+      "away": "Ottawa Senators",
+      "homeShort": "PIT",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "PPG Paints Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-15-toronto-raptors-new-york-knicks",
+      "date": "2026-11-15",
+      "kickoff": "2026-11-15T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "homeShort": "Raptors",
+      "awayShort": "NY",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-15-detroit-lions-new-england-patriots",
+      "date": "2026-11-15",
+      "kickoff": "2026-11-15T14:30Z",
+      "home": "Detroit Lions",
+      "away": "New England Patriots",
+      "homeShort": "NE",
+      "awayShort": "Patriots",
+      "competition": "NFL",
+      "venue": "FC Bayern Munich Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-17-toronto-raptors-new-york-knicks",
+      "date": "2026-11-17",
+      "kickoff": "2026-11-18T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "homeShort": "Raptors",
+      "awayShort": "NY",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-17-winnipeg-jets-ottawa-senators",
+      "date": "2026-11-17",
+      "kickoff": "2026-11-18T01:00Z",
+      "home": "Winnipeg Jets",
+      "away": "Ottawa Senators",
+      "homeShort": "WPG",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Canada Life Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-18-toronto-raptors-washington-wizards",
+      "date": "2026-11-18",
+      "kickoff": "2026-11-19T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Washington Wizards",
+      "homeShort": "Raptors",
+      "awayShort": "WSH",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-18-remo-chapecoense",
+      "date": "2026-11-18",
+      "kickoff": "2026-11-18T20:00Z",
+      "home": "Remo",
+      "away": "Chapecoense",
+      "homeShort": "Remo",
+      "awayShort": "CHA",
+      "competition": "Série A",
+      "venue": "Estadio Evandro Almeida (Baenao)",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [
+        "remo"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-19-ottawa-senators-philadelphia-flyers",
+      "date": "2026-11-19",
+      "kickoff": "2026-11-20T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Philadelphia Flyers",
+      "homeShort": "Senators",
+      "awayShort": "PHI",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-20-detroit-pistons-toronto-raptors",
+      "date": "2026-11-20",
+      "kickoff": "2026-11-21T00:30Z",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "homeShort": "DET",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Little Caesars Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-21-army-black-knights-east-carolina-pirates",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-21T17:00Z",
+      "home": "Army Black Knights",
+      "away": "East Carolina Pirates",
+      "homeShort": "Army FB",
+      "awayShort": "ECU",
+      "competition": "NCAA Football",
+      "venue": "Michie Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [
+        "army-football"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-21-ottawa-senators-los-angeles-kings",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-22T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Los Angeles Kings",
+      "homeShort": "Senators",
+      "awayShort": "LA",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-21-manchester-city-fulham",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-21T12:30Z",
+      "home": "Manchester City",
+      "away": "Fulham",
+      "homeShort": "Man City",
+      "awayShort": "FUL",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-21-gazovik-orenburg-fc-baltika-kaliningrad",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-21T10:00Z",
+      "home": "Gazovik Orenburg",
+      "away": "FC Baltika Kaliningrad",
+      "homeShort": "ORE",
+      "awayShort": "Baltika",
+      "competition": "Russian Premier League",
+      "venue": "Gazovik Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "baltika"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-21-como-cagliari",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-21T14:00Z",
+      "home": "Como",
+      "away": "Cagliari",
+      "homeShort": "COMO",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Giuseppe Sinigaglia",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-21-athletico-paranaense-remo",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-21T20:00Z",
+      "home": "Athletico Paranaense",
+      "away": "Remo",
+      "homeShort": "CAP",
+      "awayShort": "Remo",
+      "competition": "Série A",
+      "venue": "Arena da Baixada",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "remo"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-23-toronto-raptors-milwaukee-bucks",
+      "date": "2026-11-23",
+      "kickoff": "2026-11-24T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Milwaukee Bucks",
+      "homeShort": "Raptors",
+      "awayShort": "MIL",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-23-ottawa-senators-calgary-flames",
+      "date": "2026-11-23",
+      "kickoff": "2026-11-24T00:30Z",
+      "home": "Ottawa Senators",
+      "away": "Calgary Flames",
+      "homeShort": "Senators",
+      "awayShort": "CGY",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-24-manchester-city-napoli",
+      "date": "2026-11-24",
+      "kickoff": "2026-11-24T20:00Z",
+      "home": "Manchester City",
+      "away": "Napoli",
+      "homeShort": "Man City",
+      "awayShort": "NAP",
+      "competition": "Champions League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-25-florida-panthers-ottawa-senators",
+      "date": "2026-11-25",
+      "kickoff": "2026-11-26T00:00Z",
+      "home": "Florida Panthers",
+      "away": "Ottawa Senators",
+      "homeShort": "FLA",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Amerant Bank Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-27-toronto-raptors-brooklyn-nets",
+      "date": "2026-11-27",
+      "kickoff": "2026-11-28T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Brooklyn Nets",
+      "homeShort": "Raptors",
+      "awayShort": "BKN",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-27-tampa-bay-lightning-ottawa-senators",
+      "date": "2026-11-27",
+      "kickoff": "2026-11-27T20:00Z",
+      "home": "Tampa Bay Lightning",
+      "away": "Ottawa Senators",
+      "homeShort": "TB",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Benchmark International Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-28-rice-owls-army-black-knights",
+      "date": "2026-11-28",
+      "kickoff": "2026-11-28T05:00Z",
+      "home": "Rice Owls",
+      "away": "Army Black Knights",
+      "homeShort": "RICE",
+      "awayShort": "Army FB",
+      "competition": "NCAA Football",
+      "venue": "First Community Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "army-football"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-28-carolina-hurricanes-ottawa-senators",
+      "date": "2026-11-28",
+      "kickoff": "2026-11-29T00:00Z",
+      "home": "Carolina Hurricanes",
+      "away": "Ottawa Senators",
+      "homeShort": "CAR",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Lenovo Center",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-28-fc-baltika-kaliningrad-akhmat-grozny",
+      "date": "2026-11-28",
+      "kickoff": "2026-11-28T16:00Z",
+      "home": "FC Baltika Kaliningrad",
+      "away": "Akhmat Grozny",
+      "homeShort": "Baltika",
+      "awayShort": "GRZ",
+      "competition": "Russian Premier League",
+      "venue": "Kaliningrad Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [
+        "baltika"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-28-s-o-paulo-remo",
+      "date": "2026-11-28",
+      "kickoff": "2026-11-28T20:00Z",
+      "home": "São Paulo",
+      "away": "Remo",
+      "homeShort": "SAO",
+      "awayShort": "Remo",
+      "competition": "Série A",
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "remo"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-29-toronto-raptors-denver-nuggets",
+      "date": "2026-11-29",
+      "kickoff": "2026-11-29T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "Denver Nuggets",
+      "homeShort": "Raptors",
+      "awayShort": "DEN",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-29-los-angeles-chargers-new-england-patriots",
+      "date": "2026-11-29",
+      "kickoff": "2026-11-30T01:20Z",
+      "home": "Los Angeles Chargers",
+      "away": "New England Patriots",
+      "homeShort": "LAC",
+      "awayShort": "Patriots",
+      "competition": "NFL",
+      "venue": "SoFi Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-29-arsenal-manchester-city",
+      "date": "2026-11-29",
+      "kickoff": "2026-11-29T16:30Z",
+      "home": "Arsenal",
+      "away": "Manchester City",
+      "homeShort": "ARS",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Emirates Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-30-nashville-predators-ottawa-senators",
+      "date": "2026-11-30",
+      "kickoff": "2026-11-30T18:00Z",
+      "home": "Nashville Predators",
+      "away": "Ottawa Senators",
+      "homeShort": "NSH",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Bridgestone Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-30-cagliari-ac-milan",
+      "date": "2026-11-30",
+      "kickoff": "2026-11-30T19:45Z",
+      "home": "Cagliari",
+      "away": "AC Milan",
+      "homeShort": "Cagliari",
+      "awayShort": "MIL",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-01-houston-rockets-toronto-raptors",
+      "date": "2026-12-01",
+      "kickoff": "2026-12-02T01:30Z",
+      "home": "Houston Rockets",
+      "away": "Toronto Raptors",
+      "homeShort": "HOU",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Toyota Center (Houston)",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-02-manchester-city-leeds-united",
+      "date": "2026-12-02",
+      "kickoff": "2026-12-02T20:00Z",
+      "home": "Manchester City",
+      "away": "Leeds United",
+      "homeShort": "Man City",
+      "awayShort": "LEE",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-02-remo-corinthians",
+      "date": "2026-12-02",
+      "kickoff": "2026-12-02T20:00Z",
+      "home": "Remo",
+      "away": "Corinthians",
+      "homeShort": "Remo",
+      "awayShort": "COR",
+      "competition": "Série A",
+      "venue": "Estadio Evandro Almeida (Baenao)",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [
+        "remo"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-03-san-antonio-spurs-toronto-raptors",
+      "date": "2026-12-03",
+      "kickoff": "2026-12-04T01:00Z",
+      "home": "San Antonio Spurs",
+      "away": "Toronto Raptors",
+      "homeShort": "SA",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Frost Bank Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-03-ottawa-senators-new-jersey-devils",
+      "date": "2026-12-03",
+      "kickoff": "2026-12-04T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "New Jersey Devils",
+      "homeShort": "Senators",
+      "awayShort": "NJ",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-05-ottawa-senators-tampa-bay-lightning",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-06T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Tampa Bay Lightning",
+      "homeShort": "Senators",
+      "awayShort": "TB",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-05-brentford-manchester-city",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-05T15:00Z",
+      "home": "Brentford",
+      "away": "Manchester City",
+      "homeShort": "BRE",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Gtech Community Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-05-zenit-st-petersburg-fc-baltika-kaliningrad",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-05T14:30Z",
+      "home": "Zenit St Petersburg",
+      "away": "FC Baltika Kaliningrad",
+      "homeShort": "ZEN",
+      "awayShort": "Baltika",
+      "competition": "Russian Premier League",
+      "venue": "Saint Petersburg Stadium",
+      "teamKeys": [
+        "baltika"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "baltika"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-06-new-england-patriots-buffalo-bills",
+      "date": "2026-12-06",
+      "kickoff": "2026-12-06T21:25Z",
+      "home": "New England Patriots",
+      "away": "Buffalo Bills",
+      "homeShort": "Patriots",
+      "awayShort": "BUF",
+      "competition": "NFL",
+      "venue": "Gillette Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [
+        "patriots"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-06-montreal-canadiens-ottawa-senators",
+      "date": "2026-12-06",
+      "kickoff": "2026-12-07T00:00Z",
+      "home": "Montreal Canadiens",
+      "away": "Ottawa Senators",
+      "homeShort": "MTL",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Bell Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-06-sale-sharks-exeter-chiefs",
+      "date": "2026-12-06",
+      "kickoff": "2026-12-06T15:00Z",
+      "home": "Sale Sharks",
+      "away": "Exeter Chiefs",
+      "homeShort": "SAL",
+      "awayShort": "Exeter",
+      "competition": "Premiership Rugby",
+      "venue": "CorpAcq Stadium",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "exeter-chiefs"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-07-fiorentina-cagliari",
+      "date": "2026-12-07",
+      "kickoff": "2026-12-07T19:45Z",
+      "home": "Fiorentina",
+      "away": "Cagliari",
+      "homeShort": "FIO",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Stadio Artemio Franchi",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-08-barcelona-manchester-city",
+      "date": "2026-12-08",
+      "kickoff": "2026-12-08T20:00Z",
+      "home": "Barcelona",
+      "away": "Manchester City",
+      "homeShort": "BAR",
+      "awayShort": "Man City",
+      "competition": "Champions League",
+      "venue": "Spotify Camp Nou",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-08-ottawa-senators-anaheim-ducks",
+      "date": "2026-12-08",
+      "kickoff": "2026-12-09T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Anaheim Ducks",
+      "homeShort": "Senators",
+      "awayShort": "ANA",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-10-new-england-patriots-minnesota-vikings",
+      "date": "2026-12-10",
+      "kickoff": "2026-12-11T01:15Z",
+      "home": "New England Patriots",
+      "away": "Minnesota Vikings",
+      "homeShort": "Patriots",
+      "awayShort": "MIN",
+      "competition": "NFL",
+      "venue": "Gillette Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [
+        "patriots"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-10-ottawa-senators-vegas-golden-knights",
+      "date": "2026-12-10",
+      "kickoff": "2026-12-11T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Vegas Golden Knights",
+      "homeShort": "Senators",
+      "awayShort": "VGK",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-12-army-black-knights-navy-midshipmen",
+      "date": "2026-12-12",
+      "kickoff": "2026-12-12T20:00Z",
+      "home": "Army Black Knights",
+      "away": "Navy Midshipmen",
+      "homeShort": "Army FB",
+      "awayShort": "ARMY",
+      "competition": "NCAA Football",
+      "venue": "MetLife Stadium",
+      "teamKeys": [
+        "army-football"
+      ],
+      "homeKeys": [
+        "army-football"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-12-ottawa-senators-edmonton-oilers",
+      "date": "2026-12-12",
+      "kickoff": "2026-12-13T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Edmonton Oilers",
+      "homeShort": "Senators",
+      "awayShort": "EDM",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-12-manchester-city-chelsea",
+      "date": "2026-12-12",
+      "kickoff": "2026-12-12T15:00Z",
+      "home": "Manchester City",
+      "away": "Chelsea",
+      "homeShort": "Man City",
+      "awayShort": "CHE",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-12-cagliari-venezia",
+      "date": "2026-12-12",
+      "kickoff": "2026-12-12T14:00Z",
+      "home": "Cagliari",
+      "away": "Venezia",
+      "homeShort": "Cagliari",
+      "awayShort": "VEN",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-13-exeter-chiefs-connacht",
+      "date": "2026-12-13",
+      "kickoff": "2026-12-13T13:00Z",
+      "home": "Exeter Chiefs",
+      "away": "Connacht",
+      "homeShort": "Exeter",
+      "awayShort": "CON",
+      "competition": "Champions Cup",
+      "venue": "Sandy Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [
+        "exeter-chiefs"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-13-oklahoma-city-thunder-toronto-raptors",
+      "date": "2026-12-13",
+      "kickoff": "2026-12-13T20:30Z",
+      "home": "Oklahoma City Thunder",
+      "away": "Toronto Raptors",
+      "homeShort": "OKC",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Paycom Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-14-charlotte-hornets-toronto-raptors",
+      "date": "2026-12-14",
+      "kickoff": "2026-12-15T00:00Z",
+      "home": "Charlotte Hornets",
+      "away": "Toronto Raptors",
+      "homeShort": "CHA",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Spectrum Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-14-ottawa-senators-buffalo-sabres",
+      "date": "2026-12-14",
+      "kickoff": "2026-12-14T19:00Z",
+      "home": "Ottawa Senators",
+      "away": "Buffalo Sabres",
+      "homeShort": "Senators",
+      "awayShort": "BUF",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-16-toronto-raptors-san-antonio-spurs",
+      "date": "2026-12-16",
+      "kickoff": "2026-12-17T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "San Antonio Spurs",
+      "homeShort": "Raptors",
+      "awayShort": "SA",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-18-toronto-raptors-golden-state-warriors",
+      "date": "2026-12-18",
+      "kickoff": "2026-12-19T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Golden State Warriors",
+      "homeShort": "Raptors",
+      "awayShort": "GS",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-18-ottawa-senators-chicago-blackhawks",
+      "date": "2026-12-18",
+      "kickoff": "2026-12-18T18:00Z",
+      "home": "Ottawa Senators",
+      "away": "Chicago Blackhawks",
+      "homeShort": "Senators",
+      "awayShort": "CHI",
+      "competition": "NHL",
+      "venue": "PSD Bank Dome",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-19-manchester-city-hull-city",
+      "date": "2026-12-19",
+      "kickoff": "2026-12-19T15:00Z",
+      "home": "Manchester City",
+      "away": "Hull City",
+      "homeShort": "Man City",
+      "awayShort": "HUL",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-19-northampton-saints-exeter-chiefs",
+      "date": "2026-12-19",
+      "kickoff": "2026-12-19T17:30Z",
+      "home": "Northampton Saints",
+      "away": "Exeter Chiefs",
+      "homeShort": "NOR",
+      "awayShort": "Exeter",
+      "competition": "Premiership Rugby",
+      "venue": "cinch Stadium at Franklin's Gardens",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "exeter-chiefs"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-20-toronto-raptors-houston-rockets",
+      "date": "2026-12-20",
+      "kickoff": "2026-12-20T20:30Z",
+      "home": "Toronto Raptors",
+      "away": "Houston Rockets",
+      "homeShort": "Raptors",
+      "awayShort": "HOU",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-20-ottawa-senators-chicago-blackhawks",
+      "date": "2026-12-20",
+      "kickoff": "2026-12-20T13:00Z",
+      "home": "Ottawa Senators",
+      "away": "Chicago Blackhawks",
+      "homeShort": "Senators",
+      "awayShort": "CHI",
+      "competition": "NHL",
+      "venue": "PSD Bank Dome",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-20-torino-cagliari",
+      "date": "2026-12-20",
+      "kickoff": "2026-12-20T14:00Z",
+      "home": "Torino",
+      "away": "Cagliari",
+      "homeShort": "TOR",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Stadio Olimpico Grande Torino",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-21-kansas-city-chiefs-new-england-patriots",
+      "date": "2026-12-21",
+      "kickoff": "2026-12-22T01:15Z",
+      "home": "Kansas City Chiefs",
+      "away": "New England Patriots",
+      "homeShort": "KC",
+      "awayShort": "Patriots",
+      "competition": "NFL",
+      "venue": "Arrowhead Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-22-washington-wizards-toronto-raptors",
+      "date": "2026-12-22",
+      "kickoff": "2026-12-23T00:00Z",
+      "home": "Washington Wizards",
+      "away": "Toronto Raptors",
+      "homeShort": "WSH",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Capital One Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-23-memphis-grizzlies-toronto-raptors",
+      "date": "2026-12-23",
+      "kickoff": "2026-12-24T01:00Z",
+      "home": "Memphis Grizzlies",
+      "away": "Toronto Raptors",
+      "homeShort": "MEM",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "FedExForum",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-26-orlando-magic-toronto-raptors",
+      "date": "2026-12-26",
+      "kickoff": "2026-12-27T00:00Z",
+      "home": "Orlando Magic",
+      "away": "Toronto Raptors",
+      "homeShort": "ORL",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Kia Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-26-newcastle-united-manchester-city",
+      "date": "2026-12-26",
+      "kickoff": "2026-12-26T20:00Z",
+      "home": "Newcastle United",
+      "away": "Manchester City",
+      "homeShort": "NEW",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "St. James' Park",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-27-new-york-jets-new-england-patriots",
+      "date": "2026-12-27",
+      "kickoff": "2026-12-27T18:00Z",
+      "home": "New York Jets",
+      "away": "New England Patriots",
+      "homeShort": "NYJ",
+      "awayShort": "Patriots",
+      "competition": "NFL",
+      "venue": "MetLife Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-27-new-york-islanders-ottawa-senators",
+      "date": "2026-12-27",
+      "kickoff": "2026-12-28T00:00Z",
+      "home": "New York Islanders",
+      "away": "Ottawa Senators",
+      "homeShort": "NYI",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "UBS Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-27-exeter-chiefs-saracens",
+      "date": "2026-12-27",
+      "kickoff": "2026-12-27T15:05Z",
+      "home": "Exeter Chiefs",
+      "away": "Saracens",
+      "homeShort": "Exeter",
+      "awayShort": "SAR",
+      "competition": "Premiership Rugby",
+      "venue": "Sandy Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [
+        "exeter-chiefs"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-28-toronto-raptors-new-orleans-pelicans",
+      "date": "2026-12-28",
+      "kickoff": "2026-12-29T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "New Orleans Pelicans",
+      "homeShort": "Raptors",
+      "awayShort": "NO",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-29-ottawa-senators-dallas-stars",
+      "date": "2026-12-29",
+      "kickoff": "2026-12-30T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Dallas Stars",
+      "homeShort": "Senators",
+      "awayShort": "DAL",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-29-everton-manchester-city",
+      "date": "2026-12-29",
+      "kickoff": "2026-12-29T20:15Z",
+      "home": "Everton",
+      "away": "Manchester City",
+      "homeShort": "EVE",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Hill Dickinson Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-30-toronto-raptors-washington-wizards",
+      "date": "2026-12-30",
+      "kickoff": "2026-12-31T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Washington Wizards",
+      "homeShort": "Raptors",
+      "awayShort": "WSH",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-31-ottawa-senators-pittsburgh-penguins",
+      "date": "2026-12-31",
+      "kickoff": "2026-12-31T19:00Z",
+      "home": "Ottawa Senators",
+      "away": "Pittsburgh Penguins",
+      "homeShort": "Senators",
+      "awayShort": "PIT",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-01-toronto-raptors-la-clippers",
+      "date": "2027-01-01",
+      "kickoff": "2027-01-02T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "LA Clippers",
+      "homeShort": "Raptors",
+      "awayShort": "LAC",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-02-washington-capitals-ottawa-senators",
+      "date": "2027-01-02",
+      "kickoff": "2027-01-03T00:00Z",
+      "home": "Washington Capitals",
+      "away": "Ottawa Senators",
+      "homeShort": "WSH",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Capital One Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-02-leicester-tigers-exeter-chiefs",
+      "date": "2027-01-02",
+      "kickoff": "2027-01-02T17:30Z",
+      "home": "Leicester Tigers",
+      "away": "Exeter Chiefs",
+      "homeShort": "LEI",
+      "awayShort": "Exeter",
+      "competition": "Premiership Rugby",
+      "venue": "Mattioli Woods Welford Road Stadium",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "exeter-chiefs"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-02-cagliari-genoa",
+      "date": "2027-01-02",
+      "kickoff": "2027-01-02T11:30Z",
+      "home": "Cagliari",
+      "away": "Genoa",
+      "homeShort": "Cagliari",
+      "awayShort": "GEN",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-03-toronto-raptors-los-angeles-lakers",
+      "date": "2027-01-03",
+      "kickoff": "2027-01-04T00:00Z",
+      "home": "Toronto Raptors",
+      "away": "Los Angeles Lakers",
+      "homeShort": "Raptors",
+      "awayShort": "LAL",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-03-new-england-patriots-denver-broncos",
+      "date": "2027-01-03",
+      "kickoff": "2027-01-03T05:00Z",
+      "home": "New England Patriots",
+      "away": "Denver Broncos",
+      "homeShort": "Patriots",
+      "awayShort": "DEN",
+      "competition": "NFL",
+      "venue": "Gillette Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [
+        "patriots"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-03-manchester-city-tottenham-hotspur",
+      "date": "2027-01-03",
+      "kickoff": "2027-01-03T16:30Z",
+      "home": "Manchester City",
+      "away": "Tottenham Hotspur",
+      "homeShort": "Man City",
+      "awayShort": "TOT",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-05-cleveland-cavaliers-toronto-raptors",
+      "date": "2027-01-05",
+      "kickoff": "2027-01-06T00:00Z",
+      "home": "Cleveland Cavaliers",
+      "away": "Toronto Raptors",
+      "homeShort": "CLE",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Rocket Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-05-utah-mammoth-ottawa-senators",
+      "date": "2027-01-05",
+      "kickoff": "2027-01-06T02:00Z",
+      "home": "Utah Mammoth",
+      "away": "Ottawa Senators",
+      "homeShort": "UTA",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Delta Center",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-06-colorado-avalanche-ottawa-senators",
+      "date": "2027-01-06",
+      "kickoff": "2027-01-07T02:30Z",
+      "home": "Colorado Avalanche",
+      "away": "Ottawa Senators",
+      "homeShort": "COL",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Ball Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-06-leeds-united-manchester-city",
+      "date": "2027-01-06",
+      "kickoff": "2027-01-06T20:15Z",
+      "home": "Leeds United",
+      "away": "Manchester City",
+      "homeShort": "LEE",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Elland Road",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-07-toronto-raptors-minnesota-timberwolves",
+      "date": "2027-01-07",
+      "kickoff": "2027-01-08T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Minnesota Timberwolves",
+      "homeShort": "Raptors",
+      "awayShort": "MIN",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-07-napoli-cagliari",
+      "date": "2027-01-07",
+      "kickoff": "2027-01-07T19:45Z",
+      "home": "Napoli",
+      "away": "Cagliari",
+      "homeShort": "NAP",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Stadio Diego Armando Maradona",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-08-toronto-raptors-utah-jazz",
+      "date": "2027-01-08",
+      "kickoff": "2027-01-09T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Utah Jazz",
+      "homeShort": "Raptors",
+      "awayShort": "UTAH",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-08-st-louis-blues-ottawa-senators",
+      "date": "2027-01-08",
+      "kickoff": "2027-01-09T01:00Z",
+      "home": "St. Louis Blues",
+      "away": "Ottawa Senators",
+      "homeShort": "STL",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Enterprise Center",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-09-exeter-chiefs-la-rochelle",
+      "date": "2027-01-09",
+      "kickoff": "2027-01-09T15:15Z",
+      "home": "Exeter Chiefs",
+      "away": "La Rochelle",
+      "homeShort": "Exeter",
+      "awayShort": "STA",
+      "competition": "Champions Cup",
+      "venue": "Sandy Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [
+        "exeter-chiefs"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-10-toronto-raptors-philadelphia-76ers",
+      "date": "2027-01-10",
+      "kickoff": "2027-01-10T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "Philadelphia 76ers",
+      "homeShort": "Raptors",
+      "awayShort": "PHI",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-10-new-england-patriots-miami-dolphins",
+      "date": "2027-01-10",
+      "kickoff": "2027-01-10T05:00Z",
+      "home": "New England Patriots",
+      "away": "Miami Dolphins",
+      "homeShort": "Patriots",
+      "awayShort": "MIA",
+      "competition": "NFL",
+      "venue": "Gillette Stadium",
+      "teamKeys": [
+        "patriots"
+      ],
+      "homeKeys": [
+        "patriots"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-11-cagliari-sassuolo",
+      "date": "2027-01-11",
+      "kickoff": "2027-01-11T17:30Z",
+      "home": "Cagliari",
+      "away": "Sassuolo",
+      "homeShort": "Cagliari",
+      "awayShort": "SAS",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-12-toronto-raptors-detroit-pistons",
+      "date": "2027-01-12",
+      "kickoff": "2027-01-13T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Detroit Pistons",
+      "homeShort": "Raptors",
+      "awayShort": "DET",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-12-dallas-stars-ottawa-senators",
+      "date": "2027-01-12",
+      "kickoff": "2027-01-13T01:00Z",
+      "home": "Dallas Stars",
+      "away": "Ottawa Senators",
+      "homeShort": "DAL",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "American Airlines Center",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    }
+  ]
+}

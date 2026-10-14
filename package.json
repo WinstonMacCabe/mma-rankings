@@ -9,6 +9,7 @@
     "lint": "eslint",
     "update-rankings": "tsx scripts/update-rankings.ts",
     "update-news": "tsx scripts/update-news.ts",
+    "update-teams-calendar": "tsx scripts/update-teams-calendar.ts",
     "notify": "tsx scripts/notify.ts",
     "update": "npm run update-rankings && npm run update-news"
   },
