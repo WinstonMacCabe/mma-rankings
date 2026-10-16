@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T00:44:08.357Z",
+  "lastUpdated": "2026-10-16T00:41:45.100Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -3283,18 +3283,6 @@
       "birthDate": "1997",
       "gender": "female"
     },
-    "Laura Grzyb": {
-      "wins": 12,
-      "kos": 3,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "Poland",
-      "weightClass": "Flyweight",
-      "birthDate": "1995-04-29",
-      "gender": "female"
-    },
     "Julia Berezikova": {
       "wins": 2,
       "kos": 0,
@@ -3317,6 +3305,18 @@
       "nationality": "Thailand",
       "weightClass": "Strawweight",
       "birthDate": "1996-01-18",
+      "gender": "female"
+    },
+    "Laura Grzyb": {
+      "wins": 12,
+      "kos": 3,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "Poland",
+      "weightClass": "Flyweight",
+      "birthDate": "1995-04-29",
       "gender": "female"
     },
     "Jasmine Parr": {
@@ -6200,18 +6200,6 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
-      "gender": "male"
-    },
     "Charley Burley": {
       "wins": 83,
       "kos": 48,
@@ -6222,18 +6210,6 @@
       "nationality": "American",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
       "birthDate": "1917-09-06",
-      "gender": "male"
-    },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 2,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Denys Berinchyk": {
@@ -6271,6 +6247,18 @@
       "birthDate": "1991",
       "gender": "male"
     },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "John L. Sullivan": {
       "wins": 47,
       "kos": 34,
@@ -6305,6 +6293,18 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
       "birthDate": "1866",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 2,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {

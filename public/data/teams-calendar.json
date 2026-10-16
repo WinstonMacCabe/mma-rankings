@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T00:56:44.896Z",
+  "generatedAt": "2026-10-16T00:54:21.091Z",
   "windowDays": 90,
   "teams": [
     {
@@ -55,7 +55,7 @@
       "name": "Manchester City",
       "short": "Man City",
       "label": "Soccer",
-      "count": 20,
+      "count": 19,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-14-manchester-city-paris-saint-germain",
-      "date": "2026-10-14",
-      "kickoff": "2026-10-14T19:00Z",
-      "home": "Manchester City",
-      "away": "Paris Saint-Germain",
-      "homeShort": "Man City",
-      "awayShort": "PSG",
-      "competition": "Champions League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-15-new-york-knicks-toronto-raptors",
       "date": "2026-10-15",
@@ -189,7 +170,7 @@
     {
       "id": "2026-10-17-southern-virginia-army-black-knights-rugby",
       "date": "2026-10-17",
-      "kickoff": null,
+      "kickoff": "2026-10-17T15:00:00.000Z",
       "home": "Southern Virginia",
       "away": "Army Black Knights Rugby",
       "homeShort": "Southern Virginia",
@@ -284,7 +265,7 @@
     {
       "id": "2026-10-18-fc-baltika-kaliningrad-rostov",
       "date": "2026-10-18",
-      "kickoff": "2026-10-18T17:45Z",
+      "kickoff": "2026-10-18T18:00Z",
       "home": "FC Baltika Kaliningrad",
       "away": "Rostov",
       "homeShort": "Baltika",
