@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T00:54:21.091Z",
+  "generatedAt": "2026-10-17T00:54:33.928Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
@@ -110,44 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-15-new-york-knicks-toronto-raptors",
-      "date": "2026-10-15",
-      "kickoff": "2026-10-15T23:30Z",
-      "home": "New York Knicks",
-      "away": "Toronto Raptors",
-      "homeShort": "Knicks",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Madison Square Garden",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-15-ottawa-senators-new-york-islanders",
-      "date": "2026-10-15",
-      "kickoff": "2026-10-15T23:00Z",
-      "home": "Ottawa Senators",
-      "away": "New York Islanders",
-      "homeShort": "Senators",
-      "awayShort": "Islanders",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-16-detroit-pistons-toronto-raptors",
       "date": "2026-10-16",
@@ -2350,6 +2312,25 @@
       "awayKeys": [
         "senators"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-14-ottawa-senators-winnipeg-jets",
+      "date": "2027-01-14",
+      "kickoff": "2027-01-15T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Winnipeg Jets",
+      "homeShort": "Senators",
+      "awayShort": "Jets",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     }
   ]

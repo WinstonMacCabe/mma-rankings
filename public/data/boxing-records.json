@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T00:41:45.100Z",
+  "lastUpdated": "2026-10-17T00:41:56.972Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -1643,19 +1643,6 @@
       "birthDate": "1980",
       "gender": "male"
     },
-    "Michael Page": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "England",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Venom_Page.png",
-      "birthDate": "1987",
-      "gender": "male"
-    },
     "Aaron Chalmers (television personality)": {
       "wins": 1,
       "kos": 0,
@@ -1680,6 +1667,19 @@
       "weightClass": "Featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ross_Pearson.jpg",
       "birthDate": "1984",
+      "gender": "male"
+    },
+    "Michael Page": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "England",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Venom_Page.png",
+      "birthDate": "1987",
       "gender": "male"
     },
     "Norman Parke": {
@@ -1845,18 +1845,6 @@
       "birthDate": "1979",
       "gender": "male"
     },
-    "Cole Smith (fighter)": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Canada",
-      "weightClass": "Bantamweight",
-      "birthDate": "1989",
-      "gender": "male"
-    },
     "Qiu Jianliang": {
       "wins": 1,
       "kos": 1,
@@ -1880,6 +1868,18 @@
       "nationality": "Chile",
       "weightClass": "Featherweight",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Cole Smith (fighter)": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Canada",
+      "weightClass": "Bantamweight",
+      "birthDate": "1989",
       "gender": "male"
     },
     "Satoshi Ishii": {
@@ -3283,6 +3283,18 @@
       "birthDate": "1997",
       "gender": "female"
     },
+    "Laura Grzyb": {
+      "wins": 12,
+      "kos": 3,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "Poland",
+      "weightClass": "Flyweight",
+      "birthDate": "1995-04-29",
+      "gender": "female"
+    },
     "Julia Berezikova": {
       "wins": 2,
       "kos": 0,
@@ -3305,18 +3317,6 @@
       "nationality": "Thailand",
       "weightClass": "Strawweight",
       "birthDate": "1996-01-18",
-      "gender": "female"
-    },
-    "Laura Grzyb": {
-      "wins": 12,
-      "kos": 3,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "Poland",
-      "weightClass": "Flyweight",
-      "birthDate": "1995-04-29",
       "gender": "female"
     },
     "Jasmine Parr": {
