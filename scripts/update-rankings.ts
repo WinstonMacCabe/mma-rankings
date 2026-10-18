@@ -267,6 +267,33 @@ async function main() {
     await delay(BATCH_DELAY)
   }
 
+  // Recover previously ranked MMA records when Wikipedia returns an unusually
+  // small usable set. Freshly fetched records remain authoritative; only
+  // missing names are carried forward for this run.
+  const previousThirdaryForRecovery = previous.thirdary ?? []
+  if (previousThirdaryForRecovery.length >= 20 && allRecords.size < Math.floor(previousThirdaryForRecovery.length / 2)) {
+    let recovered = 0
+    for (const fighter of previousThirdaryForRecovery) {
+      if (allRecords.has(fighter.name)) continue
+      allRecords.set(fighter.name, {
+        total: fighter.total,
+        wins: fighter.wins,
+        kos: fighter.kos,
+        losses: fighter.losses,
+        draws: fighter.draws,
+        nationality: fighter.nationality,
+        weightClass: fighter.weightClass ?? '',
+        imageUrl: fighter.imageUrl ?? '',
+        birthDate: fighter.birthDate ?? '',
+        qualityWins: 0,
+        sportRecords: {},
+        hasMMA: true,
+      })
+      recovered++
+    }
+    console.warn(`Recovered ${recovered} MMA records from the previous valid snapshot after a partial fetch.`)
+  }
+
   const ranked = undefeated
     .filter(f => f.imageUrl)
     .sort((a, b) => b.wins - a.wins || a.draws - b.draws || b.kos - a.kos || a.name.localeCompare(b.name))
