@@ -270,10 +270,10 @@ async function main() {
   // Recover previously ranked MMA records when Wikipedia returns an unusually
   // small usable set. Freshly fetched records remain authoritative; only
   // missing names are carried forward for this run.
-  const previousThirdaryForRecovery = previous.thirdary ?? []
-  if (previousThirdaryForRecovery.length >= 20 && allRecords.size < Math.floor(previousThirdaryForRecovery.length / 2)) {
+  const previousThirdaryForRecordRecovery = previous.thirdary ?? []
+  if (previousThirdaryForRecordRecovery.length >= 20 && allRecords.size < Math.floor(previousThirdaryForRecordRecovery.length / 2)) {
     let recovered = 0
-    for (const fighter of previousThirdaryForRecovery) {
+    for (const fighter of previousThirdaryForRecordRecovery) {
       if (allRecords.has(fighter.name)) continue
       allRecords.set(fighter.name, {
         total: fighter.total,
@@ -471,7 +471,7 @@ async function main() {
       (b.kos ?? 0) - (a.kos ?? 0)
     )
   // No fighter cap — MMA_MIN_SCORE filter determines inclusion
-  const thirdaryRanked: BoxerRecord[] = allThirdaryScored.map((f, i) => {
+  let thirdaryRanked: BoxerRecord[] = allThirdaryScored.map((f, i) => {
     const thirdRank = i + 1
     const hist = prevThirdaryHistory.get(f.name)
     return {
@@ -482,6 +482,17 @@ async function main() {
       lowestRank: hist ? Math.max(hist.lowest, thirdRank) : thirdRank,
     }
   })
+
+  // The raw record map may still be large even when most records are not
+  // recognized as MMA records. Judge recovery by the final ranking size, not
+  // by allRecords.size, and retain the last valid list if it collapses.
+  const previousThirdaryForRecovery = previous.thirdary ?? []
+  if (previousThirdaryForRecovery.length >= 20 && thirdaryRanked.length < Math.floor(previousThirdaryForRecovery.length / 2)) {
+    console.warn(
+      `Computed MMA thirdary rankings are incomplete (${thirdaryRanked.length}/${previousThirdaryForRecovery.length}); retaining the previous valid list.`
+    )
+    thirdaryRanked = previousThirdaryForRecovery
+  }
 
   const thirdEligibleWorst = allThirdary
     .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0 && !f.isSenior)
