@@ -1177,6 +1177,17 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     let sm3: RegExpExecArray | null
     while ((sm3 = wtRegex.exec(slice)) !== null) tableBlocks.push(sm3[0])
     for (const block of tableBlocks) {
+      // A folkstyle table may contain both collegiate and high-school matches
+      // in one wikitable. Split those subsections before attributing records.
+      if (sport === 'folkstyleWrestling' && /collegiate\s+matches/i.test(block) && /high\s*school\s+matches/i.test(block)) {
+        const collegiateStart = block.search(/collegiate\s+matches/i)
+        const highSchoolStart = block.search(/high\s*school\s+matches/i)
+        if (collegiateStart >= 0 && highSchoolStart > collegiateStart) {
+          addRecord('ncaaWrestling', parseBespokeBlock(block.slice(collegiateStart, highSchoolStart), 'ncaaWrestling'))
+          addRecord('folkstyleWrestling', parseBespokeBlock(block.slice(highSchoolStart), 'folkstyleWrestling'))
+          continue
+        }
+      }
       // Folkstyle sections can contain separate collegiate and high-school
       // tables. Only the collegiate table belongs in NCAA wrestling.
       if (sport === 'ncaaWrestling' && /high\s*school\s+matches/i.test(block)) continue
