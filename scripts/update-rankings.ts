@@ -156,17 +156,30 @@ async function main() {
   console.log('Step 1: Discovering fighters from Wikipedia categories...')
 
   const startTime = Date.now()
+  const previous = await readRankings()
   const pageMap = await getAllBoxerPages()
-  const pageNames = Array.from(pageMap.keys())
-  console.log(`Found ${pageMap.size} fighter pages in ${(Date.now() - startTime) / 1000}s`)
+  const discoveredPageCount = pageMap.size
 
   if (pageMap.size === 0) {
     console.log('No fighters found. Exiting.')
     return
   }
 
+  // Keep the core MMA crawl resilient to a transient category-discovery
+  // failure. Re-fetch fighters from the last valid snapshot so they can be
+  // retained or updated even when Wikipedia returns only a partial category.
+  for (const fighter of [
+    ...(previous.fighters ?? []),
+    ...(previous.worst ?? []),
+    ...(previous.thirdary ?? []),
+    ...(previous.thirdaryWorst ?? []),
+  ]) {
+    if (!pageMap.has(fighter.name)) pageMap.set(fighter.name, fighter.gender ?? 'male')
+  }
+  const pageNames = Array.from(pageMap.keys())
+  console.log(`Found ${discoveredPageCount} fighter pages (${pageMap.size} including prior rankings) in ${(Date.now() - startTime) / 1000}s`)
+
   // Read previous rankings for rank-change tracking
-  const previous = await readRankings()
   const prevBestRank = new Map<string, number>()
   const prevWorstRank = new Map<string, number>()
   const prevBestHistory = new Map<string, { highest: number; lowest: number }>()
