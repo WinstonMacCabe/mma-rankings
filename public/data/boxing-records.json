@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:50:07.201Z",
+  "lastUpdated": "2026-10-18T18:30:24.317Z",
   "records": {
     "Randy Blake": {
       "wins": 2,
@@ -4749,6 +4749,19 @@
       "birthDate": "1982-04-07",
       "gender": "male"
     },
+    "Norman Parke": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "British and Irish",
+      "weightClass": "Lightweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Norman_Parke.png",
+      "birthDate": "1986-12-22",
+      "gender": "male"
+    },
     "Yoel Romero": {
       "wins": 2,
       "kos": 2,
@@ -4800,6 +4813,18 @@
       "birthDate": "1993-08-22",
       "gender": "male"
     },
+    "T.J. Brown": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "U.S.",
+      "weightClass": "Featherweight",
+      "birthDate": "1990-05-22",
+      "gender": "male"
+    },
     "Chris Avila": {
       "wins": 6,
       "kos": 0,
@@ -4810,6 +4835,19 @@
       "nationality": "U.S.",
       "weightClass": "Featherweight",
       "birthDate": "1993",
+      "gender": "male"
+    },
+    "Mac Danzig": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mac_Danzig.jpg",
+      "birthDate": "1980",
       "gender": "male"
     },
     "Rich Clementi": {
@@ -4823,6 +4861,19 @@
       "weightClass": "Welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rich_Clementi_%40_UFC_69.jpg",
       "birthDate": "1977",
+      "gender": "male"
+    },
+    "Nate Diaz": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "U.S.",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nate_Diaz_Oct_2019.jpg",
+      "birthDate": "1985",
       "gender": "male"
     },
     "Alex Caceres": {
@@ -4849,44 +4900,6 @@
       "birthDate": "1989-06-28",
       "gender": "male"
     },
-    "T.J. Brown": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "U.S.",
-      "weightClass": "Featherweight",
-      "birthDate": "1990-05-22",
-      "gender": "male"
-    },
-    "Mac Danzig": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mac_Danzig.jpg",
-      "birthDate": "1980",
-      "gender": "male"
-    },
-    "Nate Diaz": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "U.S.",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nate_Diaz_Oct_2019.jpg",
-      "birthDate": "1985",
-      "gender": "male"
-    },
     "Chris Curtis (fighter)": {
       "wins": 2,
       "kos": 0,
@@ -4899,18 +4912,6 @@
       "birthDate": "1987",
       "gender": "male"
     },
-    "Dennis Hallman": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "U.S.",
-      "weightClass": "Middleweight",
-      "birthDate": "1975-12-02",
-      "gender": "male"
-    },
     "Leonard Garcia": {
       "wins": 0,
       "kos": 0,
@@ -4921,6 +4922,18 @@
       "nationality": "United States",
       "weightClass": "Featherweight",
       "birthDate": "1979",
+      "gender": "male"
+    },
+    "Dennis Hallman": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "U.S.",
+      "weightClass": "Middleweight",
+      "birthDate": "1975-12-02",
       "gender": "male"
     },
     "Marcus Hicks": {
@@ -4945,19 +4958,6 @@
       "nationality": "United States",
       "weightClass": "Light heavyweight",
       "birthDate": "1986",
-      "gender": "male"
-    },
-    "Mike Kyle": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 5,
-      "nationality": "United States",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mike_Kyle.jpg",
-      "birthDate": "1980-03-31",
       "gender": "male"
     },
     "Ray Mancini": {
@@ -4985,6 +4985,19 @@
       "birthDate": "1974-08-18",
       "gender": "male"
     },
+    "Mike Kyle": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 3,
+      "draws": 1,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "United States",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mike_Kyle.jpg",
+      "birthDate": "1980-03-31",
+      "gender": "male"
+    },
     "Jimi Manuwa": {
       "wins": 1,
       "kos": 1,
@@ -4996,31 +5009,6 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jimi_Manuwa.jpg",
       "birthDate": "1980",
-      "gender": "male"
-    },
-    "Curtis Millender": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "United States",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Curtis_Milender_at_UFC_232.jpg",
-      "birthDate": "1987-12-01",
-      "gender": "male"
-    },
-    "Sergio Pettis": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Bantamweight",
-      "birthDate": "1993-08-18",
       "gender": "male"
     },
     "Sam Oropeza": {
@@ -5045,6 +5033,19 @@
       "nationality": "American",
       "weightClass": "Featherweight",
       "birthDate": "2015",
+      "gender": "male"
+    },
+    "Curtis Millender": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "United States",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Curtis_Milender_at_UFC_232.jpg",
+      "birthDate": "1987-12-01",
       "gender": "male"
     },
     "Sean O'Malley (fighter)": {
@@ -5072,18 +5073,6 @@
       "birthDate": "1993-07-05",
       "gender": "male"
     },
-    "Billy Quarantillo": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Featherweight",
-      "birthDate": "1988-12-08",
-      "gender": "male"
-    },
     "Journey Newson": {
       "wins": 0,
       "kos": 0,
@@ -5109,16 +5098,16 @@
       "birthDate": "1977-08-19",
       "gender": "male"
     },
-    "Chase Sherman": {
-      "wins": 1,
+    "Sergio Pettis": {
+      "wins": 0,
       "kos": 0,
       "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 2,
+      "total": 1,
       "nationality": "U.S.",
-      "weightClass": "Heavyweight",
-      "birthDate": "1989",
+      "weightClass": "Bantamweight",
+      "birthDate": "1993-08-18",
       "gender": "male"
     },
     "Daniel Rodriguez (fighter)": {
@@ -5133,6 +5122,18 @@
       "birthDate": "1986-12-31",
       "gender": "male"
     },
+    "Billy Quarantillo": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Featherweight",
+      "birthDate": "1988-12-08",
+      "gender": "male"
+    },
     "James Vick": {
       "wins": 2,
       "kos": 0,
@@ -5145,28 +5146,16 @@
       "birthDate": "1987-02-23",
       "gender": "male"
     },
-    "Luke Zachrich": {
-      "wins": 3,
+    "Chase Sherman": {
+      "wins": 1,
       "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "American",
-      "weightClass": "Cruiserweight",
-      "birthDate": "1981-12-19",
-      "gender": "male"
-    },
-    "Jessica-Rose Clark": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 0,
+      "losses": 1,
       "draws": 0,
       "noContests": 0,
       "total": 2,
-      "nationality": "Australia",
-      "weightClass": "Featherweight",
-      "birthDate": "1987",
+      "nationality": "U.S.",
+      "weightClass": "Heavyweight",
+      "birthDate": "1989",
       "gender": "male"
     },
     "George Sotiropoulos": {
@@ -5182,6 +5171,18 @@
       "birthDate": "1977",
       "gender": "male"
     },
+    "Luke Zachrich": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "American",
+      "weightClass": "Cruiserweight",
+      "birthDate": "1981-12-19",
+      "gender": "male"
+    },
     "Tyson Pedro": {
       "wins": 1,
       "kos": 1,
@@ -5192,6 +5193,18 @@
       "nationality": "Australia",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tyson_Pedro_at_UFC_234.jpg",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Jessica-Rose Clark": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Australia",
+      "weightClass": "Featherweight",
+      "birthDate": "1987",
       "gender": "male"
     },
     "Gabriel Gonzaga": {
@@ -5207,6 +5220,18 @@
       "birthDate": "1979",
       "gender": "male"
     },
+    "Antônio Rogério Nogueira": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Brazil",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1976",
+      "gender": "male"
+    },
     "Fábio Maldonado": {
       "wins": 30,
       "kos": 0,
@@ -5218,18 +5243,6 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/F%C3%A1bio_Maldonado_2022.jpg",
       "birthDate": "1980",
-      "gender": "male"
-    },
-    "Antônio Rogério Nogueira": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Brazil",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1976",
       "gender": "male"
     },
     "Ronaldo Souza": {
@@ -5255,6 +5268,18 @@
       "nationality": "Canada",
       "weightClass": "Heavyweight",
       "birthDate": "1983",
+      "gender": "male"
+    },
+    "Taylor Lapilus": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "France",
+      "weightClass": "Featherweight",
+      "birthDate": "1992",
       "gender": "male"
     },
     "Diego Rivas (fighter)": {
@@ -5331,18 +5356,6 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Taylor Lapilus": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "France",
-      "weightClass": "Featherweight",
-      "birthDate": "1992",
-      "gender": "male"
-    },
     "Youssef Zalal": {
       "wins": 1,
       "kos": 0,
@@ -5368,30 +5381,6 @@
       "birthDate": "1977-06-25",
       "gender": "male"
     },
-    "Molly McCann": {
-      "wins": 5,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 5,
-      "nationality": "England",
-      "weightClass": "Strawweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Molly_McCann_2018.jpg",
-      "birthDate": "1990",
-      "gender": "male"
-    },
-    "Erin Toughill": {
-      "wins": 7,
-      "kos": 0,
-      "losses": 6,
-      "draws": 1,
-      "noContests": 0,
-      "total": 14,
-      "nationality": "U.S.",
-      "birthDate": "1977",
-      "gender": "male"
-    },
     "Amanda Brundage": {
       "wins": 2,
       "kos": 0,
@@ -5402,19 +5391,6 @@
       "nationality": "U.S.",
       "weightClass": "Strawweight",
       "birthDate": "1991-10-22",
-      "gender": "male"
-    },
-    "Paige VanZant": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 0,
-      "draws": 1,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Strawweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/2019_-_Centre_Stage_-_Day_2_VJR22196_(49024989787)_(cropped).jpg",
-      "birthDate": "1994-03-26",
       "gender": "male"
     },
     "Kay Hansen": {
@@ -5441,6 +5417,19 @@
       "birthDate": "1988",
       "gender": "male"
     },
+    "Molly McCann": {
+      "wins": 5,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 5,
+      "nationality": "England",
+      "weightClass": "Strawweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Molly_McCann_2018.jpg",
+      "birthDate": "1990",
+      "gender": "male"
+    },
     "Jessica Rakoczy": {
       "wins": 33,
       "kos": 0,
@@ -5451,6 +5440,93 @@
       "nationality": "Canada",
       "weightClass": "Lightweight",
       "birthDate": "1977",
+      "gender": "male"
+    },
+    "Erin Toughill": {
+      "wins": 7,
+      "kos": 0,
+      "losses": 6,
+      "draws": 1,
+      "noContests": 0,
+      "total": 14,
+      "nationality": "U.S.",
+      "birthDate": "1977",
+      "gender": "male"
+    },
+    "Paige VanZant": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 0,
+      "draws": 1,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Strawweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/2019_-_Centre_Stage_-_Day_2_VJR22196_(49024989787)_(cropped).jpg",
+      "birthDate": "1994-03-26",
+      "gender": "male"
+    },
+    "Ross Pearson": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "United Kingdom",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ross_Pearson.jpg",
+      "birthDate": "1984",
+      "gender": "male"
+    },
+    "Aaron Chalmers (television personality)": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "England",
+      "weightClass": "Welterweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aaron_Chalmers_on_MTV_Shores.jpg",
+      "birthDate": "1987",
+      "gender": "male"
+    },
+    "Darren Stewart": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "British",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Darren_Stewart_at_UFC_228.jpg",
+      "birthDate": "1990",
+      "gender": "male"
+    },
+    "Tom Aspinall": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "England",
+      "weightClass": "Heavyweight",
+      "birthDate": "1993",
+      "gender": "male"
+    },
+    "Mason Jones (fighter)": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Wales",
+      "weightClass": "Welterweight",
+      "birthDate": "1995",
       "gender": "male"
     },
     "Kyar Ba Nyein": {
@@ -5476,6 +5552,18 @@
       "birthDate": "1993",
       "gender": "male"
     },
+    "Andre Ewell": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 4,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "United States",
+      "weightClass": "Featherweight",
+      "birthDate": "1988",
+      "gender": "male"
+    },
     "Mia St. John": {
       "wins": 49,
       "kos": 19,
@@ -5488,17 +5576,17 @@
       "birthDate": "1967",
       "gender": "male"
     },
-    "Ross Pearson": {
+    "Andrei Arlovski": {
       "wins": 1,
-      "kos": 0,
-      "losses": 1,
+      "kos": 1,
+      "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 2,
-      "nationality": "United Kingdom",
-      "weightClass": "Featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ross_Pearson.jpg",
-      "birthDate": "1984",
+      "total": 1,
+      "nationality": "BelarusianAmerican",
+      "weightClass": "Heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andrei_Arlovski_2018.jpg",
+      "birthDate": "1979",
       "gender": "male"
     },
     "Myriam Lamare": {
@@ -5513,19 +5601,6 @@
       "birthDate": "1975",
       "gender": "male"
     },
-    "Darren Stewart": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "British",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Darren_Stewart_at_UFC_228.jpg",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Maïva Hamadouche": {
       "wins": 22,
       "kos": 16,
@@ -5536,31 +5611,6 @@
       "nationality": "France",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ma%C3%AFva_Hamadouche.jpg",
       "birthDate": "1989",
-      "gender": "male"
-    },
-    "Andre Ewell": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 4,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "United States",
-      "weightClass": "Featherweight",
-      "birthDate": "1988",
-      "gender": "male"
-    },
-    "Andrei Arlovski": {
-      "wins": 1,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "BelarusianAmerican",
-      "weightClass": "Heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andrei_Arlovski_2018.jpg",
-      "birthDate": "1979",
       "gender": "male"
     },
     "Alexander Emelianenko": {
@@ -5587,29 +5637,17 @@
       "birthDate": "1969",
       "gender": "male"
     },
-    "Mason Jones (fighter)": {
-      "wins": 3,
+    "Roberto Soldić": {
+      "wins": 4,
       "kos": 0,
       "losses": 0,
       "draws": 0,
       "noContests": 0,
-      "total": 3,
-      "nationality": "Wales",
-      "weightClass": "Welterweight",
-      "birthDate": "1995",
-      "gender": "male"
-    },
-    "Norman Parke": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
       "total": 4,
-      "nationality": "British and Irish",
-      "weightClass": "Lightweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Norman_Parke.png",
-      "birthDate": "1986-12-22",
+      "nationality": "Croatian",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Roberto_Soldi%C4%87.png",
+      "birthDate": "1995",
       "gender": "male"
     },
     "John Morrison (wrestler)": {
@@ -5624,19 +5662,6 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
-    "Roberto Soldić": {
-      "wins": 4,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "Croatian",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Roberto_Soldi%C4%87.png",
-      "birthDate": "1995",
-      "gender": "male"
-    },
     "Silvana Gómez Juárez": {
       "wins": 4,
       "kos": 0,
@@ -5647,6 +5672,18 @@
       "nationality": "Argentina",
       "weightClass": "Strawweight",
       "birthDate": "1984-12-06",
+      "gender": "male"
+    },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
       "gender": "male"
     },
     "Charley Burley": {
@@ -5674,6 +5711,18 @@
       "birthDate": "1979",
       "gender": "male"
     },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 0,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
+      "gender": "male"
+    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -5684,6 +5733,17 @@
       "nationality": "USSR",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%B5%D1%80%D1%96%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_3_(%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C_4.10.2012).jpg",
       "birthDate": "1988",
+      "gender": "male"
+    },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
       "gender": "male"
     },
     "Mariya Agapova": {
@@ -5710,6 +5770,18 @@
       "birthDate": "1995",
       "gender": "male"
     },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 0,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
+      "gender": "male"
+    },
     "Reggie Barnett Jr.": {
       "wins": 6,
       "kos": 0,
@@ -5731,18 +5803,6 @@
       "total": 9,
       "nationality": "Wales",
       "birthDate": "1991",
-      "gender": "male"
-    },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
       "gender": "male"
     },
     "John L. Sullivan": {
@@ -5794,18 +5854,6 @@
       "birthDate": "1974",
       "gender": "male"
     },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 0,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -5817,27 +5865,17 @@
       "birthDate": "1982-10-10",
       "gender": "male"
     },
-    "Nico Hernandez": {
-      "wins": 12,
-      "kos": 5,
-      "losses": 0,
+    "Bec Rawlings": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 12,
-      "nationality": "American",
-      "birthDate": "1996-01-04",
-      "gender": "male"
-    },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 0,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
+      "total": 1,
+      "nationality": "Australia",
+      "weightClass": "Strawweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Meet_Bareknuckle_Fighter_Bec_Rawlings_on_OnlyFans_Fighter_MMA_-_YouTube_-_0_35_(cropped).jpg",
+      "birthDate": "1989",
       "gender": "male"
     },
     "Jem Mace": {
@@ -5852,6 +5890,18 @@
       "birthDate": "1831-04-08",
       "gender": "male"
     },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
+      "gender": "male"
+    },
     "James DeGale": {
       "wins": 25,
       "kos": 12,
@@ -5862,19 +5912,6 @@
       "nationality": "England",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
       "birthDate": "1986-02-03",
-      "gender": "male"
-    },
-    "Bec Rawlings": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Australia",
-      "weightClass": "Strawweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Meet_Bareknuckle_Fighter_Bec_Rawlings_on_OnlyFans_Fighter_MMA_-_YouTube_-_0_35_(cropped).jpg",
-      "birthDate": "1989",
       "gender": "male"
     },
     "Nonpareil Jack Dempsey": {
@@ -5901,18 +5938,6 @@
       "birthDate": "1831-02-12",
       "gender": "male"
     },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
-      "gender": "male"
-    },
     "George Gardiner (boxer)": {
       "wins": 44,
       "kos": 29,
@@ -5935,18 +5960,6 @@
       "nationality": "Canada",
       "birthDate": "1973-12-25",
       "gender": "male"
-    },
-    "Aaron Chalmers (television personality)": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "England",
-      "weightClass": "Welterweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aaron_Chalmers_on_MTV_Shores.jpg",
-      "birthDate": "1987"
     },
     "Hannah Rankin": {
       "wins": 13,
@@ -6225,18 +6238,6 @@
       "weightClass": "Welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gabriel_Bonfim_2025.jpg",
       "birthDate": "1997-08-20",
-      "gender": "male"
-    },
-    "Tom Aspinall": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "England",
-      "weightClass": "Heavyweight",
-      "birthDate": "1993",
       "gender": "male"
     },
     "Danny Roberts (fighter)": {
