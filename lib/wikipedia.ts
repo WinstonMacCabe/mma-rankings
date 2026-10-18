@@ -1168,6 +1168,10 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     const nextHeader = allHeaders.slice(i + 1).find(n => n.contentStart > h.contentStart)
     const nextIndex = nextHeader ? nextHeader.start : wikitext.length
     const slice = wikitext.slice(h.contentStart, nextIndex)
+    // Folkstyle is also used for high-school wrestling.  Do not classify a
+    // high-school folkstyle table as NCAA wrestling just because the section
+    // title contains "Folkstyle".
+    if (sport === 'ncaaWrestling' && /high\s*school\s+matches/i.test(slice)) continue
     const tableBlocks: string[] = []
     const sStartRegex = /\{\{s-start\b([\s\S]*?)(?:\{\{s-end\}\}|\{\{end\}\})/g
     let sm2: RegExpExecArray | null

@@ -58,6 +58,17 @@ const MIN_SCORE: Partial<Record<SportKey, number>> = {
   sumo: 1.55,
 }
 
+function persistentRankChange(
+  fighter: BoxerRecord,
+  currentRank: number,
+  previousByName: Map<string, { fighter: BoxerRecord; rank: number }>
+): number | undefined {
+  const prior = previousByName.get(fighter.name)
+  if (!prior) return undefined
+  const movement = prior.rank - currentRank
+  return movement !== 0 ? movement : prior.fighter.rankChange
+}
+
 function maxWinsFor(key: SportKey): number {
   return MAX_WINS[key] ?? 1_000_000
 }
@@ -71,9 +82,11 @@ function buildSportRanking(
 ): BoxerRecord[] {
   const prevSport = previous.sports?.[key] ?? []
   const prevRank = new Map<string, number>()
+  const previousByName = new Map<string, { fighter: BoxerRecord; rank: number }>()
   const prevHistory = new Map<string, { highest: number; lowest: number }>()
   prevSport.forEach((f, i) => {
     prevRank.set(f.name, i + 1)
+    previousByName.set(f.name, { fighter: f, rank: i + 1 })
     prevHistory.set(f.name, { highest: f.highestRank ?? i + 1, lowest: f.lowestRank ?? i + 1 })
   })
 
@@ -126,6 +139,7 @@ function buildSportRanking(
     ranked.push({
       ...f,
       previousRank: prevRank.get(f.name) || undefined,
+      rankChange: persistentRankChange(f, rank, previousByName),
       highestRank: hist ? Math.min(hist.highest, rank) : rank,
       lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
     })
@@ -158,6 +172,9 @@ async function main() {
   const prevBestHistory = new Map<string, { highest: number; lowest: number }>()
   const prevWorstHistory = new Map<string, { highest: number; lowest: number }>()
   const prevThirdaryHistory = new Map<string, { highest: number; lowest: number }>()
+  const prevBestRanked = new Map((previous.fighters ?? []).map((fighter, index) => [fighter.name, { fighter, rank: index + 1 }]))
+  const prevWorstRanked = new Map((previous.worst ?? []).map((fighter, index) => [fighter.name, { fighter, rank: index + 1 }]))
+  const prevThirdaryRanked = new Map((previous.thirdary ?? []).map((fighter, index) => [fighter.name, { fighter, rank: index + 1 }]))
   previous.fighters
     .filter(f => f.imageUrl)
     .forEach((f, i) => {
@@ -246,6 +263,7 @@ async function main() {
       return {
         ...f,
         previousRank: prevBestRank.get(f.name) || undefined,
+        rankChange: persistentRankChange(f, rank, prevBestRanked),
         highestRank: hist ? Math.min(hist.highest, rank) : rank,
         lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
       }
@@ -259,6 +277,7 @@ async function main() {
       return {
         ...f,
         previousRank: prevWorstRank.get(f.name) || undefined,
+        rankChange: persistentRankChange(f, rank, prevWorstRanked),
         highestRank: hist ? Math.min(hist.highest, rank) : rank,
         lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
       }
@@ -418,6 +437,7 @@ async function main() {
     return {
       ...f,
       previousRank: undefined,
+      rankChange: persistentRankChange(f, thirdRank, prevThirdaryRanked),
       highestRank: hist ? Math.min(hist.highest, thirdRank) : thirdRank,
       lowestRank: hist ? Math.max(hist.lowest, thirdRank) : thirdRank,
     }
@@ -429,7 +449,11 @@ async function main() {
   const thirdSeniorsWorst = allThirdary
     .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0 && f.isSenior)
     .sort((a, b) => (a.thirdaryScore ?? 0) - (b.thirdaryScore ?? 0) || b.losses - a.losses || (a.kos ?? 0) - (b.kos ?? 0))
-  const thirdaryWorstRanked = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst]
+  const prevThirdaryWorstRanked = new Map((previous.thirdaryWorst ?? []).map((fighter, index) => [fighter.name, { fighter, rank: index + 1 }]))
+  const thirdaryWorstRanked = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst].map((f, index) => ({
+    ...f,
+    rankChange: persistentRankChange(f, index + 1, prevThirdaryWorstRanked),
+  }))
 
   const boxingRecords = new Map<string, BoxingRecordEntry>()
   for (const [name, record] of allRecords) {

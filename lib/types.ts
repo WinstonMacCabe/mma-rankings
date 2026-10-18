@@ -71,6 +71,8 @@ export interface BoxerRecord {
   weightClass?: string
   imageUrl?: string
   previousRank?: number
+  /** Latest rank movement, retained until the fighter moves again. */
+  rankChange?: number
   highestRank?: number
   lowestRank?: number
   thirdaryScore?: number
