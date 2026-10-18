@@ -45,6 +45,7 @@ const SPORT_KEYWORDS: Record<string, string> = {
   muayThai: 'muay thai',
   karate: 'karate',
   freestyleWrestling: 'freestyle wrestling',
+  folkstyleWrestling: 'folkstyle wrestling',
   ncaaWrestling: 'wrestling',
   brazilianJiuJitsu: 'brazilian jiu jitsu',
   sumo: 'sumo',

@@ -11,6 +11,7 @@ export type SportKey =
   | 'sambo'
   | 'judo'
   | 'freestyleWrestling'
+  | 'folkstyleWrestling'
   | 'ncaaWrestling'
   | 'brazilianJiuJitsu'
   | 'sumo'
@@ -38,6 +39,7 @@ export const SPORT_KEYS: SportKey[] = [
   'muayThai',
   'karate',
   'freestyleWrestling',
+  'folkstyleWrestling',
   'ncaaWrestling',
   'brazilianJiuJitsu',
   'sumo',

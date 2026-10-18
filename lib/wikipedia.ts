@@ -471,7 +471,8 @@ const SPORT_KEYWORDS: { key: SportKey; pattern: RegExp }[] = [
   { key: 'grecoRomanWrestling', pattern: /greco[\s-]*roman/i },
   { key: 'catchWrestling', pattern: /catch\s*wrestling|catch\s*wrestl/i },
   { key: 'freestyleWrestling', pattern: /freestyle\s*wrestling|freestyle|international\s*wrestling|olympic\s*wrestling/i },
-  { key: 'ncaaWrestling', pattern: /ncaa|collegiate|folkstyle|folk\s*style|amateur\s*wrestling|varsity\s*wrestling/i },
+  { key: 'folkstyleWrestling', pattern: /folkstyle|folk\s*style/i },
+  { key: 'ncaaWrestling', pattern: /ncaa|collegiate|amateur\s*wrestling|varsity\s*wrestling/i },
   { key: 'brazilianJiuJitsu', pattern: /jiu[\s-]?jitsu|jujitsu|bjj|brazilian\s*jiu|submission\s*grappling|\bgrappling\b/i },
   { key: 'submissionWrestling', pattern: /submission\s*wrestling/i },
   { key: 'judo', pattern: /judo/i },
@@ -1168,10 +1169,6 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     const nextHeader = allHeaders.slice(i + 1).find(n => n.contentStart > h.contentStart)
     const nextIndex = nextHeader ? nextHeader.start : wikitext.length
     const slice = wikitext.slice(h.contentStart, nextIndex)
-    // Folkstyle is also used for high-school wrestling.  Do not classify a
-    // high-school folkstyle table as NCAA wrestling just because the section
-    // title contains "Folkstyle".
-    if (sport === 'ncaaWrestling' && /high\s*school\s+matches/i.test(slice)) continue
     const tableBlocks: string[] = []
     const sStartRegex = /\{\{s-start\b([\s\S]*?)(?:\{\{s-end\}\}|\{\{end\}\})/g
     let sm2: RegExpExecArray | null
@@ -1180,6 +1177,9 @@ export function extractSportRecords(wikitext: string): Partial<Record<SportKey, 
     let sm3: RegExpExecArray | null
     while ((sm3 = wtRegex.exec(slice)) !== null) tableBlocks.push(sm3[0])
     for (const block of tableBlocks) {
+      // Folkstyle sections can contain separate collegiate and high-school
+      // tables. Only the collegiate table belongs in NCAA wrestling.
+      if (sport === 'ncaaWrestling' && /high\s*school\s+matches/i.test(block)) continue
       const preferSenior = sport === 'freestyleWrestling' && /Senior\s+[^|\n]*Matches/i.test(slice)
       const rec = parseBespokeBlock(block, sport, preferSenior)
       addRecord(sport, rec)

@@ -81,6 +81,8 @@ const SPORT_MAP: Record<string, [string, string]> = {
   bareknuckle: ['bareKnuckle', 'Bare Knuckle'],
   'freestyle wrestling': ['freestyleWrestling', 'Freestyle Wrestling'],
   freestyle: ['freestyleWrestling', 'Freestyle Wrestling'],
+  folkstyle: ['folkstyleWrestling', 'Folkstyle Wrestling'],
+  'folkstyle wrestling': ['folkstyleWrestling', 'Folkstyle Wrestling'],
   // Deliberately kept distinct from freestyleWrestling: the detector emits a bare
   // "wrestling" for MMA bouts, and folding it into freestyle would mislabel them.
   wrestling: ['wrestling', 'Wrestling'],

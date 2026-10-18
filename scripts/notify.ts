@@ -36,7 +36,7 @@ interface RankingsLike {
 
 const SPORT_LABELS: Record<string, string> = {
   kickboxing: 'Kickboxing', muayThai: 'Muay Thai', karate: 'Karate',
-  freestyleWrestling: 'Freestyle Wrestling', ncaaWrestling: 'NCAA Wrestling',
+  freestyleWrestling: 'Freestyle Wrestling', folkstyleWrestling: 'Folkstyle Wrestling', ncaaWrestling: 'NCAA Wrestling',
   brazilianJiuJitsu: 'BJJ', sumo: 'Sumo', mongolianWrestling: 'Mongolian Wrestling',
   lethwei: 'Lethwei', kunKhmer: 'Kun Khmer', sambo: 'Sambo',
   grecoRomanWrestling: 'Greco-Roman', sanshou: 'Sanshou',
