@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T00:56:17.051Z",
+  "generatedAt": "2026-10-18T18:00:50.693Z",
   "windowDays": 90,
   "teams": [
     {
@@ -39,7 +39,7 @@
       "name": "Army Black Knights Football",
       "short": "Army FB",
       "label": "NCAAF",
-      "count": 7,
+      "count": 6,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
       "name": "Army Black Knights Rugby",
       "short": "Army Rugby",
       "label": "Rugby",
-      "count": 3,
+      "count": 2,
       "ok": true
     },
     {
@@ -63,7 +63,7 @@
       "name": "Exeter Chiefs",
       "short": "Exeter",
       "label": "Rugby",
-      "count": 8,
+      "count": 9,
       "ok": true
     },
     {
@@ -110,82 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-17-southern-virginia-army-black-knights-rugby",
-      "date": "2026-10-17",
-      "kickoff": "2026-10-17T15:00:00.000Z",
-      "home": "Southern Virginia",
-      "away": "Army Black Knights Rugby",
-      "homeShort": "Southern Virginia",
-      "awayShort": "Army Rugby",
-      "competition": "College Rugby",
-      "venue": "Buena Vista, Va.",
-      "teamKeys": [
-        "army-rugby"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "army-rugby"
-      ],
-      "source": "Army West Point"
-    },
-    {
-      "id": "2026-10-17-army-black-knights-florida-atlantic-owls",
-      "date": "2026-10-17",
-      "kickoff": "2026-10-17T16:00Z",
-      "home": "Army Black Knights",
-      "away": "Florida Atlantic Owls",
-      "homeShort": "Army FB",
-      "awayShort": "FAU",
-      "competition": "NCAA Football",
-      "venue": "Michie Stadium",
-      "teamKeys": [
-        "army-football"
-      ],
-      "homeKeys": [
-        "army-football"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-17-philadelphia-flyers-ottawa-senators",
-      "date": "2026-10-17",
-      "kickoff": "2026-10-17T23:00Z",
-      "home": "Philadelphia Flyers",
-      "away": "Ottawa Senators",
-      "homeShort": "Flyers",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "Xfinity Mobile Arena",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-17-manchester-city-ipswich-town",
-      "date": "2026-10-17",
-      "kickoff": "2026-10-17T14:00Z",
-      "home": "Manchester City",
-      "away": "Ipswich Town",
-      "homeShort": "Man City",
-      "awayShort": "IPS",
-      "competition": "Premier League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-18-new-england-patriots-new-york-jets",
       "date": "2026-10-18",
@@ -3070,6 +2994,63 @@
       ],
       "homeKeys": [
         "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-16-lions-exeter-chiefs",
+      "date": "2027-01-16",
+      "kickoff": "2027-01-16T13:00Z",
+      "home": "Lions",
+      "away": "Exeter Chiefs",
+      "homeShort": "LIO",
+      "awayShort": "Exeter",
+      "competition": "Champions Cup",
+      "venue": "Ellis Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "exeter-chiefs"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-16-tampa-bay-lightning-ottawa-senators",
+      "date": "2027-01-16",
+      "kickoff": "2027-01-16T20:30Z",
+      "home": "Tampa Bay Lightning",
+      "away": "Ottawa Senators",
+      "homeShort": "Lightning",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Benchmark International Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-16-manchester-city-nottingham-forest",
+      "date": "2027-01-16",
+      "kickoff": "2027-01-16T15:00Z",
+      "home": "Manchester City",
+      "away": "Nottingham Forest",
+      "homeShort": "Man City",
+      "awayShort": "NFO",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
       ],
       "awayKeys": [],
       "source": "ESPN"
