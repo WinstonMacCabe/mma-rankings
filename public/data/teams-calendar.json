@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T00:54:33.928Z",
+  "generatedAt": "2026-10-18T00:56:17.051Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 1,
+      "count": 40,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-16-detroit-pistons-toronto-raptors",
-      "date": "2026-10-16",
-      "kickoff": "2026-10-16T23:00Z",
-      "home": "Detroit Pistons",
-      "away": "Toronto Raptors",
-      "homeShort": "Pistons",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Little Caesars Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-17-southern-virginia-army-black-knights-rugby",
       "date": "2026-10-17",
@@ -301,6 +282,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-10-21-toronto-raptors-chicago-bulls",
+      "date": "2026-10-21",
+      "kickoff": "2026-10-21T23:30Z",
+      "home": "Toronto Raptors",
+      "away": "Chicago Bulls",
+      "homeShort": "Raptors",
+      "awayShort": "Bulls",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-10-21-ottawa-senators-florida-panthers",
       "date": "2026-10-21",
       "kickoff": "2026-10-21T23:30Z",
@@ -355,6 +355,25 @@
         "senators"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-23-washington-wizards-toronto-raptors",
+      "date": "2026-10-23",
+      "kickoff": "2026-10-23T23:00Z",
+      "home": "Washington Wizards",
+      "away": "Toronto Raptors",
+      "homeShort": "Wizards",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Capital One Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
       "source": "ESPN"
     },
     {
@@ -491,6 +510,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-10-25-minnesota-timberwolves-toronto-raptors",
+      "date": "2026-10-25",
+      "kickoff": "2026-10-25T23:00Z",
+      "home": "Minnesota Timberwolves",
+      "away": "Toronto Raptors",
+      "homeShort": "Timberwolves",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Target Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-10-27-vegas-golden-knights-ottawa-senators",
       "date": "2026-10-27",
       "kickoff": "2026-10-28T02:00Z",
@@ -548,6 +586,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-10-28-toronto-raptors-orlando-magic",
+      "date": "2026-10-28",
+      "kickoff": "2026-10-28T23:30Z",
+      "home": "Toronto Raptors",
+      "away": "Orlando Magic",
+      "homeShort": "Raptors",
+      "awayShort": "Magic",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-10-28-remo-botafogo",
       "date": "2026-10-28",
       "kickoff": "2026-10-29T00:30Z",
@@ -583,6 +640,25 @@
       "awayKeys": [
         "senators"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-10-30-toronto-raptors-orlando-magic",
+      "date": "2026-10-30",
+      "kickoff": "2026-10-30T23:30Z",
+      "home": "Toronto Raptors",
+      "away": "Orlando Magic",
+      "homeShort": "Raptors",
+      "awayShort": "Magic",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -681,6 +757,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-01-los-angeles-lakers-toronto-raptors",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-02T02:00Z",
+      "home": "Los Angeles Lakers",
+      "away": "Toronto Raptors",
+      "homeShort": "Lakers",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "crypto.com Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-01-miami-dolphins-new-england-patriots",
       "date": "2026-11-01",
       "kickoff": "2026-11-01T21:25Z",
@@ -757,6 +852,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-02-la-clippers-toronto-raptors",
+      "date": "2026-11-02",
+      "kickoff": "2026-11-03T03:00Z",
+      "home": "LA Clippers",
+      "away": "Toronto Raptors",
+      "homeShort": "Clippers",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Intuit Dome",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-04-rb-leipzig-manchester-city",
       "date": "2026-11-04",
       "kickoff": "2026-11-04T20:00Z",
@@ -772,6 +886,25 @@
       "homeKeys": [],
       "awayKeys": [
         "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-04-denver-nuggets-toronto-raptors",
+      "date": "2026-11-04",
+      "kickoff": "2026-11-05T02:00Z",
+      "home": "Denver Nuggets",
+      "away": "Toronto Raptors",
+      "homeShort": "Nuggets",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Ball Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
       ],
       "source": "ESPN"
     },
@@ -810,6 +943,25 @@
       "homeKeys": [],
       "awayKeys": [
         "remo"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-06-milwaukee-bucks-toronto-raptors",
+      "date": "2026-11-06",
+      "kickoff": "2026-11-07T01:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Toronto Raptors",
+      "homeShort": "Bucks",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Fiserv Forum",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
       ],
       "source": "ESPN"
     },
@@ -928,6 +1080,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-09-toronto-raptors-memphis-grizzlies",
+      "date": "2026-11-09",
+      "kickoff": "2026-11-10T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Memphis Grizzlies",
+      "homeShort": "Raptors",
+      "awayShort": "Grizzlies",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-10-ottawa-senators-washington-capitals",
       "date": "2026-11-10",
       "kickoff": "2026-11-11T00:00Z",
@@ -944,6 +1115,44 @@
         "senators"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-11-toronto-raptors-boston-celtics",
+      "date": "2026-11-11",
+      "kickoff": "2026-11-12T00:00Z",
+      "home": "Toronto Raptors",
+      "away": "Boston Celtics",
+      "homeShort": "Raptors",
+      "awayShort": "Celtics",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-12-philadelphia-76ers-toronto-raptors",
+      "date": "2026-11-12",
+      "kickoff": "2026-11-13T00:00Z",
+      "home": "Philadelphia 76ers",
+      "away": "Toronto Raptors",
+      "homeShort": "76ers",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Xfinity Mobile Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
       "source": "ESPN"
     },
     {
@@ -1004,6 +1213,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-15-toronto-raptors-new-york-knicks",
+      "date": "2026-11-15",
+      "kickoff": "2026-11-15T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "homeShort": "Raptors",
+      "awayShort": "Knicks",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-15-detroit-lions-new-england-patriots",
       "date": "2026-11-15",
       "kickoff": "2026-11-15T14:30Z",
@@ -1023,6 +1251,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-17-toronto-raptors-new-york-knicks",
+      "date": "2026-11-17",
+      "kickoff": "2026-11-18T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "homeShort": "Raptors",
+      "awayShort": "Knicks",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-17-winnipeg-jets-ottawa-senators",
       "date": "2026-11-17",
       "kickoff": "2026-11-18T01:00Z",
@@ -1039,6 +1286,25 @@
       "awayKeys": [
         "senators"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-18-toronto-raptors-washington-wizards",
+      "date": "2026-11-18",
+      "kickoff": "2026-11-19T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Washington Wizards",
+      "homeShort": "Raptors",
+      "awayShort": "Wizards",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -1077,6 +1343,25 @@
         "senators"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-20-detroit-pistons-toronto-raptors",
+      "date": "2026-11-20",
+      "kickoff": "2026-11-21T00:30Z",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "homeShort": "Pistons",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Little Caesars Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
       "source": "ESPN"
     },
     {
@@ -1194,6 +1479,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-23-toronto-raptors-milwaukee-bucks",
+      "date": "2026-11-23",
+      "kickoff": "2026-11-24T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Milwaukee Bucks",
+      "homeShort": "Raptors",
+      "awayShort": "Bucks",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-23-ottawa-senators-calgary-flames",
       "date": "2026-11-23",
       "kickoff": "2026-11-24T00:30Z",
@@ -1248,6 +1552,25 @@
       "awayKeys": [
         "senators"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-27-toronto-raptors-brooklyn-nets",
+      "date": "2026-11-27",
+      "kickoff": "2026-11-28T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Brooklyn Nets",
+      "homeShort": "Raptors",
+      "awayShort": "Nets",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -1346,6 +1669,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-29-toronto-raptors-denver-nuggets",
+      "date": "2026-11-29",
+      "kickoff": "2026-11-29T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "Denver Nuggets",
+      "homeShort": "Raptors",
+      "awayShort": "Nuggets",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-29-los-angeles-chargers-new-england-patriots",
       "date": "2026-11-29",
       "kickoff": "2026-11-30T01:20Z",
@@ -1422,6 +1764,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-01-houston-rockets-toronto-raptors",
+      "date": "2026-12-01",
+      "kickoff": "2026-12-02T01:30Z",
+      "home": "Houston Rockets",
+      "away": "Toronto Raptors",
+      "homeShort": "Rockets",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Toyota Center (Houston)",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-02-manchester-city-leeds-united",
       "date": "2026-12-02",
       "kickoff": "2026-12-02T20:00Z",
@@ -1457,6 +1818,25 @@
         "remo"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-03-san-antonio-spurs-toronto-raptors",
+      "date": "2026-12-03",
+      "kickoff": "2026-12-04T01:00Z",
+      "home": "San Antonio Spurs",
+      "away": "Toronto Raptors",
+      "homeShort": "Spurs",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Frost Bank Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
       "source": "ESPN"
     },
     {
@@ -1783,6 +2163,44 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-13-oklahoma-city-thunder-toronto-raptors",
+      "date": "2026-12-13",
+      "kickoff": "2026-12-13T20:30Z",
+      "home": "Oklahoma City Thunder",
+      "away": "Toronto Raptors",
+      "homeShort": "Thunder",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Paycom Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-14-charlotte-hornets-toronto-raptors",
+      "date": "2026-12-14",
+      "kickoff": "2026-12-15T00:00Z",
+      "home": "Charlotte Hornets",
+      "away": "Toronto Raptors",
+      "homeShort": "Hornets",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Spectrum Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-14-ottawa-senators-buffalo-sabres",
       "date": "2026-12-14",
       "kickoff": "2026-12-14T19:00Z",
@@ -1797,6 +2215,44 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-16-toronto-raptors-san-antonio-spurs",
+      "date": "2026-12-16",
+      "kickoff": "2026-12-17T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "San Antonio Spurs",
+      "homeShort": "Raptors",
+      "awayShort": "Spurs",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-18-toronto-raptors-golden-state-warriors",
+      "date": "2026-12-18",
+      "kickoff": "2026-12-19T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Golden State Warriors",
+      "homeShort": "Raptors",
+      "awayShort": "Warriors",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -1859,6 +2315,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-20-toronto-raptors-houston-rockets",
+      "date": "2026-12-20",
+      "kickoff": "2026-12-20T20:30Z",
+      "home": "Toronto Raptors",
+      "away": "Houston Rockets",
+      "homeShort": "Raptors",
+      "awayShort": "Rockets",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-20-ottawa-senators-chicago-blackhawks",
       "date": "2026-12-20",
       "kickoff": "2026-12-20T13:00Z",
@@ -1912,6 +2387,63 @@
       "homeKeys": [],
       "awayKeys": [
         "patriots"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-22-washington-wizards-toronto-raptors",
+      "date": "2026-12-22",
+      "kickoff": "2026-12-23T00:00Z",
+      "home": "Washington Wizards",
+      "away": "Toronto Raptors",
+      "homeShort": "Wizards",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Capital One Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-23-memphis-grizzlies-toronto-raptors",
+      "date": "2026-12-23",
+      "kickoff": "2026-12-24T01:00Z",
+      "home": "Memphis Grizzlies",
+      "away": "Toronto Raptors",
+      "homeShort": "Grizzlies",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "FedExForum",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-26-orlando-magic-toronto-raptors",
+      "date": "2026-12-26",
+      "kickoff": "2026-12-27T00:00Z",
+      "home": "Orlando Magic",
+      "away": "Toronto Raptors",
+      "homeShort": "Magic",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Kia Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
       ],
       "source": "ESPN"
     },
@@ -1992,6 +2524,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-28-toronto-raptors-new-orleans-pelicans",
+      "date": "2026-12-28",
+      "kickoff": "2026-12-29T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "New Orleans Pelicans",
+      "homeShort": "Raptors",
+      "awayShort": "Pelicans",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-29-ottawa-senators-dallas-stars",
       "date": "2026-12-29",
       "kickoff": "2026-12-30T00:00Z",
@@ -2030,6 +2581,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-30-toronto-raptors-washington-wizards",
+      "date": "2026-12-30",
+      "kickoff": "2026-12-31T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Washington Wizards",
+      "homeShort": "Raptors",
+      "awayShort": "Wizards",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-31-ottawa-senators-pittsburgh-penguins",
       "date": "2026-12-31",
       "kickoff": "2026-12-31T19:00Z",
@@ -2044,6 +2614,25 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-01-toronto-raptors-la-clippers",
+      "date": "2027-01-01",
+      "kickoff": "2027-01-02T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "LA Clippers",
+      "homeShort": "Raptors",
+      "awayShort": "Clippers",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2106,6 +2695,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-03-toronto-raptors-los-angeles-lakers",
+      "date": "2027-01-03",
+      "kickoff": "2027-01-04T00:00Z",
+      "home": "Toronto Raptors",
+      "away": "Los Angeles Lakers",
+      "homeShort": "Raptors",
+      "awayShort": "Lakers",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-03-new-england-patriots-denver-broncos",
       "date": "2027-01-03",
       "kickoff": "2027-01-03T05:00Z",
@@ -2141,6 +2749,25 @@
         "man-city"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-05-cleveland-cavaliers-toronto-raptors",
+      "date": "2027-01-05",
+      "kickoff": "2027-01-06T00:00Z",
+      "home": "Cleveland Cavaliers",
+      "away": "Toronto Raptors",
+      "homeShort": "Cavaliers",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Rocket Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
       "source": "ESPN"
     },
     {
@@ -2201,6 +2828,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-07-toronto-raptors-minnesota-timberwolves",
+      "date": "2027-01-07",
+      "kickoff": "2027-01-08T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Minnesota Timberwolves",
+      "homeShort": "Raptors",
+      "awayShort": "Timberwolves",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-07-napoli-cagliari",
       "date": "2027-01-07",
       "kickoff": "2027-01-07T19:45Z",
@@ -2217,6 +2863,25 @@
       "awayKeys": [
         "cagliari"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-08-toronto-raptors-utah-jazz",
+      "date": "2027-01-08",
+      "kickoff": "2027-01-09T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Utah Jazz",
+      "homeShort": "Raptors",
+      "awayShort": "Jazz",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -2253,6 +2918,25 @@
       ],
       "homeKeys": [
         "exeter-chiefs"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-10-toronto-raptors-philadelphia-76ers",
+      "date": "2027-01-10",
+      "kickoff": "2027-01-10T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "Philadelphia 76ers",
+      "homeShort": "Raptors",
+      "awayShort": "76ers",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2296,6 +2980,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-12-toronto-raptors-detroit-pistons",
+      "date": "2027-01-12",
+      "kickoff": "2027-01-13T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Detroit Pistons",
+      "homeShort": "Raptors",
+      "awayShort": "Pistons",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-12-dallas-stars-ottawa-senators",
       "date": "2027-01-12",
       "kickoff": "2027-01-13T01:00Z",
@@ -2315,6 +3018,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-13-toronto-raptors-phoenix-suns",
+      "date": "2027-01-13",
+      "kickoff": "2027-01-14T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Phoenix Suns",
+      "homeShort": "Raptors",
+      "awayShort": "Suns",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-14-ottawa-senators-winnipeg-jets",
       "date": "2027-01-14",
       "kickoff": "2027-01-15T00:00Z",
@@ -2329,6 +3051,25 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-15-toronto-raptors-miami-heat",
+      "date": "2027-01-15",
+      "kickoff": "2027-01-16T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Miami Heat",
+      "homeShort": "Raptors",
+      "awayShort": "Heat",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
       ],
       "awayKeys": [],
       "source": "ESPN"

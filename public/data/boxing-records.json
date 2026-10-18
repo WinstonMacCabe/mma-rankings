@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T00:41:56.972Z",
+  "lastUpdated": "2026-10-18T00:43:29.425Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2472,6 +2472,19 @@
       "birthDate": "1981",
       "gender": "male"
     },
+    "Sergei Kharitonov": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Russian",
+      "weightClass": "Heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sergeikharitonov.JPG",
+      "birthDate": "1980-08-18",
+      "gender": "male"
+    },
     "Viacheslav Datsik": {
       "wins": 6,
       "kos": 4,
@@ -2519,19 +2532,6 @@
       "nationality": "Russian Kazakh",
       "weightClass": "Lightweight",
       "birthDate": "1991",
-      "gender": "male"
-    },
-    "Sergei Kharitonov": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Russian",
-      "weightClass": "Heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sergeikharitonov.JPG",
-      "birthDate": "1980-08-18",
       "gender": "male"
     },
     "Aleksei Oleinik": {
@@ -2832,6 +2832,18 @@
       "birthDate": "1999-08-14",
       "gender": "female"
     },
+    "Gina Mazany": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Bantamweight",
+      "birthDate": "1988",
+      "gender": "female"
+    },
     "Martha Salazar": {
       "wins": 13,
       "kos": 3,
@@ -2892,18 +2904,6 @@
       "nationality": "United States",
       "weightClass": "Bantamweight",
       "birthDate": "1976",
-      "gender": "female"
-    },
-    "Gina Mazany": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Bantamweight",
-      "birthDate": "1988",
       "gender": "female"
     },
     "Erin Toughill": {
@@ -4049,17 +4049,6 @@
       "birthDate": "1999",
       "gender": "male"
     },
-    "Ryuya Kusakabe": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Japanese",
-      "birthDate": "1992",
-      "gender": "male"
-    },
     "Tsukuru Midorikawa": {
       "wins": 6,
       "kos": 4,
@@ -4069,6 +4058,17 @@
       "total": 7,
       "nationality": "Japan",
       "birthDate": "1986",
+      "gender": "male"
+    },
+    "Ryuya Kusakabe": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Japanese",
+      "birthDate": "1992",
       "gender": "male"
     },
     "Yasuomi Soda": {
@@ -4401,18 +4401,6 @@
       "birthDate": "1994",
       "gender": "male"
     },
-    "Aleksandar Konovalov": {
-      "wins": 3,
-      "kos": 3,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "FR Yugoslavia",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aleksandar_Konovalov.jpg",
-      "birthDate": "1994",
-      "gender": "male"
-    },
     "Francois Botha": {
       "wins": 48,
       "kos": 29,
@@ -4472,6 +4460,18 @@
       "weightClass": "Cruiserweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/C%C3%A9sar_C%C3%B3rdoba.jpg",
       "birthDate": "1980",
+      "gender": "male"
+    },
+    "Aleksandar Konovalov": {
+      "wins": 3,
+      "kos": 3,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "FR Yugoslavia",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aleksandar_Konovalov.jpg",
+      "birthDate": "1994",
       "gender": "male"
     },
     "Martin Pacas": {
@@ -5505,19 +5505,6 @@
       "birthDate": "1981",
       "gender": "male"
     },
-    "Petchdam Lukborai": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Thailand",
-      "weightClass": "Featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchdam_Kevin.jpg",
-      "birthDate": "1963",
-      "gender": "male"
-    },
     "Panomrunglek Chor.Sawat": {
       "wins": 2,
       "kos": 0,
@@ -5603,6 +5590,19 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Poot_Lorlek1.jpeg",
       "birthDate": "1952",
+      "gender": "male"
+    },
+    "Petchdam Lukborai": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Thailand",
+      "weightClass": "Featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchdam_Kevin.jpg",
+      "birthDate": "1963",
       "gender": "male"
     },
     "Raktae Muangsurin": {
@@ -5979,17 +5979,6 @@
       "birthDate": "1982-06-18",
       "gender": "male"
     },
-    "Denise Castle": {
-      "wins": 5,
-      "kos": 3,
-      "losses": 4,
-      "draws": 0,
-      "noContests": 0,
-      "total": 9,
-      "nationality": "England",
-      "birthDate": "1971",
-      "gender": "female"
-    },
     "Bárbara Aguiar": {
       "wins": 40,
       "kos": 9,
@@ -6025,6 +6014,28 @@
       "birthDate": "1978",
       "gender": "female"
     },
+    "Denise Castle": {
+      "wins": 5,
+      "kos": 3,
+      "losses": 4,
+      "draws": 0,
+      "noContests": 0,
+      "total": 9,
+      "nationality": "England",
+      "birthDate": "1971",
+      "gender": "female"
+    },
+    "Patricia Alcivar": {
+      "wins": 8,
+      "kos": 3,
+      "losses": 4,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "{{plainlist|",
+      "birthDate": "1977-12-12",
+      "gender": "female"
+    },
     "Dora and Cora Webber": {
       "wins": 4,
       "kos": 1,
@@ -6058,17 +6069,6 @@
       "nationality": "American",
       "weightClass": "Featherweight",
       "birthDate": "1966-01-25",
-      "gender": "female"
-    },
-    "Patricia Alcivar": {
-      "wins": 8,
-      "kos": 3,
-      "losses": 4,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "{{plainlist|",
-      "birthDate": "1977-12-12",
       "gender": "female"
     },
     "Ebanie Bridges": {
@@ -6200,6 +6200,18 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "Charley Burley": {
       "wins": 83,
       "kos": 48,
@@ -6245,18 +6257,6 @@
       "total": 9,
       "nationality": "Wales",
       "birthDate": "1991",
-      "gender": "male"
-    },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
       "gender": "male"
     },
     "John L. Sullivan": {
