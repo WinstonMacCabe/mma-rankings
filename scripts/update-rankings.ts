@@ -455,6 +455,15 @@ async function main() {
     rankChange: persistentRankChange(f, index + 1, prevThirdaryWorstRanked),
   }))
 
+  // Wikipedia can return a partial record set after a transient API failure.
+  // Never replace a healthy ranking snapshot with a dramatically truncated one.
+  const previousThirdaryCount = previous.thirdary?.length ?? 0
+  if (previousThirdaryCount >= 20 && thirdaryRanked.length < Math.floor(previousThirdaryCount / 2)) {
+    throw new Error(
+      `Refusing to write partial MMA rankings: previous thirdary=${previousThirdaryCount}, current=${thirdaryRanked.length}`
+    )
+  }
+
   const boxingRecords = new Map<string, BoxingRecordEntry>()
   for (const [name, record] of allRecords) {
     const bx = record.sportRecords?.boxing
