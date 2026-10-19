@@ -277,35 +277,35 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
             if (key === 'total' || key === 'total_fights') {
               const n = parseInt(value, 10)
               if (!isNaN(n)) result.total = n
-            } else if (key === 'mma_kowin') {
+            } else if (key === 'mma_kowin' || key === 'mma_ko_win') {
               foundWinFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaKowin = n
-            } else if (key === 'mma_subwin') {
+            } else if (key === 'mma_subwin' || key === 'mma_sub_win') {
               foundWinFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaSubwin = n
-            } else if (key === 'mma_decwin') {
+            } else if (key === 'mma_decwin' || key === 'mma_dec_win') {
               foundWinFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaDecwin = n
-            } else if (key === 'mma_koloss') {
+            } else if (key === 'mma_koloss' || key === 'mma_ko_loss') {
               foundLossFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaKOLoss = n
-            } else if (key === 'mma_subloss') {
+            } else if (key === 'mma_subloss' || key === 'mma_sub_loss') {
               foundLossFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaSubLoss = n
-            } else if (key === 'mma_decloss') {
+            } else if (key === 'mma_decloss' || key === 'mma_dec_loss') {
               foundLossFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaDecLoss = n
-            } else if (key === 'mma_dqloss') {
+            } else if (key === 'mma_dqloss' || key === 'mma_dq_loss') {
               foundLossFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) mmaDQLoss = n
-            } else if (key === 'mma_draw') {
+            } else if (key === 'mma_draw' || key === 'mma_draws') {
               foundLossFields = true
               const n = parseInt(value, 10)
               if (!isNaN(n)) result.draws = n
@@ -379,7 +379,7 @@ function parseWikitextInfobox(wikitext: string): ParsedInfobox {
     }
   }
 
-  result.hasMMA = infobox !== null && /\|\s*mma_(?:win|loss|kowin|subwin|decwin|koloss|subloss|decloss|dqloss|draw)\s*=/i.test(infobox)
+  result.hasMMA = infobox !== null && /\|\s*mma_(?:win|loss|kowin|ko_win|subwin|sub_win|decwin|dec_win|koloss|ko_loss|subloss|sub_loss|decloss|dec_loss|dqloss|dq_loss|draw|draws)\s*=/i.test(infobox)
 
   // Compute totals from mma_* breakdowns
   const mmaTotalWins = mmaKowin + mmaSubwin + mmaDecwin
