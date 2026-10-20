@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T00:55:53.664Z",
+  "generatedAt": "2026-10-20T00:54:12.708Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 40,
+      "count": 41,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
       "name": "New England Patriots",
       "short": "Patriots",
       "label": "NFL",
-      "count": 12,
+      "count": 11,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 13,
+      "count": 14,
       "ok": true
     },
     {
@@ -88,7 +88,7 @@
       "name": "Clube do Remo",
       "short": "Remo",
       "label": "Soccer",
-      "count": 8,
+      "count": 7,
       "ok": true
     },
     {
@@ -96,7 +96,7 @@
       "name": "Baltika Kaliningrad",
       "short": "Baltika",
       "label": "Soccer",
-      "count": 7,
+      "count": 6,
       "ok": true
     },
     {
@@ -110,63 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-18-new-england-patriots-new-york-jets",
-      "date": "2026-10-18",
-      "kickoff": "2026-10-18T17:00Z",
-      "home": "New England Patriots",
-      "away": "New York Jets",
-      "homeShort": "Patriots",
-      "awayShort": "Jets",
-      "competition": "NFL",
-      "venue": "Gillette Stadium",
-      "teamKeys": [
-        "patriots"
-      ],
-      "homeKeys": [
-        "patriots"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-18-fc-baltika-kaliningrad-rostov",
-      "date": "2026-10-18",
-      "kickoff": "2026-10-18T18:00Z",
-      "home": "FC Baltika Kaliningrad",
-      "away": "Rostov",
-      "homeShort": "Baltika",
-      "awayShort": "ROS",
-      "competition": "Russian Premier League",
-      "venue": "Kaliningrad Stadium",
-      "teamKeys": [
-        "baltika"
-      ],
-      "homeKeys": [
-        "baltika"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-18-remo-red-bull-bragantino",
-      "date": "2026-10-18",
-      "kickoff": "2026-10-18T22:30Z",
-      "home": "Remo",
-      "away": "Red Bull Bragantino",
-      "homeShort": "Remo",
-      "awayShort": "BRA",
-      "competition": "Série A",
-      "venue": "Mangueirão",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [
-        "remo"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-19-monza-cagliari",
       "date": "2026-10-19",
@@ -607,7 +550,7 @@
     {
       "id": "2026-10-31-memphis-tigers-army-black-knights",
       "date": "2026-10-31",
-      "kickoff": "2026-10-31T04:00Z",
+      "kickoff": "2026-11-01T00:00Z",
       "home": "Memphis Tigers",
       "away": "Army Black Knights",
       "homeShort": "Memphis",
@@ -1709,7 +1652,7 @@
     {
       "id": "2026-12-02-manchester-city-leeds-united",
       "date": "2026-12-02",
-      "kickoff": "2026-12-02T20:00Z",
+      "kickoff": "2026-12-02T19:30Z",
       "home": "Manchester City",
       "away": "Leeds United",
       "homeShort": "Man City",
@@ -1804,7 +1747,7 @@
     {
       "id": "2026-12-05-brentford-manchester-city",
       "date": "2026-12-05",
-      "kickoff": "2026-12-05T15:00Z",
+      "kickoff": "2026-12-05T20:00Z",
       "home": "Brentford",
       "away": "Manchester City",
       "homeShort": "BRE",
@@ -2032,7 +1975,7 @@
     {
       "id": "2026-12-12-manchester-city-chelsea",
       "date": "2026-12-12",
-      "kickoff": "2026-12-12T15:00Z",
+      "kickoff": "2026-12-12T17:30Z",
       "home": "Manchester City",
       "away": "Chelsea",
       "homeShort": "Man City",
@@ -3051,6 +2994,44 @@
       ],
       "homeKeys": [
         "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-17-chicago-bulls-toronto-raptors",
+      "date": "2027-01-17",
+      "kickoff": "2027-01-17T20:30Z",
+      "home": "Chicago Bulls",
+      "away": "Toronto Raptors",
+      "homeShort": "Bulls",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "United Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-17-cagliari-como",
+      "date": "2027-01-17",
+      "kickoff": "2027-01-17T20:00Z",
+      "home": "Cagliari",
+      "away": "Como",
+      "homeShort": "Cagliari",
+      "awayShort": "COMO",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
       ],
       "awayKeys": [],
       "source": "ESPN"
