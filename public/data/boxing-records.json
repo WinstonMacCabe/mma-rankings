@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T00:41:33.915Z",
+  "lastUpdated": "2026-10-21T00:42:20.644Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -4511,18 +4511,6 @@
       "birthDate": "1991",
       "gender": "male"
     },
-    "Dmitri Bezus": {
-      "wins": 10,
-      "kos": 0,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "Ukrainian",
-      "weightClass": "Heavyweight",
-      "birthDate": "1989",
-      "gender": "male"
-    },
     "Yoann Kongolo": {
       "wins": 18,
       "kos": 7,
@@ -4632,6 +4620,18 @@
       "nationality": "Ukrainian",
       "weightClass": "Heavyweight",
       "birthDate": "1993",
+      "gender": "male"
+    },
+    "Dmitri Bezus": {
+      "wins": 10,
+      "kos": 0,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "Ukrainian",
+      "weightClass": "Heavyweight",
+      "birthDate": "1989",
       "gender": "male"
     },
     "Layla McCarter": {
@@ -4946,18 +4946,6 @@
       "birthDate": "1992",
       "gender": "female"
     },
-    "Sarah Long (fighter)": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 7,
-      "nationality": "New Zealand",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1987",
-      "gender": "female"
-    },
     "Mako Yamada": {
       "wins": 7,
       "kos": 2,
@@ -5029,6 +5017,18 @@
       "nationality": "Spanish",
       "weightClass": "Bantamweight#Boxing Bantamweight",
       "birthDate": "1978",
+      "gender": "female"
+    },
+    "Sarah Long (fighter)": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 3,
+      "draws": 1,
+      "noContests": 0,
+      "total": 7,
+      "nationality": "New Zealand",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1987",
       "gender": "female"
     },
     "Dieselnoi Chor Thanasukarn": {

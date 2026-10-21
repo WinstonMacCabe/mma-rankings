@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T00:54:12.708Z",
+  "generatedAt": "2026-10-21T00:55:02.162Z",
   "windowDays": 90,
   "teams": [
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 39,
+      "count": 40,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 14,
+      "count": 13,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-19-monza-cagliari",
-      "date": "2026-10-19",
-      "kickoff": "2026-10-19T16:30Z",
-      "home": "Monza",
-      "away": "Cagliari",
-      "homeShort": "MON",
-      "awayShort": "Cagliari",
-      "competition": "Serie A",
-      "venue": "U-Power Stadium",
-      "teamKeys": [
-        "cagliari"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "cagliari"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-20-manchester-city-aek-athens",
       "date": "2026-10-20",
@@ -3034,6 +3015,25 @@
         "cagliari"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-18-florida-panthers-ottawa-senators",
+      "date": "2027-01-18",
+      "kickoff": "2027-01-19T00:30Z",
+      "home": "Florida Panthers",
+      "away": "Ottawa Senators",
+      "homeShort": "Panthers",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Amerant Bank Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
       "source": "ESPN"
     }
   ]
