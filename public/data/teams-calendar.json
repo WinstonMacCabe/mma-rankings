@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:55:02.162Z",
+  "generatedAt": "2026-10-22T00:54:34.042Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -55,7 +55,7 @@
       "name": "Manchester City",
       "short": "Man City",
       "label": "Soccer",
-      "count": 19,
+      "count": 18,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-20-manchester-city-aek-athens",
-      "date": "2026-10-20",
-      "kickoff": "2026-10-20T19:00Z",
-      "home": "Manchester City",
-      "away": "AEK Athens",
-      "homeShort": "Man City",
-      "awayShort": "AEK",
-      "competition": "Champions League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-21-toronto-raptors-chicago-bulls",
       "date": "2026-10-21",
@@ -3034,6 +3015,25 @@
       "awayKeys": [
         "senators"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-19-toronto-raptors-chicago-bulls",
+      "date": "2027-01-19",
+      "kickoff": "2027-01-20T00:00Z",
+      "home": "Toronto Raptors",
+      "away": "Chicago Bulls",
+      "homeShort": "Raptors",
+      "awayShort": "Bulls",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     }
   ]

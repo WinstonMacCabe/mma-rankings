@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T00:42:20.644Z",
+  "lastUpdated": "2026-10-22T00:41:55.553Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -6240,6 +6240,18 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
+    "Charley Burley": {
+      "wins": 83,
+      "kos": 48,
+      "losses": 12,
+      "draws": 2,
+      "noContests": 1,
+      "total": 98,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
+      "birthDate": "1917-09-06",
+      "gender": "male"
+    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -6287,16 +6299,16 @@
       "birthDate": "1866",
       "gender": "male"
     },
-    "Charley Burley": {
-      "wins": 83,
-      "kos": 48,
-      "losses": 12,
+    "John L. Sullivan": {
+      "wins": 47,
+      "kos": 34,
+      "losses": 1,
       "draws": 2,
       "noContests": 1,
-      "total": 98,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
-      "birthDate": "1917-09-06",
+      "total": 51,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
+      "birthDate": "1858",
       "gender": "male"
     },
     "Paulie Malignaggi": {
@@ -6367,18 +6379,6 @@
       "nationality": "Utah",
       "weightClass": "Featherweight",
       "birthDate": "1990",
-      "gender": "male"
-    },
-    "John L. Sullivan": {
-      "wins": 47,
-      "kos": 34,
-      "losses": 1,
-      "draws": 2,
-      "noContests": 1,
-      "total": 51,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
-      "birthDate": "1858",
       "gender": "male"
     },
     "James DeGale": {
