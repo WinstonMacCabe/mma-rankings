@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:54:34.042Z",
+  "generatedAt": "2026-10-23T00:53:18.905Z",
   "windowDays": 90,
   "teams": [
     {
@@ -55,7 +55,7 @@
       "name": "Manchester City",
       "short": "Man City",
       "label": "Soccer",
-      "count": 18,
+      "count": 19,
       "ok": true
     },
     {
@@ -110,44 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-21-toronto-raptors-chicago-bulls",
-      "date": "2026-10-21",
-      "kickoff": "2026-10-21T23:30Z",
-      "home": "Toronto Raptors",
-      "away": "Chicago Bulls",
-      "homeShort": "Raptors",
-      "awayShort": "Bulls",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-21-ottawa-senators-florida-panthers",
-      "date": "2026-10-21",
-      "kickoff": "2026-10-21T23:30Z",
-      "home": "Ottawa Senators",
-      "away": "Florida Panthers",
-      "homeShort": "Senators",
-      "awayShort": "Panthers",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-22-chicago-bears-new-england-patriots",
       "date": "2026-10-22",
@@ -3032,6 +2994,63 @@
       ],
       "homeKeys": [
         "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-20-lens-manchester-city",
+      "date": "2027-01-20",
+      "kickoff": "2027-01-20T20:00Z",
+      "home": "Lens",
+      "away": "Manchester City",
+      "homeShort": "RCL",
+      "awayShort": "Man City",
+      "competition": "Champions League",
+      "venue": "Stade Bollaert-Delelis",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-20-new-york-knicks-toronto-raptors",
+      "date": "2027-01-20",
+      "kickoff": "2027-01-21T00:30Z",
+      "home": "New York Knicks",
+      "away": "Toronto Raptors",
+      "homeShort": "Knicks",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Madison Square Garden",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-20-ottawa-senators-toronto-maple-leafs",
+      "date": "2027-01-20",
+      "kickoff": "2027-01-21T00:30Z",
+      "home": "Ottawa Senators",
+      "away": "Toronto Maple Leafs",
+      "homeShort": "Senators",
+      "awayShort": "Maple Leafs",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
       ],
       "awayKeys": [],
       "source": "ESPN"
