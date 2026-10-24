@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T00:53:18.905Z",
+  "generatedAt": "2026-10-24T00:52:03.432Z",
   "windowDays": 90,
   "teams": [
     {
@@ -23,7 +23,7 @@
       "name": "New England Patriots",
       "short": "Patriots",
       "label": "NFL",
-      "count": 11,
+      "count": 10,
       "ok": true
     },
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 40,
+      "count": 39,
       "ok": true
     },
     {
@@ -110,44 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-22-chicago-bears-new-england-patriots",
-      "date": "2026-10-22",
-      "kickoff": "2026-10-23T00:15Z",
-      "home": "Chicago Bears",
-      "away": "New England Patriots",
-      "homeShort": "Bears",
-      "awayShort": "Patriots",
-      "competition": "NFL",
-      "venue": "Soldier Field",
-      "teamKeys": [
-        "patriots"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "patriots"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-22-ottawa-senators-san-jose-sharks",
-      "date": "2026-10-22",
-      "kickoff": "2026-10-22T23:00Z",
-      "home": "Ottawa Senators",
-      "away": "San Jose Sharks",
-      "homeShort": "Senators",
-      "awayShort": "Sharks",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-23-washington-wizards-toronto-raptors",
       "date": "2026-10-23",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T00:41:37.333Z",
+  "lastUpdated": "2026-10-24T00:41:36.317Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2636,18 +2636,6 @@
       "birthDate": "1983",
       "gender": "male"
     },
-    "Jörgen Kruth": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Swedish",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1974",
-      "gender": "male"
-    },
     "Jan Nortje": {
       "wins": 11,
       "kos": 0,
@@ -2671,6 +2659,18 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jairzinho_Rozenstruik_at_UFC_244.jpg",
       "birthDate": "1988",
+      "gender": "male"
+    },
+    "Jörgen Kruth": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Swedish",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1974",
       "gender": "male"
     },
     "Yodsanan Sor Nanthachai": {
