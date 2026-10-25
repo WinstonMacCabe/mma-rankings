@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T00:52:03.432Z",
+  "generatedAt": "2026-10-25T00:53:55.487Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -39,7 +39,7 @@
       "name": "Army Black Knights Football",
       "short": "Army FB",
       "label": "NCAAF",
-      "count": 6,
+      "count": 5,
       "ok": true
     },
     {
@@ -63,7 +63,7 @@
       "name": "Exeter Chiefs",
       "short": "Exeter",
       "label": "Rugby",
-      "count": 9,
+      "count": 10,
       "ok": true
     },
     {
@@ -88,7 +88,7 @@
       "name": "Clube do Remo",
       "short": "Remo",
       "label": "Soccer",
-      "count": 7,
+      "count": 6,
       "ok": true
     },
     {
@@ -110,63 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-23-washington-wizards-toronto-raptors",
-      "date": "2026-10-23",
-      "kickoff": "2026-10-23T23:00Z",
-      "home": "Washington Wizards",
-      "away": "Toronto Raptors",
-      "homeShort": "Wizards",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Capital One Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-23-tulsa-golden-hurricane-army-black-knights",
-      "date": "2026-10-23",
-      "kickoff": "2026-10-24T00:30Z",
-      "home": "Tulsa Golden Hurricane",
-      "away": "Army Black Knights",
-      "homeShort": "Tulsa",
-      "awayShort": "Army FB",
-      "competition": "NCAA Football",
-      "venue": "H. A. Chapman Stadium",
-      "teamKeys": [
-        "army-football"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "army-football"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-23-cruzeiro-remo",
-      "date": "2026-10-23",
-      "kickoff": "2026-10-23T23:00Z",
-      "home": "Cruzeiro",
-      "away": "Remo",
-      "homeShort": "CRU",
-      "awayShort": "Remo",
-      "competition": "Série A",
-      "venue": "Estadio Mineirão",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "remo"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-24-ottawa-senators-new-york-rangers",
       "date": "2026-10-24",
@@ -3013,6 +2956,25 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-22-exeter-chiefs-bristol-rugby",
+      "date": "2027-01-22",
+      "kickoff": "2027-01-23T00:00Z",
+      "home": "Exeter Chiefs",
+      "away": "Bristol Rugby",
+      "homeShort": "Exeter",
+      "awayShort": "BRI",
+      "competition": "Premiership Rugby",
+      "venue": "Sandy Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [
+        "exeter-chiefs"
       ],
       "awayKeys": [],
       "source": "ESPN"
