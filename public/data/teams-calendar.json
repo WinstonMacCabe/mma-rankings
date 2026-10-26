@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T00:53:55.487Z",
+  "generatedAt": "2026-10-26T00:53:04.093Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -63,7 +63,7 @@
       "name": "Exeter Chiefs",
       "short": "Exeter",
       "label": "Rugby",
-      "count": 10,
+      "count": 9,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 13,
+      "count": 12,
       "ok": true
     },
     {
@@ -96,7 +96,7 @@
       "name": "Baltika Kaliningrad",
       "short": "Baltika",
       "label": "Soccer",
-      "count": 6,
+      "count": 5,
       "ok": true
     },
     {
@@ -110,101 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-24-ottawa-senators-new-york-rangers",
-      "date": "2026-10-24",
-      "kickoff": "2026-10-24T23:00Z",
-      "home": "Ottawa Senators",
-      "away": "New York Rangers",
-      "homeShort": "Senators",
-      "awayShort": "Rangers",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-24-aston-villa-manchester-city",
-      "date": "2026-10-24",
-      "kickoff": "2026-10-24T11:30Z",
-      "home": "Aston Villa",
-      "away": "Manchester City",
-      "homeShort": "AVL",
-      "awayShort": "Man City",
-      "competition": "Premier League",
-      "venue": "Villa Park",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "man-city"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-24-bristol-rugby-exeter-chiefs",
-      "date": "2026-10-24",
-      "kickoff": "2026-10-24T16:30Z",
-      "home": "Bristol Rugby",
-      "away": "Exeter Chiefs",
-      "homeShort": "BRI",
-      "awayShort": "Exeter",
-      "competition": "Premiership Rugby",
-      "venue": "Ashton Gate",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "exeter-chiefs"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-24-krasnodar-fc-baltika-kaliningrad",
-      "date": "2026-10-24",
-      "kickoff": "2026-10-24T16:30Z",
-      "home": "Krasnodar",
-      "away": "FC Baltika Kaliningrad",
-      "homeShort": "FCK",
-      "awayShort": "Baltika",
-      "competition": "Russian Premier League",
-      "venue": "Krasnodar Stadium",
-      "teamKeys": [
-        "baltika"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "baltika"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-24-cagliari-bologna",
-      "date": "2026-10-24",
-      "kickoff": "2026-10-24T13:00Z",
-      "home": "Cagliari",
-      "away": "Bologna",
-      "homeShort": "Cagliari",
-      "awayShort": "BOL",
-      "competition": "Serie A",
-      "venue": "Unipol Domus",
-      "teamKeys": [
-        "cagliari"
-      ],
-      "homeKeys": [
-        "cagliari"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-25-minnesota-timberwolves-toronto-raptors",
       "date": "2026-10-25",
@@ -2977,6 +2882,63 @@
         "exeter-chiefs"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-23-brooklyn-nets-toronto-raptors",
+      "date": "2027-01-23",
+      "kickoff": "2027-01-23T23:00Z",
+      "home": "Brooklyn Nets",
+      "away": "Toronto Raptors",
+      "homeShort": "Nets",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Barclays Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-23-ottawa-senators-columbus-blue-jackets",
+      "date": "2027-01-23",
+      "kickoff": "2027-01-23T20:30Z",
+      "home": "Ottawa Senators",
+      "away": "Columbus Blue Jackets",
+      "homeShort": "Senators",
+      "awayShort": "Blue Jackets",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-23-brighton-hove-albion-manchester-city",
+      "date": "2027-01-23",
+      "kickoff": "2027-01-23T15:00Z",
+      "home": "Brighton & Hove Albion",
+      "away": "Manchester City",
+      "homeShort": "BHA",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "American Express Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
       "source": "ESPN"
     }
   ]

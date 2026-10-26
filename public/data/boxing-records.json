@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T00:42:34.198Z",
+  "lastUpdated": "2026-10-26T00:41:44.367Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2249,19 +2249,6 @@
       "birthDate": "1973",
       "gender": "male"
     },
-    "Doug Viney": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "TonganNew Zealander",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
-      "birthDate": "1976",
-      "gender": "male"
-    },
     "Antz Nansen": {
       "wins": 4,
       "kos": 0,
@@ -2346,6 +2333,19 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
+      "gender": "male"
+    },
+    "Doug Viney": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "TonganNew Zealander",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
+      "birthDate": "1976",
       "gender": "male"
     },
     "Andy Ologun": {
@@ -3964,19 +3964,6 @@
       "birthDate": "1977",
       "gender": "male"
     },
-    "Mattia Faraoni": {
-      "wins": 8,
-      "kos": 0,
-      "losses": 1,
-      "draws": 1,
-      "noContests": 0,
-      "total": 10,
-      "nationality": "Italy",
-      "weightClass": "Cruiserweight",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mattia_Faraoni.jpg/330px-Mattia_Faraoni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "birthDate": "1991",
-      "gender": "male"
-    },
     "Hiromi Amada": {
       "wins": 1,
       "kos": 1,
@@ -4037,6 +4024,19 @@
       "nationality": "Hyōgo Japan",
       "weightClass": "Super featherweight",
       "birthDate": "1998",
+      "gender": "male"
+    },
+    "Mattia Faraoni": {
+      "wins": 8,
+      "kos": 0,
+      "losses": 1,
+      "draws": 1,
+      "noContests": 0,
+      "total": 10,
+      "nationality": "Italy",
+      "weightClass": "Cruiserweight",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mattia_Faraoni.jpg/330px-Mattia_Faraoni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "birthDate": "1991",
       "gender": "male"
     },
     "Ryuji Kajiwara": {
@@ -4107,18 +4107,6 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Yoshiki Takei": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 13,
-      "nationality": "Japan",
-      "weightClass": "Bantamweight",
-      "birthDate": "1996",
-      "gender": "male"
-    },
     "Taiju Shiratori": {
       "wins": 8,
       "kos": 0,
@@ -4164,6 +4152,18 @@
       "nationality": "Latvian",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mairis_Briedis_2018.jpg",
       "birthDate": "1985",
+      "gender": "male"
+    },
+    "Yoshiki Takei": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 13,
+      "nationality": "Japan",
+      "weightClass": "Bantamweight",
+      "birthDate": "1996",
       "gender": "male"
     },
     "Genji Umeno": {
@@ -4392,17 +4392,6 @@
       "birthDate": "1995",
       "gender": "male"
     },
-    "Patrick Kinigamazi": {
-      "wins": 32,
-      "kos": 3,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 35,
-      "nationality": "Rwandan",
-      "birthDate": "1983",
-      "gender": "male"
-    },
     "Mamuka Usubyan": {
       "wins": 1,
       "kos": 0,
@@ -4485,6 +4474,17 @@
       "weightClass": "Cruiserweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/C%C3%A9sar_C%C3%B3rdoba.jpg",
       "birthDate": "1980",
+      "gender": "male"
+    },
+    "Patrick Kinigamazi": {
+      "wins": 32,
+      "kos": 3,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 35,
+      "nationality": "Rwandan",
+      "birthDate": "1983",
       "gender": "male"
     },
     "Aleksandar Konovalov": {
@@ -5113,31 +5113,6 @@
       "birthDate": "1988-10-09",
       "gender": "male"
     },
-    "Amnat Ruenroeng": {
-      "wins": 23,
-      "kos": 0,
-      "losses": 7,
-      "draws": 0,
-      "noContests": 0,
-      "total": 30,
-      "nationality": "Thailand",
-      "weightClass": "Super featherweight",
-      "birthDate": "1979",
-      "gender": "male"
-    },
-    "Anantasak Panyuthaphum": {
-      "wins": 6,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 7,
-      "nationality": "Thailand",
-      "weightClass": "Super featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anantasak_Kevin.jpg",
-      "birthDate": "1973",
-      "gender": "male"
-    },
     "Apidej Sit-Hirun": {
       "wins": 13,
       "kos": 0,
@@ -5149,6 +5124,18 @@
       "weightClass": "Welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Apidej_Sit_Hirun.JPG",
       "birthDate": "1941",
+      "gender": "male"
+    },
+    "Amnat Ruenroeng": {
+      "wins": 23,
+      "kos": 0,
+      "losses": 7,
+      "draws": 0,
+      "noContests": 0,
+      "total": 30,
+      "nationality": "Thailand",
+      "weightClass": "Super featherweight",
+      "birthDate": "1979",
       "gender": "male"
     },
     "Chatchai Sasakul": {
@@ -5212,6 +5199,19 @@
       "birthDate": "1962",
       "gender": "male"
     },
+    "Anantasak Panyuthaphum": {
+      "wins": 6,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 7,
+      "nationality": "Thailand",
+      "weightClass": "Super featherweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anantasak_Kevin.jpg",
+      "birthDate": "1973",
+      "gender": "male"
+    },
     "Chatchainoi Chaoraioi": {
       "wins": 0,
       "kos": 0,
@@ -5236,18 +5236,6 @@
       "birthDate": "1981",
       "gender": "male"
     },
-    "Dennuea Denmolee": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Thailand",
-      "weightClass": "Flyweight",
-      "birthDate": "1965",
-      "gender": "male"
-    },
     "Bandon Sitbangprachan": {
       "wins": 2,
       "kos": 2,
@@ -5257,18 +5245,6 @@
       "total": 2,
       "nationality": "Thailand",
       "birthDate": "1963",
-      "gender": "male"
-    },
-    "Khaosai Galaxy": {
-      "wins": 47,
-      "kos": 41,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 48,
-      "nationality": "Thailand",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khaosai_Galaxy_5.jpg",
-      "birthDate": "1959",
       "gender": "male"
     },
     "Kaokor Galaxy": {
@@ -5344,6 +5320,30 @@
       "birthDate": "1968",
       "gender": "male"
     },
+    "Dennuea Denmolee": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Thailand",
+      "weightClass": "Flyweight",
+      "birthDate": "1965",
+      "gender": "male"
+    },
+    "Khaosai Galaxy": {
+      "wins": 47,
+      "kos": 41,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 48,
+      "nationality": "Thailand",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Khaosai_Galaxy_5.jpg",
+      "birthDate": "1959",
+      "gender": "male"
+    },
     "Medgoen Singsurat": {
       "wins": 74,
       "kos": 51,
@@ -5412,18 +5412,6 @@
       "nationality": "Thailand",
       "weightClass": "Bantamweight",
       "birthDate": "2005",
-      "gender": "male"
-    },
-    "Muangfahlek Kiatwichian": {
-      "wins": 17,
-      "kos": 0,
-      "losses": 11,
-      "draws": 0,
-      "noContests": 0,
-      "total": 28,
-      "nationality": "Thailand",
-      "weightClass": "Super featherweight",
-      "birthDate": "1971",
       "gender": "male"
     },
     "Napa Kiatwanchai": {
@@ -5544,6 +5532,18 @@
       "birthDate": "1969",
       "gender": "male"
     },
+    "Muangfahlek Kiatwichian": {
+      "wins": 17,
+      "kos": 0,
+      "losses": 11,
+      "draws": 0,
+      "noContests": 0,
+      "total": 28,
+      "nationality": "Thailand",
+      "weightClass": "Super featherweight",
+      "birthDate": "1971",
+      "gender": "male"
+    },
     "Pichit Sitbangprachan": {
       "wins": 24,
       "kos": 18,
@@ -5618,18 +5618,6 @@
       "weightClass": "Featherweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Petchdam_Kevin.jpg",
       "birthDate": "1963",
-      "gender": "male"
-    },
-    "Raktae Muangsurin": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Thailand",
-      "weightClass": "Lightweight",
-      "birthDate": "1960",
       "gender": "male"
     },
     "Prabtoranee Luklampakchee": {
@@ -5794,6 +5782,18 @@
       "birthDate": "1956",
       "gender": "male"
     },
+    "Raktae Muangsurin": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thailand",
+      "weightClass": "Lightweight",
+      "birthDate": "1960",
+      "gender": "male"
+    },
     "Sanghiran Lukbanyai": {
       "wins": 21,
       "kos": 0,
@@ -5837,17 +5837,6 @@
       "nationality": "Thailand",
       "weightClass": "Minimumweight",
       "birthDate": "1966",
-      "gender": "male"
-    },
-    "Thangthong Kiattaweesuk": {
-      "wins": 24,
-      "kos": 16,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 24,
-      "nationality": "Thai",
-      "birthDate": "1977",
       "gender": "male"
     },
     "Sontaya Wongprates": {
@@ -5934,6 +5923,17 @@
       "birthDate": "1985",
       "gender": "male"
     },
+    "Thangthong Kiattaweesuk": {
+      "wins": 24,
+      "kos": 16,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 24,
+      "nationality": "Thai",
+      "birthDate": "1977",
+      "gender": "male"
+    },
     "Toto Pongsawang": {
       "wins": 10,
       "kos": 0,
@@ -6018,17 +6018,6 @@
       "birthDate": "1982-06-18",
       "gender": "male"
     },
-    "Bárbara Aguiar": {
-      "wins": 40,
-      "kos": 0,
-      "losses": 9,
-      "draws": 2,
-      "noContests": 0,
-      "total": 51,
-      "nationality": "Brazil",
-      "birthDate": "1995",
-      "gender": "female"
-    },
     "Zaza Sor. Aree": {
       "wins": 1,
       "kos": 0,
@@ -6063,6 +6052,17 @@
       "total": 9,
       "nationality": "England",
       "birthDate": "1971",
+      "gender": "female"
+    },
+    "Bárbara Aguiar": {
+      "wins": 40,
+      "kos": 0,
+      "losses": 9,
+      "draws": 2,
+      "noContests": 0,
+      "total": 51,
+      "nationality": "Brazil",
+      "birthDate": "1995",
       "gender": "female"
     },
     "Dora and Cora Webber": {
