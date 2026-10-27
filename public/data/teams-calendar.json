@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:53:04.093Z",
+  "generatedAt": "2026-10-27T00:55:32.240Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 12,
+      "count": 13,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-25-minnesota-timberwolves-toronto-raptors",
-      "date": "2026-10-25",
-      "kickoff": "2026-10-25T23:00Z",
-      "home": "Minnesota Timberwolves",
-      "away": "Toronto Raptors",
-      "homeShort": "Timberwolves",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Target Center",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-27-vegas-golden-knights-ottawa-senators",
       "date": "2026-10-27",
@@ -2938,6 +2919,25 @@
       "homeKeys": [],
       "awayKeys": [
         "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-24-juventus-cagliari",
+      "date": "2027-01-24",
+      "kickoff": "2027-01-24T20:00Z",
+      "home": "Juventus",
+      "away": "Cagliari",
+      "homeShort": "JUV",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Allianz Stadium",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
       ],
       "source": "ESPN"
     }
