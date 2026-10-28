@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:55:32.240Z",
+  "generatedAt": "2026-10-28T00:53:21.471Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 39,
+      "count": 40,
       "ok": true
     },
     {
@@ -2939,6 +2939,44 @@
       "awayKeys": [
         "cagliari"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-25-boston-celtics-toronto-raptors",
+      "date": "2027-01-25",
+      "kickoff": "2027-01-26T00:00Z",
+      "home": "Boston Celtics",
+      "away": "Toronto Raptors",
+      "homeShort": "Celtics",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "TD Garden",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-25-ottawa-senators-carolina-hurricanes",
+      "date": "2027-01-25",
+      "kickoff": "2027-01-26T00:30Z",
+      "home": "Ottawa Senators",
+      "away": "Carolina Hurricanes",
+      "homeShort": "Senators",
+      "awayShort": "Hurricanes",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     }
   ]
