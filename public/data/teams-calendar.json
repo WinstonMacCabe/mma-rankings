@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:53:21.471Z",
+  "generatedAt": "2026-10-29T00:56:12.894Z",
   "windowDays": 90,
   "teams": [
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 40,
+      "count": 39,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 13,
+      "count": 12,
       "ok": true
     },
     {
@@ -110,44 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-27-vegas-golden-knights-ottawa-senators",
-      "date": "2026-10-27",
-      "kickoff": "2026-10-28T02:00Z",
-      "home": "Vegas Golden Knights",
-      "away": "Ottawa Senators",
-      "homeShort": "Golden Knights",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "T-Mobile Arena",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-27-as-roma-cagliari",
-      "date": "2026-10-27",
-      "kickoff": "2026-10-27T19:45Z",
-      "home": "AS Roma",
-      "away": "Cagliari",
-      "homeShort": "ROMA",
-      "awayShort": "Cagliari",
-      "competition": "Serie A",
-      "venue": "Olimpico",
-      "teamKeys": [
-        "cagliari"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "cagliari"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-28-manchester-city-brighton-hove-albion",
       "date": "2026-10-28",

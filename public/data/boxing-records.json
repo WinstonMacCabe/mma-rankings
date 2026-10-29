@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T00:41:58.810Z",
+  "lastUpdated": "2026-10-29T00:44:32.947Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2293,7 +2293,7 @@
       "draws": 0,
       "noContests": 0,
       "total": 1,
-      "nationality": "New Zealander",
+      "nationality": "New Zealand",
       "weightClass": "Lightweight",
       "birthDate": "1991-09-30",
       "gender": "male"
@@ -5806,12 +5806,12 @@
       "gender": "male"
     },
     "Sirimongkol Singmanasak": {
-      "wins": 101,
-      "kos": 62,
+      "wins": 102,
+      "kos": 63,
       "losses": 9,
       "draws": 0,
       "noContests": 0,
-      "total": 110,
+      "total": 111,
       "nationality": "Thailand",
       "birthDate": "1977",
       "gender": "male"
@@ -6240,6 +6240,18 @@
       "birthDate": "1979-10-03",
       "gender": "male"
     },
+    "Charley Burley": {
+      "wins": 83,
+      "kos": 48,
+      "losses": 12,
+      "draws": 2,
+      "noContests": 1,
+      "total": 98,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
+      "birthDate": "1917-09-06",
+      "gender": "male"
+    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -6287,16 +6299,16 @@
       "birthDate": "1866",
       "gender": "male"
     },
-    "Charley Burley": {
-      "wins": 83,
-      "kos": 48,
-      "losses": 12,
+    "John L. Sullivan": {
+      "wins": 47,
+      "kos": 34,
+      "losses": 1,
       "draws": 2,
       "noContests": 1,
-      "total": 98,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
-      "birthDate": "1917-09-06",
+      "total": 51,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
+      "birthDate": "1858",
       "gender": "male"
     },
     "Paulie Malignaggi": {
@@ -6369,16 +6381,16 @@
       "birthDate": "1990",
       "gender": "male"
     },
-    "John L. Sullivan": {
-      "wins": 47,
-      "kos": 34,
-      "losses": 1,
-      "draws": 2,
-      "noContests": 1,
-      "total": 51,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
-      "birthDate": "1858",
+    "Jem Mace": {
+      "wins": 27,
+      "kos": 14,
+      "losses": 5,
+      "draws": 7,
+      "noContests": 0,
+      "total": 39,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
+      "birthDate": "1831-04-08",
       "gender": "male"
     },
     "James DeGale": {
@@ -6403,18 +6415,6 @@
       "nationality": "American",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
       "birthDate": "1862-12-15",
-      "gender": "male"
-    },
-    "Jem Mace": {
-      "wins": 27,
-      "kos": 14,
-      "losses": 5,
-      "draws": 7,
-      "noContests": 0,
-      "total": 39,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
-      "birthDate": "1831-04-08",
       "gender": "male"
     },
     "John Morrissey": {
