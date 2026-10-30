@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:56:12.894Z",
+  "generatedAt": "2026-10-30T00:53:22.341Z",
   "windowDays": 90,
   "teams": [
     {
@@ -55,7 +55,7 @@
       "name": "Manchester City",
       "short": "Man City",
       "label": "Soccer",
-      "count": 19,
+      "count": 20,
       "ok": true
     },
     {
@@ -88,7 +88,7 @@
       "name": "Clube do Remo",
       "short": "Remo",
       "label": "Soccer",
-      "count": 6,
+      "count": 5,
       "ok": true
     },
     {
@@ -110,63 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-28-manchester-city-brighton-hove-albion",
-      "date": "2026-10-28",
-      "kickoff": "2026-10-28T19:30Z",
-      "home": "Manchester City",
-      "away": "Brighton & Hove Albion",
-      "homeShort": "Man City",
-      "awayShort": "BHA",
-      "competition": "EFL Cup",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-28-toronto-raptors-orlando-magic",
-      "date": "2026-10-28",
-      "kickoff": "2026-10-28T23:30Z",
-      "home": "Toronto Raptors",
-      "away": "Orlando Magic",
-      "homeShort": "Raptors",
-      "awayShort": "Magic",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-28-remo-botafogo",
-      "date": "2026-10-28",
-      "kickoff": "2026-10-29T00:30Z",
-      "home": "Remo",
-      "away": "Botafogo",
-      "homeShort": "Remo",
-      "awayShort": "BOT",
-      "competition": "Série A",
-      "venue": "Mangueirão",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [
-        "remo"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-29-los-angeles-kings-ottawa-senators",
       "date": "2026-10-29",
@@ -1764,6 +1707,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-15-manchester-city-bradford-city",
+      "date": "2026-12-15",
+      "kickoff": "2026-12-15T20:00Z",
+      "home": "Manchester City",
+      "away": "Bradford City",
+      "homeShort": "Man City",
+      "awayShort": "BRD",
+      "competition": "EFL Cup",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-16-toronto-raptors-san-antonio-spurs",
       "date": "2026-12-16",
       "kickoff": "2026-12-17T00:30Z",
@@ -2937,6 +2899,44 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-27-manchester-city-sporting-cp",
+      "date": "2027-01-27",
+      "kickoff": "2027-01-27T20:00Z",
+      "home": "Manchester City",
+      "away": "Sporting CP",
+      "homeShort": "Man City",
+      "awayShort": "SCP",
+      "competition": "Champions League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-27-toronto-raptors-dallas-mavericks",
+      "date": "2027-01-27",
+      "kickoff": "2027-01-28T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Dallas Mavericks",
+      "homeShort": "Raptors",
+      "awayShort": "Mavericks",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
       ],
       "awayKeys": [],
       "source": "ESPN"

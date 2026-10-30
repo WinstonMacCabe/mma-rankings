@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T00:44:32.947Z",
+  "lastUpdated": "2026-10-30T00:42:00.242Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -547,6 +547,18 @@
       "birthDate": "1984",
       "gender": "male"
     },
+    "Phil Hawes": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "U.S.",
+      "weightClass": "Middleweight",
+      "birthDate": "1989-01-08",
+      "gender": "male"
+    },
     "Marcus Hicks": {
       "wins": 5,
       "kos": 0,
@@ -582,18 +594,6 @@
       "nationality": "United States",
       "weightClass": "Light heavyweight",
       "birthDate": "1986",
-      "gender": "male"
-    },
-    "Phil Hawes": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "U.S.",
-      "weightClass": "Middleweight",
-      "birthDate": "1989-01-08",
       "gender": "male"
     },
     "Jeremy Horn": {
@@ -2249,6 +2249,19 @@
       "birthDate": "1973",
       "gender": "male"
     },
+    "Doug Viney": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "TonganNew Zealander",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
+      "birthDate": "1976",
+      "gender": "male"
+    },
     "Antz Nansen": {
       "wins": 4,
       "kos": 0,
@@ -2333,19 +2346,6 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
-      "gender": "male"
-    },
-    "Doug Viney": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "TonganNew Zealander",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
-      "birthDate": "1976",
       "gender": "male"
     },
     "Andy Ologun": {
@@ -4790,7 +4790,7 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anissa_Meksen.jpeg",
       "birthDate": "1988",
-      "gender": "male"
+      "gender": "female"
     },
     "Aurélie Froment": {
       "wins": 3,
@@ -6205,18 +6205,6 @@
       "birthDate": "1975",
       "gender": "male"
     },
-    "Maïva Hamadouche": {
-      "wins": 22,
-      "kos": 16,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 24,
-      "nationality": "France",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ma%C3%AFva_Hamadouche.jpg",
-      "birthDate": "1989",
-      "gender": "male"
-    },
     "Chris Bacon (boxer)": {
       "wins": 13,
       "kos": 6,
@@ -6484,6 +6472,18 @@
       "total": 31,
       "nationality": "Thailand",
       "birthDate": "1987",
+      "gender": "male"
+    },
+    "Maïva Hamadouche": {
+      "wins": 22,
+      "kos": 16,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 24,
+      "nationality": "France",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ma%C3%AFva_Hamadouche.jpg",
+      "birthDate": "1989",
       "gender": "male"
     },
     "Alfredo Angulo": {
