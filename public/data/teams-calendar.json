@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T00:53:22.341Z",
+  "generatedAt": "2026-10-31T00:53:20.506Z",
   "windowDays": 90,
   "teams": [
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-29-los-angeles-kings-ottawa-senators",
-      "date": "2026-10-29",
-      "kickoff": "2026-10-30T02:00Z",
-      "home": "Los Angeles Kings",
-      "away": "Ottawa Senators",
-      "homeShort": "Kings",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "crypto.com Arena",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-30-toronto-raptors-orlando-magic",
       "date": "2026-10-30",
@@ -797,13 +778,13 @@
     {
       "id": "2026-11-18-remo-chapecoense",
       "date": "2026-11-18",
-      "kickoff": "2026-11-18T20:00Z",
+      "kickoff": "2026-11-18T23:00Z",
       "home": "Remo",
       "away": "Chapecoense",
       "homeShort": "Remo",
       "awayShort": "CHA",
       "competition": "Série A",
-      "venue": "Estadio Evandro Almeida (Baenao)",
+      "venue": "Mangueirão",
       "teamKeys": [
         "remo"
       ],
@@ -947,9 +928,9 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-11-21-athletico-paranaense-remo",
-      "date": "2026-11-21",
-      "kickoff": "2026-11-21T20:00Z",
+      "id": "2026-11-22-athletico-paranaense-remo",
+      "date": "2026-11-22",
+      "kickoff": "2026-11-22T19:00Z",
       "home": "Athletico Paranaense",
       "away": "Remo",
       "homeShort": "CAP",
@@ -2937,6 +2918,25 @@
       ],
       "homeKeys": [
         "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-28-ottawa-senators-boston-bruins",
+      "date": "2027-01-28",
+      "kickoff": "2027-01-29T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Boston Bruins",
+      "homeShort": "Senators",
+      "awayShort": "Bruins",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
       ],
       "awayKeys": [],
       "source": "ESPN"
