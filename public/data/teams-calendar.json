@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T00:53:20.506Z",
+  "generatedAt": "2026-11-01T00:54:27.278Z",
   "windowDays": 90,
   "teams": [
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-30-toronto-raptors-orlando-magic",
-      "date": "2026-10-30",
-      "kickoff": "2026-10-30T23:30Z",
-      "home": "Toronto Raptors",
-      "away": "Orlando Magic",
-      "homeShort": "Raptors",
-      "awayShort": "Magic",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-10-31-army-black-knights-rugby-mary-washington",
       "date": "2026-10-31",
@@ -2937,6 +2918,25 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-29-toronto-raptors-cleveland-cavaliers",
+      "date": "2027-01-29",
+      "kickoff": "2027-01-30T00:00Z",
+      "home": "Toronto Raptors",
+      "away": "Cleveland Cavaliers",
+      "homeShort": "Raptors",
+      "awayShort": "Cavaliers",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
       ],
       "awayKeys": [],
       "source": "ESPN"

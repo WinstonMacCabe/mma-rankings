@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T00:42:21.061Z",
+  "lastUpdated": "2026-11-01T00:43:28.970Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -3672,6 +3672,18 @@
       "birthDate": "1982",
       "gender": "male"
     },
+    "Charlie Bubb": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Australia",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1997",
+      "gender": "male"
+    },
     "Marc de Bonte": {
       "wins": 4,
       "kos": 0,
@@ -3952,18 +3964,6 @@
       "birthDate": "1965",
       "gender": "male"
     },
-    "Roberto Cocco": {
-      "wins": 20,
-      "kos": 0,
-      "losses": 16,
-      "draws": 1,
-      "noContests": 0,
-      "total": 37,
-      "nationality": "Italian",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1977",
-      "gender": "male"
-    },
     "Hiromi Amada": {
       "wins": 1,
       "kos": 1,
@@ -3974,6 +3974,18 @@
       "nationality": "Japanese",
       "weightClass": "Heavyweight",
       "birthDate": "1973",
+      "gender": "male"
+    },
+    "Roberto Cocco": {
+      "wins": 20,
+      "kos": 0,
+      "losses": 16,
+      "draws": 1,
+      "noContests": 0,
+      "total": 37,
+      "nationality": "Italian",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1977",
       "gender": "male"
     },
     "Kyotaro Fujimoto": {
@@ -4142,18 +4154,6 @@
       "birthDate": "1975",
       "gender": "male"
     },
-    "Mairis Briedis": {
-      "wins": 28,
-      "kos": 17,
-      "losses": 3,
-      "draws": 0,
-      "noContests": 0,
-      "total": 31,
-      "nationality": "Latvian",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mairis_Briedis_2018.jpg",
-      "birthDate": "1985",
-      "gender": "male"
-    },
     "Yoshiki Takei": {
       "wins": 12,
       "kos": 0,
@@ -4210,6 +4210,18 @@
       "nationality": "New Zealander",
       "weightClass": "Super middleweight",
       "birthDate": "1978",
+      "gender": "male"
+    },
+    "Mairis Briedis": {
+      "wins": 28,
+      "kos": 17,
+      "losses": 3,
+      "draws": 0,
+      "noContests": 0,
+      "total": 31,
+      "nationality": "Latvian",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mairis_Briedis_2018.jpg",
+      "birthDate": "1985",
       "gender": "male"
     },
     "Marek Piotrowski": {
@@ -4779,19 +4791,6 @@
       "birthDate": "1974",
       "gender": "female"
     },
-    "Anissa Meksen": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "France",
-      "weightClass": "Bantamweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anissa_Meksen.jpeg",
-      "birthDate": "1988",
-      "gender": "male"
-    },
     "Aurélie Froment": {
       "wins": 3,
       "kos": 0,
@@ -4863,6 +4862,19 @@
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/01Chantal-UGHI.jpg",
       "birthDate": "1981",
       "gender": "female"
+    },
+    "Anissa Meksen": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "France",
+      "weightClass": "Bantamweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anissa_Meksen.jpeg",
+      "birthDate": "1988",
+      "gender": "male"
     },
     "Johanna Kruse": {
       "wins": 5,
@@ -5065,18 +5077,6 @@
       "total": 16,
       "nationality": "Australian",
       "birthDate": "1994",
-      "gender": "male"
-    },
-    "Charlie Bubb": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Australia",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1997",
       "gender": "male"
     },
     "Matt Skelton": {
@@ -6252,6 +6252,18 @@
       "birthDate": "1988",
       "gender": "male"
     },
+    "Emil Novruzov": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Azerbaijani Russian",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
+      "birthDate": "1995",
+      "gender": "male"
+    },
     "Ashley Brace": {
       "wins": 8,
       "kos": 2,
@@ -6343,18 +6355,6 @@
       "total": 12,
       "nationality": "American",
       "birthDate": "1996-01-04",
-      "gender": "male"
-    },
-    "Emil Novruzov": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Azerbaijani Russian",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
-      "birthDate": "1995",
       "gender": "male"
     },
     "Britain Hart": {
