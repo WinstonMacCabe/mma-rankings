@@ -61,11 +61,22 @@ const MIN_SCORE: Partial<Record<SportKey, number>> = {
 function persistentRankChange(
   fighter: BoxerRecord,
   currentRank: number,
-  previousByName: Map<string, { fighter: BoxerRecord; rank: number }>
+  previousByName: Map<string, { fighter: BoxerRecord; rank: number }>,
+  currentRanked: BoxerRecord[]
 ): number | undefined {
   const prior = previousByName.get(fighter.name)
   if (!prior) return undefined
-  const movement = prior.rank - currentRank
+  const currentNames = new Set(currentRanked.map(candidate => candidate.name))
+  const previousCommon = [...previousByName.values()]
+    .filter(entry => currentNames.has(entry.fighter.name))
+    .sort((a, b) => a.rank - b.rank)
+  const previousCommonRank = previousCommon.findIndex(entry => entry.fighter.name === fighter.name) + 1
+  const commonNames = new Set(previousCommon.map(entry => entry.fighter.name))
+  const currentCommonRank = currentRanked
+    .slice(0, currentRank)
+    .filter(candidate => commonNames.has(candidate.name)).length
+  const movement = previousCommonRank - currentCommonRank
+  if (previousCommonRank === 0) return prior.fighter.rankChange
   return movement !== 0 ? movement : prior.fighter.rankChange
 }
 
@@ -139,7 +150,6 @@ function buildSportRanking(
     ranked.push({
       ...f,
       previousRank: prevRank.get(f.name) || undefined,
-      rankChange: persistentRankChange(f, rank, previousByName),
       highestRank: hist ? Math.min(hist.highest, rank) : rank,
       lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
     })
@@ -148,7 +158,10 @@ function buildSportRanking(
     // sports with a MIN_SCORE use the score filter as their natural bound.
     if (!hasMinScore && nonSeniorCount >= 50) break
   }
-  return ranked
+  return ranked.map((fighter, index) => ({
+    ...fighter,
+    rankChange: persistentRankChange(fighter, index + 1, previousByName, ranked),
+  }))
 }
 
 async function main() {
@@ -294,30 +307,32 @@ async function main() {
     console.warn(`Recovered ${recovered} MMA records from the previous valid snapshot after a partial fetch.`)
   }
 
-  const ranked = undefeated
+  const rankedCandidates = undefeated
     .filter(f => f.imageUrl)
     .sort((a, b) => b.wins - a.wins || a.draws - b.draws || b.kos - a.kos || a.name.localeCompare(b.name))
+  const ranked = rankedCandidates
     .map((f, i) => {
       const rank = i + 1
       const hist = prevBestHistory.get(f.name)
       return {
         ...f,
         previousRank: prevBestRank.get(f.name) || undefined,
-        rankChange: persistentRankChange(f, rank, prevBestRanked),
+        rankChange: persistentRankChange(f, rank, prevBestRanked, rankedCandidates),
         highestRank: hist ? Math.min(hist.highest, rank) : rank,
         lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
       }
     })
 
-  const worstRanked = winless
+  const worstCandidates = winless
     .sort((a, b) => b.losses - a.losses || a.draws - b.draws || a.name.localeCompare(b.name))
+  const worstRanked = worstCandidates
     .map((f, i) => {
       const rank = i + 1
       const hist = prevWorstHistory.get(f.name)
       return {
         ...f,
         previousRank: prevWorstRank.get(f.name) || undefined,
-        rankChange: persistentRankChange(f, rank, prevWorstRanked),
+        rankChange: persistentRankChange(f, rank, prevWorstRanked, worstCandidates),
         highestRank: hist ? Math.min(hist.highest, rank) : rank,
         lowestRank: hist ? Math.max(hist.lowest, rank) : rank,
       }
@@ -477,7 +492,7 @@ async function main() {
     return {
       ...f,
       previousRank: undefined,
-      rankChange: persistentRankChange(f, thirdRank, prevThirdaryRanked),
+      rankChange: persistentRankChange(f, thirdRank, prevThirdaryRanked, allThirdaryScored),
       highestRank: hist ? Math.min(hist.highest, thirdRank) : thirdRank,
       lowestRank: hist ? Math.max(hist.lowest, thirdRank) : thirdRank,
     }
@@ -501,9 +516,10 @@ async function main() {
     .filter(f => f.imageUrl && (f.thirdaryScore ?? 0) > 0 && f.isSenior)
     .sort((a, b) => (a.thirdaryScore ?? 0) - (b.thirdaryScore ?? 0) || b.losses - a.losses || (a.kos ?? 0) - (b.kos ?? 0))
   const prevThirdaryWorstRanked = new Map((previous.thirdaryWorst ?? []).map((fighter, index) => [fighter.name, { fighter, rank: index + 1 }]))
-  const thirdaryWorstRanked = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst].map((f, index) => ({
+  const thirdaryWorstCandidates = [...thirdEligibleWorst.slice(0, 50), ...thirdSeniorsWorst]
+  const thirdaryWorstRanked = thirdaryWorstCandidates.map((f, index) => ({
     ...f,
-    rankChange: persistentRankChange(f, index + 1, prevThirdaryWorstRanked),
+    rankChange: persistentRankChange(f, index + 1, prevThirdaryWorstRanked, thirdaryWorstCandidates),
   }))
 
   // Wikipedia can return a partial record set after a transient API failure.
