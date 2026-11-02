@@ -320,7 +320,6 @@
       "thirdaryScore": 20,
       "birthDate": "1997-08-20",
       "isSenior": false,
-      "rankChange": 1,
       "highestRank": 7,
       "lowestRank": 9
     },
@@ -340,7 +339,6 @@
       "thirdaryScore": 20,
       "birthDate": "1994-02-11",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 6,
       "lowestRank": 8
     },
@@ -835,7 +833,6 @@
       "thirdaryScore": 11,
       "birthDate": "1985",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 32,
       "lowestRank": 34
     },
@@ -855,7 +852,6 @@
       "thirdaryScore": 11,
       "birthDate": "1985-02-06",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 33,
       "lowestRank": 35
     },
@@ -875,7 +871,6 @@
       "thirdaryScore": 10.5,
       "birthDate": "1992-06-02",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 34,
       "lowestRank": 36
     },
@@ -895,7 +890,6 @@
       "thirdaryScore": 10,
       "birthDate": "1997",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 35,
       "lowestRank": 37
     },
@@ -915,7 +909,6 @@
       "thirdaryScore": 10,
       "birthDate": "1996-01-03",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 36,
       "lowestRank": 38
     },
@@ -935,7 +928,6 @@
       "thirdaryScore": 9.5,
       "birthDate": "1984",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 37,
       "lowestRank": 39
     },
@@ -955,7 +947,6 @@
       "thirdaryScore": 9.5,
       "birthDate": "1992-11-23",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 39,
       "lowestRank": 40
     },
@@ -975,7 +966,6 @@
       "thirdaryScore": 9,
       "birthDate": "2001-03-26",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 39,
       "lowestRank": 41
     },
@@ -995,7 +985,6 @@
       "thirdaryScore": 9,
       "birthDate": "1995",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 40,
       "lowestRank": 42
     },
@@ -1015,7 +1004,6 @@
       "thirdaryScore": 9,
       "birthDate": "1996",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 41,
       "lowestRank": 43
     },
@@ -1035,7 +1023,6 @@
       "thirdaryScore": 9,
       "birthDate": "2001",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 43,
       "lowestRank": 49
     },
@@ -1055,7 +1042,6 @@
       "thirdaryScore": 9,
       "birthDate": "1992",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 42,
       "lowestRank": 45
     },
@@ -1075,7 +1061,6 @@
       "thirdaryScore": 9,
       "birthDate": "2000-01-27",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 43,
       "lowestRank": 46
     },
@@ -1095,7 +1080,6 @@
       "thirdaryScore": 9,
       "birthDate": "1993",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 44,
       "lowestRank": 47
     },
@@ -1115,7 +1099,6 @@
       "thirdaryScore": 9,
       "birthDate": "1973",
       "isSenior": true,
-      "rankChange": -1,
       "highestRank": 45,
       "lowestRank": 48
     },
@@ -1135,7 +1118,6 @@
       "thirdaryScore": 8.666666666666666,
       "birthDate": "1987",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 46,
       "lowestRank": 49
     },
@@ -1155,7 +1137,6 @@
       "thirdaryScore": 8.666666666666666,
       "birthDate": "1974",
       "isSenior": true,
-      "rankChange": -1,
       "highestRank": 47,
       "lowestRank": 50
     },
@@ -1175,7 +1156,6 @@
       "thirdaryScore": 8.5,
       "birthDate": "1997",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 49,
       "lowestRank": 51
     },
@@ -1194,7 +1174,6 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 8,
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 51,
       "lowestRank": 52
     },
@@ -1214,7 +1193,6 @@
       "thirdaryScore": 8,
       "birthDate": "1982",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 50,
       "lowestRank": 53
     },
@@ -1234,7 +1212,6 @@
       "thirdaryScore": 8,
       "birthDate": "1998",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 53,
       "lowestRank": 54
     },
@@ -1254,7 +1231,6 @@
       "thirdaryScore": 8,
       "birthDate": "1995-04-29",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 51,
       "lowestRank": 55
     },
@@ -1274,7 +1250,6 @@
       "thirdaryScore": 8,
       "birthDate": "1974",
       "isSenior": true,
-      "rankChange": -1,
       "highestRank": 52,
       "lowestRank": 56
     },
@@ -1294,7 +1269,6 @@
       "thirdaryScore": 8,
       "birthDate": "1996-10-11",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 54,
       "lowestRank": 57
     },
@@ -1313,7 +1287,6 @@
       "thirdaryScore": 8,
       "birthDate": "1994",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 53,
       "lowestRank": 58
     },
@@ -1333,7 +1306,6 @@
       "thirdaryScore": 8,
       "birthDate": "1994-01-25",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 54,
       "lowestRank": 59
     },
@@ -1353,7 +1325,6 @@
       "thirdaryScore": 7.5,
       "birthDate": "1997-08-28",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 56,
       "lowestRank": 60
     },
@@ -1372,7 +1343,6 @@
       "thirdaryScore": 7.5,
       "birthDate": "1991-11-07",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 60,
       "lowestRank": 67
     },
@@ -1392,7 +1362,6 @@
       "thirdaryScore": 7.5,
       "birthDate": "1966",
       "isSenior": true,
-      "rankChange": -1,
       "highestRank": 57,
       "lowestRank": 62
     },
@@ -1412,7 +1381,6 @@
       "thirdaryScore": 7.333333333333333,
       "birthDate": "1979-03-20",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 58,
       "lowestRank": 63
     },
@@ -1432,7 +1400,6 @@
       "thirdaryScore": 7.25,
       "birthDate": "1988",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 63,
       "lowestRank": 71
     },
@@ -1452,7 +1419,6 @@
       "thirdaryScore": 7,
       "birthDate": "1990",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 59,
       "lowestRank": 65
     },
@@ -1471,7 +1437,6 @@
       "thirdaryScore": 7,
       "birthDate": "1878",
       "isSenior": true,
-      "rankChange": -1,
       "highestRank": 65,
       "lowestRank": 66
     },
@@ -1491,7 +1456,6 @@
       "thirdaryScore": 7,
       "birthDate": "1981-10-05",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 60,
       "lowestRank": 67
     },
@@ -1511,7 +1475,6 @@
       "thirdaryScore": 7,
       "birthDate": "1996",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 61,
       "lowestRank": 68
     },
@@ -1531,7 +1494,6 @@
       "thirdaryScore": 7,
       "birthDate": "1981-10-12",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 63,
       "lowestRank": 69
     },
@@ -1551,7 +1513,6 @@
       "thirdaryScore": 7,
       "birthDate": "1990-04-12",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 64,
       "lowestRank": 70
     },
@@ -1571,7 +1532,6 @@
       "thirdaryScore": 7,
       "birthDate": "1992-05-13",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 66,
       "lowestRank": 71
     },
@@ -1591,7 +1551,6 @@
       "thirdaryScore": 7,
       "birthDate": "1965",
       "isSenior": true,
-      "rankChange": -1,
       "highestRank": 68,
       "lowestRank": 72
     },
@@ -1611,7 +1570,6 @@
       "thirdaryScore": 7,
       "birthDate": "1991-06-11",
       "isSenior": false,
-      "rankChange": -1,
       "highestRank": 69,
       "lowestRank": 73
     }
@@ -1649,8 +1607,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 0.3333333333333333,
       "birthDate": "1977-12-05",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jorina Baars",
@@ -1701,8 +1658,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.4,
       "birthDate": "1979-11-17",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Amanda Serrano",
@@ -1718,8 +1674,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.5,
       "birthDate": "1988-10-09",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Ana Julaton",
@@ -1736,8 +1691,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.5,
       "birthDate": "1983-11-28",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Marina Shafir",
@@ -1754,8 +1708,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.5,
       "birthDate": "1988",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Natalia Diachkova",
@@ -1772,8 +1725,7 @@
       "lastUpdated": "2026-11-01T00:43:28.960Z",
       "thirdaryScore": 0.5,
       "birthDate": "1994",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Paul Slowinski",
@@ -1790,8 +1742,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 0.5,
       "birthDate": "1980",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Gökhan Saki",
@@ -1808,8 +1759,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.5,
       "birthDate": "1983",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Errol Zimmerman",
@@ -1826,8 +1776,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.5,
       "birthDate": "1986",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Izu Ugonoh",
@@ -1844,8 +1793,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.5,
       "birthDate": "1986",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Tomasz Sarara",
@@ -1861,8 +1809,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.5,
       "birthDate": "1985",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Joe Schilling",
@@ -1879,8 +1826,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 0.5714285714285714,
       "birthDate": "1984",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jessamyn Duke",
@@ -1897,8 +1843,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.6,
       "birthDate": "1986-06-24",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Lorenzo Hunt",
@@ -1915,8 +1860,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 0.6,
       "birthDate": "1982-09-09",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Yuji Sakuragi",
@@ -1933,8 +1877,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.64,
       "birthDate": "1977",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Charles Bennett (fighter)",
@@ -1951,8 +1894,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 0.6458333333333334,
       "birthDate": "1979",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Rachael Ostovich",
@@ -1969,8 +1911,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1991-02-25",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Gentleman Jack Gallagher",
@@ -1987,8 +1928,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1990",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Andy Souwer",
@@ -2005,8 +1945,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1982",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jason Wilnis",
@@ -2023,8 +1962,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1990",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Alan Karaev",
@@ -2041,8 +1979,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1977",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Junna Tsukii",
@@ -2058,8 +1995,7 @@
       "lastUpdated": "2026-11-01T00:43:28.960Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1991",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jason Guida",
@@ -2076,8 +2012,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 0.6785714285714286,
       "birthDate": "1977-08-04",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Viacheslav Datsik",
@@ -2094,8 +2029,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.7058823529411765,
       "birthDate": "1980",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Darren Jackson (fighter)",
@@ -2110,8 +2044,7 @@
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Darren_Jackson_(fighter)",
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 0.7142857142857143,
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Karim Ghajji",
@@ -2128,8 +2061,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.75,
       "birthDate": "1981",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Malaipet Sasiprapa",
@@ -2146,8 +2078,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.75,
       "birthDate": "1981-12-21",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jessica Borga",
@@ -2164,8 +2095,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.75,
       "birthDate": "1989-12-18",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Mai Ichii",
@@ -2181,8 +2111,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.8,
       "birthDate": "1980",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Hongman Choi",
@@ -2199,8 +2128,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.8,
       "birthDate": "1980",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "James McSweeney",
@@ -2217,8 +2145,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 0.8333333333333334,
       "birthDate": "1980",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "David Douglas (fighter)",
@@ -2235,8 +2162,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 0.8333333333333334,
       "birthDate": "1982",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Shingo Suzuki (mixed martial artist)",
@@ -2253,8 +2179,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.8666666666666667,
       "birthDate": "1986-04-30",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jeremiah Riggs",
@@ -2271,8 +2196,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 0.875,
       "birthDate": "1982-12-17",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Marcus Brimage",
@@ -2289,8 +2213,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 0.875,
       "birthDate": "1985-04-06",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Bec Rawlings",
@@ -2307,8 +2230,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.8888888888888888,
       "birthDate": "1989",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Hikaru Sato",
@@ -2325,8 +2247,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.9230769230769231,
       "birthDate": "1980",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Kaitlin Young",
@@ -2343,8 +2264,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 0.9230769230769231,
       "birthDate": "1985-09-15",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Sokoudjou",
@@ -2361,8 +2281,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1,
       "birthDate": "1984-04-18",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Jay Silva",
@@ -2379,8 +2298,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 1,
       "birthDate": "1981-05-25",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Sijara Eubanks",
@@ -2397,8 +2315,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 1,
       "birthDate": "1985-04-27",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Ashlee Evans-Smith",
@@ -2415,8 +2332,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 1,
       "birthDate": "1987-07-09",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Peggy Morgan",
@@ -2433,8 +2349,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 1,
       "birthDate": "1979",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Rick Cheek",
@@ -2451,8 +2366,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 1,
       "birthDate": "1977",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "John Kavanagh (martial artist)",
@@ -2468,8 +2382,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1,
       "birthDate": "1978",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Anderson Silva (kickboxer)",
@@ -2486,8 +2399,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1,
       "birthDate": "1986",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Julia Dorny",
@@ -2504,8 +2416,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 1,
       "birthDate": "1990-02-20",
-      "isSenior": false,
-      "rankChange": -1
+      "isSenior": false
     },
     {
       "name": "Nobuhiro Tsurumaki",
@@ -2739,8 +2650,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 0.5,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -29
+      "isSenior": true
     },
     {
       "name": "Perry Ubeda",
@@ -2774,8 +2684,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 0.5333333333333333,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -30
+      "isSenior": true
     },
     {
       "name": "Andrei Kopylov",
@@ -2843,8 +2752,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 0.6666666666666666,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -33
+      "isSenior": true
     },
     {
       "name": "Lee Hasdell",
@@ -3030,8 +2938,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 0.9285714285714286,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -43
+      "isSenior": true
     },
     {
       "name": "Hideki Kadowaki",
@@ -3198,8 +3105,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1,
       "birthDate": "1965",
-      "isSenior": true,
-      "rankChange": -52
+      "isSenior": true
     },
     {
       "name": "Przemysław Saleta",
@@ -3233,8 +3139,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 1,
       "birthDate": "1969",
-      "isSenior": true,
-      "rankChange": -53
+      "isSenior": true
     },
     {
       "name": "Ray Mercer",
@@ -3268,8 +3173,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1,
       "birthDate": "1960",
-      "isSenior": true,
-      "rankChange": -54
+      "isSenior": true
     },
     {
       "name": "Johil de Oliveira",
@@ -3557,8 +3461,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.3333333333333333,
       "birthDate": "1959-09-23",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jens Pulver",
@@ -3575,8 +3478,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 1.4210526315789473,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Minoru Suzuki",
@@ -3592,8 +3494,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.45,
       "birthDate": "1968-06-17",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Roman Zentsov",
@@ -3610,8 +3511,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 1.5,
       "birthDate": "1973-09-10",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Eric Esch",
@@ -3628,8 +3528,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 1.5,
       "birthDate": "1966",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Luiz Azeredo",
@@ -3646,8 +3545,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 1.5,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Enson Inoue",
@@ -3664,8 +3562,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 1.5,
       "birthDate": "1967",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Matt Hamill",
@@ -3682,8 +3579,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 1.5,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Roberto Traven",
@@ -3700,8 +3596,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1.5,
       "birthDate": "1968-09-16",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kazushi Sakuraba",
@@ -3718,8 +3613,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.5294117647058822,
       "birthDate": "1969",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kalib Starnes",
@@ -3736,8 +3630,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1.5454545454545454,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Keith Jardine",
@@ -3754,8 +3647,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 1.5454545454545454,
       "birthDate": "1975-10-31",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Carlos Barreto (fighter)",
@@ -3772,8 +3664,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 1.5555555555555556,
       "birthDate": "1968",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jason MacDonald",
@@ -3790,8 +3681,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1.5625,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Matt Serra",
@@ -3808,8 +3698,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 1.5714285714285714,
       "birthDate": "1974-06-02",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Shonie Carter",
@@ -3826,8 +3715,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 1.59375,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mark Coleman",
@@ -3844,8 +3732,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 1.6,
       "birthDate": "1964",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Phil Cardella",
@@ -3861,8 +3748,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 1.6,
       "birthDate": "1976-07-09",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mike van Arsdale",
@@ -3879,8 +3765,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 1.6,
       "birthDate": "1965",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Christian Wellisch",
@@ -3897,8 +3782,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 1.6,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Yuki Kondo",
@@ -3915,8 +3799,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.6097560975609757,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Ken Shamrock",
@@ -3933,8 +3816,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 1.6470588235294117,
       "birthDate": "1964",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Travis Lutter",
@@ -3951,8 +3833,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 1.6666666666666667,
       "birthDate": "1973-05-12",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Chris Lytle",
@@ -3969,8 +3850,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 1.7222222222222223,
       "birthDate": "1974-08-18",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Randy Couture",
@@ -3987,8 +3867,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 1.7272727272727273,
       "birthDate": "1963-06-22",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Tito Ortiz",
@@ -4005,8 +3884,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 1.75,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Masakazu Imanari",
@@ -4023,8 +3901,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.8181818181818181,
       "birthDate": "1976-02-10",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Pedro Rizzo",
@@ -4041,8 +3918,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1.8181818181818181,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Semmy Schilt",
@@ -4059,8 +3935,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.8571428571428572,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Dean Lister",
@@ -4077,8 +3952,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 1.8571428571428572,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Renzo Gracie",
@@ -4095,8 +3969,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 1.8571428571428572,
       "birthDate": "1967-03-11",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Melvin Manhoef",
@@ -4113,8 +3986,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.8823529411764706,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jorge Patino",
@@ -4131,8 +4003,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 1.894736842105263,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Cyrille Diabaté",
@@ -4149,8 +4020,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 1.9,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Yves Edwards",
@@ -4167,8 +4037,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 1.9090909090909092,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mike Pyle (fighter)",
@@ -4185,8 +4054,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 1.9285714285714286,
       "birthDate": "1975-09-18",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Ferrid Kheder",
@@ -4202,8 +4070,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2,
       "birthDate": "1975-03-03",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mighty Mo (kickboxer)",
@@ -4220,8 +4087,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 2,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Fabiano Iha",
@@ -4238,8 +4104,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2,
       "birthDate": "1970-07-28",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Yuichi Watanabe",
@@ -4256,8 +4121,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 2,
       "birthDate": "1962",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "John-Olav Einemo",
@@ -4274,8 +4138,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 2,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jérôme Le Banner",
@@ -4292,8 +4155,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kevin Jackson",
@@ -4309,8 +4171,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 2,
       "birthDate": "1964",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Rafael Cordeiro",
@@ -4327,8 +4188,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jason Ellis",
@@ -4345,8 +4205,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2,
       "birthDate": "1971",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kensuke Sasaki",
@@ -4363,8 +4222,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2,
       "birthDate": "1966",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kathy Long",
@@ -4380,8 +4238,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 2,
       "birthDate": "1964",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Marcus Davis",
@@ -4398,8 +4255,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 2.090909090909091,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Dan Henderson",
@@ -4416,8 +4272,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 2.1333333333333333,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Marcus Aurélio",
@@ -4434,8 +4289,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.2,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Justin McCully",
@@ -4452,8 +4306,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 2.2,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jorge Rivera (fighter)",
@@ -4470,8 +4323,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 2.2222222222222223,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Marco Ruas",
@@ -4487,8 +4339,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 2.25,
       "birthDate": "1961",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Willie Williams (karateka)",
@@ -4505,8 +4356,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.25,
       "birthDate": "1951",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Yoshihiro Akiyama",
@@ -4522,8 +4372,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2.2857142857142856,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Frank Shamrock",
@@ -4540,8 +4389,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 2.3,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jeff Monson",
@@ -4558,8 +4406,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 2.3076923076923075,
       "birthDate": "1971-01-18",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Matt Lindland",
@@ -4576,8 +4423,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 2.3333333333333335,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Frank Trigg",
@@ -4593,8 +4439,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.3333333333333335,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Chuck Liddell",
@@ -4611,8 +4456,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 2.3333333333333335,
       "birthDate": "1969",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kenny Florian",
@@ -4629,8 +4473,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 2.3333333333333335,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Eduardo Fraga",
@@ -4647,8 +4490,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.3333333333333335,
       "birthDate": "1973-11-20",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Gilbert Yvel",
@@ -4665,8 +4507,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2.5,
       "birthDate": "1976-06-30",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Wanderlei Silva",
@@ -4683,8 +4524,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 2.5,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Haim Gozali",
@@ -4701,8 +4541,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2.5,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Dan Evensen",
@@ -4719,8 +4558,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 2.5,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mikey Burnett",
@@ -4737,8 +4575,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 2.5,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kimbo Slice",
@@ -4755,8 +4592,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 2.5,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Vener Galiev",
@@ -4772,8 +4608,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 2.533333333333333,
       "birthDate": "1975-07-01",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Cheick Kongo",
@@ -4790,8 +4625,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2.5833333333333335,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Spencer Fisher",
@@ -4808,8 +4642,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 2.6666666666666665,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Ron Waterman",
@@ -4826,8 +4659,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.6666666666666665,
       "birthDate": "1965",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Kiyoshi Tamura",
@@ -4844,8 +4676,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2.727272727272727,
       "birthDate": "1969",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Falaniko Vitale",
@@ -4862,8 +4693,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.727272727272727,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Ian Freeman (mixed martial artist)",
@@ -4880,8 +4710,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 2.857142857142857,
       "birthDate": "1966",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mike Brown (fighter)",
@@ -4898,8 +4727,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 2.888888888888889,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Joey Villaseñor",
@@ -4916,8 +4744,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 2.9,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Hayato Sakurai",
@@ -4934,8 +4761,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 2.923076923076923,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mitsuya Nagai",
@@ -4952,8 +4778,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 3,
       "birthDate": "1968",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Alberto Crane",
@@ -4970,8 +4795,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 3,
       "birthDate": "1976-07-14",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Nate Quarry",
@@ -4988,8 +4812,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 3,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Wallid Ismail",
@@ -5006,8 +4829,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 3,
       "birthDate": "1968",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Cung Le",
@@ -5024,8 +4846,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 3,
       "birthDate": "1972",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Rodrigo Gracie",
@@ -5042,8 +4863,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 3,
       "birthDate": "1974-03-11",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Paul Creighton",
@@ -5060,8 +4880,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 3,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Masakatsu Funaki",
@@ -5078,8 +4897,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 3.076923076923077,
       "birthDate": "1969",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Renato Sobral",
@@ -5096,8 +4914,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 3.0833333333333335,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Trevor Prangley",
@@ -5114,8 +4931,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 3.090909090909091,
       "birthDate": "1972-08-24",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Anderson Silva",
@@ -5132,8 +4948,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 3.090909090909091,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Tim Sylvia",
@@ -5150,8 +4965,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 3.1,
       "birthDate": "1976-03-05",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jay Hieron",
@@ -5168,8 +4982,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 3.2857142857142856,
       "birthDate": "1976-07-29",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Antônio Rodrigo Nogueira",
@@ -5186,8 +4999,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 3.4,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Oleg Taktarov",
@@ -5204,8 +5016,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 3.4,
       "birthDate": "1967",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mirko Cro Cop",
@@ -5222,8 +5033,7 @@
       "lastUpdated": "2026-11-01T00:43:28.956Z",
       "thirdaryScore": 3.4545454545454546,
       "birthDate": "1974-09-10",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Naoya Ogawa",
@@ -5240,8 +5050,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 3.5,
       "birthDate": "1968",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Pat Miletich",
@@ -5258,8 +5067,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 3.625,
       "birthDate": "1968",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Evan Tanner",
@@ -5276,8 +5084,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 4,
       "birthDate": "1971",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Marcos da Matta",
@@ -5294,8 +5101,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 4,
       "birthDate": "1973-03-18",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Yuki Nakai",
@@ -5311,8 +5117,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 4,
       "birthDate": "1970",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Yodsanan Sor Nanthachai",
@@ -5329,8 +5134,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 4,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Rich Franklin",
@@ -5347,8 +5151,7 @@
       "lastUpdated": "2026-11-01T00:43:28.952Z",
       "thirdaryScore": 4.142857142857143,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Jeremy Horn",
@@ -5365,8 +5168,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 4.181818181818182,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Rambaa Somdet",
@@ -5383,8 +5185,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 4.333333333333333,
       "birthDate": "1974-08-30",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Hélio Gracie",
@@ -5400,8 +5201,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 4.5,
       "birthDate": "1913",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Matt Hughes (fighter)",
@@ -5418,8 +5218,7 @@
       "lastUpdated": "2026-11-01T00:43:28.953Z",
       "thirdaryScore": 5,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Fallon Fox",
@@ -5436,8 +5235,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 5,
       "birthDate": "1975",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Igor Vovchanchyn",
@@ -5454,8 +5252,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 5.6,
       "birthDate": "1973-08-06",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Fedor Emelianenko",
@@ -5472,8 +5269,7 @@
       "lastUpdated": "2026-11-01T00:43:28.958Z",
       "thirdaryScore": 5.714285714285714,
       "birthDate": "1976",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Shane Carwin",
@@ -5490,8 +5286,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 6,
       "birthDate": "1975-01-04",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Ralph Gracie",
@@ -5508,8 +5303,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 6,
       "birthDate": "1971",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Bret Bergmark",
@@ -5526,8 +5320,7 @@
       "lastUpdated": "2026-11-01T00:43:28.951Z",
       "thirdaryScore": 6,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Bas Rutten",
@@ -5544,8 +5337,7 @@
       "lastUpdated": "2026-11-01T00:43:28.957Z",
       "thirdaryScore": 7,
       "birthDate": "1965",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Mitsuyo Maeda",
@@ -5561,8 +5353,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 7,
       "birthDate": "1878",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Royce Gracie",
@@ -5579,8 +5370,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 7.5,
       "birthDate": "1966",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Ron Sparks (fighter)",
@@ -5597,8 +5387,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 8,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Megumi Fujii",
@@ -5615,8 +5404,7 @@
       "lastUpdated": "2026-11-01T00:43:28.959Z",
       "thirdaryScore": 8.666666666666666,
       "birthDate": "1974",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Sean Sherk",
@@ -5633,8 +5421,7 @@
       "lastUpdated": "2026-11-01T00:43:28.954Z",
       "thirdaryScore": 9,
       "birthDate": "1973",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     },
     {
       "name": "Rickson Gracie",
@@ -5651,8 +5438,7 @@
       "lastUpdated": "2026-11-01T00:43:28.955Z",
       "thirdaryScore": 11,
       "birthDate": "1959-11-21",
-      "isSenior": true,
-      "rankChange": -1
+      "isSenior": true
     }
   ],
   "sports": {
@@ -5713,7 +5499,6 @@
         "birthDate": "1963",
         "isSenior": true,
         "previousRank": 3,
-        "rankChange": 1,
         "highestRank": 3,
         "lowestRank": 8
       },
@@ -5734,7 +5519,6 @@
         "birthDate": "1980",
         "isSenior": false,
         "previousRank": 4,
-        "rankChange": -1,
         "highestRank": 3,
         "lowestRank": 6
       },
@@ -6031,7 +5815,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 19,
-        "rankChange": -1,
         "highestRank": 17,
         "lowestRank": 34
       },
@@ -6052,7 +5835,6 @@
         "birthDate": "1961",
         "isSenior": true,
         "previousRank": 20,
-        "rankChange": -1,
         "highestRank": 18,
         "lowestRank": 20
       },
@@ -6073,7 +5855,6 @@
         "birthDate": "1985-07-18",
         "isSenior": false,
         "previousRank": 21,
-        "rankChange": -1,
         "highestRank": 18,
         "lowestRank": 36
       },
@@ -6093,7 +5874,6 @@
         "birthDate": "2004",
         "isSenior": false,
         "previousRank": 22,
-        "rankChange": -1,
         "highestRank": 19,
         "lowestRank": 37
       },
@@ -6114,7 +5894,6 @@
         "birthDate": "1964",
         "isSenior": true,
         "previousRank": 23,
-        "rankChange": -1,
         "highestRank": 20,
         "lowestRank": 38
       },
@@ -6135,7 +5914,6 @@
         "birthDate": "1983-02-11",
         "isSenior": false,
         "previousRank": 24,
-        "rankChange": -1,
         "highestRank": 10,
         "lowestRank": 39
       },
@@ -6155,7 +5933,6 @@
         "birthDate": "1975-10-14",
         "isSenior": true,
         "previousRank": 25,
-        "rankChange": -1,
         "highestRank": 22,
         "lowestRank": 42
       },
@@ -6176,7 +5953,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 26,
-        "rankChange": -1,
         "highestRank": 23,
         "lowestRank": 45
       },
@@ -6217,7 +5993,6 @@
         "birthDate": "1960",
         "isSenior": true,
         "previousRank": 28,
-        "rankChange": -2,
         "highestRank": 24,
         "lowestRank": 48
       },
@@ -6237,7 +6012,6 @@
         "birthDate": "1964",
         "isSenior": true,
         "previousRank": 29,
-        "rankChange": -1,
         "highestRank": 26,
         "lowestRank": 51
       },
@@ -6258,7 +6032,6 @@
         "birthDate": "1972",
         "isSenior": true,
         "previousRank": 30,
-        "rankChange": -1,
         "highestRank": 27,
         "lowestRank": 52
       },
@@ -6279,7 +6052,6 @@
         "birthDate": "1971",
         "isSenior": true,
         "previousRank": 31,
-        "rankChange": -1,
         "highestRank": 28,
         "lowestRank": 53
       },
@@ -6300,7 +6072,6 @@
         "birthDate": "1962",
         "isSenior": true,
         "previousRank": 32,
-        "rankChange": -1,
         "highestRank": 29,
         "lowestRank": 54
       },
@@ -6321,7 +6092,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 33,
-        "rankChange": -1,
         "highestRank": 30,
         "lowestRank": 56
       },
@@ -6342,7 +6112,6 @@
         "birthDate": "1963",
         "isSenior": true,
         "previousRank": 34,
-        "rankChange": -1,
         "highestRank": 31,
         "lowestRank": 58
       },
@@ -6362,7 +6131,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 35,
-        "rankChange": -1,
         "highestRank": 21,
         "lowestRank": 60
       },
@@ -6383,7 +6151,6 @@
         "birthDate": "1974",
         "isSenior": true,
         "previousRank": 36,
-        "rankChange": -1,
         "highestRank": 33,
         "lowestRank": 63
       },
@@ -6404,7 +6171,6 @@
         "birthDate": "1985",
         "isSenior": false,
         "previousRank": 37,
-        "rankChange": -1,
         "highestRank": 34,
         "lowestRank": 65
       },
@@ -6425,7 +6191,6 @@
         "birthDate": "1989",
         "isSenior": false,
         "previousRank": 38,
-        "rankChange": -1,
         "highestRank": 35,
         "lowestRank": 67
       },
@@ -6446,7 +6211,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 39,
-        "rankChange": -1,
         "highestRank": 36,
         "lowestRank": 68
       },
@@ -6467,7 +6231,6 @@
         "birthDate": "1954-09-10",
         "isSenior": true,
         "previousRank": 40,
-        "rankChange": -1,
         "highestRank": 37,
         "lowestRank": 69
       },
@@ -6488,7 +6251,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 41,
-        "rankChange": -1,
         "highestRank": 39,
         "lowestRank": 41
       },
@@ -6509,7 +6271,6 @@
         "birthDate": "1981",
         "isSenior": false,
         "previousRank": 42,
-        "rankChange": -1,
         "highestRank": 38,
         "lowestRank": 74
       },
@@ -6530,7 +6291,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 43,
-        "rankChange": -1,
         "highestRank": 39,
         "lowestRank": 76
       },
@@ -6550,7 +6310,6 @@
         "birthDate": "2003",
         "isSenior": false,
         "previousRank": 44,
-        "rankChange": -1,
         "highestRank": 40,
         "lowestRank": 44
       },
@@ -6571,7 +6330,6 @@
         "birthDate": "1970-10-14",
         "isSenior": true,
         "previousRank": 45,
-        "rankChange": -1,
         "highestRank": 41,
         "lowestRank": 45
       },
@@ -6592,7 +6350,6 @@
         "birthDate": "1990",
         "isSenior": false,
         "previousRank": 46,
-        "rankChange": -1,
         "highestRank": 42,
         "lowestRank": 46
       },
@@ -6613,7 +6370,6 @@
         "birthDate": "1974",
         "isSenior": true,
         "previousRank": 47,
-        "rankChange": -1,
         "highestRank": 43,
         "lowestRank": 47
       },
@@ -6634,7 +6390,6 @@
         "birthDate": "1989-02-08",
         "isSenior": false,
         "previousRank": 48,
-        "rankChange": -1,
         "highestRank": 47,
         "lowestRank": 48
       },
@@ -6654,7 +6409,6 @@
         "birthDate": "1991",
         "isSenior": false,
         "previousRank": 49,
-        "rankChange": -1,
         "highestRank": 46,
         "lowestRank": 49
       },
@@ -6674,7 +6428,6 @@
         "birthDate": "1993-09-17",
         "isSenior": false,
         "previousRank": 50,
-        "rankChange": -1,
         "highestRank": 47,
         "lowestRank": 50
       },
@@ -6694,7 +6447,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 51,
-        "rankChange": -1,
         "highestRank": 44,
         "lowestRank": 51
       },
@@ -6714,7 +6466,6 @@
         "birthDate": "1999",
         "isSenior": false,
         "previousRank": 52,
-        "rankChange": -1,
         "highestRank": 45,
         "lowestRank": 52
       },
@@ -6734,7 +6485,6 @@
         "birthDate": "1987-09-09",
         "isSenior": false,
         "previousRank": 53,
-        "rankChange": -1,
         "highestRank": 50,
         "lowestRank": 53
       },
@@ -6755,7 +6505,6 @@
         "birthDate": "1980-05-29",
         "isSenior": false,
         "previousRank": 54,
-        "rankChange": -1,
         "highestRank": 51,
         "lowestRank": 54
       },
@@ -6776,7 +6525,6 @@
         "birthDate": "1973",
         "isSenior": true,
         "previousRank": 55,
-        "rankChange": -1,
         "highestRank": 52,
         "lowestRank": 55
       },
@@ -6797,7 +6545,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 56,
-        "rankChange": -1,
         "highestRank": 46,
         "lowestRank": 56
       },
@@ -6818,7 +6565,6 @@
         "birthDate": "1972",
         "isSenior": true,
         "previousRank": 57,
-        "rankChange": -1,
         "highestRank": 47,
         "lowestRank": 57
       },
@@ -6839,7 +6585,6 @@
         "birthDate": "2002-07-30",
         "isSenior": false,
         "previousRank": 58,
-        "rankChange": -1,
         "highestRank": 48,
         "lowestRank": 58
       },
@@ -6860,7 +6605,6 @@
         "birthDate": "1992",
         "isSenior": false,
         "previousRank": 59,
-        "rankChange": -1,
         "highestRank": 56,
         "lowestRank": 74
       },
@@ -6881,7 +6625,6 @@
         "birthDate": "1975",
         "isSenior": true,
         "previousRank": 60,
-        "rankChange": -1,
         "highestRank": 49,
         "lowestRank": 60
       },
@@ -6902,7 +6645,6 @@
         "birthDate": "1998",
         "isSenior": false,
         "previousRank": 61,
-        "rankChange": -1,
         "highestRank": 50,
         "lowestRank": 61
       },
@@ -6923,7 +6665,6 @@
         "birthDate": "1985",
         "isSenior": false,
         "previousRank": 62,
-        "rankChange": -1,
         "highestRank": 51,
         "lowestRank": 62
       },
@@ -6944,7 +6685,6 @@
         "birthDate": "1988-10-06",
         "isSenior": false,
         "previousRank": 63,
-        "rankChange": -1,
         "highestRank": 59,
         "lowestRank": 63
       },
@@ -6965,7 +6705,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 64,
-        "rankChange": -1,
         "highestRank": 61,
         "lowestRank": 64
       },
@@ -6986,7 +6725,6 @@
         "birthDate": "1977-05-26",
         "isSenior": false,
         "previousRank": 65,
-        "rankChange": -1,
         "highestRank": 55,
         "lowestRank": 65
       },
@@ -7007,7 +6745,6 @@
         "birthDate": "1969",
         "isSenior": true,
         "previousRank": 66,
-        "rankChange": -1,
         "highestRank": 52,
         "lowestRank": 66
       },
@@ -7027,7 +6764,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 67,
-        "rankChange": -1,
         "highestRank": 53,
         "lowestRank": 67
       },
@@ -7048,7 +6784,6 @@
         "birthDate": "1982-05-08",
         "isSenior": false,
         "previousRank": 68,
-        "rankChange": -1,
         "highestRank": 54,
         "lowestRank": 68
       },
@@ -7069,7 +6804,6 @@
         "birthDate": "1955",
         "isSenior": true,
         "previousRank": 69,
-        "rankChange": -1,
         "highestRank": 16,
         "lowestRank": 69
       },
@@ -7090,7 +6824,6 @@
         "birthDate": "1986",
         "isSenior": false,
         "previousRank": 70,
-        "rankChange": -1,
         "highestRank": 55,
         "lowestRank": 70
       },
@@ -7111,7 +6844,6 @@
         "birthDate": "1990-11-17",
         "isSenior": false,
         "previousRank": 71,
-        "rankChange": -1,
         "highestRank": 56,
         "lowestRank": 71
       },
@@ -7132,7 +6864,6 @@
         "birthDate": "1985",
         "isSenior": false,
         "previousRank": 72,
-        "rankChange": -1,
         "highestRank": 57,
         "lowestRank": 72
       },
@@ -7153,7 +6884,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 73,
-        "rankChange": -1,
         "highestRank": 58,
         "lowestRank": 73
       },
@@ -7173,7 +6903,6 @@
         "birthDate": "2002-04-14",
         "isSenior": false,
         "previousRank": 74,
-        "rankChange": 1,
         "highestRank": 69,
         "lowestRank": 75
       },
@@ -7194,7 +6923,6 @@
         "birthDate": "1991",
         "isSenior": false,
         "previousRank": 75,
-        "rankChange": -1,
         "highestRank": 68,
         "lowestRank": 75
       },
@@ -7215,7 +6943,6 @@
         "birthDate": "1991",
         "isSenior": false,
         "previousRank": 76,
-        "rankChange": -1,
         "highestRank": 59,
         "lowestRank": 76
       },
@@ -7256,7 +6983,6 @@
         "birthDate": "1975",
         "isSenior": true,
         "previousRank": 78,
-        "rankChange": -2,
         "highestRank": 64,
         "lowestRank": 78
       },
@@ -7277,7 +7003,6 @@
         "birthDate": "1987-08-18",
         "isSenior": false,
         "previousRank": 79,
-        "rankChange": -1,
         "highestRank": 60,
         "lowestRank": 79
       },
@@ -7298,7 +7023,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 80,
-        "rankChange": -1,
         "highestRank": 75,
         "lowestRank": 80
       },
@@ -7319,7 +7043,6 @@
         "birthDate": "1951",
         "isSenior": true,
         "previousRank": 81,
-        "rankChange": -1,
         "highestRank": 76,
         "lowestRank": 81
       },
@@ -7340,7 +7063,6 @@
         "birthDate": "1967",
         "isSenior": true,
         "previousRank": 82,
-        "rankChange": -1,
         "highestRank": 77,
         "lowestRank": 82
       },
@@ -7361,7 +7083,6 @@
         "birthDate": "1987",
         "isSenior": false,
         "previousRank": 83,
-        "rankChange": -1,
         "highestRank": 78,
         "lowestRank": 83
       },
@@ -7382,7 +7103,6 @@
         "birthDate": "1989",
         "isSenior": false,
         "previousRank": 84,
-        "rankChange": -1,
         "highestRank": 79,
         "lowestRank": 84
       }
@@ -8141,7 +7861,6 @@
         "birthDate": "1973",
         "isSenior": true,
         "previousRank": 38,
-        "rankChange": 2,
         "highestRank": 35,
         "lowestRank": 40
       },
@@ -8162,7 +7881,6 @@
         "birthDate": "1993-08-17",
         "isSenior": false,
         "previousRank": 39,
-        "rankChange": -1,
         "highestRank": 29,
         "lowestRank": 39
       },
@@ -8183,7 +7901,6 @@
         "birthDate": "1980",
         "isSenior": false,
         "previousRank": 40,
-        "rankChange": -1,
         "highestRank": 30,
         "lowestRank": 40
       },
@@ -9630,7 +9347,6 @@
         "birthDate": "1996-10-11",
         "isSenior": false,
         "previousRank": 13,
-        "rankChange": 2,
         "highestRank": 13,
         "lowestRank": 16
       },
@@ -9650,7 +9366,6 @@
         "birthDate": "1998",
         "isSenior": false,
         "previousRank": 14,
-        "rankChange": 1,
         "highestRank": 11,
         "lowestRank": 15
       },
@@ -9670,7 +9385,6 @@
         "birthDate": "1990",
         "isSenior": false,
         "previousRank": 15,
-        "rankChange": 1,
         "highestRank": 9,
         "lowestRank": 18
       },
@@ -9691,7 +9405,6 @@
         "birthDate": "2000",
         "isSenior": false,
         "previousRank": 16,
-        "rankChange": 1,
         "highestRank": 13,
         "lowestRank": 19
       },
@@ -9711,7 +9424,6 @@
         "birthDate": "1998",
         "isSenior": false,
         "previousRank": 17,
-        "rankChange": 1,
         "highestRank": 14,
         "lowestRank": 20
       },
@@ -9732,7 +9444,6 @@
         "birthDate": "1979-03-20",
         "isSenior": false,
         "previousRank": 18,
-        "rankChange": 1,
         "highestRank": 10,
         "lowestRank": 21
       },
@@ -9752,7 +9463,6 @@
         "birthDate": "2003",
         "isSenior": false,
         "previousRank": 19,
-        "rankChange": 1,
         "highestRank": 16,
         "lowestRank": 22
       },
@@ -9772,7 +9482,6 @@
         "birthDate": "1995",
         "isSenior": false,
         "previousRank": 20,
-        "rankChange": 1,
         "highestRank": 20,
         "lowestRank": 21
       },
@@ -9792,7 +9501,6 @@
         "birthDate": "1956",
         "isSenior": true,
         "previousRank": 21,
-        "rankChange": 1,
         "highestRank": 19,
         "lowestRank": 22
       },
@@ -9812,7 +9520,6 @@
         "birthDate": "1991-02-25",
         "isSenior": false,
         "previousRank": 22,
-        "rankChange": 1,
         "highestRank": 12,
         "lowestRank": 24
       },
@@ -9833,7 +9540,6 @@
         "birthDate": "1988-02-22",
         "isSenior": false,
         "previousRank": 23,
-        "rankChange": 1,
         "highestRank": 21,
         "lowestRank": 33
       },
@@ -9853,7 +9559,6 @@
         "birthDate": "1999",
         "isSenior": false,
         "previousRank": 24,
-        "rankChange": 1,
         "highestRank": 21,
         "lowestRank": 28
       },
@@ -9873,7 +9578,6 @@
         "birthDate": "1992",
         "isSenior": false,
         "previousRank": 25,
-        "rankChange": 1,
         "highestRank": 25,
         "lowestRank": 26
       },
@@ -9893,7 +9597,6 @@
         "birthDate": "1995-06-09",
         "isSenior": false,
         "previousRank": 26,
-        "rankChange": 1,
         "highestRank": 23,
         "lowestRank": 32
       },
@@ -9913,7 +9616,6 @@
         "birthDate": "1995-03-03",
         "isSenior": false,
         "previousRank": 27,
-        "rankChange": 1,
         "highestRank": 24,
         "lowestRank": 33
       },
@@ -9933,7 +9635,6 @@
         "birthDate": "2002",
         "isSenior": false,
         "previousRank": 28,
-        "rankChange": 1,
         "highestRank": 25,
         "lowestRank": 34
       },
@@ -9953,7 +9654,6 @@
         "birthDate": "1995",
         "isSenior": false,
         "previousRank": 29,
-        "rankChange": 1,
         "highestRank": 26,
         "lowestRank": 37
       },
@@ -9973,7 +9673,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 30,
-        "rankChange": 1,
         "highestRank": 27,
         "lowestRank": 38
       },
@@ -9993,7 +9692,6 @@
         "birthDate": "2003-07-16",
         "isSenior": false,
         "previousRank": 31,
-        "rankChange": 1,
         "highestRank": 28,
         "lowestRank": 32
       },
@@ -10013,7 +9711,6 @@
         "birthDate": "1989-06-15",
         "isSenior": false,
         "previousRank": 32,
-        "rankChange": 1,
         "highestRank": 28,
         "lowestRank": 41
       },
@@ -10034,7 +9731,6 @@
         "birthDate": "2000-08-19",
         "isSenior": false,
         "previousRank": 33,
-        "rankChange": 1,
         "highestRank": 30,
         "lowestRank": 34
       },
@@ -10054,7 +9750,6 @@
         "birthDate": "1999",
         "isSenior": false,
         "previousRank": 34,
-        "rankChange": 1,
         "highestRank": 30,
         "lowestRank": 46
       },
@@ -10074,7 +9769,6 @@
         "birthDate": "1997",
         "isSenior": false,
         "previousRank": 35,
-        "rankChange": 1,
         "highestRank": 35,
         "lowestRank": 36
       },
@@ -10094,7 +9788,6 @@
         "birthDate": "2001-05-09",
         "isSenior": false,
         "previousRank": 36,
-        "rankChange": 1,
         "highestRank": 32,
         "lowestRank": 49
       },
@@ -10115,7 +9808,6 @@
         "birthDate": "1987-02-09",
         "isSenior": false,
         "previousRank": 37,
-        "rankChange": 1,
         "highestRank": 33,
         "lowestRank": 38
       },
@@ -10135,7 +9827,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 38,
-        "rankChange": 1,
         "highestRank": 34,
         "lowestRank": 39
       },
@@ -10155,7 +9846,6 @@
         "birthDate": "1994",
         "isSenior": false,
         "previousRank": 39,
-        "rankChange": 1,
         "highestRank": 35,
         "lowestRank": 40
       },
@@ -10175,7 +9865,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 40,
-        "rankChange": 1,
         "highestRank": 36,
         "lowestRank": 41
       },
@@ -10195,7 +9884,6 @@
         "birthDate": "1998-03-11",
         "isSenior": false,
         "previousRank": 41,
-        "rankChange": 1,
         "highestRank": 37,
         "lowestRank": 42
       },
@@ -10215,7 +9903,6 @@
         "birthDate": "1977-09-16",
         "isSenior": false,
         "previousRank": 42,
-        "rankChange": 1,
         "highestRank": 38,
         "lowestRank": 43
       },
@@ -10235,7 +9922,6 @@
         "birthDate": "2001-01-13",
         "isSenior": false,
         "previousRank": 43,
-        "rankChange": 1,
         "highestRank": 39,
         "lowestRank": 44
       },
@@ -10255,7 +9941,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 44,
-        "rankChange": 1,
         "highestRank": 39,
         "lowestRank": 45
       },
@@ -10275,7 +9960,6 @@
         "birthDate": "1999",
         "isSenior": false,
         "previousRank": 45,
-        "rankChange": 1,
         "highestRank": 40,
         "lowestRank": 46
       },
@@ -10295,7 +9979,6 @@
         "birthDate": "1997-05-02",
         "isSenior": false,
         "previousRank": 46,
-        "rankChange": 1,
         "highestRank": 42,
         "lowestRank": 47
       },
@@ -10315,7 +9998,6 @@
         "birthDate": "2000",
         "isSenior": false,
         "previousRank": 47,
-        "rankChange": 1,
         "highestRank": 41,
         "lowestRank": 48
       },
@@ -10335,7 +10017,6 @@
         "birthDate": "2003-09-04",
         "isSenior": false,
         "previousRank": 48,
-        "rankChange": 1,
         "highestRank": 42,
         "lowestRank": 49
       },
@@ -10355,7 +10036,6 @@
         "birthDate": "2002",
         "isSenior": false,
         "previousRank": 49,
-        "rankChange": 1,
         "highestRank": 43,
         "lowestRank": 50
       },
@@ -10375,7 +10055,6 @@
         "birthDate": "1992",
         "isSenior": false,
         "previousRank": 50,
-        "rankChange": 1,
         "highestRank": 44,
         "lowestRank": 51
       },
@@ -10396,7 +10075,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 51,
-        "rankChange": 1,
         "highestRank": 45,
         "lowestRank": 52
       },
@@ -10417,7 +10095,6 @@
         "birthDate": "1996-09-23",
         "isSenior": false,
         "previousRank": 52,
-        "rankChange": 1,
         "highestRank": 46,
         "lowestRank": 53
       },
@@ -10437,7 +10114,6 @@
         "birthDate": "2001",
         "isSenior": false,
         "previousRank": 53,
-        "rankChange": 1,
         "highestRank": 47,
         "lowestRank": 54
       },
@@ -10457,7 +10133,6 @@
         "birthDate": "1997-04-14",
         "isSenior": false,
         "previousRank": 54,
-        "rankChange": 1,
         "highestRank": 48,
         "lowestRank": 56
       },
@@ -10478,7 +10153,6 @@
         "birthDate": "1977",
         "isSenior": false,
         "previousRank": 55,
-        "rankChange": 1,
         "highestRank": 49,
         "lowestRank": 56
       }
@@ -10500,7 +10174,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 1,
-        "rankChange": 1,
         "highestRank": 1,
         "lowestRank": 2
       },
@@ -10520,7 +10193,6 @@
         "birthDate": "1999",
         "isSenior": false,
         "previousRank": 2,
-        "rankChange": 1,
         "highestRank": 2,
         "lowestRank": 3
       },
@@ -10541,7 +10213,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 3,
-        "rankChange": 1,
         "highestRank": 3,
         "lowestRank": 4
       },
@@ -10562,7 +10233,6 @@
         "birthDate": "2000",
         "isSenior": false,
         "previousRank": 4,
-        "rankChange": 1,
         "highestRank": 4,
         "lowestRank": 5
       },
@@ -10582,7 +10252,6 @@
         "birthDate": "2001-07-24",
         "isSenior": false,
         "previousRank": 5,
-        "rankChange": 1,
         "highestRank": 2,
         "lowestRank": 6
       },
@@ -10602,7 +10271,6 @@
         "birthDate": "2000",
         "isSenior": false,
         "previousRank": 6,
-        "rankChange": 1,
         "highestRank": 6,
         "lowestRank": 7
       },
@@ -10622,7 +10290,6 @@
         "birthDate": "1991-02-25",
         "isSenior": false,
         "previousRank": 7,
-        "rankChange": 1,
         "highestRank": 3,
         "lowestRank": 8
       },
@@ -10642,7 +10309,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 8,
-        "rankChange": 1,
         "highestRank": 4,
         "lowestRank": 9
       },
@@ -10662,7 +10328,6 @@
         "birthDate": "1998",
         "isSenior": false,
         "previousRank": 9,
-        "rankChange": 1,
         "highestRank": 9,
         "lowestRank": 10
       },
@@ -10682,7 +10347,6 @@
         "birthDate": "1995",
         "isSenior": false,
         "previousRank": 10,
-        "rankChange": 1,
         "highestRank": 5,
         "lowestRank": 14
       },
@@ -10702,7 +10366,6 @@
         "birthDate": "1994",
         "isSenior": false,
         "previousRank": 11,
-        "rankChange": 1,
         "highestRank": 11,
         "lowestRank": 12
       },
@@ -10722,7 +10385,6 @@
         "birthDate": "1997-04-14",
         "isSenior": false,
         "previousRank": 12,
-        "rankChange": 1,
         "highestRank": 12,
         "lowestRank": 13
       },
@@ -10742,7 +10404,6 @@
         "birthDate": "1997-05-02",
         "isSenior": false,
         "previousRank": 13,
-        "rankChange": 1,
         "highestRank": 13,
         "lowestRank": 14
       },
@@ -10762,7 +10423,6 @@
         "birthDate": "1994",
         "isSenior": false,
         "previousRank": 14,
-        "rankChange": 1,
         "highestRank": 6,
         "lowestRank": 20
       },
@@ -10782,7 +10442,6 @@
         "birthDate": "1995",
         "isSenior": false,
         "previousRank": 15,
-        "rankChange": 1,
         "highestRank": 7,
         "lowestRank": 21
       },
@@ -10802,7 +10461,6 @@
         "birthDate": "1990",
         "isSenior": false,
         "previousRank": 16,
-        "rankChange": 1,
         "highestRank": 8,
         "lowestRank": 22
       },
@@ -10823,7 +10481,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 17,
-        "rankChange": 1,
         "highestRank": 9,
         "lowestRank": 23
       },
@@ -10843,7 +10500,6 @@
         "birthDate": "1999",
         "isSenior": false,
         "previousRank": 18,
-        "rankChange": 1,
         "highestRank": 10,
         "lowestRank": 27
       },
@@ -10863,7 +10519,6 @@
         "birthDate": "1983-09-12",
         "isSenior": false,
         "previousRank": 19,
-        "rankChange": 1,
         "highestRank": 11,
         "lowestRank": 29
       },
@@ -10884,7 +10539,6 @@
         "birthDate": "1990",
         "isSenior": false,
         "previousRank": 20,
-        "rankChange": 1,
         "highestRank": 12,
         "lowestRank": 30
       },
@@ -10905,7 +10559,6 @@
         "birthDate": "1987-05-11",
         "isSenior": false,
         "previousRank": 21,
-        "rankChange": 1,
         "highestRank": 13,
         "lowestRank": 31
       },
@@ -10925,7 +10578,6 @@
         "birthDate": "1988-07-08",
         "isSenior": false,
         "previousRank": 22,
-        "rankChange": 1,
         "highestRank": 14,
         "lowestRank": 34
       },
@@ -10945,7 +10597,6 @@
         "birthDate": "1996",
         "isSenior": false,
         "previousRank": 23,
-        "rankChange": 1,
         "highestRank": 15,
         "lowestRank": 35
       },
@@ -10966,7 +10617,6 @@
         "birthDate": "1992-08-07",
         "isSenior": false,
         "previousRank": 24,
-        "rankChange": 1,
         "highestRank": 24,
         "lowestRank": 25
       },
@@ -10987,7 +10637,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 25,
-        "rankChange": 1,
         "highestRank": 16,
         "lowestRank": 38
       },
@@ -11008,7 +10657,6 @@
         "birthDate": "1995-04-29",
         "isSenior": false,
         "previousRank": 26,
-        "rankChange": 1,
         "highestRank": 17,
         "lowestRank": 41
       },
@@ -11029,7 +10677,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 27,
-        "rankChange": 1,
         "highestRank": 18,
         "lowestRank": 42
       },
@@ -11049,7 +10696,6 @@
         "birthDate": "1996-05-02",
         "isSenior": false,
         "previousRank": 28,
-        "rankChange": 1,
         "highestRank": 19,
         "lowestRank": 43
       },
@@ -11070,7 +10716,6 @@
         "birthDate": "1987",
         "isSenior": false,
         "previousRank": 29,
-        "rankChange": 1,
         "highestRank": 20,
         "lowestRank": 44
       },
@@ -11090,7 +10735,6 @@
         "birthDate": "1992",
         "isSenior": false,
         "previousRank": 30,
-        "rankChange": 1,
         "highestRank": 21,
         "lowestRank": 45
       },
@@ -11111,7 +10755,6 @@
         "birthDate": "1987-12-19",
         "isSenior": false,
         "previousRank": 31,
-        "rankChange": 1,
         "highestRank": 22,
         "lowestRank": 47
       },
@@ -11132,7 +10775,6 @@
         "birthDate": "1978-02-09",
         "isSenior": false,
         "previousRank": 32,
-        "rankChange": 1,
         "highestRank": 23,
         "lowestRank": 49
       },
@@ -11153,7 +10795,6 @@
         "birthDate": "1982",
         "isSenior": false,
         "previousRank": 33,
-        "rankChange": 1,
         "highestRank": 24,
         "lowestRank": 50
       },
@@ -11173,7 +10814,6 @@
         "birthDate": "1995-06-25",
         "isSenior": false,
         "previousRank": 34,
-        "rankChange": 1,
         "highestRank": 25,
         "lowestRank": 35
       },
@@ -11194,7 +10834,6 @@
         "birthDate": "1988-02-05",
         "isSenior": false,
         "previousRank": 35,
-        "rankChange": 1,
         "highestRank": 26,
         "lowestRank": 36
       },
@@ -11215,7 +10854,6 @@
         "birthDate": "1985-05-01",
         "isSenior": false,
         "previousRank": 36,
-        "rankChange": 1,
         "highestRank": 27,
         "lowestRank": 37
       },
@@ -11236,7 +10874,6 @@
         "birthDate": "1988-02-22",
         "isSenior": false,
         "previousRank": 37,
-        "rankChange": 1,
         "highestRank": 28,
         "lowestRank": 38
       },
@@ -11257,7 +10894,6 @@
         "birthDate": "1979-03-20",
         "isSenior": false,
         "previousRank": 38,
-        "rankChange": 1,
         "highestRank": 29,
         "lowestRank": 39
       },
@@ -11278,7 +10914,6 @@
         "birthDate": "1983-06-07",
         "isSenior": false,
         "previousRank": 39,
-        "rankChange": 1,
         "highestRank": 30,
         "lowestRank": 40
       },
@@ -11299,7 +10934,6 @@
         "birthDate": "1982-04-07",
         "isSenior": false,
         "previousRank": 40,
-        "rankChange": 1,
         "highestRank": 31,
         "lowestRank": 41
       },
@@ -11320,7 +10954,6 @@
         "birthDate": "1986-04-24",
         "isSenior": false,
         "previousRank": 41,
-        "rankChange": 1,
         "highestRank": 32,
         "lowestRank": 42
       },
@@ -11340,7 +10973,6 @@
         "birthDate": "2002",
         "isSenior": false,
         "previousRank": 42,
-        "rankChange": 1,
         "highestRank": 33,
         "lowestRank": 43
       }
@@ -15455,7 +15087,6 @@
         "birthDate": "1994",
         "isSenior": false,
         "previousRank": 8,
-        "rankChange": 1,
         "highestRank": 7,
         "lowestRank": 9
       }
@@ -15562,7 +15193,6 @@
         "birthDate": "1982-09-09",
         "isSenior": false,
         "previousRank": 3,
-        "rankChange": -1,
         "highestRank": 2,
         "lowestRank": 3
       },
@@ -15583,7 +15213,6 @@
         "birthDate": "1991",
         "isSenior": false,
         "previousRank": 4,
-        "rankChange": -1,
         "highestRank": 3,
         "lowestRank": 4
       },
@@ -15603,7 +15232,6 @@
         "birthDate": "1995",
         "isSenior": false,
         "previousRank": 5,
-        "rankChange": -1,
         "highestRank": 4,
         "lowestRank": 5
       },
@@ -15624,7 +15252,6 @@
         "birthDate": "1985-04-22",
         "isSenior": false,
         "previousRank": 6,
-        "rankChange": -1,
         "highestRank": 5,
         "lowestRank": 6
       },
@@ -15645,7 +15272,6 @@
         "birthDate": "1972",
         "isSenior": true,
         "previousRank": 7,
-        "rankChange": -1,
         "highestRank": 6,
         "lowestRank": 7
       },
@@ -15666,7 +15292,6 @@
         "birthDate": "1981-10-17",
         "isSenior": false,
         "previousRank": 8,
-        "rankChange": -1,
         "highestRank": 7,
         "lowestRank": 8
       },
@@ -15687,7 +15312,6 @@
         "birthDate": "1998",
         "isSenior": false,
         "previousRank": 9,
-        "rankChange": -1,
         "highestRank": 8,
         "lowestRank": 9
       },
@@ -15708,7 +15332,6 @@
         "birthDate": "1974-08-18",
         "isSenior": true,
         "previousRank": 10,
-        "rankChange": -1,
         "highestRank": 8,
         "lowestRank": 10
       },
@@ -15729,7 +15352,6 @@
         "birthDate": "1989-12-18",
         "isSenior": false,
         "previousRank": 11,
-        "rankChange": -1,
         "highestRank": 9,
         "lowestRank": 11
       },
@@ -15750,7 +15372,6 @@
         "birthDate": "1980",
         "isSenior": false,
         "previousRank": 12,
-        "rankChange": -1,
         "highestRank": 10,
         "lowestRank": 12
       },
@@ -15771,7 +15392,6 @@
         "birthDate": "1986-05-26",
         "isSenior": false,
         "previousRank": 13,
-        "rankChange": -1,
         "highestRank": 11,
         "lowestRank": 13
       },
@@ -15792,7 +15412,6 @@
         "birthDate": "1973",
         "isSenior": true,
         "previousRank": 14,
-        "rankChange": -1,
         "highestRank": 12,
         "lowestRank": 14
       },
@@ -15813,7 +15432,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 15,
-        "rankChange": -1,
         "highestRank": 13,
         "lowestRank": 15
       },
@@ -15834,7 +15452,6 @@
         "birthDate": "1985",
         "isSenior": false,
         "previousRank": 16,
-        "rankChange": -1,
         "highestRank": 14,
         "lowestRank": 16
       },
@@ -15855,7 +15472,6 @@
         "birthDate": "1984-03-20",
         "isSenior": false,
         "previousRank": 17,
-        "rankChange": -1,
         "highestRank": 1,
         "lowestRank": 20
       },
@@ -15876,7 +15492,6 @@
         "birthDate": "1981-09-02",
         "isSenior": false,
         "previousRank": 18,
-        "rankChange": -1,
         "highestRank": 15,
         "lowestRank": 18
       },
@@ -15897,7 +15512,6 @@
         "birthDate": "1987-03-26",
         "isSenior": false,
         "previousRank": 19,
-        "rankChange": -1,
         "highestRank": 16,
         "lowestRank": 19
       },
@@ -15918,7 +15532,6 @@
         "birthDate": "1992",
         "isSenior": false,
         "previousRank": 20,
-        "rankChange": -1,
         "highestRank": 18,
         "lowestRank": 35
       },
@@ -15939,7 +15552,6 @@
         "birthDate": "1987",
         "isSenior": false,
         "previousRank": 21,
-        "rankChange": -1,
         "highestRank": 17,
         "lowestRank": 21
       },
@@ -15960,7 +15572,6 @@
         "birthDate": "1983",
         "isSenior": false,
         "previousRank": 22,
-        "rankChange": -1,
         "highestRank": 19,
         "lowestRank": 22
       },
@@ -15981,7 +15592,6 @@
         "birthDate": "1989",
         "isSenior": false,
         "previousRank": 23,
-        "rankChange": 2,
         "highestRank": 22,
         "lowestRank": 25
       },
@@ -16002,7 +15612,6 @@
         "birthDate": "1982",
         "isSenior": false,
         "previousRank": 24,
-        "rankChange": -1,
         "highestRank": 20,
         "lowestRank": 24
       },
@@ -16023,7 +15632,6 @@
         "birthDate": "1985-06-23",
         "isSenior": false,
         "previousRank": 25,
-        "rankChange": -1,
         "highestRank": 21,
         "lowestRank": 25
       },
@@ -16044,7 +15652,6 @@
         "birthDate": "1989",
         "isSenior": false,
         "previousRank": 26,
-        "rankChange": -1,
         "highestRank": 23,
         "lowestRank": 26
       },
@@ -16064,7 +15671,6 @@
         "birthDate": "1988",
         "isSenior": false,
         "previousRank": 27,
-        "rankChange": -1,
         "highestRank": 24,
         "lowestRank": 27
       },
@@ -16085,7 +15691,6 @@
         "birthDate": "1990",
         "isSenior": false,
         "previousRank": 28,
-        "rankChange": -1,
         "highestRank": 25,
         "lowestRank": 28
       },
@@ -16106,7 +15711,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 29,
-        "rankChange": -1,
         "highestRank": 26,
         "lowestRank": 29
       },
@@ -16127,7 +15731,6 @@
         "birthDate": "1990",
         "isSenior": false,
         "previousRank": 30,
-        "rankChange": -1,
         "highestRank": 27,
         "lowestRank": 30
       },
@@ -16148,7 +15751,6 @@
         "birthDate": "1982-05-08",
         "isSenior": false,
         "previousRank": 31,
-        "rankChange": -1,
         "highestRank": 28,
         "lowestRank": 31
       },
@@ -16169,7 +15771,6 @@
         "birthDate": "1994",
         "isSenior": false,
         "previousRank": 32,
-        "rankChange": -1,
         "highestRank": 29,
         "lowestRank": 32
       },
@@ -16190,7 +15791,6 @@
         "birthDate": "1977-11-10",
         "isSenior": false,
         "previousRank": 33,
-        "rankChange": -1,
         "highestRank": 30,
         "lowestRank": 33
       },
@@ -16211,7 +15811,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 34,
-        "rankChange": -1,
         "highestRank": 31,
         "lowestRank": 34
       },
@@ -16232,7 +15831,6 @@
         "birthDate": "1983",
         "isSenior": false,
         "previousRank": 35,
-        "rankChange": -1,
         "highestRank": 32,
         "lowestRank": 35
       },
@@ -16253,7 +15851,6 @@
         "birthDate": "1978",
         "isSenior": false,
         "previousRank": 36,
-        "rankChange": -1,
         "highestRank": 33,
         "lowestRank": 36
       },
@@ -16274,7 +15871,6 @@
         "birthDate": "1998",
         "isSenior": false,
         "previousRank": 37,
-        "rankChange": -1,
         "highestRank": 35,
         "lowestRank": 37
       },
@@ -16295,7 +15891,6 @@
         "birthDate": "1980-08-18",
         "isSenior": false,
         "previousRank": 38,
-        "rankChange": -1,
         "highestRank": 36,
         "lowestRank": 38
       },
@@ -16316,7 +15911,6 @@
         "birthDate": "1991-02-25",
         "isSenior": false,
         "previousRank": 39,
-        "rankChange": -1,
         "highestRank": 37,
         "lowestRank": 39
       },
@@ -16337,7 +15931,6 @@
         "birthDate": "1977-08-19",
         "isSenior": false,
         "previousRank": 40,
-        "rankChange": -1,
         "highestRank": 38,
         "lowestRank": 40
       },
@@ -16357,7 +15950,6 @@
         "birthDate": "1986-02-03",
         "isSenior": false,
         "previousRank": 41,
-        "rankChange": -1,
         "highestRank": 39,
         "lowestRank": 41
       },
@@ -16378,7 +15970,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 42,
-        "rankChange": -1,
         "highestRank": 40,
         "lowestRank": 42
       },
@@ -16399,7 +15990,6 @@
         "birthDate": "1981",
         "isSenior": false,
         "previousRank": 43,
-        "rankChange": -1,
         "highestRank": 41,
         "lowestRank": 43
       },
@@ -16420,7 +16010,6 @@
         "birthDate": "1986",
         "isSenior": false,
         "previousRank": 44,
-        "rankChange": -1,
         "highestRank": 42,
         "lowestRank": 44
       },
@@ -16441,7 +16030,6 @@
         "birthDate": "1992",
         "isSenior": false,
         "previousRank": 45,
-        "rankChange": -1,
         "highestRank": 43,
         "lowestRank": 45
       },
@@ -16462,7 +16050,6 @@
         "birthDate": "1985-05-01",
         "isSenior": false,
         "previousRank": 46,
-        "rankChange": -1,
         "highestRank": 44,
         "lowestRank": 46
       },
@@ -16483,7 +16070,6 @@
         "birthDate": "1979",
         "isSenior": false,
         "previousRank": 47,
-        "rankChange": -1,
         "highestRank": 45,
         "lowestRank": 47
       },
@@ -16504,7 +16090,6 @@
         "birthDate": "1989",
         "isSenior": false,
         "previousRank": 48,
-        "rankChange": -1,
         "highestRank": 46,
         "lowestRank": 48
       },
@@ -16525,7 +16110,6 @@
         "birthDate": "1995-03-01",
         "isSenior": false,
         "previousRank": 49,
-        "rankChange": -1,
         "highestRank": 37,
         "lowestRank": 49
       },
@@ -16546,7 +16130,6 @@
         "birthDate": "1970",
         "isSenior": true,
         "previousRank": 50,
-        "rankChange": -1,
         "highestRank": 48,
         "lowestRank": 50
       },
@@ -16567,7 +16150,6 @@
         "birthDate": "1977",
         "isSenior": false,
         "previousRank": 51,
-        "rankChange": -1,
         "highestRank": 50,
         "lowestRank": 51
       },
@@ -16588,7 +16170,6 @@
         "birthDate": "1982",
         "isSenior": false,
         "previousRank": 52,
-        "rankChange": -1,
         "highestRank": 51,
         "lowestRank": 52
       },
@@ -16608,7 +16189,6 @@
         "birthDate": "1980-11-23",
         "isSenior": false,
         "previousRank": 53,
-        "rankChange": -1,
         "highestRank": 52,
         "lowestRank": 53
       },
@@ -16629,7 +16209,6 @@
         "birthDate": "1984",
         "isSenior": false,
         "previousRank": 54,
-        "rankChange": -1,
         "highestRank": 53,
         "lowestRank": 54
       }
