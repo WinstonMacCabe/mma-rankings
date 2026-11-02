@@ -366,6 +366,8 @@ function opponentFromSentence(sentence: string, clean: string): string | null {
     const opp = tokens.join(' ')
     if (opp && opp.toLowerCase() !== clean.toLowerCase()) return opp
   }
+  const plain = /\b(?:against|face|fight|challenge|meet|take on|rematch with)\s+([A-Z][A-Za-z'-]{2,}(?:\s+[A-Z][A-Za-z'-]+){0,2})/.exec(stripWikiMarkup(sentence))
+  if (plain?.[1] && looksLikeOpponent(plain[1], clean)) return plain[1].trim()
   return null
 }
 
@@ -512,7 +514,9 @@ export function scheduledInProse(
         (opponent ? 3 : 0) +
         (/\b(?:face off|face each other|fight on|fight for|challenge)\b/i.test(context) ? 4 : 0) +
         (new RegExp(`\\b${ref.getFullYear()}\\b`).test(context) ? 2 : 0) +
-        (/(?:announced|confirmed|officially|set to|scheduled to)/i.test(context) ? 1 : 0)
+        (/(?:announced|confirmed|officially|set to|scheduled to)/i.test(context) ? 1 : 0) +
+        (/(?:confirmed|officially announced|would defend|fight official)/i.test(context) ? 5 : 0) -
+        (/(?:looking to|option for|hoped to|planned to fight in spring|reportedly)/i.test(context) ? 5 : 0)
       if (!best || score > best.score) best = { score, entry }
   }
   return best?.entry ?? null
