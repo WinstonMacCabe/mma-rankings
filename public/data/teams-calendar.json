@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T00:54:27.278Z",
+  "generatedAt": "2026-11-03T00:55:06.296Z",
   "windowDays": 90,
   "teams": [
     {
@@ -23,7 +23,7 @@
       "name": "New England Patriots",
       "short": "Patriots",
       "label": "NFL",
-      "count": 10,
+      "count": 9,
       "ok": true
     },
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 39,
+      "count": 38,
       "ok": true
     },
     {
@@ -39,7 +39,7 @@
       "name": "Army Black Knights Football",
       "short": "Army FB",
       "label": "NCAAF",
-      "count": 5,
+      "count": 4,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
       "name": "Army Black Knights Rugby",
       "short": "Army Rugby",
       "label": "Rugby",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
@@ -63,7 +63,7 @@
       "name": "Exeter Chiefs",
       "short": "Exeter",
       "label": "Rugby",
-      "count": 9,
+      "count": 8,
       "ok": true
     },
     {
@@ -96,7 +96,7 @@
       "name": "Baltika Kaliningrad",
       "short": "Baltika",
       "label": "Soccer",
-      "count": 5,
+      "count": 4,
       "ok": true
     },
     {
@@ -110,196 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-10-31-army-black-knights-rugby-mary-washington",
-      "date": "2026-10-31",
-      "kickoff": "2026-10-31T16:00:00.000Z",
-      "home": "Army Black Knights Rugby",
-      "away": "Mary Washington",
-      "homeShort": "Army Rugby",
-      "awayShort": "Mary Washington",
-      "competition": "College Rugby",
-      "venue": "Anderson Rugby Complex",
-      "teamKeys": [
-        "army-rugby"
-      ],
-      "homeKeys": [
-        "army-rugby"
-      ],
-      "awayKeys": [],
-      "source": "Army West Point"
-    },
-    {
-      "id": "2026-10-31-memphis-tigers-army-black-knights",
-      "date": "2026-10-31",
-      "kickoff": "2026-11-01T00:00Z",
-      "home": "Memphis Tigers",
-      "away": "Army Black Knights",
-      "homeShort": "Memphis",
-      "awayShort": "Army FB",
-      "competition": "NCAA Football",
-      "venue": "Simmons Bank Liberty Stadium",
-      "teamKeys": [
-        "army-football"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "army-football"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-31-san-jose-sharks-ottawa-senators",
-      "date": "2026-10-31",
-      "kickoff": "2026-10-31T20:00Z",
-      "home": "San Jose Sharks",
-      "away": "Ottawa Senators",
-      "homeShort": "Sharks",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "SAP Center at San Jose",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-31-manchester-city-brighton-hove-albion",
-      "date": "2026-10-31",
-      "kickoff": "2026-10-31T15:00Z",
-      "home": "Manchester City",
-      "away": "Brighton & Hove Albion",
-      "homeShort": "Man City",
-      "awayShort": "BHA",
-      "competition": "Premier League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-10-31-exeter-chiefs-harlequins",
-      "date": "2026-10-31",
-      "kickoff": "2026-10-31T15:00Z",
-      "home": "Exeter Chiefs",
-      "away": "Harlequins",
-      "homeShort": "Exeter",
-      "awayShort": "HAR",
-      "competition": "Premiership Rugby",
-      "venue": "Sandy Park",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [
-        "exeter-chiefs"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-01-los-angeles-lakers-toronto-raptors",
-      "date": "2026-11-01",
-      "kickoff": "2026-11-02T02:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Toronto Raptors",
-      "homeShort": "Lakers",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "crypto.com Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-01-miami-dolphins-new-england-patriots",
-      "date": "2026-11-01",
-      "kickoff": "2026-11-01T21:25Z",
-      "home": "Miami Dolphins",
-      "away": "New England Patriots",
-      "homeShort": "Dolphins",
-      "awayShort": "Patriots",
-      "competition": "NFL",
-      "venue": "Hard Rock Stadium",
-      "teamKeys": [
-        "patriots"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "patriots"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-01-anaheim-ducks-ottawa-senators",
-      "date": "2026-11-01",
-      "kickoff": "2026-11-02T01:00Z",
-      "home": "Anaheim Ducks",
-      "away": "Ottawa Senators",
-      "homeShort": "Ducks",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "Honda Center",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-01-fc-baltika-kaliningrad-akron-tolyatti",
-      "date": "2026-11-01",
-      "kickoff": "2026-11-01T14:30Z",
-      "home": "FC Baltika Kaliningrad",
-      "away": "Akron Tolyatti",
-      "homeShort": "Baltika",
-      "awayShort": "AKT",
-      "competition": "Russian Premier League",
-      "venue": "Kaliningrad Stadium",
-      "teamKeys": [
-        "baltika"
-      ],
-      "homeKeys": [
-        "baltika"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-01-lazio-cagliari",
-      "date": "2026-11-01",
-      "kickoff": "2026-11-01T14:00Z",
-      "home": "Lazio",
-      "away": "Cagliari",
-      "homeShort": "LAZ",
-      "awayShort": "Cagliari",
-      "competition": "Serie A",
-      "venue": "Olimpico",
-      "teamKeys": [
-        "cagliari"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "cagliari"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-02-la-clippers-toronto-raptors",
       "date": "2026-11-02",
@@ -2937,6 +2747,82 @@
       ],
       "homeKeys": [
         "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-30-ottawa-senators-new-york-rangers",
+      "date": "2027-01-30",
+      "kickoff": "2027-01-31T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "New York Rangers",
+      "homeShort": "Senators",
+      "awayShort": "Rangers",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-30-manchester-city-arsenal",
+      "date": "2027-01-30",
+      "kickoff": "2027-01-30T15:00Z",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "homeShort": "Man City",
+      "awayShort": "ARS",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-31-toronto-raptors-boston-celtics",
+      "date": "2027-01-31",
+      "kickoff": "2027-01-31T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "Boston Celtics",
+      "homeShort": "Raptors",
+      "awayShort": "Celtics",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-31-cagliari-parma",
+      "date": "2027-01-31",
+      "kickoff": "2027-01-31T20:00Z",
+      "home": "Cagliari",
+      "away": "Parma",
+      "homeShort": "Cagliari",
+      "awayShort": "PAR",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
       ],
       "awayKeys": [],
       "source": "ESPN"

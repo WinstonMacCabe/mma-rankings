@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T00:43:28.970Z",
+  "lastUpdated": "2026-11-03T00:44:02.926Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2385,6 +2385,18 @@
       "birthDate": "1986",
       "gender": "male"
     },
+    "Piotr Kuberski": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Poland",
+      "weightClass": "Middleweight",
+      "birthDate": "1988-10-24",
+      "gender": "male"
+    },
     "Przemysław Saleta": {
       "wins": 44,
       "kos": 0,
@@ -2446,18 +2458,6 @@
       "nationality": "Poland",
       "weightClass": "Heavyweight",
       "birthDate": "1991",
-      "gender": "male"
-    },
-    "Piotr Kuberski": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Poland",
-      "weightClass": "Middleweight",
-      "birthDate": "1988-10-24",
       "gender": "male"
     },
     "Daniel Rutkowski": {
@@ -2636,6 +2636,18 @@
       "birthDate": "1983",
       "gender": "male"
     },
+    "Jörgen Kruth": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Swedish",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1974",
+      "gender": "male"
+    },
     "Jan Nortje": {
       "wins": 11,
       "kos": 0,
@@ -2659,18 +2671,6 @@
       "weightClass": "Heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jairzinho_Rozenstruik_at_UFC_244.jpg",
       "birthDate": "1988",
-      "gender": "male"
-    },
-    "Jörgen Kruth": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Swedish",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1974",
       "gender": "male"
     },
     "Yodsanan Sor Nanthachai": {
@@ -6217,17 +6217,6 @@
       "birthDate": "1989",
       "gender": "male"
     },
-    "Chris Bacon (boxer)": {
-      "wins": 13,
-      "kos": 6,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 15,
-      "nationality": "Australian",
-      "birthDate": "1969",
-      "gender": "male"
-    },
     "John Morrison (wrestler)": {
       "wins": 1,
       "kos": 0,
@@ -6238,6 +6227,42 @@
       "nationality": "U.S.",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Johnny_Impact_Alpha_1_alt_(cropped).jpg",
       "birthDate": "1979-10-03",
+      "gender": "male"
+    },
+    "James J. Corbett": {
+      "wins": 23,
+      "kos": 10,
+      "losses": 4,
+      "draws": 5,
+      "noContests": 2,
+      "total": 34,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
+    "Charley Burley": {
+      "wins": 83,
+      "kos": 48,
+      "losses": 12,
+      "draws": 2,
+      "noContests": 1,
+      "total": 98,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
+      "birthDate": "1917-09-06",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 0,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Denys Berinchyk": {
@@ -6275,28 +6300,16 @@
       "birthDate": "1991",
       "gender": "male"
     },
-    "James J. Corbett": {
-      "wins": 23,
-      "kos": 10,
-      "losses": 4,
-      "draws": 5,
-      "noContests": 2,
-      "total": 34,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stage_actor_James_J_Corbett_(SAYRE_22828).jpg",
-      "birthDate": "1866",
-      "gender": "male"
-    },
-    "Charley Burley": {
-      "wins": 83,
-      "kos": 48,
-      "losses": 12,
+    "John L. Sullivan": {
+      "wins": 47,
+      "kos": 34,
+      "losses": 1,
       "draws": 2,
       "noContests": 1,
-      "total": 98,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/CharleyBurley.jpeg",
-      "birthDate": "1917-09-06",
+      "total": 51,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
+      "birthDate": "1858",
       "gender": "male"
     },
     "Paulie Malignaggi": {
@@ -6321,18 +6334,6 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
       "birthDate": "1866",
-      "gender": "male"
-    },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 0,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {
@@ -6369,16 +6370,28 @@
       "birthDate": "1990",
       "gender": "male"
     },
-    "John L. Sullivan": {
-      "wins": 47,
-      "kos": 34,
+    "Jem Mace": {
+      "wins": 27,
+      "kos": 14,
+      "losses": 5,
+      "draws": 7,
+      "noContests": 0,
+      "total": 39,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
+      "birthDate": "1831-04-08",
+      "gender": "male"
+    },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
       "losses": 1,
-      "draws": 2,
-      "noContests": 1,
-      "total": 51,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
-      "birthDate": "1858",
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "James DeGale": {
@@ -6405,18 +6418,6 @@
       "birthDate": "1862-12-15",
       "gender": "male"
     },
-    "Jem Mace": {
-      "wins": 27,
-      "kos": 14,
-      "losses": 5,
-      "draws": 7,
-      "noContests": 0,
-      "total": 39,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
-      "birthDate": "1831-04-08",
-      "gender": "male"
-    },
     "John Morrissey": {
       "wins": 3,
       "kos": 0,
@@ -6427,18 +6428,6 @@
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
-      "gender": "male"
-    },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
       "gender": "male"
     },
     "George Gardiner (boxer)": {
@@ -6484,6 +6473,17 @@
       "total": 31,
       "nationality": "Thailand",
       "birthDate": "1987",
+      "gender": "male"
+    },
+    "Chris Bacon (boxer)": {
+      "wins": 13,
+      "kos": 6,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 15,
+      "nationality": "Australian",
+      "birthDate": "1969",
       "gender": "male"
     },
     "Alfredo Angulo": {
