@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:55:06.296Z",
+  "generatedAt": "2026-11-04T00:53:56.359Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-02-la-clippers-toronto-raptors",
-      "date": "2026-11-02",
-      "kickoff": "2026-11-03T03:00Z",
-      "home": "LA Clippers",
-      "away": "Toronto Raptors",
-      "homeShort": "Clippers",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Intuit Dome",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-04-rb-leipzig-manchester-city",
       "date": "2026-11-04",

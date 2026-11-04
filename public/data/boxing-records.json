@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T00:44:02.926Z",
+  "lastUpdated": "2026-11-04T00:42:54.884Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -6217,6 +6217,17 @@
       "birthDate": "1989",
       "gender": "male"
     },
+    "Chris Bacon (boxer)": {
+      "wins": 13,
+      "kos": 6,
+      "losses": 2,
+      "draws": 0,
+      "noContests": 0,
+      "total": 15,
+      "nationality": "Australian",
+      "birthDate": "1969",
+      "gender": "male"
+    },
     "John Morrison (wrestler)": {
       "wins": 1,
       "kos": 0,
@@ -6253,6 +6264,30 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Paulie Malignaggi": {
+      "wins": 36,
+      "kos": 5,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 44,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
+      "birthDate": "1980-11-23",
+      "gender": "male"
+    },
+    "Jack McAuliffe (boxer)": {
+      "wins": 28,
+      "kos": 19,
+      "losses": 0,
+      "draws": 10,
+      "noContests": 0,
+      "total": 38,
+      "nationality": "Irish",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "Professor Mike Donovan": {
       "wins": 25,
       "kos": 0,
@@ -6277,6 +6312,17 @@
       "birthDate": "1988",
       "gender": "male"
     },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
+      "gender": "male"
+    },
     "Emil Novruzov": {
       "wins": 3,
       "kos": 0,
@@ -6287,6 +6333,18 @@
       "nationality": "Azerbaijani Russian",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emil_Novruzov.jpg",
       "birthDate": "1995",
+      "gender": "male"
+    },
+    "Britain Hart": {
+      "wins": 4,
+      "kos": 0,
+      "losses": 4,
+      "draws": 3,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "Utah",
+      "weightClass": "Featherweight",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Ashley Brace": {
@@ -6312,28 +6370,16 @@
       "birthDate": "1858",
       "gender": "male"
     },
-    "Paulie Malignaggi": {
-      "wins": 36,
-      "kos": 5,
-      "losses": 8,
-      "draws": 0,
+    "James DeGale": {
+      "wins": 25,
+      "kos": 12,
+      "losses": 3,
+      "draws": 1,
       "noContests": 0,
-      "total": 44,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
-      "birthDate": "1980-11-23",
-      "gender": "male"
-    },
-    "Jack McAuliffe (boxer)": {
-      "wins": 28,
-      "kos": 19,
-      "losses": 0,
-      "draws": 10,
-      "noContests": 0,
-      "total": 38,
-      "nationality": "Irish",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
-      "birthDate": "1866",
+      "total": 29,
+      "nationality": "England",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
+      "birthDate": "1986-02-03",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {
@@ -6347,27 +6393,16 @@
       "birthDate": "1982-10-10",
       "gender": "male"
     },
-    "Nico Hernandez": {
-      "wins": 12,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
+    "Nonpareil Jack Dempsey": {
+      "wins": 52,
+      "kos": 24,
+      "losses": 3,
+      "draws": 11,
+      "noContests": 2,
+      "total": 68,
       "nationality": "American",
-      "birthDate": "1996-01-04",
-      "gender": "male"
-    },
-    "Britain Hart": {
-      "wins": 4,
-      "kos": 0,
-      "losses": 4,
-      "draws": 3,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "Utah",
-      "weightClass": "Featherweight",
-      "birthDate": "1990",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
+      "birthDate": "1862-12-15",
       "gender": "male"
     },
     "Jem Mace": {
@@ -6394,28 +6429,26 @@
       "birthDate": "1826",
       "gender": "male"
     },
-    "James DeGale": {
-      "wins": 25,
-      "kos": 12,
-      "losses": 3,
+    "Bobby Gunn": {
+      "wins": 23,
+      "kos": 17,
+      "losses": 7,
       "draws": 1,
-      "noContests": 0,
-      "total": 29,
-      "nationality": "England",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
-      "birthDate": "1986-02-03",
+      "noContests": 1,
+      "total": 32,
+      "nationality": "Canada",
+      "birthDate": "1973-12-25",
       "gender": "male"
     },
-    "Nonpareil Jack Dempsey": {
-      "wins": 52,
-      "kos": 24,
-      "losses": 3,
-      "draws": 11,
-      "noContests": 2,
-      "total": 68,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nonpareil_Jack_Dempsey_portrait.jpg",
-      "birthDate": "1862-12-15",
+    "Hannah Rankin": {
+      "wins": 13,
+      "kos": 3,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 21,
+      "nationality": "Scotland",
+      "birthDate": "1990",
       "gender": "male"
     },
     "John Morrissey": {
@@ -6442,28 +6475,6 @@
       "birthDate": "1877",
       "gender": "male"
     },
-    "Bobby Gunn": {
-      "wins": 23,
-      "kos": 17,
-      "losses": 7,
-      "draws": 1,
-      "noContests": 1,
-      "total": 32,
-      "nationality": "Canada",
-      "birthDate": "1973-12-25",
-      "gender": "male"
-    },
-    "Hannah Rankin": {
-      "wins": 13,
-      "kos": 3,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 21,
-      "nationality": "Scotland",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Usanakorn Thawilsuhannawang": {
       "wins": 21,
       "kos": 20,
@@ -6473,17 +6484,6 @@
       "total": 31,
       "nationality": "Thailand",
       "birthDate": "1987",
-      "gender": "male"
-    },
-    "Chris Bacon (boxer)": {
-      "wins": 13,
-      "kos": 6,
-      "losses": 2,
-      "draws": 0,
-      "noContests": 0,
-      "total": 15,
-      "nationality": "Australian",
-      "birthDate": "1969",
       "gender": "male"
     },
     "Alfredo Angulo": {
