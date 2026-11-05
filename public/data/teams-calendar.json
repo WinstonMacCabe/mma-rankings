@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:53:56.359Z",
+  "generatedAt": "2026-11-05T00:56:07.848Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -2806,6 +2806,25 @@
         "cagliari"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-02-dallas-mavericks-toronto-raptors",
+      "date": "2027-02-02",
+      "kickoff": "2027-02-03T01:00Z",
+      "home": "Dallas Mavericks",
+      "away": "Toronto Raptors",
+      "homeShort": "Mavericks",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "American Airlines Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
       "source": "ESPN"
     }
   ]
