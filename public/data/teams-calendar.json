@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:56:07.848Z",
+  "generatedAt": "2026-11-06T00:54:04.767Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 38,
+      "count": 37,
       "ok": true
     },
     {
@@ -55,7 +55,7 @@
       "name": "Manchester City",
       "short": "Man City",
       "label": "Soccer",
-      "count": 20,
+      "count": 19,
       "ok": true
     },
     {
@@ -110,63 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-04-rb-leipzig-manchester-city",
-      "date": "2026-11-04",
-      "kickoff": "2026-11-04T20:00Z",
-      "home": "RB Leipzig",
-      "away": "Manchester City",
-      "homeShort": "RBL",
-      "awayShort": "Man City",
-      "competition": "Champions League",
-      "venue": "Red Bull Arena",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "man-city"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-04-denver-nuggets-toronto-raptors",
-      "date": "2026-11-04",
-      "kickoff": "2026-11-05T02:00Z",
-      "home": "Denver Nuggets",
-      "away": "Toronto Raptors",
-      "homeShort": "Nuggets",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Ball Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-04-buffalo-sabres-ottawa-senators",
-      "date": "2026-11-04",
-      "kickoff": "2026-11-05T00:30Z",
-      "home": "Buffalo Sabres",
-      "away": "Ottawa Senators",
-      "homeShort": "Sabres",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "KeyBank Center",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-05-palmeiras-remo",
       "date": "2026-11-05",
