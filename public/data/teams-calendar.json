@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T00:54:04.767Z",
+  "generatedAt": "2026-11-07T00:53:08.576Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -88,7 +88,7 @@
       "name": "Clube do Remo",
       "short": "Remo",
       "label": "Soccer",
-      "count": 5,
+      "count": 4,
       "ok": true
     },
     {
@@ -110,25 +110,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-05-palmeiras-remo",
-      "date": "2026-11-05",
-      "kickoff": "2026-11-05T22:30Z",
-      "home": "Palmeiras",
-      "away": "Remo",
-      "homeShort": "PAL",
-      "awayShort": "Remo",
-      "competition": "Série A",
-      "venue": "Allianz Parque",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "remo"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-06-milwaukee-bucks-toronto-raptors",
       "date": "2026-11-06",
@@ -455,7 +436,7 @@
     {
       "id": "2026-11-17-winnipeg-jets-ottawa-senators",
       "date": "2026-11-17",
-      "kickoff": "2026-11-18T01:00Z",
+      "kickoff": "2026-11-18T00:00Z",
       "home": "Winnipeg Jets",
       "away": "Ottawa Senators",
       "homeShort": "Jets",
@@ -2761,6 +2742,25 @@
       "awayShort": "Raptors",
       "competition": "NBA",
       "venue": "American Airlines Center",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-04-new-york-knicks-toronto-raptors",
+      "date": "2027-02-04",
+      "kickoff": "2027-02-05T00:30Z",
+      "home": "New York Knicks",
+      "away": "Toronto Raptors",
+      "homeShort": "Knicks",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Madison Square Garden",
       "teamKeys": [
         "raptors"
       ],
