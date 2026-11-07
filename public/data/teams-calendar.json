@@ -100,6 +100,22 @@
       "ok": true
     },
     {
+      "key": "psm-makassar",
+      "name": "PSM Makassar",
+      "short": "PSM Makassar",
+      "label": "Soccer",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "key": "club-tijuana",
+      "name": "Club Tijuana",
+      "short": "Tijuana",
+      "label": "Soccer",
+      "count": 0,
+      "ok": true
+    },
+    {
       "key": "rcb",
       "name": "Royal Challengers Bengaluru",
       "short": "RCB",

@@ -151,6 +151,26 @@ export const FOLLOWED_TEAMS: FollowedTeam[] = [
     ],
   },
   {
+    key: 'psm-makassar',
+    name: 'PSM Makassar',
+    short: 'PSM Makassar',
+    label: 'Soccer',
+    aliases: ['PSM Makassar', 'PSM'],
+    sources: [
+      { kind: 'espn-core', sport: 'soccer', league: 'idn.1', teamId: '8112', competition: 'Liga 1 Indonesia' },
+    ],
+  },
+  {
+    key: 'club-tijuana',
+    name: 'Club Tijuana',
+    short: 'Tijuana',
+    label: 'Soccer',
+    aliases: ['Club Tijuana', 'Tijuana', 'Xolos de Tijuana'],
+    sources: [
+      { kind: 'espn-core', sport: 'soccer', league: 'mex.1', teamId: '10125', competition: 'Liga MX' },
+    ],
+  },
+  {
     key: 'rcb',
     name: 'Royal Challengers Bengaluru',
     short: 'RCB',
