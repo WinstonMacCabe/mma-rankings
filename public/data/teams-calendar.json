@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T00:53:08.576Z",
+  "generatedAt": "2026-11-08T00:53:58.621Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -112,7 +112,7 @@
       "name": "Club Tijuana",
       "short": "Tijuana",
       "label": "Soccer",
-      "count": 0,
+      "count": 1,
       "ok": true
     },
     {
@@ -126,25 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-06-milwaukee-bucks-toronto-raptors",
-      "date": "2026-11-06",
-      "kickoff": "2026-11-07T01:00Z",
-      "home": "Milwaukee Bucks",
-      "away": "Toronto Raptors",
-      "homeShort": "Bucks",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Fiserv Forum",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-07-army-black-knights-air-force-falcons",
       "date": "2026-11-07",
@@ -521,6 +502,25 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-20-tijuana-atlante",
+      "date": "2026-11-20",
+      "kickoff": "2026-11-21T03:00Z",
+      "home": "Tijuana",
+      "away": "Atlante",
+      "homeShort": "Tijuana",
+      "awayShort": "ATL",
+      "competition": "Liga MX",
+      "venue": "Estadio Caliente",
+      "teamKeys": [
+        "club-tijuana"
+      ],
+      "homeKeys": [
+        "club-tijuana"
       ],
       "awayKeys": [],
       "source": "ESPN"
