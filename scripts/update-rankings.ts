@@ -58,6 +58,10 @@ const MIN_SCORE: Partial<Record<SportKey, number>> = {
   sumo: 1.55,
 }
 
+function recordOf(f: { wins: number; losses: number; draws: number }): string {
+  return `${f.wins}-${f.losses}-${f.draws}`
+}
+
 function persistentRankChange(
   fighter: BoxerRecord,
   currentRank: number,
@@ -71,13 +75,19 @@ function persistentRankChange(
     .filter(entry => currentNames.has(entry.fighter.name))
     .sort((a, b) => a.rank - b.rank)
   const previousCommonRank = previousCommon.findIndex(entry => entry.fighter.name === fighter.name) + 1
+  if (previousCommonRank === 0) return prior.fighter.rankChange
+
   const commonNames = new Set(previousCommon.map(entry => entry.fighter.name))
   const currentCommonRank = currentRanked
     .slice(0, currentRank)
     .filter(candidate => commonNames.has(candidate.name)).length
   const movement = previousCommonRank - currentCommonRank
-  if (previousCommonRank === 0) return prior.fighter.rankChange
-  return movement !== 0 ? movement : prior.fighter.rankChange
+
+  // Only record a new movement if the fighter's own record changed.
+  // If their record is untouched, they only moved because someone else entered,
+  // left, or leapfrogged them, which should not create false move arrows.
+  const recordChanged = recordOf(fighter) !== recordOf(prior.fighter)
+  return recordChanged && movement !== 0 ? movement : prior.fighter.rankChange
 }
 
 function maxWinsFor(key: SportKey): number {
