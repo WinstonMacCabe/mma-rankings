@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:53:58.621Z",
+  "generatedAt": "2026-11-09T00:54:00.220Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 37,
+      "count": 36,
       "ok": true
     },
     {
@@ -39,7 +39,7 @@
       "name": "Army Black Knights Football",
       "short": "Army FB",
       "label": "NCAAF",
-      "count": 4,
+      "count": 3,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 12,
+      "count": 11,
       "ok": true
     },
     {
@@ -126,82 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-07-army-black-knights-air-force-falcons",
-      "date": "2026-11-07",
-      "kickoff": "2026-11-08T00:30Z",
-      "home": "Army Black Knights",
-      "away": "Air Force Falcons",
-      "homeShort": "Army FB",
-      "awayShort": "Air Force",
-      "competition": "NCAA Football",
-      "venue": "Michie Stadium",
-      "teamKeys": [
-        "army-football"
-      ],
-      "homeKeys": [
-        "army-football"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-07-ottawa-senators-utah-mammoth",
-      "date": "2026-11-07",
-      "kickoff": "2026-11-08T00:00Z",
-      "home": "Ottawa Senators",
-      "away": "Utah Mammoth",
-      "homeShort": "Senators",
-      "awayShort": "Mammoth",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-07-nottingham-forest-manchester-city",
-      "date": "2026-11-07",
-      "kickoff": "2026-11-07T17:30Z",
-      "home": "Nottingham Forest",
-      "away": "Manchester City",
-      "homeShort": "NFO",
-      "awayShort": "Man City",
-      "competition": "Premier League",
-      "venue": "The City Ground",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "man-city"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-07-cagliari-frosinone",
-      "date": "2026-11-07",
-      "kickoff": "2026-11-07T14:00Z",
-      "home": "Cagliari",
-      "away": "Frosinone",
-      "homeShort": "Cagliari",
-      "awayShort": "FRO",
-      "competition": "Serie A",
-      "venue": "Unipol Domus",
-      "teamKeys": [
-        "cagliari"
-      ],
-      "homeKeys": [
-        "cagliari"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-08-new-england-patriots-green-bay-packers",
       "date": "2026-11-08",
@@ -735,6 +659,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-26-s-o-paulo-remo",
+      "date": "2026-11-26",
+      "kickoff": "2026-11-26T23:00Z",
+      "home": "São Paulo",
+      "away": "Remo",
+      "homeShort": "SAO",
+      "awayShort": "Remo",
+      "competition": "Série A",
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "teamKeys": [
+        "remo"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "remo"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-27-toronto-raptors-brooklyn-nets",
       "date": "2026-11-27",
       "kickoff": "2026-11-28T00:30Z",
@@ -827,25 +770,6 @@
         "baltika"
       ],
       "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-28-s-o-paulo-remo",
-      "date": "2026-11-28",
-      "kickoff": "2026-11-28T20:00Z",
-      "home": "São Paulo",
-      "away": "Remo",
-      "homeShort": "SAO",
-      "awayShort": "Remo",
-      "competition": "Série A",
-      "venue": "Estádio Cícero Pompeu de Toledo",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "remo"
-      ],
       "source": "ESPN"
     },
     {
@@ -984,13 +908,13 @@
     {
       "id": "2026-12-02-remo-corinthians",
       "date": "2026-12-02",
-      "kickoff": "2026-12-02T20:00Z",
+      "kickoff": "2026-12-03T00:30Z",
       "home": "Remo",
       "away": "Corinthians",
       "homeShort": "Remo",
       "awayShort": "COR",
       "competition": "Série A",
-      "venue": "Estadio Evandro Almeida (Baenao)",
+      "venue": "Mangueirão",
       "teamKeys": [
         "remo"
       ],
@@ -2783,6 +2707,44 @@
       "homeKeys": [],
       "awayKeys": [
         "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-06-toronto-raptors-milwaukee-bucks",
+      "date": "2027-02-06",
+      "kickoff": "2027-02-07T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Milwaukee Bucks",
+      "homeShort": "Raptors",
+      "awayShort": "Bucks",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-06-fulham-manchester-city",
+      "date": "2027-02-06",
+      "kickoff": "2027-02-06T15:00Z",
+      "home": "Fulham",
+      "away": "Manchester City",
+      "homeShort": "FUL",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Craven Cottage",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
       ],
       "source": "ESPN"
     }
