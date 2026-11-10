@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T00:54:00.220Z",
+  "generatedAt": "2026-11-10T00:55:23.781Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 43,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
       "name": "New England Patriots",
       "short": "Patriots",
       "label": "NFL",
-      "count": 9,
+      "count": 8,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 11,
+      "count": 12,
       "ok": true
     },
     {
@@ -96,7 +96,7 @@
       "name": "Baltika Kaliningrad",
       "short": "Baltika",
       "label": "Soccer",
-      "count": 4,
+      "count": 3,
       "ok": true
     },
     {
@@ -126,44 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-08-new-england-patriots-green-bay-packers",
-      "date": "2026-11-08",
-      "kickoff": "2026-11-08T21:25Z",
-      "home": "New England Patriots",
-      "away": "Green Bay Packers",
-      "homeShort": "Patriots",
-      "awayShort": "Packers",
-      "competition": "NFL",
-      "venue": "Gillette Stadium",
-      "teamKeys": [
-        "patriots"
-      ],
-      "homeKeys": [
-        "patriots"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-08-fc-baltika-kaliningrad-dynamo-makhachkala",
-      "date": "2026-11-08",
-      "kickoff": "2026-11-08T17:45Z",
-      "home": "FC Baltika Kaliningrad",
-      "away": "Dynamo Makhachkala",
-      "homeShort": "Baltika",
-      "awayShort": "DMA",
-      "competition": "Russian Premier League",
-      "venue": "Kaliningrad Stadium",
-      "teamKeys": [
-        "baltika"
-      ],
-      "homeKeys": [
-        "baltika"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-09-toronto-raptors-memphis-grizzlies",
       "date": "2026-11-09",
@@ -2745,6 +2707,44 @@
       "homeKeys": [],
       "awayKeys": [
         "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-07-toronto-raptors-charlotte-hornets",
+      "date": "2027-02-07",
+      "kickoff": "2027-02-07T23:00Z",
+      "home": "Toronto Raptors",
+      "away": "Charlotte Hornets",
+      "homeShort": "Raptors",
+      "awayShort": "Hornets",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-07-internazionale-cagliari",
+      "date": "2027-02-07",
+      "kickoff": "2027-02-07T20:00Z",
+      "home": "Internazionale",
+      "away": "Cagliari",
+      "homeShort": "INT",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "San Siro",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
       ],
       "source": "ESPN"
     }
