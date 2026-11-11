@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T00:55:23.781Z",
+  "generatedAt": "2026-11-11T00:54:25.942Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 43,
+      "count": 42,
       "ok": true
     },
     {
@@ -126,25 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-09-toronto-raptors-memphis-grizzlies",
-      "date": "2026-11-09",
-      "kickoff": "2026-11-10T00:30Z",
-      "home": "Toronto Raptors",
-      "away": "Memphis Grizzlies",
-      "homeShort": "Raptors",
-      "awayShort": "Grizzlies",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-10-ottawa-senators-washington-capitals",
       "date": "2026-11-10",
@@ -2350,25 +2331,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2027-01-22-exeter-chiefs-bristol-rugby",
-      "date": "2027-01-22",
-      "kickoff": "2027-01-23T00:00Z",
-      "home": "Exeter Chiefs",
-      "away": "Bristol Rugby",
-      "homeShort": "Exeter",
-      "awayShort": "BRI",
-      "competition": "Premiership Rugby",
-      "venue": "Sandy Park",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [
-        "exeter-chiefs"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
       "id": "2027-01-23-brooklyn-nets-toronto-raptors",
       "date": "2027-01-23",
       "kickoff": "2027-01-23T23:00Z",
@@ -2423,6 +2385,25 @@
       "awayKeys": [
         "man-city"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-23-exeter-chiefs-bristol-rugby",
+      "date": "2027-01-23",
+      "kickoff": "2027-01-23T15:00Z",
+      "home": "Exeter Chiefs",
+      "away": "Bristol Rugby",
+      "homeShort": "Exeter",
+      "awayShort": "BRI",
+      "competition": "Premiership Rugby",
+      "venue": "Sandy Park",
+      "teamKeys": [
+        "exeter-chiefs"
+      ],
+      "homeKeys": [
+        "exeter-chiefs"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
