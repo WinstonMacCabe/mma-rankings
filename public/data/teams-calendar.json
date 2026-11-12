@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:54:25.942Z",
+  "generatedAt": "2026-11-12T00:54:40.672Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 43,
       "ok": true
     },
     {
@@ -126,25 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-10-ottawa-senators-washington-capitals",
-      "date": "2026-11-10",
-      "kickoff": "2026-11-11T00:00Z",
-      "home": "Ottawa Senators",
-      "away": "Washington Capitals",
-      "homeShort": "Senators",
-      "awayShort": "Capitals",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-11-toronto-raptors-boston-celtics",
       "date": "2026-11-11",
@@ -2727,6 +2708,44 @@
       "awayKeys": [
         "cagliari"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-09-cleveland-cavaliers-toronto-raptors",
+      "date": "2027-02-09",
+      "kickoff": "2027-02-10T00:00Z",
+      "home": "Cleveland Cavaliers",
+      "away": "Toronto Raptors",
+      "homeShort": "Cavaliers",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "Rocket Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-09-ottawa-senators-columbus-blue-jackets",
+      "date": "2027-02-09",
+      "kickoff": "2027-02-10T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Columbus Blue Jackets",
+      "homeShort": "Senators",
+      "awayShort": "Blue Jackets",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     }
   ]
