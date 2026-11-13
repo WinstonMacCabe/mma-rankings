@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:54:40.672Z",
+  "generatedAt": "2026-11-13T00:54:56.065Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 43,
+      "count": 42,
       "ok": true
     },
     {
@@ -55,7 +55,7 @@
       "name": "Manchester City",
       "short": "Man City",
       "label": "Soccer",
-      "count": 19,
+      "count": 20,
       "ok": true
     },
     {
@@ -126,25 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-11-toronto-raptors-boston-celtics",
-      "date": "2026-11-11",
-      "kickoff": "2026-11-12T00:00Z",
-      "home": "Toronto Raptors",
-      "away": "Boston Celtics",
-      "homeShort": "Raptors",
-      "awayShort": "Celtics",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-12-philadelphia-76ers-toronto-raptors",
       "date": "2026-11-12",
@@ -2746,6 +2727,25 @@
         "senators"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-10-tottenham-hotspur-manchester-city",
+      "date": "2027-02-10",
+      "kickoff": "2027-02-10T20:00Z",
+      "home": "Tottenham Hotspur",
+      "away": "Manchester City",
+      "homeShort": "TOT",
+      "awayShort": "Man City",
+      "competition": "Premier League",
+      "venue": "Tottenham Hotspur Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "man-city"
+      ],
       "source": "ESPN"
     }
   ]

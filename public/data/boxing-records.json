@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T00:42:03.780Z",
+  "lastUpdated": "2026-11-13T00:42:18.989Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -3928,18 +3928,6 @@
       "birthDate": "1988",
       "gender": "male"
     },
-    "Baker Barakat": {
-      "wins": 41,
-      "kos": 0,
-      "losses": 19,
-      "draws": 4,
-      "noContests": 0,
-      "total": 64,
-      "nationality": "German, Kurdish",
-      "weightClass": "Super middleweight",
-      "birthDate": "1981",
-      "gender": "male"
-    },
     "Orlando Wiet": {
       "wins": 8,
       "kos": 4,
@@ -3950,6 +3938,18 @@
       "nationality": "Dutch",
       "weightClass": "Welterweight",
       "birthDate": "1965",
+      "gender": "male"
+    },
+    "Baker Barakat": {
+      "wins": 41,
+      "kos": 0,
+      "losses": 19,
+      "draws": 4,
+      "noContests": 0,
+      "total": 64,
+      "nationality": "German, Kurdish",
+      "weightClass": "Super middleweight",
+      "birthDate": "1981",
       "gender": "male"
     },
     "Hiromi Amada": {
@@ -4523,17 +4523,6 @@
       "birthDate": "1987",
       "gender": "male"
     },
-    "Mehmet Nadir Ünal": {
-      "wins": 13,
-      "kos": 7,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 13,
-      "nationality": "Turkish",
-      "birthDate": "1993-01-13",
-      "gender": "male"
-    },
     "Bonnie Canino": {
       "wins": 11,
       "kos": 0,
@@ -4634,16 +4623,16 @@
       "birthDate": "1989",
       "gender": "male"
     },
-    "Layla McCarter": {
-      "wins": 47,
-      "kos": 10,
-      "losses": 13,
-      "draws": 5,
+    "Mehmet Nadir Ünal": {
+      "wins": 13,
+      "kos": 7,
+      "losses": 0,
+      "draws": 0,
       "noContests": 0,
-      "total": 65,
-      "nationality": "U.S.",
-      "birthDate": "1979",
-      "gender": "female"
+      "total": 13,
+      "nationality": "Turkish",
+      "birthDate": "1993-01-13",
+      "gender": "male"
     },
     "Yvonne Trevino": {
       "wins": 9,
@@ -4669,15 +4658,14 @@
       "birthDate": "1972",
       "gender": "female"
     },
-    "Nevenka Mikulic": {
-      "wins": 7,
-      "kos": 0,
-      "losses": 8,
-      "draws": 1,
+    "Layla McCarter": {
+      "wins": 47,
+      "kos": 10,
+      "losses": 13,
+      "draws": 5,
       "noContests": 0,
-      "total": 16,
-      "nationality": "Croatian",
-      "weightClass": "Flyweight",
+      "total": 65,
+      "nationality": "U.S.",
       "birthDate": "1979",
       "gender": "female"
     },
@@ -4755,18 +4743,6 @@
       "birthDate": "1970",
       "gender": "female"
     },
-    "Anne Sophie Mathis": {
-      "wins": 27,
-      "kos": 23,
-      "losses": 4,
-      "draws": 1,
-      "noContests": 1,
-      "total": 33,
-      "nationality": "France",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anne_Sophie_Mathis_and_Zinedine_Hameur_Lain_2016.jpg",
-      "birthDate": "1977",
-      "gender": "female"
-    },
     "Lisa Howarth": {
       "wins": 0,
       "kos": 0,
@@ -4777,6 +4753,18 @@
       "nationality": "United Kingdom",
       "weightClass": "Flyweight, Bantamweight,",
       "birthDate": "1974",
+      "gender": "female"
+    },
+    "Nevenka Mikulic": {
+      "wins": 7,
+      "kos": 0,
+      "losses": 8,
+      "draws": 1,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "Croatian",
+      "weightClass": "Flyweight",
+      "birthDate": "1979",
       "gender": "female"
     },
     "Aurélie Froment": {
@@ -4836,6 +4824,18 @@
       "nationality": "German",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rola_El-Halabi.jpg",
       "birthDate": "1985-03-17",
+      "gender": "female"
+    },
+    "Anne Sophie Mathis": {
+      "wins": 27,
+      "kos": 23,
+      "losses": 4,
+      "draws": 1,
+      "noContests": 1,
+      "total": 33,
+      "nationality": "France",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anne_Sophie_Mathis_and_Zinedine_Hameur_Lain_2016.jpg",
+      "birthDate": "1977",
       "gender": "female"
     },
     "Chantal Ughi": {
@@ -5995,19 +5995,6 @@
       "birthDate": "1982-06-18",
       "gender": "male"
     },
-    "Michelle Preston": {
-      "wins": 11,
-      "kos": 0,
-      "losses": 10,
-      "draws": 1,
-      "noContests": 0,
-      "total": 22,
-      "nationality": "New ZealanderBritish",
-      "weightClass": "Flyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michelle_Preston.jpg",
-      "birthDate": "1978",
-      "gender": "female"
-    },
     "Denise Castle": {
       "wins": 5,
       "kos": 3,
@@ -6042,15 +6029,17 @@
       "birthDate": "1993",
       "gender": "female"
     },
-    "Patricia Alcivar": {
-      "wins": 8,
-      "kos": 3,
-      "losses": 4,
-      "draws": 0,
+    "Michelle Preston": {
+      "wins": 11,
+      "kos": 0,
+      "losses": 10,
+      "draws": 1,
       "noContests": 0,
-      "total": 12,
-      "nationality": "{{plainlist|",
-      "birthDate": "1977-12-12",
+      "total": 22,
+      "nationality": "New ZealanderBritish",
+      "weightClass": "Flyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Michelle_Preston.jpg",
+      "birthDate": "1978",
       "gender": "female"
     },
     "Dora and Cora Webber": {
@@ -6086,6 +6075,17 @@
       "nationality": "American",
       "weightClass": "Featherweight",
       "birthDate": "1966-01-25",
+      "gender": "female"
+    },
+    "Patricia Alcivar": {
+      "wins": 8,
+      "kos": 3,
+      "losses": 4,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "{{plainlist|",
+      "birthDate": "1977-12-12",
       "gender": "female"
     },
     "Ebanie Bridges": {
@@ -6241,6 +6241,30 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Paulie Malignaggi": {
+      "wins": 36,
+      "kos": 5,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 44,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
+      "birthDate": "1980-11-23",
+      "gender": "male"
+    },
+    "Jack McAuliffe (boxer)": {
+      "wins": 28,
+      "kos": 19,
+      "losses": 0,
+      "draws": 10,
+      "noContests": 0,
+      "total": 38,
+      "nationality": "Irish",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "Professor Mike Donovan": {
       "wins": 25,
       "kos": 0,
@@ -6321,30 +6345,6 @@
       "nationality": "U.S.",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/John_L_Sullivan.png",
       "birthDate": "1858",
-      "gender": "male"
-    },
-    "Paulie Malignaggi": {
-      "wins": 36,
-      "kos": 5,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 44,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
-      "birthDate": "1980-11-23",
-      "gender": "male"
-    },
-    "Jack McAuliffe (boxer)": {
-      "wins": 28,
-      "kos": 19,
-      "losses": 0,
-      "draws": 10,
-      "noContests": 0,
-      "total": 38,
-      "nationality": "Irish",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
-      "birthDate": "1866",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {
