@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:54:56.065Z",
+  "generatedAt": "2026-11-14T00:54:51.712Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -126,44 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-12-philadelphia-76ers-toronto-raptors",
-      "date": "2026-11-12",
-      "kickoff": "2026-11-13T00:00Z",
-      "home": "Philadelphia 76ers",
-      "away": "Toronto Raptors",
-      "homeShort": "76ers",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Xfinity Mobile Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-12-ottawa-senators-colorado-avalanche",
-      "date": "2026-11-12",
-      "kickoff": "2026-11-13T00:00Z",
-      "home": "Ottawa Senators",
-      "away": "Colorado Avalanche",
-      "homeShort": "Senators",
-      "awayShort": "Avalanche",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-14-army-black-knights-rugby-life-university",
       "date": "2026-11-14",
@@ -2745,6 +2707,25 @@
       "homeKeys": [],
       "awayKeys": [
         "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-11-columbus-blue-jackets-ottawa-senators",
+      "date": "2027-02-11",
+      "kickoff": "2027-02-12T00:00Z",
+      "home": "Columbus Blue Jackets",
+      "away": "Ottawa Senators",
+      "homeShort": "Blue Jackets",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Nationwide Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
       ],
       "source": "ESPN"
     }
