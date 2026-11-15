@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T00:54:51.712Z",
+  "generatedAt": "2026-11-15T00:52:33.441Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 42,
       "ok": true
     },
     {
@@ -2727,6 +2727,25 @@
       "awayKeys": [
         "senators"
       ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-12-toronto-raptors-cleveland-cavaliers",
+      "date": "2027-02-12",
+      "kickoff": "2027-02-13T00:30Z",
+      "home": "Toronto Raptors",
+      "away": "Cleveland Cavaliers",
+      "homeShort": "Raptors",
+      "awayShort": "Cavaliers",
+      "competition": "NBA",
+      "venue": "Scotiabank Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [
+        "raptors"
+      ],
+      "awayKeys": [],
       "source": "ESPN"
     }
   ]
