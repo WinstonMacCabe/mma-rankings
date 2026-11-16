@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T00:52:33.441Z",
+  "generatedAt": "2026-11-16T00:54:33.196Z",
   "windowDays": 90,
   "teams": [
     {
@@ -47,7 +47,7 @@
       "name": "Army Black Knights Rugby",
       "short": "Army Rugby",
       "label": "Rugby",
-      "count": 1,
+      "count": 0,
       "ok": true
     },
     {
@@ -126,44 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-14-army-black-knights-rugby-life-university",
-      "date": "2026-11-14",
-      "kickoff": "2026-11-14T17:00:00.000Z",
-      "home": "Army Black Knights Rugby",
-      "away": "Life University",
-      "homeShort": "Army Rugby",
-      "awayShort": "Life University",
-      "competition": "College Rugby",
-      "venue": "Anderson Rugby Complex",
-      "teamKeys": [
-        "army-rugby"
-      ],
-      "homeKeys": [
-        "army-rugby"
-      ],
-      "awayKeys": [],
-      "source": "Army West Point"
-    },
-    {
-      "id": "2026-11-14-pittsburgh-penguins-ottawa-senators",
-      "date": "2026-11-14",
-      "kickoff": "2026-11-15T00:00Z",
-      "home": "Pittsburgh Penguins",
-      "away": "Ottawa Senators",
-      "homeShort": "Penguins",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "PPG Paints Arena",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-15-toronto-raptors-new-york-knicks",
       "date": "2026-11-15",
@@ -2744,6 +2706,25 @@
       ],
       "homeKeys": [
         "raptors"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-13-ottawa-senators-toronto-maple-leafs",
+      "date": "2027-02-13",
+      "kickoff": "2027-02-14T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Toronto Maple Leafs",
+      "homeShort": "Senators",
+      "awayShort": "Maple Leafs",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
       ],
       "awayKeys": [],
       "source": "ESPN"
