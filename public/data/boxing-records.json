@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T00:43:46.088Z",
+  "lastUpdated": "2026-11-17T00:43:59.118Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -616,7 +616,7 @@
       "draws": 1,
       "noContests": 0,
       "total": 4,
-      "nationality": "United States",
+      "nationality": "U.S.",
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Keith_Jardine_-_UFC_100_Fan_Expo_-_Mandalay_Bay_Casino%2C_Las_Vegas_(crop).jpg",
       "birthDate": "1975-10-31",
@@ -6377,7 +6377,7 @@
       "noContests": 0,
       "total": 39,
       "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_mace.jpg",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jem_Mace%2C_1831-1910_LCCN2002706367.jpg",
       "birthDate": "1831-04-08",
       "gender": "male"
     },

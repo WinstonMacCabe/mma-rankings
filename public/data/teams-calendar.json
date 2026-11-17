@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T00:54:33.196Z",
+  "generatedAt": "2026-11-17T00:59:45.381Z",
   "windowDays": 90,
   "teams": [
     {
@@ -23,7 +23,7 @@
       "name": "New England Patriots",
       "short": "Patriots",
       "label": "NFL",
-      "count": 8,
+      "count": 7,
       "ok": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 12,
+      "count": 13,
       "ok": true
     },
     {
@@ -126,44 +126,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-15-toronto-raptors-new-york-knicks",
-      "date": "2026-11-15",
-      "kickoff": "2026-11-15T23:00Z",
-      "home": "Toronto Raptors",
-      "away": "New York Knicks",
-      "homeShort": "Raptors",
-      "awayShort": "Knicks",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-15-detroit-lions-new-england-patriots",
-      "date": "2026-11-15",
-      "kickoff": "2026-11-15T14:30Z",
-      "home": "Detroit Lions",
-      "away": "New England Patriots",
-      "homeShort": "Lions",
-      "awayShort": "Patriots",
-      "competition": "NFL",
-      "venue": "FC Bayern Munich Stadium",
-      "teamKeys": [
-        "patriots"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "patriots"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-17-toronto-raptors-new-york-knicks",
       "date": "2026-11-17",
@@ -2725,6 +2687,44 @@
       ],
       "homeKeys": [
         "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-14-boston-celtics-toronto-raptors",
+      "date": "2027-02-14",
+      "kickoff": "2027-02-14T18:00Z",
+      "home": "Boston Celtics",
+      "away": "Toronto Raptors",
+      "homeShort": "Celtics",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "TD Garden",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-14-cagliari-lazio",
+      "date": "2027-02-14",
+      "kickoff": "2027-02-14T20:00Z",
+      "home": "Cagliari",
+      "away": "Lazio",
+      "homeShort": "Cagliari",
+      "awayShort": "LAZ",
+      "competition": "Serie A",
+      "venue": "Unipol Domus",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [
+        "cagliari"
       ],
       "awayKeys": [],
       "source": "ESPN"
