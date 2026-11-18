@@ -7986,7 +7986,7 @@
         "previousRank": 42,
         "highestRank": 32,
         "lowestRank": 43,
-        "rankChange": 1
+        "rankChange": 0
       },
       {
         "name": "Veeraphol Sahaprom",
@@ -8007,7 +8007,7 @@
         "previousRank": 43,
         "highestRank": 33,
         "lowestRank": 43,
-        "rankChange": -1
+        "rankChange": 0
       },
       {
         "name": "Pettawee Sor Kittichai",
