@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T00:59:45.381Z",
+  "generatedAt": "2026-11-18T00:58:05.045Z",
   "windowDays": 90,
   "teams": [
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 36,
+      "count": 37,
       "ok": true
     },
     {
@@ -224,7 +224,7 @@
     {
       "id": "2026-11-20-tijuana-atlante",
       "date": "2026-11-20",
-      "kickoff": "2026-11-21T03:00Z",
+      "kickoff": "2026-11-21T03:10Z",
       "home": "Tijuana",
       "away": "Atlante",
       "homeShort": "Tijuana",
@@ -509,7 +509,7 @@
     {
       "id": "2026-11-28-rice-owls-army-black-knights",
       "date": "2026-11-28",
-      "kickoff": "2026-11-28T05:00Z",
+      "kickoff": "2026-11-28T19:00Z",
       "home": "Rice Owls",
       "away": "Army Black Knights",
       "homeShort": "Rice",
@@ -585,7 +585,7 @@
     {
       "id": "2026-11-29-los-angeles-chargers-new-england-patriots",
       "date": "2026-11-29",
-      "kickoff": "2026-11-30T01:20Z",
+      "kickoff": "2026-11-29T21:05Z",
       "home": "Los Angeles Chargers",
       "away": "New England Patriots",
       "homeShort": "Chargers",
@@ -2727,6 +2727,25 @@
         "cagliari"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-15-minnesota-wild-ottawa-senators",
+      "date": "2027-02-15",
+      "kickoff": "2027-02-16T00:30Z",
+      "home": "Minnesota Wild",
+      "away": "Ottawa Senators",
+      "homeShort": "Wild",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Grand Casino Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
       "source": "ESPN"
     }
   ]
