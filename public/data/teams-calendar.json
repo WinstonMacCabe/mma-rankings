@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T00:58:05.045Z",
+  "generatedAt": "2026-11-18T17:40:22.523Z",
   "windowDays": 90,
   "teams": [
     {
@@ -31,7 +31,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 37,
+      "count": 36,
       "ok": true
     },
     {
@@ -64,6 +64,14 @@
       "short": "Exeter",
       "label": "Rugby",
       "count": 8,
+      "ok": true
+    },
+    {
+      "key": "ulster-rugby",
+      "name": "Ulster Rugby",
+      "short": "Ulster",
+      "label": "Rugby",
+      "count": 6,
       "ok": true
     },
     {
@@ -126,44 +134,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-17-toronto-raptors-new-york-knicks",
-      "date": "2026-11-17",
-      "kickoff": "2026-11-18T00:30Z",
-      "home": "Toronto Raptors",
-      "away": "New York Knicks",
-      "homeShort": "Raptors",
-      "awayShort": "Knicks",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-17-winnipeg-jets-ottawa-senators",
-      "date": "2026-11-17",
-      "kickoff": "2026-11-18T00:00Z",
-      "home": "Winnipeg Jets",
-      "away": "Ottawa Senators",
-      "homeShort": "Jets",
-      "awayShort": "Senators",
-      "competition": "NHL",
-      "venue": "Canada Life Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "senators"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-18-toronto-raptors-washington-wizards",
       "date": "2026-11-18",
@@ -811,6 +781,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-05-cardiff-blues-ulster",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-05T15:00Z",
+      "home": "Cardiff Blues",
+      "away": "Ulster",
+      "homeShort": "CAR",
+      "awayShort": "Ulster",
+      "competition": "United Rugby Championship",
+      "venue": "Cardiff Arms Park",
+      "teamKeys": [
+        "ulster-rugby"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "ulster-rugby"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-06-new-england-patriots-buffalo-bills",
       "date": "2026-12-06",
       "kickoff": "2026-12-06T21:25Z",
@@ -1191,6 +1180,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-18-ulster-ospreys",
+      "date": "2026-12-18",
+      "kickoff": "2026-12-18T19:45Z",
+      "home": "Ulster",
+      "away": "Ospreys",
+      "homeShort": "Ulster",
+      "awayShort": "OSP",
+      "competition": "United Rugby Championship",
+      "venue": "Affidea Stadium",
+      "teamKeys": [
+        "ulster-rugby"
+      ],
+      "homeKeys": [
+        "ulster-rugby"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-19-manchester-city-hull-city",
       "date": "2026-12-19",
       "kickoff": "2026-12-19T15:00Z",
@@ -1438,6 +1446,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-27-ulster-connacht",
+      "date": "2026-12-27",
+      "kickoff": "2026-12-27T17:30Z",
+      "home": "Ulster",
+      "away": "Connacht",
+      "homeShort": "Ulster",
+      "awayShort": "CON",
+      "competition": "United Rugby Championship",
+      "venue": "Affidea Stadium",
+      "teamKeys": [
+        "ulster-rugby"
+      ],
+      "homeKeys": [
+        "ulster-rugby"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-28-toronto-raptors-new-orleans-pelicans",
       "date": "2026-12-28",
       "kickoff": "2026-12-29T00:30Z",
@@ -1606,6 +1633,25 @@
         "cagliari"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-02-leinster-ulster",
+      "date": "2027-01-02",
+      "kickoff": "2027-01-02T19:45Z",
+      "home": "Leinster",
+      "away": "Ulster",
+      "homeShort": "LEI",
+      "awayShort": "Ulster",
+      "competition": "United Rugby Championship",
+      "venue": "Laya Arena",
+      "teamKeys": [
+        "ulster-rugby"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "ulster-rugby"
+      ],
       "source": "ESPN"
     },
     {
@@ -2179,6 +2225,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-22-ulster-sharks",
+      "date": "2027-01-22",
+      "kickoff": "2027-01-22T19:45Z",
+      "home": "Ulster",
+      "away": "Sharks",
+      "homeShort": "Ulster",
+      "awayShort": "SHA",
+      "competition": "United Rugby Championship",
+      "venue": "Affidea Stadium",
+      "teamKeys": [
+        "ulster-rugby"
+      ],
+      "homeKeys": [
+        "ulster-rugby"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-23-brooklyn-nets-toronto-raptors",
       "date": "2027-01-23",
       "kickoff": "2027-01-23T23:00Z",
@@ -2423,6 +2488,25 @@
         "man-city"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-30-connacht-ulster",
+      "date": "2027-01-30",
+      "kickoff": "2027-01-30T19:45Z",
+      "home": "Connacht",
+      "away": "Ulster",
+      "homeShort": "CON",
+      "awayShort": "Ulster",
+      "competition": "United Rugby Championship",
+      "venue": "Dexcom Stadium",
+      "teamKeys": [
+        "ulster-rugby"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "ulster-rugby"
+      ],
       "source": "ESPN"
     },
     {
@@ -2745,6 +2829,25 @@
       "homeKeys": [],
       "awayKeys": [
         "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-16-atlanta-hawks-toronto-raptors",
+      "date": "2027-02-16",
+      "kickoff": "2027-02-17T01:00Z",
+      "home": "Atlanta Hawks",
+      "away": "Toronto Raptors",
+      "homeShort": "Hawks",
+      "awayShort": "Raptors",
+      "competition": "NBA",
+      "venue": "State Farm Arena",
+      "teamKeys": [
+        "raptors"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "raptors"
       ],
       "source": "ESPN"
     }

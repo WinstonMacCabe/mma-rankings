@@ -111,6 +111,16 @@ export const FOLLOWED_TEAMS: FollowedTeam[] = [
     ],
   },
   {
+    key: 'ulster-rugby',
+    name: 'Ulster Rugby',
+    short: 'Ulster',
+    label: 'Rugby',
+    aliases: ['Ulster', 'Ulster Rugby'],
+    sources: [
+      { kind: 'espn-core', sport: 'rugby', league: '8331', teamId: '25926', competition: 'United Rugby Championship' },
+    ],
+  },
+  {
     key: 'catalans-dragons',
     name: 'Catalans Dragons',
     short: 'Catalans',
