@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-19T00:58:42.206Z",
+  "generatedAt": "2026-11-19T02:58:46.538Z",
   "windowDays": 90,
   "teams": [
     {
-      "key": "blue-jays",
-      "name": "Toronto Blue Jays",
-      "short": "Blue Jays",
-      "label": "MLB",
-      "count": 0,
+      "key": "patriots",
+      "name": "New England Patriots",
+      "short": "Patriots",
+      "label": "NFL",
+      "count": 7,
       "ok": true
     },
     {
@@ -19,11 +19,19 @@
       "ok": true
     },
     {
-      "key": "patriots",
-      "name": "New England Patriots",
-      "short": "Patriots",
-      "label": "NFL",
-      "count": 7,
+      "key": "blue-jays",
+      "name": "Toronto Blue Jays",
+      "short": "Blue Jays",
+      "label": "MLB",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "key": "man-city",
+      "name": "Manchester City",
+      "short": "Man City",
+      "label": "Soccer",
+      "count": 15,
       "ok": true
     },
     {
@@ -35,53 +43,12 @@
       "ok": true
     },
     {
-      "key": "army-football",
-      "name": "Army Black Knights Football",
-      "short": "Army FB",
-      "label": "NCAAF",
-      "count": 3,
-      "ok": true
-    },
-    {
-      "key": "army-rugby",
-      "name": "Army Black Knights Rugby",
-      "short": "Army Rugby",
-      "label": "Rugby",
-      "count": 0,
-      "ok": true
-    },
-    {
-      "key": "man-city",
-      "name": "Manchester City",
-      "short": "Man City",
+      "key": "hamburger-sv",
+      "name": "Hamburger SV",
+      "short": "Hamburg",
       "label": "Soccer",
-      "count": 20,
+      "count": 12,
       "ok": true
-    },
-    {
-      "key": "exeter-chiefs",
-      "name": "Exeter Chiefs",
-      "short": "Exeter",
-      "label": "Rugby",
-      "count": 8,
-      "ok": true
-    },
-    {
-      "key": "ulster-rugby",
-      "name": "Ulster Rugby",
-      "short": "Ulster",
-      "label": "Rugby",
-      "count": 6,
-      "ok": true
-    },
-    {
-      "key": "catalans-dragons",
-      "name": "Catalans Dragons",
-      "short": "Catalans",
-      "label": "Rugby League",
-      "count": 0,
-      "ok": false,
-      "note": "No free Super League fixture feed"
     },
     {
       "key": "cagliari",
@@ -92,35 +59,27 @@
       "ok": true
     },
     {
-      "key": "remo",
-      "name": "Clube do Remo",
-      "short": "Remo",
-      "label": "Soccer",
-      "count": 4,
-      "ok": true
-    },
-    {
-      "key": "baltika",
-      "name": "Baltika Kaliningrad",
-      "short": "Baltika",
-      "label": "Soccer",
-      "count": 3,
-      "ok": true
-    },
-    {
-      "key": "psm-makassar",
-      "name": "PSM Makassar",
-      "short": "PSM Makassar",
+      "key": "cf-montreal",
+      "name": "CF Montréal",
+      "short": "Montreal",
       "label": "Soccer",
       "count": 0,
       "ok": true
     },
     {
-      "key": "club-tijuana",
-      "name": "Club Tijuana",
-      "short": "Tijuana",
+      "key": "as-monaco",
+      "name": "AS Monaco",
+      "short": "Monaco",
       "label": "Soccer",
-      "count": 1,
+      "count": 10,
+      "ok": true
+    },
+    {
+      "key": "remo",
+      "name": "Clube do Remo",
+      "short": "Remo",
+      "label": "Soccer",
+      "count": 4,
       "ok": true
     },
     {
@@ -192,25 +151,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-11-20-tijuana-atlante",
-      "date": "2026-11-20",
-      "kickoff": "2026-11-21T03:10Z",
-      "home": "Tijuana",
-      "away": "Atlante",
-      "homeShort": "Tijuana",
-      "awayShort": "ATL",
-      "competition": "Liga MX",
-      "venue": "Estadio Caliente",
-      "teamKeys": [
-        "club-tijuana"
-      ],
-      "homeKeys": [
-        "club-tijuana"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
       "id": "2026-11-20-detroit-pistons-toronto-raptors",
       "date": "2026-11-20",
       "kickoff": "2026-11-21T00:30Z",
@@ -230,20 +170,20 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-11-21-army-black-knights-east-carolina-pirates",
+      "id": "2026-11-21-as-monaco-aj-auxerre",
       "date": "2026-11-21",
-      "kickoff": "2026-11-21T17:00Z",
-      "home": "Army Black Knights",
-      "away": "East Carolina Pirates",
-      "homeShort": "Army FB",
-      "awayShort": "East Carolina",
-      "competition": "NCAA Football",
-      "venue": "Michie Stadium",
+      "kickoff": "2026-11-21T19:45Z",
+      "home": "AS Monaco",
+      "away": "AJ Auxerre",
+      "homeShort": "Monaco",
+      "awayShort": "AUX",
+      "competition": "Ligue 1",
+      "venue": "Stade Louis II",
       "teamKeys": [
-        "army-football"
+        "as-monaco"
       ],
       "homeKeys": [
-        "army-football"
+        "as-monaco"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -287,25 +227,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-11-21-gazovik-orenburg-fc-baltika-kaliningrad",
-      "date": "2026-11-21",
-      "kickoff": "2026-11-21T10:00Z",
-      "home": "Gazovik Orenburg",
-      "away": "FC Baltika Kaliningrad",
-      "homeShort": "ORE",
-      "awayShort": "Baltika",
-      "competition": "Russian Premier League",
-      "venue": "Gazovik Stadium",
-      "teamKeys": [
-        "baltika"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "baltika"
-      ],
-      "source": "ESPN"
-    },
-    {
       "id": "2026-11-21-como-cagliari",
       "date": "2026-11-21",
       "kickoff": "2026-11-21T14:00Z",
@@ -321,6 +242,25 @@
       "homeKeys": [],
       "awayKeys": [
         "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-22-werder-bremen-hamburg-sv",
+      "date": "2026-11-22",
+      "kickoff": "2026-11-22T16:30Z",
+      "home": "Werder Bremen",
+      "away": "Hamburg SV",
+      "homeShort": "SVW",
+      "awayShort": "Hamburg",
+      "competition": "Bundesliga",
+      "venue": "Weserstadion",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "hamburger-sv"
       ],
       "source": "ESPN"
     },
@@ -377,25 +317,6 @@
       ],
       "homeKeys": [
         "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-24-manchester-city-napoli",
-      "date": "2026-11-24",
-      "kickoff": "2026-11-24T20:00Z",
-      "home": "Manchester City",
-      "away": "Napoli",
-      "homeShort": "Man City",
-      "awayShort": "NAP",
-      "competition": "Champions League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -477,22 +398,22 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-11-28-rice-owls-army-black-knights",
+      "id": "2026-11-28-hamburg-sv-bayern-munich",
       "date": "2026-11-28",
-      "kickoff": "2026-11-28T19:00Z",
-      "home": "Rice Owls",
-      "away": "Army Black Knights",
-      "homeShort": "Rice",
-      "awayShort": "Army FB",
-      "competition": "NCAA Football",
-      "venue": "First Community Stadium",
+      "kickoff": "2026-11-28T14:30Z",
+      "home": "Hamburg SV",
+      "away": "Bayern Munich",
+      "homeShort": "Hamburg",
+      "awayShort": "MUN",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
       "teamKeys": [
-        "army-football"
+        "hamburger-sv"
       ],
-      "homeKeys": [],
-      "awayKeys": [
-        "army-football"
+      "homeKeys": [
+        "hamburger-sv"
       ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -515,22 +436,22 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-11-28-fc-baltika-kaliningrad-akhmat-grozny",
-      "date": "2026-11-28",
-      "kickoff": "2026-11-28T16:00Z",
-      "home": "FC Baltika Kaliningrad",
-      "away": "Akhmat Grozny",
-      "homeShort": "Baltika",
-      "awayShort": "GRZ",
-      "competition": "Russian Premier League",
-      "venue": "Kaliningrad Stadium",
+      "id": "2026-11-29-lyon-as-monaco",
+      "date": "2026-11-29",
+      "kickoff": "2026-11-29T19:45Z",
+      "home": "Lyon",
+      "away": "AS Monaco",
+      "homeShort": "LYON",
+      "awayShort": "Monaco",
+      "competition": "Ligue 1",
+      "venue": "Groupama Stadium",
       "teamKeys": [
-        "baltika"
+        "as-monaco"
       ],
-      "homeKeys": [
-        "baltika"
+      "homeKeys": [],
+      "awayKeys": [
+        "as-monaco"
       ],
-      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -724,6 +645,44 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-05-1-fc-union-berlin-hamburg-sv",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-05T14:30Z",
+      "home": "1. FC Union Berlin",
+      "away": "Hamburg SV",
+      "homeShort": "FCU",
+      "awayShort": "Hamburg",
+      "competition": "Bundesliga",
+      "venue": "Stadion An der Alten Försterei",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "hamburger-sv"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-05-as-monaco-angers",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-05T19:45Z",
+      "home": "AS Monaco",
+      "away": "Angers",
+      "homeShort": "Monaco",
+      "awayShort": "ANG",
+      "competition": "Ligue 1",
+      "venue": "Stade Louis II",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [
+        "as-monaco"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-05-ottawa-senators-tampa-bay-lightning",
       "date": "2026-12-05",
       "kickoff": "2026-12-06T00:00Z",
@@ -762,44 +721,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-12-05-zenit-st-petersburg-fc-baltika-kaliningrad",
-      "date": "2026-12-05",
-      "kickoff": "2026-12-05T14:30Z",
-      "home": "Zenit St Petersburg",
-      "away": "FC Baltika Kaliningrad",
-      "homeShort": "ZEN",
-      "awayShort": "Baltika",
-      "competition": "Russian Premier League",
-      "venue": "Saint Petersburg Stadium",
-      "teamKeys": [
-        "baltika"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "baltika"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-05-cardiff-blues-ulster",
-      "date": "2026-12-05",
-      "kickoff": "2026-12-05T15:00Z",
-      "home": "Cardiff Blues",
-      "away": "Ulster",
-      "homeShort": "CAR",
-      "awayShort": "Ulster",
-      "competition": "United Rugby Championship",
-      "venue": "Cardiff Arms Park",
-      "teamKeys": [
-        "ulster-rugby"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "ulster-rugby"
-      ],
-      "source": "ESPN"
-    },
-    {
       "id": "2026-12-06-new-england-patriots-buffalo-bills",
       "date": "2026-12-06",
       "kickoff": "2026-12-06T21:25Z",
@@ -824,35 +745,19 @@
       "kickoff": "2026-12-07T00:00Z",
       "home": "Montreal Canadiens",
       "away": "Ottawa Senators",
-      "homeShort": "Canadiens",
+      "homeShort": "Montreal",
       "awayShort": "Senators",
       "competition": "NHL",
       "venue": "Bell Centre",
       "teamKeys": [
+        "cf-montreal",
         "senators"
       ],
-      "homeKeys": [],
+      "homeKeys": [
+        "cf-montreal"
+      ],
       "awayKeys": [
         "senators"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-06-sale-sharks-exeter-chiefs",
-      "date": "2026-12-06",
-      "kickoff": "2026-12-06T15:00Z",
-      "home": "Sale Sharks",
-      "away": "Exeter Chiefs",
-      "homeShort": "SAL",
-      "awayShort": "Exeter",
-      "competition": "Premiership Rugby",
-      "venue": "CorpAcq Stadium",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "exeter-chiefs"
       ],
       "source": "ESPN"
     },
@@ -872,25 +777,6 @@
       "homeKeys": [],
       "awayKeys": [
         "cagliari"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-08-barcelona-manchester-city",
-      "date": "2026-12-08",
-      "kickoff": "2026-12-08T20:00Z",
-      "home": "Barcelona",
-      "away": "Manchester City",
-      "homeShort": "BAR",
-      "awayShort": "Man City",
-      "competition": "Champions League",
-      "venue": "Spotify Camp Nou",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "man-city"
       ],
       "source": "ESPN"
     },
@@ -952,20 +838,20 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-12-12-army-black-knights-navy-midshipmen",
-      "date": "2026-12-12",
-      "kickoff": "2026-12-12T20:00Z",
-      "home": "Army Black Knights",
-      "away": "Navy Midshipmen",
-      "homeShort": "Army FB",
-      "awayShort": "Navy",
-      "competition": "NCAA Football",
-      "venue": "MetLife Stadium",
+      "id": "2026-12-11-hamburg-sv-schalke-04",
+      "date": "2026-12-11",
+      "kickoff": "2026-12-11T19:30Z",
+      "home": "Hamburg SV",
+      "away": "Schalke 04",
+      "homeShort": "Hamburg",
+      "awayShort": "S04",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
       "teamKeys": [
-        "army-football"
+        "hamburger-sv"
       ],
       "homeKeys": [
-        "army-football"
+        "hamburger-sv"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -1028,22 +914,22 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-12-13-exeter-chiefs-connacht",
+      "id": "2026-12-13-stade-rennais-as-monaco",
       "date": "2026-12-13",
-      "kickoff": "2026-12-13T13:00Z",
-      "home": "Exeter Chiefs",
-      "away": "Connacht",
-      "homeShort": "Exeter",
-      "awayShort": "CON",
-      "competition": "Champions Cup",
-      "venue": "Sandy Park",
+      "kickoff": "2026-12-13T16:15Z",
+      "home": "Stade Rennais",
+      "away": "AS Monaco",
+      "homeShort": "REN",
+      "awayShort": "Monaco",
+      "competition": "Ligue 1",
+      "venue": "Roazhon Park",
       "teamKeys": [
-        "exeter-chiefs"
+        "as-monaco"
       ],
-      "homeKeys": [
-        "exeter-chiefs"
+      "homeKeys": [],
+      "awayKeys": [
+        "as-monaco"
       ],
-      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -1099,25 +985,6 @@
       ],
       "homeKeys": [
         "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-15-manchester-city-bradford-city",
-      "date": "2026-12-15",
-      "kickoff": "2026-12-15T20:00Z",
-      "home": "Manchester City",
-      "away": "Bradford City",
-      "homeShort": "Man City",
-      "awayShort": "BRD",
-      "competition": "EFL Cup",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -1180,22 +1047,22 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-12-18-ulster-ospreys",
-      "date": "2026-12-18",
-      "kickoff": "2026-12-18T19:45Z",
-      "home": "Ulster",
-      "away": "Ospreys",
-      "homeShort": "Ulster",
-      "awayShort": "OSP",
-      "competition": "United Rugby Championship",
-      "venue": "Affidea Stadium",
+      "id": "2026-12-19-sv-elversberg-hamburg-sv",
+      "date": "2026-12-19",
+      "kickoff": "2026-12-19T14:30Z",
+      "home": "SV Elversberg",
+      "away": "Hamburg SV",
+      "homeShort": "ELV",
+      "awayShort": "Hamburg",
+      "competition": "Bundesliga",
+      "venue": "URSAPHARM-Arena an der Kaiserlinde",
       "teamKeys": [
-        "ulster-rugby"
+        "hamburger-sv"
       ],
-      "homeKeys": [
-        "ulster-rugby"
+      "homeKeys": [],
+      "awayKeys": [
+        "hamburger-sv"
       ],
-      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -1215,25 +1082,6 @@
         "man-city"
       ],
       "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-19-northampton-saints-exeter-chiefs",
-      "date": "2026-12-19",
-      "kickoff": "2026-12-19T17:30Z",
-      "home": "Northampton Saints",
-      "away": "Exeter Chiefs",
-      "homeShort": "NOR",
-      "awayShort": "Exeter",
-      "competition": "Premiership Rugby",
-      "venue": "cinch Stadium at Franklin's Gardens",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "exeter-chiefs"
-      ],
       "source": "ESPN"
     },
     {
@@ -1427,44 +1275,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2026-12-27-exeter-chiefs-saracens",
-      "date": "2026-12-27",
-      "kickoff": "2026-12-27T15:05Z",
-      "home": "Exeter Chiefs",
-      "away": "Saracens",
-      "homeShort": "Exeter",
-      "awayShort": "SAR",
-      "competition": "Premiership Rugby",
-      "venue": "Sandy Park",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [
-        "exeter-chiefs"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-27-ulster-connacht",
-      "date": "2026-12-27",
-      "kickoff": "2026-12-27T17:30Z",
-      "home": "Ulster",
-      "away": "Connacht",
-      "homeShort": "Ulster",
-      "awayShort": "CON",
-      "competition": "United Rugby Championship",
-      "venue": "Affidea Stadium",
-      "teamKeys": [
-        "ulster-rugby"
-      ],
-      "homeKeys": [
-        "ulster-rugby"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
       "id": "2026-12-28-toronto-raptors-new-orleans-pelicans",
       "date": "2026-12-28",
       "kickoff": "2026-12-29T00:30Z",
@@ -1579,6 +1389,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-02-as-monaco-nice",
+      "date": "2027-01-02",
+      "kickoff": "2027-01-02T20:00Z",
+      "home": "AS Monaco",
+      "away": "Nice",
+      "homeShort": "Monaco",
+      "awayShort": "NICE",
+      "competition": "Ligue 1",
+      "venue": "Stade Louis II",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [
+        "as-monaco"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-02-washington-capitals-ottawa-senators",
       "date": "2027-01-02",
       "kickoff": "2027-01-03T00:00Z",
@@ -1594,25 +1423,6 @@
       "homeKeys": [],
       "awayKeys": [
         "senators"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2027-01-02-leicester-tigers-exeter-chiefs",
-      "date": "2027-01-02",
-      "kickoff": "2027-01-02T17:30Z",
-      "home": "Leicester Tigers",
-      "away": "Exeter Chiefs",
-      "homeShort": "LEI",
-      "awayShort": "Exeter",
-      "competition": "Premiership Rugby",
-      "venue": "Mattioli Woods Welford Road Stadium",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "exeter-chiefs"
       ],
       "source": "ESPN"
     },
@@ -1633,25 +1443,6 @@
         "cagliari"
       ],
       "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2027-01-02-leinster-ulster",
-      "date": "2027-01-02",
-      "kickoff": "2027-01-02T19:45Z",
-      "home": "Leinster",
-      "away": "Ulster",
-      "homeShort": "LEI",
-      "awayShort": "Ulster",
-      "competition": "United Rugby Championship",
-      "venue": "Laya Arena",
-      "teamKeys": [
-        "ulster-rugby"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "ulster-rugby"
-      ],
       "source": "ESPN"
     },
     {
@@ -1864,20 +1655,20 @@
       "source": "ESPN"
     },
     {
-      "id": "2027-01-09-exeter-chiefs-la-rochelle",
-      "date": "2027-01-09",
-      "kickoff": "2027-01-09T15:15Z",
-      "home": "Exeter Chiefs",
-      "away": "La Rochelle",
-      "homeShort": "Exeter",
-      "awayShort": "STA",
-      "competition": "Champions Cup",
-      "venue": "Sandy Park",
+      "id": "2027-01-10-hamburg-sv-bayer-leverkusen",
+      "date": "2027-01-10",
+      "kickoff": "2027-01-10T16:30Z",
+      "home": "Hamburg SV",
+      "away": "Bayer Leverkusen",
+      "homeShort": "Hamburg",
+      "awayShort": "B04",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
       "teamKeys": [
-        "exeter-chiefs"
+        "hamburger-sv"
       ],
       "homeKeys": [
-        "exeter-chiefs"
+        "hamburger-sv"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -1978,6 +1769,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-13-sc-freiburg-hamburg-sv",
+      "date": "2027-01-13",
+      "kickoff": "2027-01-13T19:30Z",
+      "home": "SC Freiburg",
+      "away": "Hamburg SV",
+      "homeShort": "SCF",
+      "awayShort": "Hamburg",
+      "competition": "Bundesliga",
+      "venue": "Europa-Park Stadion",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "hamburger-sv"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-13-toronto-raptors-phoenix-suns",
       "date": "2027-01-13",
       "kickoff": "2027-01-14T00:30Z",
@@ -2035,22 +1845,22 @@
       "source": "ESPN"
     },
     {
-      "id": "2027-01-16-lions-exeter-chiefs",
+      "id": "2027-01-16-hamburg-sv-fc-augsburg",
       "date": "2027-01-16",
-      "kickoff": "2027-01-16T13:00Z",
-      "home": "Lions",
-      "away": "Exeter Chiefs",
-      "homeShort": "LIO",
-      "awayShort": "Exeter",
-      "competition": "Champions Cup",
-      "venue": "Ellis Park",
+      "kickoff": "2027-01-16T14:30Z",
+      "home": "Hamburg SV",
+      "away": "FC Augsburg",
+      "homeShort": "Hamburg",
+      "awayShort": "FCA",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
       "teamKeys": [
-        "exeter-chiefs"
+        "hamburger-sv"
       ],
-      "homeKeys": [],
-      "awayKeys": [
-        "exeter-chiefs"
+      "homeKeys": [
+        "hamburger-sv"
       ],
+      "awayKeys": [],
       "source": "ESPN"
     },
     {
@@ -2087,6 +1897,25 @@
       ],
       "homeKeys": [
         "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-17-as-monaco-brest",
+      "date": "2027-01-17",
+      "kickoff": "2027-01-17T16:15Z",
+      "home": "AS Monaco",
+      "away": "Brest",
+      "homeShort": "Monaco",
+      "awayShort": "BRE",
+      "competition": "Ligue 1",
+      "venue": "Stade Louis II",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [
+        "as-monaco"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2168,25 +1997,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2027-01-20-lens-manchester-city",
-      "date": "2027-01-20",
-      "kickoff": "2027-01-20T20:00Z",
-      "home": "Lens",
-      "away": "Manchester City",
-      "homeShort": "RCL",
-      "awayShort": "Man City",
-      "competition": "Champions League",
-      "venue": "Stade Bollaert-Delelis",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "man-city"
-      ],
-      "source": "ESPN"
-    },
-    {
       "id": "2027-01-20-new-york-knicks-toronto-raptors",
       "date": "2027-01-20",
       "kickoff": "2027-01-21T00:30Z",
@@ -2225,20 +2035,39 @@
       "source": "ESPN"
     },
     {
-      "id": "2027-01-22-ulster-sharks",
+      "id": "2027-01-22-troyes-as-monaco",
       "date": "2027-01-22",
       "kickoff": "2027-01-22T19:45Z",
-      "home": "Ulster",
-      "away": "Sharks",
-      "homeShort": "Ulster",
-      "awayShort": "SHA",
-      "competition": "United Rugby Championship",
-      "venue": "Affidea Stadium",
+      "home": "Troyes",
+      "away": "AS Monaco",
+      "homeShort": "TRY",
+      "awayShort": "Monaco",
+      "competition": "Ligue 1",
+      "venue": "Stade de l'Aube",
       "teamKeys": [
-        "ulster-rugby"
+        "as-monaco"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "as-monaco"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-23-hamburg-sv-borussia-dortmund",
+      "date": "2027-01-23",
+      "kickoff": "2027-01-23T17:30Z",
+      "home": "Hamburg SV",
+      "away": "Borussia Dortmund",
+      "homeShort": "Hamburg",
+      "awayShort": "DOR",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
+      "teamKeys": [
+        "hamburger-sv"
       ],
       "homeKeys": [
-        "ulster-rugby"
+        "hamburger-sv"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2301,25 +2130,6 @@
       "source": "ESPN"
     },
     {
-      "id": "2027-01-23-exeter-chiefs-bristol-rugby",
-      "date": "2027-01-23",
-      "kickoff": "2027-01-23T15:00Z",
-      "home": "Exeter Chiefs",
-      "away": "Bristol Rugby",
-      "homeShort": "Exeter",
-      "awayShort": "BRI",
-      "competition": "Premiership Rugby",
-      "venue": "Sandy Park",
-      "teamKeys": [
-        "exeter-chiefs"
-      ],
-      "homeKeys": [
-        "exeter-chiefs"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
       "id": "2027-01-24-juventus-cagliari",
       "date": "2027-01-24",
       "kickoff": "2027-01-24T20:00Z",
@@ -2372,25 +2182,6 @@
       ],
       "homeKeys": [
         "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2027-01-27-manchester-city-sporting-cp",
-      "date": "2027-01-27",
-      "kickoff": "2027-01-27T20:00Z",
-      "home": "Manchester City",
-      "away": "Sporting CP",
-      "homeShort": "Man City",
-      "awayShort": "SCP",
-      "competition": "Champions League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2453,6 +2244,44 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-30-mainz-hamburg-sv",
+      "date": "2027-01-30",
+      "kickoff": "2027-01-30T20:00Z",
+      "home": "Mainz",
+      "away": "Hamburg SV",
+      "homeShort": "M05",
+      "awayShort": "Hamburg",
+      "competition": "Bundesliga",
+      "venue": "MEWA ARENA",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "hamburger-sv"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-30-as-monaco-paris-saint-germain",
+      "date": "2027-01-30",
+      "kickoff": "2027-01-30T16:15Z",
+      "home": "AS Monaco",
+      "away": "Paris Saint-Germain",
+      "homeShort": "Monaco",
+      "awayShort": "PSG",
+      "competition": "Ligue 1",
+      "venue": "Stade Louis II",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [
+        "as-monaco"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-30-ottawa-senators-new-york-rangers",
       "date": "2027-01-30",
       "kickoff": "2027-01-31T00:00Z",
@@ -2488,25 +2317,6 @@
         "man-city"
       ],
       "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2027-01-30-connacht-ulster",
-      "date": "2027-01-30",
-      "kickoff": "2027-01-30T19:45Z",
-      "home": "Connacht",
-      "away": "Ulster",
-      "homeShort": "CON",
-      "awayShort": "Ulster",
-      "competition": "United Rugby Championship",
-      "venue": "Dexcom Stadium",
-      "teamKeys": [
-        "ulster-rugby"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "ulster-rugby"
-      ],
       "source": "ESPN"
     },
     {
@@ -2582,6 +2392,44 @@
       "homeKeys": [],
       "awayKeys": [
         "raptors"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-06-hamburg-sv-rb-leipzig",
+      "date": "2027-02-06",
+      "kickoff": "2027-02-06T20:00Z",
+      "home": "Hamburg SV",
+      "away": "RB Leipzig",
+      "homeShort": "Hamburg",
+      "awayShort": "RBL",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [
+        "hamburger-sv"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-06-aj-auxerre-as-monaco",
+      "date": "2027-02-06",
+      "kickoff": "2027-02-06T20:00Z",
+      "home": "AJ Auxerre",
+      "away": "AS Monaco",
+      "homeShort": "AUX",
+      "awayShort": "Monaco",
+      "competition": "Ligue 1",
+      "venue": "Stade de l'Abbé-Deschamps",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "as-monaco"
       ],
       "source": "ESPN"
     },
@@ -2754,6 +2602,44 @@
         "raptors"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-13-fc-cologne-hamburg-sv",
+      "date": "2027-02-13",
+      "kickoff": "2027-02-13T20:00Z",
+      "home": "FC Cologne",
+      "away": "Hamburg SV",
+      "homeShort": "KOE",
+      "awayShort": "Hamburg",
+      "competition": "Bundesliga",
+      "venue": "RheinEnergieStadion",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "hamburger-sv"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-13-toulouse-as-monaco",
+      "date": "2027-02-13",
+      "kickoff": "2027-02-13T20:00Z",
+      "home": "Toulouse",
+      "away": "AS Monaco",
+      "homeShort": "TOU",
+      "awayShort": "Monaco",
+      "competition": "Ligue 1",
+      "venue": "Stadium Municipal de Toulouse",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "as-monaco"
+      ],
       "source": "ESPN"
     },
     {
