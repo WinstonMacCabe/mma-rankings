@@ -472,7 +472,7 @@ export default function Home() {
             </div>
           )}
 
-          <div className="grid items-stretch gap-4 pb-8" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
+          <div className="grid items-stretch gap-4 pb-8" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))' }}>
             {filtered.map((fighter, i) => (
               <FighterCard key={fighter.name} fighter={fighter} rank={i + 1} isWorst={viewMode === 'worst' || viewMode === 'archivedWorst'} isBest={viewMode === 'best' || viewMode === 'archivedBest' || isSportMode} />
             ))}
