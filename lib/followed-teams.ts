@@ -93,6 +93,14 @@ export const FOLLOWED_TEAMS: FollowedTeam[] = [
     sources: [{ kind: 'espn-core', sport: 'soccer', league: 'fra.1', teamId: '174', competition: 'Ligue 1' }],
   },
   {
+    key: 'malaga',
+    name: 'Málaga CF',
+    short: 'Malaga',
+    label: 'Soccer',
+    aliases: ['Málaga', 'Malaga', 'Málaga CF', 'Malaga CF'],
+    sources: [{ kind: 'espn-core', sport: 'soccer', league: 'esp.1', teamId: '99', competition: 'La Liga' }],
+  },
+  {
     key: 'remo',
     name: 'Clube do Remo',
     short: 'Remo',

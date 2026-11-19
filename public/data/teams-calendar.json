@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:58:46.538Z",
+  "generatedAt": "2026-11-19T03:04:59.492Z",
   "windowDays": 90,
   "teams": [
     {
@@ -72,6 +72,14 @@
       "short": "Monaco",
       "label": "Soccer",
       "count": 10,
+      "ok": true
+    },
+    {
+      "key": "malaga",
+      "name": "Málaga CF",
+      "short": "Malaga",
+      "label": "Soccer",
+      "count": 12,
       "ok": true
     },
     {
@@ -265,6 +273,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-11-22-osasuna-m-laga",
+      "date": "2026-11-22",
+      "kickoff": "2026-11-22T17:30Z",
+      "home": "Osasuna",
+      "away": "Málaga",
+      "homeShort": "OSA",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "El Sadar",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-11-22-athletico-paranaense-remo",
       "date": "2026-11-22",
       "kickoff": "2026-11-22T19:00Z",
@@ -412,6 +439,25 @@
       ],
       "homeKeys": [
         "hamburger-sv"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-11-28-m-laga-athletic-club",
+      "date": "2026-11-28",
+      "kickoff": "2026-11-28T15:15Z",
+      "home": "Málaga",
+      "away": "Athletic Club",
+      "homeShort": "Malaga",
+      "awayShort": "ATH",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -762,6 +808,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-07-sevilla-m-laga",
+      "date": "2026-12-07",
+      "kickoff": "2026-12-07T20:00Z",
+      "home": "Sevilla",
+      "away": "Málaga",
+      "homeShort": "SEV",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "Ramón Sánchez Pizjuán Stadium",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-07-fiorentina-cagliari",
       "date": "2026-12-07",
       "kickoff": "2026-12-07T19:45Z",
@@ -909,6 +974,25 @@
       ],
       "homeKeys": [
         "cagliari"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-13-m-laga-barcelona",
+      "date": "2026-12-13",
+      "kickoff": "2026-12-13T20:00Z",
+      "home": "Málaga",
+      "away": "Barcelona",
+      "homeShort": "Malaga",
+      "awayShort": "BAR",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -1082,6 +1166,25 @@
         "man-city"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2026-12-20-rayo-vallecano-m-laga",
+      "date": "2026-12-20",
+      "kickoff": "2026-12-20T20:00Z",
+      "home": "Rayo Vallecano",
+      "away": "Málaga",
+      "homeShort": "RAY",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "Estadio de Vallecas",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
+      ],
       "source": "ESPN"
     },
     {
@@ -1446,6 +1549,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-03-m-laga-elche",
+      "date": "2027-01-03",
+      "kickoff": "2027-01-03T20:00Z",
+      "home": "Málaga",
+      "away": "Elche",
+      "homeShort": "Malaga",
+      "awayShort": "ELC",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-03-toronto-raptors-los-angeles-lakers",
       "date": "2027-01-03",
       "kickoff": "2027-01-04T00:00Z",
@@ -1674,6 +1796,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-10-valencia-m-laga",
+      "date": "2027-01-10",
+      "kickoff": "2027-01-10T20:00Z",
+      "home": "Valencia",
+      "away": "Málaga",
+      "homeShort": "VAL",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "Mestalla Stadium",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-10-toronto-raptors-philadelphia-76ers",
       "date": "2027-01-10",
       "kickoff": "2027-01-10T23:00Z",
@@ -1897,6 +2038,25 @@
       ],
       "homeKeys": [
         "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-01-17-m-laga-real-madrid",
+      "date": "2027-01-17",
+      "kickoff": "2027-01-17T20:00Z",
+      "home": "Málaga",
+      "away": "Real Madrid",
+      "homeShort": "Malaga",
+      "awayShort": "RMA",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2130,6 +2290,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-24-real-sociedad-m-laga",
+      "date": "2027-01-24",
+      "kickoff": "2027-01-24T20:00Z",
+      "home": "Real Sociedad",
+      "away": "Málaga",
+      "homeShort": "RSO",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "Reale Arena",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
+      ],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-24-juventus-cagliari",
       "date": "2027-01-24",
       "kickoff": "2027-01-24T20:00Z",
@@ -2320,6 +2499,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2027-01-31-m-laga-alav-s",
+      "date": "2027-01-31",
+      "kickoff": "2027-01-31T20:00Z",
+      "home": "Málaga",
+      "away": "Alavés",
+      "homeShort": "Malaga",
+      "awayShort": "ALA",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2027-01-31-toronto-raptors-boston-celtics",
       "date": "2027-01-31",
       "kickoff": "2027-01-31T23:00Z",
@@ -2468,6 +2666,25 @@
       "homeKeys": [],
       "awayKeys": [
         "man-city"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-07-deportivo-m-laga",
+      "date": "2027-02-07",
+      "kickoff": "2027-02-07T20:00Z",
+      "home": "Deportivo",
+      "away": "Málaga",
+      "homeShort": "DEP",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "Riazor",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
       ],
       "source": "ESPN"
     },
@@ -2659,6 +2876,25 @@
         "senators"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-14-levante-m-laga",
+      "date": "2027-02-14",
+      "kickoff": "2027-02-14T20:00Z",
+      "home": "Levante",
+      "away": "Málaga",
+      "homeShort": "LEV",
+      "awayShort": "Malaga",
+      "competition": "La Liga",
+      "venue": "Estadi Ciutat de València",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "malaga"
+      ],
       "source": "ESPN"
     },
     {
