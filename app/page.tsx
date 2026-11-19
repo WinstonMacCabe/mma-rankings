@@ -439,7 +439,7 @@ export default function Home() {
       </header>
 
       <main className="pb-12 pt-28">
-        <div className="mx-auto max-w-7xl px-4">
+        <div className="mx-auto w-full px-4">
           <div className="mb-10 pt-6 text-center">
             <h1 className="text-[64px] font-bold uppercase leading-[1.02] tracking-[0.06em] text-[#1d1d1f]">{isSportMode ? SPORT_LABELS[viewMode as SportKey] : 'MMA'}</h1>
           </div>
@@ -472,7 +472,7 @@ export default function Home() {
             </div>
           )}
 
-          <div className="grid items-stretch gap-4 pb-8" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))' }}>
+          <div className="grid items-stretch gap-4 pb-8" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
             {filtered.map((fighter, i) => (
               <FighterCard key={fighter.name} fighter={fighter} rank={i + 1} isWorst={viewMode === 'worst' || viewMode === 'archivedWorst'} isBest={viewMode === 'best' || viewMode === 'archivedBest' || isSportMode} />
             ))}
