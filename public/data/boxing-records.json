@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T00:42:55.876Z",
+  "lastUpdated": "2026-11-20T00:44:06.543Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -1381,7 +1381,7 @@
     },
     "Lucas Browne": {
       "wins": 32,
-      "kos": 23,
+      "kos": 0,
       "losses": 7,
       "draws": 0,
       "noContests": 0,
@@ -6145,30 +6145,6 @@
       "birthDate": "1923-11-23",
       "gender": "male"
     },
-    "Jade Jones (taekwondo)": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Wales",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jade_Jones_Rio2016.jpg",
-      "birthDate": "1993",
-      "gender": "male"
-    },
-    "Mia St. John": {
-      "wins": 49,
-      "kos": 19,
-      "losses": 14,
-      "draws": 2,
-      "noContests": 0,
-      "total": 65,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mia_St_John_1.jpg",
-      "birthDate": "1967",
-      "gender": "male"
-    },
     "Myriam Lamare": {
       "wins": 22,
       "kos": 0,
@@ -6240,6 +6216,30 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Paulie Malignaggi": {
+      "wins": 36,
+      "kos": 5,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 44,
+      "nationality": "American",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
+      "birthDate": "1980-11-23",
+      "gender": "male"
+    },
+    "Jack McAuliffe (boxer)": {
+      "wins": 28,
+      "kos": 19,
+      "losses": 0,
+      "draws": 10,
+      "noContests": 0,
+      "total": 38,
+      "nationality": "Irish",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
+      "birthDate": "1866",
+      "gender": "male"
+    },
     "Professor Mike Donovan": {
       "wins": 25,
       "kos": 0,
@@ -6262,6 +6262,17 @@
       "nationality": "USSR",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%B5%D1%80%D1%96%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_3_(%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%BA%2C_4.10.2012).jpg",
       "birthDate": "1988",
+      "gender": "male"
+    },
+    "Nico Hernandez": {
+      "wins": 12,
+      "kos": 5,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "American",
+      "birthDate": "1996-01-04",
       "gender": "male"
     },
     "Emil Novruzov": {
@@ -6311,30 +6322,6 @@
       "birthDate": "1858",
       "gender": "male"
     },
-    "Paulie Malignaggi": {
-      "wins": 36,
-      "kos": 5,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 44,
-      "nationality": "American",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Paul_Malignaggi.jpg",
-      "birthDate": "1980-11-23",
-      "gender": "male"
-    },
-    "Jack McAuliffe (boxer)": {
-      "wins": 28,
-      "kos": 19,
-      "losses": 0,
-      "draws": 10,
-      "noContests": 0,
-      "total": 38,
-      "nationality": "Irish",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
-      "birthDate": "1866",
-      "gender": "male"
-    },
     "Dat Nguyen (boxer)": {
       "wins": 20,
       "kos": 0,
@@ -6344,17 +6331,6 @@
       "total": 23,
       "nationality": "American",
       "birthDate": "1982-10-10",
-      "gender": "male"
-    },
-    "Nico Hernandez": {
-      "wins": 12,
-      "kos": 5,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "American",
-      "birthDate": "1996-01-04",
       "gender": "male"
     },
     "Jem Mace": {
@@ -6391,6 +6367,17 @@
       "nationality": "England",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jamesdegale.jpg",
       "birthDate": "1986-02-03",
+      "gender": "male"
+    },
+    "Hannah Rankin": {
+      "wins": 13,
+      "kos": 3,
+      "losses": 8,
+      "draws": 0,
+      "noContests": 0,
+      "total": 21,
+      "nationality": "Scotland",
+      "birthDate": "1990",
       "gender": "male"
     },
     "Nonpareil Jack Dempsey": {
@@ -6440,17 +6427,6 @@
       "birthDate": "1973-12-25",
       "gender": "male"
     },
-    "Hannah Rankin": {
-      "wins": 13,
-      "kos": 3,
-      "losses": 8,
-      "draws": 0,
-      "noContests": 0,
-      "total": 21,
-      "nationality": "Scotland",
-      "birthDate": "1990",
-      "gender": "male"
-    },
     "Usanakorn Thawilsuhannawang": {
       "wins": 21,
       "kos": 20,
@@ -6460,6 +6436,30 @@
       "total": 31,
       "nationality": "Thailand",
       "birthDate": "1987",
+      "gender": "male"
+    },
+    "Jade Jones (taekwondo)": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Wales",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jade_Jones_Rio2016.jpg",
+      "birthDate": "1993",
+      "gender": "male"
+    },
+    "Mia St. John": {
+      "wins": 49,
+      "kos": 19,
+      "losses": 14,
+      "draws": 2,
+      "noContests": 0,
+      "total": 65,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mia_St_John_1.jpg",
+      "birthDate": "1967",
       "gender": "male"
     },
     "Prabtoranee Luklampakchee": {
