@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T00:59:58.617Z",
+  "generatedAt": "2026-11-21T00:57:32.009Z",
   "windowDays": 90,
   "teams": [
     {
@@ -101,25 +101,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-19-ottawa-senators-philadelphia-flyers",
-      "date": "2026-11-19",
-      "kickoff": "2026-11-20T00:00Z",
-      "home": "Ottawa Senators",
-      "away": "Philadelphia Flyers",
-      "homeShort": "Senators",
-      "awayShort": "Flyers",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-20-detroit-pistons-toronto-raptors",
       "date": "2026-11-20",
@@ -2964,6 +2945,25 @@
       "awayShort": "Senators",
       "competition": "NHL",
       "venue": "Climate Pledge Arena",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-18-vancouver-canucks-ottawa-senators",
+      "date": "2027-02-18",
+      "kickoff": "2027-02-19T02:00Z",
+      "home": "Vancouver Canucks",
+      "away": "Ottawa Senators",
+      "homeShort": "Canucks",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Rogers Arena",
       "teamKeys": [
         "senators"
       ],
