@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:57:32.009Z",
+  "generatedAt": "2026-11-22T00:58:50.049Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 42,
+      "count": 41,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
       "name": "Toronto Blue Jays",
       "short": "Blue Jays",
       "label": "MLB",
-      "count": 0,
+      "count": 2,
       "ok": true
     },
     {
@@ -101,25 +101,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-20-detroit-pistons-toronto-raptors",
-      "date": "2026-11-20",
-      "kickoff": "2026-11-21T00:30Z",
-      "home": "Detroit Pistons",
-      "away": "Toronto Raptors",
-      "homeShort": "Pistons",
-      "awayShort": "Raptors",
-      "competition": "NBA",
-      "venue": "Little Caesars Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "raptors"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-21-as-monaco-aj-auxerre",
       "date": "2026-11-21",
@@ -2972,6 +2953,44 @@
         "senators"
       ],
       "source": "ESPN"
+    },
+    {
+      "id": "2027-02-19-pittsburgh-pirates-toronto-blue-jays",
+      "date": "2027-02-19",
+      "kickoff": "2027-02-19T18:05:00Z",
+      "home": "Pittsburgh Pirates",
+      "away": "Toronto Blue Jays",
+      "homeShort": "PIT",
+      "awayShort": "Blue Jays",
+      "competition": "MLB",
+      "venue": "LECOM Park",
+      "teamKeys": [
+        "blue-jays"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "blue-jays"
+      ],
+      "source": "MLB"
+    },
+    {
+      "id": "2027-02-19-toronto-blue-jays-new-york-yankees",
+      "date": "2027-02-19",
+      "kickoff": "2027-02-19T18:07:00Z",
+      "home": "Toronto Blue Jays",
+      "away": "New York Yankees",
+      "homeShort": "Blue Jays",
+      "awayShort": "NYY",
+      "competition": "MLB",
+      "venue": "TD Ballpark",
+      "teamKeys": [
+        "blue-jays"
+      ],
+      "homeKeys": [
+        "blue-jays"
+      ],
+      "awayKeys": [],
+      "source": "MLB"
     }
   ]
 }
