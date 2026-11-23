@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:58:50.049Z",
+  "generatedAt": "2026-11-23T00:57:11.019Z",
   "windowDays": 90,
   "teams": [
     {
@@ -23,7 +23,7 @@
       "name": "Toronto Blue Jays",
       "short": "Blue Jays",
       "label": "MLB",
-      "count": 2,
+      "count": 3,
       "ok": true
     },
     {
@@ -39,7 +39,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 37,
+      "count": 36,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
       "name": "Hamburger SV",
       "short": "Hamburg",
       "label": "Soccer",
-      "count": 12,
+      "count": 13,
       "ok": true
     },
     {
@@ -55,7 +55,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 13,
+      "count": 12,
       "ok": true
     },
     {
@@ -101,82 +101,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-21-as-monaco-aj-auxerre",
-      "date": "2026-11-21",
-      "kickoff": "2026-11-21T19:45Z",
-      "home": "AS Monaco",
-      "away": "AJ Auxerre",
-      "homeShort": "Monaco",
-      "awayShort": "AUX",
-      "competition": "Ligue 1",
-      "venue": "Stade Louis II",
-      "teamKeys": [
-        "as-monaco"
-      ],
-      "homeKeys": [
-        "as-monaco"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-21-ottawa-senators-los-angeles-kings",
-      "date": "2026-11-21",
-      "kickoff": "2026-11-22T00:00Z",
-      "home": "Ottawa Senators",
-      "away": "Los Angeles Kings",
-      "homeShort": "Senators",
-      "awayShort": "Kings",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-21-manchester-city-fulham",
-      "date": "2026-11-21",
-      "kickoff": "2026-11-21T12:30Z",
-      "home": "Manchester City",
-      "away": "Fulham",
-      "homeShort": "Man City",
-      "awayShort": "FUL",
-      "competition": "Premier League",
-      "venue": "Etihad Stadium",
-      "teamKeys": [
-        "man-city"
-      ],
-      "homeKeys": [
-        "man-city"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-21-como-cagliari",
-      "date": "2026-11-21",
-      "kickoff": "2026-11-21T14:00Z",
-      "home": "Como",
-      "away": "Cagliari",
-      "homeShort": "COMO",
-      "awayShort": "Cagliari",
-      "competition": "Serie A",
-      "venue": "Giuseppe Sinigaglia",
-      "teamKeys": [
-        "cagliari"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "cagliari"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-22-werder-bremen-hamburg-sv",
       "date": "2026-11-22",
@@ -2991,6 +2915,82 @@
       ],
       "awayKeys": [],
       "source": "MLB"
+    },
+    {
+      "id": "2027-02-20-hamburg-sv-tsg-hoffenheim",
+      "date": "2027-02-20",
+      "kickoff": "2027-02-20T20:00Z",
+      "home": "Hamburg SV",
+      "away": "TSG Hoffenheim",
+      "homeShort": "Hamburg",
+      "awayShort": "TSG",
+      "competition": "Bundesliga",
+      "venue": "Volksparkstadion",
+      "teamKeys": [
+        "hamburger-sv"
+      ],
+      "homeKeys": [
+        "hamburger-sv"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-20-as-monaco-le-mans",
+      "date": "2027-02-20",
+      "kickoff": "2027-02-20T20:00Z",
+      "home": "AS Monaco",
+      "away": "Le Mans",
+      "homeShort": "Monaco",
+      "awayShort": "MNS",
+      "competition": "Ligue 1",
+      "venue": "Stade Louis II",
+      "teamKeys": [
+        "as-monaco"
+      ],
+      "homeKeys": [
+        "as-monaco"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-20-philadelphia-phillies-toronto-blue-jays",
+      "date": "2027-02-20",
+      "kickoff": "2027-02-20T18:05:00Z",
+      "home": "Philadelphia Phillies",
+      "away": "Toronto Blue Jays",
+      "homeShort": "PHI",
+      "awayShort": "Blue Jays",
+      "competition": "MLB",
+      "venue": "BayCare Ballpark",
+      "teamKeys": [
+        "blue-jays"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "blue-jays"
+      ],
+      "source": "MLB"
+    },
+    {
+      "id": "2027-02-20-manchester-city-newcastle-united",
+      "date": "2027-02-20",
+      "kickoff": "2027-02-20T15:00Z",
+      "home": "Manchester City",
+      "away": "Newcastle United",
+      "homeShort": "Man City",
+      "awayShort": "NEW",
+      "competition": "Premier League",
+      "venue": "Etihad Stadium",
+      "teamKeys": [
+        "man-city"
+      ],
+      "homeKeys": [
+        "man-city"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
     }
   ]
 }

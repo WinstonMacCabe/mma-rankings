@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T00:44:07.396Z",
+  "lastUpdated": "2026-11-23T00:42:43.864Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -2173,18 +2173,6 @@
       "birthDate": "1998",
       "gender": "male"
     },
-    "Konstantin Gluhov": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 4,
-      "nationality": "Russian",
-      "weightClass": "Heavyweight",
-      "birthDate": "1980",
-      "gender": "male"
-    },
     "Kazuhisa Watanabe": {
       "wins": 15,
       "kos": 0,
@@ -2195,6 +2183,18 @@
       "nationality": "Japanese",
       "weightClass": "Featherweight",
       "birthDate": "1983",
+      "gender": "male"
+    },
+    "Konstantin Gluhov": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 4,
+      "nationality": "Russian",
+      "weightClass": "Heavyweight",
+      "birthDate": "1980",
       "gender": "male"
     },
     "Sergej Maslobojev": {
@@ -2234,32 +2234,6 @@
       "weightClass": "Light heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/RaySefoXtremeCouture.jpg",
       "birthDate": "1971",
-      "gender": "male"
-    },
-    "Jason Suttie": {
-      "wins": 3,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "Samoan New Zealander",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jason_Suttie.JPG",
-      "birthDate": "1973",
-      "gender": "male"
-    },
-    "Doug Viney": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "TonganNew Zealander",
-      "weightClass": "Super heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
-      "birthDate": "1976",
       "gender": "male"
     },
     "Antz Nansen": {
@@ -2311,31 +2285,6 @@
       "birthDate": "1991-09-30",
       "gender": "male"
     },
-    "Carlos Ulberg": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "New Zealand",
-      "weightClass": "Light heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250%2C_Saturday%2C_June_13%2C_2026_-_11(cropped).jpg",
-      "birthDate": "1990-11-17",
-      "gender": "male"
-    },
-    "Junior Tafa": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 1,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Australian",
-      "weightClass": "Light heavyweight",
-      "birthDate": "1996",
-      "gender": "male"
-    },
     "Miloš Janičić": {
       "wins": 3,
       "kos": 2,
@@ -2346,6 +2295,32 @@
       "nationality": "FR Yugoslavia",
       "weightClass": "Lightweight",
       "birthDate": "1997-05-03",
+      "gender": "male"
+    },
+    "Jason Suttie": {
+      "wins": 3,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "Samoan New Zealander",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jason_Suttie.JPG",
+      "birthDate": "1973",
+      "gender": "male"
+    },
+    "Doug Viney": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "TonganNew Zealander",
+      "weightClass": "Super heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Doug_Viney.jpg",
+      "birthDate": "1976",
       "gender": "male"
     },
     "Andy Ologun": {
@@ -2385,16 +2360,29 @@
       "birthDate": "1986",
       "gender": "male"
     },
-    "Piotr Kuberski": {
+    "Carlos Ulberg": {
       "wins": 1,
       "kos": 0,
       "losses": 0,
       "draws": 0,
       "noContests": 0,
       "total": 1,
-      "nationality": "Poland",
-      "weightClass": "Middleweight",
-      "birthDate": "1988-10-24",
+      "nationality": "New Zealand",
+      "weightClass": "Light heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250%2C_Saturday%2C_June_13%2C_2026_-_11(cropped).jpg",
+      "birthDate": "1990-11-17",
+      "gender": "male"
+    },
+    "Junior Tafa": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 1,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Australian",
+      "weightClass": "Light heavyweight",
+      "birthDate": "1996",
       "gender": "male"
     },
     "Przemysław Saleta": {
@@ -2423,19 +2411,6 @@
       "birthDate": "1989",
       "gender": "male"
     },
-    "Arkadiusz Wrzosek": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "Poland",
-      "weightClass": "Cruiserweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Arkadiusz_wrzosek.jpg",
-      "birthDate": "1992",
-      "gender": "male"
-    },
     "Tomasz Sarara": {
       "wins": 1,
       "kos": 0,
@@ -2458,6 +2433,18 @@
       "nationality": "Poland",
       "weightClass": "Heavyweight",
       "birthDate": "1991",
+      "gender": "male"
+    },
+    "Piotr Kuberski": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "Poland",
+      "weightClass": "Middleweight",
+      "birthDate": "1988-10-24",
       "gender": "male"
     },
     "Daniel Rutkowski": {
@@ -2483,19 +2470,6 @@
       "weightClass": "Super heavyweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alex_emelyanenko_40_years.jpg",
       "birthDate": "1981",
-      "gender": "male"
-    },
-    "Sergei Kharitonov": {
-      "wins": 2,
-      "kos": 1,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 2,
-      "nationality": "Russian",
-      "weightClass": "Heavyweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sergeikharitonov.JPG",
-      "birthDate": "1980-08-18",
       "gender": "male"
     },
     "Viacheslav Datsik": {
@@ -2535,16 +2509,30 @@
       "birthDate": "1990",
       "gender": "male"
     },
-    "Damir Ismagulov": {
+    "Arkadiusz Wrzosek": {
       "wins": 1,
       "kos": 0,
       "losses": 0,
       "draws": 0,
       "noContests": 0,
       "total": 1,
-      "nationality": "Russian Kazakh",
-      "weightClass": "Lightweight",
-      "birthDate": "1991",
+      "nationality": "Poland",
+      "weightClass": "Cruiserweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Arkadiusz_wrzosek.jpg",
+      "birthDate": "1992",
+      "gender": "male"
+    },
+    "Sergei Kharitonov": {
+      "wins": 2,
+      "kos": 1,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Russian",
+      "weightClass": "Heavyweight",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sergeikharitonov.JPG",
+      "birthDate": "1980-08-18",
       "gender": "male"
     },
     "Aleksei Oleinik": {
@@ -2573,16 +2561,16 @@
       "birthDate": "1990",
       "gender": "male"
     },
-    "Mike Bernardo": {
-      "wins": 11,
+    "Damir Ismagulov": {
+      "wins": 1,
       "kos": 0,
-      "losses": 1,
-      "draws": 1,
+      "losses": 0,
+      "draws": 0,
       "noContests": 0,
-      "total": 13,
-      "nationality": "South African",
-      "weightClass": "Heavyweight",
-      "birthDate": "1969",
+      "total": 1,
+      "nationality": "Russian Kazakh",
+      "weightClass": "Lightweight",
+      "birthDate": "1991",
       "gender": "male"
     },
     "Roman Zentsov": {
@@ -2634,6 +2622,18 @@
       "weightClass": "Welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/%D0%A1%D1%82%D0%B5%D1%86%D1%83%D1%80%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80.jpg",
       "birthDate": "1983",
+      "gender": "male"
+    },
+    "Mike Bernardo": {
+      "wins": 11,
+      "kos": 0,
+      "losses": 1,
+      "draws": 1,
+      "noContests": 0,
+      "total": 13,
+      "nationality": "South African",
+      "weightClass": "Heavyweight",
+      "birthDate": "1969",
       "gender": "male"
     },
     "Jan Nortje": {
@@ -2698,6 +2698,18 @@
       "birthDate": "1974",
       "gender": "male"
     },
+    "Amanda Brundage": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "U.S.",
+      "weightClass": "Strawweight",
+      "birthDate": "1991-10-22",
+      "gender": "female"
+    },
     "Nursulton Ruziboev": {
       "wins": 2,
       "kos": 0,
@@ -2711,40 +2723,6 @@
       "birthDate": "1993-11-19",
       "gender": "male"
     },
-    "Amanda Brundage": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "U.S.",
-      "weightClass": "Strawweight",
-      "birthDate": "1991-10-22",
-      "gender": "female"
-    },
-    "Lisa Ellis (martial artist)": {
-      "wins": 0,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "birthDate": "1982-11-15",
-      "gender": "female"
-    },
-    "Jodie Esquibel": {
-      "wins": 7,
-      "kos": 0,
-      "losses": 7,
-      "draws": 1,
-      "noContests": 0,
-      "total": 15,
-      "nationality": "U.S.",
-      "weightClass": "Strawweight",
-      "birthDate": "1986-05-07",
-      "gender": "female"
-    },
     "Holly Holm": {
       "wins": 34,
       "kos": 0,
@@ -2756,18 +2734,6 @@
       "weightClass": "Light welterweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Holly_Holm_at_UFC_246.jpg",
       "birthDate": "1981",
-      "gender": "female"
-    },
-    "Kathy Long": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kathy_Long.jpg",
-      "birthDate": "1964",
       "gender": "female"
     },
     "Felice Herrig": {
@@ -2783,6 +2749,16 @@
       "birthDate": "1984-09-18",
       "gender": "female"
     },
+    "Lisa Ellis (martial artist)": {
+      "wins": 0,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "birthDate": "1982-11-15",
+      "gender": "female"
+    },
     "Ana Julaton": {
       "wins": 14,
       "kos": 2,
@@ -2794,6 +2770,18 @@
       "weightClass": "Bantamweight",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ana_Julaton_(cropped).jpg",
       "birthDate": "1983-11-28",
+      "gender": "female"
+    },
+    "Jodie Esquibel": {
+      "wins": 7,
+      "kos": 0,
+      "losses": 7,
+      "draws": 1,
+      "noContests": 0,
+      "total": 15,
+      "nationality": "U.S.",
+      "weightClass": "Strawweight",
+      "birthDate": "1986-05-07",
       "gender": "female"
     },
     "Justine Kish": {
@@ -2845,18 +2833,6 @@
       "birthDate": "1999-08-14",
       "gender": "female"
     },
-    "Gina Mazany": {
-      "wins": 1,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 1,
-      "nationality": "U.S.",
-      "weightClass": "Bantamweight",
-      "birthDate": "1988",
-      "gender": "female"
-    },
     "Martha Salazar": {
       "wins": 13,
       "kos": 0,
@@ -2879,6 +2855,18 @@
       "nationality": "Arizona",
       "weightClass": "Strawweight",
       "birthDate": "1981",
+      "gender": "female"
+    },
+    "Kathy Long": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kathy_Long.jpg",
+      "birthDate": "1964",
       "gender": "female"
     },
     "Claressa Shields": {
@@ -2917,6 +2905,18 @@
       "nationality": "United States",
       "weightClass": "Bantamweight",
       "birthDate": "1976",
+      "gender": "female"
+    },
+    "Gina Mazany": {
+      "wins": 1,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 1,
+      "nationality": "U.S.",
+      "weightClass": "Bantamweight",
+      "birthDate": "1988",
       "gender": "female"
     },
     "Erin Toughill": {
@@ -3164,18 +3164,6 @@
       "birthDate": "1967",
       "gender": "female"
     },
-    "Emiko Raika": {
-      "wins": 25,
-      "kos": 0,
-      "losses": 8,
-      "draws": 1,
-      "noContests": 0,
-      "total": 34,
-      "nationality": "Japanese",
-      "weightClass": "Lightweight",
-      "birthDate": "1975",
-      "gender": "female"
-    },
     "Rena Kubota": {
       "wins": 35,
       "kos": 11,
@@ -3198,6 +3186,18 @@
       "nationality": "Japan",
       "weightClass": "Bantamweight",
       "birthDate": "1980",
+      "gender": "female"
+    },
+    "Emiko Raika": {
+      "wins": 25,
+      "kos": 0,
+      "losses": 8,
+      "draws": 1,
+      "noContests": 0,
+      "total": 34,
+      "nationality": "Japanese",
+      "weightClass": "Lightweight",
+      "birthDate": "1975",
       "gender": "female"
     },
     "Sexy Star": {
@@ -3260,18 +3260,6 @@
       "birthDate": "1988",
       "gender": "female"
     },
-    "Gentiane Lupi": {
-      "wins": 7,
-      "kos": 0,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "New Zealand",
-      "weightClass": "Bantamweight",
-      "birthDate": "1975",
-      "gender": "female"
-    },
     "Genah Fabian": {
       "wins": 0,
       "kos": 0,
@@ -3296,18 +3284,6 @@
       "birthDate": "1997",
       "gender": "female"
     },
-    "Laura Grzyb": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 0,
-      "draws": 0,
-      "noContests": 0,
-      "total": 12,
-      "nationality": "Poland",
-      "weightClass": "Flyweight",
-      "birthDate": "1995-04-29",
-      "gender": "female"
-    },
     "Julia Berezikova": {
       "wins": 2,
       "kos": 0,
@@ -3320,6 +3296,18 @@
       "birthDate": "1983",
       "gender": "female"
     },
+    "Gentiane Lupi": {
+      "wins": 7,
+      "kos": 0,
+      "losses": 3,
+      "draws": 1,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "New Zealand",
+      "weightClass": "Bantamweight",
+      "birthDate": "1975",
+      "gender": "female"
+    },
     "Loma Lookboonmee": {
       "wins": 6,
       "kos": 0,
@@ -3330,6 +3318,18 @@
       "nationality": "Thailand",
       "weightClass": "Strawweight",
       "birthDate": "1996-01-18",
+      "gender": "female"
+    },
+    "Laura Grzyb": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 12,
+      "nationality": "Poland",
+      "weightClass": "Flyweight",
+      "birthDate": "1995-04-29",
       "gender": "female"
     },
     "Jasmine Parr": {
