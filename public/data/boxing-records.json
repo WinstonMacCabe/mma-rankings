@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T00:42:43.864Z",
+  "lastUpdated": "2026-11-24T00:42:40.611Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -4035,7 +4035,6 @@
       "total": 10,
       "nationality": "Italy",
       "weightClass": "Cruiserweight",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mattia_Faraoni.jpg/330px-Mattia_Faraoni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "birthDate": "1991",
       "gender": "male"
     },
@@ -5947,6 +5946,18 @@
       "birthDate": "1986",
       "gender": "male"
     },
+    "Teeraporn Saengano": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 0,
+      "draws": 0,
+      "noContests": 0,
+      "total": 2,
+      "nationality": "Thailand",
+      "weightClass": "Flyweight",
+      "birthDate": "1962",
+      "gender": "male"
+    },
     "Phetjeeja Lukjaoporongtom": {
       "wins": 5,
       "kos": 4,
@@ -5958,29 +5969,6 @@
       "weightClass": "Flyweight",
       "birthDate": "2001",
       "gender": "female"
-    },
-    "Sot Chitalada": {
-      "wins": 26,
-      "kos": 13,
-      "losses": 4,
-      "draws": 1,
-      "noContests": 0,
-      "total": 31,
-      "nationality": "Thailand",
-      "birthDate": "1962",
-      "gender": "male"
-    },
-    "Kompayak Porpramook": {
-      "wins": 61,
-      "kos": 0,
-      "losses": 14,
-      "draws": 1,
-      "noContests": 0,
-      "total": 76,
-      "nationality": "Thai",
-      "weightClass": "Flyweight",
-      "birthDate": "1982-06-18",
-      "gender": "male"
     },
     "Plinio Cruz": {
       "wins": 1,
@@ -5994,6 +5982,17 @@
       "birthDate": "1985",
       "gender": "male"
     },
+    "Sot Chitalada": {
+      "wins": 26,
+      "kos": 13,
+      "losses": 4,
+      "draws": 1,
+      "noContests": 0,
+      "total": 31,
+      "nationality": "Thailand",
+      "birthDate": "1962",
+      "gender": "male"
+    },
     "Zaza Sor. Aree": {
       "wins": 1,
       "kos": 0,
@@ -6005,6 +6004,18 @@
       "weightClass": "Featherweight",
       "birthDate": "1993",
       "gender": "female"
+    },
+    "Kompayak Porpramook": {
+      "wins": 61,
+      "kos": 0,
+      "losses": 14,
+      "draws": 1,
+      "noContests": 0,
+      "total": 76,
+      "nationality": "Thai",
+      "weightClass": "Flyweight",
+      "birthDate": "1982-06-18",
+      "gender": "male"
     },
     "Michelle Preston": {
       "wins": 11,
@@ -6041,17 +6052,6 @@
       "birthDate": "1995",
       "gender": "female"
     },
-    "Dora and Cora Webber": {
-      "wins": 4,
-      "kos": 1,
-      "losses": 5,
-      "draws": 4,
-      "noContests": 0,
-      "total": 13,
-      "nationality": "American",
-      "birthDate": "1958-12-05",
-      "gender": "female"
-    },
     "Terri Moss": {
       "wins": 9,
       "kos": 0,
@@ -6073,6 +6073,17 @@
       "total": 12,
       "nationality": "{{plainlist|",
       "birthDate": "1977-12-12",
+      "gender": "female"
+    },
+    "Dora and Cora Webber": {
+      "wins": 4,
+      "kos": 1,
+      "losses": 5,
+      "draws": 4,
+      "noContests": 0,
+      "total": 13,
+      "nationality": "American",
+      "birthDate": "1958-12-05",
       "gender": "female"
     },
     "Marcela Acuña": {
@@ -6369,18 +6380,6 @@
       "birthDate": "1831-04-08",
       "gender": "male"
     },
-    "Tom Sayers": {
-      "wins": 12,
-      "kos": 0,
-      "losses": 1,
-      "draws": 3,
-      "noContests": 0,
-      "total": 16,
-      "nationality": "British",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
-      "birthDate": "1826",
-      "gender": "male"
-    },
     "James DeGale": {
       "wins": 25,
       "kos": 12,
@@ -6415,6 +6414,18 @@
       "nationality": "Ireland",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/JohnMorrissey_(1).jpg",
       "birthDate": "1831-02-12",
+      "gender": "male"
+    },
+    "Tom Sayers": {
+      "wins": 12,
+      "kos": 0,
+      "losses": 1,
+      "draws": 3,
+      "noContests": 0,
+      "total": 16,
+      "nationality": "British",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tom_Sayers.gif",
+      "birthDate": "1826",
       "gender": "male"
     },
     "George Gardiner (boxer)": {

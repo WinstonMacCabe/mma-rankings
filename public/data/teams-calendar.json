@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T00:57:11.019Z",
+  "generatedAt": "2026-11-24T00:57:04.238Z",
   "windowDays": 90,
   "teams": [
     {
@@ -23,7 +23,7 @@
       "name": "Toronto Blue Jays",
       "short": "Blue Jays",
       "label": "MLB",
-      "count": 3,
+      "count": 4,
       "ok": true
     },
     {
@@ -39,7 +39,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 36,
+      "count": 37,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
       "name": "Hamburger SV",
       "short": "Hamburg",
       "label": "Soccer",
-      "count": 13,
+      "count": 12,
       "ok": true
     },
     {
@@ -55,7 +55,7 @@
       "name": "Cagliari",
       "short": "Cagliari",
       "label": "Soccer",
-      "count": 12,
+      "count": 13,
       "ok": true
     },
     {
@@ -63,7 +63,7 @@
       "name": "CF Montréal",
       "short": "Montreal",
       "label": "Soccer",
-      "count": 0,
+      "count": 1,
       "ok": true
     },
     {
@@ -87,7 +87,7 @@
       "name": "Clube do Remo",
       "short": "Remo",
       "label": "Soccer",
-      "count": 3,
+      "count": 2,
       "ok": true
     },
     {
@@ -101,63 +101,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-22-werder-bremen-hamburg-sv",
-      "date": "2026-11-22",
-      "kickoff": "2026-11-22T16:30Z",
-      "home": "Werder Bremen",
-      "away": "Hamburg SV",
-      "homeShort": "SVW",
-      "awayShort": "Hamburg",
-      "competition": "Bundesliga",
-      "venue": "Weserstadion",
-      "teamKeys": [
-        "hamburger-sv"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "hamburger-sv"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-22-osasuna-m-laga",
-      "date": "2026-11-22",
-      "kickoff": "2026-11-22T17:30Z",
-      "home": "Osasuna",
-      "away": "Málaga",
-      "homeShort": "OSA",
-      "awayShort": "Malaga",
-      "competition": "La Liga",
-      "venue": "El Sadar",
-      "teamKeys": [
-        "malaga"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "malaga"
-      ],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-22-athletico-paranaense-remo",
-      "date": "2026-11-22",
-      "kickoff": "2026-11-22T19:00Z",
-      "home": "Athletico Paranaense",
-      "away": "Remo",
-      "homeShort": "CAP",
-      "awayShort": "Remo",
-      "competition": "Série A",
-      "venue": "Arena da Baixada",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "remo"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-23-toronto-raptors-milwaukee-bucks",
       "date": "2026-11-23",
@@ -770,6 +713,25 @@
       "source": "ESPN"
     },
     {
+      "id": "2026-12-12-m-laga-barcelona",
+      "date": "2026-12-12",
+      "kickoff": "2026-12-12T17:30Z",
+      "home": "Málaga",
+      "away": "Barcelona",
+      "homeShort": "Malaga",
+      "awayShort": "BAR",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
       "id": "2026-12-12-ottawa-senators-edmonton-oilers",
       "date": "2026-12-12",
       "kickoff": "2026-12-13T00:00Z",
@@ -822,25 +784,6 @@
       ],
       "homeKeys": [
         "cagliari"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-12-13-m-laga-barcelona",
-      "date": "2026-12-13",
-      "kickoff": "2026-12-13T20:00Z",
-      "home": "Málaga",
-      "away": "Barcelona",
-      "homeShort": "Malaga",
-      "awayShort": "BAR",
-      "competition": "La Liga",
-      "venue": "La Rosaleda",
-      "teamKeys": [
-        "malaga"
-      ],
-      "homeKeys": [
-        "malaga"
       ],
       "awayKeys": [],
       "source": "ESPN"
@@ -2990,6 +2933,101 @@
         "man-city"
       ],
       "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-21-m-laga-real-betis",
+      "date": "2027-02-21",
+      "kickoff": "2027-02-21T20:00Z",
+      "home": "Málaga",
+      "away": "Real Betis",
+      "homeShort": "Malaga",
+      "awayShort": "BET",
+      "competition": "La Liga",
+      "venue": "La Rosaleda",
+      "teamKeys": [
+        "malaga"
+      ],
+      "homeKeys": [
+        "malaga"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-21-detroit-tigers-toronto-blue-jays",
+      "date": "2027-02-21",
+      "kickoff": "2027-02-21T18:05:00Z",
+      "home": "Detroit Tigers",
+      "away": "Toronto Blue Jays",
+      "homeShort": "DET",
+      "awayShort": "Blue Jays",
+      "competition": "MLB",
+      "venue": "Publix Field at Joker Marchant Stadium",
+      "teamKeys": [
+        "blue-jays"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "blue-jays"
+      ],
+      "source": "MLB"
+    },
+    {
+      "id": "2027-02-21-charlotte-fc-cf-montr-al",
+      "date": "2027-02-21",
+      "kickoff": "2027-02-21T20:00Z",
+      "home": "Charlotte FC",
+      "away": "CF Montréal",
+      "homeShort": "CLT",
+      "awayShort": "Montreal",
+      "competition": "MLS",
+      "venue": null,
+      "teamKeys": [
+        "cf-montreal"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cf-montreal"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-21-calgary-flames-ottawa-senators",
+      "date": "2027-02-21",
+      "kickoff": "2027-02-22T00:00Z",
+      "home": "Calgary Flames",
+      "away": "Ottawa Senators",
+      "homeShort": "Flames",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Scotiabank Saddledome",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-21-venezia-cagliari",
+      "date": "2027-02-21",
+      "kickoff": "2027-02-21T20:00Z",
+      "home": "Venezia",
+      "away": "Cagliari",
+      "homeShort": "VEN",
+      "awayShort": "Cagliari",
+      "competition": "Serie A",
+      "venue": "Stadio Pier Luigi Penzo",
+      "teamKeys": [
+        "cagliari"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "cagliari"
+      ],
       "source": "ESPN"
     }
   ]
