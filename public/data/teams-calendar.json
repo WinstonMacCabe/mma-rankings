@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:57:04.238Z",
+  "generatedAt": "2026-11-25T00:57:19.886Z",
   "windowDays": 90,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Toronto Raptors",
       "short": "Raptors",
       "label": "NBA",
-      "count": 41,
+      "count": 40,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
       "name": "Toronto Blue Jays",
       "short": "Blue Jays",
       "label": "MLB",
-      "count": 4,
+      "count": 5,
       "ok": true
     },
     {
@@ -101,44 +101,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-23-toronto-raptors-milwaukee-bucks",
-      "date": "2026-11-23",
-      "kickoff": "2026-11-24T00:30Z",
-      "home": "Toronto Raptors",
-      "away": "Milwaukee Bucks",
-      "homeShort": "Raptors",
-      "awayShort": "Bucks",
-      "competition": "NBA",
-      "venue": "Scotiabank Arena",
-      "teamKeys": [
-        "raptors"
-      ],
-      "homeKeys": [
-        "raptors"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
-    {
-      "id": "2026-11-23-ottawa-senators-calgary-flames",
-      "date": "2026-11-23",
-      "kickoff": "2026-11-24T00:30Z",
-      "home": "Ottawa Senators",
-      "away": "Calgary Flames",
-      "homeShort": "Senators",
-      "awayShort": "Flames",
-      "competition": "NHL",
-      "venue": "Canadian Tire Centre",
-      "teamKeys": [
-        "senators"
-      ],
-      "homeKeys": [
-        "senators"
-      ],
-      "awayKeys": [],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-25-florida-panthers-ottawa-senators",
       "date": "2026-11-25",
@@ -3027,6 +2989,44 @@
       "homeKeys": [],
       "awayKeys": [
         "cagliari"
+      ],
+      "source": "ESPN"
+    },
+    {
+      "id": "2027-02-22-toronto-blue-jays-pittsburgh-pirates",
+      "date": "2027-02-22",
+      "kickoff": "2027-02-22T18:07:00Z",
+      "home": "Toronto Blue Jays",
+      "away": "Pittsburgh Pirates",
+      "homeShort": "Blue Jays",
+      "awayShort": "PIT",
+      "competition": "MLB",
+      "venue": "TD Ballpark",
+      "teamKeys": [
+        "blue-jays"
+      ],
+      "homeKeys": [
+        "blue-jays"
+      ],
+      "awayKeys": [],
+      "source": "MLB"
+    },
+    {
+      "id": "2027-02-22-edmonton-oilers-ottawa-senators",
+      "date": "2027-02-22",
+      "kickoff": "2027-02-23T00:30Z",
+      "home": "Edmonton Oilers",
+      "away": "Ottawa Senators",
+      "homeShort": "Oilers",
+      "awayShort": "Senators",
+      "competition": "NHL",
+      "venue": "Rogers Place",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [],
+      "awayKeys": [
+        "senators"
       ],
       "source": "ESPN"
     }
