@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T00:42:55.428Z",
+  "lastUpdated": "2026-11-26T00:42:43.115Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -1339,7 +1339,6 @@
       "total": 3,
       "nationality": "Armenia",
       "weightClass": "Featherweight",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Melsik_Baghdasaryan_in_Las_Vegas_2023.jpg",
       "birthDate": "1992",
       "gender": "male"
     },
@@ -2736,18 +2735,6 @@
       "birthDate": "1981",
       "gender": "female"
     },
-    "Kathy Long": {
-      "wins": 2,
-      "kos": 0,
-      "losses": 1,
-      "draws": 0,
-      "noContests": 0,
-      "total": 3,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kathy_Long.jpg",
-      "birthDate": "1964",
-      "gender": "female"
-    },
     "Felice Herrig": {
       "wins": 1,
       "kos": 0,
@@ -2867,6 +2854,18 @@
       "nationality": "Arizona",
       "weightClass": "Strawweight",
       "birthDate": "1981",
+      "gender": "female"
+    },
+    "Kathy Long": {
+      "wins": 2,
+      "kos": 0,
+      "losses": 1,
+      "draws": 0,
+      "noContests": 0,
+      "total": 3,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kathy_Long.jpg",
+      "birthDate": "1964",
       "gender": "female"
     },
     "Claressa Shields": {
@@ -3260,18 +3259,6 @@
       "birthDate": "1988",
       "gender": "female"
     },
-    "Gentiane Lupi": {
-      "wins": 7,
-      "kos": 0,
-      "losses": 3,
-      "draws": 1,
-      "noContests": 0,
-      "total": 11,
-      "nationality": "New Zealand",
-      "weightClass": "Bantamweight",
-      "birthDate": "1975",
-      "gender": "female"
-    },
     "Genah Fabian": {
       "wins": 0,
       "kos": 0,
@@ -3306,6 +3293,18 @@
       "nationality": "Russian",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Julia_Berezikova.jpg",
       "birthDate": "1983",
+      "gender": "female"
+    },
+    "Gentiane Lupi": {
+      "wins": 7,
+      "kos": 0,
+      "losses": 3,
+      "draws": 1,
+      "noContests": 0,
+      "total": 11,
+      "nationality": "New Zealand",
+      "weightClass": "Bantamweight",
+      "birthDate": "1975",
       "gender": "female"
     },
     "Loma Lookboonmee": {
@@ -4035,7 +4034,6 @@
       "total": 10,
       "nationality": "Italy",
       "weightClass": "Cruiserweight",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mattia_Faraoni.jpg/330px-Mattia_Faraoni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "birthDate": "1991",
       "gender": "male"
     },
@@ -6135,12 +6133,12 @@
       "gender": "female"
     },
     "Eri Matsuda": {
-      "wins": 7,
+      "wins": 9,
       "kos": 0,
-      "losses": 2,
+      "losses": 3,
       "draws": 1,
       "noContests": 0,
-      "total": 10,
+      "total": 13,
       "nationality": "Japanese",
       "birthDate": "1994",
       "gender": "female"

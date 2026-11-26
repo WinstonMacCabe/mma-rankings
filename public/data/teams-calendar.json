@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T00:57:19.886Z",
+  "generatedAt": "2026-11-26T00:57:06.228Z",
   "windowDays": 90,
   "teams": [
     {
@@ -23,7 +23,7 @@
       "name": "Toronto Blue Jays",
       "short": "Blue Jays",
       "label": "MLB",
-      "count": 5,
+      "count": 6,
       "ok": true
     },
     {
@@ -3029,6 +3029,25 @@
         "senators"
       ],
       "source": "ESPN"
+    },
+    {
+      "id": "2027-02-23-toronto-blue-jays-baltimore-orioles",
+      "date": "2027-02-23",
+      "kickoff": "2027-02-23T18:07:00Z",
+      "home": "Toronto Blue Jays",
+      "away": "Baltimore Orioles",
+      "homeShort": "Blue Jays",
+      "awayShort": "BAL",
+      "competition": "MLB",
+      "venue": "TD Ballpark",
+      "teamKeys": [
+        "blue-jays"
+      ],
+      "homeKeys": [
+        "blue-jays"
+      ],
+      "awayKeys": [],
+      "source": "MLB"
     }
   ]
 }
