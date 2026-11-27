@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T00:42:43.115Z",
+  "lastUpdated": "2026-11-27T00:42:30.805Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -4034,6 +4034,7 @@
       "total": 10,
       "nationality": "Italy",
       "weightClass": "Cruiserweight",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mattia_Faraoni.jpg/330px-Mattia_Faraoni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "birthDate": "1991",
       "gender": "male"
     },
@@ -4141,12 +4142,12 @@
       "gender": "male"
     },
     "Yoshiki Takei": {
-      "wins": 12,
+      "wins": 13,
       "kos": 0,
       "losses": 1,
       "draws": 0,
       "noContests": 0,
-      "total": 13,
+      "total": 14,
       "nationality": "Japan",
       "weightClass": "Bantamweight",
       "birthDate": "1996",
@@ -4702,7 +4703,7 @@
       "nationality": "United States",
       "weightClass": "Bantamweight",
       "birthDate": "1979",
-      "gender": "female"
+      "gender": "male"
     },
     "Lucia Rijker": {
       "wins": 17,
@@ -5989,7 +5990,7 @@
       "total": 51,
       "nationality": "Brazil",
       "birthDate": "1995",
-      "gender": "female"
+      "gender": "male"
     },
     "Plinio Cruz": {
       "wins": 1,
@@ -6261,6 +6262,18 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 0,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
+      "gender": "male"
+    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -6330,18 +6343,6 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
       "birthDate": "1866",
-      "gender": "male"
-    },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 0,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {
