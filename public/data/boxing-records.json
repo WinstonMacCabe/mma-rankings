@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T00:42:30.805Z",
+  "lastUpdated": "2026-11-28T00:43:58.870Z",
   "records": {
     "Art Jimmerson": {
       "wins": 33,
@@ -4703,7 +4703,7 @@
       "nationality": "United States",
       "weightClass": "Bantamweight",
       "birthDate": "1979",
-      "gender": "male"
+      "gender": "female"
     },
     "Lucia Rijker": {
       "wins": 17,
@@ -5990,7 +5990,7 @@
       "total": 51,
       "nationality": "Brazil",
       "birthDate": "1995",
-      "gender": "male"
+      "gender": "female"
     },
     "Plinio Cruz": {
       "wins": 1,
@@ -6262,18 +6262,6 @@
       "birthDate": "1917-09-06",
       "gender": "male"
     },
-    "Professor Mike Donovan": {
-      "wins": 25,
-      "kos": 0,
-      "losses": 4,
-      "draws": 7,
-      "noContests": 0,
-      "total": 36,
-      "nationality": "U.S.",
-      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
-      "birthDate": "1847-09-27",
-      "gender": "male"
-    },
     "Denys Berinchyk": {
       "wins": 19,
       "kos": 4,
@@ -6343,6 +6331,18 @@
       "nationality": "Irish",
       "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/McAuliffe.Jack.jpg",
       "birthDate": "1866",
+      "gender": "male"
+    },
+    "Professor Mike Donovan": {
+      "wins": 25,
+      "kos": 0,
+      "losses": 4,
+      "draws": 7,
+      "noContests": 0,
+      "total": 36,
+      "nationality": "U.S.",
+      "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Professor_Mike_Donovan.jpg",
+      "birthDate": "1847-09-27",
       "gender": "male"
     },
     "Dat Nguyen (boxer)": {

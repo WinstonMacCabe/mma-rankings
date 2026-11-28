@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T00:56:17.178Z",
+  "generatedAt": "2026-11-28T00:57:45.879Z",
   "windowDays": 90,
   "teams": [
     {
@@ -39,7 +39,7 @@
       "name": "Ottawa Senators",
       "short": "Senators",
       "label": "NHL",
-      "count": 36,
+      "count": 37,
       "ok": true
     },
     {
@@ -87,7 +87,7 @@
       "name": "Clube do Remo",
       "short": "Remo",
       "label": "Soccer",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
@@ -101,25 +101,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": "2026-11-26-s-o-paulo-remo",
-      "date": "2026-11-26",
-      "kickoff": "2026-11-26T23:00Z",
-      "home": "São Paulo",
-      "away": "Remo",
-      "homeShort": "SAO",
-      "awayShort": "Remo",
-      "competition": "Série A",
-      "venue": "Estádio Cícero Pompeu de Toledo",
-      "teamKeys": [
-        "remo"
-      ],
-      "homeKeys": [],
-      "awayKeys": [
-        "remo"
-      ],
-      "source": "ESPN"
-    },
     {
       "id": "2026-11-27-toronto-raptors-brooklyn-nets",
       "date": "2026-11-27",
@@ -3048,6 +3029,25 @@
         "blue-jays"
       ],
       "source": "MLB"
+    },
+    {
+      "id": "2027-02-25-ottawa-senators-detroit-red-wings",
+      "date": "2027-02-25",
+      "kickoff": "2027-02-26T00:00Z",
+      "home": "Ottawa Senators",
+      "away": "Detroit Red Wings",
+      "homeShort": "Senators",
+      "awayShort": "Red Wings",
+      "competition": "NHL",
+      "venue": "Canadian Tire Centre",
+      "teamKeys": [
+        "senators"
+      ],
+      "homeKeys": [
+        "senators"
+      ],
+      "awayKeys": [],
+      "source": "ESPN"
     }
   ]
 }
